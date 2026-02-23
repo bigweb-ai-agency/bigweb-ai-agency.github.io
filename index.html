@@ -1,14 +1,1816 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>My GitHub Page</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>BigWeb – AI-Powered Web Development, SEO & Digital Growth Agency</title>
+    <meta name="description"
+        content="BigWeb delivers AI-powered websites, custom web applications, workflow automation, technical SEO, performance optimization, managed hosting, WordPress development, e-commerce solutions and data analytics. Transform your digital presence with intelligent technology.">
+    <link rel="canonical" href="https://bigweb-ai-agency.github.io/">
+    <meta name="robots" content="index,follow">
+    <meta property="og:title" content="BigWeb – AI Web Development & SEO Agency">
+    <meta property="og:description"
+        content="AI-powered websites, apps, automation, SEO and web growth solutions by BigWeb.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bigweb-ai-agency.github.io/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="BigWeb – AI Web Development & SEO Agency">
+    <meta name="twitter:description" content="AI-powered websites, apps, automation, SEO and web growth solutions.">
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "BigWeb",
+      "url": "https://bigweb.eu",
+      "description": "AI-powered web development, SEO and digital growth agency.",
+      "sameAs": ["https://bigweb.lt"],
+      "logo": "https://bigweb.eu/logo.png"
+    },
+    {
+      "@type": "WebSite",
+      "name": "BigWeb Agency",
+      "url": "https://bigweb-ai-agency.github.io/",
+      "publisher": { "@type": "Organization", "name": "BigWeb" }
+    },
+    {
+      "@type": "ProfessionalService",
+      "name": "BigWeb",
+      "url": "https://bigweb.eu",
+      "description": "Full-service digital agency specializing in AI-powered websites, web applications, workflow automation, technical SEO, performance optimization, hosting, WordPress development, e-commerce and analytics.",
+      "areaServed": { "@type": "Place", "name": "Worldwide" },
+      "serviceType": ["Web Development","Search Engine Optimization","AI Solutions","Web Applications","E-commerce Development","WordPress Development","Performance Optimization","Managed Hosting","Data Analytics","Workflow Automation"],
+      "priceRange": "$$"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type":"Question","name":"What types of businesses does BigWeb work with?","acceptedAnswer":{"@type":"Answer","text":"We work with businesses of all sizes — from startups and SMEs to enterprise organizations. Our services are tailored to each client's specific needs, whether that's a marketing website, a complex web application, or a full-scale digital transformation involving AI automation and advanced analytics."}},
+        {"@type":"Question","name":"How does AI improve my website's performance?","acceptedAnswer":{"@type":"Answer","text":"AI enhances websites through personalized content delivery, intelligent chatbots, predictive user behavior analysis, and automated optimization. AI can dynamically adjust page layouts, recommend products, and identify performance bottlenecks before they impact users."}},
+        {"@type":"Question","name":"What is your approach to SEO?","acceptedAnswer":{"@type":"Answer","text":"We take a holistic, technical-first approach covering site architecture, Core Web Vitals optimization, structured data, keyword and content strategy, internal linking, backlink analysis, and continuous monitoring through analytics dashboards."}},
+        {"@type":"Question","name":"Can you help with an existing WordPress site?","acceptedAnswer":{"@type":"Answer","text":"Yes, we specialize in WordPress optimization, custom theme and plugin development, security hardening, migration services, and ongoing maintenance."}},
+        {"@type":"Question","name":"What does the development process look like?","acceptedAnswer":{"@type":"Answer","text":"Our process follows four phases: Discovery (research and strategy), Build (design and development), Optimize (testing and performance tuning), and Scale (launch, analytics, and growth)."}},
+        {"@type":"Question","name":"How long does a typical project take?","acceptedAnswer":{"@type":"Answer","text":"A marketing website typically takes 4-8 weeks, while complex web applications or e-commerce platforms may take 8-16 weeks. Timelines are provided during the Discovery phase."}},
+        {"@type":"Question","name":"What technologies do you use?","acceptedAnswer":{"@type":"Answer","text":"We use modern technologies including Next.js, React, Node.js, Python, WordPress, WooCommerce, Shopify, PostgreSQL, headless CMS platforms, and cloud infrastructure from AWS, Google Cloud, and Vercel."}},
+        {"@type":"Question","name":"Do you provide ongoing support after launch?","acceptedAnswer":{"@type":"Answer","text":"Yes, we offer comprehensive maintenance plans including uptime monitoring, security patches, performance optimization, content updates, analytics reporting, and priority support channels."}}
+      ]
+    }
+  ]
+}
+</script>
+    <style>
+        /* ===== RESET & VARIABLES ===== */
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+
+        :root {
+            --bg: #0d0d0d;
+            --bg2: #141414;
+            --bg3: #1a1a1a;
+            --bg4: #222;
+            --text: #f0ede6;
+            --text2: #b0ada6;
+            --text3: #777470;
+            --accent: #fec301;
+            --accent2: #fecf34;
+            --accent3: #cb9c01;
+            --accent-dim: rgba(254, 195, 1, .12);
+            --accent-glow: rgba(254, 195, 1, .25);
+            --grad: linear-gradient(135deg, var(--accent), var(--accent3));
+            --font: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            --mono: 'Courier New', monospace;
+            --ease: cubic-bezier(.4, 0, .2, 1);
+            --r: 6px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scrollbar-width: thin;
+            scrollbar-color: var(--accent3) var(--bg)
+        }
+
+        body {
+            font-family: var(--font);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            overflow-x: hidden
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color .3s
+        }
+
+        a:hover {
+            color: var(--accent2)
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            line-height: 1.2;
+            font-weight: 700
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px
+        }
+
+        /* ===== SCROLL PROGRESS ===== */
+        #scrollProgress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: var(--grad);
+            z-index: 1001;
+            width: 0
+        }
+
+        /* ===== HEADER ===== */
+        #siteHeader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 14px 0;
+            transition: background .4s, box-shadow .4s, padding .3s
+        }
+
+        #siteHeader.scrolled {
+            background: rgba(13, 13, 13, .95);
+            backdrop-filter: blur(16px);
+            box-shadow: 0 1px 30px rgba(254, 195, 1, .06);
+            padding: 8px 0
+        }
+
+        .nav-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--accent);
+            letter-spacing: -0.5px
+        }
+
+        .logo span {
+            color: var(--text);
+            font-weight: 400
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 6px;
+            list-style: none;
+            align-items: center
+        }
+
+        .nav-links a {
+            color: var(--text2);
+            font-size: .85rem;
+            font-weight: 500;
+            padding: 8px 16px;
+            border-radius: var(--r);
+            transition: all .25s var(--ease);
+            white-space: nowrap
+        }
+
+        .nav-links a:hover {
+            color: var(--text);
+            background: rgba(255, 255, 255, .06)
+        }
+
+        .nav-cta {
+            background: var(--accent) !important;
+            color: var(--bg) !important;
+            font-weight: 700 !important;
+            padding: 9px 22px !important;
+            border-radius: var(--r) !important
+        }
+
+        .nav-cta:hover {
+            background: var(--accent2) !important;
+            transform: translateY(-1px)
+        }
+
+        .burger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 8px
+        }
+
+        .burger span {
+            width: 22px;
+            height: 2px;
+            background: var(--text);
+            transition: all .3s;
+            border-radius: 1px
+        }
+
+        /* ===== CANVAS BG ===== */
+        #particleCanvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            pointer-events: none
+        }
+
+        /* ===== CURSOR GLOW ===== */
+        #cursorGlow {
+            position: fixed;
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(254, 195, 1, .06), transparent 70%);
+            pointer-events: none;
+            z-index: 1;
+            transform: translate(-50%, -50%);
+            transition: opacity .3s
+        }
+
+        /* ===== HERO ===== */
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 120px 24px 80px;
+            z-index: 2
+        }
+
+        .hero-content {
+            position: relative;
+            max-width: 860px
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: var(--accent-dim);
+            border: 1px solid rgba(254, 195, 1, .2);
+            color: var(--accent);
+            padding: 7px 20px;
+            border-radius: var(--r);
+            font-size: .78rem;
+            font-weight: 600;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            margin-bottom: 28px
+        }
+
+        .hero h1 {
+            font-size: clamp(2.4rem, 6vw, 4.4rem);
+            margin-bottom: 22px;
+            color: var(--text);
+            letter-spacing: -1px
+        }
+
+        .hero h1 em {
+            font-style: normal;
+            color: var(--accent);
+            position: relative
+        }
+
+        .hero p {
+            font-size: clamp(1rem, 2vw, 1.2rem);
+            color: var(--text2);
+            max-width: 600px;
+            margin: 0 auto 40px
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 14px 30px;
+            border-radius: var(--r);
+            font-weight: 600;
+            font-size: .95rem;
+            transition: all .3s var(--ease);
+            cursor: pointer;
+            border: none;
+            font-family: var(--font)
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: var(--bg);
+            box-shadow: 0 4px 20px rgba(254, 195, 1, .25)
+        }
+
+        .btn-primary:hover {
+            background: var(--accent2);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(254, 195, 1, .35);
+            color: var(--bg)
+        }
+
+        .btn-outline {
+            border: 1px solid rgba(255, 255, 255, .15);
+            color: var(--text);
+            background: transparent
+        }
+
+        .btn-outline:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+            transform: translateY(-2px)
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap
+        }
+
+        .hero-orbit {
+            position: absolute;
+            width: 580px;
+            height: 580px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            pointer-events: none
+        }
+
+        .orbit-ring {
+            position: absolute;
+            border: 1px solid rgba(254, 195, 1, .06);
+            border-radius: 50%;
+            animation: spin 35s linear infinite
+        }
+
+        .orbit-ring:nth-child(1) {
+            inset: 0
+        }
+
+        .orbit-ring:nth-child(2) {
+            inset: 50px;
+            animation-duration: 28s;
+            animation-direction: reverse
+        }
+
+        .orbit-ring:nth-child(3) {
+            inset: 100px;
+            animation-duration: 22s
+        }
+
+        .orbit-dot {
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            background: var(--accent);
+            border-radius: 50%;
+            box-shadow: 0 0 12px var(--accent)
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg)
+            }
+        }
+
+        /* ===== MARQUEE ===== */
+        .marquee-section {
+            overflow: hidden;
+            padding: 24px 0;
+            border-top: 1px solid rgba(255, 255, 255, .04);
+            border-bottom: 1px solid rgba(255, 255, 255, .04);
+            position: relative;
+            z-index: 2
+        }
+
+        .marquee-track {
+            display: flex;
+            gap: 40px;
+            animation: marquee 30s linear infinite;
+            width: max-content
+        }
+
+        .marquee-track span {
+            font-size: .9rem;
+            color: var(--text3);
+            white-space: nowrap;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 8px
+        }
+
+        .marquee-track span::before {
+            content: '◆';
+            color: var(--accent3);
+            font-size: .5rem
+        }
+
+        @keyframes marquee {
+            to {
+                transform: translateX(-50%)
+            }
+        }
+
+        /* ===== SECTIONS ===== */
+        section {
+            position: relative;
+            z-index: 2;
+            padding: 100px 0
+        }
+
+        .section-label {
+            display: inline-block;
+            color: var(--accent);
+            font-size: .78rem;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 12px
+        }
+
+        .section-title {
+            font-size: clamp(1.8rem, 4vw, 2.8rem);
+            margin-bottom: 16px;
+            letter-spacing: -0.5px
+        }
+
+        .section-desc {
+            color: var(--text2);
+            max-width: 620px;
+            font-size: 1.05rem
+        }
+
+        .text-center {
+            text-align: center
+        }
+
+        .mx-auto {
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        /* ===== SERVICE CARDS ===== */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 48px
+        }
+
+        .service-card {
+            background: var(--bg2);
+            border: 1px solid rgba(255, 255, 255, .05);
+            border-radius: var(--r);
+            padding: 32px 28px;
+            transition: all .4s var(--ease);
+            position: relative;
+            overflow: hidden
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--grad);
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform .5s var(--ease)
+        }
+
+        .service-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(254, 195, 1, .15);
+            box-shadow: 0 16px 40px rgba(0, 0, 0, .4)
+        }
+
+        .service-card:hover::before {
+            transform: scaleX(1)
+        }
+
+        .card-icon {
+            width: 44px;
+            height: 44px;
+            border-radius: 10px;
+            background: var(--accent-dim);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            color: var(--accent);
+            transition: background .3s
+        }
+
+        .service-card:hover .card-icon {
+            background: rgba(254, 195, 1, .2)
+        }
+
+        .service-card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 10px
+        }
+
+        .service-card p {
+            color: var(--text2);
+            font-size: .9rem;
+            line-height: 1.6
+        }
+
+        /* ===== PROCESS ===== */
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            margin-top: 48px
+        }
+
+        .process-step {
+            text-align: center;
+            padding: 36px 20px;
+            border: 1px solid rgba(255, 255, 255, .04);
+            border-radius: var(--r);
+            background: var(--bg2);
+            transition: all .3s var(--ease)
+        }
+
+        .process-step:hover {
+            border-color: rgba(254, 195, 1, .12);
+            transform: translateY(-3px)
+        }
+
+        .step-num {
+            font-size: 2.8rem;
+            font-weight: 800;
+            color: var(--accent);
+            margin-bottom: 12px;
+            font-variant-numeric: tabular-nums
+        }
+
+        .process-step h3 {
+            margin-bottom: 10px;
+            font-size: 1.05rem
+        }
+
+        .process-step p {
+            color: var(--text2);
+            font-size: .88rem
+        }
+
+        /* ===== METRICS ===== */
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            margin-top: 48px
+        }
+
+        .metric {
+            text-align: center;
+            padding: 36px 20px;
+            background: var(--bg2);
+            border: 1px solid rgba(255, 255, 255, .04);
+            border-radius: var(--r);
+            transition: border-color .3s
+        }
+
+        .metric:hover {
+            border-color: rgba(254, 195, 1, .15)
+        }
+
+        .metric-value {
+            font-size: 2.6rem;
+            font-weight: 800;
+            color: var(--accent);
+            font-variant-numeric: tabular-nums
+        }
+
+        .metric-label {
+            color: var(--text2);
+            font-size: .88rem;
+            margin-top: 4px
+        }
+
+        /* ===== PORTFOLIO ===== */
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 24px;
+            margin-top: 48px
+        }
+
+        .portfolio-card {
+            background: var(--bg2);
+            border: 1px solid rgba(255, 255, 255, .05);
+            border-radius: var(--r);
+            overflow: hidden;
+            transition: all .45s var(--ease);
+            position: relative
+        }
+
+        .portfolio-card::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(254, 195, 1, .04), transparent 60%);
+            opacity: 0;
+            transition: opacity .4s
+        }
+
+        .portfolio-card:hover {
+            border-color: rgba(254, 195, 1, .2);
+            transform: translateY(-6px) scale(1.01);
+            box-shadow: 0 24px 48px rgba(0, 0, 0, .4)
+        }
+
+        .portfolio-card:hover::after {
+            opacity: 1
+        }
+
+        .portfolio-card-inner {
+            padding: 28px;
+            position: relative;
+            z-index: 1
+        }
+
+        .portfolio-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 16px
+        }
+
+        .portfolio-tag {
+            display: inline-block;
+            background: var(--accent-dim);
+            color: var(--accent);
+            padding: 5px 14px;
+            border-radius: var(--r);
+            font-size: .75rem;
+            font-weight: 600
+        }
+
+        .portfolio-status {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #4ade80;
+            box-shadow: 0 0 8px rgba(74, 222, 128, .4)
+        }
+
+        .portfolio-card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 8px
+        }
+
+        .portfolio-card p {
+            color: var(--text2);
+            font-size: .9rem;
+            margin-bottom: 20px;
+            line-height: 1.6
+        }
+
+        .portfolio-link {
+            color: var(--accent);
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: gap .3s
+        }
+
+        .portfolio-link:hover {
+            gap: 12px
+        }
+
+        .portfolio-bar {
+            height: 3px;
+            background: var(--grad);
+            border-radius: 0 0 var(--r) var(--r)
+        }
+
+        /* ===== LONG CONTENT ===== */
+        .content-section {
+            background: var(--bg2)
+        }
+
+        .content-cols {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 48px;
+            margin-top: 48px
+        }
+
+        .content-cols h3 {
+            font-size: 1.15rem;
+            margin: 24px 0 12px;
+            color: var(--text)
+        }
+
+        .content-cols h3:first-child {
+            margin-top: 0
+        }
+
+        .content-cols p,
+        .content-cols li {
+            color: var(--text2);
+            font-size: .93rem;
+            margin-bottom: 12px;
+            line-height: 1.7
+        }
+
+        .content-cols ul {
+            padding-left: 0;
+            list-style: none;
+            margin-bottom: 16px
+        }
+
+        .content-cols ul li {
+            padding: 4px 0;
+            padding-left: 20px;
+            position: relative
+        }
+
+        .content-cols ul li::before {
+            content: '→';
+            color: var(--accent);
+            position: absolute;
+            left: 0
+        }
+
+        /* ===== FAQ ===== */
+        .faq-list {
+            max-width: 800px;
+            margin: 48px auto 0
+        }
+
+        .faq-item {
+            border-bottom: 1px solid rgba(255, 255, 255, .05)
+        }
+
+        .faq-q {
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            font-size: 1rem;
+            background: none;
+            border: none;
+            color: var(--text);
+            width: 100%;
+            text-align: left;
+            font-family: var(--font);
+            padding: 20px 0;
+            gap: 16px;
+            line-height: 1.4
+        }
+
+        .faq-q::after {
+            content: '+';
+            font-size: 1.3rem;
+            color: var(--accent);
+            transition: transform .3s;
+            flex-shrink: 0
+        }
+
+        .faq-item.open .faq-q::after {
+            transform: rotate(45deg)
+        }
+
+        .faq-a {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height .45s var(--ease), padding .35s;
+            color: var(--text2);
+            font-size: .93rem;
+            line-height: 1.7
+        }
+
+        .faq-item.open .faq-a {
+            max-height: 600px;
+            padding-bottom: 20px
+        }
+
+        /* ===== CTA ===== */
+        .cta-section {
+            text-align: center;
+            padding: 120px 24px;
+            position: relative
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(ellipse at center, rgba(254, 195, 1, .04), transparent 70%);
+            pointer-events: none
+        }
+
+        .cta-section h2 {
+            font-size: clamp(2rem, 4vw, 3rem);
+            margin-bottom: 16px
+        }
+
+        .cta-section p {
+            color: var(--text2);
+            max-width: 550px;
+            margin: 0 auto 36px;
+            font-size: 1.05rem
+        }
+
+        .cta-pulse {
+            animation: pulse 2.5s ease-in-out infinite
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                box-shadow: 0 4px 20px rgba(254, 195, 1, .25)
+            }
+
+            50% {
+                box-shadow: 0 4px 40px rgba(254, 195, 1, .45)
+            }
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            border-top: 1px solid rgba(255, 255, 255, .05);
+            padding: 48px 0 24px;
+            position: relative;
+            z-index: 2
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 32px
+        }
+
+        .footer-brand p {
+            color: var(--text2);
+            font-size: .88rem;
+            margin-top: 12px;
+            max-width: 300px;
+            line-height: 1.6
+        }
+
+        .footer-col h4 {
+            font-size: .8rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--text3);
+            margin-bottom: 16px
+        }
+
+        .footer-col ul {
+            list-style: none
+        }
+
+        .footer-col a {
+            color: var(--text2);
+            font-size: .88rem;
+            display: block;
+            padding: 4px 0;
+            transition: color .2s
+        }
+
+        .footer-col a:hover {
+            color: var(--accent)
+        }
+
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 24px;
+            border-top: 1px solid rgba(255, 255, 255, .05);
+            color: var(--text3);
+            font-size: .78rem;
+            flex-wrap: wrap;
+            gap: 12px
+        }
+
+        /* ===== REVEAL ===== */
+        .reveal {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity .6s var(--ease), transform .6s var(--ease)
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0)
+        }
+
+        .reveal-delay-1 {
+            transition-delay: .1s
+        }
+
+        .reveal-delay-2 {
+            transition-delay: .2s
+        }
+
+        .reveal-delay-3 {
+            transition-delay: .3s
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media(max-width:1024px) {
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr)
+            }
+
+            .process-grid {
+                grid-template-columns: repeat(2, 1fr)
+            }
+
+            .metrics-grid {
+                grid-template-columns: repeat(2, 1fr)
+            }
+        }
+
+        @media(max-width:768px) {
+            .nav-links {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(13, 13, 13, .98);
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+                z-index: 999;
+                padding: 24px
+            }
+
+            .nav-links.open {
+                display: flex
+            }
+
+            .nav-links a {
+                font-size: 1.1rem;
+                padding: 12px 24px
+            }
+
+            .burger {
+                display: flex;
+                z-index: 1000
+            }
+
+            .hero-orbit {
+                display: none
+            }
+
+            .hero {
+                padding: 100px 20px 60px;
+                min-height: auto
+            }
+
+            .hero h1 {
+                font-size: clamp(1.8rem, 8vw, 2.8rem)
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr
+            }
+
+            .process-grid {
+                grid-template-columns: 1fr 1fr
+            }
+
+            .metrics-grid {
+                grid-template-columns: 1fr 1fr
+            }
+
+            .content-cols {
+                grid-template-columns: 1fr
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 24px
+            }
+
+            .portfolio-grid {
+                grid-template-columns: 1fr
+            }
+
+            section {
+                padding: 64px 0
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+                align-items: center
+            }
+
+            .btn {
+                width: 100%;
+                max-width: 280px;
+                justify-content: center
+            }
+        }
+
+        @media(max-width:480px) {
+            .process-grid {
+                grid-template-columns: 1fr
+            }
+
+            .metrics-grid {
+                grid-template-columns: 1fr
+            }
+
+            .container {
+                padding: 0 16px
+            }
+        }
+
+        /* ===== REDUCED MOTION ===== */
+        @media(prefers-reduced-motion:reduce) {
+
+            *,
+            *::before,
+            *::after {
+                animation-duration: .01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: .15s !important
+            }
+
+            #particleCanvas,
+            #cursorGlow,
+            .hero-orbit {
+                display: none
+            }
+
+            .reveal {
+                opacity: 1;
+                transform: none
+            }
+
+            .marquee-track {
+                animation: none
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Hello 🚀</h1>
-    <p>Это моя GitHub страница 1</p>
+
+    <div id="scrollProgress"></div>
+    <div id="cursorGlow"></div>
+    <canvas id="particleCanvas" aria-hidden="true"></canvas>
+
+    <!-- ===== HEADER ===== -->
+    <header id="siteHeader">
+        <div class="container nav-inner">
+            <a href="#" class="logo" aria-label="BigWeb Home">BIG//<span>WEB</span></a>
+            <nav>
+                <ul class="nav-links" id="navLinks" role="navigation">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="https://bigweb.eu" class="nav-cta" target="_blank" rel="noopener">Visit BigWeb</a></li>
+                </ul>
+            </nav>
+            <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+        <div class="hero-orbit" aria-hidden="true">
+            <div class="orbit-ring">
+                <div class="orbit-dot" style="top:0;left:50%"></div>
+            </div>
+            <div class="orbit-ring">
+                <div class="orbit-dot" style="bottom:0;right:10%"></div>
+            </div>
+            <div class="orbit-ring">
+                <div class="orbit-dot" style="top:30%;left:0"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">AI-Powered Digital Agency</div>
+            <h1>We Build <em>Intelligent Websites</em> That Grow Your Business</h1>
+            <p>From AI-driven web applications and technical SEO strategies to full-scale workflow automation — BigWeb
+                transforms how businesses compete and win online.</p>
+            <div class="hero-buttons">
+                <a href="https://bigweb.eu" class="btn btn-primary cta-pulse" target="_blank" rel="noopener">Explore
+                    BigWeb Services →</a>
+                <a href="#services" class="btn btn-outline">See What We Do</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== MARQUEE ===== -->
+    <div class="marquee-section" aria-hidden="true">
+        <div class="marquee-track" id="marquee">
+            <span>AI Websites</span><span>Web Applications</span><span>Technical SEO</span><span>Performance
+                Tuning</span><span>WordPress
+                Development</span><span>E-Commerce</span><span>Automation</span><span>Analytics</span><span>UX
+                Design</span><span>Managed Hosting</span><span>API Integrations</span><span>Growth Strategy</span>
+            <span>AI Websites</span><span>Web Applications</span><span>Technical SEO</span><span>Performance
+                Tuning</span><span>WordPress
+                Development</span><span>E-Commerce</span><span>Automation</span><span>Analytics</span><span>UX
+                Design</span><span>Managed Hosting</span><span>API Integrations</span><span>Growth Strategy</span>
+        </div>
+    </div>
+
+    <!-- ===== SERVICES ===== -->
+    <section id="services">
+        <div class="container">
+            <div class="text-center reveal">
+                <span class="section-label">What We Offer</span>
+                <h2 class="section-title">Full-Spectrum Digital Services</h2>
+                <p class="section-desc mx-auto">Whether you need an AI-powered website, a custom web application, or a
+                    complete technical SEO overhaul — BigWeb delivers tailored solutions engineered for measurable
+                    results.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="card-icon"><svg width="22" height="22" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round">
+                            <circle cx="11" cy="11" r="9" />
+                            <path d="M11 6v5l3 2" />
+                        </svg></div>
+                    <h3>AI-Powered Websites</h3>
+                    <p>Intelligent websites that adapt to user behavior in real time, leveraging machine learning for
+                        personalized content delivery, smart A/B testing, and conversion optimization at scale.</p>
+                </div>
+                <div class="service-card reveal reveal-delay-1">
+                    <div class="card-icon"><svg width="22" height="22" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round">
+                            <rect x="2" y="3" width="18" height="13" rx="2" />
+                            <path d="M7 20h8M11 16v4" />
+                        </svg></div>
+                    <h3>Web App Development</h3>
+                    <p>Scalable, performant web applications built with React, Next.js, and Node.js — from SaaS
+                        dashboards and customer portals to internal business tools and real-time data platforms.</p>
+                </div>
+                <div class="service-card reveal reveal-delay-2">
+                    <div class="card-icon"><svg width="22" height="22" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round">
+                            <path d="M11 2L2 6.5l9 4.5 9-4.5L11 2zM2 15.5l9 4.5 9-4.5M2 11l9 4.5 9-4.5" />
+                        </svg></div>
+                    <h3>Technical SEO</h3>
+                    <p>Deep technical audits covering Core Web Vitals, crawl budget optimization, structured data
+                        markup, internal linking architecture, index management, and data-driven content strategy.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="card-icon"><svg width="22" height="22" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round">
+                            <path
+                                d="M11 2v4M11 16v4M4.2 4.2l2.8 2.8M15 15l2.8 2.8M2 11h4M16 11h4M4.2 17.8l2.8-2.8M15 7l2.8-2.8" />
+                        </svg></div>
+                    <h3>Automation & Integrations</h3>
+                    <p>End-to-end workflow automation connecting CRMs, payment gateways, marketing platforms, and
+                        databases through custom API integrations, webhooks, and serverless functions.</p>
+                </div>
+                <div class="service-card reveal reveal-delay-1">
+                    <div class="card-icon"><svg width="22" height="22" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round">
+                            <path
+                                d="M6 2L3 5.5v13A1.5 1.5 0 004.5 20h13a1.5 1.5 0 001.5-1.5V5.5L16 2zM3 5.5h16M14.5 9a3.5 3.5 0 01-7 0" />
+                        </svg></div>
+                    <h3>E-Commerce Solutions</h3>
+                    <p>High-converting online stores on WooCommerce, Shopify, and custom platforms — with optimized
+                        checkout flows, inventory automation, multi-currency support, and analytics-driven UX.</p>
+                </div>
+                <div class="service-card reveal reveal-delay-2">
+                    <div class="card-icon"><svg width="22" height="22" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round">
+                            <circle cx="11" cy="11" r="3" />
+                            <path
+                                d="M17.4 14a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 01-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V20a2 2 0 01-4 0v-.09A1.65 1.65 0 007 18.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 002.68 14a1.65 1.65 0 00-1.51-1H1a2 2 0 010-4h.09A1.65 1.65 0 002.6 8a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 007 3.68a1.65 1.65 0 001-1.51V2a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0017.4 8a1.65 1.65 0 001.51 1H19a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z" />
+                        </svg></div>
+                    <h3>WordPress & Hosting</h3>
+                    <p>Professional WordPress engineering with custom Gutenberg blocks, headless setups, plugin
+                        development, managed hosting on cloud infrastructure, security hardening, and 24/7 monitoring.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROCESS ===== -->
+    <section id="process" style="background:var(--bg2)">
+        <div class="container">
+            <div class="text-center reveal">
+                <span class="section-label">How We Work</span>
+                <h2 class="section-title">From Vision to Scale</h2>
+                <p class="section-desc mx-auto">Our proven four-phase methodology ensures every project is built on
+                    solid research, executed with precision, and optimized for continuous growth.</p>
+            </div>
+            <div class="process-grid">
+                <div class="process-step reveal">
+                    <div class="step-num">01</div>
+                    <h3>Discovery</h3>
+                    <p>We analyze your goals, target audience, competitors, technical landscape, and existing analytics
+                        data to define a clear, data-backed roadmap.</p>
+                </div>
+                <div class="process-step reveal reveal-delay-1">
+                    <div class="step-num">02</div>
+                    <h3>Build</h3>
+                    <p>Design and development converge as we create your solution with modern technology stacks,
+                        pixel-perfect UI, and clean architecture.</p>
+                </div>
+                <div class="process-step reveal reveal-delay-2">
+                    <div class="step-num">03</div>
+                    <h3>Optimize</h3>
+                    <p>Performance tuning, Core Web Vitals optimization, SEO implementation, accessibility audits, and
+                        conversion rate optimization.</p>
+                </div>
+                <div class="process-step reveal reveal-delay-3">
+                    <div class="step-num">04</div>
+                    <h3>Scale</h3>
+                    <p>Analytics-driven iteration, feature expansion, A/B testing, infrastructure scaling, and growth
+                        strategies to reach new heights.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== METRICS ===== -->
+    <section id="metrics">
+        <div class="container">
+            <div class="text-center reveal">
+                <span class="section-label">Impact</span>
+                <h2 class="section-title">Results That Speak</h2>
+            </div>
+            <div class="metrics-grid">
+                <div class="metric reveal">
+                    <div class="metric-value" data-target="150">0</div>
+                    <div class="metric-label">Projects Delivered</div>
+                </div>
+                <div class="metric reveal">
+                    <div class="metric-value" data-target="98" data-suffix="%">0</div>
+                    <div class="metric-label">Client Satisfaction</div>
+                </div>
+                <div class="metric reveal">
+                    <div class="metric-value" data-target="3" data-suffix="x">0</div>
+                    <div class="metric-label">Avg. Traffic Growth</div>
+                </div>
+                <div class="metric reveal">
+                    <div class="metric-value" data-target="40" data-suffix="ms">0</div>
+                    <div class="metric-label">Avg. Response Time</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PORTFOLIO ===== -->
+    <section id="portfolio" style="background:var(--bg2)">
+        <div class="container">
+            <div class="text-center reveal">
+                <span class="section-label">Our Work</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-desc mx-auto">A curated selection of projects showcasing our expertise across AI, web
+                    development, automation, and digital growth strategies.</p>
+            </div>
+            <div class="portfolio-grid" id="portfolioGrid"></div>
+        </div>
+    </section>
+
+    <!-- ===== LONG-FORM SEO CONTENT ===== -->
+    <section id="about" class="content-section">
+        <div class="container">
+            <div class="text-center reveal">
+                <span class="section-label">Deep Dive</span>
+                <h2 class="section-title">Why Intelligent Web Solutions Matter</h2>
+            </div>
+            <div class="content-cols">
+                <div class="reveal">
+                    <h3>The Evolution of Modern Web Development</h3>
+                    <p>The web has evolved far beyond static pages and template-driven sites. Today's digital landscape
+                        demands intelligent, adaptive platforms that respond to user behavior in real time, integrate
+                        seamlessly with complex business workflows, and perform flawlessly across devices and network
+                        conditions. At <a href="https://bigweb.eu" target="_blank" rel="noopener">BigWeb</a>, we embrace
+                        this evolution by combining artificial intelligence with battle-tested development practices to
+                        create websites and applications that are strategically engineered for growth.</p>
+                    <p>Modern businesses require more than an online brochure. They need dynamic web experiences that
+                        capture and qualify leads, nurture customer relationships through personalized journeys,
+                        automate repetitive operational processes, and surface actionable data insights through
+                        intuitive dashboards. Our tech stack includes Next.js and React for frontend performance,
+                        Node.js and Python for backend intelligence, PostgreSQL and Redis for data management, and
+                        cloud-native infrastructure on AWS and Google Cloud for reliability at scale.</p>
+                    <h3>AI Integration in Web Projects</h3>
+                    <p>Artificial intelligence is no longer a futuristic concept — it's a practical tool dramatically
+                        improving how websites engage visitors and convert traffic into revenue. We implement AI across
+                        multiple touchpoints: intelligent chatbots powered by large language models, personalized
+                        content recommendation engines, predictive analytics for user behavior forecasting, automated
+                        A/B testing that adapts in real time, image and content generation pipelines, and natural
+                        language processing for enhanced search functionality.</p>
+                    <p>Our AI solutions prioritize transparency and control. Every client maintains full visibility into
+                        how algorithms influence their site behavior through custom metrics dashboards. Whether you're
+                        running an e-commerce store that needs smart product recommendations based on browsing patterns
+                        and purchase history, or a SaaS platform that benefits from churn prediction and user
+                        segmentation, we tailor AI integrations to maximize your specific business KPIs while
+                        maintaining ethical AI practices and data privacy compliance.</p>
+                    <h3>Performance Engineering & Core Web Vitals</h3>
+                    <p>Site speed directly impacts revenue. Research consistently shows that a one-second delay in page
+                        load time can reduce conversions by up to 7%. We optimize every layer of the stack: server-side
+                        rendering and static generation, CDN deployment with edge caching, image optimization through
+                        next-gen formats (WebP, AVIF), code splitting and tree shaking, critical CSS extraction, lazy
+                        loading with intersection observers, and database query optimization. The result is websites
+                        achieving sub-second Largest Contentful Paint (LCP), near-zero Cumulative Layout Shift (CLS),
+                        and under 100ms First Input Delay (FID).</p>
+                </div>
+                <div class="reveal">
+                    <h3>Technical SEO That Drives Organic Growth</h3>
+                    <p>Search engine optimization remains one of the most cost-effective digital marketing channels. Our
+                        technical SEO methodology goes deep: we conduct comprehensive crawl analysis using tools like
+                        Screaming Frog and custom Python scripts, audit site architecture for optimal crawl budget
+                        distribution, implement structured data markup (JSON-LD) for rich results, design internal
+                        linking strategies that distribute page authority effectively, and build content gap analyses
+                        that identify high-value keyword opportunities your competitors are missing.</p>
+                    <p>We approach SEO as an engineering discipline. This means programmatic meta tag optimization,
+                        automated sitemap generation, canonical tag management for duplicate content control, hreflang
+                        implementation for international sites, and continuous monitoring through Google Search Console
+                        API integrations. Every recommendation is backed by data, prioritized by estimated traffic
+                        impact, and tracked through custom analytics dashboards that show real ROI.</p>
+                    <h3>E-Commerce & Conversion Optimization</h3>
+                    <p>Our e-commerce solutions combine technical excellence with conversion psychology. We build stores
+                        on WooCommerce, Shopify, and custom headless commerce platforms with features including dynamic
+                        pricing engines, personalized product recommendations, abandoned cart recovery automation,
+                        multi-currency and multi-language support, and real-time inventory synchronization across
+                        channels. Every checkout flow is optimized through usability testing and heatmap analysis to
+                        minimize cart abandonment.</p>
+                    <h3>Full-Service Digital Growth</h3>
+                    <p>Beyond development, <a href="https://bigweb.eu" target="_blank" rel="noopener">BigWeb.eu</a>
+                        offers comprehensive digital growth services covering every aspect of your online presence:</p>
+                    <ul>
+                        <li>Custom WordPress development with Gutenberg blocks and headless architecture</li>
+                        <li>E-commerce platforms with optimized checkout and inventory automation</li>
+                        <li>Managed cloud hosting with enterprise-grade security and 99.9% uptime SLA</li>
+                        <li>Google Analytics 4 and Tag Manager implementation with custom reporting</li>
+                        <li>Workflow automation connecting Salesforce, HubSpot, Stripe, and 200+ tools</li>
+                        <li>UX audits and conversion rate optimization using real user session data</li>
+                        <li>Ongoing maintenance, security monitoring, and iterative improvement plans</li>
+                        <li>Content strategy and production aligned with search intent research</li>
+                    </ul>
+                    <p>Our team combines deep technical expertise with strategic business thinking to ensure every
+                        project delivers compounding long-term value. We don't just build websites — we build digital
+                        growth engines that generate measurable returns month after month.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section id="faq">
+        <div class="container">
+            <div class="text-center reveal">
+                <span class="section-label">FAQ</span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item reveal"><button class="faq-q" aria-expanded="false">What types of businesses does
+                        BigWeb work with?</button>
+                    <div class="faq-a">
+                        <p>We work with businesses of all sizes — from early-stage startups and growing SMEs to
+                            enterprise organizations with complex digital ecosystems. Our services are tailored to each
+                            client's specific needs, whether that's a high-converting landing page, a multi-tenant SaaS
+                            platform, or a full-scale digital transformation involving AI-powered automation, headless
+                            CMS architecture, and advanced analytics pipelines.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal"><button class="faq-q" aria-expanded="false">How does AI improve my
+                        website's performance?</button>
+                    <div class="faq-a">
+                        <p>AI enhances your website through multiple channels: personalized content delivery that adapts
+                            to each visitor's behavior and preferences, intelligent chatbots that handle customer
+                            queries 24/7, predictive analytics that forecast user actions before they happen, automated
+                            A/B testing that continuously optimizes page elements, and smart content generation that
+                            helps scale your marketing efforts. For e-commerce, AI powers product recommendations that
+                            can increase average order value by 15-30%.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal"><button class="faq-q" aria-expanded="false">What is your approach to
+                        technical SEO?</button>
+                    <div class="faq-a">
+                        <p>We take an engineering-driven approach to SEO. This includes comprehensive crawl analysis,
+                            Core Web Vitals optimization (targeting sub-second LCP), structured data implementation for
+                            rich results, crawl budget management, internal linking architecture design, programmatic
+                            meta tag optimization, and continuous rank tracking through API-connected dashboards. We
+                            also handle international SEO with hreflang tags and localized content strategies.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal"><button class="faq-q" aria-expanded="false">Can you help with an existing
+                        WordPress site?</button>
+                    <div class="faq-a">
+                        <p>Absolutely. We specialize in WordPress performance optimization, custom theme and plugin
+                            engineering, Gutenberg block development, headless WordPress setups with Next.js frontends,
+                            WooCommerce customization, security hardening, PHP version migrations, database
+                            optimization, and managed hosting migrations. We also provide ongoing maintenance plans with
+                            24/7 uptime monitoring.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal"><button class="faq-q" aria-expanded="false">What does the development
+                        process typically look like?</button>
+                    <div class="faq-a">
+                        <p>Our process follows four key phases: Discovery (competitive analysis, user research,
+                            technical audit, strategy definition), Build (UI/UX design, component development, API
+                            integration, testing), Optimize (performance tuning, SEO implementation, accessibility
+                            audit, load testing), and Scale (launch, analytics setup, A/B testing, iterative
+                            improvements). We use agile sprints with weekly demos and transparent project tracking
+                            through shared dashboards.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal"><button class="faq-q" aria-expanded="false">How long does a typical project
+                        take?</button>
+                    <div class="faq-a">
+                        <p>Timelines depend on scope and complexity. A marketing website or landing page typically takes
+                            3-6 weeks. A custom web application or SaaS platform takes 8-16 weeks. Enterprise e-commerce
+                            builds with custom integrations can take 12-20 weeks. We provide detailed project timelines
+                            with milestone breakdowns during the Discovery phase, and use sprint-based delivery to ship
+                            value incrementally.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal"><button class="faq-q" aria-expanded="false">What technologies do you
+                        use?</button>
+                    <div class="faq-a">
+                        <p>Our primary stack includes Next.js and React for frontend development, Node.js and Python for
+                            backend services, PostgreSQL and MongoDB for databases, Redis for caching, and
+                            Docker/Kubernetes for containerized deployments. For CMS projects we work with WordPress,
+                            Strapi, and Sanity. E-commerce solutions use WooCommerce, Shopify, and custom headless
+                            setups. Infrastructure runs on AWS, Google Cloud, and Vercel.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal"><button class="faq-q" aria-expanded="false">Do you provide ongoing support
+                        after launch?</button>
+                    <div class="faq-a">
+                        <p>Yes, we offer tiered maintenance plans that include 24/7 uptime monitoring, automated
+                            security patching, regular performance audits, Core Web Vitals tracking, content updates,
+                            monthly analytics reports with actionable insights, priority bug fixes, and a dedicated
+                            Slack channel for real-time communication. We treat post-launch support as a growth
+                            partnership, not just maintenance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FINAL CTA ===== -->
+    <section class="cta-section">
+        <div class="container reveal">
+            <span class="section-label">Get Started</span>
+            <h2>Ready to Transform Your Digital Presence?</h2>
+            <p>Partner with BigWeb to build intelligent, high-performance websites and web applications that drive real,
+                measurable business growth.</p>
+            <a href="https://bigweb.eu" class="btn btn-primary cta-pulse" target="_blank" rel="noopener">Visit BigWeb
+                →</a>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">BIG//<span>WEB</span></div>
+                    <p>AI-powered web development, SEO, and digital growth solutions. We build intelligent websites that
+                        help businesses thrive and scale online.</p>
+                    <p style="margin-top:12px"><a href="https://bigweb.eu" target="_blank" rel="noopener">BigWeb.eu</a>
+                        · <a href="https://bigweb.lt" target="_blank" rel="noopener">BigWeb.lt</a></p>
+                </div>
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#process">Process</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Projects</h4>
+                    <ul id="footerProjects"></ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 BigWeb. Built as a GitHub Pages motion landing page.</span>
+                <span>Powered by <a href="https://bigweb.eu" target="_blank" rel="noopener">BigWeb</a></span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== JAVASCRIPT ===== -->
+    <script>
+        /* =============================================
+           PORTFOLIO DATA ARRAY
+           Add new projects here. Cards render automatically.
+           Each: { title, description, url, category, status }
+           ============================================= */
+        const portfolioProjects = [
+            {
+                title: "BigWeb",
+                description: "AI-powered websites, apps, automation, SEO and web growth solutions for businesses worldwide.",
+                url: "https://bigweb.eu",
+                category: "AI/Web Agency",
+                status: "active"
+            }
+            // --- ADD MORE PROJECTS BELOW ---
+            // { title: "Project Name", description: "Short description.", url: "https://example.com", category: "Category", status: "active" },
+        ];
+
+        /* Render portfolio cards & footer links */
+        function renderPortfolio() {
+            const grid = document.getElementById('portfolioGrid');
+            const footerList = document.getElementById('footerProjects');
+            if (!grid) return;
+            grid.innerHTML = portfolioProjects.map(p => `
+    <article class="portfolio-card reveal">
+      <div class="portfolio-card-inner">
+        <div class="portfolio-header">
+          <span class="portfolio-tag">${p.category}</span>
+          ${p.status === 'active' ? '<span class="portfolio-status" title="Active"></span>' : ''}
+        </div>
+        <h3>${p.title}</h3>
+        <p>${p.description}</p>
+        <a href="${p.url}" class="portfolio-link" target="_blank" rel="noopener">${p.title === 'BigWeb' ? 'Explore BigWeb services' : 'View Project'} →</a>
+      </div>
+      <div class="portfolio-bar"></div>
+    </article>
+  `).join('');
+            if (footerList) {
+                footerList.innerHTML = portfolioProjects.map(p =>
+                    `<li><a href="${p.url}" target="_blank" rel="noopener">${p.title}</a></li>`
+                ).join('');
+            }
+        }
+        renderPortfolio();
+
+        /* ===== REDUCED MOTION CHECK ===== */
+        const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+        /* ===== PARTICLE + FLOATING SHAPES CANVAS ===== */
+        const canvas = document.getElementById('particleCanvas');
+        const ctx = canvas.getContext('2d');
+        let particles = [], floaters = [];
+        let mouse = { x: -1000, y: -1000 };
+
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+        resizeCanvas();
+
+        function createParticles() {
+            particles = [];
+            const count = Math.min(60, Math.floor(window.innerWidth * window.innerHeight / 20000));
+            for (let i = 0; i < count; i++) {
+                particles.push({
+                    x: Math.random() * canvas.width,
+                    y: Math.random() * canvas.height,
+                    vx: (Math.random() - 0.5) * 0.3,
+                    vy: (Math.random() - 0.5) * 0.3,
+                    r: Math.random() * 1.5 + 0.5,
+                    o: Math.random() * 0.4 + 0.1
+                });
+            }
+        }
+
+        /* Bigger floating geometric shapes */
+        function createFloaters() {
+            floaters = [];
+            const shapes = ['diamond', 'ring', 'cross', 'triangle', 'square'];
+            const count = Math.min(8, Math.floor(window.innerWidth / 200));
+            for (let i = 0; i < count; i++) {
+                floaters.push({
+                    x: Math.random() * canvas.width,
+                    y: Math.random() * canvas.height,
+                    size: 20 + Math.random() * 50,
+                    shape: shapes[Math.floor(Math.random() * shapes.length)],
+                    rotation: Math.random() * Math.PI * 2,
+                    rotSpeed: (Math.random() - 0.5) * 0.008,
+                    vx: (Math.random() - 0.5) * 0.15,
+                    vy: (Math.random() - 0.5) * 0.12,
+                    o: 0.03 + Math.random() * 0.05,
+                    drift: Math.random() * Math.PI * 2
+                });
+            }
+        }
+        createParticles();
+        createFloaters();
+
+        function drawShape(f) {
+            ctx.save();
+            ctx.translate(f.x, f.y);
+            ctx.rotate(f.rotation);
+            ctx.strokeStyle = `rgba(254,195,1,${f.o})`;
+            ctx.lineWidth = 1;
+            ctx.beginPath();
+            const s = f.size;
+            switch (f.shape) {
+                case 'diamond':
+                    ctx.moveTo(0, -s); ctx.lineTo(s * 0.6, 0); ctx.lineTo(0, s); ctx.lineTo(-s * 0.6, 0); ctx.closePath(); break;
+                case 'ring':
+                    ctx.arc(0, 0, s, 0, Math.PI * 2); break;
+                case 'cross':
+                    ctx.moveTo(-s, 0); ctx.lineTo(s, 0); ctx.moveTo(0, -s); ctx.lineTo(0, s); break;
+                case 'triangle':
+                    ctx.moveTo(0, -s); ctx.lineTo(s * 0.87, s * 0.5); ctx.lineTo(-s * 0.87, s * 0.5); ctx.closePath(); break;
+                case 'square':
+                    ctx.rect(-s / 2, -s / 2, s, s); break;
+            }
+            ctx.stroke();
+            ctx.restore();
+        }
+
+        let time = 0;
+        function animate() {
+            if (reduceMotion) return;
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            time += 0.005;
+
+            /* Draw floating shapes */
+            for (const f of floaters) {
+                f.x += f.vx; f.y += f.vy;
+                f.rotation += f.rotSpeed;
+                f.drift += 0.003;
+                f.y += Math.sin(f.drift) * 0.15;
+                if (f.x < -80) f.x = canvas.width + 80;
+                if (f.x > canvas.width + 80) f.x = -80;
+                if (f.y < -80) f.y = canvas.height + 80;
+                if (f.y > canvas.height + 80) f.y = -80;
+                drawShape(f);
+            }
+
+            /* Draw particles + connections */
+            for (let i = 0; i < particles.length; i++) {
+                const p = particles[i];
+                p.x += p.vx; p.y += p.vy;
+                if (p.x < 0) p.x = canvas.width;
+                if (p.x > canvas.width) p.x = 0;
+                if (p.y < 0) p.y = canvas.height;
+                if (p.y > canvas.height) p.y = 0;
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+                ctx.fillStyle = `rgba(254,195,1,${p.o})`;
+                ctx.fill();
+                for (let j = i + 1; j < particles.length; j++) {
+                    const p2 = particles[j];
+                    const dx = p.x - p2.x, dy = p.y - p2.y;
+                    const dist = dx * dx + dy * dy;
+                    if (dist < 14400) {
+                        ctx.beginPath();
+                        ctx.moveTo(p.x, p.y);
+                        ctx.lineTo(p2.x, p2.y);
+                        ctx.strokeStyle = `rgba(254,195,1,${0.06 * (1 - Math.sqrt(dist) / 120)})`;
+                        ctx.stroke();
+                    }
+                }
+                const mdx = p.x - mouse.x, mdy = p.y - mouse.y;
+                const mD = mdx * mdx + mdy * mdy;
+                if (mD < 22500) { p.x += mdx * 0.008; p.y += mdy * 0.008; }
+            }
+            requestAnimationFrame(animate);
+        }
+        if (!reduceMotion) requestAnimationFrame(animate);
+
+        /* ===== CURSOR GLOW ===== */
+        const glow = document.getElementById('cursorGlow');
+        let ticking = false;
+        document.addEventListener('mousemove', e => {
+            mouse.x = e.clientX; mouse.y = e.clientY;
+            if (!ticking && glow && !reduceMotion) {
+                requestAnimationFrame(() => {
+                    glow.style.left = e.clientX + 'px';
+                    glow.style.top = e.clientY + 'px';
+                    ticking = false;
+                });
+                ticking = true;
+            }
+        });
+
+        /* ===== SCROLL PROGRESS + HEADER ===== */
+        const progressBar = document.getElementById('scrollProgress');
+        const header = document.getElementById('siteHeader');
+        let scrollTick = false;
+        window.addEventListener('scroll', () => {
+            if (!scrollTick) {
+                requestAnimationFrame(() => {
+                    const h = document.documentElement.scrollHeight - window.innerHeight;
+                    if (progressBar && h > 0) progressBar.style.width = (window.scrollY / h * 100) + '%';
+                    if (header) header.classList.toggle('scrolled', window.scrollY > 50);
+                    scrollTick = false;
+                });
+                scrollTick = true;
+            }
+        }, { passive: true });
+
+        /* ===== RESIZE ===== */
+        let resizeTimer;
+        window.addEventListener('resize', () => {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(() => { resizeCanvas(); createParticles(); createFloaters(); }, 250);
+        });
+
+        /* ===== SCROLL REVEAL ===== */
+        const revealObs = new IntersectionObserver(entries => {
+            entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); revealObs.unobserve(e.target); } });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.reveal').forEach(el => revealObs.observe(el));
+        setTimeout(() => document.querySelectorAll('.reveal:not(.visible)').forEach(el => revealObs.observe(el)), 150);
+
+        /* ===== COUNTER ANIMATION ===== */
+        const counterObs = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (!entry.isIntersecting) return;
+                const el = entry.target, target = +el.dataset.target, suffix = el.dataset.suffix || '';
+                let cur = 0;
+                const step = Math.max(1, Math.floor(target / 50));
+                const t = setInterval(() => {
+                    cur += step;
+                    if (cur >= target) { cur = target; clearInterval(t); }
+                    el.textContent = cur + suffix;
+                }, 30);
+                counterObs.unobserve(el);
+            });
+        }, { threshold: 0.5 });
+        document.querySelectorAll('.metric-value').forEach(el => counterObs.observe(el));
+
+        /* ===== FAQ TOGGLE ===== */
+        document.querySelectorAll('.faq-q').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const item = btn.parentElement, wasOpen = item.classList.contains('open');
+                document.querySelectorAll('.faq-item.open').forEach(i => {
+                    i.classList.remove('open');
+                    i.querySelector('.faq-q').setAttribute('aria-expanded', 'false');
+                });
+                if (!wasOpen) { item.classList.add('open'); btn.setAttribute('aria-expanded', 'true'); }
+            });
+        });
+
+        /* ===== MOBILE MENU ===== */
+        const burger = document.getElementById('burger');
+        const navLinks = document.getElementById('navLinks');
+        burger.addEventListener('click', () => {
+            const open = navLinks.classList.toggle('open');
+            const spans = burger.querySelectorAll('span');
+            spans[0].style.transform = open ? 'rotate(45deg) translate(5px,5px)' : '';
+            spans[1].style.opacity = open ? '0' : '';
+            spans[2].style.transform = open ? 'rotate(-45deg) translate(5px,-5px)' : '';
+            document.body.style.overflow = open ? 'hidden' : '';
+        });
+        navLinks.querySelectorAll('a').forEach(a => {
+            a.addEventListener('click', () => {
+                navLinks.classList.remove('open');
+                burger.querySelectorAll('span').forEach(s => { s.style.transform = ''; s.style.opacity = ''; });
+                document.body.style.overflow = '';
+            });
+        });
+
+        /* ===== 3D TILT ON CARDS ===== */
+        if (!reduceMotion) {
+            document.querySelectorAll('.service-card, .portfolio-card').forEach(card => {
+                card.addEventListener('mousemove', e => {
+                    const r = card.getBoundingClientRect();
+                    const x = (e.clientX - r.left) / r.width - 0.5;
+                    const y = (e.clientY - r.top) / r.height - 0.5;
+                    card.style.transform = `translateY(-4px) perspective(800px) rotateY(${x * 6}deg) rotateX(${-y * 6}deg)`;
+                });
+                card.addEventListener('mouseleave', () => { card.style.transform = ''; });
+            });
+        }
+    </script>
+
 </body>
 
 </html>
