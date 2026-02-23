@@ -7,16 +7,19 @@
     <title>BigWeb – AI-Powered Web Development, SEO & Digital Growth Agency</title>
     <meta name="description"
         content="BigWeb delivers AI-powered websites, custom web applications, workflow automation, technical SEO, performance optimization, managed hosting, WordPress development, e-commerce solutions and data analytics. Transform your digital presence with intelligent technology.">
-    <link rel="canonical" href="https://bigweb-ai-agency.github.io/">
+    <link rel="canonical" href="https://bigweb.eu/">
     <meta name="robots" content="index,follow">
+    <meta name="theme-color" content="#fec301">
     <meta property="og:title" content="BigWeb – AI Web Development & SEO Agency">
     <meta property="og:description"
         content="AI-powered websites, apps, automation, SEO and web growth solutions by BigWeb.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://bigweb-ai-agency.github.io/">
-    <meta name="twitter:card" content="summary">
+    <meta property="og:image" content="https://bigweb.eu/logo.png">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="BigWeb – AI Web Development & SEO Agency">
     <meta name="twitter:description" content="AI-powered websites, apps, automation, SEO and web growth solutions.">
+    <meta name="twitter:image" content="https://bigweb.eu/logo.png">
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
 {
@@ -27,7 +30,6 @@
       "name": "BigWeb",
       "url": "https://bigweb.eu",
       "description": "AI-powered web development, SEO and digital growth agency.",
-      "sameAs": ["https://bigweb.lt"],
       "logo": "https://bigweb.eu/logo.png"
     },
     {
@@ -1104,7 +1106,8 @@
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#faq">FAQ</a></li>
-                    <li><a href="https://bigweb.eu" class="nav-cta" target="_blank" rel="noopener">Visit BigWeb</a></li>
+                    <li><a href="https://bigweb.eu" class="nav-cta" target="_blank" rel="noopener noreferrer">Visit
+                            BigWeb</a></li>
                 </ul>
             </nav>
             <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
@@ -1130,8 +1133,8 @@
             <p>From AI-driven web applications and technical SEO strategies to full-scale workflow automation — BigWeb
                 transforms how businesses compete and win online.</p>
             <div class="hero-buttons">
-                <a href="https://bigweb.eu" class="btn btn-primary cta-pulse" target="_blank" rel="noopener">Explore
-                    BigWeb Services →</a>
+                <a href="https://bigweb.eu" class="btn btn-primary cta-pulse" target="_blank"
+                    rel="noopener noreferrer">BigWeb AI Agency →</a>
                 <a href="#services" class="btn btn-outline">See What We Do</a>
             </div>
         </div>
@@ -1319,7 +1322,7 @@
                     <p>The web has evolved far beyond static pages and template-driven sites. Today's digital landscape
                         demands intelligent, adaptive platforms that respond to user behavior in real time, integrate
                         seamlessly with complex business workflows, and perform flawlessly across devices and network
-                        conditions. At <a href="https://bigweb.eu" target="_blank" rel="noopener">BigWeb</a>, we embrace
+                        conditions. At BigWeb, we embrace
                         this evolution by combining artificial intelligence with battle-tested development practices to
                         create websites and applications that are strategically engineered for growth.</p>
                     <p>Modern businesses require more than an online brochure. They need dynamic web experiences that
@@ -1371,7 +1374,7 @@
                         channels. Every checkout flow is optimized through usability testing and heatmap analysis to
                         minimize cart abandonment.</p>
                     <h3>Full-Service Digital Growth</h3>
-                    <p>Beyond development, <a href="https://bigweb.eu" target="_blank" rel="noopener">BigWeb.eu</a>
+                    <p>Beyond development, BigWeb
                         offers comprehensive digital growth services covering every aspect of your online presence:</p>
                     <ul>
                         <li>Custom WordPress development with Gutenberg blocks and headless architecture</li>
@@ -1492,8 +1495,7 @@
             <h2>Ready to Transform Your Digital Presence?</h2>
             <p>Partner with BigWeb to build intelligent, high-performance websites and web applications that drive real,
                 measurable business growth.</p>
-            <a href="https://bigweb.eu" class="btn btn-primary cta-pulse" target="_blank" rel="noopener">Visit BigWeb
-                →</a>
+            <a href="#services" class="btn btn-primary cta-pulse">Explore Our Services →</a>
         </div>
     </section>
 
@@ -1505,8 +1507,7 @@
                     <div class="logo">BIG//<span>WEB</span></div>
                     <p>AI-powered web development, SEO, and digital growth solutions. We build intelligent websites that
                         help businesses thrive and scale online.</p>
-                    <p style="margin-top:12px"><a href="https://bigweb.eu" target="_blank" rel="noopener">BigWeb.eu</a>
-                        · <a href="https://bigweb.lt" target="_blank" rel="noopener">BigWeb.lt</a></p>
+                    <p style="margin-top:12px">https://bigweb.eu</p>
                 </div>
                 <div class="footer-col">
                     <h4>Navigation</h4>
@@ -1525,7 +1526,7 @@
             </div>
             <div class="footer-bottom">
                 <span>© 2026 BigWeb. Built as a GitHub Pages motion landing page.</span>
-                <span>Powered by <a href="https://bigweb.eu" target="_blank" rel="noopener">BigWeb</a></span>
+                <span>Powered by <a href="https://bigweb.eu" target="_blank" rel="noopener noreferrer">BigWeb</a></span>
             </div>
         </div>
     </footer>
@@ -1563,14 +1564,16 @@
         </div>
         <h3>${p.title}</h3>
         <p>${p.description}</p>
-        <a href="${p.url}" class="portfolio-link" target="_blank" rel="noopener">${p.title === 'BigWeb' ? 'Explore BigWeb services' : 'View Project'} →</a>
+        <a href="${p.url}" class="portfolio-link" target="_blank" rel="noopener noreferrer">${p.title === 'BigWeb' ? 'Explore BigWeb services' : 'View Project'} →</a>
       </div>
       <div class="portfolio-bar"></div>
     </article>
   `).join('');
+            /* Footer project links removed to avoid duplicate external links.
+               Portfolio card links are the single source. */
             if (footerList) {
                 footerList.innerHTML = portfolioProjects.map(p =>
-                    `<li><a href="${p.url}" target="_blank" rel="noopener">${p.title}</a></li>`
+                    `<li><span style="color:var(--text2);font-size:.88rem">${p.title}</span></li>`
                 ).join('');
             }
         }
