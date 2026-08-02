@@ -1,0 +1,1 @@
+HQ image replacement in progress.
