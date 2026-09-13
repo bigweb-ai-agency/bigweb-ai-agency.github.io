@@ -1,9 +1,9 @@
 {
   "schedule": "Ежедневно 00:37 UTC: 03:37 летом / 02:37 зимой по Вильнюсу. GitHub Actions может запускаться с задержкой.",
-  "last_run": "2026-09-13T23:00:50+00:00",
+  "last_run": "2026-09-13T23:25:47+00:00",
   "status": "ok",
-  "run_url": null,
-  "summary": "0 новых; 2 изменений цены/статуса/фото; 6 страниц проверено; ошибок 0.",
+  "run_url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/34789667980",
+  "summary": "46 новых; 3 изменений цены/статуса/фото; 120 страниц проверено; ошибок 0.",
   "scope": "LandCentury: новые страницы всех 50 штатов и ротация старых записей. LandSearch и старые MLS — отдельная исследовательская проверка, не автоматический live-статус.",
   "events": [
     {
@@ -14,15 +14,89 @@
       "added": 0,
       "changed": 2,
       "errors": 0
+    },
+    {
+      "date": "2026-09-13T23:25:47+00:00",
+      "status": "ok",
+      "scanned_pages": 113,
+      "read_details": 120,
+      "added": 46,
+      "changed": 3,
+      "errors": 0
     }
   ],
   "source_errors": [],
   "rejected": [
     {
-      "url": "https://www.landcentury.com/land-for-sale/illinois/006-acres-for-sale-in-east-saint-louis-illinois-24733",
-      "reason": "lot_too_small_for_screening",
+      "url": "https://www.landcentury.com/land-for-sale/oregon/d745evp456rogress6aa15351b5f486aa15351b5f4a",
+      "reason": "vehicle_access_problem",
+      "price": 13900.0,
+      "state": "OR"
+    },
+    {
+      "url": "https://www.landcentury.com/land-for-sale/california/40-acres-for-sale-in-newberry-springs-ca-26184",
+      "reason": "vehicle_access_problem",
+      "price": 15000.0,
+      "state": "CA"
+    },
+    {
+      "url": "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-concho-arizona-26153",
+      "reason": "known_fees_exceed_budget",
+      "price": 14960.0,
+      "state": "AZ"
+    },
+    {
+      "url": "https://www.landcentury.com/land-for-sale/florida/022-acres-for-sale-in-interlachen-florida-26124",
+      "reason": "outside_cash_budget",
+      "price": 8.0,
+      "state": "FL"
+    },
+    {
+      "url": "https://www.landcentury.com/land-for-sale/new-mexico/050-acres-for-sale-in-tres-piedras-new-mexico-26094",
+      "reason": "vehicle_access_problem",
       "price": 3999.0,
-      "state": "IL"
+      "state": "NM"
+    },
+    {
+      "url": "https://www.landcentury.com/land-for-sale/mississippi/010-acres-for-sale-in-jackson-mississippi-26004",
+      "reason": "outside_cash_budget",
+      "price": 2960.0,
+      "state": "MS"
+    },
+    {
+      "url": "https://www.landcentury.com/land-for-sale/mississippi/189-acres-for-sale-in-pearlington-mississippi-25914",
+      "reason": "known_fees_exceed_budget",
+      "price": 10000.0,
+      "state": "MS"
+    },
+    {
+      "url": "https://www.landcentury.com/land-for-sale/arkansas/027-acres-for-sale-in-horseshoe-bend-arkansas-25900",
+      "reason": "vehicle_access_problem",
+      "price": 3360.0,
+      "state": "AR"
+    },
+    {
+      "url": "https://www.landcentury.com/land-for-sale/new-mexico/25-acres-for-sale-in-belen-new-mexico-25887",
+      "reason": "vehicle_access_problem",
+      "price": 3465.0,
+      "state": "NM"
+    },
+    {
+      "url": "https://www.landcentury.com/land-for-sale/california/006-acres-for-sale-in-taft-california-25738",
+      "reason": "lot_too_small_for_screening",
+      "price": 9000.0,
+      "state": "CA"
+    },
+    {
+      "url": "https://www.landcentury.com/land-for-sale/new-mexico/250-acres-for-sale-in-belen-new-mexico-25480",
+      "reason": "vehicle_access_problem",
+      "price": 3465.0,
+      "state": "NM"
     }
-  ]
+  ],
+  "photo_preservation": {
+    "saved": 109,
+    "missing": 1,
+    "cached": 580
+  }
 }

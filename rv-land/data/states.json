@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T23:16:31+00:00",
+  "updated_at": "2026-09-13T23:25:47+00:00",
   "states": [
     {
       "code": "AL",
@@ -53,8 +53,8 @@
         "PHX"
       ],
       "analysis": "Много дешёвой земли. Пустынная жара, отсутствие воды и электричества; север штата холодный. Ремонт в Mohave требует отдельной проверки правил.",
-      "total": 22,
-      "photo_candidates": 22,
+      "total": 28,
+      "photo_candidates": 28,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -74,8 +74,8 @@
         "STL"
       ],
       "analysis": "Один из полезных рынков земли в бюджете. Осторожно с курортными subdivision, POA, оврагами и обещанием RV без документов.",
-      "total": 22,
-      "photo_candidates": 22,
+      "total": 28,
+      "photo_candidates": 28,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -95,8 +95,8 @@
         "SFO"
       ],
       "analysis": "Недорогие предложения сосредоточены в пустыне и глубине штата. Прибрежный мягкий климат нельзя переносить на эти участки.",
-      "total": 19,
-      "photo_candidates": 19,
+      "total": 20,
+      "photo_candidates": 20,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -115,8 +115,8 @@
         "DEN"
       ],
       "analysis": "San Luis Valley даёт много дешёвых лотов, но это высокогорье с морозом, ветром и дорогими коммуникациями.",
-      "total": 20,
-      "photo_candidates": 20,
+      "total": 38,
+      "photo_candidates": 38,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -574,8 +574,8 @@
         "SFO"
       ],
       "analysis": "Много удалённых лотов. Север штата холодный, юг жаркий; юридическая дорога и питание часто дороже самого участка.",
-      "total": 23,
-      "photo_candidates": 23,
+      "total": 31,
+      "photo_candidates": 31,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -637,8 +637,8 @@
         "PHX"
       ],
       "analysis": "Много доступной земли, однако высота и мороз неоднородны. Без дороги, электричества и ясного RV zoning база теряет смысл.",
-      "total": 18,
-      "photo_candidates": 18,
+      "total": 20,
+      "photo_candidates": 20,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -763,8 +763,8 @@
         "SFO"
       ],
       "analysis": "Дешёвая земля часто в Klamath/Lake County, а не в мягком прибрежном климате. Холод, огонь и автономные коммуникации.",
-      "total": 22,
-      "photo_candidates": 22,
+      "total": 23,
+      "photo_candidates": 23,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -889,8 +889,8 @@
         "IAH"
       ],
       "analysis": "Много дешёвой земли на западе, обычно далеко от DFW/IAH. Жара, вода, электричество и подъезд определяют полную стоимость.",
-      "total": 19,
-      "photo_candidates": 19,
+      "total": 23,
+      "photo_candidates": 23,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
