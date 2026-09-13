@@ -1,0 +1,474 @@
+{
+  "updated_at": "2026-09-13T23:00:23+00:00",
+  "rejected_new_candidates": [
+    {
+      "id": "lc-26153",
+      "state": "AZ",
+      "url": "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-concho-arizona-26153",
+      "reason": "known_fees_exceed_budget",
+      "price": 14960.0
+    },
+    {
+      "id": "lc-25900",
+      "state": "AR",
+      "url": "https://www.landcentury.com/land-for-sale/arkansas/027-acres-for-sale-in-horseshoe-bend-arkansas-25900",
+      "reason": "vehicle_access_problem",
+      "price": 3360.0
+    },
+    {
+      "id": "lc-25738",
+      "state": "CA",
+      "url": "https://www.landcentury.com/land-for-sale/california/006-acres-for-sale-in-taft-california-25738",
+      "reason": "lot_too_small_for_screening",
+      "price": 9000.0
+    },
+    {
+      "id": "lc-25289",
+      "state": "CA",
+      "url": "https://www.landcentury.com/land-for-sale/california/10-acres-for-sale-in-lucerne-valley-california-25289",
+      "reason": "vehicle_access_problem",
+      "price": 12000.0
+    },
+    {
+      "id": "lc-22523",
+      "state": "CA",
+      "url": "https://www.landcentury.com/land-for-sale/california/090-acres-for-sale-in-california-pines-california-22523",
+      "reason": "known_fees_exceed_budget",
+      "price": 7650.0
+    },
+    {
+      "id": "lc-22522",
+      "state": "CA",
+      "url": "https://www.landcentury.com/land-for-sale/california/090-acres-for-sale-in-alturas-california-22522",
+      "reason": "known_fees_exceed_budget",
+      "price": 7650.0
+    },
+    {
+      "id": "lc-24997",
+      "state": "CO",
+      "url": "https://www.landcentury.com/land-for-sale/colorado/471-acres-for-sale-in-san-luis-colorado-24997",
+      "reason": "location_unresolved",
+      "price": 7250.0
+    },
+    {
+      "id": "lc-26124",
+      "state": "FL",
+      "url": "https://www.landcentury.com/land-for-sale/florida/022-acres-for-sale-in-interlachen-florida-26124",
+      "reason": "outside_cash_budget",
+      "price": 8.0
+    },
+    {
+      "id": "lc-20138",
+      "state": "IL",
+      "url": "https://www.landcentury.com/houses-and-buildings/illinois/2500-sq-ft-for-sale-in-riverdale-illinois-20138",
+      "reason": "lot_too_small_for_screening",
+      "price": 9500.0
+    },
+    {
+      "id": "lc-24733",
+      "state": "IL",
+      "url": "https://www.landcentury.com/land-for-sale/illinois/006-acres-for-sale-in-east-saint-louis-illinois-24733",
+      "reason": "lot_too_small_for_screening",
+      "price": 3999.0
+    },
+    {
+      "id": "lc-22276",
+      "state": "MN",
+      "url": "https://www.landcentury.com/land-for-sale/minnesota/047-acres-for-sale-in-browerville-minnesota-22276",
+      "reason": "vehicle_access_problem",
+      "price": 13495.0
+    },
+    {
+      "id": "lc-22275",
+      "state": "MN",
+      "url": "https://www.landcentury.com/land-for-sale/minnesota/047-acres-for-sale-in-browerville-minnesota-22275",
+      "reason": "vehicle_access_problem",
+      "price": 13495.0
+    },
+    {
+      "id": "lc-25914",
+      "state": "MS",
+      "url": "https://www.landcentury.com/land-for-sale/mississippi/189-acres-for-sale-in-pearlington-mississippi-25914",
+      "reason": "known_fees_exceed_budget",
+      "price": 10000.0
+    },
+    {
+      "id": "lc-26004",
+      "state": "MS",
+      "url": "https://www.landcentury.com/land-for-sale/mississippi/010-acres-for-sale-in-jackson-mississippi-26004",
+      "reason": "outside_cash_budget",
+      "price": 2960.0
+    },
+    {
+      "id": "lc-23767",
+      "state": "NM",
+      "url": "https://www.landcentury.com/land-for-sale/new-mexico/477-acres-for-sale-in-gage-new-mexico-23767",
+      "reason": "vehicle_access_problem",
+      "price": 9997.0
+    },
+    {
+      "id": "lc-25887",
+      "state": "NM",
+      "url": "https://www.landcentury.com/land-for-sale/new-mexico/25-acres-for-sale-in-belen-new-mexico-25887",
+      "reason": "vehicle_access_problem",
+      "price": 3465.0
+    },
+    {
+      "id": "lc-25480",
+      "state": "NM",
+      "url": "https://www.landcentury.com/land-for-sale/new-mexico/250-acres-for-sale-in-belen-new-mexico-25480",
+      "reason": "vehicle_access_problem",
+      "price": 3465.0
+    },
+    {
+      "id": "lc-23951",
+      "state": "NC",
+      "url": "https://www.landcentury.com/land-for-sale/north-carolina/065-acres-for-sale-in-maple-hill-north-carolina-23951",
+      "reason": "vehicle_access_problem",
+      "price": 14397.0
+    },
+    {
+      "id": "lc-22954",
+      "state": "OR",
+      "url": "https://www.landcentury.com/land-for-sale/oregon/162-acres-for-sale-in-klamath-oregon-22954",
+      "reason": "known_fees_exceed_budget",
+      "price": 15000.0
+    },
+    {
+      "id": "lc-24050",
+      "state": "SC",
+      "url": "https://www.landcentury.com/land-for-sale/south-carolina/073-acres-for-sale-in-denmark-south-carolina-24050",
+      "reason": "vehicle_access_problem",
+      "price": 12597.0
+    },
+    {
+      "id": "lc-20759",
+      "state": "TX",
+      "url": "https://www.landcentury.com/land-for-sale/texas/005-acres-for-sale-in-onalaska-texas-20759",
+      "reason": "lot_too_small_for_screening",
+      "price": 3200.0
+    },
+    {
+      "id": "lc-25098",
+      "state": "TX",
+      "url": "https://www.landcentury.com/land-for-sale/texas/1000-acres-for-sale-in-mile-high-texas-25098",
+      "reason": "vehicle_access_problem",
+      "price": 4000.0
+    },
+    {
+      "id": "lc-25317",
+      "state": "UT",
+      "url": "https://www.landcentury.com/land-for-sale/utah/111-acres-for-sale-in-beryl-utah-25317",
+      "reason": "coordinates_outside_us",
+      "price": 4497.0
+    },
+    {
+      "id": "ls-5009425",
+      "state": "KS",
+      "url": "https://www.landsearch.com/properties/34-and-38-louisiana-dr-linn-valley-ks-66040/5009425",
+      "reason": "outside_cash_budget",
+      "price": 18000.0
+    },
+    {
+      "id": "ls-5336119",
+      "state": "KY",
+      "url": "https://www.landsearch.com/properties/evergreen-dr-stanton-ky-40380/5336119",
+      "reason": "no_reliable_listing_image",
+      "price": 15000.0
+    },
+    {
+      "id": "ls-5349366",
+      "state": "MD",
+      "url": "https://www.landsearch.com/properties/409-stallion-ln-lusby-md-20657/5349366",
+      "reason": "no_reliable_listing_image",
+      "price": 14000.0
+    },
+    {
+      "id": "ls-5538728",
+      "state": "MD",
+      "url": "https://www.landsearch.com/properties/309-n-beaumont-ave-catonsville-md-21228/5538728",
+      "reason": "outside_cash_budget",
+      "price": null
+    },
+    {
+      "id": "ls-5072350",
+      "state": "MA",
+      "url": "https://www.landsearch.com/properties/mill-st-templeton-ma-01436/5072350",
+      "reason": "outside_cash_budget",
+      "price": 50000.0
+    },
+    {
+      "id": "ls-5343372",
+      "state": "MN",
+      "url": "https://www.landsearch.com/properties/terminal-rd-breezy-point-mn-56472/5343372",
+      "reason": "no_reliable_listing_image",
+      "price": 8900.0
+    },
+    {
+      "id": "ls-5286868",
+      "state": "MN",
+      "url": "https://www.landsearch.com/properties/469th-st-garrison-mn-56450/5286868",
+      "reason": "no_reliable_listing_image",
+      "price": 11995.0
+    },
+    {
+      "id": "ls-5255921",
+      "state": "MN",
+      "url": "https://www.landsearch.com/properties/banyan-dr-garrison-mn-56450/5255921",
+      "reason": "no_reliable_listing_image",
+      "price": 14900.0
+    },
+    {
+      "id": "ls-5142630",
+      "state": "MN",
+      "url": "https://www.landsearch.com/properties/rainier-dr-breezy-point-mn-56472/5142630",
+      "reason": "no_reliable_listing_image",
+      "price": 11400.0
+    },
+    {
+      "id": "ls-5099110",
+      "state": "MN",
+      "url": "https://www.landsearch.com/properties/e-winona-st-sanborn-mn-56083/5099110",
+      "reason": "no_reliable_listing_image",
+      "price": 10000.0
+    },
+    {
+      "id": "ls-5245764",
+      "state": "MS",
+      "url": "https://www.landsearch.com/properties/arcadia-farm-rd-pass-christian-ms-39571/5245764",
+      "reason": "outside_cash_budget",
+      "price": 16197.0
+    },
+    {
+      "id": "ls-5515432",
+      "state": "AL",
+      "url": "https://www.landsearch.com/properties/mat-morrow-rd-arab-al-35016/5515432",
+      "reason": "outside_cash_budget",
+      "price": 16275.0
+    },
+    {
+      "id": "ls-5051950",
+      "state": "IN",
+      "url": "https://www.landsearch.com/properties/s-wild-finch-ln-paoli-in-47454/5051950",
+      "reason": "no_reliable_listing_image",
+      "price": 15000.0
+    },
+    {
+      "id": "ls-5369906",
+      "state": "IN",
+      "url": "https://www.landsearch.com/properties/10214-e-ralph-c-blvd-huntingburg-in-47542/5369906",
+      "reason": "no_reliable_listing_image",
+      "price": 12000.0
+    },
+    {
+      "id": "ls-5130583",
+      "state": "NY",
+      "url": "https://www.landsearch.com/properties/-1-winfield-st-corning-ny-14830/5130583",
+      "reason": "no_reliable_listing_image",
+      "price": 15000.0
+    },
+    {
+      "id": "ls-5051837",
+      "state": "IN",
+      "url": "https://www.landsearch.com/properties/paoli-in-47454/5051837",
+      "reason": "no_reliable_listing_image",
+      "price": 15000.0
+    },
+    {
+      "id": "ls-5444292",
+      "state": "IN",
+      "url": "https://www.landsearch.com/properties/548-s-comet-ln-santa-claus-in-47579/5444292",
+      "reason": "no_reliable_listing_image",
+      "price": 15000.0
+    },
+    {
+      "id": "ls-5408895",
+      "state": "PA",
+      "url": "https://www.landsearch.com/properties/194-windemere-lake-ariel-pa-18436/5408895",
+      "reason": "no_reliable_listing_image",
+      "price": 15000.0
+    },
+    {
+      "id": "ls-5394468",
+      "state": "IN",
+      "url": "https://www.landsearch.com/properties/416-e-s-d-st-gas-city-in-46933/5394468",
+      "reason": "outside_cash_budget",
+      "price": 20000.0
+    },
+    {
+      "id": "ls-5447069",
+      "state": "SD",
+      "url": "https://www.landsearch.com/properties/tolstoy-sd-57475/5447069",
+      "reason": "location_unresolved",
+      "price": 7500.0
+    },
+    {
+      "id": "ls-5034270",
+      "state": "SD",
+      "url": "https://www.landsearch.com/properties/1220-lakeview-st-leola-sd-57456/5034270",
+      "reason": "no_reliable_listing_image",
+      "price": 15000.0
+    },
+    {
+      "id": "ls-4849845",
+      "state": "SD",
+      "url": "https://www.landsearch.com/properties/1321-lakeview-st-leola-sd-57456/4849845",
+      "reason": "no_reliable_listing_image",
+      "price": 15000.0
+    },
+    {
+      "id": "ls-4849078",
+      "state": "SD",
+      "url": "https://www.landsearch.com/properties/1321-lakeview-st-leola-sd-57456/4849078",
+      "reason": "no_reliable_listing_image",
+      "price": 15000.0
+    },
+    {
+      "id": "ls-5004343",
+      "state": "OH",
+      "url": "https://www.landsearch.com/properties/summit-hl-chillicothe-oh-45601/5004343",
+      "reason": "vehicle_access_problem",
+      "price": 10999.0
+    },
+    {
+      "id": "ls-5015583",
+      "state": "WA",
+      "url": "https://www.landsearch.com/properties/1125-e-32nd-ave-spokane-wa-99203/5015583",
+      "reason": "vehicle_access_problem",
+      "price": 5900.0
+    },
+    {
+      "id": "ls-2828989",
+      "state": "WA",
+      "url": "https://www.landsearch.com/properties/road-68-and-rodeo-dr-pasco-wa-99301/2828989",
+      "reason": "location_unresolved",
+      "price": 10000.0
+    },
+    {
+      "id": "ls-5398657",
+      "state": "WA",
+      "url": "https://www.landsearch.com/properties/morton-wa-98356/5398657",
+      "reason": "vehicle_access_problem",
+      "price": 10000.0
+    },
+    {
+      "id": "ls-3381931",
+      "state": "WA",
+      "url": "https://www.landsearch.com/properties/pasco-wa-99301/3381931",
+      "reason": "no_reliable_listing_image",
+      "price": 6000.0
+    },
+    {
+      "id": "ls-5250926",
+      "state": "OH",
+      "url": "https://www.landsearch.com/properties/495-johns-ave-mansfield-oh-44903/5250926",
+      "reason": "no_reliable_listing_image",
+      "price": 7500.0
+    },
+    {
+      "id": "ls-5299139",
+      "state": "LA",
+      "url": "https://www.landsearch.com/properties/222-w-19th-st-reserve-la-70084/5299139",
+      "reason": "no_reliable_listing_image",
+      "price": 15000.0
+    },
+    {
+      "id": "ls-5002902",
+      "state": "NM",
+      "url": "https://www.landsearch.com/properties/deming-nm-88031/5002902",
+      "reason": "vehicle_access_problem",
+      "price": 9997.0
+    },
+    {
+      "id": "ls-5081355",
+      "state": "SC",
+      "url": "https://www.landsearch.com/properties/6600-carolina-hwy-denmark-sc-29042/5081355",
+      "reason": "vehicle_access_problem",
+      "price": 12597.0
+    },
+    {
+      "id": "ls-5442681",
+      "state": "AK",
+      "url": "https://www.landsearch.com/properties/kutna-crk-skwentna-ak-99667/5442681",
+      "reason": "vehicle_access_problem",
+      "price": 10000.0
+    },
+    {
+      "id": "ls-5406327",
+      "state": "UT",
+      "url": "https://www.landsearch.com/properties/12888-coyote-canyon-cv-duchesne-ut-84021/5406327",
+      "reason": "no_reliable_listing_image",
+      "price": 14500.0
+    },
+    {
+      "id": "ls-5395231",
+      "state": "NE",
+      "url": "https://www.landsearch.com/properties/351-louden-st-superior-ne-68978/5395231",
+      "reason": "no_reliable_listing_image",
+      "price": 8000.0
+    },
+    {
+      "id": "ls-5053880",
+      "state": "NE",
+      "url": "https://www.landsearch.com/properties/schuyler-ne-68661/5053880",
+      "reason": "no_reliable_listing_image",
+      "price": 15000.0
+    },
+    {
+      "id": "ls-4943058",
+      "state": "NE",
+      "url": "https://www.landsearch.com/properties/206-w-highway-26-lewellen-ne-69147/4943058",
+      "reason": "outside_cash_budget",
+      "price": 17500.0
+    },
+    {
+      "id": "ls-5127374",
+      "state": "AK",
+      "url": "https://www.landsearch.com/properties/508216-skwentna-riv-skwentna-ak-99667/5127374",
+      "reason": "vehicle_access_problem",
+      "price": 15000.0
+    },
+    {
+      "id": "ls-5241754",
+      "state": "CT",
+      "url": "https://www.landsearch.com/properties/englewood-trl-coventry-ct-06238/5241754",
+      "reason": "location_unresolved",
+      "price": 10000.0
+    },
+    {
+      "id": "ls-5452417",
+      "state": "GA",
+      "url": "https://www.landsearch.com/properties/pembroke-ga-31321/5452417",
+      "reason": "no_reliable_listing_image",
+      "price": 14000.0
+    },
+    {
+      "id": "ls-5316768",
+      "state": "HI",
+      "url": "https://www.landsearch.com/properties/mauna-kea-rd-pahoa-hi-96778/5316768",
+      "reason": "no_reliable_listing_image",
+      "price": 15000.0
+    },
+    {
+      "id": "ls-5316766",
+      "state": "HI",
+      "url": "https://www.landsearch.com/properties/hilo-rd-pahoa-hi-96778/5316766",
+      "reason": "no_reliable_listing_image",
+      "price": 10000.0
+    },
+    {
+      "id": "ls-5150358",
+      "state": "HI",
+      "url": "https://www.landsearch.com/properties/92-8323-marlin-blvd-hawaiian-ocean-view-hi-96737/5150358",
+      "reason": "no_reliable_listing_image",
+      "price": 10950.0
+    },
+    {
+      "id": "ls-3016732",
+      "state": "OH",
+      "url": "https://www.landsearch.com/properties/toronto-oh-43964/3016732",
+      "reason": "no_reliable_listing_image",
+      "price": 12000.0
+    }
+  ]
+}

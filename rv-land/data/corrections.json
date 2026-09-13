@@ -1,0 +1,170 @@
+{
+  "mn-ringneck-roost-7060445": {
+    "image_url": "assets/listings/7120283f3ee700d34780.jpg",
+    "image_source_url": "https://www.compass.com/homedetails/Tbd-Ringneck-Roost-Garrison-MN-56450/EE1G9_pid/",
+    "photo_checked_at": "2026-09-13T22:27:57+00:00"
+  },
+  "mn-tee-top-7044255": {
+    "image_url": "assets/listings/3f1c468d15b364468537.jpg",
+    "image_source_url": "https://www.compass.com/homedetails/Tbd-Tee-Top-Garrison-MN-56450/277H8X_pid/",
+    "photo_checked_at": "2026-09-13T22:27:57+00:00"
+  },
+  "mn-terminal-road-7088881": {
+    "image_url": "assets/listings/949506b2e4cd7dba9448.jpg",
+    "image_source_url": "https://www.woodsandwater.com/property/7088881/",
+    "photo_checked_at": "2026-09-13T22:27:57+00:00"
+  },
+  "in-gary-kentucky-837526": {
+    "image_url": "assets/listings/126dd631c9722e994fc3.jpg",
+    "image_source_url": "https://www.compass.com/homedetails/2144-Kentucky-St-Gary-IN-46407/F0IU3_pid/",
+    "photo_checked_at": "2026-09-13T22:27:57+00:00"
+  },
+  "ia-mount-ayr-adams-6340604": {
+    "image_url": "assets/listings/9703b9b99eb31c247070.webp",
+    "image_source_url": "https://www.realtor.com/realestateandhomes-detail/403-E-Adams-St_Mount-Ayr_IA_50854_M72700-75430",
+    "status_basis": "indexed_public_page",
+    "source_crawled": "last week; price updated Aug 28, 2026",
+    "last_verified": "2026-09-14T02:00:00+03:00",
+    "price": 15000,
+    "total_known": 15000,
+    "existing_garage": true,
+    "garage_note": "В объявлении указан отдельный гараж на 2 машины; высота ворот и внутренняя длина неизвестны.",
+    "notes": [
+      "Текущая открытая карточка Realtor: $15,000. Старый индекс за август показывал $25,000.",
+      "Дом продаётся as-is; пригодность гаража для 7-метрового высокого RV требует замера."
+    ]
+  },
+  "il-easton-3rd-fsbo": {
+    "image_url": "assets/listings/46f1d7c2f9558f70a161.jpg",
+    "status_basis": "indexed_public_page",
+    "source_crawled": "today",
+    "last_verified": "2026-09-14T02:00:00+03:00",
+    "existing_garage": true,
+    "flags": [
+      "Сам продавец оценивает ремонт дома в $50–80k. Покупная цена не отражает стоимость пригодной базы.",
+      "Проверить обязательства по дому, ворота и размеры гаража до покупки."
+    ],
+    "image_source_url": "https://www.zillow.com/homedetails/303-S-3rd-St-Easton-IL-62633/115700245_zpid/"
+  },
+  "ia-correctionville-6th-6336683": {
+    "image_url": "assets/listings/14e74cb85c0a10b30dbb.jpg",
+    "kind": "building",
+    "status_basis": "indexed_public_page",
+    "source_crawled": "yesterday",
+    "last_verified": "2026-09-14T02:00:00+03:00",
+    "flags": [
+      "Бывшая церковь, переоборудованная в дом; гаражный въезд и несущая способность пола не подтверждены.",
+      "Большой аварийный/ремонтируемый объём может оказаться дорогим обязательством."
+    ],
+    "image_source_url": "https://www.redfin.com/IA/Correctionville/503-6th-St-51016/home/130041774"
+  },
+  "ia-ralston-main-6339486": {
+    "image_url": "assets/listings/50beef5c8ab56fdc2e73.jpg",
+    "image_source_url": "https://www.zillow.com/homedetails/109-Main-St-Ralston-IA-51459/231226390_zpid/",
+    "kind": "building",
+    "status_basis": "indexed_public_page",
+    "source_crawled": "2 weeks ago",
+    "last_verified": "2026-09-14T02:00:00+03:00",
+    "electricity": "unknown",
+    "flags": [
+      "Всего 320 sq ft помещения, требуется ремонт крыши; размещение RV внутри не подтверждено.",
+      "Продавец отдельно предупреждает о стоимости восстановления электроснабжения."
+    ]
+  },
+  "mn-wells-industrial-5248539": {
+    "kind": "industrial_lot",
+    "existing_garage": false,
+    "image_url": "assets/listings/b5836e6183cdd83b103c.jpg",
+    "image_source_url": "https://www.themlsonline.com/minnesota-real-estate/listings/property/5248539/L1-B3-South-Industrial-Park-Wells-MN-56097"
+  },
+  "mn-kiester-front-7062537": {
+    "kind": "commercial_lot",
+    "existing_garage": false,
+    "image_url": "assets/listings/499841fdb5e6697954f6.jpg",
+    "image_source_url": "https://www.redfin.com/MN/Kiester/209-Front-St-56051/home/201589289",
+    "last_verified": "2026-09-14T02:15:00+03:00",
+    "status_basis": "indexed_public_page",
+    "source_crawled": "today"
+  },
+  "mn-mankato-tax-r010908128011": {
+    "kind": "land",
+    "status": "unknown",
+    "price_basis": "tax_sale_unverified",
+    "flags": [
+      "Сохранён исторический налоговый лот. Текущая продажа за указанную сумму и отдельная фотография участка не подтверждены."
+    ],
+    "evidence_quote": null
+  },
+  "ky-palisades-25507773": {
+    "status": "off_market",
+    "status_basis": "indexed_public_page",
+    "last_verified": "2026-09-14T02:00:00+03:00",
+    "flags": [
+      "LandSearch перенаправляет на inactive; Homes.com показывает адрес среди проданных. Сохранён в архиве, повторную продажу проверить отдельно."
+    ],
+    "image_url": "assets/listings/f6e6e4b2847e75ff8f8b.jpg",
+    "image_source_url": "https://www.redfin.com/KY/Burnside/1056-Palisades-Ct-42519/home/199611026"
+  },
+  "mn-minnesota-lake-marples-4592119": {
+    "image_url": "assets/listings/99c9491e13604498a2a8.webp",
+    "image_source_url": "https://www.realtor.com/realestateandhomes-detail/17-Marples-Ave_Minnesota-Lake_MN_56068_M73619-62913",
+    "status": "off_market",
+    "flags": [
+      "LandSearch теперь перенаправляет на город, а свежая Homes.com указывает NOT LISTED FOR SALE. Старый снимок Realtor с ценой сохранён только для истории."
+    ]
+  },
+  "mn-welcome-hulseman-7141779": {
+    "flags": [
+      "В прежней подборке отмечен pending. Публичная страница сейчас блокирует повторную проверку.",
+      "24×24 ft — примерно 7.3×7.3 м снаружи: запас для 7-метрового RV минимален; длина внутри и высота ворот неизвестны."
+    ],
+    "image_url": "assets/listings/9dca7ab8a9a917f55c8c.jpg",
+    "image_source_url": "https://www.coldwellbankerhomes.com/mn/welcome/307-hulseman-st/pid_73629480/"
+  },
+  "tn-lone-mountain-1344590": {
+    "garage_note": "Гараж/мастерская и трейлер на фото прямо исключены из продажи.",
+    "existing_garage": false,
+    "flags": [
+      "Продаётся только земля. Гараж/мастерская и трейлер НЕ входят в цену.",
+      "Общий driveway: нужен документированный easement и достаточный проезд."
+    ],
+    "image_url": "assets/listings/908e51426ab697f4f2cb.jpg",
+    "image_source_url": "https://www.landsearch.com/properties/lone-mountain-rd-new-tazewell-tn-37825/5338114"
+  },
+  "lc-15893": {
+    "flags": [
+      "Страница показывает cash price $5,000, описание также предлагает $3,000 down + 6×$360. Уточнить полный cash договор, размер здания и состояние.",
+      "Нет подтверждения гаражного въезда или разрешения авторемонта."
+    ],
+    "garage_note": "Commercial building по продавцу; размеры ворот и фактическое назначение неизвестны.",
+    "image_url": "assets/listings/60e8aa62cdf4d53d286d.jpg",
+    "image_source_url": "https://www.landcentury.com/houses-and-buildings/illinois/4356-sq-ft-for-sale-in-mount-carmel-illinois-15893"
+  },
+  "lc-16279": {
+    "flags": [
+      "Продавец сообщает, что не посещал дом и не имеет фото интерьера. Продажа as-is.",
+      "Гараж не указан; сначала осмотр конструкций, подъезда и муниципальных нарушений."
+    ],
+    "image_url": "assets/listings/4792e926d49b217bdaae.jpg",
+    "image_source_url": "https://www.landcentury.com/houses-and-buildings/illinois/1000-sq-ft-for-sale-in-clay-city-illinois-16279"
+  },
+  "lc-23386": {
+    "flags": [
+      "Дом требует реконструкции, гараж не подтверждён.",
+      "Явная cash price $8,000; $1,500 — первоначальный взнос по более дорогому финансированию."
+    ],
+    "image_url": "assets/listings/580954815140f5625b46.jpg",
+    "image_source_url": "https://www.landcentury.com/houses-and-buildings/michigan/700-sq-ft-for-sale-in-flint-michigan-23386"
+  },
+  "wi-ontario-woods-2029092": {
+    "image_url": "assets/listings/232d5cfbeca4af0e10f5.jpg",
+    "image_source_url": "https://www.nexthome.com/listing/WI/Ontario/Lot-24-Woods/297177/",
+    "status_basis": "indexed_public_page",
+    "source_crawled": "today",
+    "last_verified": "2026-09-14T02:30:00+03:00",
+    "electricity": "available",
+    "water": "available",
+    "sewer": "available",
+    "utility_note": "NextHome: water, sewer, electricity available at lot line; подключение не подтверждено."
+  }
+}

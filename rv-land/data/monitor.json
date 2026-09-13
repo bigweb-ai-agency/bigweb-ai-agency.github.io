@@ -1,0 +1,28 @@
+{
+  "schedule": "Ежедневно 00:37 UTC: 03:37 летом / 02:37 зимой по Вильнюсу. GitHub Actions может запускаться с задержкой.",
+  "last_run": "2026-09-13T23:00:50+00:00",
+  "status": "ok",
+  "run_url": null,
+  "summary": "0 новых; 2 изменений цены/статуса/фото; 6 страниц проверено; ошибок 0.",
+  "scope": "LandCentury: новые страницы всех 50 штатов и ротация старых записей. LandSearch и старые MLS — отдельная исследовательская проверка, не автоматический live-статус.",
+  "events": [
+    {
+      "date": "2026-09-13T23:00:50+00:00",
+      "status": "ok",
+      "scanned_pages": 2,
+      "read_details": 6,
+      "added": 0,
+      "changed": 2,
+      "errors": 0
+    }
+  ],
+  "source_errors": [],
+  "rejected": [
+    {
+      "url": "https://www.landcentury.com/land-for-sale/illinois/006-acres-for-sale-in-east-saint-louis-illinois-24733",
+      "reason": "lot_too_small_for_screening",
+      "price": 3999.0,
+      "state": "IL"
+    }
+  ]
+}

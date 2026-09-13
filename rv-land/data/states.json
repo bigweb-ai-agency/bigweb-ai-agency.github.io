@@ -1,0 +1,1049 @@
+{
+  "updated_at": "2026-09-13T23:16:31+00:00",
+  "states": [
+    {
+      "code": "AL",
+      "name": "Alabama",
+      "region": "Юг",
+      "climate_score": 8,
+      "priority": 2,
+      "gateways": [
+        "ATL"
+      ],
+      "analysis": "Длинный рабочий сезон; влажность, грозы и локальное затопление. Искать ровный участок вне жилых ограничений.",
+      "total": 18,
+      "photo_candidates": 18,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/alabama/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/alabama",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "AK",
+      "name": "Alaska",
+      "region": "Аляска",
+      "climate_score": 1,
+      "priority": 4,
+      "gateways": [
+        "SEA"
+      ],
+      "analysis": "Низкая цена часто означает удалённость. Доставка RV, дороги, мороз и отдельный перелёт перевешивают цену земли.",
+      "total": 12,
+      "photo_candidates": 12,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/alaska/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/alaska",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "AZ",
+      "name": "Arizona",
+      "region": "Юго-запад",
+      "climate_score": 6,
+      "priority": 2,
+      "gateways": [
+        "LAX",
+        "LAS",
+        "PHX"
+      ],
+      "analysis": "Много дешёвой земли. Пустынная жара, отсутствие воды и электричества; север штата холодный. Ремонт в Mohave требует отдельной проверки правил.",
+      "total": 22,
+      "photo_candidates": 22,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/arizona/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/arizona",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "AR",
+      "name": "Arkansas",
+      "region": "Юг",
+      "climate_score": 8,
+      "priority": 1,
+      "gateways": [
+        "DFW",
+        "STL"
+      ],
+      "analysis": "Один из полезных рынков земли в бюджете. Осторожно с курортными subdivision, POA, оврагами и обещанием RV без документов.",
+      "total": 22,
+      "photo_candidates": 22,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/arkansas/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/arkansas",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "CA",
+      "name": "California",
+      "region": "Тихоокеанский",
+      "climate_score": 6,
+      "priority": 2,
+      "gateways": [
+        "LAX",
+        "SFO"
+      ],
+      "analysis": "Недорогие предложения сосредоточены в пустыне и глубине штата. Прибрежный мягкий климат нельзя переносить на эти участки.",
+      "total": 19,
+      "photo_candidates": 19,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/california/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/california",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "CO",
+      "name": "Colorado",
+      "region": "Горный",
+      "climate_score": 3,
+      "priority": 3,
+      "gateways": [
+        "DEN"
+      ],
+      "analysis": "San Luis Valley даёт много дешёвых лотов, но это высокогорье с морозом, ветром и дорогими коммуникациями.",
+      "total": 20,
+      "photo_candidates": 20,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/colorado/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/colorado",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "CT",
+      "name": "Connecticut",
+      "region": "Северо-восток",
+      "climate_score": 4,
+      "priority": 4,
+      "gateways": [
+        "NYC",
+        "BOS"
+      ],
+      "analysis": "Очень мало результатов в бюджете; проверять размер, подъезд и самостоятельное использование участка.",
+      "total": 1,
+      "photo_candidates": 1,
+      "shortfall": 9,
+      "coverage": "Недостаточно проверенных кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/connecticut/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/connecticut",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "DE",
+      "name": "Delaware",
+      "region": "Северо-восток",
+      "climate_score": 6,
+      "priority": 4,
+      "gateways": [
+        "PHL",
+        "NYC"
+      ],
+      "analysis": "В просмотренных источниках подходящих фотообъявлений не найдено. Ноль в базе не доказывает отсутствие рынка.",
+      "total": 0,
+      "photo_candidates": 0,
+      "shortfall": 10,
+      "coverage": "Недостаточно проверенных кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/delaware/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/delaware",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "FL",
+      "name": "Florida",
+      "region": "Юг",
+      "climate_score": 7,
+      "priority": 2,
+      "gateways": [
+        "MIA",
+        "MCO"
+      ],
+      "analysis": "Дешёвый перелёт и мягкая зима. Многие лоты без подъезда/коммуникаций, wetland, HOA или ураганный риск; летняя работа жаркая.",
+      "total": 20,
+      "photo_candidates": 20,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/florida/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/florida",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "GA",
+      "name": "Georgia",
+      "region": "Юг",
+      "climate_score": 8,
+      "priority": 1,
+      "gateways": [
+        "ATL"
+      ],
+      "analysis": "Хороший компромисс сезона и международного аэропорта. Искать сельские участки с реальной дорогой; covenants и ремонт проверять по округу.",
+      "total": 21,
+      "photo_candidates": 21,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/georgia/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/georgia",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "HI",
+      "name": "Hawaii",
+      "region": "Гавайи",
+      "climate_score": 7,
+      "priority": 4,
+      "gateways": [
+        "HNL"
+      ],
+      "analysis": "Дешёвая земля обычно на Big Island, а международный рейс часто до Honolulu. Межостровная логистика, доставка RV, лава и ливни ухудшают экономику.",
+      "total": 12,
+      "photo_candidates": 12,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/hawaii/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/hawaii",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "ID",
+      "name": "Idaho",
+      "region": "Горный",
+      "climate_score": 3,
+      "priority": 4,
+      "gateways": [
+        "SEA"
+      ],
+      "analysis": "Недостаточная выборка до $15k. Снег и удалённость, особенно у дешёвых рекреационных участков.",
+      "total": 1,
+      "photo_candidates": 1,
+      "shortfall": 9,
+      "coverage": "Недостаточно проверенных кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/idaho/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/idaho",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "IL",
+      "name": "Illinois",
+      "region": "Средний Запад",
+      "climate_score": 4,
+      "priority": 1,
+      "gateways": [
+        "ORD",
+        "STL"
+      ],
+      "analysis": "Полезный рынок небольших зданий, гаражей и городских лотов. ORD удобен из Европы; зима, налоги, обязанности по аварийным домам.",
+      "total": 20,
+      "photo_candidates": 20,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/illinois/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/illinois",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "IN",
+      "name": "Indiana",
+      "region": "Средний Запад",
+      "climate_score": 4,
+      "priority": 1,
+      "gateways": [
+        "ORD",
+        "DTW"
+      ],
+      "analysis": "Gary и север штата доступны через Chicago. Дешёвый дом требует проверки крыши, сноса, размера ворот и местных правил парковки.",
+      "total": 10,
+      "photo_candidates": 10,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/indiana/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/indiana",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "IA",
+      "name": "Iowa",
+      "region": "Средний Запад",
+      "climate_score": 3,
+      "priority": 1,
+      "gateways": [
+        "ORD",
+        "MSP"
+      ],
+      "analysis": "Есть старые здания и дома с гаражами. Большинство далеко от дешёвых международных аэропортов; для зимнего ремонта нужен обогрев.",
+      "total": 19,
+      "photo_candidates": 18,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/iowa/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/iowa",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "KS",
+      "name": "Kansas",
+      "region": "Равнины",
+      "climate_score": 4,
+      "priority": 2,
+      "gateways": [
+        "DFW",
+        "DEN",
+        "STL"
+      ],
+      "analysis": "Городские лоты и отдельные дешёвые здания возможны; длинный наземный путь, ветер, град и холодная зима.",
+      "total": 14,
+      "photo_candidates": 14,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/kansas/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/kansas",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "KY",
+      "name": "Kentucky",
+      "region": "Аппалачи",
+      "climate_score": 7,
+      "priority": 1,
+      "gateways": [
+        "BNA",
+        "ORD",
+        "IAD"
+      ],
+      "analysis": "Интересны участки вне курортных поселений; уклон, подъезд и ограничения на RV могут оказаться важнее цены.",
+      "total": 15,
+      "photo_candidates": 14,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/kentucky/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/kentucky",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "LA",
+      "name": "Louisiana",
+      "region": "Юг",
+      "climate_score": 7,
+      "priority": 3,
+      "gateways": [
+        "IAH",
+        "DFW"
+      ],
+      "analysis": "Тёплая зима; низкая отметка, паводки, влажность, ураганы и состояние грунта требуют особенно внимательной проверки.",
+      "total": 12,
+      "photo_candidates": 12,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/louisiana/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/louisiana",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "ME",
+      "name": "Maine",
+      "region": "Северо-восток",
+      "climate_score": 2,
+      "priority": 3,
+      "gateways": [
+        "BOS"
+      ],
+      "analysis": "Земля в бюджете встречается в удалённых районах. Снег, зимняя дорога и долгий путь из Boston снижают удобство базы.",
+      "total": 14,
+      "photo_candidates": 14,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/maine/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/maine",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "MD",
+      "name": "Maryland",
+      "region": "Северо-восток",
+      "climate_score": 6,
+      "priority": 3,
+      "gateways": [
+        "IAD",
+        "PHL"
+      ],
+      "analysis": "Хорошая авиационная доступность; дешёвые лоты часто слишком ограничены для самостоятельной мастерской.",
+      "total": 11,
+      "photo_candidates": 11,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/maryland/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/maryland",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "MA",
+      "name": "Massachusetts",
+      "region": "Северо-восток",
+      "climate_score": 4,
+      "priority": 4,
+      "gateways": [
+        "BOS"
+      ],
+      "analysis": "Сильный аэропорт, слабая выборка дешёвой земли. Проверить wetlands, проезд и пригодность лота до дальнейшего планирования.",
+      "total": 2,
+      "photo_candidates": 2,
+      "shortfall": 8,
+      "coverage": "Недостаточно проверенных кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/massachusetts/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/massachusetts",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "MI",
+      "name": "Michigan",
+      "region": "Средний Запад",
+      "climate_score": 3,
+      "priority": 1,
+      "gateways": [
+        "DTW",
+        "ORD"
+      ],
+      "analysis": "Flint и небольшие города дают дома/лоты в бюджете. Гаражи интереснее голой земли, но важны состояние, городские нарушения и снег.",
+      "total": 20,
+      "photo_candidates": 20,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/michigan/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/michigan",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "MN",
+      "name": "Minnesota",
+      "region": "Средний Запад",
+      "climate_score": 2,
+      "priority": 2,
+      "gateways": [
+        "MSP",
+        "ORD"
+      ],
+      "analysis": "Сохранена прежняя подборка. Близость MSP полезна, но не означает дешёвый билет; наружный зимний ремонт неудобен.",
+      "total": 18,
+      "photo_candidates": 16,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/minnesota/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/minnesota",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "MS",
+      "name": "Mississippi",
+      "region": "Юг",
+      "climate_score": 8,
+      "priority": 1,
+      "gateways": [
+        "ATL",
+        "IAH"
+      ],
+      "analysis": "Недорогая земля и длинный сезон. Проверять паводки, дорогу, электричество и муниципальные ограничения на неходовые машины.",
+      "total": 16,
+      "photo_candidates": 16,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/mississippi/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/mississippi",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "MO",
+      "name": "Missouri",
+      "region": "Средний Запад",
+      "climate_score": 6,
+      "priority": 1,
+      "gateways": [
+        "STL",
+        "ORD"
+      ],
+      "analysis": "Перспективный баланс цены и сезона, особенно небольшие города. Курортные лоты и Ozarks могут иметь ограничения и уклон.",
+      "total": 15,
+      "photo_candidates": 15,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/missouri/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/missouri",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "MT",
+      "name": "Montana",
+      "region": "Горный",
+      "climate_score": 2,
+      "priority": 4,
+      "gateways": [
+        "SEA",
+        "DEN"
+      ],
+      "analysis": "Небольшая выборка; холод, расстояния и сезонные дороги. Дешёвая цена редко делает базу удобной из EU.",
+      "total": 4,
+      "photo_candidates": 4,
+      "shortfall": 6,
+      "coverage": "Недостаточно проверенных кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/montana/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/montana",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "NE",
+      "name": "Nebraska",
+      "region": "Равнины",
+      "climate_score": 3,
+      "priority": 3,
+      "gateways": [
+        "DEN",
+        "MSP"
+      ],
+      "analysis": "Есть городские лоты; мороз, ветер и длинная дорога от международного рейса. Искать существующий бокс.",
+      "total": 11,
+      "photo_candidates": 11,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/nebraska/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/nebraska",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "NV",
+      "name": "Nevada",
+      "region": "Юго-запад",
+      "climate_score": 5,
+      "priority": 2,
+      "gateways": [
+        "LAS",
+        "SFO"
+      ],
+      "analysis": "Много удалённых лотов. Север штата холодный, юг жаркий; юридическая дорога и питание часто дороже самого участка.",
+      "total": 23,
+      "photo_candidates": 23,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/nevada/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/nevada",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "NH",
+      "name": "New Hampshire",
+      "region": "Северо-восток",
+      "climate_score": 3,
+      "priority": 4,
+      "gateways": [
+        "BOS"
+      ],
+      "analysis": "Мало подходящих предложений; снег и местные ограничения на standalone RV. Проверять каждую town отдельно.",
+      "total": 4,
+      "photo_candidates": 4,
+      "shortfall": 6,
+      "coverage": "Недостаточно проверенных кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/new-hampshire/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/new-hampshire",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "NJ",
+      "name": "New Jersey",
+      "region": "Северо-восток",
+      "climate_score": 5,
+      "priority": 4,
+      "gateways": [
+        "NYC",
+        "PHL"
+      ],
+      "analysis": "Удобный перелёт, но дешёвые лоты часто непростые: размер, wetlands, отсутствие разрешённого использования.",
+      "total": 5,
+      "photo_candidates": 5,
+      "shortfall": 5,
+      "coverage": "Недостаточно проверенных кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/new-jersey/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/new-jersey",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "NM",
+      "name": "New Mexico",
+      "region": "Юго-запад",
+      "climate_score": 6,
+      "priority": 2,
+      "gateways": [
+        "DEN",
+        "DFW",
+        "PHX"
+      ],
+      "analysis": "Много доступной земли, однако высота и мороз неоднородны. Без дороги, электричества и ясного RV zoning база теряет смысл.",
+      "total": 18,
+      "photo_candidates": 18,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/new-mexico/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/new-mexico",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "NY",
+      "name": "New York",
+      "region": "Северо-восток",
+      "climate_score": 3,
+      "priority": 2,
+      "gateways": [
+        "NYC",
+        "BOS"
+      ],
+      "analysis": "Upstate даёт бюджетные участки и аварийные дома, но далеко от NYC. Земельные банки могут требовать дорогую обязательную реконструкцию.",
+      "total": 19,
+      "photo_candidates": 19,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/new-york/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/new-york",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "NC",
+      "name": "North Carolina",
+      "region": "Юг",
+      "climate_score": 8,
+      "priority": 1,
+      "gateways": [
+        "CLT",
+        "IAD",
+        "ATL"
+      ],
+      "analysis": "Мягкий сезон и несколько шлюзов. Горные лоты проверять на уклон, прибрежные — на воду; HOA часто ограничивает RV.",
+      "total": 17,
+      "photo_candidates": 17,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/north-carolina/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/north-carolina",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "ND",
+      "name": "North Dakota",
+      "region": "Равнины",
+      "climate_score": 1,
+      "priority": 4,
+      "gateways": [
+        "MSP"
+      ],
+      "analysis": "Небольшая выборка, суровая зима и большое расстояние. Имеет смысл только с уже существующим пригодным помещением.",
+      "total": 4,
+      "photo_candidates": 4,
+      "shortfall": 6,
+      "coverage": "Недостаточно проверенных кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/north-dakota/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/north-dakota",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "OH",
+      "name": "Ohio",
+      "region": "Средний Запад",
+      "climate_score": 4,
+      "priority": 1,
+      "gateways": [
+        "DTW",
+        "ORD"
+      ],
+      "analysis": "Искать отдельный гараж или дом с ним. Городские land-bank условия, снос и ремонт дома могут сделать дешёвую покупку дорогой.",
+      "total": 10,
+      "photo_candidates": 10,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/ohio/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/ohio",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "OK",
+      "name": "Oklahoma",
+      "region": "Равнины",
+      "climate_score": 6,
+      "priority": 2,
+      "gateways": [
+        "DFW"
+      ],
+      "analysis": "Недорогие лоты, относительно мягкая зима. Грозы, град, жара и индивидуальные zoning/covenants требуют проверки.",
+      "total": 14,
+      "photo_candidates": 14,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/oklahoma/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/oklahoma",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "OR",
+      "name": "Oregon",
+      "region": "Тихоокеанский",
+      "climate_score": 4,
+      "priority": 3,
+      "gateways": [
+        "PDX",
+        "SEA",
+        "SFO"
+      ],
+      "analysis": "Дешёвая земля часто в Klamath/Lake County, а не в мягком прибрежном климате. Холод, огонь и автономные коммуникации.",
+      "total": 22,
+      "photo_candidates": 22,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/oregon/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/oregon",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "PA",
+      "name": "Pennsylvania",
+      "region": "Северо-восток",
+      "climate_score": 4,
+      "priority": 1,
+      "gateways": [
+        "NYC",
+        "PHL",
+        "IAD"
+      ],
+      "analysis": "Хорошие EU-шлюзы и городские лоты. Проверять township zoning, гараж как самостоятельное использование и обязанности по аварийному зданию.",
+      "total": 18,
+      "photo_candidates": 18,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/pennsylvania/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/pennsylvania",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "RI",
+      "name": "Rhode Island",
+      "region": "Северо-восток",
+      "climate_score": 4,
+      "priority": 4,
+      "gateways": [
+        "BOS"
+      ],
+      "analysis": "В просмотренных источниках подходящих фотообъявлений нет. Очень маленький рынок в этом бюджете; наблюдение продолжается.",
+      "total": 0,
+      "photo_candidates": 0,
+      "shortfall": 10,
+      "coverage": "Недостаточно проверенных кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/rhode-island/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/rhode-island",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "SC",
+      "name": "South Carolina",
+      "region": "Юг",
+      "climate_score": 8,
+      "priority": 1,
+      "gateways": [
+        "CLT",
+        "ATL"
+      ],
+      "analysis": "Тёплый сезон, земля в бюджете встречается. Искать сухую площадку с подъездом; coastal flood/HOA не игнорировать.",
+      "total": 13,
+      "photo_candidates": 13,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/south-carolina/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/south-carolina",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "SD",
+      "name": "South Dakota",
+      "region": "Равнины",
+      "climate_score": 2,
+      "priority": 3,
+      "gateways": [
+        "MSP",
+        "DEN"
+      ],
+      "analysis": "Есть дешёвые городские лоты, но зимняя работа и дальний трансфер неудобны. Проверять строительные обязательства.",
+      "total": 11,
+      "photo_candidates": 11,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/south-dakota/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/south-dakota",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "TN",
+      "name": "Tennessee",
+      "region": "Юг",
+      "climate_score": 8,
+      "priority": 1,
+      "gateways": [
+        "BNA",
+        "ATL"
+      ],
+      "analysis": "Один из первых регионов для поиска базы. Проверять склон, driveway easement и реальные границы: гараж на фото иногда исключён из продажи.",
+      "total": 17,
+      "photo_candidates": 17,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/tennessee/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/tennessee",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "TX",
+      "name": "Texas",
+      "region": "Юг",
+      "climate_score": 7,
+      "priority": 2,
+      "gateways": [
+        "DFW",
+        "IAH"
+      ],
+      "analysis": "Много дешёвой земли на западе, обычно далеко от DFW/IAH. Жара, вода, электричество и подъезд определяют полную стоимость.",
+      "total": 19,
+      "photo_candidates": 19,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/texas/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/texas",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "UT",
+      "name": "Utah",
+      "region": "Горный",
+      "climate_score": 3,
+      "priority": 3,
+      "gateways": [
+        "LAS",
+        "DEN"
+      ],
+      "analysis": "Бюджетные удалённые участки, холодная зима и большие расстояния. Само отсутствие HOA не разрешает RV или ремонт.",
+      "total": 14,
+      "photo_candidates": 14,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/utah/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/utah",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "VT",
+      "name": "Vermont",
+      "region": "Северо-восток",
+      "climate_score": 2,
+      "priority": 4,
+      "gateways": [
+        "BOS",
+        "NYC"
+      ],
+      "analysis": "Мало результатов, снежная зима и непростой доступ. Не приоритет без готового отапливаемого бокса.",
+      "total": 1,
+      "photo_candidates": 1,
+      "shortfall": 9,
+      "coverage": "Недостаточно проверенных кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/vermont/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/vermont",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "VA",
+      "name": "Virginia",
+      "region": "Аппалачи",
+      "climate_score": 7,
+      "priority": 1,
+      "gateways": [
+        "IAD",
+        "CLT"
+      ],
+      "analysis": "IAD может быть выгоден через UK. Недорогая земля чаще далеко на юго-западе; склон и длинный трансфер учитывать заранее.",
+      "total": 14,
+      "photo_candidates": 14,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/virginia/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/virginia",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "WA",
+      "name": "Washington",
+      "region": "Тихоокеанский",
+      "climate_score": 4,
+      "priority": 3,
+      "gateways": [
+        "SEA"
+      ],
+      "analysis": "Дешёвый билет до SEA возможен, но дешёвые участки в основном далеко от западных городов. Восточный климат холоднее и суше.",
+      "total": 3,
+      "photo_candidates": 3,
+      "shortfall": 7,
+      "coverage": "Недостаточно проверенных кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/washington/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/washington",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "WV",
+      "name": "West Virginia",
+      "region": "Аппалачи",
+      "climate_score": 6,
+      "priority": 1,
+      "gateways": [
+        "IAD",
+        "CLT"
+      ],
+      "analysis": "Полезный рынок небольших лотов. Главные вопросы — паводок, уклон, дорога и расстояние от IAD; коммунальный лот лучше лесного склона.",
+      "total": 13,
+      "photo_candidates": 13,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/west-virginia/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/west-virginia",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "WI",
+      "name": "Wisconsin",
+      "region": "Средний Запад",
+      "climate_score": 2,
+      "priority": 2,
+      "gateways": [
+        "ORD",
+        "MSP"
+      ],
+      "analysis": "Есть бюджетные лоты, иногда коммунальные. Зима и ограничения рекреационных subdivisions снижают пригодность для ремонта.",
+      "total": 15,
+      "photo_candidates": 15,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/wisconsin/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/wisconsin",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    },
+    {
+      "code": "WY",
+      "name": "Wyoming",
+      "region": "Горный",
+      "climate_score": 2,
+      "priority": 4,
+      "gateways": [
+        "DEN"
+      ],
+      "analysis": "Недостаточно хороших результатов; ветер, мороз и удалённость. Приоритет ниже рынков с существующими гаражами.",
+      "total": 1,
+      "photo_candidates": 1,
+      "shortfall": 9,
+      "coverage": "Недостаточно проверенных кандидатов",
+      "sources": [
+        "https://www.landsearch.com/properties/wyoming/search/under-15000",
+        "https://www.landcentury.com/land-for-sale/wyoming",
+        "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state"
+      ]
+    }
+  ],
+  "method": "Обзор всех 50 штатов, затем отбор реальных объявлений. Приоритет и климат — качественные оценки автора. Недобор не заполняется выдуманными объектами. Разрешение личного ремонта не подтверждено ни у одного нового объекта."
+}

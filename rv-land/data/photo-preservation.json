@@ -1,0 +1,9 @@
+{
+  "updated_at": "2026-09-13T23:16:29+00:00",
+  "result": {
+    "missing": 1,
+    "cached": 642,
+    "saved": 1
+  },
+  "method": "Original image bytes copied from public listing image URLs. No image alteration. Files retained in Git."
+}
