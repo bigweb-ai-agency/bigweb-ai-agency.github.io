@@ -3,76 +3,52 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>RV Land Watch</title>
+  <title>RV Property Watch</title>
   <link rel="preconnect" href="https://unpkg.com">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
   <style>
-    :root{--bg:#0b1020;--panel:#121a2d;--panel2:#182238;--text:#eef3ff;--muted:#9caac4;--line:#26334f;--accent:#79c8ff;--good:#7de39a;--warn:#ffd36f;--danger:#ff8f8f}
-    *{box-sizing:border-box} html,body{height:100%;margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text)}
+    :root{--bg:#0b1020;--panel:#121a2d;--panel2:#182238;--text:#eef3ff;--muted:#9caac4;--line:#26334f;--accent:#79c8ff;--good:#7de39a;--warn:#ffd36f}
+    *{box-sizing:border-box}html,body{height:100%;margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text)}
     body{display:grid;grid-template-rows:auto 1fr;overflow:hidden}
     header{display:flex;gap:18px;align-items:center;justify-content:space-between;padding:14px 18px;border-bottom:1px solid var(--line);background:rgba(11,16,32,.96)}
-    .brand h1{font-size:19px;margin:0 0 3px}.brand p{margin:0;color:var(--muted);font-size:12px}
-    .stats{display:flex;gap:10px;flex-wrap:wrap}.stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:7px 10px;font-size:12px}.stat b{font-size:14px}
-    main{display:grid;grid-template-columns:minmax(330px,390px) 1fr;min-height:0}
-    aside{overflow:auto;border-right:1px solid var(--line);background:var(--panel)}
-    .filters{position:sticky;top:0;z-index:10;background:rgba(18,26,45,.97);padding:12px;border-bottom:1px solid var(--line)}
-    .filter-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px}.filter-row:last-child{margin-bottom:0}
-    button,select,input{font:inherit}.chip{border:1px solid var(--line);background:var(--panel2);color:var(--text);border-radius:999px;padding:7px 10px;cursor:pointer;font-size:12px}.chip.active{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent) inset;color:#fff}
-    .pricebox{display:flex;align-items:center;gap:8px;width:100%;font-size:12px;color:var(--muted)} .pricebox input{width:100%}
-    .list{padding:10px}.card{background:#0f1729;border:1px solid var(--line);border-radius:14px;padding:12px;margin-bottom:10px;cursor:pointer;transition:.15s}.card:hover{border-color:#40547d;transform:translateY(-1px)}.card.selected{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent) inset}
-    .cardtop{display:flex;justify-content:space-between;gap:8px}.title{font-weight:700;font-size:14px}.price{font-weight:800;font-size:16px}.meta{font-size:12px;color:var(--muted);margin-top:3px}.badges{display:flex;gap:6px;flex-wrap:wrap;margin:9px 0}.badge{font-size:10px;padding:4px 6px;border-radius:999px;background:#1d2942;border:1px solid #30405f;color:#cfdbf3}.badge.good{color:#b8f5c8;border-color:#376846}.badge.warn{color:#ffe49b;border-color:#745d24}
-    .details{font-size:11px;line-height:1.45;color:#c9d3e7}.details div{margin-top:3px}.link{display:inline-block;margin-top:8px;color:var(--accent);font-size:11px;text-decoration:none}.link:hover{text-decoration:underline}
-    #map{height:100%;width:100%}.leaflet-container{background:#d9e3ec}.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:#111a2b;color:var(--text)}.leaflet-popup-content{margin:11px 13px;line-height:1.35}.popup-price{font-weight:800;font-size:16px}.popup-meta{color:#b9c4d9;font-size:12px;margin:4px 0}.popup-link{color:#8bd3ff}
-    .legend{position:absolute;right:12px;bottom:24px;z-index:500;background:rgba(11,16,32,.93);border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:11px;box-shadow:0 8px 25px rgba(0,0,0,.25)}.legend div{display:flex;align-items:center;gap:6px;margin:3px 0}.dot{width:10px;height:10px;border-radius:50%}.dot.mn{background:#58a6ff}.dot.app{background:#75df93}
-    .empty{padding:24px;color:var(--muted);text-align:center;font-size:13px}.footnote{font-size:10px;color:var(--muted);padding:0 12px 14px;line-height:1.4}
+    .brand h1{font-size:19px;margin:0 0 3px}.brand p{margin:0;color:var(--muted);font-size:12px}.stats{display:flex;gap:10px;flex-wrap:wrap}.stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:7px 10px;font-size:12px}.stat b{font-size:14px}
+    main{display:grid;grid-template-columns:minmax(350px,430px) 1fr;min-height:0}aside{overflow:auto;border-right:1px solid var(--line);background:var(--panel)}
+    .filters{position:sticky;top:0;z-index:10;background:rgba(18,26,45,.97);padding:12px;border-bottom:1px solid var(--line)}.filter-row{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:8px}.filter-row:last-child{margin-bottom:0}
+    button,input{font:inherit}.chip{border:1px solid var(--line);background:var(--panel2);color:var(--text);border-radius:999px;padding:7px 10px;cursor:pointer;font-size:12px}.chip.active{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent) inset}.pricebox{display:flex;align-items:center;gap:8px;width:100%;font-size:12px;color:var(--muted)}.pricebox input{width:100%}
+    .list{padding:10px}.card{background:#0f1729;border:1px solid var(--line);border-radius:14px;padding:12px;margin-bottom:10px;cursor:pointer;transition:.15s}.card:hover{border-color:#40547d;transform:translateY(-1px)}.card.selected{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent) inset}.cardtop{display:flex;justify-content:space-between;gap:10px}.title{font-weight:700;font-size:14px}.price{font-weight:800;font-size:16px;white-space:nowrap}.meta{font-size:12px;color:var(--muted);margin-top:3px}.badges{display:flex;gap:6px;flex-wrap:wrap;margin:9px 0}.badge{font-size:10px;padding:4px 6px;border-radius:999px;background:#1d2942;border:1px solid #30405f;color:#cfdbf3}.badge.good{color:#b8f5c8;border-color:#376846}.badge.warn{color:#ffe49b;border-color:#745d24}.details{font-size:11px;line-height:1.45;color:#c9d3e7}.details div{margin-top:3px}.link{display:inline-block;margin-top:8px;color:var(--accent);font-size:11px;text-decoration:none}.link:hover{text-decoration:underline}
+    #map{height:100%;width:100%}.leaflet-container{background:#d9e3ec}.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:#111a2b;color:var(--text)}.leaflet-popup-content{margin:11px 13px;line-height:1.35}.popup-price{font-weight:800;font-size:16px}.popup-meta{color:#b9c4d9;font-size:12px;margin:4px 0}.popup-link{color:#8bd3ff}.legend{position:absolute;right:12px;bottom:24px;z-index:500;background:rgba(11,16,32,.93);border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:11px;box-shadow:0 8px 25px rgba(0,0,0,.25)}.legend div{display:flex;align-items:center;gap:6px;margin:3px 0}.dot{width:10px;height:10px;border-radius:50%}.dot.mn{background:#3182f6}.dot.ia{background:#f6a931}.dot.app{background:#31b85b}.dot.other{background:#a66cff}.empty{padding:24px;color:var(--muted);text-align:center;font-size:13px}.footnote{font-size:10px;color:var(--muted);padding:0 12px 14px;line-height:1.4}
     @media(max-width:800px){body{overflow:auto;display:block}header{align-items:flex-start}.stats{display:none}main{display:block}aside{border:0;overflow:visible}.filters{position:relative}#map{height:55vh}.mapwrap{position:relative}.list{padding-bottom:30px}}
   </style>
 </head>
 <body>
-<header>
-  <div class="brand">
-    <h1>RV Land Watch</h1>
-    <p>Cheap U.S. land for parking, maintaining and repairing a campervan</p>
-  </div>
-  <div class="stats" id="stats"></div>
-</header>
+<header><div class="brand"><h1>RV Property Watch</h1><p>Cheap U.S. land, garages, fixer-uppers and workshops for a campervan base</p></div><div class="stats" id="stats"></div></header>
 <main>
   <aside>
     <div class="filters">
       <div class="filter-row">
-        <button class="chip active" data-region="all">All</button>
-        <button class="chip" data-region="Minnesota">Minnesota</button>
-        <button class="chip" data-region="Appalachia">Appalachia</button>
+        <button class="chip active" data-region="all">All</button><button class="chip" data-region="Minnesota">Minnesota</button><button class="chip" data-region="Iowa">Iowa</button><button class="chip" data-region="Appalachia">Appalachia</button><button class="chip" data-region="Midwest">Other Midwest</button>
       </div>
-      <div class="pricebox"><span>Max</span><input id="price" type="range" min="5000" max="15000" step="500" value="10000"><strong id="priceLabel">$10,000</strong></div>
+      <div class="pricebox"><span>Max</span><input id="price" type="range" min="3000" max="15000" step="500" value="15000"><strong id="priceLabel">$15,000</strong></div>
     </div>
     <div class="list" id="list"></div>
-    <div class="footnote">RV use, long-term occupancy and mechanical work can be regulated separately even on “unrestricted” land. Verify county/city zoning and code enforcement before purchase.</div>
+    <div class="footnote">Some pins are city-level when the source does not expose exact coordinates. RV parking, long-term occupancy and mechanical work may be regulated separately. Verify city/county zoning before purchase.</div>
   </aside>
-  <div class="mapwrap" style="position:relative;min-height:0"><div id="map"></div><div class="legend"><div><span class="dot mn"></span>Minnesota</div><div><span class="dot app"></span>Appalachia / Upper South</div></div></div>
+  <div class="mapwrap" style="position:relative;min-height:0"><div id="map"></div><div class="legend"><div><span class="dot mn"></span>Minnesota</div><div><span class="dot ia"></span>Iowa</div><div><span class="dot app"></span>Appalachia</div><div><span class="dot other"></span>Other Midwest</div></div></div>
 </main>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
 <script>
 const money=n=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(n);
-const map=L.map('map',{zoomControl:true}).setView([40.2,-91.8],5);
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
-let data=[],markers=new Map(),region='all',maxPrice=10000,selected=null;
-const list=document.getElementById('list'), stats=document.getElementById('stats'), price=document.getElementById('price'), priceLabel=document.getElementById('priceLabel');
-function markerColor(x){return x.region==='Minnesota'?'#3182f6':'#31b85b'}
-function filtered(){return data.filter(x=>x.status==='active'&&x.price<=maxPrice&&(region==='all'||x.region===region))}
-function popup(x){return `<div><b>${x.title}</b><div class="popup-price">${money(x.price)}</div><div class="popup-meta">${x.city}, ${x.state} · ${x.acres} ac · score ${x.score}/10</div><div>${x.rv}</div><a class="popup-link" href="${x.url}" target="_blank" rel="noopener">Open listing ↗</a></div>`}
-function render(){
-  const rows=filtered();
-  markers.forEach(m=>map.removeLayer(m)); markers.clear();
-  rows.forEach(x=>{const m=L.circleMarker([x.lat,x.lng],{radius:9,weight:2,color:'#fff',fillColor:markerColor(x),fillOpacity:.92}).addTo(map).bindPopup(popup(x));m.on('click',()=>select(x.id,false));markers.set(x.id,m)});
-  list.innerHTML=rows.length?rows.map(x=>`<article class="card ${selected===x.id?'selected':''}" data-id="${x.id}"><div class="cardtop"><div><div class="title">${x.title}</div><div class="meta">${x.city}, ${x.state} · ${x.county} County</div></div><div class="price">${money(x.price)}</div></div><div class="badges"><span class="badge good">${x.acres} ac</span><span class="badge good">fit ${x.score}/10</span>${x.state==='MN'?`<span class="badge">~${x.minneapolis_miles_approx} mi from Minneapolis</span>`:''}${/Available|Public water|well/i.test(x.electricity+' '+x.water)?'<span class="badge good">utilities nearby</span>':''}<span class="badge warn">verify zoning</span></div><div class="details"><div><b>RV:</b> ${x.rv}</div><div><b>Power:</b> ${x.electricity}</div><div><b>Water:</b> ${x.water}</div><div><b>Restrictions:</b> ${x.restrictions}</div><div><b>Terrain:</b> ${x.terrain}</div>${x.price_note?`<div><b>Price:</b> ${x.price_note}</div>`:''}</div><a class="link" href="${x.url}" target="_blank" rel="noopener">Open original listing ↗</a></article>`).join(''):'<div class="empty">No listings match these filters.</div>';
-  document.querySelectorAll('.card').forEach(el=>el.addEventListener('click',e=>{if(e.target.closest('a'))return;select(el.dataset.id,true)}));
-  stats.innerHTML=`<div class="stat"><b>${rows.length}</b> visible</div><div class="stat"><b>${rows.filter(x=>x.state==='MN').length}</b> Minnesota</div><div class="stat"><b>${rows.filter(x=>x.region==='Appalachia').length}</b> Appalachia</div>`;
-}
+const map=L.map('map',{zoomControl:true}).setView([42.5,-93.5],5);L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
+let data=[],markers=new Map(),region='all',maxPrice=15000,selected=null;const list=document.getElementById('list'),stats=document.getElementById('stats'),price=document.getElementById('price'),priceLabel=document.getElementById('priceLabel');
+function markerColor(x){if(x.region==='Minnesota')return '#3182f6';if(x.region==='Iowa')return '#f6a931';if(x.region==='Appalachia')return '#31b85b';return '#a66cff'}
+function filtered(){return data.filter(x=>x.status==='active'&&x.price<=maxPrice&&(region==='all'||x.region===region)).sort((a,b)=>b.score-a.score||a.price-b.price)}
+function popup(x){return `<div><b>${x.title}</b><div class="popup-price">${money(x.price)}</div><div class="popup-meta">${x.city}, ${x.state} · ${x.acres} ac · ${x.kind||'property'} · score ${x.score}/10</div>${x.garage_workshop&&x.garage_workshop!=='None'?`<div><b>Garage/workshop:</b> ${x.garage_workshop}</div>`:''}<div>${x.rv}</div><a class="popup-link" href="${x.url}" target="_blank" rel="noopener">Open listing ↗</a></div>`}
+function render(){const rows=filtered();markers.forEach(m=>map.removeLayer(m));markers.clear();rows.forEach(x=>{const m=L.circleMarker([x.lat,x.lng],{radius:9,weight:2,color:'#fff',fillColor:markerColor(x),fillOpacity:.92}).addTo(map).bindPopup(popup(x));m.on('click',()=>select(x.id,false));markers.set(x.id,m)});
+list.innerHTML=rows.length?rows.map(x=>`<article class="card ${selected===x.id?'selected':''}" data-id="${x.id}"><div class="cardtop"><div><div class="title">${x.title}</div><div class="meta">${x.city}, ${x.state} · ${x.county} County · ${x.kind||'property'}</div></div><div class="price">${money(x.price)}</div></div><div class="badges"><span class="badge good">${x.acres} ac</span><span class="badge good">fit ${x.score}/10</span>${x.minneapolis_miles_approx?`<span class="badge">~${x.minneapolis_miles_approx} mi from Minneapolis</span>`:''}${x.garage_workshop&&x.garage_workshop!=='None'?'<span class="badge good">garage/workshop</span>':''}${/connected|available|public water|city water|well/i.test((x.electricity||'')+' '+(x.water||''))?'<span class="badge good">utilities</span>':''}<span class="badge warn">verify zoning</span></div><div class="details"><div><b>RV/use:</b> ${x.rv}</div>${x.garage_workshop?`<div><b>Garage/workshop:</b> ${x.garage_workshop}</div>`:''}<div><b>Power:</b> ${x.electricity||'Not confirmed'}</div><div><b>Water:</b> ${x.water||'Not confirmed'}</div><div><b>Sewer/septic:</b> ${x.septic||'Not confirmed'}</div><div><b>Restrictions:</b> ${x.restrictions}</div><div><b>Site:</b> ${x.terrain}</div>${x.price_note?`<div><b>Price:</b> ${x.price_note}</div>`:''}</div><a class="link" href="${x.url}" target="_blank" rel="noopener">Open original listing ↗</a></article>`).join(''):'<div class="empty">No listings match these filters.</div>';
+document.querySelectorAll('.card').forEach(el=>el.addEventListener('click',e=>{if(e.target.closest('a'))return;select(el.dataset.id,true)}));stats.innerHTML=`<div class="stat"><b>${rows.length}</b> visible</div><div class="stat"><b>${rows.filter(x=>x.region==='Minnesota').length}</b> MN</div><div class="stat"><b>${rows.filter(x=>x.region==='Iowa').length}</b> IA</div><div class="stat"><b>${rows.filter(x=>(x.garage_workshop||'None')!=='None').length}</b> with building/garage</div>`}
 function select(id,pan=true){selected=id;render();const m=markers.get(id);if(m){if(pan)map.setView(m.getLatLng(),10,{animate:true});m.openPopup()}}
-document.querySelectorAll('[data-region]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('[data-region]').forEach(x=>x.classList.remove('active'));b.classList.add('active');region=b.dataset.region;selected=null;render()}));
-price.addEventListener('input',()=>{maxPrice=Number(price.value);priceLabel.textContent=money(maxPrice);selected=null;render()});
-fetch('./listings.json',{cache:'no-store'}).then(r=>r.json()).then(j=>{data=j.listings||[];render();const rows=filtered();if(rows.length){const bounds=L.latLngBounds(rows.map(x=>[x.lat,x.lng]));map.fitBounds(bounds.pad(.16))}}).catch(err=>{list.innerHTML='<div class="empty">Could not load listings.json</div>';console.error(err)});
+document.querySelectorAll('[data-region]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('[data-region]').forEach(x=>x.classList.remove('active'));b.classList.add('active');region=b.dataset.region;selected=null;render()}));price.addEventListener('input',()=>{maxPrice=Number(price.value);priceLabel.textContent=money(maxPrice);selected=null;render()});
+fetch('./listings.json?ts='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(j=>{data=j.listings||[];render();const rows=filtered();if(rows.length){const bounds=L.latLngBounds(rows.map(x=>[x.lat,x.lng]));map.fitBounds(bounds.pad(.16))}}).catch(err=>{list.innerHTML='<div class="empty">Could not load listings.json</div>';console.error(err)});
 </script>
 </body>
 </html>
