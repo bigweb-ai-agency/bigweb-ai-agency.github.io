@@ -207,7 +207,7 @@ $('fitMap').addEventListener('click',fitMap);$('export').addEventListener('click
 $('longFlights').addEventListener('change',renderFlights);$('costForm').addEventListener('input',cost);$('costForm').addEventListener('submit',e=>e.preventDefault());
 async function init(){
  try{
-  const files=await Promise.all(['listings','states','flights','gateways'].map(async name=>{const r=await fetch('data/'+name+'.json');if(!r.ok)throw Error(name+' '+r.status);return r.json();}));
+  const files=await Promise.all(['listings','states','flights','gateways'].map(async name=>{const r=await fetch('data/'+name+'.json',{cache:'no-cache'});if(!r.ok)throw Error(name+' '+r.status);return r.json();}));
   listings=files[0].listings;states=files[1].states;flightData=files[2];gateways=files[3].airports;byId=new Map(listings.map(x=>[x.id,x]));
   $('updated').textContent='База обновлена '+date(files[0].updated_at);
   const eligible=listings.filter(x=>!x.screening_issue&&x.image_url&&['active','pending'].includes(x.status));
@@ -216,7 +216,7 @@ async function init(){
   $('region').insertAdjacentHTML('beforeend',[...new Set(states.map(s=>s.region))].sort().map(r=>'<option>'+esc(r)+'</option>').join(''));
   initMap();applyFilters();renderStates();renderFlights();renderGuide();cost();
   if(location.hash.startsWith('#property='))showDetail(decodeURIComponent(location.hash.slice(10)));
-  const mr=await fetch('data/monitor.json');if(mr.ok){const m=await mr.json();$('monitorStatus').innerHTML='<p>'+esc(m.schedule||'Расписание в настройке')+'</p><p>Последний запуск: '+date(m.last_run)+'. '+esc(m.summary||'')+'</p>'+(m.run_url?link(m.run_url,'Журнал запуска ↗'):'');}else $('monitorStatus').textContent='Состояние ночного запуска пока не опубликовано.';
+  const mr=await fetch('data/monitor.json',{cache:'no-cache'});if(mr.ok){const m=await mr.json();$('monitorStatus').innerHTML='<p>'+esc(m.schedule||'Расписание в настройке')+'</p><p>Последний запуск: '+date(m.last_run)+'. '+esc(m.summary||'')+'</p>'+(m.run_url?link(m.run_url,'Журнал запуска ↗'):'');}else $('monitorStatus').textContent='Состояние ночного запуска пока не опубликовано.';
  }catch(error){$('updated').textContent='Не удалось загрузить базу';$('cards').innerHTML='<p class="empty">Ошибка загрузки данных. '+esc(error.message)+'. Обнови страницу или открой JSON по ссылке в разделе методики.</p>';console.error(error);}
 }
 init();
