@@ -7,7 +7,7 @@ import argparse, datetime as dt, os, sys
 from collect_landcentury import Reader, STATES, slug, property_url, CACHE
 from build_data import DATA, read, write, landcentury_records, acceptable, merge_records, NOW
 from make_analysis import run as analyze
-from cache_photos import preserve
+from cache_photos import preserve, require_new_photos
 
 def run(args):
     old=read(DATA/'listings.json',{}).get('listings',[])
@@ -58,6 +58,8 @@ def run(args):
         for k,v in corrections.get(x['id'],{}).items():
             if k not in ('price','total_known','status','status_basis','source_crawled','last_verified','image_url','image_source_url'):x[k]=v
     merged,photo_counts=preserve(merged)
+    merged,photo_rejected=require_new_photos(old,merged)
+    rejected.extend(photo_rejected)
     added=len(merged)-len(old)
     old_by={x['id']:x for x in old}
     material=sum(x['id'] in old_by and (x.get('price'),x.get('status'),x.get('image_url'))!=(old_by[x['id']].get('price'),old_by[x['id']].get('status'),old_by[x['id']].get('image_url')) for x in merged)

@@ -3,8 +3,24 @@ from pathlib import Path
 from unittest.mock import patch
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 import build_data as b
+import cache_photos as photos
 
 class ResearchDataTests(unittest.TestCase):
+    def test_failed_new_photo_keeps_previous_file_and_rejects_unillustrated_new_record(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);assets=root/'assets'/'listings';assets.mkdir(parents=True)
+            (assets/'old.jpg').write_bytes(b'previous original photo')
+            old={'id':'old','url':'https://example.org/old','state':'IL','image_url':'assets/listings/old.jpg'}
+            update=dict(old,image_url='https://cdn.landsearch.com/new.jpg',photo_history=[{'path':old['image_url']}])
+            new={'id':'new','url':'https://example.org/new','state':'IL','image_url':'https://cdn.landsearch.com/unavailable.jpg'}
+            with patch.object(photos,'ROOT',root),patch.object(photos,'ASSETS',assets),patch.object(photos.requests,'get',side_effect=photos.requests.Timeout):
+                retained,status=photos.fetch_photo(update)
+                self.assertEqual(retained['image_url'],old['image_url'])
+                self.assertIn('previous_preserved',status)
+                kept,rejected=photos.require_new_photos([old],[retained,new])
+                self.assertEqual([x['id'] for x in kept],['old'])
+                self.assertEqual(rejected[0]['reason'],'new_photo_not_preserved')
+
     def test_image_error_punctuation_is_not_part_of_href(self):
         self.assertEqual(b.clean_image_url('https://cdn.landsearch.com/real.jpg:'),'https://cdn.landsearch.com/real.jpg')
         self.assertEqual(b.clean_image_url('https://images.homes.com/real.jpg?t=p'),'https://images.homes.com/real.jpg?t=p')
