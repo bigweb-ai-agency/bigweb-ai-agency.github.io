@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T01:05:00+03:00",
+  "updated_at": "2026-09-14T01:12:00+03:00",
   "overrides": {
     "mn-welcome-hulseman-7141779": {
       "status": "pending",
@@ -19,9 +19,9 @@
       "kind": "house+garage",
       "price": 10500,
       "acres": 0.071,
-      "lat": 41.5934,
-      "lng": -87.3464,
-      "coord_precision": "city",
+      "lat": 41.58,
+      "lng": -87.32,
+      "coord_precision": "listing-rounded",
       "status": "active",
       "score": 8.6,
       "flight_gateway": "Chicago O'Hare (ORD)",
@@ -65,6 +65,7 @@
       "terrain": "Urban residential lot",
       "dimensions": "52 x 92.5 ft / about 4,792 sq ft",
       "price_note": "Current Zillow check shows $10,400; listing updated within the last day",
+      "image_url": "https://photos.zillowstatic.com/fp/ebb19bf81661771e2f1b7d51cae2cb64-cc_ft_960.jpg",
       "url": "https://www.zillow.com/homedetails/2631-Brownell-Blvd-Flint-MI-48504/73942827_zpid/",
       "verified": "2026-09-14"
     },
