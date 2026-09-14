@@ -1,0 +1,30 @@
+{
+  "runs": [
+    {
+      "date": "2026-09-14T02:15:55+00:00",
+      "states": [
+        "ND",
+        "MT",
+        "WY"
+      ],
+      "added_ids": [
+        "mls-wy-20240719",
+        "mls-nd-6693950"
+      ],
+      "scope": "Supplemental public search for garages and underserved states. No verified qualifying garage found. Added two residential land candidates with utility claims; RV uses remain unknown.",
+      "deferred": [
+        {
+          "url": "https://www.homes.com/property/506-rodeo-st-rawlins-wy/b117m2sd0l3m6/",
+          "reason": "Source photograph could not be preserved; do not publish without it."
+        }
+      ],
+      "access": "Homes.com HTML and image CDN 403; direct requests stopped. Redfin HTML 429; stopped. Used separate already-indexed public MLS sources and available source photographs.",
+      "github_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/34795279209",
+      "next_states": [
+        "CT",
+        "NJ",
+        "DE"
+      ]
+    }
+  ]
+}

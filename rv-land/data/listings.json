@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-14T01:14:48+00:00",
+  "updated_at": "2026-09-14T02:15:55+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -87868,6 +87868,270 @@
         "Дорога /10": 3
       },
       "score": 29
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-09-14T02:15:55+00:00",
+      "last_seen": "2026-09-14T02:15:55+00:00",
+      "last_verified": "2026-09-14T02:15:55+00:00",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [
+        "Городская улица и cul-de-sac — по MLS. Электричество, вода и sewer доступны; подключения не подтверждены.",
+        "Налоги расходятся между MLS и public records."
+      ],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "available",
+      "water": "available",
+      "sewer": "available",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "flags": [
+        "Городской residential lot: возможность хранить и ремонтировать RV без жилого дома не подтверждена.",
+        "Цена $12,500 относится к одному лоту; пакет из четырёх — $45,000.",
+        "Координаты — интерполяция адреса US Census, не границы участка; Street/Court в источниках различаются.",
+        "На фото видны уклон и неровный грунт; оценить въезд, разворот и цену ровной рабочей площадки. Здание на фото не заявлено предметом продажи."
+      ],
+      "evidence_quote": null,
+      "id": "mls-wy-20240719",
+      "source": "Homes.com / Wyoming MLS",
+      "url": "https://www.homes.com/property/504-rodeo-st-rawlins-wy/n9nm4z7k04rvw/",
+      "title": "504 Rodeo Court",
+      "address": "504 Rodeo Ct",
+      "city": "Rawlins",
+      "state": "WY",
+      "county": "Carbon",
+      "zip": "82301",
+      "price": 12500,
+      "acres": 0.18,
+      "lat": 41.79191,
+      "lng": -107.230561,
+      "parcel": "21871622700100",
+      "mls": "20240719",
+      "zoning": "Carbon-RD — по MLS; фактическую юрисдикцию уточнить",
+      "image_url": "assets/listings/d3ac74b50a84f1e5a4f0.jpg",
+      "image_source_url": "https://www.redfin.com/WY/Rawlins/504-Rodeo-Ct-82301/home/192536395",
+      "source_crawled": "Homes.com: last month; Redfin: 2 months ago",
+      "source_updated": "2026-05-21",
+      "taxes_note": "MLS указывает $600 за 2024; таблица public records — $110 за 2025. Проверить счёт округа.",
+      "kind": "land",
+      "source_id": "20240719",
+      "status": "active",
+      "status_basis": "indexed_public_page",
+      "known_fees": 0,
+      "total_known": 12500,
+      "price_evidence": "Полная asking price в карточке; месячный расчёт ипотеки исключён. Неизвестные closing и подключения отдельно.",
+      "coord_precision": "address_interpolation",
+      "garage_note": "Существующее здание или гараж не указаны.",
+      "utility_note": "Электричество, вода и sewer доступны по MLS; действующее подключение не подтверждено.",
+      "legacy": false,
+      "image_credit": "Listing brokerage / MLS via Redfin",
+      "alternate_urls": [
+        "https://www.homes.com/property/504-rodeo-st-rawlins-wy/n9nm4z7k04rvw/",
+        "https://www.redfin.com/WY/Rawlins/504-Rodeo-Ct-82301/home/192536395"
+      ],
+      "coordinate_source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=504+Rodeo+Ct%2C+Rawlins%2C+WY+82301&benchmark=Public_AR_Current&format=json",
+      "image_remote_url": "https://ssl.cdn-redfin.com/photo/607/bigphoto/719/20240719_1.jpg",
+      "photo_preserved_at": "2026-09-14T02:15:55+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/d3ac74b50a84f1e5a4f0.jpg",
+          "source": "https://www.redfin.com/WY/Rawlins/504-Rodeo-Ct-82301/home/192536395",
+          "remote_url": "https://ssl.cdn-redfin.com/photo/607/bigphoto/719/20240719_1.jpg",
+          "date": "2026-09-14T02:15:55+00:00"
+        }
+      ],
+      "price_history": [
+        {
+          "date": "2026-09-14T02:15:55+00:00",
+          "price": 12500,
+          "source": "https://www.homes.com/property/504-rodeo-st-rawlins-wy/n9nm4z7k04rvw/"
+        }
+      ],
+      "status_history": [],
+      "region": "Горный",
+      "screening_issue": null,
+      "climate_note": "Недостаточно хороших результатов; ветер, мороз и удалённость. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "DEN",
+          "name": "Denver International Airport",
+          "straight_km": 304,
+          "drive_km_estimate": 380,
+          "drive_hours_estimate": 5.1,
+          "flight_min_eur": 602,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 933,
+          "drive_km_estimate": 1166,
+          "drive_hours_estimate": 15.6,
+          "flight_min_eur": 514,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "PHX",
+          "name": "Phoenix Sky Harbor International Airport",
+          "straight_km": 1020,
+          "drive_km_estimate": 1274,
+          "drive_hours_estimate": 17.0,
+          "flight_min_eur": 739,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1182,
+      "score_parts": {
+        "Цена /25": 9,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 3,
+        "Сезон /10": 2,
+        "Дорога /10": 5
+      },
+      "score": 19
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-09-14T02:15:55+00:00",
+      "last_seen": "2026-09-14T02:15:55+00:00",
+      "last_verified": "2026-09-14T02:15:55+00:00",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [
+        "Участок описан как ровный; electricity, water и sewer доступны, но none connected.",
+        "В истории есть снятие и повторная публикация 01.04.2026; наличие подтверждено только поисковым снимком.",
+        "Фото показывает участок и окрестности сверху; точные границы должны подтверждаться survey, а не изображением."
+      ],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "available",
+      "water": "available",
+      "sewer": "available",
+      "no_hoa": "seller_claim",
+      "road_access": "unknown",
+      "flags": [
+        "Жилая застройка: no HOA не подтверждает хранение, проживание или ремонт RV.",
+        "Площадь 0.55 ac / 23,958 sq ft расходится с размерами 161×50 ft в MLS. Проверить survey и parcel.",
+        "Координаты — интерполяция адреса US Census, не кадастровая точка."
+      ],
+      "evidence_quote": null,
+      "id": "mls-nd-6693950",
+      "source": "Homes.com / NorthstarMLS",
+      "url": "https://www.homes.com/property/301-5th-st-s-fairmount-nd/543g5dzkt1wkt/",
+      "title": "301 5th Street S",
+      "address": "301 5th St S",
+      "city": "Fairmount",
+      "state": "ND",
+      "county": "Richland",
+      "zip": "58030",
+      "price": 7500,
+      "acres": 0.55,
+      "lat": 46.053117,
+      "lng": -96.597993,
+      "parcel": "46050602578051",
+      "mls": "6693950",
+      "zoning": "Residential-Single Family — по MLS",
+      "image_url": "assets/listings/0e96794ffee808cad6e8.webp",
+      "image_source_url": "https://www.realtor.com/realestateandhomes-detail/301-5th-St-S_Fairmount_ND_58030_M99995-95163",
+      "source_crawled": "Homes.com: today; Realtor.com: 3 months ago",
+      "source_updated": null,
+      "taxes_note": "$464 за 2025 по MLS; проверить специальные начисления.",
+      "kind": "land",
+      "source_id": "6693950",
+      "status": "active",
+      "status_basis": "indexed_public_page",
+      "known_fees": 0,
+      "total_known": 7500,
+      "price_evidence": "Полная asking price в карточке; месячный расчёт ипотеки исключён. Неизвестные closing и подключения отдельно.",
+      "coord_precision": "address_interpolation",
+      "garage_note": "Существующее здание или гараж не указаны.",
+      "utility_note": "Электричество, вода и sewer доступны по MLS; действующее подключение не подтверждено.",
+      "legacy": false,
+      "image_credit": "Listing brokerage / MLS via Realtor.com",
+      "alternate_urls": [
+        "https://www.homes.com/property/301-5th-st-s-fairmount-nd/543g5dzkt1wkt/",
+        "https://www.realtor.com/realestateandhomes-detail/301-5th-St-S_Fairmount_ND_58030_M99995-95163"
+      ],
+      "coordinate_source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=301+5th+St+S%2C+Fairmount%2C+ND+58030&benchmark=Public_AR_Current&format=json",
+      "image_remote_url": "https://ap.rdcpix.com/2489e57ddfb891d6af9eb7956ce864e5l-m4237054993rd-w480_h360.webp",
+      "photo_preserved_at": "2026-09-14T02:15:55+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/0e96794ffee808cad6e8.webp",
+          "source": "https://www.realtor.com/realestateandhomes-detail/301-5th-St-S_Fairmount_ND_58030_M99995-95163",
+          "remote_url": "https://ap.rdcpix.com/2489e57ddfb891d6af9eb7956ce864e5l-m4237054993rd-w480_h360.webp",
+          "date": "2026-09-14T02:15:55+00:00"
+        }
+      ],
+      "price_history": [
+        {
+          "date": "2026-09-14T02:15:55+00:00",
+          "price": 7500,
+          "source": "https://www.homes.com/property/301-5th-st-s-fairmount-nd/543g5dzkt1wkt/"
+        }
+      ],
+      "status_history": [],
+      "region": "Равнины",
+      "screening_issue": null,
+      "climate_note": "Небольшая выборка, суровая зима и большое расстояние. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "MSP",
+          "name": "Minneapolis–Saint Paul International Airport / Wold–Chamberlain Field",
+          "straight_km": 294,
+          "drive_km_estimate": 367,
+          "drive_hours_estimate": 4.9,
+          "flight_min_eur": 803,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "ORD",
+          "name": "Chicago O'Hare International Airport",
+          "straight_km": 829,
+          "drive_km_estimate": 1036,
+          "drive_hours_estimate": 13.8,
+          "flight_min_eur": 468,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "DEN",
+          "name": "Denver International Airport",
+          "straight_km": 951,
+          "drive_km_estimate": 1189,
+          "drive_hours_estimate": 15.8,
+          "flight_min_eur": 602,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 294,
+      "score_parts": {
+        "Цена /25": 18,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 3,
+        "Сезон /10": 1,
+        "Дорога /10": 5
+      },
+      "score": 27
     }
   ]
 }

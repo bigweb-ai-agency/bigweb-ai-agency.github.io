@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T01:14:48+00:00",
+  "updated_at": "2026-09-14T02:15:55+00:00",
   "states": [
     {
       "code": "AL",
@@ -700,9 +700,9 @@
         "MSP"
       ],
       "analysis": "Небольшая выборка, суровая зима и большое расстояние. Имеет смысл только с уже существующим пригодным помещением.",
-      "total": 4,
-      "photo_candidates": 4,
-      "shortfall": 6,
+      "total": 5,
+      "photo_candidates": 5,
+      "shortfall": 5,
       "coverage": "Недостаточно проверенных кандидатов",
       "sources": [
         "https://www.landsearch.com/properties/north-dakota/search/under-15000",
@@ -1034,9 +1034,9 @@
         "DEN"
       ],
       "analysis": "Недостаточно хороших результатов; ветер, мороз и удалённость. Приоритет ниже рынков с существующими гаражами.",
-      "total": 1,
-      "photo_candidates": 1,
-      "shortfall": 9,
+      "total": 2,
+      "photo_candidates": 2,
+      "shortfall": 8,
       "coverage": "Недостаточно проверенных кандидатов",
       "sources": [
         "https://www.landsearch.com/properties/wyoming/search/under-15000",
