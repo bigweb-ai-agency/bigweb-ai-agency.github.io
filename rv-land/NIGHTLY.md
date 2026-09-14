@@ -1,6 +1,6 @@
 # Nightly research runbook
 
-1. Read README.md, current data/monitor.json, Git status and fresh remote main. Work on a codex/ branch; preserve unrelated work.
+1. Read README.md, current data/monitor.json and data/research-runs.json when present, Git status and fresh remote main. Use the last research entry's next_states to rotate coverage; it records deferred candidates and source-access failures. Work on a codex/ branch; preserve unrelated work.
 2. Inspect the actual last workflow result. If it failed, identify the error. Do not silently label it operational. A blocked source preserves facts and history.
 3. Expand public research beyond LandCentury using live/indexed pages or connected Chrome. Prioritize real garages/workshops with vehicle entry and states below ten photo candidates. Rotate states rather than repeatedly filling cheap desert subdivisions.
 4. Record exact URL, full cash price, known fees, source status/date, state/county/parcel, coordinates and a genuine listing image URL. Quotes remain short. Do not import full descriptions or seller contact data. A search count is not proof of available suitable properties.
