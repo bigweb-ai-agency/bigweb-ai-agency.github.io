@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-15T01:10:36+00:00",
+  "updated_at": "2026-09-15T02:19:34+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -88629,6 +88629,148 @@
         "Дорога /10": 0
       },
       "score": 17
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-09-15T02:19:34+00:00",
+      "last_seen": "2026-09-15T02:19:34+00:00",
+      "last_verified": "2026-09-15T02:19:34+00:00",
+      "photo_kind": "Оригинальная фотография из объявления: лесной участок; здания и готовой рабочей площадки не видно.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [
+        "Продавец прямо упоминает хранение RV и будущий гараж. Это предложение использования, не разрешение township.",
+        "Заявленные размеры около 75×150 ft; точные границы и полезную площадь подтвердить survey."
+      ],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "rv_storage": "seller_claim",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "unknown",
+      "road_access": "unknown",
+      "flags": [
+        "В опубликованном тексте Lawrence Township §12.8 хранение RV связано с accessory residential use; utility hookups ограничены. Это не подтверждает хранение на пустом участке. Нужны точный zoning district и актуальная редакция правил.",
+        "Юрисдикция расходится между площадками. Проверка ремонта и отдельного гаража по этому parcel не завершена; не считать готовой разрешённой базой.",
+        "На фото деревья и завалы: нужны расчистка, въезд и ровная площадка. Их стоимость, разрешения и коммуникации не включены в $8,000.",
+        "Проверить FEMA/wetlands и юридический подъезд; оценки риска агрегаторов не подтверждают пригодность площадки.",
+        "Статус и цена прочитаны из поисковых снимков с задержкой; наличие на дату проверки у продавца не подтверждено."
+      ],
+      "evidence_quote": null,
+      "id": "ls-5106526",
+      "source": "LandSearch / SJSRMLS",
+      "source_id": "5106526",
+      "url": "https://www.landsearch.com/properties/seaview-ave-millville-nj-08332/5106526",
+      "title": "Seaview Avenue — участок под хранение по заявлению продавца",
+      "address": "Seaview Ave",
+      "city": "Millville / Lawrence Township",
+      "state": "NJ",
+      "county": "Cumberland",
+      "zip": "08332",
+      "kind": "land",
+      "price": 8000,
+      "known_fees": 0,
+      "total_known": 8000,
+      "acres": 0.25,
+      "lat": 39.3779,
+      "lng": -75.0393,
+      "coord_precision": "listing_coordinates",
+      "coordinate_source": "https://www.landsearch.com/properties/seaview-ave-millville-nj-08332/5106526",
+      "parcel": "0800016 00003",
+      "mls": "SJSRMLS 605600 / BRIGHT NJCB2028884",
+      "status": "active",
+      "status_basis": "indexed_public_page",
+      "source_crawled": "LandSearch: last month; Redfin: 3 weeks ago",
+      "source_updated": "2026-07-08",
+      "price_evidence": "Полная asking price $8,000 в индексированных карточках. История LandSearch: $20,000 13.03.2026, снижение до $8,000 24.06.2026. Старый снимок Realtor.com отражает прежнюю цену.",
+      "previous_price": 20000,
+      "price_history": [
+        {
+          "date": "2026-03-13",
+          "price": 20000,
+          "source": "https://www.landsearch.com/properties/seaview-ave-millville-nj-08332/5106526"
+        },
+        {
+          "date": "2026-06-24",
+          "price": 8000,
+          "source": "https://www.landsearch.com/properties/seaview-ave-millville-nj-08332/5106526"
+        }
+      ],
+      "zoning": "Не подтверждено. LandSearch: Millville City; Homes.com: Lawrence Township. APN указывает на Lawrence, Cumberland; границы и district проверить.",
+      "legal_source": "https://lawrencetwpcumberlandnj.com/departments/land-use-zoning/",
+      "legal_document_url": "https://lawrencetwpcumberlandnj.com/wp-content/uploads/2026/03/Lawrence-Twp-Cumberland-NJ-Development-Regulations-Ordinance-July-14-2003.pdf",
+      "garage_note": "Готового гаража нет. Продавец предлагает построить pole barn/garage/storage building; разрешение и стоимость строительства не подтверждены.",
+      "utility_note": "Подключения электричества, воды и sewer не подтверждены.",
+      "taxes_note": "$120 за 2026 по LandSearch; проверить фактический счёт и начисления.",
+      "image_url": "assets/listings/26b85b894c234bbc7b30.jpg",
+      "image_source_url": "https://www.redfin.com/NJ/Millville/Seaview-Ave-08332/home/164760619",
+      "image_remote_url": "https://ssl.cdn-redfin.com/photo/141/bigphoto/600/605600_0.jpg",
+      "image_credit": "Listing brokerage / SJSRMLS via Redfin",
+      "photo_preserved_at": "2026-09-15T02:19:34+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/26b85b894c234bbc7b30.jpg",
+          "source": "https://www.redfin.com/NJ/Millville/Seaview-Ave-08332/home/164760619",
+          "remote_url": "https://ssl.cdn-redfin.com/photo/141/bigphoto/600/605600_0.jpg",
+          "date": "2026-09-15T02:19:34+00:00"
+        }
+      ],
+      "alternate_urls": [
+        "https://www.landsearch.com/properties/seaview-ave-millville-nj-08332/5106526",
+        "https://www.redfin.com/NJ/Millville/Seaview-Ave-08332/home/164760619",
+        "https://www.homes.com/property/0-seaview-ave-lawrence-township-nj-unit-605600/9jwf6mjsy9c9r/"
+      ],
+      "legacy": false,
+      "status_history": [],
+      "region": "Северо-восток",
+      "screening_issue": null,
+      "climate_note": "Удобный перелёт, но дешёвые лоты часто непростые: размер, wetlands, отсутствие разрешённого использования. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "PHL",
+          "name": "Philadelphia International Airport",
+          "straight_km": 58,
+          "drive_km_estimate": 72,
+          "drive_hours_estimate": 1.0,
+          "flight_min_eur": 565,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "NYC",
+          "name": "New York city search — JFK used for approximate geometry",
+          "straight_km": 177,
+          "drive_km_estimate": 221,
+          "drive_hours_estimate": 2.9,
+          "flight_min_eur": 434,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "IAD",
+          "name": "Washington Dulles International Airport",
+          "straight_km": 214,
+          "drive_km_estimate": 267,
+          "drive_hours_estimate": 3.6,
+          "flight_min_eur": 407,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1615,
+      "score_parts": {
+        "Цена /25": 17,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 5,
+        "Дорога /10": 9
+      },
+      "score": 31
     }
   ]
 }

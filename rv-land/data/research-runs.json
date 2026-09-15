@@ -25,6 +25,49 @@
         "NJ",
         "DE"
       ]
+    },
+    {
+      "date": "2026-09-15T02:19:34+00:00",
+      "states": [
+        "CT",
+        "NJ",
+        "DE"
+      ],
+      "added_ids": [
+        "ls-5106526"
+      ],
+      "scope": "Supplemental search prioritised garages, RV storage and underserved states. Added one wooded NJ land candidate with an explicit seller RV-storage claim and a municipal-use caveat. No existing qualifying garage verified.",
+      "deferred": [
+        {
+          "url": "https://www.homes.com/property/80-s-of-spruce-st-camden-nj/knffffnqth9nc/",
+          "reason": "$9,995 fenced parking parcel is only 802 sq ft / 0.02 ac. Depth and gate width unverified; below existing land screening minimum. RV fit and repair permission unresolved."
+        },
+        {
+          "url": "https://www.homes.com/property/0-seneca-trail-coventry-ct/d1g64r4dxweqe/",
+          "reason": "$10,000 lake-association lot; description does not establish RV storage or a repair use."
+        }
+      ],
+      "negative_searches": [
+        {
+          "url": "https://www.landsearch.com/properties/delaware/search/under-15000",
+          "finding": "Visible results were rentals, not qualifying full-price purchases."
+        },
+        {
+          "url": "https://www.homes.com/connecticut/land-for-sale/under-15k/",
+          "finding": "Excluded boat slip, reserve auction, and Nutmeg Passway lot explicitly barring boat/camper storage. Other small residential/variance/lake lots did not establish the intended use."
+        }
+      ],
+      "legal_check": {
+        "url": "https://lawrencetwpcumberlandnj.com/departments/land-use-zoning/",
+        "finding": "Current Cumberland County township page links a development ordinance named July 2003. Search-index text of its older official URL includes amendments and section 12.8 accessory residential RV-storage conditions. Parcel jurisdiction, current consolidated text and repair permission remain unverified. No rules from Mercer County Lawrence Township applied."
+      },
+      "access": "New official ordinance PDF exceeded web text-fetch size; direct public request returned 406 and was stopped. Older official PDF URL is now 404; indexed wording used only as a caveat. Listing photograph preserved from the public Redfin CDN.",
+      "github_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/34916198586",
+      "next_states": [
+        "MA",
+        "NH",
+        "VT"
+      ]
     }
   ]
 }
