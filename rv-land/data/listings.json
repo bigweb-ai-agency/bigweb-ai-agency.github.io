@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-16T02:17:10+00:00",
+  "updated_at": "2026-09-16T02:18:02+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -3144,8 +3144,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-13T23:29:51Z",
-      "last_verified": "2026-09-13T23:29:51Z",
+      "last_seen": "2026-09-16T02:23:38Z",
+      "last_verified": "2026-09-16T02:23:38Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -3257,7 +3257,7 @@
       },
       "score": 20,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2024/04/19/6622d9990c09e-1713559961.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/80ca33ce8c3febbe4844.jpg",
@@ -3271,8 +3271,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-13T23:29:52Z",
-      "last_verified": "2026-09-13T23:29:52Z",
+      "last_seen": "2026-09-16T02:23:39Z",
+      "last_verified": "2026-09-16T02:23:39Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -3383,7 +3383,7 @@
       },
       "score": 21,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2024/06/17/666ff0dfead19-1718612191.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/6d2fa58f230ed7584200.jpg",
@@ -3397,8 +3397,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-13T23:29:54Z",
-      "last_verified": "2026-09-13T23:29:54Z",
+      "last_seen": "2026-09-16T02:23:40Z",
+      "last_verified": "2026-09-16T02:23:40Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -3510,7 +3510,7 @@
       },
       "score": 36,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/04/11/69dad1a18bded-1775948193.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/68bedca08acbb84721d9.jpg",
@@ -3524,8 +3524,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-13T23:29:55Z",
-      "last_verified": "2026-09-13T23:29:55Z",
+      "last_seen": "2026-09-16T02:23:42Z",
+      "last_verified": "2026-09-16T02:23:42Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -3635,7 +3635,7 @@
       },
       "score": 36,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/04/11/69dacd6027659-1775947104.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/05f3bcd5bfc505d6fa9f.jpg",
@@ -3649,8 +3649,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-13T23:29:57Z",
-      "last_verified": "2026-09-13T23:29:57Z",
+      "last_seen": "2026-09-16T02:23:43Z",
+      "last_verified": "2026-09-16T02:23:43Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -3760,7 +3760,7 @@
       },
       "score": 24,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/04/11/69dad8f9ac3a8-1775950073.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/ca0c326c52321b982997.jpg",
@@ -3774,8 +3774,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-13T23:29:58Z",
-      "last_verified": "2026-09-13T23:29:58Z",
+      "last_seen": "2026-09-16T02:23:45Z",
+      "last_verified": "2026-09-16T02:23:45Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -3888,7 +3888,7 @@
       },
       "score": 28,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/21/6a88378c1ce0c-1787312012.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/95f5ea21400453087258.jpg",
@@ -3902,8 +3902,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-13T23:29:59Z",
-      "last_verified": "2026-09-13T23:29:59Z",
+      "last_seen": "2026-09-16T02:23:47Z",
+      "last_verified": "2026-09-16T02:23:47Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -4016,7 +4016,7 @@
       },
       "score": 28,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/18/6a849cef69aa5-1787075823.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/31354d6cd123481b0771.jpg",
@@ -4030,8 +4030,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-13T23:30:01Z",
-      "last_verified": "2026-09-13T23:30:01Z",
+      "last_seen": "2026-09-16T02:23:48Z",
+      "last_verified": "2026-09-16T02:23:48Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "restriction_risk",
       "commercial_repair": "unknown",
@@ -4149,7 +4149,7 @@
       "score": 29,
       "legal_source": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/09/6aa0bb762ca36-1788918646.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/e94b57e995f258901d64.jpg",
@@ -4163,8 +4163,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-13T23:30:02Z",
-      "last_verified": "2026-09-13T23:30:02Z",
+      "last_seen": "2026-09-16T02:23:49Z",
+      "last_verified": "2026-09-16T02:23:49Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "restriction_risk",
       "commercial_repair": "unknown",
@@ -4283,7 +4283,7 @@
       "score": 31,
       "legal_source": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/30/6a93a35696439-1788060502.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/e7ae4c11e677cad2c9cb.jpg",
@@ -13376,8 +13376,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-13T23:28:50Z",
-      "last_verified": "2026-09-13T23:28:50Z",
+      "last_seen": "2026-09-16T02:22:41Z",
+      "last_verified": "2026-09-16T02:22:41Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -13404,7 +13404,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-09-03T00:40:06.000000Z",
+      "source_updated": "2026-09-15T16:53:26.000000Z",
       "source_published": "2026-08-29T23:10:34.000000Z",
       "image_url": "assets/listings/e2ffbb332b742b30ab91.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/florida/109-acres-for-sale-in-marianna-florida-26074",
@@ -13495,7 +13495,7 @@
       },
       "score": 18,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/29/6a93688fec353-1788045455.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/3ec28b3b5fafb268c1aa.jpg",
@@ -28655,8 +28655,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-13T23:29:44Z",
-      "last_verified": "2026-09-13T23:29:44Z",
+      "last_seen": "2026-09-16T02:23:31Z",
+      "last_verified": "2026-09-16T02:23:31Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -28804,7 +28804,7 @@
       },
       "score": 28,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/07/23/6a626a4e6747d-1784834638.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/c573148929d9a4bc5e09.jpg",
@@ -32719,8 +32719,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-13T23:29:18Z",
-      "last_verified": "2026-09-13T23:29:18Z",
+      "last_seen": "2026-09-16T02:23:05Z",
+      "last_verified": "2026-09-16T02:23:05Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -32875,7 +32875,7 @@
       },
       "score": 30,
       "image_remote_url": "https://storage.portalstation.com/uploads/2026/08/26/6a8f24ced6225-1787765966.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/b32f0462120f4a355b8a.jpg",
@@ -81467,8 +81467,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:28:25Z",
-      "last_verified": "2026-09-13T23:28:25Z",
+      "last_seen": "2026-09-16T02:22:22Z",
+      "last_verified": "2026-09-16T02:22:22Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -81533,7 +81533,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/10/6aa30d2cd009e-1789070636.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/b6d2ac8d5b7f34cad0c6.jpg",
@@ -81586,14 +81586,18 @@
         "Сезон /10": 5,
         "Дорога /10": 1
       },
-      "score": 25
+      "score": 25,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/nevada/103-acres-for-sale-in-elko-nevada-26204"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:28:27Z",
-      "last_verified": "2026-09-13T23:28:27Z",
+      "last_seen": "2026-09-16T02:22:24Z",
+      "last_verified": "2026-09-16T02:22:24Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -81660,7 +81664,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/10/6aa30b15655b3-1789070101.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/78a2681bcf24092e0bce.jpg",
@@ -81713,14 +81717,18 @@
         "Сезон /10": 5,
         "Дорога /10": 1
       },
-      "score": 25
+      "score": 25,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/nevada/113-acres-for-sale-in-osino-nevada-26203"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:28:28Z",
-      "last_verified": "2026-09-13T23:28:28Z",
+      "last_seen": "2026-09-16T02:22:26Z",
+      "last_verified": "2026-09-16T02:22:26Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -81787,7 +81795,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/10/6aa2e26be1ca1-1789059691.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/af74c741ee6ceeed8fde.jpg",
@@ -81840,14 +81848,18 @@
         "Сезон /10": 5,
         "Дорога /10": 1
       },
-      "score": 25
+      "score": 25,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/nevada/113-acres-for-sale-in-osino-nevada-26200"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:28:30Z",
-      "last_verified": "2026-09-13T23:28:30Z",
+      "last_seen": "2026-09-16T02:22:27Z",
+      "last_verified": "2026-09-16T02:22:27Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -81912,7 +81924,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/10/6aa2e0561e0b8-1789059158.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/abbac575854acd56dccb.jpg",
@@ -81965,14 +81977,18 @@
         "Сезон /10": 5,
         "Дорога /10": 1
       },
-      "score": 25
+      "score": 25,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/nevada/113-acres-for-sale-in-elko-nevada-26199"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:28:31Z",
-      "last_verified": "2026-09-13T23:28:31Z",
+      "last_seen": "2026-09-16T02:22:29Z",
+      "last_verified": "2026-09-16T02:22:29Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -82037,7 +82053,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/09/6aa1bbd461565-1788984276.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/3340f337209a4d302aeb.jpg",
@@ -82090,14 +82106,18 @@
         "Сезон /10": 8,
         "Дорога /10": 5
       },
-      "score": 38
+      "score": 38,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arkansas/41-acres-for-sale-in-horseshoe-bend-arkansas-26189"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:28:35Z",
-      "last_verified": "2026-09-13T23:28:35Z",
+      "last_seen": "2026-09-16T02:22:30Z",
+      "last_verified": "2026-09-16T02:22:30Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -82166,7 +82186,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/09/6aa0da6ff0b9d-1788926575.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/21e7d5c02ca657b89dac.jpg",
@@ -82219,14 +82239,18 @@
         "Сезон /10": 5,
         "Дорога /10": 0
       },
-      "score": 29
+      "score": 29,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/nevada/023-acres-for-sale-in-contact-nevada-26181"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:28:37Z",
-      "last_verified": "2026-09-13T23:28:37Z",
+      "last_seen": "2026-09-16T02:22:32Z",
+      "last_verified": "2026-09-16T02:22:32Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -82291,7 +82315,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/09/6aa0d57b5a712-1788925307.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/53dcbd216e4b2f4bfea9.jpg",
@@ -82344,14 +82368,18 @@
         "Сезон /10": 5,
         "Дорога /10": 1
       },
-      "score": 13
+      "score": 13,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/nevada/227-acres-for-sale-in-deeth-nevada-26180"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:28:38Z",
-      "last_verified": "2026-09-13T23:28:38Z",
+      "last_seen": "2026-09-16T02:22:33Z",
+      "last_verified": "2026-09-16T02:22:33Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -82416,7 +82444,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/09/6aa0c79a5136e-1788921754.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/60b4f38b5341d4b8b8f5.jpg",
@@ -82469,14 +82497,18 @@
         "Сезон /10": 5,
         "Дорога /10": 0
       },
-      "score": 22
+      "score": 22,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/nevada/206-acres-for-sale-in-wells-nevada-26179"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:28:40Z",
-      "last_verified": "2026-09-13T23:28:40Z",
+      "last_seen": "2026-09-16T02:22:35Z",
+      "last_verified": "2026-09-16T02:22:35Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -82540,7 +82572,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/05/6a9c9fe02438d-1788649440.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/a0c17f960ddaf5973a9a.jpg",
@@ -82593,14 +82625,18 @@
         "Сезон /10": 7,
         "Дорога /10": 0
       },
-      "score": 30
+      "score": 30,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/texas/025-acres-for-sale-in-el-paso-texas-26156"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:28:43Z",
-      "last_verified": "2026-09-13T23:28:43Z",
+      "last_seen": "2026-09-16T02:22:36Z",
+      "last_verified": "2026-09-16T02:22:36Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -82667,7 +82703,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/03/6a98dfda5904d-1788403674.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/299911fd4dacc9837123.jpg",
@@ -82720,14 +82756,18 @@
         "Сезон /10": 5,
         "Дорога /10": 0
       },
-      "score": 22
+      "score": 22,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/nevada/206-acres-for-sale-in-loray-nevada-26129"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:28:45Z",
-      "last_verified": "2026-09-13T23:28:45Z",
+      "last_seen": "2026-09-16T02:22:38Z",
+      "last_verified": "2026-09-16T02:22:38Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -82794,7 +82834,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/01/6a963cd89de2e-1788230872.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/20e164e0cd357cb10fa7.jpg",
@@ -82847,14 +82887,18 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 22
+      "score": 22,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/109-acres-for-sale-in-williams-arizona-26095"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:28:48Z",
-      "last_verified": "2026-09-13T23:28:48Z",
+      "last_seen": "2026-09-16T02:22:39Z",
+      "last_verified": "2026-09-16T02:22:39Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -82918,7 +82962,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/01/6a9669b5e8af9-1788242357.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/3b24e7b1f2e03958e3e2.jpg",
@@ -82971,14 +83015,18 @@
         "Сезон /10": 4,
         "Дорога /10": 4
       },
-      "score": 13
+      "score": 13,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/oregon/179-acres-for-sale-in-chiloquin-oregon-26089"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:28:51Z",
-      "last_verified": "2026-09-13T23:28:51Z",
+      "last_seen": "2026-09-16T02:22:42Z",
+      "last_verified": "2026-09-16T02:22:42Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -83044,7 +83092,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/28/6a910c5abaf59-1787890778.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/ef13d882c51477fa44c0.jpg",
@@ -83097,14 +83145,18 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 37
+      "score": 37,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/14-acres-for-sale-in-sun-valley-arizona-26056"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:28:53Z",
-      "last_verified": "2026-09-13T23:28:53Z",
+      "last_seen": "2026-09-16T02:22:44Z",
+      "last_verified": "2026-09-16T02:22:44Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -83169,7 +83221,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/28/6a9107fa0c5af-1787889658.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/b16c650bf0448cf68690.jpg",
@@ -83222,14 +83274,18 @@
         "Сезон /10": 8,
         "Дорога /10": 5
       },
-      "score": 38
+      "score": 38,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arkansas/45-acres-for-sale-in-horseshoe-bend-arkansas-26055"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:28:54Z",
-      "last_verified": "2026-09-13T23:28:54Z",
+      "last_seen": "2026-09-16T02:22:45Z",
+      "last_verified": "2026-09-16T02:22:45Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -83295,7 +83351,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/27/6a8f87a9a9a28-1787791273.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/a079f337924df6cb445d.jpg",
@@ -83348,14 +83404,18 @@
         "Сезон /10": 8,
         "Дорога /10": 5
       },
-      "score": 35
+      "score": 35,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arkansas/43-acres-for-sale-in-horseshoe-bend-arkansas-26039"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:28:57Z",
-      "last_verified": "2026-09-13T23:28:57Z",
+      "last_seen": "2026-09-16T02:22:47Z",
+      "last_verified": "2026-09-16T02:22:47Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -83425,7 +83485,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/22/6a8919ed15a4f-1787369965.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/2d0892f9a36027fca513.jpg",
@@ -83478,14 +83538,18 @@
         "Сезон /10": 8,
         "Дорога /10": 5
       },
-      "score": 39
+      "score": 39,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arkansas/031-acres-for-sale-in-horseshoe-bend-arkansas-25973"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:28:58Z",
-      "last_verified": "2026-09-13T23:28:58Z",
+      "last_seen": "2026-09-16T02:22:48Z",
+      "last_verified": "2026-09-16T02:22:48Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -83554,7 +83618,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/22/6a8910ed008fa-1787367661.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/52cb2095aaf3336fb894.jpg",
@@ -83607,14 +83671,18 @@
         "Сезон /10": 8,
         "Дорога /10": 5
       },
-      "score": 37
+      "score": 37,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arkansas/032-acres-for-sale-in-horseshoe-bend-arkansas-25972"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:00Z",
-      "last_verified": "2026-09-13T23:29:00Z",
+      "last_seen": "2026-09-16T02:22:50Z",
+      "last_verified": "2026-09-16T02:22:50Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -83685,7 +83753,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/22/6a88ff3409a02-1787363124.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/7fa9254dfc15cfa5fb4b.jpg",
@@ -83738,14 +83806,18 @@
         "Сезон /10": 6,
         "Дорога /10": 3
       },
-      "score": 33
+      "score": 33,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/new-mexico/112-acres-for-sale-in-sunshine-new-mexico-25969"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:01Z",
-      "last_verified": "2026-09-13T23:29:01Z",
+      "last_seen": "2026-09-16T02:22:51Z",
+      "last_verified": "2026-09-16T02:22:51Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -83814,7 +83886,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/22/6a88f64d42ac8-1787360845.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/58e1b09855ad84485b06.jpg",
@@ -83867,14 +83939,18 @@
         "Сезон /10": 6,
         "Дорога /10": 3
       },
-      "score": 31
+      "score": 31,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/new-mexico/150-acres-for-sale-in-sunshine-new-mexico-25968"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:03Z",
-      "last_verified": "2026-09-13T23:29:03Z",
+      "last_seen": "2026-09-16T02:22:53Z",
+      "last_verified": "2026-09-16T02:22:53Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -83938,7 +84014,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/20/6a87386f6b3e6-1787246703.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/5fa147d0346f9ef131ce.jpg",
@@ -83991,14 +84067,18 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 21
+      "score": 21,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/493-acres-for-sale-in-blanca-colorado-25939"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:04Z",
-      "last_verified": "2026-09-13T23:29:04Z",
+      "last_seen": "2026-09-16T02:22:54Z",
+      "last_verified": "2026-09-16T02:22:54Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -84061,7 +84141,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/20/6a8731acf006e-1787244972.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/c9190e3b6d2cdd34ceed.jpg",
@@ -84114,14 +84194,18 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 20
+      "score": 20,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/595-acres-for-sale-in-san-acacio-colorado-25938"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:05Z",
-      "last_verified": "2026-09-13T23:29:05Z",
+      "last_seen": "2026-09-16T02:22:56Z",
+      "last_verified": "2026-09-16T02:22:56Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -84188,7 +84272,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/20/6a865ac722137-1787189959.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/cf0fcdfaa2292d400877.jpg",
@@ -84241,14 +84325,18 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 32
+      "score": 32,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/99-acres-for-sale-in-concho-arizona-25923"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:07Z",
-      "last_verified": "2026-09-13T23:29:07Z",
+      "last_seen": "2026-09-16T02:22:58Z",
+      "last_verified": "2026-09-16T02:22:58Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -84312,7 +84400,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/20/6a8656bd31373-1787188925.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/2bbaf852134dc90b209b.jpg",
@@ -84365,14 +84453,18 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 34
+      "score": 34,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/27-acres-for-sale-in-concho-arizona-25921"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:10Z",
-      "last_verified": "2026-09-13T23:29:10Z",
+      "last_seen": "2026-09-16T02:22:59Z",
+      "last_verified": "2026-09-16T02:22:59Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -84440,7 +84532,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/19/6a86037ab284b-1787167610.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/841ed989f99f890e6c3c.jpg",
@@ -84493,14 +84585,18 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 25
+      "score": 25,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/469-acres-for-sale-in-san-luis-colorado-25913"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:13Z",
-      "last_verified": "2026-09-13T23:29:13Z",
+      "last_seen": "2026-09-16T02:23:01Z",
+      "last_verified": "2026-09-16T02:23:01Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -84568,7 +84664,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/18/6a8459e919365-1787058665.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/9f198941864c66f8f650.jpg",
@@ -84621,14 +84717,18 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 25
+      "score": 25,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/485-acres-for-sale-in-san-luis-colorado-25896"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:15Z",
-      "last_verified": "2026-09-13T23:29:15Z",
+      "last_seen": "2026-09-16T02:23:02Z",
+      "last_verified": "2026-09-16T02:23:02Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -84696,7 +84796,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/15/6a80c4cd06d3e-1786823885.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/9811e2eb31567c7fae00.jpg",
@@ -84749,14 +84849,18 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 26
+      "score": 26,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-blanca-colorado-25883"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:17Z",
-      "last_verified": "2026-09-13T23:29:17Z",
+      "last_seen": "2026-09-16T02:23:04Z",
+      "last_verified": "2026-09-16T02:23:04Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -84820,7 +84924,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/17/6a82bdd4c5d5f-1786953172.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/2f7329a5daf24dda835d.jpg",
@@ -84873,14 +84977,18 @@
         "Сезон /10": 7,
         "Дорога /10": 0
       },
-      "score": 31
+      "score": 31,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/texas/034-acres-for-sale-in-el-paso-texas-25882"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:20Z",
-      "last_verified": "2026-09-13T23:29:20Z",
+      "last_seen": "2026-09-16T02:23:07Z",
+      "last_verified": "2026-09-16T02:23:07Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -84948,7 +85056,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/13/6a7e1d85d0570-1786649989.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/641ad02aac773ed9188f.jpg",
@@ -85001,14 +85109,18 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 25
+      "score": 25,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-san-luis-colorado-25869"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:21Z",
-      "last_verified": "2026-09-13T23:29:21Z",
+      "last_seen": "2026-09-16T02:23:08Z",
+      "last_verified": "2026-09-16T02:23:08Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -85075,7 +85187,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/13/6a7d3ef866e8e-1786593016.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/87983068cb14af78655a.jpg",
@@ -85128,14 +85240,18 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 32
+      "score": 32,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/105-acres-for-sale-in-concho-arizona-25855"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:23Z",
-      "last_verified": "2026-09-13T23:29:23Z",
+      "last_seen": "2026-09-16T02:23:10Z",
+      "last_verified": "2026-09-16T02:23:10Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -85202,7 +85318,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/13/6a7d395f4ac23-1786591583.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/e19abf05cfe7ba008f88.jpg",
@@ -85255,14 +85371,18 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 30
+      "score": 30,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/125-acres-for-sale-in-concho-arizona-25854"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:24Z",
-      "last_verified": "2026-09-13T23:29:24Z",
+      "last_seen": "2026-09-16T02:23:11Z",
+      "last_verified": "2026-09-16T02:23:11Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -85329,7 +85449,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/12/6a7cbb3956a0e-1786559289.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/e7780500d6f01e3c6437.jpg",
@@ -85382,14 +85502,18 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 26
+      "score": 26,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/127-acres-for-sale-in-alamosa-colorado-25848"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:25Z",
-      "last_verified": "2026-09-13T23:29:25Z",
+      "last_seen": "2026-09-16T02:23:13Z",
+      "last_verified": "2026-09-16T02:23:13Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -85457,7 +85581,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/12/6a7c9e1ff0a65-1786551839.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/e91e4717068bf5f47484.jpg",
@@ -85510,14 +85634,18 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 25
+      "score": 25,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-san-luis-colorado-25844"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:27Z",
-      "last_verified": "2026-09-13T23:29:27Z",
+      "last_seen": "2026-09-16T02:23:14Z",
+      "last_verified": "2026-09-16T02:23:14Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -85585,7 +85713,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/10/6a7a659f175dc-1786406303.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/adb3a03e0014c3eca650.jpg",
@@ -85638,14 +85766,18 @@
         "Сезон /10": 3,
         "Дорога /10": 6
       },
-      "score": 26
+      "score": 26,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/023-acres-for-sale-in-rye-colorado-25821"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:28Z",
-      "last_verified": "2026-09-13T23:29:28Z",
+      "last_seen": "2026-09-16T02:23:16Z",
+      "last_verified": "2026-09-16T02:23:16Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -85711,7 +85843,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/10/6a7a198f2acae-1786386831.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/9a42f066a0b5ec475291.jpg",
@@ -85764,14 +85896,18 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 25
+      "score": 25,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/52-acres-for-sale-in-blanca-colorado-25813"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:30Z",
-      "last_verified": "2026-09-13T23:29:30Z",
+      "last_seen": "2026-09-16T02:23:17Z",
+      "last_verified": "2026-09-16T02:23:17Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -85835,7 +85971,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/10/6a7a17b6dd625-1786386358.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/5e54427e6723298432db.jpg",
@@ -85888,14 +86024,18 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 25
+      "score": 25,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/518-acres-for-sale-in-san-acacio-colorado-25812"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:31Z",
-      "last_verified": "2026-09-13T23:29:31Z",
+      "last_seen": "2026-09-16T02:23:19Z",
+      "last_verified": "2026-09-16T02:23:19Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -85961,7 +86101,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/10/6a7a152e81214-1786385710.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/40b146334c0044f49631.jpg",
@@ -86014,14 +86154,18 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 28
+      "score": 28,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-mesita-colorado-25810"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:32Z",
-      "last_verified": "2026-09-13T23:29:32Z",
+      "last_seen": "2026-09-16T02:23:20Z",
+      "last_verified": "2026-09-16T02:23:20Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -86087,7 +86231,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/10/6a7a0b8e6e444-1786383246.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/6a15e7c99ed5619212e8.jpg",
@@ -86140,14 +86284,18 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 25
+      "score": 25,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/500-acres-for-sale-in-jaroso-colorado-25808"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:34Z",
-      "last_verified": "2026-09-13T23:29:34Z",
+      "last_seen": "2026-09-16T02:23:22Z",
+      "last_verified": "2026-09-16T02:23:22Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -86214,7 +86362,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/10/6a7a0c5a90ede-1786383450.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/0d40de18f548737f6d89.jpg",
@@ -86267,14 +86415,18 @@
         "Сезон /10": 3,
         "Дорога /10": 6
       },
-      "score": 29
+      "score": 29,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/034-acres-for-sale-in-rye-colorado-25807"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:35Z",
-      "last_verified": "2026-09-13T23:29:35Z",
+      "last_seen": "2026-09-16T02:23:23Z",
+      "last_verified": "2026-09-16T02:23:23Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -86340,7 +86492,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/10/6a7a08f800aac-1786382584.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/7ab9290314206013ff3b.jpg",
@@ -86393,14 +86545,18 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 25
+      "score": 25,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/424-acres-for-sale-in-san-luis-colorado-25806"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:37Z",
-      "last_verified": "2026-09-13T23:29:37Z",
+      "last_seen": "2026-09-16T02:23:25Z",
+      "last_verified": "2026-09-16T02:23:25Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -86464,7 +86620,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/13/6a7d8f2212ddb-1786613538.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/62517ad7c58c879047bb.jpg",
@@ -86517,14 +86673,18 @@
         "Сезон /10": 8,
         "Дорога /10": 3
       },
-      "score": 24
+      "score": 24,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arkansas/23-acres-for-sale-in-norphlet-arkansas-25803"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:38Z",
-      "last_verified": "2026-09-13T23:29:38Z",
+      "last_seen": "2026-09-16T02:23:26Z",
+      "last_verified": "2026-09-16T02:23:26Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -86590,7 +86750,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/10/6a79301cb9066-1786327068.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/67f0997e6408332df666.jpg",
@@ -86643,14 +86803,18 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 25
+      "score": 25,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/445-acres-for-sale-in-san-luis-colorado-25799"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:39Z",
-      "last_verified": "2026-09-13T23:29:39Z",
+      "last_seen": "2026-09-16T02:23:28Z",
+      "last_verified": "2026-09-16T02:23:28Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -86713,7 +86877,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/05/6a731f9dea859-1785929629.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/5ef02094bf8e72e2ab61.jpg",
@@ -86766,14 +86930,18 @@
         "Сезон /10": 7,
         "Дорога /10": 0
       },
-      "score": 12
+      "score": 12,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/texas/2002-acres-for-sale-in-sierra-blanca-texas-25753"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:42Z",
-      "last_verified": "2026-09-13T23:29:42Z",
+      "last_seen": "2026-09-16T02:23:30Z",
+      "last_verified": "2026-09-16T02:23:30Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -86837,7 +87005,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/07/31/6a6c143a2eec0-1785467962.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/f7319f18ce3cbe4e3a7d.jpg",
@@ -86890,14 +87058,18 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 22
+      "score": 22,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/56-acres-for-sale-in-blanca-colorado-25723"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:45Z",
-      "last_verified": "2026-09-13T23:29:45Z",
+      "last_seen": "2026-09-16T02:23:33Z",
+      "last_verified": "2026-09-16T02:23:33Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -86965,7 +87137,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/07/22/6a6151a75c0d8-1784762791.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/125f85e86304b7b42db7.jpg",
@@ -87018,14 +87190,18 @@
         "Сезон /10": 6,
         "Дорога /10": 8
       },
-      "score": 21
+      "score": 21,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/california/020-acres-for-sale-in-lake-elsinore-california-25614"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:48Z",
-      "last_verified": "2026-09-13T23:29:48Z",
+      "last_seen": "2026-09-16T02:23:34Z",
+      "last_verified": "2026-09-16T02:23:34Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -87089,7 +87265,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/07/11/6a523fdd0b61c-1783775197.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/3d7e032e995945867b5f.jpg",
@@ -87142,14 +87318,18 @@
         "Сезон /10": 7,
         "Дорога /10": 0
       },
-      "score": 31
+      "score": 31,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/texas/026-acres-for-sale-in-el-paso-texas-25474"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-09-13T23:29:49Z",
-      "last_verified": "2026-09-13T23:29:49Z",
+      "last_seen": "2026-09-16T02:23:36Z",
+      "last_verified": "2026-09-16T02:23:36Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -87215,7 +87395,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/07/04/6a498469f0d30-1783202921.jpg",
-      "photo_preserved_at": "2026-09-13T23:25:47+00:00",
+      "photo_preserved_at": "2026-09-16T02:18:02+00:00",
       "photo_history": [
         {
           "path": "assets/listings/8b022eca590314206217.jpg",
@@ -87268,7 +87448,11 @@
         "Сезон /10": 3,
         "Дорога /10": 6
       },
-      "score": 22
+      "score": 22,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/557-acres-for-sale-in-mosca-colorado-25400"
+      ]
     },
     {
       "price_currency": "USD",
