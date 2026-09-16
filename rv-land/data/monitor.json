@@ -1,9 +1,9 @@
 {
   "schedule": "Ежедневно 00:37 UTC: 03:37 летом / 02:37 зимой по Вильнюсу. GitHub Actions может запускаться с задержкой.",
-  "last_run": "2026-09-15T01:10:36+00:00",
-  "status": "ok",
-  "run_url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/34916198586",
-  "summary": "4 новых; 0 изменений цены/статуса/фото; 120 страниц проверено; ошибок 0.",
+  "last_run": "2026-09-16T01:10:09+00:00",
+  "status": "partial",
+  "run_url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/35042983022",
+  "summary": "3 новых; 0 изменений цены/статуса/фото; 118 страниц проверено; ошибок 2.",
   "scope": "LandCentury: новые страницы всех 50 штатов и ротация старых записей. LandSearch и старые MLS — отдельная исследовательская проверка, не автоматический live-статус.",
   "events": [
     {
@@ -41,9 +41,27 @@
       "added": 4,
       "changed": 0,
       "errors": 0
+    },
+    {
+      "date": "2026-09-16T01:10:09+00:00",
+      "status": "partial",
+      "scanned_pages": 113,
+      "read_details": 118,
+      "added": 3,
+      "changed": 0,
+      "errors": 2
     }
   ],
-  "source_errors": [],
+  "source_errors": [
+    {
+      "url": "https://www.landcentury.com/land-for-sale/oregon/236-acres-for-sale-in-sprague-river-oregon-24669",
+      "error": "404 Client Error: Not Found for url: https://www.landcentury.com/land-for-sale/oregon/236-acres-for-sale-in-sprague-river-oregon-24669"
+    },
+    {
+      "url": "https://www.landcentury.com/land-for-sale/oregon/232-acres-for-sale-in-sprague-river-oregon-24670",
+      "error": "404 Client Error: Not Found for url: https://www.landcentury.com/land-for-sale/oregon/232-acres-for-sale-in-sprague-river-oregon-24670"
+    }
+  ],
   "rejected": [
     {
       "url": "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-concho-arizona-26232",
@@ -262,6 +280,12 @@
       "state": "TN"
     },
     {
+      "url": "https://www.landcentury.com/land-for-sale/oregon/282-acres-for-sale-in-chiloquin-oregon-15231",
+      "reason": "outside_cash_budget",
+      "price": 15500.0,
+      "state": "OR"
+    },
+    {
       "url": "https://www.landcentury.com/land-for-sale/tennessee/225-acres-for-sale-in-south-pittsburg-tennessee-15111",
       "reason": "availability_not_confirmed_by_source",
       "price": 9497.0,
@@ -383,8 +407,8 @@
     }
   ],
   "photo_preservation": {
+    "saved": 61,
     "missing": 1,
-    "cached": 636,
-    "saved": 64
+    "cached": 643
   }
 }
