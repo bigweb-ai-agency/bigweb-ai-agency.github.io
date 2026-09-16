@@ -111,7 +111,7 @@ def run():
             'Сезон /10':s['climate_score'],'Дорога /10':max(0,10-round(candidates[0]['drive_hours_estimate'])) if candidates and x['state'] not in ('HI','AK') else 0}
         x['score_parts']=parts
         x['score']=min(64 if x.get('personal_repair')!='authority_confirmed' else 100,sum(parts.values()))
-        if x.get('price_conflict') or x.get('status') not in ('active','pending'):x['score']=min(x['score'],20)
+        if x.get('review_hold') or x.get('price_conflict') or x.get('status') not in ('active','pending'):x['score']=min(x['score'],20)
     write(DATA/'listings.json',d)
     write(DATA/'states.json',{'updated_at':NOW,'states':states,'method':'Обзор всех 50 штатов, затем отбор реальных объявлений. Приоритет и климат — качественные оценки автора. Недобор не заполняется выдуманными объектами. Разрешение личного ремонта не подтверждено ни у одного нового объекта.'})
     print('State analysis:',len(states),'states;',sum(x['photo_candidates']>=10 for x in states),'with 10+ photo candidates')

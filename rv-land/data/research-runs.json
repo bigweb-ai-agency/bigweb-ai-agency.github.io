@@ -68,6 +68,71 @@
         "NH",
         "VT"
       ]
+    },
+    {
+      "date": "2026-09-16T02:17:10+00:00",
+      "states": [
+        "MA",
+        "NH",
+        "VT"
+      ],
+      "added_ids": [],
+      "updated_ids": [
+        "ls-3738440",
+        "ls-3973952"
+      ],
+      "scope": "Garage/workshop search and low-coverage New England rotation. No new suitable purchase verified. Two retained NH industrial lots placed on review hold for unknown mandatory back taxes and environmental due diligence; seller status and all histories/photos preserved.",
+      "deferred": [
+        {
+          "url": "https://www.landdealsclub.com/property-details.php?view=123748",
+          "price": 10000,
+          "reason": "Live seller page, 1.12 ac Charlton MA. Preserved seller aerial shows a narrow highlighted parcel behind other parcels with no visible road frontage. Access/easement and advertised buildability not established; do not add as an RV candidate.",
+          "preserved_image": "assets/listings/937de933aec53797ff7a.png",
+          "image_source_url": "https://www.landdealsclub.com/rei-crm/crm-01390/uploads/123748/screenshot_305.png"
+        },
+        {
+          "url": "https://www.homes.com/property/48-activity-r-richmond-nh/g1k1d2v1cwcvk/",
+          "price": 10900,
+          "reason": "Wetlands and conflicting utility descriptions; tax field $6,771/year needs checking. No established RV use or reliable parcel geometry."
+        },
+        {
+          "url": "https://www.homes.com/property/lot-265-king-dr-haverhill-nh/5mx38zj65lh7v/",
+          "price": 12000,
+          "reason": "Under contract, Mountain Lakes residential community, utilities absent. No RV storage/repair permission established."
+        }
+      ],
+      "negative_searches": [
+        {
+          "url": "https://www.landbrokermls.com/property/500020127/6-73-acres-of-land-for-sale-in-brandon-vt",
+          "finding": "Actual RV garage/workshop at 509 Old Basin Road costs $275,000, outside scope."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/vermont/search/under-15000",
+          "finding": "Two rentals, existing Walker Pit Rd pending $15,000 candidate, and $2,500 lot below specified range. Walker Pit pending status already correctly stored."
+        },
+        {
+          "url": "https://www.homes.com/new-hampshire/land-for-sale/under-15k/",
+          "finding": "Excluded ground lease, 0.07-acre landlocked abutter lot, and lot with failed perc/nonbuildable disclosure; no existing garage in budget established."
+        }
+      ],
+      "official_sources": [
+        {
+          "url": "https://www.epa.gov/newsreleases/federal-settlement-paves-way-continued-work-former-chlor-alkali-facility-superfund",
+          "finding": "Official 2022 contamination/remediation background matches Berlin cell-house description and area; exact parcel boundary match and current remediation status still unverified."
+        },
+        {
+          "url": "https://www.townofcharlton.net/DocumentCenter/View/845/09-28-18-Principle-Uses-and-Accessory-Uses-PDF",
+          "finding": "2018 advisory opinion distinguishes a detached accessory garage from independent principal parking use; not a permit for the Charlton lot."
+        }
+      ],
+      "monitor_diagnosis": "Scheduled run completed and published 3 new records; partial source coverage because two previously retained Oregon listing URLs returned 404. Verified both records, prior images and active-by-last-source statuses remain intact; no sale inferred and no blocked-source retry.",
+      "access": "Homes MA search timed out; Homes VT search unavailable through web tool. No blocked direct Homes access retried. Charlton public seller page returned 200 and original seller image was preserved with cache_photos using the exact source host.",
+      "github_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/35042983022",
+      "next_states": [
+        "RI",
+        "ID",
+        "WA"
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-16T01:10:09+00:00",
+  "updated_at": "2026-09-16T02:17:10+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -51108,12 +51108,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:28+00:00",
-      "last_seen": "2026-09-13T23:00:23+00:00",
-      "last_verified": "2026-09-13T23:00:23+00:00",
+      "last_seen": "2026-09-16T02:17:10+00:00",
+      "last_verified": "2026-09-16T02:17:10+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "Продавец описывает остаток Paper Mill Campus и имеет ограниченные сведения. Наличие загрязнения именно в пределах данного лота по официальному parcel-отчёту не подтверждено."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ls-3738440",
       "source_id": "3738440",
@@ -51129,21 +51131,21 @@
       "price": 10000.0,
       "known_fees": 0,
       "total_known": 10000.0,
-      "price_evidence": "Показанная запрашиваемая цена; дополнительные сборы не подтверждены.",
+      "price_evidence": "Показанная запрашиваемая цена; дополнительные сборы не подтверждены. Цена не включает обязательную налоговую задолженность неизвестного размера.",
       "acres": 5.34,
       "lat": 42.7806,
       "lng": -72.4279,
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "indexed_public_page",
-      "source_crawled": "yesterday",
+      "source_crawled": "today",
       "image_url": "assets/listings/e1881c1e5c044e5b2687.jpg",
       "image_source_url": "https://www.landsearch.com/properties/ashuelot-main-st-winchester-nh-03470/3738440",
       "image_credit": "Listing broker / LandSearch",
       "parcel": null,
       "mls": "NNEREN 4978464",
       "zoning": "Agricultural",
-      "taxes_note": "2022 $789",
+      "taxes_note": "$789 за 2022 в карточке не является суммой задолженности. Продавец возлагает back taxes на покупателя; актуальная сумма неизвестна.",
       "road_note": "Юридический подъезд не проверен",
       "utility_note": "Состояние подключений требует проверки",
       "garage_note": "Размеры и состояние не подтверждены",
@@ -51156,7 +51158,10 @@
       "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "unknown",
-      "flags": [],
+      "flags": [
+        "Обязательные налоговые долги не включены в $10,000. Размер долгов неизвестен, поэтому соблюдение бюджета $15,000 не установлено.",
+        "Бывшее промышленное использование: продавец направляет за soil reports в NHDES."
+      ],
       "evidence_quote": null,
       "price_history": [
         {
@@ -51171,7 +51176,7 @@
         "https://www.landsearch.com/properties/ashuelot-main-st-winchester-nh-03470/3738440"
       ],
       "region": "Северо-восток",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Мало подходящих предложений; снег и местные ограничения на standalone RV. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -51214,7 +51219,7 @@
         "Сезон /10": 3,
         "Дорога /10": 8
       },
-      "score": 24,
+      "score": 20,
       "image_remote_url": "https://cdn.landsearch.com/listings/4BdSw/large/winchester-nh-171072469.jpg",
       "photo_preserved_at": "2026-09-13T23:05:59+00:00",
       "photo_history": [
@@ -51224,7 +51229,14 @@
           "remote_url": "https://cdn.landsearch.com/listings/4BdSw/large/winchester-nh-171072469.jpg",
           "date": "2026-09-13T23:05:59+00:00"
         }
-      ]
+      ],
+      "review_hold": {
+        "date": "2026-09-16T02:17:10+00:00",
+        "reason": "Продавец требует оплатить задолженность по налогам сверх цены участка; сумма не указана. Для бывшей бумажной фабрики нужны результаты обследования грунта. Полный бюджет и пригодность базы не подтверждены.",
+        "source": "https://www.landsearch.com/properties/ashuelot-main-st-winchester-nh-03470/3738440",
+        "release_condition": "Подтвердить полный payoff налогов/обременений, экологический статус parcel и допустимость хранения/личного ремонта RV."
+      },
+      "source_updated": "2026-07-27"
     },
     {
       "price_currency": "USD",
@@ -51379,12 +51391,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:28+00:00",
-      "last_seen": "2026-09-13T23:00:23+00:00",
-      "last_verified": "2026-09-13T23:00:23+00:00",
+      "last_seen": "2026-09-16T02:17:10+00:00",
+      "last_verified": "2026-09-16T02:17:10+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "Документированный доступ с Community Street заявлен продавцом; маршрут для 7-метрового RV не проверен. EPA-источник датирован 07.12.2022, текущая стадия очистки и обязательства покупателя требуют отдельной проверки."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ls-3973952",
       "source_id": "3973952",
@@ -51400,21 +51414,21 @@
       "price": 10000.0,
       "known_fees": 0,
       "total_known": 10000.0,
-      "price_evidence": "Показанная запрашиваемая цена; дополнительные сборы не подтверждены.",
+      "price_evidence": "Показанная запрашиваемая цена; дополнительные сборы не подтверждены. Цена не включает обязательную налоговую задолженность неизвестного размера.",
       "acres": 4.6,
       "lat": 44.4782,
       "lng": -71.1673,
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "indexed_public_page",
-      "source_crawled": "yesterday",
+      "source_crawled": "today",
       "image_url": "assets/listings/3efec7a4e5bc33f2f84d.jpg",
       "image_source_url": "https://www.landsearch.com/properties/bridge-st-xing-berlin-nh-03570/3973952",
       "image_credit": "Listing broker / LandSearch",
       "parcel": "04021-000128000262000000",
       "mls": "NNEREN 5015901",
       "zoning": "Industrial Business",
-      "taxes_note": null,
+      "taxes_note": "Покупатель оплачивает все налоги, причитающиеся при closing; сумма и liens неизвестны.",
       "road_note": "Юридический подъезд не проверен",
       "utility_note": "Состояние подключений требует проверки",
       "garage_note": "Размеры и состояние не подтверждены",
@@ -51427,7 +51441,12 @@
       "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "unknown",
-      "flags": [],
+      "flags": [
+        "Обязательные налоговые долги не включены в $10,000. Размер долгов неизвестен, поэтому соблюдение бюджета $15,000 не установлено.",
+        "Бывшее промышленное использование: продавец направляет за soil reports в NHDES/EPA.",
+        "Продавец указывает, что строительство, по его сведениям, невозможно; industrial zoning не подтверждает пригодность под мастерскую.",
+        "EPA описывает у Bridge Street бывший Chlor-Alkali Facility и 4.6-acre Cell House Parcel с загрязнением. Совпадение места, площади и описания — серьёзный сигнал, но точные границы продаваемого parcel с картой EPA ещё не сверены."
+      ],
       "evidence_quote": null,
       "price_history": [
         {
@@ -51442,7 +51461,7 @@
         "https://www.landsearch.com/properties/bridge-st-xing-berlin-nh-03570/3973952"
       ],
       "region": "Северо-восток",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Мало подходящих предложений; снег и местные ограничения на standalone RV. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -51485,7 +51504,7 @@
         "Сезон /10": 3,
         "Дорога /10": 6
       },
-      "score": 22,
+      "score": 20,
       "image_remote_url": "https://cdn.landsearch.com/listings/4Dn62/large/berlin-nh-171078458.jpg",
       "photo_preserved_at": "2026-09-13T23:05:59+00:00",
       "photo_history": [
@@ -51495,7 +51514,15 @@
           "remote_url": "https://cdn.landsearch.com/listings/4Dn62/large/berlin-nh-171078458.jpg",
           "date": "2026-09-13T23:05:59+00:00"
         }
-      ]
+      ],
+      "review_hold": {
+        "date": "2026-09-16T02:17:10+00:00",
+        "reason": "Бывшая промышленная площадка с экологическими вопросами; продавец считает строительство невозможным. Налоговые долги оплачивает покупатель, сумма не указана. Полный бюджет и пригодность базы не подтверждены.",
+        "source": "https://www.landsearch.com/properties/bridge-st-xing-berlin-nh-03570/3973952",
+        "release_condition": "Подтвердить полный payoff налогов/обременений, экологический статус parcel и допустимость хранения/личного ремонта RV."
+      },
+      "legal_source": "https://www.epa.gov/newsreleases/federal-settlement-paves-way-continued-work-former-chlor-alkali-facility-superfund",
+      "source_updated": "2026-08-27"
     },
     {
       "price_currency": "USD",

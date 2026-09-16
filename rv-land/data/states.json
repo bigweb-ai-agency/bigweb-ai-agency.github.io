@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T01:10:09+00:00",
+  "updated_at": "2026-09-16T02:17:10+00:00",
   "states": [
     {
       "code": "AL",
@@ -595,8 +595,8 @@
       ],
       "analysis": "Мало подходящих предложений; снег и местные ограничения на standalone RV. Проверять каждую town отдельно.",
       "total": 4,
-      "photo_candidates": 4,
-      "shortfall": 6,
+      "photo_candidates": 2,
+      "shortfall": 8,
       "coverage": "Недостаточно проверенных кандидатов",
       "sources": [
         "https://www.landsearch.com/properties/new-hampshire/search/under-15000",

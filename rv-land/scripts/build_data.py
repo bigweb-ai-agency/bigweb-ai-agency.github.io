@@ -248,6 +248,7 @@ def normalize_key(x):
     return ('url',x['url'].lower().rstrip('/'))
 
 def acceptable(x):
+    if x.get('review_hold'):return 'research_hold'
     if x.get('price') is None or not 3000<=x['price']<=15000:return 'outside_cash_budget'
     if x.get('total_known',x['price'])>15000:return 'known_fees_exceed_budget'
     if x.get('price_basis')!='asking_cash':return 'not_fixed_cash_price'

@@ -27,7 +27,7 @@ document.addEventListener('error',event=>{
 },true);
 function tag(text,cls=''){return '<span class="tag '+cls+'">'+esc(text)+'</span>';}
 function labels(x){
- return tag(x.existing_garage?'Гараж указан':kindNames[x.kind]||x.kind,x.existing_garage?'good':'')+
+ return (x.review_hold?tag('Исключён до проверки','warn'):'')+tag(x.existing_garage?'Гараж указан':kindNames[x.kind]||x.kind,x.existing_garage?'good':'')+
  tag(x.personal_repair==='authority_confirmed'?'Ремонт подтверждён':'Ремонт не подтверждён',x.personal_repair==='authority_confirmed'?'good':'warn')+
  (x.status!=='active'?tag(statusNames[x.status]||x.status,'warn'):'');
 }
@@ -115,11 +115,13 @@ function showDetail(id){
  const x=byId.get(id);if(!x)return;selected=id;
  const facts=[['Тип',kindNames[x.kind]||x.kind],['Площадь',String(x.acres??'?')+' ac'],['Хранение RV',useNames[x.rv_storage]],['Проживание в RV',useNames[x.rv_occupancy]],['Личный ремонт',useNames[x.personal_repair]],['Коммерческий ремонт',useNames[x.commercial_repair]],['Электричество',useNames[x.electricity]],['Вода',useNames[x.water]],['Канализация / септик',useNames[x.sewer]],['Отсутствие HOA',useNames[x.no_hoa]],['Подъезд',useNames[x.road_access]],['Статус',statusNames[x.status]]];
  let body=photo(x,'detail-photo')+'<div class="detail-content"><span class="eyebrow">'+esc(x.city+', '+x.state+' / '+x.county)+'</span><span class="detail-price">'+money(x.price)+'</span><h2>'+esc(x.title)+'</h2><div class="card-labels">'+labels(x)+'</div>'+
+ (x.review_hold?'<p><b>Исключён из основной выборки:</b> '+esc(x.review_hold.reason)+'</p>':'')+
  '<p style="margin-top:12px">Известные сборы: '+money(x.known_fees||0)+'. Цена + известные сборы: '+money(x.total_known)+'. Closing, обследование и подготовка площадки не включены.</p>'+
  '<div class="facts">'+facts.map(([k,v])=>'<div><small>'+esc(k)+'</small>'+esc(v||'Не подтверждено')+'</div>').join('')+'</div>'+
  '<p><b>Помещение:</b> '+esc(x.garage_note||'Не подтверждено')+'</p><p><b>Коммуникации:</b> '+esc(x.utility_note||'Не подтверждены')+'</p><p><b>Zoning:</b> '+esc(x.zoning)+'</p><p><b>Parcel / MLS:</b> '+esc(x.parcel||'не указан')+' / '+esc(x.mls||'не указан')+'</p>'+
  '<p><b>Налоги по источнику:</b> '+esc(x.taxes_note||'Не подтверждены')+'</p>';
  if(x.flags?.length)body+='<h3>Что может изменить решение</h3><ul>'+x.flags.map(t=>'<li>'+esc(t)+'</li>').join('')+'</ul>';
+ if(x.legal_source)body+='<p>'+link(x.legal_source,'Официальный источник проверки ↗')+'</p>';
  if(x.notes?.length)body+=x.notes.filter(Boolean).map(t=>'<p>'+esc(t)+'</p>').join('');
  body+='<h3>Как добраться</h3>';
  if(['HI','AK'].includes(x.state))body+='<p>Материковая поездка сюда не является простым автомобильным трансфером. Для Hawaii необходимы доставка RV и проверка острова; для Alaska — отдельный рейс или многодневный переезд.</p>';

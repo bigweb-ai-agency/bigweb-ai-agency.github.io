@@ -80,4 +80,18 @@ class ResearchDataTests(unittest.TestCase):
     def test_known_fees_over_budget_reject_new_candidate(self):
         self.assertEqual(b.acceptable({'price':15000,'total_known':15499}),'known_fees_exceed_budget')
 
+    def test_research_hold_survives_source_refresh_without_changing_sale_status(self):
+        old={'id':'held','url':'https://example.org/held','state':'NH','price':10000,
+             'total_known':10000,'price_basis':'asking_cash','status':'active','acres':4.6,
+             'image_url':'assets/listings/existing.jpg','lat':44.48,'lng':-71.17,
+             'first_seen':'2026-09-01','review_hold':{'reason':'Mandatory back taxes unknown','date':'2026-09-16'}}
+        refreshed={k:v for k,v in old.items() if k!='review_hold'}
+        self.assertIsNone(b.acceptable(refreshed))
+        merged=b.merge_records([old],[refreshed])
+        self.assertEqual(len(merged),1)
+        row=merged[0]
+        self.assertEqual(b.acceptable(row),'research_hold')
+        self.assertEqual(row['review_hold'],old['review_hold'])
+        self.assertEqual((row['status'],row['first_seen'],row['image_url']),('active',old['first_seen'],old['image_url']))
+
 if __name__=='__main__':unittest.main()
