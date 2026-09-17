@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T01:10:26+00:00",
+  "updated_at": "2026-09-17T02:19:55+00:00",
   "states": [
     {
       "code": "AL",
@@ -973,8 +973,8 @@
       ],
       "analysis": "Дешёвый билет до SEA возможен, но дешёвые участки в основном далеко от западных городов. Восточный климат холоднее и суше.",
       "total": 3,
-      "photo_candidates": 3,
-      "shortfall": 7,
+      "photo_candidates": 2,
+      "shortfall": 8,
       "coverage": "Недостаточно проверенных кандидатов",
       "sources": [
         "https://www.landsearch.com/properties/washington/search/under-15000",

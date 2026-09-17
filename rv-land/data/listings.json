@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-17T01:10:26+00:00",
+  "updated_at": "2026-09-17T02:19:55+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -37623,14 +37623,16 @@
     },
     {
       "price_currency": "USD",
-      "price_basis": "asking_cash",
+      "price_basis": "monthly_lease",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-13T23:00:23+00:00",
-      "last_verified": "2026-09-13T23:00:23+00:00",
+      "last_seen": "2026-09-17T02:19:55+00:00",
+      "last_verified": "2026-09-17T02:19:55+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "17.09.2026 исправлена интерпретация суммы: $4,500 — месячная аренда. Первоначальная запись цены и фотография сохранены. Статус active отражает доступность предложения аренды, а не продажу участка."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ls-3848131",
       "source_id": "3848131",
@@ -37645,15 +37647,15 @@
       "kind": "commercial_lot",
       "price": 4500.0,
       "known_fees": 0,
-      "total_known": 4500.0,
-      "price_evidence": "Показанная запрашиваемая цена; дополнительные сборы не подтверждены.",
+      "total_known": null,
+      "price_evidence": "Аренда $4,500 в месяц; продавец ищет договор на 5 лет (Modified Gross Lease). Цена покупки не указана; это не объект за $4,500 целиком.",
       "acres": 1.64,
       "lat": 46.2982,
       "lng": -119.0872,
       "coord_precision": "listing",
       "status": "active",
-      "status_basis": "indexed_public_page",
-      "source_crawled": "last week",
+      "status_basis": "live_public_page",
+      "source_crawled": "live Chrome page",
       "image_url": "assets/listings/8cf8866592615b407fd7.jpg",
       "image_source_url": "https://www.landsearch.com/properties/2331-w-a-st-pasco-wa-99301/3848131",
       "image_credit": "Listing broker / LandSearch",
@@ -37673,8 +37675,10 @@
       "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "unknown",
-      "flags": [],
-      "evidence_quote": null,
+      "flags": [
+        "Заголовок площадки ошибочно показывает Active sale, но текст продавца явно описывает месячную аренду и пятилетний договор."
+      ],
+      "evidence_quote": "low monthly price and aims to secure a 5-year lease commitment",
       "price_history": [
         {
           "date": "2026-09-13T22:25:02+00:00",
@@ -37688,7 +37692,7 @@
         "https://www.landsearch.com/properties/2331-w-a-st-pasco-wa-99301/3848131"
       ],
       "region": "Тихоокеанский",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Дешёвый билет до SEA возможен, но дешёвые участки в основном далеко от западных городов. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -37724,14 +37728,14 @@
       ],
       "msp_straight_km": 2010,
       "score_parts": {
-        "Цена /25": 22,
+        "Цена /25": 0,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 0,
         "Сезон /10": 4,
         "Дорога /10": 5
       },
-      "score": 31,
+      "score": 9,
       "image_remote_url": "https://cdn.landsearch.com/listings/4CdtK/large/pasco-wa-178203385.jpg",
       "photo_preserved_at": "2026-09-13T23:05:59+00:00",
       "photo_history": [
@@ -37740,6 +37744,22 @@
           "source": "https://www.landsearch.com/properties/2331-w-a-st-pasco-wa-99301/3848131",
           "remote_url": "https://cdn.landsearch.com/listings/4CdtK/large/pasco-wa-178203385.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "review_hold": {
+        "date": "2026-09-17T02:19:55+00:00",
+        "reason": "Аренда $4,500 в месяц; продавец ищет договор на 5 лет (Modified Gross Lease). Цена покупки не указана; это не объект за $4,500 целиком.",
+        "source": "https://www.landsearch.com/properties/2331-w-a-st-pasco-wa-99301/3848131",
+        "release_condition": "Вернуть в выборку только при подтверждённой продаже всего объекта за $3,000–15,000; текущая аренда не соответствует задаче."
+      },
+      "source_updated": "2026-09-16",
+      "review_history": [
+        {
+          "date": "2026-09-17T02:19:55+00:00",
+          "field": "price_basis",
+          "from": "asking_cash",
+          "to": "monthly_lease",
+          "source": "https://www.landsearch.com/properties/2331-w-a-st-pasco-wa-99301/3848131"
         }
       ]
     },

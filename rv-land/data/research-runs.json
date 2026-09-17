@@ -133,6 +133,101 @@
         "ID",
         "WA"
       ]
+    },
+    {
+      "date": "2026-09-17T02:19:55+00:00",
+      "states": [
+        "RI",
+        "ID",
+        "WA"
+      ],
+      "added_ids": [],
+      "updated_ids": [
+        "ls-3848131"
+      ],
+      "scope": "Garage/workshop and low-coverage state rotation. Corrected retained Pasco record from cash purchase to monthly lease using live Chrome seller description. No additional suitable photo candidate verified; 6 automated additions already retained.",
+      "deferred": [
+        {
+          "url": "https://www.homes.com/property/3-sacagewea-dr-ephrata-wa/r9dp1mpq5l70d/",
+          "price": 7000,
+          "reason": "Rimrock Meadows community guidelines require working-order RVs and prohibit private lots being used for storage of vehicles/machinery. Multiple similar Ephrata lots are recreational alternatives, not established repair bases.",
+          "legal_source": "https://www.rimrockmeadows.com/developing-property"
+        },
+        {
+          "url": "https://www.homes.com/property/0-washington-103-long-beach-wa/bz99yhl3jczb5/",
+          "price": 13900,
+          "reason": "0.44 ac, two parcels, RR by listing. Access/easement geometry and RV pad not established. Indexed county ordinance section 21 limits garages/shops accompanying RV use in RR; exact parcel zoning and current applicable version require verification. No candidate imported.",
+          "legal_source": "https://www.co.pacific.wa.us/ordres/Ord-194-Final-Zoning.pdf"
+        },
+        {
+          "url": "https://www.homes.com/property/1715-sheridan-st-aberdeen-wa/s0yrydxjgdwzw/",
+          "price": 12995,
+          "known_fees": 599,
+          "reason": "Seller gives GPS 46.988478,-123.808491 and parcel 021601900100 near N Evans/Huntley, different from listing street title. Tax table shows an improved property unlike seller raw-land description. Resolve parcel identity, vehicle access and RS use before importing."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/1125-e-32nd-ave-spokane-wa-99203/5015583",
+          "price": 5900,
+          "reason": "Seller explicitly identifies landlocked parcel with no access."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/morton-wa-98356/5398657",
+          "price": 10000,
+          "reason": "Seller explicitly states no legal access, steep slope and floodplain. Not an RV repair candidate."
+        }
+      ],
+      "negative_searches": [
+        {
+          "url": "https://www.landsearch.com/properties/rhode-island/search/under-15000",
+          "finding": "Six indexed offers were rentals, not full-price purchases."
+        },
+        {
+          "url": "https://patriotauctioneers.com/auction/13678/50-sheldon-street-tiverton-ri/",
+          "finding": "$10,000 is an auction deposit, not a full purchase price."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/idaho/search/under-15000",
+          "finding": "Four rentals and existing Silver St Gilmore $5,000 candidate; stored pending status already matches source."
+        },
+        {
+          "url": "https://www.homes.com/idaho/land-for-sale/under-15k/",
+          "finding": "Displayed Boise manufactured-home lot was rental at $1,100/month."
+        },
+        {
+          "url": "https://fredcurrierrealestate.com/listing-details/wa555_2574292--28310-Y-Lane-Ocean-Park-WA-98640/",
+          "finding": "RV-ready property is $149,900 on the full page, despite misleading $9,900 search title."
+        },
+        {
+          "url": "https://www.truenorthwestgroup.com/listings/SAR202622150-321-s-crosby-st",
+          "finding": "Tekoa lot has a 14x24 ft garage and RV hookup but costs $59,000, outside budget."
+        },
+        {
+          "url": "https://www.homes.com/washington/land-for-sale/under-15k/",
+          "finding": "125 search results include monthly leases, tiny/landlocked parcels, and HOA recreational lots. Count is not eligible inventory; inspected promising low-price details and association restrictions."
+        }
+      ],
+      "official_sources": [
+        {
+          "url": "https://www.rimrockmeadows.com/developing-property",
+          "finding": "Association planning FAQ prohibits private-lot vehicle/machinery storage and requires RVs in working order. This is not independent confirmation of repair permission."
+        },
+        {
+          "url": "https://www.co.pacific.wa.us/ordres/Ord-194-Final-Zoning.pdf",
+          "finding": "Indexed section 21 excerpt restricts structures accompanying recreational-vehicle use in R1/R2/R3/RR. Direct PDF retrieval timed out; not treated as a parcel permit or final current-law determination."
+        },
+        {
+          "url": "https://www.co.pacific.wa.us/dcd/planning.htm",
+          "finding": "County describes critical-area review for grading, access and development, plus survey requirements. Exact listing parcel assessment remains unverified."
+        }
+      ],
+      "monitor_diagnosis": "Scheduled workflow succeeded and published 6 new photo records; partial source coverage because 3 retained LandCentury URLs returned 404 (two Oregon previously known, one Concho AZ). Existing facts, images and history kept; no sale inferred.",
+      "access": "Verified Pasco monthly lease in live connected Chrome. Read indexed public listing and official association/county pages. Did not retry blocked direct Homes/CDN access; Pacific zoning PDF direct retrieval timed out.",
+      "github_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/35169496665",
+      "next_states": [
+        "IL",
+        "MI",
+        "OH"
+      ]
     }
   ]
 }

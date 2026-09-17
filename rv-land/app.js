@@ -2,6 +2,7 @@
 const $ = id => document.getElementById(id);
 const esc = v => String(v ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const money = v => v == null ? '—' : '$' + Number(v).toLocaleString('en-US',{maximumFractionDigits:2});
+const listingPrice = x => money(x.price)+(x.price_basis==='monthly_lease'?' / мес. · аренда':'');
 const date = v => v && !isNaN(Date.parse(v)) ? new Date(v).toLocaleDateString('ru-RU') : 'не подтверждена';
 const safe = (v,photo=false) => {
  if(!v)return '';
@@ -39,7 +40,7 @@ function airportLine(x){
 function card(x){
  return '<article class="property-card'+(selected===x.id?' selected':'')+'" data-id="'+esc(x.id)+'">'+photo(x)+
  '<button class="favorite" data-favorite="'+esc(x.id)+'" aria-label="'+(favorites.has(x.id)?'Убрать из избранного':'В избранное')+'" aria-pressed="'+favorites.has(x.id)+'">'+(favorites.has(x.id)?'★':'☆')+'</button>'+
- '<div class="card-info"><span class="card-price">'+money(x.price)+'</span><button class="card-title" data-detail="'+esc(x.id)+'">'+esc(x.title)+'</button>'+
+ '<div class="card-info"><span class="card-price">'+listingPrice(x)+'</span><button class="card-title" data-detail="'+esc(x.id)+'">'+esc(x.title)+'</button>'+
  '<div class="card-location">'+esc(x.city+', '+x.state)+' · '+esc(x.acres??'?')+' ac · '+esc(x.score)+' / 100</div>'+
  '<div class="card-labels">'+labels(x)+'</div><div class="card-bottom">'+esc(airportLine(x))+'</div></div></article>';
 }
@@ -93,8 +94,8 @@ function renderMarkers(fit){
   if(!Number.isFinite(x.lat)||!Number.isFinite(x.lng))return;
   const color=x.existing_garage?'#276858':['house','building','commercial','workshop'].includes(x.kind)?'#b27b31':'#53768c';
   const marker=L.circleMarker([x.lat,x.lng],{radius:x.existing_garage?8:5,weight:1.5,color:'#fff',fillColor:color,fillOpacity:.85});
-  marker.bindTooltip(esc(x.city+', '+x.state)+' · '+money(x.price));
-  marker.bindPopup('<div class="popup">'+photo(x,'popup-image')+'<strong>'+money(x.price)+'</strong><p>'+esc(x.title)+'</p><p>'+esc(x.city+', '+x.state)+'</p><p>Ремонт и размеры въезда требуют проверки</p><button data-detail="'+esc(x.id)+'">Открыть карточку</button></div>',{maxWidth:250});
+  marker.bindTooltip(esc(x.city+', '+x.state)+' · '+listingPrice(x));
+  marker.bindPopup('<div class="popup">'+photo(x,'popup-image')+'<strong>'+listingPrice(x)+'</strong><p>'+esc(x.title)+'</p><p>'+esc(x.city+', '+x.state)+'</p><p>Ремонт и размеры въезда требуют проверки</p><button data-detail="'+esc(x.id)+'">Открыть карточку</button></div>',{maxWidth:250});
   marker.addTo(layer);markers.set(x.id,marker);
  });
  if(fit)fitMap();
@@ -114,9 +115,9 @@ function showTab(id){
 function showDetail(id){
  const x=byId.get(id);if(!x)return;selected=id;
  const facts=[['Тип',kindNames[x.kind]||x.kind],['Площадь',String(x.acres??'?')+' ac'],['Хранение RV',useNames[x.rv_storage]],['Проживание в RV',useNames[x.rv_occupancy]],['Личный ремонт',useNames[x.personal_repair]],['Коммерческий ремонт',useNames[x.commercial_repair]],['Электричество',useNames[x.electricity]],['Вода',useNames[x.water]],['Канализация / септик',useNames[x.sewer]],['Отсутствие HOA',useNames[x.no_hoa]],['Подъезд',useNames[x.road_access]],['Статус',statusNames[x.status]]];
- let body=photo(x,'detail-photo')+'<div class="detail-content"><span class="eyebrow">'+esc(x.city+', '+x.state+' / '+x.county)+'</span><span class="detail-price">'+money(x.price)+'</span><h2>'+esc(x.title)+'</h2><div class="card-labels">'+labels(x)+'</div>'+
+ let body=photo(x,'detail-photo')+'<div class="detail-content"><span class="eyebrow">'+esc(x.city+', '+x.state+' / '+x.county)+'</span><span class="detail-price">'+listingPrice(x)+'</span><h2>'+esc(x.title)+'</h2><div class="card-labels">'+labels(x)+'</div>'+
  (x.review_hold?'<p><b>Исключён из основной выборки:</b> '+esc(x.review_hold.reason)+'</p>':'')+
- '<p style="margin-top:12px">Известные сборы: '+money(x.known_fees||0)+'. Цена + известные сборы: '+money(x.total_known)+'. Closing, обследование и подготовка площадки не включены.</p>'+
+ (x.price_basis==='monthly_lease'?'<p style="margin-top:12px">'+esc(x.price_evidence||'Месячная аренда; цена покупки не указана.')+'</p>':'<p style="margin-top:12px">Известные сборы: '+money(x.known_fees||0)+'. Цена + известные сборы: '+money(x.total_known)+'. Closing, обследование и подготовка площадки не включены.</p>')+
  '<div class="facts">'+facts.map(([k,v])=>'<div><small>'+esc(k)+'</small>'+esc(v||'Не подтверждено')+'</div>').join('')+'</div>'+
  '<p><b>Помещение:</b> '+esc(x.garage_note||'Не подтверждено')+'</p><p><b>Коммуникации:</b> '+esc(x.utility_note||'Не подтверждены')+'</p><p><b>Zoning:</b> '+esc(x.zoning)+'</p><p><b>Parcel / MLS:</b> '+esc(x.parcel||'не указан')+' / '+esc(x.mls||'не указан')+'</p>'+
  '<p><b>Налоги по источнику:</b> '+esc(x.taxes_note||'Не подтверждены')+'</p>';
