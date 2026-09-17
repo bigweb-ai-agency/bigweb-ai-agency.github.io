@@ -1,9 +1,9 @@
 {
   "schedule": "Ежедневно 00:37 UTC: 03:37 летом / 02:37 зимой по Вильнюсу. GitHub Actions может запускаться с задержкой.",
-  "last_run": "2026-09-16T02:18:02+00:00",
+  "last_run": "2026-09-17T01:10:26+00:00",
   "status": "partial",
-  "run_url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/35047432503",
-  "summary": "0 новых; 0 изменений цены/статуса/фото; 118 страниц проверено; ошибок 2.",
+  "run_url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/35169496665",
+  "summary": "6 новых; 0 изменений цены/статуса/фото; 117 страниц проверено; ошибок 3.",
   "scope": "LandCentury: новые страницы всех 50 штатов и ротация старых записей. LandSearch и старые MLS — отдельная исследовательская проверка, не автоматический live-статус.",
   "events": [
     {
@@ -59,6 +59,15 @@
       "added": 0,
       "changed": 0,
       "errors": 2
+    },
+    {
+      "date": "2026-09-17T01:10:26+00:00",
+      "status": "partial",
+      "scanned_pages": 113,
+      "read_details": 117,
+      "added": 6,
+      "changed": 0,
+      "errors": 3
     }
   ],
   "source_errors": [
@@ -69,6 +78,10 @@
     {
       "url": "https://www.landcentury.com/land-for-sale/oregon/232-acres-for-sale-in-sprague-river-oregon-24670",
       "error": "404 Client Error: Not Found for url: https://www.landcentury.com/land-for-sale/oregon/232-acres-for-sale-in-sprague-river-oregon-24670"
+    },
+    {
+      "url": "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-concho-arizona-26142",
+      "error": "404 Client Error: Not Found for url: https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-concho-arizona-26142"
     }
   ],
   "rejected": [
@@ -389,53 +402,11 @@
       "reason": "availability_not_confirmed_by_source",
       "price": 8000.0,
       "state": "GA"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/georgia/069-acres-for-sale-in-waverly-hall-ga-12582",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 9900.0,
-      "state": "GA"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/tennessee/025-acres-for-sale-in-crossville-tn-12575",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 5990.0,
-      "state": "TN"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/georgia/055-acres-for-sale-in-sparta-ga-12550",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 9900.0,
-      "state": "GA"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/tennessee/017-acres-for-sale-in-memphis-tn-12545",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 8000.0,
-      "state": "TN"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/georgia/037-acres-for-sale-in-rome-ga-12529",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 8500.0,
-      "state": "GA"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/tennessee/12-acres-for-sale-in-dyersburg-tn-12526",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 14500.0,
-      "state": "TN"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/tennessee/024-acres-for-sale-in-crossville-tn-12502",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 3500.0,
-      "state": "TN"
     }
   ],
   "photo_preservation": {
-    "cached": 646,
+    "saved": 64,
     "missing": 1,
-    "saved": 58
+    "cached": 646
   }
 }
