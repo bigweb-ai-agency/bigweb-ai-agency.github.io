@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-18T01:10:17+00:00",
+  "updated_at": "2026-09-18T02:17:46+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -11821,14 +11821,16 @@
     },
     {
       "price_currency": "USD",
-      "price_basis": "asking_cash",
+      "price_basis": "financing_only",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-18T01:14:59Z",
-      "last_verified": "2026-09-18T01:14:59Z",
+      "last_seen": "2026-09-18T02:17:46+00:00",
+      "last_verified": "2026-09-18T02:17:46+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "Предыдущая цена $8,500 и новое показанное число $489 остаются в истории. Текущая полная цена не установлена."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-22777",
       "source_id": "22777",
@@ -11843,14 +11845,14 @@
       "kind": "land",
       "price": 489.0,
       "known_fees": 250.0,
-      "total_known": 739.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "total_known": null,
+      "price_evidence": "Заголовок показывает $489, но текст предлагает $200 down + $250 document fee и около $170/месяц. Полная cash price и срок выплат не указаны; $489 не подтверждено как цена покупки.",
       "acres": 4.83,
       "lat": 37.30386,
       "lng": -105.5091,
       "coord_precision": "listing",
       "status": "active",
-      "status_basis": "live_public_page",
+      "status_basis": "indexed_public_page",
       "source_updated": "2026-09-17T19:43:37.000000Z",
       "source_published": "2025-10-10T12:55:25.000000Z",
       "image_url": "assets/listings/9c60f52f63939a8eb8b4.jpg",
@@ -11878,7 +11880,9 @@
       "sewer": "none",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
-      "flags": [],
+      "flags": [
+        "Смена $8,500 на $489 не подтверждена как снижение полной цены земли: продавец изменил описание на owner financing."
+      ],
       "evidence_quote": null,
       "price_history": [
         {
@@ -11898,7 +11902,7 @@
         "https://www.landcentury.com/land-for-sale/colorado/483-acres-for-sale-in-blanca-colorado-22777"
       ],
       "region": "Горный",
-      "screening_issue": "outside_cash_budget",
+      "screening_issue": "research_hold",
       "climate_note": "San Luis Valley даёт много дешёвых лотов, но это высокогорье с морозом, ветром и дорогими коммуникациями. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -11934,14 +11938,14 @@
       ],
       "msp_straight_km": 1328,
       "score_parts": {
-        "Цена /25": 25,
+        "Цена /25": 0,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 0,
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 33,
+      "score": 8,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/27/6a90569946270-1787844249.jpg",
       "photo_preserved_at": "2026-09-18T01:10:17+00:00",
       "photo_history": [
@@ -11952,7 +11956,23 @@
           "date": "2026-09-13T23:05:59+00:00"
         }
       ],
-      "previous_price": 8500.0
+      "previous_price": 8500.0,
+      "review_hold": {
+        "date": "2026-09-18T02:17:46+00:00",
+        "reason": "Заголовок показывает $489, но текст предлагает $200 down + $250 document fee и около $170/месяц. Полная cash price и срок выплат не указаны; $489 не подтверждено как цена покупки.",
+        "source": "https://www.landcentury.com/land-for-sale/colorado/483-acres-for-sale-in-blanca-colorado-22777",
+        "release_condition": "Подтвердить полную цену cash и обязательные сборы; рекламный взнос/платёж не использовать как цену покупки."
+      },
+      "review_history": [
+        {
+          "date": "2026-09-18T02:17:46+00:00",
+          "field": "price_basis",
+          "from": "asking_cash",
+          "to": "financing_only",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/483-acres-for-sale-in-blanca-colorado-22777"
+        }
+      ],
+      "source_crawled": "today"
     },
     {
       "price_currency": "USD",
@@ -90400,6 +90420,271 @@
         "Дорога /10": 0
       },
       "score": 20
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-09-18T02:17:46+00:00",
+      "last_seen": "2026-09-18T02:17:46+00:00",
+      "last_verified": "2026-09-18T02:17:46+00:00",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [
+        "На фото видны изношенная наружная отделка и заросший подход. Это кандидат для проверки участка и гаража, а не готовая мастерская.",
+        "Городской портал предупреждает: опубликованный сборник правил включает акты только до 01.04.2021; поздние изменения представлены не полностью. Разрешение RV и ремонта не установлено."
+      ],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": true,
+      "garage_size": null,
+      "electricity": "on_site_claim",
+      "water": "on_site_claim",
+      "sewer": "available",
+      "no_hoa": "seller_claim",
+      "road_access": "unknown",
+      "flags": [
+        "Гараж рассчитан по описанию на одну легковую машину. Размеры для высокого 7-метрового RV не проверены.",
+        "Продавец прямо указывает, что дом непригоден для проживания. Стоимость восстановления/возможного сноса и требования города неизвестны.",
+        "Гараж заявлен в MLS, но его ворота и внутреннее пространство не показаны на четырёх опубликованных фото."
+      ],
+      "evidence_quote": "The existing structure is not livable",
+      "id": "mls-il-12720990",
+      "url": "https://www.compass.com/homedetails/506-W-McLean-St-Colchester-IL-62326/8QHD_pid/",
+      "image_url": "assets/listings/315c73e3125ac81dc823.jpg",
+      "image_remote_url": "https://www.compass.com/m/315c73e3125ac81dc823be6b21584edff8d7f526214adb67f529a2e922803f2a/origin.jpg",
+      "photo_preserved_at": "2026-09-18T02:14:06+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/315c73e3125ac81dc823.jpg",
+          "source": "https://www.compass.com/homedetails/506-W-McLean-St-Colchester-IL-62326/8QHD_pid/",
+          "remote_url": "https://www.compass.com/m/315c73e3125ac81dc823be6b21584edff8d7f526214adb67f529a2e922803f2a/origin.jpg",
+          "date": "2026-09-18T02:14:06+00:00"
+        }
+      ],
+      "source_id": "12720990",
+      "kind": "house",
+      "known_fees": 0,
+      "price_evidence": "Полная запрашиваемая цена продажи на публичной странице; дополнительные расходы закрытия сделки не подтверждены.",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_crawled": "live Chrome page",
+      "coord_precision": "listing",
+      "image_source_url": "https://www.compass.com/homedetails/506-W-McLean-St-Colchester-IL-62326/8QHD_pid/",
+      "image_credit": "Listing broker / Compass",
+      "road_note": "Въезд и разворот высокого RV длиной 7 м не проверены.",
+      "garage_note": "По MLS отдельный гараж на одну легковую машину. Высота ворот, длина бокса и состояние не подтверждены; въезд кемпервана не установлен.",
+      "utility_note": "В объявлении указаны коммуникации; работоспособность и активность подключений не проверены.",
+      "zoning": "Жилое использование по источнику; parcel zoning не подтверждён.",
+      "taxes_note": "$384/год указано Compass; год и актуальная задолженность не установлены.",
+      "source": "Compass",
+      "title": "506 W McLean St — дом под восстановление + гараж",
+      "address": "506 W McLean St",
+      "city": "Colchester",
+      "state": "IL",
+      "zip": "62326",
+      "county": "McDonough",
+      "price": 9900,
+      "acres": 0.18,
+      "lat": 40.4259362,
+      "lng": -90.7984674,
+      "parcel": "05-000-872-00",
+      "mls": "MRED 12720990",
+      "source_updated": "2026-08-07",
+      "legal_source": "https://cityofcolchesteril.gov/public-documents",
+      "total_known": 9900,
+      "price_history": [
+        {
+          "date": "2026-09-18T02:17:46+00:00",
+          "price": 9900,
+          "source": "https://www.compass.com/homedetails/506-W-McLean-St-Colchester-IL-62326/8QHD_pid/"
+        }
+      ],
+      "status_history": [],
+      "region": "Средний Запад",
+      "screening_issue": null,
+      "climate_note": "Полезный рынок небольших зданий, гаражей и городских лотов. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "STL",
+          "name": "St. Louis Lambert International Airport",
+          "straight_km": 190,
+          "drive_km_estimate": 238,
+          "drive_hours_estimate": 3.2,
+          "flight_min_eur": 596,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "ORD",
+          "name": "Chicago O'Hare International Airport",
+          "straight_km": 297,
+          "drive_km_estimate": 372,
+          "drive_hours_estimate": 5.0,
+          "flight_min_eur": 468,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "MSP",
+          "name": "Minneapolis–Saint Paul International Airport / Wold–Chamberlain Field",
+          "straight_km": 533,
+          "drive_km_estimate": 667,
+          "drive_hours_estimate": 8.9,
+          "flight_min_eur": 803,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 534,
+      "score_parts": {
+        "Цена /25": 14,
+        "Помещение /25": 22,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 7,
+        "Сезон /10": 4,
+        "Дорога /10": 7
+      },
+      "score": 54
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-09-18T02:17:46+00:00",
+      "last_seen": "2026-09-18T02:17:46+00:00",
+      "last_verified": "2026-09-18T02:17:46+00:00",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "restriction_risk",
+      "commercial_repair": "unknown",
+      "notes": [
+        "Свежая страница Redfin в Chrome показывает FOR SALE и $7,900, MLS 50221111. Старый поисковый снимок той же страницы показывал OFF MARKET без актуального MLS; он не используется для смены статуса.",
+        "Сведения о гараже и водоснабжении/канализации также есть у Real Estate One. Разрешение личного ремонта не подтверждено; исключение для временной неисправности не означает разрешение длительного проекта.",
+        "Площадь участка в MLS 0.14 ac; в публичной налоговой карточке Redfin 6,447 sq ft. Границы и точную площадь сверить по parcel."
+      ],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": true,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "available",
+      "sewer": "available",
+      "no_hoa": "unknown",
+      "road_access": "unknown",
+      "flags": [
+        "Гараж рассчитан по описанию на одну легковую машину. Размеры для высокого 7-метрового RV не проверены.",
+        "Дом требует полного ремонта; на внутреннем фото видны повреждённые поверхности и строительный мусор. Состояние гаража отдельно не установлено.",
+        "Saginaw §98.07: хранение неходовых/разобранных машин снаружи ограничено пятью днями; длительное хранение требует полностью закрытого помещения и соблюдения zoning. Одноместный гараж ещё не проверен по габаритам RV."
+      ],
+      "evidence_quote": null,
+      "id": "mls-mi-50221111",
+      "url": "https://www.redfin.com/MI/Saginaw/213-S-12th-St-48601/home/112249128",
+      "image_source_url": "https://www.redfin.com/MI/Saginaw/213-S-12th-St-48601/home/112249128",
+      "image_url": "assets/listings/bace9f10b848bf92c3a6.jpg",
+      "image_remote_url": "https://ssl.cdn-redfin.com/photo/143/bigphoto/111/50221111_0.jpg",
+      "photo_preserved_at": "2026-09-18T02:15:30+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/bace9f10b848bf92c3a6.jpg",
+          "source": "https://www.redfin.com/MI/Saginaw/213-S-12th-St-48601/home/112249128",
+          "remote_url": "https://ssl.cdn-redfin.com/photo/143/bigphoto/111/50221111_0.jpg",
+          "date": "2026-09-18T02:15:30+00:00"
+        },
+        {
+          "path": "assets/listings/6d0e69ea7697a0eeb325.jpg",
+          "source": "https://www.redfin.com/MI/Saginaw/213-S-12th-St-48601/home/112249128",
+          "remote_url": "https://ssl.cdn-redfin.com/photo/143/bigphoto/111/50221111_15_0.jpg",
+          "date": "2026-09-18T02:15:30+00:00"
+        }
+      ],
+      "source_id": "50221111",
+      "kind": "house",
+      "known_fees": 0,
+      "price_evidence": "Полная запрашиваемая цена продажи на публичной странице; дополнительные расходы закрытия сделки не подтверждены.",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_crawled": "live Chrome page",
+      "coord_precision": "listing",
+      "image_credit": "Listing broker / Redfin",
+      "road_note": "Въезд и разворот высокого RV длиной 7 м не проверены.",
+      "garage_note": "По MLS отдельный гараж на одну легковую машину. Высота ворот, длина бокса и состояние не подтверждены; въезд кемпервана не установлен.",
+      "utility_note": "В объявлении указаны коммуникации; работоспособность и активность подключений не проверены.",
+      "zoning": "Жилое использование по источнику; parcel zoning не подтверждён.",
+      "taxes_note": "Актуальные налоги, задолженности и обременения проверить до сделки.",
+      "source": "Redfin",
+      "title": "213 S 12th St — дом под восстановление + гараж",
+      "address": "213 S 12th St",
+      "city": "Saginaw",
+      "state": "MI",
+      "zip": "48601",
+      "county": "Saginaw",
+      "price": 7900,
+      "acres": 0.14,
+      "lat": 43.4302903,
+      "lng": -83.9205394,
+      "parcel": "90-50-0-26-6000-000",
+      "mls": "MiRealSource 50221111",
+      "source_updated": "2026-09-08",
+      "legal_source": "https://codelibrary.amlegal.com/codes/saginaw/latest/saginaw_mi/0-0-0-4755",
+      "alternate_urls": [
+        "https://www.redfin.com/MI/Saginaw/213-S-12th-St-48601/home/112249128",
+        "https://www.realestateone.com/MI/Saginaw/Saginaw/213-S-12th-St-Saginaw-MI-48601/50221111-MIRM"
+      ],
+      "total_known": 7900,
+      "price_history": [
+        {
+          "date": "2026-09-18T02:17:46+00:00",
+          "price": 7900,
+          "source": "https://www.redfin.com/MI/Saginaw/213-S-12th-St-48601/home/112249128"
+        }
+      ],
+      "status_history": [],
+      "region": "Средний Запад",
+      "screening_issue": null,
+      "climate_note": "Flint и небольшие города дают дома/лоты в бюджете. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "DTW",
+          "name": "Detroit Metropolitan Wayne County Airport",
+          "straight_km": 143,
+          "drive_km_estimate": 179,
+          "drive_hours_estimate": 2.4,
+          "flight_min_eur": 706,
+          "flight_origin": "WAW",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "ORD",
+          "name": "Chicago O'Hare International Airport",
+          "straight_km": 363,
+          "drive_km_estimate": 454,
+          "drive_hours_estimate": 6.1,
+          "flight_min_eur": 468,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "IAD",
+          "name": "Washington Dulles International Airport",
+          "straight_km": 735,
+          "drive_km_estimate": 919,
+          "drive_hours_estimate": 12.3,
+          "flight_min_eur": 407,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 759,
+      "score_parts": {
+        "Цена /25": 17,
+        "Помещение /25": 22,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 2,
+        "Сезон /10": 3,
+        "Дорога /10": 8
+      },
+      "score": 52
     }
   ]
 }

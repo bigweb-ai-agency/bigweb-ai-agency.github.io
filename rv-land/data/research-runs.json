@@ -228,6 +228,69 @@
         "MI",
         "OH"
       ]
+    },
+    {
+      "date": "2026-09-18T02:17:46+00:00",
+      "states": [
+        "IL",
+        "MI",
+        "OH"
+      ],
+      "added_ids": [
+        "mls-il-12720990",
+        "mls-mi-50221111"
+      ],
+      "updated_ids": [
+        "lc-22777"
+      ],
+      "scope": "Garage-first IL/MI/OH rotation. Added two live-page house/one-car-garage candidates with original source photos, explicit condition/size uncertainty and local-rule notes. Neither is certified to fit or permit repair of a high 7 m RV. Corrected existing Colorado financing teaser; preserved all prior records/photos/history.",
+      "deferred": [
+        {
+          "url": "https://www.redfin.com/OH/Bridgeport/44-Mann-St-43912/home/116348484",
+          "reason": "Fresh indexed page explicitly SOLD July 31, 2026 at $2,000. Earlier $6,000/$10,000 search snapshots stale; unsafe floor/sight-unseen disclosure. Not imported."
+        },
+        {
+          "url": "https://www.zillow.com/warsaw-il-62379/sold/",
+          "reason": "320 Le Claire St listed as sold August 19, 2026 for $11,000. Earlier $12,500 garage listing stale."
+        },
+        {
+          "url": "https://www.redfin.com/IL/Decatur/1627-E-Johns-Ave-62521/home/97035029",
+          "price": 15000,
+          "reason": "One-car garage accessed from alley, lot only 32x151 ft. High RV access and garage size unresolved; at full purchase budget with repair costs extra. Deferred behind clearer options."
+        },
+        {
+          "url": "https://www.compass.com/homedetails/310-Harrison-Rd-Prescott-MI-48756/1FAUPU_pid/",
+          "reason": "24x24 ft garage belongs to $35,000 lot. $12,000/$15,000 adjacent lots do not include that garage; $5,000 lot must be bundled. No import as cheap existing garage."
+        }
+      ],
+      "negative_searches": [
+        {
+          "url": "https://www.ohiorealestateauctions.com/property_details/columbus_15_000_min_bid_rehab_project_1891",
+          "finding": "Past auction, $15,000 minimum bid rather than fixed purchase; former buy-now $25,000 outside budget."
+        }
+      ],
+      "official_sources": [
+        {
+          "url": "https://codelibrary.amlegal.com/codes/saginaw/latest/saginaw_mi/0-0-0-4755",
+          "finding": "Saginaw city code 98.07 limits outdoor inoperable/disassembled vehicle and parts storage to five days, with enclosed-building/zoning conditions. No parcel-specific repair approval established."
+        },
+        {
+          "url": "https://cityofcolchesteril.gov/public-documents",
+          "finding": "City portal says code book only includes ordinances through April 1, 2021 and later ordinances are not all online; current parcel use unresolved."
+        },
+        {
+          "url": "https://www.decaturil.gov/CivicAlerts.aspx?AID=176&ARC=230",
+          "finding": "City notice prohibits abandoned/inoperable vehicles outdoors; relevant risk for Decatur candidate."
+        }
+      ],
+      "monitor_diagnosis": "Actual scheduled run succeeded: 2 new records, 2 changed, 117 details read, 3 source 404s (two retained Oregon and one Interlachen FL). No unavailable page marked sold. Colorado headline price change required manual financing-basis correction.",
+      "access": "Compass public HTML and live Chrome verified. Real Estate One direct HTML returned 403, redata image download failed; neither retried. Saginaw active status and original photo URLs obtained from accessible live Redfin Chrome page; original Redfin CDN bytes preserved. Indexed status conflicts resolved in favor of current live listing.",
+      "github_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/35294206433",
+      "next_states": [
+        "CT",
+        "DE",
+        "MT"
+      ]
     }
   ]
 }
