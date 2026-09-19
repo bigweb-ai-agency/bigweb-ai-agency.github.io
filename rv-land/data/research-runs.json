@@ -291,6 +291,65 @@
         "DE",
         "MT"
       ]
+    },
+    {
+      "date": "2026-09-19T02:15:10+00:00",
+      "states": [
+        "CT",
+        "DE",
+        "MT"
+      ],
+      "added_ids": [],
+      "updated_ids": [
+        "ls-3899257",
+        "ls-3899254"
+      ],
+      "scope": "Low-coverage CT/DE/MT rotation with garage-first screening. Corrected two retained Montana offers from whole-parcel cash purchases to fractional ownership after live Chrome verification. No new suitable photo candidate verified beyond the three automated additions.",
+      "deferred": [
+        {
+          "url": "https://www.homes.com/property/359-east-st-stafford-ct/lm24qs3r78m3k/",
+          "price": 14900,
+          "reason": "Wooded sloping 0.64-acre AA lot; description says 0.62 acre and buildability requires zoning variance. No garage, RV pad or repair permission established. At top of purchase budget before clearing and access works."
+        },
+        {
+          "url": "https://www.homes.com/property/73-main-st-east-hartford-ct/z6thwl5z5tvwp/",
+          "price": 9999,
+          "reason": "0.11-acre sloping R3 parcel, water/sewer in street, no building. Survey/buildability and use need town review; high-RV driveway/turning space not established."
+        },
+        {
+          "url": "https://www.zillow.com/homedetails/Highway-7-Baker-MT-59313/461545207_zpid/",
+          "price": 10000,
+          "reason": "Fresh indexed detail explicitly states no legal access and pending since July 18, 2026. Older search mentioned an outbuilding, which is not enough to establish a garage or viable RV access."
+        }
+      ],
+      "negative_searches": [
+        {
+          "url": "https://www.homes.com/connecticut/land-for-sale/under-15k/",
+          "finding": "Inspected budget inventory: existing Cloran candidate, boat slip, ground lease, reserved Firefly Farms auctions and restrictive/nonbuildable lake lots. Counts do not represent suitable whole-parcel purchases."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/delaware/search/under-15000",
+          "finding": "Displayed budget offers are monthly rentals. No verified qualifying whole-parcel purchase from this result set."
+        },
+        {
+          "url": "https://www.wilsonsauction.com/event/public-auction-of-valuable-real-estate-greenwood/",
+          "finding": "24x30 garage result is an October 2017 auction; $10,000 is the required down payment, not a purchase price."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/montana/search/under-15000",
+          "finding": "Inventory includes rentals, existing pending Forsyth/active Shelby records, and fractional mining-parcel interests. Read full Way Up and Emperor descriptions in Chrome; both are fractional shares."
+        }
+      ],
+      "official_sources": [],
+      "monitor_diagnosis": "Scheduled run 35411624253 succeeded: 3 new photo records, no price/status/photo changes, 116 details read. Partial coverage: four 404 URLs (two Oregon, Interlachen FL and Edwards MO). Retained facts and availability; no sale inferred from HTTP errors.",
+      "access": "Public indexed listings and live connected Chrome LandSearch pages. Initial browser-tab call timed out; after inventory check a new tab loaded both sources normally. No CAPTCHA, login or access-control bypass.",
+      "flight_review": "Last flight observations dated September 14; weekly refresh is not due until September 21.",
+      "github_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/35411624253",
+      "next_states": [
+        "ND",
+        "WY",
+        "NJ"
+      ]
     }
   ]
 }

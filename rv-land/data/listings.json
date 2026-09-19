@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-19T01:07:27+00:00",
+  "updated_at": "2026-09-19T02:15:10+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -50058,14 +50058,16 @@
     },
     {
       "price_currency": "USD",
-      "price_basis": "asking_cash",
+      "price_basis": "fractional_interest",
       "first_seen": "2026-09-13T22:25:28+00:00",
-      "last_seen": "2026-09-13T23:00:23+00:00",
-      "last_verified": "2026-09-13T23:00:23+00:00",
+      "last_seen": "2026-09-19T02:15:10+00:00",
+      "last_verified": "2026-09-19T02:15:10+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "Долевая продажа прямо указана в описании продавца и legal description на странице LandSearch, прочитанной в Chrome 19.09.2026. Статус active сохранён: исключение относится к пригодности для задачи, а не к продаже объекта."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ls-3899257",
       "source_id": "3899257",
@@ -50080,15 +50082,15 @@
       "kind": "land",
       "price": 12284.0,
       "known_fees": 0,
-      "total_known": 12284.0,
-      "price_evidence": "Показанная запрашиваемая цена; дополнительные сборы не подтверждены.",
+      "total_known": null,
+      "price_evidence": "За $12,284 продаётся невыделенная доля 7,5% в общей собственности. Площадь 15.71 ac относится ко всему участку. Это не покупка отдельного участка целиком; исключительное использование площадки под RV и личный ремонт не подтверждено.",
       "acres": 15.7,
       "lat": 45.2638,
       "lng": -111.9495,
       "coord_precision": "listing",
       "status": "active",
-      "status_basis": "indexed_public_page",
-      "source_crawled": "5 days ago",
+      "status_basis": "live_public_page",
+      "source_crawled": "live Chrome page",
       "image_url": "assets/listings/1dd259acd91a8d8d7a3e.jpg",
       "image_source_url": "https://www.landsearch.com/properties/way-up-lode-survey-virginia-city-mt-59729/3899257",
       "image_credit": "Listing broker / LandSearch",
@@ -50108,8 +50110,10 @@
       "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "unknown",
-      "flags": [],
-      "evidence_quote": "Discover serenity near history with Way Up Lode Survey #7310.",
+      "flags": [
+        "За $12,284 продаётся невыделенная доля 7,5% в общей собственности. Площадь 15.71 ac относится ко всему участку. Это не покупка отдельного участка целиком; исключительное использование площадки под RV и личный ремонт не подтверждено."
+      ],
+      "evidence_quote": "UNDIVIDED 7.5% INTEREST",
       "price_history": [
         {
           "date": "2026-09-13T22:25:28+00:00",
@@ -50123,7 +50127,7 @@
         "https://www.landsearch.com/properties/way-up-lode-survey-virginia-city-mt-59729/3899257"
       ],
       "region": "Горный",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Небольшая выборка; холод, расстояния и сезонные дороги. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -50159,14 +50163,14 @@
       ],
       "msp_straight_km": 1468,
       "score_parts": {
-        "Цена /25": 10,
+        "Цена /25": 0,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 0,
         "Сезон /10": 2,
         "Дорога /10": 0
       },
-      "score": 12,
+      "score": 2,
       "image_remote_url": "https://cdn.landsearch.com/listings/4CGFS/large/virginia-city-mt-145515436.jpg",
       "photo_preserved_at": "2026-09-13T23:05:59+00:00",
       "photo_history": [
@@ -50175,6 +50179,23 @@
           "source": "https://www.landsearch.com/properties/way-up-lode-survey-virginia-city-mt-59729/3899257",
           "remote_url": "https://cdn.landsearch.com/listings/4CGFS/large/virginia-city-mt-145515436.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "ownership_interest": "7.5%",
+      "source_updated": "2026-06-09",
+      "review_hold": {
+        "date": "2026-09-19T02:15:10+00:00",
+        "reason": "За $12,284 продаётся невыделенная доля 7,5% в общей собственности. Площадь 15.71 ac относится ко всему участку. Это не покупка отдельного участка целиком; исключительное использование площадки под RV и личный ремонт не подтверждено.",
+        "source": "https://www.landsearch.com/properties/way-up-lode-survey-virginia-city-mt-59729/3899257",
+        "release_condition": "Подтвердить продажу отдельного участка целиком в бюджете либо документально закреплённое исключительное пользование подходящей площадкой; отдельно проверить подъезд и разрешение личного ремонта."
+      },
+      "review_history": [
+        {
+          "date": "2026-09-19T02:15:10+00:00",
+          "field": "price_basis",
+          "from": "asking_cash",
+          "to": "fractional_interest",
+          "source": "https://www.landsearch.com/properties/way-up-lode-survey-virginia-city-mt-59729/3899257"
         }
       ]
     },
@@ -50546,14 +50567,16 @@
     },
     {
       "price_currency": "USD",
-      "price_basis": "asking_cash",
+      "price_basis": "fractional_interest",
       "first_seen": "2026-09-13T22:25:28+00:00",
-      "last_seen": "2026-09-13T23:00:23+00:00",
-      "last_verified": "2026-09-13T23:00:23+00:00",
+      "last_seen": "2026-09-19T02:15:10+00:00",
+      "last_verified": "2026-09-19T02:15:10+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "Долевая продажа прямо указана в описании продавца и legal description на странице LandSearch, прочитанной в Chrome 19.09.2026. Статус active сохранён: исключение относится к пригодности для задачи, а не к продаже объекта."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ls-3899254",
       "source_id": "3899254",
@@ -50568,15 +50591,15 @@
       "kind": "land",
       "price": 11218.0,
       "known_fees": 0,
-      "total_known": 11218.0,
-      "price_evidence": "Показанная запрашиваемая цена; дополнительные сборы не подтверждены.",
+      "total_known": null,
+      "price_evidence": "За $11,218 продаётся невыделенная доля 2/27 (около 7,41%) в общей собственности. Площадь 14.54 ac относится ко всему участку. Это не покупка отдельного участка целиком; исключительное использование площадки под RV и личный ремонт не подтверждено.",
       "acres": 14.5,
       "lat": 45.5356,
       "lng": -111.7757,
       "coord_precision": "listing",
       "status": "active",
-      "status_basis": "indexed_public_page",
-      "source_crawled": "yesterday",
+      "status_basis": "live_public_page",
+      "source_crawled": "live Chrome page",
       "image_url": "assets/listings/89c2542e2e415c3efef8.jpg",
       "image_source_url": "https://www.landsearch.com/properties/emperor-lode-survey-norris-mt-59740/3899254",
       "image_credit": "Listing broker / LandSearch",
@@ -50596,8 +50619,10 @@
       "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "unknown",
-      "flags": [],
-      "evidence_quote": "54-acre Emperor Lode Survey #5860 parcel is a unique blend of legacy and landscape.",
+      "flags": [
+        "За $11,218 продаётся невыделенная доля 2/27 (около 7,41%) в общей собственности. Площадь 14.54 ac относится ко всему участку. Это не покупка отдельного участка целиком; исключительное использование площадки под RV и личный ремонт не подтверждено."
+      ],
+      "evidence_quote": "undivided 2/27th interest",
       "price_history": [
         {
           "date": "2026-09-13T22:25:28+00:00",
@@ -50611,7 +50636,7 @@
         "https://www.landsearch.com/properties/emperor-lode-survey-norris-mt-59740/3899254"
       ],
       "region": "Горный",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Небольшая выборка; холод, расстояния и сезонные дороги. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -50647,14 +50672,14 @@
       ],
       "msp_straight_km": 1452,
       "score_parts": {
-        "Цена /25": 11,
+        "Цена /25": 0,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 0,
         "Сезон /10": 2,
         "Дорога /10": 0
       },
-      "score": 13,
+      "score": 2,
       "image_remote_url": "https://cdn.landsearch.com/listings/4CGFP/large/norris-mt-145474525.jpg",
       "photo_preserved_at": "2026-09-13T23:05:59+00:00",
       "photo_history": [
@@ -50663,6 +50688,23 @@
           "source": "https://www.landsearch.com/properties/emperor-lode-survey-norris-mt-59740/3899254",
           "remote_url": "https://cdn.landsearch.com/listings/4CGFP/large/norris-mt-145474525.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "ownership_interest": "2/27",
+      "source_updated": "2026-06-09",
+      "review_hold": {
+        "date": "2026-09-19T02:15:10+00:00",
+        "reason": "За $11,218 продаётся невыделенная доля 2/27 (около 7,41%) в общей собственности. Площадь 14.54 ac относится ко всему участку. Это не покупка отдельного участка целиком; исключительное использование площадки под RV и личный ремонт не подтверждено.",
+        "source": "https://www.landsearch.com/properties/emperor-lode-survey-norris-mt-59740/3899254",
+        "release_condition": "Подтвердить продажу отдельного участка целиком в бюджете либо документально закреплённое исключительное пользование подходящей площадкой; отдельно проверить подъезд и разрешение личного ремонта."
+      },
+      "review_history": [
+        {
+          "date": "2026-09-19T02:15:10+00:00",
+          "field": "price_basis",
+          "from": "asking_cash",
+          "to": "fractional_interest",
+          "source": "https://www.landsearch.com/properties/emperor-lode-survey-norris-mt-59740/3899254"
         }
       ]
     },
