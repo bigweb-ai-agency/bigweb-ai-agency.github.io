@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-18T02:17:46+00:00",
+  "updated_at": "2026-09-19T01:07:27+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -18175,8 +18175,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-14T01:20:25Z",
-      "last_verified": "2026-09-14T01:20:25Z",
+      "last_seen": "2026-09-19T01:11:56Z",
+      "last_verified": "2026-09-19T01:11:56Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -18186,8 +18186,8 @@
       "source_id": "24735",
       "source": "LandCentury",
       "url": "https://www.landcentury.com/land-for-sale/illinois/021-acres-for-sale-in-east-saint-louis-illinois-24735",
-      "title": "North Park Dr",
-      "address": "North Park Dr",
+      "title": "5814 North Park Dr",
+      "address": "5814 North Park Dr",
       "city": "East Saint Louis",
       "state": "IL",
       "county": "St. Clair",
@@ -18203,7 +18203,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-07-29T18:06:51.000000Z",
+      "source_updated": "2026-09-17T18:32:27.000000Z",
       "source_published": "2026-05-08T05:47:38.000000Z",
       "image_url": "assets/listings/993b5dd3a18bbfbed2e2.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/illinois/021-acres-for-sale-in-east-saint-louis-illinois-24735",
@@ -18212,7 +18212,7 @@
       "zoning": "No Zoning",
       "road_note": "Verify with the County",
       "utility_note": "Please, contract county",
-      "taxes_note": "0",
+      "taxes_note": "224.79",
       "source_categories": [
         "owner-finance-deals",
         "vacant-land"
@@ -18287,7 +18287,7 @@
       },
       "score": 38,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/05/08/69fd796fd3c12-1778219375.jpg",
-      "photo_preserved_at": "2026-09-14T01:14:48+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/993b5dd3a18bbfbed2e2.jpg",
@@ -18301,8 +18301,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-14T01:20:26Z",
-      "last_verified": "2026-09-14T01:20:26Z",
+      "last_seen": "2026-09-19T01:11:57Z",
+      "last_verified": "2026-09-19T01:11:57Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -18329,7 +18329,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-09-02T08:52:14.000000Z",
+      "source_updated": "2026-09-18T01:35:35.000000Z",
       "source_published": "2026-09-01T16:54:52.000000Z",
       "image_url": "assets/listings/906e4d771a4d3f326dad.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/illinois/017-acres-for-sale-in-east-st-louis-illinois-26106",
@@ -18338,7 +18338,7 @@
       "zoning": "Residential",
       "road_note": "Gravel Road",
       "utility_note": "Не подтверждены",
-      "taxes_note": "78.92",
+      "taxes_note": "81.29",
       "source_categories": [
         "owner-finance-deals",
         "vacant-land"
@@ -18415,7 +18415,7 @@
       },
       "score": 37,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/01/6a9703f543fbd-1788281845.jpg",
-      "photo_preserved_at": "2026-09-14T01:14:48+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/906e4d771a4d3f326dad.jpg",
@@ -18429,8 +18429,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-14T01:20:28Z",
-      "last_verified": "2026-09-14T01:20:28Z",
+      "last_seen": "2026-09-19T01:11:59Z",
+      "last_verified": "2026-09-19T01:11:59Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -18440,8 +18440,8 @@
       "source_id": "24725",
       "source": "LandCentury",
       "url": "https://www.landcentury.com/land-for-sale/illinois/014-acres-for-sale-in-east-saint-louis-illinois-24725",
-      "title": "N 26 Th St",
-      "address": "N 26 Th St",
+      "title": "713 N 26 Th St",
+      "address": "713 N 26 Th St",
       "city": "East Saint Louis",
       "state": "IL",
       "county": "St. Clair",
@@ -18457,16 +18457,16 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-07-24T18:41:20.000000Z",
+      "source_updated": "2026-09-18T00:39:15.000000Z",
       "source_published": "2026-05-07T17:37:10.000000Z",
       "image_url": "assets/listings/b7a4e3a07080a2aa54aa.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/illinois/014-acres-for-sale-in-east-saint-louis-illinois-24725",
       "image_credit": "Seller / LandCentury",
       "parcel": "02170318041",
-      "zoning": "No Zoning",
+      "zoning": "Residential",
       "road_note": "Verify with the County",
       "utility_note": "Please, contract county",
-      "taxes_note": "0",
+      "taxes_note": "68.99",
       "source_categories": [
         "owner-finance-deals",
         "vacant-land"
@@ -18543,7 +18543,7 @@
       },
       "score": 36,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/05/07/69fcce2d5391f-1778175533.jpg",
-      "photo_preserved_at": "2026-09-14T01:14:48+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/b7a4e3a07080a2aa54aa.jpg",
@@ -18557,8 +18557,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-14T01:20:29Z",
-      "last_verified": "2026-09-14T01:20:29Z",
+      "last_seen": "2026-09-19T01:12:00Z",
+      "last_verified": "2026-09-19T01:12:00Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -18671,7 +18671,7 @@
       },
       "score": 23,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/06/13/6a2ce692bbd4d-1781327506.jpg",
-      "photo_preserved_at": "2026-09-14T01:14:48+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/27e1143619675fd5628b.jpg",
@@ -18685,8 +18685,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-14T01:20:31Z",
-      "last_verified": "2026-09-14T01:20:31Z",
+      "last_seen": "2026-09-19T01:12:02Z",
+      "last_verified": "2026-09-19T01:12:02Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -18696,8 +18696,8 @@
       "source_id": "24726",
       "source": "LandCentury",
       "url": "https://www.landcentury.com/land-for-sale/illinois/010-acres-for-sale-in-east-saint-louis-illinois-24726",
-      "title": "N 55 Th St",
-      "address": "N 55 Th St",
+      "title": "1416 N 55 Th St",
+      "address": "1416 N 55 Th St",
       "city": "East Saint Louis",
       "state": "IL",
       "county": "St. Clair",
@@ -18713,7 +18713,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-07-03T13:12:15.000000Z",
+      "source_updated": "2026-09-17T20:30:14.000000Z",
       "source_published": "2026-05-07T17:41:09.000000Z",
       "image_url": "assets/listings/2b65c29c2c9d687a0193.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/illinois/010-acres-for-sale-in-east-saint-louis-illinois-24726",
@@ -18722,7 +18722,7 @@
       "zoning": "No Zoning",
       "road_note": "Verify with the County",
       "utility_note": "Please, contract county",
-      "taxes_note": "0",
+      "taxes_note": "38.62",
       "source_categories": [
         "owner-finance-deals",
         "vacant-land"
@@ -18737,7 +18737,9 @@
       "sewer": "available",
       "no_hoa": "unknown",
       "road_access": "unknown",
-      "flags": [],
+      "flags": [
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
       "evidence_quote": "*Applicable fees may apply including but not limited to $18/ month loan servicing fee.",
       "price_history": [
         {
@@ -18797,7 +18799,7 @@
       },
       "score": 38,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/05/07/69fccf0c080ee-1778175756.jpg",
-      "photo_preserved_at": "2026-09-14T01:14:48+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/2b65c29c2c9d687a0193.jpg",
@@ -18811,8 +18813,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-14T01:20:33Z",
-      "last_verified": "2026-09-14T01:20:33Z",
+      "last_seen": "2026-09-19T01:12:03Z",
+      "last_verified": "2026-09-19T01:12:03Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -18922,7 +18924,7 @@
       },
       "score": 27,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2024/05/23/664f0ea9c2593-1716457129.jpg",
-      "photo_preserved_at": "2026-09-14T01:14:48+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/5953fce03ef1e28fe5e6.jpg",
@@ -18936,8 +18938,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-14T01:20:34Z",
-      "last_verified": "2026-09-14T01:20:34Z",
+      "last_seen": "2026-09-19T01:12:05Z",
+      "last_verified": "2026-09-19T01:12:05Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -19050,7 +19052,7 @@
       },
       "score": 21,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/04/20/69e57b7ded889-1776647037.jpg",
-      "photo_preserved_at": "2026-09-14T01:14:48+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/3fe539a502218b4f5007.jpg",
@@ -19064,8 +19066,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-14T01:20:36Z",
-      "last_verified": "2026-09-14T01:20:36Z",
+      "last_seen": "2026-09-19T01:12:06Z",
+      "last_verified": "2026-09-19T01:12:06Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -19178,7 +19180,7 @@
       },
       "score": 20,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/06/11/6a2b002c28f58-1781202988.jpg",
-      "photo_preserved_at": "2026-09-14T01:14:48+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/547a87b50d10e1872558.jpg",
@@ -19192,8 +19194,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-14T01:20:37Z",
-      "last_verified": "2026-09-14T01:20:37Z",
+      "last_seen": "2026-09-19T01:12:08Z",
+      "last_verified": "2026-09-19T01:12:08Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -19307,7 +19309,7 @@
       },
       "score": 40,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2025/12/07/6935a2c0c38d7-1765122752.jpg",
-      "photo_preserved_at": "2026-09-14T01:14:48+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/580954815140f5625b46.jpg",
@@ -19321,8 +19323,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-14T01:20:39Z",
-      "last_verified": "2026-09-14T01:20:39Z",
+      "last_seen": "2026-09-19T01:12:09Z",
+      "last_verified": "2026-09-19T01:12:09Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -19436,7 +19438,7 @@
       },
       "score": 31,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2025/12/07/6934dc84432b0-1765072004.jpg",
-      "photo_preserved_at": "2026-09-14T01:14:48+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/00356cc5980ce1cc4e60.jpg",
@@ -19450,8 +19452,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:14:45Z",
-      "last_verified": "2026-09-15T01:14:45Z",
+      "last_seen": "2026-09-19T01:12:17Z",
+      "last_verified": "2026-09-19T01:12:17Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -19563,7 +19565,7 @@
       },
       "score": 32,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/01/05/695c2527af919-1767646503.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/4d5531bfd2891e9b3ae5.jpg",
@@ -19577,8 +19579,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:14:47Z",
-      "last_verified": "2026-09-15T01:14:47Z",
+      "last_seen": "2026-09-19T01:12:19Z",
+      "last_verified": "2026-09-19T01:12:19Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -19692,7 +19694,7 @@
       },
       "score": 39,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2025/12/07/6934efd7eea66-1765076951.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/a4815377135e0647a1a1.jpg",
@@ -19706,8 +19708,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:14:48Z",
-      "last_verified": "2026-09-15T01:14:48Z",
+      "last_seen": "2026-09-19T01:12:20Z",
+      "last_verified": "2026-09-19T01:12:20Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -19819,7 +19821,7 @@
       },
       "score": 36,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2025/12/07/6934e4670ab6c-1765074023.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/acd0e6c7327919a15261.jpg",
@@ -19833,8 +19835,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:14:50Z",
-      "last_verified": "2026-09-15T01:14:50Z",
+      "last_seen": "2026-09-19T01:12:22Z",
+      "last_verified": "2026-09-19T01:12:22Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -19945,7 +19947,7 @@
       },
       "score": 31,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2023/11/15/6554e6376e1c9-1700062775.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/7c39866bf8b03cb30545.jpg",
@@ -19959,8 +19961,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:14:51Z",
-      "last_verified": "2026-09-15T01:14:51Z",
+      "last_seen": "2026-09-19T01:12:23Z",
+      "last_verified": "2026-09-19T01:12:23Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -20075,7 +20077,7 @@
       },
       "score": 16,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2025/09/29/68da7d00ad869-1759149312.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/db6d87ec35fe734c0988.jpg",
@@ -20089,8 +20091,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:14:53Z",
-      "last_verified": "2026-09-15T01:14:53Z",
+      "last_seen": "2026-09-19T01:12:25Z",
+      "last_verified": "2026-09-19T01:12:25Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -20201,7 +20203,7 @@
       },
       "score": 28,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/20/6a874f3693f58-1787252534.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/eb5ad598b2f87c1966ca.jpg",
@@ -20215,8 +20217,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:14:54Z",
-      "last_verified": "2026-09-15T01:14:54Z",
+      "last_seen": "2026-09-19T01:12:26Z",
+      "last_verified": "2026-09-19T01:12:26Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -20328,7 +20330,7 @@
       },
       "score": 17,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/30/6a9459154986c-1788107029.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/1ac0b4d0c7996f450e68.jpg",
@@ -20342,8 +20344,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:14:55Z",
-      "last_verified": "2026-09-15T01:14:55Z",
+      "last_seen": "2026-09-19T01:12:28Z",
+      "last_verified": "2026-09-19T01:12:28Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -20455,7 +20457,7 @@
       },
       "score": 33,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/25/6a8d74ffeff0f-1787655423.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/ce9ee6dab4f0bf7e1d77.jpg",
@@ -20469,8 +20471,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:14:57Z",
-      "last_verified": "2026-09-15T01:14:57Z",
+      "last_seen": "2026-09-19T01:12:29Z",
+      "last_verified": "2026-09-19T01:12:29Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -20591,7 +20593,7 @@
       },
       "score": 34,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/27/6a90467c3dfca-1787840124.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/8c7f8a68ffd6984e775b.jpg",
@@ -20605,8 +20607,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:14:58Z",
-      "last_verified": "2026-09-15T01:14:58Z",
+      "last_seen": "2026-09-19T01:12:31Z",
+      "last_verified": "2026-09-19T01:12:31Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -20720,7 +20722,7 @@
       },
       "score": 32,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2024/03/21/65fc987675708-1711052918.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/5223603fa33820aef909.jpg",
@@ -20734,8 +20736,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:00Z",
-      "last_verified": "2026-09-15T01:15:00Z",
+      "last_seen": "2026-09-19T01:12:32Z",
+      "last_verified": "2026-09-19T01:12:32Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -20849,7 +20851,7 @@
       },
       "score": 32,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2024/02/27/65de23dfe074f-1709056991.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/7d2fff454f1ba0754932.jpg",
@@ -20863,8 +20865,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:01Z",
-      "last_verified": "2026-09-15T01:15:01Z",
+      "last_seen": "2026-09-19T01:12:34Z",
+      "last_verified": "2026-09-19T01:12:34Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -20978,7 +20980,7 @@
       },
       "score": 34,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2024/02/20/65d4eaa12e8e0-1708452513.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/fac8b6b3bb4ddcf9edcd.jpg",
@@ -20992,8 +20994,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:03Z",
-      "last_verified": "2026-09-15T01:15:03Z",
+      "last_seen": "2026-09-19T01:12:35Z",
+      "last_verified": "2026-09-19T01:12:35Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -21107,7 +21109,7 @@
       },
       "score": 24,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2024/02/27/65de1df2e8332-1709055474.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/c744c8b3fb36d46c69a0.jpg",
@@ -21121,8 +21123,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:04Z",
-      "last_verified": "2026-09-15T01:15:04Z",
+      "last_seen": "2026-09-19T01:12:37Z",
+      "last_verified": "2026-09-19T01:12:37Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -21236,7 +21238,7 @@
       },
       "score": 32,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2024/01/26/65b3ce76e953d-1706282614.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/cbff9a4aceddce4d0c44.jpg",
@@ -21517,8 +21519,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:07Z",
-      "last_verified": "2026-09-15T01:15:07Z",
+      "last_seen": "2026-09-19T01:12:40Z",
+      "last_verified": "2026-09-19T01:12:40Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -21632,7 +21634,7 @@
       },
       "score": 30,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/21/6a88a8b6c9ba1-1787340982.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/1476219f9bf97d9c5c50.jpg",
@@ -21646,8 +21648,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:09Z",
-      "last_verified": "2026-09-15T01:15:09Z",
+      "last_seen": "2026-09-19T01:12:41Z",
+      "last_verified": "2026-09-19T01:12:41Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -21759,7 +21761,7 @@
       },
       "score": 14,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/07/6a9e65761a394-1788765558.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/bcae8a69a7be0b120c61.jpg",
@@ -21773,8 +21775,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:10Z",
-      "last_verified": "2026-09-15T01:15:10Z",
+      "last_seen": "2026-09-19T01:12:43Z",
+      "last_verified": "2026-09-19T01:12:43Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -21887,7 +21889,7 @@
       },
       "score": 24,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/18/6a8484052ce52-1787069445.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/e8216267844720e939a5.jpg",
@@ -21901,8 +21903,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:12Z",
-      "last_verified": "2026-09-15T01:15:12Z",
+      "last_seen": "2026-09-19T01:12:45Z",
+      "last_verified": "2026-09-19T01:12:45Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -22016,7 +22018,7 @@
       },
       "score": 19,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/17/6a83303fb58ed-1786982463.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/83ff7b582205f5d3d6d9.jpg",
@@ -22030,8 +22032,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:13Z",
-      "last_verified": "2026-09-15T01:15:13Z",
+      "last_seen": "2026-09-19T01:12:46Z",
+      "last_verified": "2026-09-19T01:12:46Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -22143,7 +22145,7 @@
       },
       "score": 12,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/07/6a9e676fa0744-1788766063.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/a9f9ca4ae8686a4b6a50.jpg",
@@ -22157,8 +22159,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:15Z",
-      "last_verified": "2026-09-15T01:15:15Z",
+      "last_seen": "2026-09-19T01:12:48Z",
+      "last_verified": "2026-09-19T01:12:48Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -22275,7 +22277,7 @@
       },
       "score": 11,
       "image_remote_url": "https://storage.portalstation.com/uploads/2026/06/09/6a27fc11360a1-1781005329.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/ec2b25971c3f6e176367.jpg",
@@ -22289,8 +22291,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:16Z",
-      "last_verified": "2026-09-15T01:15:16Z",
+      "last_seen": "2026-09-19T01:12:49Z",
+      "last_verified": "2026-09-19T01:12:49Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -22407,7 +22409,7 @@
       },
       "score": 23,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/08/6a9fd4db5ed3c-1788859611.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/b3c99d12261f45c16aac.jpg",
@@ -22421,8 +22423,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:18Z",
-      "last_verified": "2026-09-15T01:15:18Z",
+      "last_seen": "2026-09-19T01:12:51Z",
+      "last_verified": "2026-09-19T01:12:51Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -22535,7 +22537,7 @@
       },
       "score": 22,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/07/6a9e6201e9a96-1788764673.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/ca63a2c4ae1c87433f5b.jpg",
@@ -22549,8 +22551,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:19Z",
-      "last_verified": "2026-09-15T01:15:19Z",
+      "last_seen": "2026-09-19T01:12:52Z",
+      "last_verified": "2026-09-19T01:12:52Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -22664,7 +22666,7 @@
       },
       "score": 26,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/06/14/6a2e3df792096-1781415415.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/9684daee12200f126d74.jpg",
@@ -22678,8 +22680,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:20Z",
-      "last_verified": "2026-09-15T01:15:20Z",
+      "last_seen": "2026-09-19T01:12:54Z",
+      "last_verified": "2026-09-19T01:12:54Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -22793,7 +22795,7 @@
       },
       "score": 12,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/06/10/6a28d7b81b4ea-1781061560.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/b6fe1b77f9af8f98e7ae.jpg",
@@ -22807,8 +22809,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:22Z",
-      "last_verified": "2026-09-15T01:15:22Z",
+      "last_seen": "2026-09-19T01:12:55Z",
+      "last_verified": "2026-09-19T01:12:55Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -22835,7 +22837,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-09-10T16:23:54.000000Z",
+      "source_updated": "2026-09-18T14:40:42.000000Z",
       "source_published": "2026-09-10T16:14:59.000000Z",
       "image_url": "assets/listings/4ae99cccd3ff7727c408.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/nevada/206-acres-for-sale-in-montello-nevada-26196",
@@ -22922,7 +22924,7 @@
       },
       "score": 23,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/10/6aa2db516c2bb-1789057873.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/4ae99cccd3ff7727c408.jpg",
@@ -22936,8 +22938,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:23Z",
-      "last_verified": "2026-09-15T01:15:23Z",
+      "last_seen": "2026-09-19T01:12:57Z",
+      "last_verified": "2026-09-19T01:12:57Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -23053,7 +23055,7 @@
       },
       "score": 23,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/04/6a9ab776d7b14-1788524406.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/c85196d154b76c3a530c.jpg",
@@ -23067,8 +23069,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:25Z",
-      "last_verified": "2026-09-15T01:15:25Z",
+      "last_seen": "2026-09-19T01:12:58Z",
+      "last_verified": "2026-09-19T01:12:58Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -23182,7 +23184,7 @@
       },
       "score": 23,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/03/6a996019120a3-1788436505.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/9003ed6357ddbc5a24aa.jpg",
@@ -23196,8 +23198,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:26Z",
-      "last_verified": "2026-09-15T01:15:26Z",
+      "last_seen": "2026-09-19T01:13:00Z",
+      "last_verified": "2026-09-19T01:13:00Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -23312,7 +23314,7 @@
       },
       "score": 26,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/07/12/6a53832c62a4c-1783857964.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/4eb8a692fffca43f212c.jpg",
@@ -23326,8 +23328,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:28Z",
-      "last_verified": "2026-09-15T01:15:28Z",
+      "last_seen": "2026-09-19T01:13:01Z",
+      "last_verified": "2026-09-19T01:13:01Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -23443,7 +23445,7 @@
       },
       "score": 23,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/10/6aa2fa8961347-1789065865.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/18bf4a664fe1488e5f93.jpg",
@@ -23457,8 +23459,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:29Z",
-      "last_verified": "2026-09-15T01:15:29Z",
+      "last_seen": "2026-09-19T01:13:03Z",
+      "last_verified": "2026-09-19T01:13:03Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -23569,7 +23571,7 @@
       },
       "score": 25,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/05/13/6a03c3cdef51e-1778631629.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/27da65e979c4b47ec949.jpg",
@@ -23583,8 +23585,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:31Z",
-      "last_verified": "2026-09-15T01:15:31Z",
+      "last_seen": "2026-09-19T01:13:05Z",
+      "last_verified": "2026-09-19T01:13:05Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -23701,7 +23703,7 @@
       },
       "score": 30,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/10/6a7a11a59dddb-1786384805.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/6e7696a57e6bb9989578.jpg",
@@ -23715,8 +23717,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:32Z",
-      "last_verified": "2026-09-15T01:15:32Z",
+      "last_seen": "2026-09-19T01:13:06Z",
+      "last_verified": "2026-09-19T01:13:06Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -23743,7 +23745,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-09-11T15:28:46.000000Z",
+      "source_updated": "2026-09-17T04:59:48.000000Z",
       "source_published": "2026-06-02T20:50:52.000000Z",
       "image_url": "assets/listings/5a83c1d12e908813f791.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/nevada/113-acres-for-sale-in-elko-nevada-25036",
@@ -23832,7 +23834,7 @@
       },
       "score": 24,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/06/02/6a1f431c35070-1780433692.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/5a83c1d12e908813f791.jpg",
@@ -23846,8 +23848,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:34Z",
-      "last_verified": "2026-09-15T01:15:34Z",
+      "last_seen": "2026-09-19T01:13:08Z",
+      "last_verified": "2026-09-19T01:13:08Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -23958,7 +23960,7 @@
       },
       "score": 26,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/05/16/6a08bf19d2deb-1778958105.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/b7483a02a956158b9fd1.jpg",
@@ -23972,8 +23974,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:35Z",
-      "last_verified": "2026-09-15T01:15:35Z",
+      "last_seen": "2026-09-19T01:13:09Z",
+      "last_verified": "2026-09-19T01:13:09Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -24090,7 +24092,7 @@
       },
       "score": 29,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/10/6a7a1866651a5-1786386534.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/6fbc5ffb7b88c6fc14c3.jpg",
@@ -24104,8 +24106,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:37Z",
-      "last_verified": "2026-09-15T01:15:37Z",
+      "last_seen": "2026-09-19T01:13:11Z",
+      "last_verified": "2026-09-19T01:13:11Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -24222,7 +24224,7 @@
       },
       "score": 17,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/10/6a7a1f673ac2c-1786388327.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/60f4d90ca965602ab2c7.jpg",
@@ -24236,8 +24238,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:38Z",
-      "last_verified": "2026-09-15T01:15:38Z",
+      "last_seen": "2026-09-19T01:13:12Z",
+      "last_verified": "2026-09-19T01:13:12Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -24353,7 +24355,7 @@
       },
       "score": 17,
       "image_remote_url": "https://storage.portalstation.com/uploads/2026/07/08/6a4ecc0dc1ad1-1783548941.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/0f2714276c109d649ebe.jpg",
@@ -24367,8 +24369,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:40Z",
-      "last_verified": "2026-09-15T01:15:40Z",
+      "last_seen": "2026-09-19T01:13:14Z",
+      "last_verified": "2026-09-19T01:13:14Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -24483,7 +24485,7 @@
       },
       "score": 29,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/05/17/6a090e23398a1-1778978339.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/a0ae8db620eb8f94390e.jpg",
@@ -24497,8 +24499,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:41Z",
-      "last_verified": "2026-09-15T01:15:41Z",
+      "last_seen": "2026-09-19T01:13:16Z",
+      "last_verified": "2026-09-19T01:13:16Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -24613,7 +24615,7 @@
       },
       "score": 29,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/05/17/6a090c11a7d16-1778977809.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/7a54a31d594ada45462c.jpg",
@@ -24627,8 +24629,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:43Z",
-      "last_verified": "2026-09-15T01:15:43Z",
+      "last_seen": "2026-09-19T01:13:17Z",
+      "last_verified": "2026-09-19T01:13:17Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -24743,7 +24745,7 @@
       },
       "score": 29,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/05/17/6a090a66a6b4c-1778977382.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/0e63e089110481716398.jpg",
@@ -24757,8 +24759,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:44Z",
-      "last_verified": "2026-09-15T01:15:44Z",
+      "last_seen": "2026-09-19T01:13:19Z",
+      "last_verified": "2026-09-19T01:13:19Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -24874,7 +24876,7 @@
       },
       "score": 29,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/05/17/6a0907fde28ef-1778976765.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/6546888df951b0440bc8.jpg",
@@ -24888,8 +24890,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:46Z",
-      "last_verified": "2026-09-15T01:15:46Z",
+      "last_seen": "2026-09-19T01:13:20Z",
+      "last_verified": "2026-09-19T01:13:20Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -25003,7 +25005,7 @@
       },
       "score": 29,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/05/17/6a0905243bb45-1778976036.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/c135ce0eda885dd2c2d5.jpg",
@@ -25017,8 +25019,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-15T01:15:47Z",
-      "last_verified": "2026-09-15T01:15:47Z",
+      "last_seen": "2026-09-19T01:13:22Z",
+      "last_verified": "2026-09-19T01:13:22Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -25133,7 +25135,7 @@
       },
       "score": 30,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/04/20/69e5d42b78e0f-1776669739.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/cd9cbad19ed88ecc4081.jpg",
@@ -88422,8 +88424,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-15T01:10:36+00:00",
-      "last_seen": "2026-09-15T01:13:17Z",
-      "last_verified": "2026-09-15T01:13:17Z",
+      "last_seen": "2026-09-19T01:12:11Z",
+      "last_verified": "2026-09-19T01:12:11Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -88487,7 +88489,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/14/6aa87abc4c976-1789426364.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/50075910f7e791a276ce.jpg",
@@ -88540,14 +88542,18 @@
         "Сезон /10": 7,
         "Дорога /10": 0
       },
-      "score": 30
+      "score": 30,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/texas/046-acres-for-sale-in-el-paso-texas-26247"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-15T01:10:36+00:00",
-      "last_seen": "2026-09-15T01:13:19Z",
-      "last_verified": "2026-09-15T01:13:19Z",
+      "last_seen": "2026-09-19T01:12:13Z",
+      "last_verified": "2026-09-19T01:12:13Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -88574,7 +88580,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-09-14T20:03:53.000000Z",
+      "source_updated": "2026-09-15T13:32:03.000000Z",
       "source_published": "2026-09-14T17:51:53.000000Z",
       "image_url": "assets/listings/3752844bcf5d6fccd88c.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/colorado/025-acres-for-sale-in-colorado-city-colorado-26241",
@@ -88611,7 +88617,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/14/6aa83573dba53-1789408627.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/3752844bcf5d6fccd88c.jpg",
@@ -88664,14 +88670,18 @@
         "Сезон /10": 3,
         "Дорога /10": 6
       },
-      "score": 29
+      "score": 29,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/025-acres-for-sale-in-colorado-city-colorado-26241"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-15T01:10:36+00:00",
-      "last_seen": "2026-09-15T01:13:22Z",
-      "last_verified": "2026-09-15T01:13:22Z",
+      "last_seen": "2026-09-19T01:12:14Z",
+      "last_verified": "2026-09-19T01:12:14Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -88736,7 +88746,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/14/6aa7df3631f3d-1789386550.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/6c521cebd7c339b790b6.jpg",
@@ -88789,14 +88799,18 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 23
+      "score": 23,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-concho-arizona-26230"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-15T01:10:36+00:00",
-      "last_seen": "2026-09-15T01:13:44Z",
-      "last_verified": "2026-09-15T01:13:44Z",
+      "last_seen": "2026-09-19T01:12:16Z",
+      "last_verified": "2026-09-19T01:12:16Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -88860,7 +88874,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/05/09/69fe82822aa5d-1778287234.jpg",
-      "photo_preserved_at": "2026-09-15T01:10:36+00:00",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
       "photo_history": [
         {
           "path": "assets/listings/5005ebc6b4cd5f226406.jpg",
@@ -88913,7 +88927,11 @@
         "Сезон /10": 7,
         "Дорога /10": 0
       },
-      "score": 17
+      "score": 17,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/texas/1000-acres-for-sale-in-van-horn-texas-24753"
+      ]
     },
     {
       "price_currency": "USD",
@@ -90685,6 +90703,377 @@
         "Дорога /10": 8
       },
       "score": 52
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-09-19T01:07:27+00:00",
+      "last_seen": "2026-09-19T01:10:19Z",
+      "last_verified": "2026-09-19T01:10:19Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-26279",
+      "source_id": "26279",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/florida/023-acres-for-sale-in-georgetown-florida-26279",
+      "title": "125 Roebuck Street",
+      "address": "125 Roebuck Street",
+      "city": "Georgetown",
+      "state": "FL",
+      "county": "Putnam",
+      "zip": "32139",
+      "kind": "land",
+      "price": 11999.0,
+      "known_fees": 0.0,
+      "total_known": 11999.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 0.23,
+      "lat": 29.392386,
+      "lng": -81.6168409,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-09-18T08:40:53.000000Z",
+      "source_published": "2026-09-18T08:37:40.000000Z",
+      "image_url": "assets/listings/82234accf46a8dd49b32.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/florida/023-acres-for-sale-in-georgetown-florida-26279",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "06-13-27-4910-0060-0450",
+      "zoning": "Residential",
+      "road_note": "Dirt Road",
+      "utility_note": "Please, contract county",
+      "taxes_note": "$65.15",
+      "source_categories": [
+        "residential-buildable-land",
+        "owner-finance-deals",
+        "vacant-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "flags": [],
+      "evidence_quote": "Georgetown is a charming, growing community that’s great for: Located at 125 Roebuck St, Georgetown, FL 32139 Parcel Number: 06-13-27-4910-0060-0450 Building a",
+      "price_history": [
+        {
+          "date": "2026-09-19T01:07:27+00:00",
+          "price": 11999.0,
+          "source": "https://www.landcentury.com/land-for-sale/florida/023-acres-for-sale-in-georgetown-florida-26279"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/18/6aacf8a3c9d31-1789720739.jpg",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/82234accf46a8dd49b32.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/florida/023-acres-for-sale-in-georgetown-florida-26279",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/18/6aacf8a3c9d31-1789720739.jpg",
+          "date": "2026-09-19T01:07:27+00:00"
+        }
+      ],
+      "region": "Юг",
+      "screening_issue": null,
+      "climate_note": "Дешёвый перелёт и мягкая зима. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "MCO",
+          "name": "Orlando International Airport",
+          "straight_km": 111,
+          "drive_km_estimate": 139,
+          "drive_hours_estimate": 1.9,
+          "flight_min_eur": 383,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "MIA",
+          "name": "Miami International Airport",
+          "straight_km": 421,
+          "drive_km_estimate": 526,
+          "drive_hours_estimate": 7.0,
+          "flight_min_eur": 431,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "ATL",
+          "name": "Hartsfield Jackson Atlanta International Airport",
+          "straight_km": 542,
+          "drive_km_estimate": 677,
+          "drive_hours_estimate": 9.0,
+          "flight_min_eur": 513,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 2001,
+      "score_parts": {
+        "Цена /25": 10,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 7,
+        "Дорога /10": 8
+      },
+      "score": 25
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-09-19T01:07:27+00:00",
+      "last_seen": "2026-09-19T01:10:45Z",
+      "last_verified": "2026-09-19T01:10:45Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-24990",
+      "source_id": "24990",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/arkansas/036-acres-for-sale-in-cherokee-village-arkansas-24990",
+      "title": "Hictochee Drive",
+      "address": "Hictochee Drive",
+      "city": "Cherokee Village",
+      "state": "AR",
+      "county": "Sharp",
+      "zip": "72529",
+      "kind": "land",
+      "price": 3100.0,
+      "known_fees": 0.0,
+      "total_known": 3100.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 0.36,
+      "lat": 36.276059,
+      "lng": -91.536947,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-09-18T16:37:20.000000Z",
+      "source_published": "2026-05-28T18:09:56.000000Z",
+      "image_url": "assets/listings/0a665ee8df6a6c6de844.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/arkansas/036-acres-for-sale-in-cherokee-village-arkansas-24990",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "244-00122-000",
+      "zoning": "Residential",
+      "road_note": "Paved Road",
+      "utility_note": "Electricity available, septic and well required",
+      "taxes_note": null,
+      "source_categories": [
+        "residential-buildable-land",
+        "vacant-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "available",
+      "water": "unknown",
+      "sewer": "available",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "flags": [],
+      "evidence_quote": null,
+      "price_history": [
+        {
+          "date": "2026-09-19T01:07:27+00:00",
+          "price": 3100.0,
+          "source": "https://www.landcentury.com/land-for-sale/arkansas/036-acres-for-sale-in-cherokee-village-arkansas-24990"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/05/28/6a1888e116658-1779992801.jpg",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/0a665ee8df6a6c6de844.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/arkansas/036-acres-for-sale-in-cherokee-village-arkansas-24990",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/05/28/6a1888e116658-1779992801.jpg",
+          "date": "2026-09-19T01:07:27+00:00"
+        }
+      ],
+      "region": "Юг",
+      "screening_issue": null,
+      "climate_note": "Один из полезных рынков земли в бюджете. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "STL",
+          "name": "St. Louis Lambert International Airport",
+          "straight_km": 294,
+          "drive_km_estimate": 367,
+          "drive_hours_estimate": 4.9,
+          "flight_min_eur": 596,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "BNA",
+          "name": "Nashville International Airport",
+          "straight_km": 436,
+          "drive_km_estimate": 545,
+          "drive_hours_estimate": 7.3,
+          "flight_min_eur": 562,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "DFW",
+          "name": "Dallas Fort Worth International Airport",
+          "straight_km": 628,
+          "drive_km_estimate": 785,
+          "drive_hours_estimate": 10.5,
+          "flight_min_eur": 704,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 967,
+      "score_parts": {
+        "Цена /25": 25,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 2,
+        "Сезон /10": 8,
+        "Дорога /10": 5
+      },
+      "score": 40
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-09-19T01:07:27+00:00",
+      "last_seen": "2026-09-19T01:11:06Z",
+      "last_verified": "2026-09-19T01:11:06Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "restriction_risk",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-21287",
+      "source_id": "21287",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/arizona/110-acres-for-sale-in-meadview-arizona-21287",
+      "title": "26991 Palo Christi",
+      "address": "26991 Palo Christi",
+      "city": "Meadview",
+      "state": "AZ",
+      "county": "Mohave",
+      "zip": "86444",
+      "kind": "land",
+      "price": 7500.0,
+      "known_fees": 0.0,
+      "total_known": 7500.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 1.1,
+      "lat": 35.90878,
+      "lng": -114.053116,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-09-18T16:36:55.000000Z",
+      "source_published": "2025-06-25T23:50:32.000000Z",
+      "image_url": "assets/listings/f048dd00a7439f3bbc01.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/110-acres-for-sale-in-meadview-arizona-21287",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "336-07-032",
+      "zoning": "Residential",
+      "road_note": "Dirt Road",
+      "utility_note": "Electricity available, septic and well required",
+      "taxes_note": null,
+      "source_categories": [
+        "residential-buildable-land",
+        "mobile-home-and-rv-land",
+        "vacant-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "available",
+      "water": "unknown",
+      "sewer": "available",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "flags": [
+        "Mohave IPMC 302.8 ограничивает неходовые машины и крупную разборку; проверить zoning-исключения и точную юрисдикцию."
+      ],
+      "evidence_quote": null,
+      "price_history": [
+        {
+          "date": "2026-09-19T01:07:27+00:00",
+          "price": 7500.0,
+          "source": "https://www.landcentury.com/land-for-sale/arizona/110-acres-for-sale-in-meadview-arizona-21287"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2025/06/25/685c8c5dd10ab-1750895709.jpg",
+      "photo_preserved_at": "2026-09-19T01:07:27+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/f048dd00a7439f3bbc01.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/110-acres-for-sale-in-meadview-arizona-21287",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2025/06/25/685c8c5dd10ab-1750895709.jpg",
+          "date": "2026-09-19T01:07:27+00:00"
+        }
+      ],
+      "legal_source": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
+      "region": "Юго-запад",
+      "screening_issue": null,
+      "climate_note": "Много дешёвой земли. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 101,
+          "drive_km_estimate": 126,
+          "drive_hours_estimate": 1.7,
+          "flight_min_eur": 514,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "PHX",
+          "name": "Phoenix Sky Harbor International Airport",
+          "straight_km": 333,
+          "drive_km_estimate": 416,
+          "drive_hours_estimate": 5.5,
+          "flight_min_eur": 739,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "LAX",
+          "name": "Los Angeles International Airport",
+          "straight_km": 453,
+          "drive_km_estimate": 566,
+          "drive_hours_estimate": 7.6,
+          "flight_min_eur": 434,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 2018,
+      "score_parts": {
+        "Цена /25": 18,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 2,
+        "Сезон /10": 6,
+        "Дорога /10": 8
+      },
+      "score": 34
     }
   ]
 }
