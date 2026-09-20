@@ -350,6 +350,77 @@
         "WY",
         "NJ"
       ]
+    },
+    {
+      "date": "2026-09-20T02:19:21+00:00",
+      "states": [
+        "ND",
+        "WY",
+        "NJ"
+      ],
+      "added_ids": [
+        "ls-5294750"
+      ],
+      "updated_ids": [
+        "ls-5321813"
+      ],
+      "scope": "Garage-first rotation in three states below ten photo candidates. Added live Regent corner-lot listing with original photo and explicit unknown RV use. Verified NJ price reduction and held the two-lot listing for contradictory area/unknown parcel identity. All existing records, first_seen and photos retained.",
+      "deferred": [
+        {
+          "url": "https://www.realtor.com/realestateandhomes-detail/109-Main-St-S_McClusky_ND_58463_M96141-85263",
+          "price": 15000,
+          "mls": "MyStateMLS 11873185",
+          "reason": "Indexed page (last updated July 29, 2026) describes approximately 2,300 sq ft storage building on two lots, needing repairs or removal. Additional adjacent lot is separate. Current Realtor Chrome page unavailable to Europe; Properstar live page unavailable and web fetch 404. Current Zillow city results omit this listing, but absence does not prove sold. Exact coordinates, present availability and vehicle-entry dimensions were not established; not imported from stale snapshot. Revisit accessible broker/MLS evidence.",
+          "alternate_url": "https://www.properstar.com/listing/118558012"
+        },
+        {
+          "url": "https://www.landsearch.com/properties/89th-st-ne-willow-city-nd-58384/3361535",
+          "price": 4875,
+          "reason": "1.06-acre headline aggregates thirteen scattered tiny parcels, mostly landlocked; seller discloses uncertain coordinates and neighboring structures encroaching. Not a coherent one-acre RV site."
+        },
+        {
+          "url": "https://www.bismarckmandanhomes.com/listings/ND/Underwood/58576/307-County-Road-14/4019143",
+          "price": 15000,
+          "reason": "Garage result is explicitly closed in source; not imported from old inexpensive-property search result."
+        }
+      ],
+      "negative_searches": [
+        {
+          "url": "https://www.landsearch.com/properties/wyoming/search/under-15000",
+          "finding": "Budget inventory showed existing Torrington candidate; no additional verified whole-property garage purchase found."
+        },
+        {
+          "url": "https://www.canyonrealestate.net/property-detail/commerical/311-culbertson-ave-worland",
+          "finding": "Four-bay service garage is FOR LEASE, not a $3,000–$15,000 purchase."
+        },
+        {
+          "url": "https://www.minotnd.gov/bids.aspx?bidID=603",
+          "finding": "2025 structure-relocation auction: $15,000 is performance bond and buildings must be moved; not purchase of a site."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/new-jersey/search/under-15000",
+          "finding": "Result set mixes rentals, tiny Camden parcels and already retained vacant lots; count does not establish suitable garages or permitted RV sites."
+        }
+      ],
+      "official_sources": [
+        {
+          "url": "https://mccluskynd.com/",
+          "finding": "Municipal public portal inspected; no adopted parcel-specific storage/repair permission located."
+        },
+        {
+          "url": "https://www.co.sheridan.nd.us/document-library/",
+          "finding": "County document portal inspected; browse endpoint inaccessible through web tool. No adopted code establishing city parcel repair permission obtained; county authority cannot be presumed within city."
+        }
+      ],
+      "monitor_diagnosis": "Actual GitHub scheduled run 35480875008 succeeded. monitor.json last_run 2026-09-20T01:14:47+00:00 reports partial coverage: 114 detail pages, zero new or changed records and six 404s. Two additional Oregon URLs failed (21323 and 17067); all previous statuses/photos preserved. Automatic collection was available, so no duplicate manual collector was run.",
+      "access": "Live connected Chrome LandSearch verified both imported/updated pages. Public indexed research used for triage. Realtor geographical-unavailability page and unavailable Properstar were not bypassed. Current Zillow city inventory differed from older indexed search and was not treated as evidence of sale.",
+      "flight_review": "September 14 observations retained; weekly refresh due September 21, not today.",
+      "github_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/35480875008",
+      "next_states": [
+        "SD",
+        "NE",
+        "KS"
+      ]
     }
   ]
 }

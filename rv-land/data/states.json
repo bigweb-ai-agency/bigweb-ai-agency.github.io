@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T01:14:47+00:00",
+  "updated_at": "2026-09-20T02:19:21+00:00",
   "states": [
     {
       "code": "AL",
@@ -616,8 +616,8 @@
       ],
       "analysis": "Удобный перелёт, но дешёвые лоты часто непростые: размер, wetlands, отсутствие разрешённого использования.",
       "total": 6,
-      "photo_candidates": 6,
-      "shortfall": 4,
+      "photo_candidates": 5,
+      "shortfall": 5,
       "coverage": "Недостаточно проверенных кандидатов",
       "sources": [
         "https://www.landsearch.com/properties/new-jersey/search/under-15000",
@@ -700,9 +700,9 @@
         "MSP"
       ],
       "analysis": "Небольшая выборка, суровая зима и большое расстояние. Имеет смысл только с уже существующим пригодным помещением.",
-      "total": 5,
-      "photo_candidates": 5,
-      "shortfall": 5,
+      "total": 6,
+      "photo_candidates": 6,
+      "shortfall": 4,
       "coverage": "Недостаточно проверенных кандидатов",
       "sources": [
         "https://www.landsearch.com/properties/north-dakota/search/under-15000",

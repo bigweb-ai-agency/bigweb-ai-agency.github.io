@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-20T01:14:47+00:00",
+  "updated_at": "2026-09-20T02:19:21+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -51751,12 +51751,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:28+00:00",
-      "last_seen": "2026-09-13T23:00:23+00:00",
-      "last_verified": "2026-09-13T23:00:23+00:00",
+      "last_seen": "2026-09-20T02:19:21+00:00",
+      "last_verified": "2026-09-20T02:19:21+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "20.09.2026 цена и Active sale подтверждены в Chrome. Снижение составляет $5,111 (34.1%). Старое фото и история цены сохранены; новый hold не означает снятие с продажи."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ls-5321813",
       "source_id": "5321813",
@@ -51769,17 +51771,17 @@
       "zip": "07438",
       "county": "Morris",
       "kind": "land",
-      "price": 14999.0,
+      "price": 9888,
       "known_fees": 0,
-      "total_known": 14999.0,
-      "price_evidence": "Показанная запрашиваемая цена; дополнительные сборы не подтверждены.",
+      "total_known": 9888,
+      "price_evidence": "Chrome / LandSearch: полная запрашиваемая цена двух лотов $9,888 вместо $14,999; источник обновлён 14.09.2026. Closing и расходы получения разрешений отдельно.",
       "acres": 0.09,
       "lat": 41.0118,
       "lng": -74.5027,
       "coord_precision": "listing",
       "status": "active",
-      "status_basis": "indexed_public_page",
-      "source_crawled": "2 weeks ago",
+      "status_basis": "live_public_page",
+      "source_crawled": "live Chrome page",
       "image_url": "assets/listings/66190dd979eaadc7593d.jpg",
       "image_source_url": "https://www.landsearch.com/properties/9-old-woodland-trl-jefferson-township-nj-07438/5321813",
       "image_credit": "Listing broker / LandSearch",
@@ -51799,12 +51801,20 @@
       "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "unknown",
-      "flags": [],
+      "flags": [
+        "Два лота без parcel ID и противоречащая суммарная площадь: 0.09 ac в карточке против 200 × 100 ft в описании. До проверки состава продажи, границ и использования площадка для RV не установлена.",
+        "Продавец возлагает необходимые тесты, variances и разрешения строительства на покупателя; продаёт AS IS."
+      ],
       "evidence_quote": null,
       "price_history": [
         {
           "date": "2026-09-13T22:25:28+00:00",
           "price": 14999.0,
+          "source": "https://www.landsearch.com/properties/9-old-woodland-trl-jefferson-township-nj-07438/5321813"
+        },
+        {
+          "date": "2026-09-20T02:19:21+00:00",
+          "price": 9888,
           "source": "https://www.landsearch.com/properties/9-old-woodland-trl-jefferson-township-nj-07438/5321813"
         }
       ],
@@ -51814,7 +51824,7 @@
         "https://www.landsearch.com/properties/9-old-woodland-trl-jefferson-township-nj-07438/5321813"
       ],
       "region": "Северо-восток",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Удобный перелёт, но дешёвые лоты часто непростые: размер, wetlands, отсутствие разрешённого использования. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -51850,14 +51860,14 @@
       ],
       "msp_straight_km": 1579,
       "score_parts": {
-        "Цена /25": 5,
+        "Цена /25": 14,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 0,
         "Сезон /10": 5,
         "Дорога /10": 9
       },
-      "score": 19,
+      "score": 20,
       "image_remote_url": "https://cdn.landsearch.com/listings/4Ty6s/large/jefferson-township-nj-172972779.jpg",
       "photo_preserved_at": "2026-09-13T23:05:59+00:00",
       "photo_history": [
@@ -51867,7 +51877,26 @@
           "remote_url": "https://cdn.landsearch.com/listings/4Ty6s/large/jefferson-township-nj-172972779.jpg",
           "date": "2026-09-13T23:05:59+00:00"
         }
-      ]
+      ],
+      "source_updated": "2026-09-14",
+      "parcel_note": "Продавец включает Old Woodland Trail и 9 Old Woodland Trail, но parcel ID обоих лотов не указан.",
+      "area_note": "Заголовок/поле площади: 0.09 ac (3,920 sq ft). Описание двух лотов: 200 × 100 ft вместе = 20,000 sq ft (около 0.459 ac). Противоречие не разрешено; 0.09 ac сохраняется как исходное поле, а не подтверждённая суммарная площадь.",
+      "review_hold": {
+        "date": "2026-09-20T02:19:21+00:00",
+        "reason": "Два лота без parcel ID и противоречащая суммарная площадь: 0.09 ac в карточке против 200 × 100 ft в описании. До проверки состава продажи, границ и использования площадка для RV не установлена.",
+        "source": "https://www.landsearch.com/properties/9-old-woodland-trl-jefferson-township-nj-07438/5321813",
+        "release_condition": "Сверить оба parcel ID, суммарную площадь и границы; подтвердить допустимое хранение и личный ремонт RV для этих участков."
+      },
+      "review_history": [
+        {
+          "date": "2026-09-20T02:19:21+00:00",
+          "field": "review_hold",
+          "from": null,
+          "to": "area_and_parcel_identity_conflict",
+          "source": "https://www.landsearch.com/properties/9-old-woodland-trl-jefferson-township-nj-07438/5321813"
+        }
+      ],
+      "previous_price": 14999.0
     },
     {
       "price_currency": "USD",
@@ -91128,6 +91157,134 @@
         "Дорога /10": 8
       },
       "score": 34
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-09-20T02:19:21+00:00",
+      "last_seen": "2026-09-20T02:19:21+00:00",
+      "last_verified": "2026-09-20T02:19:21+00:00",
+      "photo_kind": "Фотография из объявления: травяная площадка вдоль улицы. Видимое сбоку строение не подтверждено как часть продажи.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [
+        "Размер 50 × 140 ft дан продавцом; юридические границы проверить по survey и parcel. Существующий гараж не заявлен."
+      ],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "unknown",
+      "road_access": "unknown",
+      "flags": [
+        "Жилое зонирование само по себе не разрешает хранение и ремонт RV без основного дома.",
+        "Холодная зима и большой трансфер от международных шлюзов; отдельный внутренний перелёт и его стоимость пока не проверены."
+      ],
+      "evidence_quote": null,
+      "id": "ls-5294750",
+      "state": "ND",
+      "url": "https://www.landsearch.com/properties/313-w-2nd-ave-regent-nd-58650/5294750",
+      "image_url": "assets/listings/de8c651c69fce5709a51.jpg",
+      "image_remote_url": "https://cdn.landsearch.com/listings/4TjmD/large/regent-nd-172803143.jpg",
+      "photo_preserved_at": "2026-09-20T02:17:37+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/de8c651c69fce5709a51.jpg",
+          "source": "https://www.landsearch.com/properties/313-w-2nd-ave-regent-nd-58650/5294750",
+          "remote_url": "https://cdn.landsearch.com/listings/4TjmD/large/regent-nd-172803143.jpg",
+          "date": "2026-09-20T02:17:37+00:00"
+        }
+      ],
+      "source_id": "5294750",
+      "source": "LandSearch",
+      "title": "313 W 2nd Ave — угловой жилой участок",
+      "address": "313 W 2nd Ave",
+      "city": "Regent",
+      "county": "Hettinger",
+      "zip": "58650",
+      "kind": "land",
+      "price": 9995,
+      "known_fees": 0,
+      "total_known": 9995,
+      "price_evidence": "Полная запрашиваемая цена $9,995 на открытой странице LandSearch в Chrome. Closing и подготовка площадки не включены; дополнительные обязательные сборы не установлены.",
+      "acres": 0.161,
+      "lat": 46.421947,
+      "lng": -102.561201,
+      "coord_precision": "listing",
+      "parcel": "34000206303000",
+      "mls": "RMLS 7079322",
+      "zoning": "Residential-Single Family по объявлению; разрешения на отдельную RV-площадку и ремонт неизвестны.",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_crawled": "live Chrome page",
+      "source_updated": "2026-06-30",
+      "source_published": "2026-05-22",
+      "image_source_url": "https://www.landsearch.com/properties/313-w-2nd-ave-regent-nd-58650/5294750",
+      "image_credit": "Listing broker / LandSearch",
+      "road_note": "По описанию угловой участок 50 × 140 ft (около 15.2 × 42.7 м). На фото видна улица; юридический подъезд, въезд и разворот высокого 7-метрового RV не проверены.",
+      "utility_note": "На фото видны воздушные линии, но наличие/стоимость подключения участка не установлены. Вода и канализация неизвестны.",
+      "garage_note": "Продажа заявлена как пустой участок. Здание на краю фото не считается включённым гаражом.",
+      "taxes_note": "$78 за 2025 год по объявлению; текущие налоги, долги и title не проверены.",
+      "alternate_urls": [
+        "https://www.landsearch.com/properties/313-w-2nd-ave-regent-nd-58650/5294750"
+      ],
+      "price_history": [
+        {
+          "date": "2026-09-20T02:19:21+00:00",
+          "price": 9995,
+          "source": "https://www.landsearch.com/properties/313-w-2nd-ave-regent-nd-58650/5294750"
+        }
+      ],
+      "status_history": [],
+      "region": "Равнины",
+      "screening_issue": null,
+      "climate_note": "Небольшая выборка, суровая зима и большое расстояние. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "MSP",
+          "name": "Minneapolis–Saint Paul International Airport / Wold–Chamberlain Field",
+          "straight_km": 745,
+          "drive_km_estimate": 932,
+          "drive_hours_estimate": 12.4,
+          "flight_min_eur": 803,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "DEN",
+          "name": "Denver International Airport",
+          "straight_km": 749,
+          "drive_km_estimate": 937,
+          "drive_hours_estimate": 12.5,
+          "flight_min_eur": 602,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "ORD",
+          "name": "Chicago O'Hare International Airport",
+          "straight_km": 1266,
+          "drive_km_estimate": 1583,
+          "drive_hours_estimate": 21.1,
+          "flight_min_eur": 468,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 745,
+      "score_parts": {
+        "Цена /25": 13,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 1,
+        "Дорога /10": 0
+      },
+      "score": 14
     }
   ]
 }
