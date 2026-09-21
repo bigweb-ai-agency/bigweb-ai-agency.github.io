@@ -8,7 +8,7 @@
 6. Merge using merge_records. Preserve IDs, first_seen, histories, files and alternative URLs. Do not replay old indexed snapshots as fresh observations. Only definite evidence changes availability; a failed HTTP request does not.
 7. Use cache_photos.preserve to retain actual image bytes under assets/listings/. Never delete previous files, use a generic image or synthesize a listing photo. A failed photo is a research gap, not a success.
 8. Run make_analysis.py, focused unit tests, validate_data.py, JS syntax check if code changed, and proportionate Chrome UI checks. Compare pre/post IDs and photo availability.
-9. Commit only allowed files, recheck remote main, merge without force, push and verify the public URL and Pages build. A failed publication is unfinished work.
+9. Commit only allowed files, recheck remote main, merge without force, push and verify the public URL and Pages build. When app.js changes, update its version query in index.html and verify the changed behavior in connected Chrome; fresh JSON with cached old JavaScript is not a completed UI release. A failed publication is unfinished work.
 10. Weekly: refresh flexible two-week return flights from VNO, UK and other EU hubs. Keep dates/party/baggage/source uncertainty. Positioning is a separate cost; never add unrelated minima to claim a same-date total.
 11. Notify only for materially useful new candidates, changes, failure or necessary action. No routine unchanged-status messages.
 
