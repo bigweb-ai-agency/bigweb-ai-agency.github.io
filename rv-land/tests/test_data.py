@@ -4,8 +4,24 @@ from unittest.mock import patch
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 import build_data as b
 import cache_photos as photos
+import make_analysis as analysis
 
 class ResearchDataTests(unittest.TestCase):
+    def test_property_airfare_ignores_archived_expired_and_overnight_day_long_fares(self):
+        row={'id':'site','state':'MN','lat':45,'lng':-94,'price':9000,
+             'total_known':9000,'status':'active','price_basis':'asking_cash'}
+        current={'gateway':'MSP','origin':'CPH','eur':500,'departure':'2026-10-29',
+                 'usable':True,'duration_hours':17}
+        data={'listings.json':{'listings':[row]},
+              'gateways.json':{'airports':[{'code':'MSP','name':'Minneapolis','lat':44.88,'lng':-93.22}]},
+              'flights.json':{'observations':[current,dict(current,eur=90,usable=False),
+                  dict(current,eur=100,departure='2026-09-20'),dict(current,eur=110,duration_hours=41)]}}
+        with patch.object(analysis,'NOW','2026-09-21T02:00:00+00:00'), \
+             patch.object(analysis,'read',side_effect=lambda p,default:data[p.name]), \
+             patch.object(analysis,'write'),patch('builtins.print'):
+            analysis.run()
+        self.assertEqual(row['gateways'][0]['flight_min_eur'],500)
+
     def test_failed_new_photo_keeps_previous_file_and_rejects_unillustrated_new_record(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp);assets=root/'assets'/'listings';assets.mkdir(parents=True)

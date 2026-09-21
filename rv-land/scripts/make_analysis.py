@@ -95,7 +95,9 @@ def run():
             if x['state']=='AK' and a['code']!='ANC':continue
             if x['state'] not in ('AK','HI') and a['code'] in ('HNL','KOA','ITO','ANC'):continue
             km=distance((x['lat'],x['lng']),(a['lat'],a['lng'])) if x.get('lat') and x.get('lng') else 99999
-            quotes=[f for f in flights if f['gateway']==a['code'] and f.get('usable',True)]
+            # Match the flight table's default: current quotes, at most 24h outbound.
+            quotes=[f for f in flights if f['gateway']==a['code'] and f.get('usable',True)
+                    and f.get('departure','')>=NOW[:10] and f.get('duration_hours',999)<=24]
             best=min(quotes,key=lambda f:f['eur'],default=None)
             candidates.append({'code':a['code'],'name':a['name'],'straight_km':round(km),
                 'drive_km_estimate':round(km*1.25),'drive_hours_estimate':round(km*1.25/75,1),

@@ -152,16 +152,16 @@ function renderFlights(){
  $('flightTable').innerHTML='<table><thead><tr><th>Город / шлюз США</th>'+flightData.origins.map(o=>'<th>'+esc(o.code)+'<span class="table-note">'+esc(o.name)+'</span></th>').join('')+'</tr></thead><tbody>'+codes.map(code=>{
   const airport=gateways.find(a=>a.code===code);
   const minimum=Math.min(...rows.filter(f=>f.gateway===code).map(f=>f.eur));
-  return '<tr><td><b>'+code+'</b><span class="table-note">'+esc((airport?.name||'').replace('International Airport','').replace('city search — JFK used for approximate geometry','— точный аэропорт уточнить'))+'</span></td>'+flightData.origins.map(o=>{
+  return '<tr><td><b>'+code+'</b><span class="table-note">'+esc((airport?.name||all.find(f=>f.gateway===code&&f.destination_name)?.destination_name||'').replace('International Airport','').replace('city search — JFK used for approximate geometry','— точный аэропорт уточнить'))+'</span></td>'+flightData.origins.map(o=>{
    const f=rows.filter(f=>f.gateway===code&&f.origin===o.code).sort((a,b)=>a.eur-b.eur)[0];
    return '<td>'+(f?'<button class="fare-btn'+(f.eur===minimum?' best':'')+'" data-fare="'+all.indexOf(f)+'">€'+f.eur+'</button>':'<span title="Нет подходящей датированной котировки">—</span>')+'</td>';
   }).join('')+'</tr>';
  }).join('')+'</tbody></table>';
- $('providerChecks').innerHTML=(flightData.provider_checks||[]).map(p=>'<article><h3>'+esc(p.route)+'</h3><p><b>'+esc(p.price)+'</b><br>'+esc(p.dates)+'</p><p>'+esc(p.note)+'</p><p>'+link(p.url,'Страница перевозчика ↗')+'</p></article>').join('');
+ $('providerChecks').innerHTML=(flightData.provider_checks||[]).map(p=>'<article><h3>'+esc(p.route)+'</h3><p><b>'+esc(p.price)+'</b><br>'+esc(p.dates)+'</p><p>'+esc(p.note)+'</p><p>'+link(p.url,'Источник тарифа ↗')+'</p></article>').join('');
 }
 function showFare(i){
  const f=flightData.observations[i];if(!f)return;
- $('fareBody').innerHTML='<div class="detail-content"><span class="eyebrow">ПОИСК В CHROME · НЕ CHECKOUT</span><h2>'+esc(f.origin+' → '+f.gateway)+'</h2><p class="detail-price">€'+f.eur+' туда-обратно</p><p>'+date(f.departure)+' — '+date(f.return)+'</p><p>'+esc(f.airlines)+' · '+f.stops+' пересадок · туда '+esc(f.duration)+' ч.</p><p>'+esc(f.baggage)+'</p><p>'+esc(flightData.caveat)+'</p><p>Поиск по городу; фактический аэропорт, терминалы и единый билет ещё нужно подтвердить. Для отдельного позиционирующего билета заложи запас и возможную ночёвку.</p><p>Наблюдение '+date(f.observed_at)+'.</p><div class="detail-links">'+link(f.source_url,'Открыть актуальный поиск ↗','button-link')+'<button data-costfare="'+f.eur+'">Подставить в расчёт</button></div></div>';
+ $('fareBody').innerHTML='<div class="detail-content"><span class="eyebrow">ПОИСК В CHROME · НЕ CHECKOUT</span><h2>'+esc(f.origin+' → '+f.gateway)+'</h2><p class="detail-price">€'+f.eur+' туда-обратно</p><p>'+date(f.departure)+' — '+date(f.return)+'</p><p>'+esc(f.airlines)+' · '+f.stops+' пересадок · туда '+esc(f.duration)+' ч.</p><p>'+esc(f.baggage)+'</p><p>'+esc(f.verification||'')+'</p>'+(f.note?'<p>'+esc(f.note)+'</p>':'')+'<p>'+esc(flightData.caveat)+'</p><p>'+esc(f.gateway_precision||'Аэропорт требует проверки.')+' Терминалы и единый билет проверить у перевозчика. Для отдельного билета нужен запас на задержку.</p><p>Наблюдение '+date(f.observed_at)+'.</p><div class="detail-links">'+link(f.source_url,'Открыть актуальный поиск ↗','button-link')+'<button data-costfare="'+f.eur+'">Подставить в расчёт</button></div></div>';
  $('fareDetail').showModal();
 }
 function cost(){const n=id=>Math.max(0,Number($(id).value)||0);$('costTotal').textContent='≈ €'+(n('costFare')+n('costPosition')+n('costHotel')+n('costBags')+n('costCar')*n('costDays')+n('costFuel')).toLocaleString('ru-RU');}

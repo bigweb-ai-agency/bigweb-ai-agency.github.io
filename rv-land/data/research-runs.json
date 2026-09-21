@@ -421,6 +421,72 @@
         "NE",
         "KS"
       ]
+    },
+    {
+      "date": "2026-09-21T02:27:42+00:00",
+      "states": [
+        "SD",
+        "NE",
+        "KS"
+      ],
+      "added_ids": [],
+      "updated_ids": [],
+      "scope": "Garage-first rotation across South Dakota, Nebraska and Kansas; no fresh manual listing met all evidence gates. Weekly flight refresh: four origins, explicit price corrections, matched positioning dates and baggage. Automatic collector added two retained photo records before this manual review.",
+      "deferred": [
+        {
+          "url": "https://www.landsearch.com/properties/tolstoy-sd-57475/5447069",
+          "price": 7500,
+          "mls": "HBR 26-287",
+          "reason": "Live Chrome page: 0.7 acres, Lots 2–5 Block 9 Original Town, Potter County; seller claims water/sewer/electricity on property. Ten source photos visible but no precise coordinates/address established. HTTP detail returned 403 after allowed robots check; not retried. Deferred rather than placing an invented town-center marker; RV storage and repair remain unknown."
+        },
+        {
+          "url": "https://www.realtor.com/realestateandhomes-detail/308-10th-St_Dawson_NE_68337_M70165-53327",
+          "price": 12000,
+          "reason": "Older Realtor snapshot claims active house with garage, but fresher Redfin and Zillow explicitly show off-market, no current asking price. Descriptions conflict about garage type and county. Not added as current $12,000 workshop.",
+          "alternate_url": "https://www.redfin.com/NE/Dawson/308-10th-St-68337/home/136342838"
+        },
+        {
+          "url": "https://oldhousesunder50k.com/circa-1900-kansas-fixer-upper-under-12k/",
+          "price": 11500,
+          "reason": "309 North St C, Herington: archive dated 2023; linked Zillow is currently off-market. Detached garage mention is not a current purchase opportunity.",
+          "alternate_url": "https://www.zillow.com/homedetails/309-North-St-C-Herington-KS-67449/2055894994_zpid/"
+        },
+        {
+          "url": "https://www.zillow.com/homedetails/310-W-State-St-Guide-Rock-NE-68942/194255320_zpid/",
+          "price": 10900,
+          "reason": "As-is house; MLS 20261075 explicitly No Garage. Precise coordinates and current original listing image not established in this pass."
+        },
+        {
+          "url": "https://www.exprealty.com/udall-ks-real-estate/udall/412-n-clark-st",
+          "price": 15000,
+          "reason": "House label describes bare building lot, not existing garage. Fresher Homes inventory says $10,000; no verified parcel coordinates/photo imported from older $15,000 snapshot.",
+          "alternate_url": "https://www.homes.com/kansas/land-for-sale/under-15k/p5/"
+        }
+      ],
+      "negative_searches": [
+        {
+          "url": "https://www.landsearch.com/properties/south-dakota/search/under-15000",
+          "finding": "Budget inventory mixes nominal auction prices, monthly rentals and already retained land; Tolstoy deferred above."
+        },
+        {
+          "url": "https://auctions.sudduthrealty.com/10156-SW-Eagle-Rd-Augusta-KS-67010/6990bebe514b16e505cfa66d_sid",
+          "finding": "Two-car garage search result belongs to auction closed March 24, 2026; no qualifying current full cash price."
+        },
+        {
+          "url": "https://www.nebraskarealty.com/properties/285-1st-avenue-shelby-ne-68662-20260229",
+          "finding": "Garage search result did not establish qualifying full purchase price; public fetch unavailable. Other Nebraska $10,000 result was price reduction on $439,000 listing, not purchase price."
+        }
+      ],
+      "official_sources": [],
+      "monitor_diagnosis": "Actual scheduled run 35550258373 completed success; monitor last_run 2026-09-21T01:14:47+00:00 partial: 2 new photo records (CO lc-26292 and AR lc-25769), 0 changes, 114 detail pages and same six 404 errors as previous run. All statuses/photos retained. Collector available, no duplicate collection.",
+      "access": "Connected Chrome plus public web search/details. HTTP LandSearch Tolstoy 403 respected without retries, credential use or bypass. Search snapshots were not allowed to override fresher off-market evidence.",
+      "flight_review": "Weekly refresh complete: 94 new current flight observations, 73 previous observations retained inactive. Selected VNO–EWR €454, first checked bag €140; CPH–MSP €570 changed to €612 phone quote. Official live Icelandair £351 replaced stale indexed £349. Positioning separately checked to CPH, London and Warsaw. No bookings.",
+      "github_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/35550258373",
+      "next_states": [
+        "RI",
+        "ID",
+        "WA"
+      ]
     }
   ]
 }
