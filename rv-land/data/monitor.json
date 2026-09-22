@@ -1,9 +1,9 @@
 {
   "schedule": "Ежедневно 00:37 UTC: 03:37 летом / 02:37 зимой по Вильнюсу. GitHub Actions может запускаться с задержкой.",
-  "last_run": "2026-09-21T02:30:38+00:00",
+  "last_run": "2026-09-22T01:09:27+00:00",
   "status": "partial",
-  "run_url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/35554391765",
-  "summary": "0 новых; 2 изменений цены/статуса/фото; 113 страниц проверено; ошибок 7.",
+  "run_url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/35674707595",
+  "summary": "2 новых; 0 изменений цены/статуса/фото; 113 страниц проверено; ошибок 7.",
   "scope": "LandCentury: новые страницы всех 50 штатов и ротация старых записей. LandSearch и старые MLS — отдельная исследовательская проверка, не автоматический live-статус.",
   "events": [
     {
@@ -113,6 +113,15 @@
       "added": 0,
       "changed": 2,
       "errors": 7
+    },
+    {
+      "date": "2026-09-22T01:09:27+00:00",
+      "status": "partial",
+      "scanned_pages": 114,
+      "read_details": 113,
+      "added": 2,
+      "changed": 0,
+      "errors": 7
     }
   ],
   "source_errors": [
@@ -187,6 +196,12 @@
       "reason": "outside_cash_budget",
       "price": 2960.0,
       "state": "MS"
+    },
+    {
+      "url": "https://www.landcentury.com/land-for-sale/new-mexico/534-acres-for-sale-in-pinehill-new-mexico-25948",
+      "reason": "outside_cash_budget",
+      "price": 18250.0,
+      "state": "NM"
     },
     {
       "url": "https://www.landcentury.com/land-for-sale/mississippi/189-acres-for-sale-in-pearlington-mississippi-25914",
@@ -487,29 +502,11 @@
       "reason": "availability_not_confirmed_by_source",
       "price": 8000.0,
       "state": "TN"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/georgia/037-acres-for-sale-in-rome-ga-12529",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 8500.0,
-      "state": "GA"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/tennessee/12-acres-for-sale-in-dyersburg-tn-12526",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 14500.0,
-      "state": "TN"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/tennessee/024-acres-for-sale-in-crossville-tn-12502",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 3500.0,
-      "state": "TN"
     }
   ],
   "photo_preservation": {
-    "cached": 667,
     "missing": 1,
-    "saved": 53
+    "cached": 667,
+    "saved": 55
   }
 }
