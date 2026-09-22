@@ -487,6 +487,96 @@
         "ID",
         "WA"
       ]
+    },
+    {
+      "date": "2026-09-22T02:20:07+00:00",
+      "states": [
+        "RI",
+        "ID",
+        "WA"
+      ],
+      "added_ids": [],
+      "updated_ids": [
+        "ls-4875741"
+      ],
+      "scope": "Garage-first rotation in three states below ten photo candidates. Held the retained Glenhaven vacant lot after live Chrome listing verification and current association-rule review. No new manual listing met evidence and practical-access gates. Two Texas photo records had already been added by the scheduled collector.",
+      "deferred": [
+        {
+          "url": "https://www.landsearch.com/properties/1125-e-32nd-ave-spokane-wa-99203/5015583",
+          "price": 5900,
+          "reason": "Source explicitly identifies landlocked parcel with no access. Not a viable vehicle-storage/repair site."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/morton-wa-98356/5398657",
+          "price": 10000,
+          "reason": "Source updated September 16: landlocked with no legal access, 15–35% slope and 100-year Tilton River floodplain. No import as RV base."
+        },
+        {
+          "url": "https://www.coldwellbankerhomes.com/wa/yelm/17636-e-clear-lake-blvd-se/pid_64399536/",
+          "price": 15000,
+          "reason": "Clearwood recreational lot marketed for RV camping. Current association rules require removal of RVs from recreational lots by November 1; winter storage only on permanent-residence lots with approved screening. No year-round storage or repair permission established; current coordinates/photo not imported."
+        },
+        {
+          "url": "https://www.alannabernd.com/property/509-26221-16333-hwy-12-unit-25-naches-WA-98937",
+          "price": 15000,
+          "reason": "Unit/mobile-home offer inside RV park; ownership of land not established. Not imported as a fee-simple site."
+        }
+      ],
+      "negative_searches": [
+        {
+          "url": "https://www.landsearch.com/properties/rhode-island/search/under-15000",
+          "finding": "Five displayed budget offers were monthly rentals. Zillow/Realtor land inventories did not establish a suitable whole-property purchase within budget."
+        },
+        {
+          "url": "https://www.crexi.com/properties/1461747/rhode-island-20-pleasant-st-pleasant-street",
+          "finding": "15,681 refers to building area, not a $15,000 purchase price. No qualifying cash price established."
+        },
+        {
+          "url": "https://www.homes.com/idaho/land-for-sale/under-15k/",
+          "finding": "Ten Mile Creek Road Lowman $3,500 is a gold/gem mining claim; fee-simple land ownership not established. Boise $1,100 is monthly lot rent. Existing Gilmore $5,000 listing already retained pending; no fresh facts overwritten."
+        },
+        {
+          "url": "https://daytonbarns.com/24-wide-buildings-in-idaho-id/24-wide-buildings-in-spirit-lake-id/",
+          "finding": "Low-cost garages are building products, without land. Not property purchases."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/washington/search/under-15000",
+          "finding": "Inspected budget list in live Chrome. Several rentals, previously held Pasco lease, landlocked parcels and association-restricted vacant lots; result count is not eligible inventory."
+        },
+        {
+          "url": "https://www.homes.com/ephrata-wa/land-for-sale/under-15k/",
+          "finding": "Cheap Rimrock Meadows recreational-lot offers require association restrictions review; private-lot storage and working-order rules prevent treating RV marketing as repair permission."
+        }
+      ],
+      "official_sources": [
+        {
+          "url": "https://www.glenhavenlakes.com/_files/ugd/f72173_5105da7223c84c4bb6303431b34262d4.pdf",
+          "landing_page": "https://www.glenhavenlakes.com/architectural-zoning-guidelines",
+          "finding": "Currently linked GLC Resolution 25-11-01, sections 7 and 31 (printed pages 6 and 15): vacant-lot RV storage restrictions and combined residential-lot exception. Section 1(g) restricts accessory buildings. Listing explicitly names this community; retained record placed on review hold."
+        },
+        {
+          "url": "https://clearwood-yelm.com/wp-content/uploads/2025/12/11-06-25-Updated-Rules-and-Regulations-AM.pdf",
+          "landing_page": "https://clearwood-yelm.com/documents-and-forms/",
+          "finding": "Current linked rules, footer updated November 22, 2025, section D.3 page 10: seasonal RV storage on recreational lots, removal by November 1; winter storage restricted to permanent-residence lots with approved screening. Camping permission is not year-round storage or repair permission."
+        },
+        {
+          "url": "https://rimrockmeadows.squarespace.com/developing-property",
+          "finding": "Association planning guidance says private lots are not for vehicle/machinery storage and RVs must remain in working order. No parcel-specific personal repair permission established."
+        },
+        {
+          "url": "https://rivieraclub.org/campground-policy/",
+          "finding": "Rules address the common campground. They do not establish restrictions or permission on the retained Anderson Island private lot, so no parcel-level change made."
+        }
+      ],
+      "monitor_diagnosis": "Actual scheduled run 35674707595 completed success. monitor last_run 2026-09-22T01:09:27+00:00: partial coverage, 2 new photo records (TX lc-25771 and lc-25759), 0 changes, 113 detail pages, same seven source 404 errors. No sale inferred. Automatic collection was available; no duplicate manual collector run.",
+      "access": "Live connected Chrome verified Washington budget results and Glenhaven price, active status, coordinates and community. Public web sources used for broader triage and current linked association rules. Initial browser bootstrap timed out, then normal inventory and tab creation recovered. No CAPTCHA, 403, robots or login bypass.",
+      "flight_review": "September 21 weekly flight refresh retained; next weekly refresh due September 28. No booking or stale snapshot overwrite.",
+      "github_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/35674707595",
+      "next_states": [
+        "MA",
+        "NH",
+        "VT"
+      ]
     }
   ]
 }

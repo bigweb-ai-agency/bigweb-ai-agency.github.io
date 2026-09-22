@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-22T01:09:27+00:00",
+  "updated_at": "2026-09-22T02:20:07+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -61857,12 +61857,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:28+00:00",
-      "last_seen": "2026-09-13T23:00:23+00:00",
-      "last_verified": "2026-09-13T23:00:23+00:00",
+      "last_seen": "2026-09-22T02:20:07+00:00",
+      "last_verified": "2026-09-22T02:20:07+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "22.09.2026: в Chrome подтверждены активное объявление за $15,000, 0.36 ac и прежние координаты. Проверен документ, связанный с действующей страницей правил Glenhaven. Личный ремонт остаётся неподтверждённым; статус продажи не изменён."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ls-4875741",
       "source_id": "4875741",
@@ -61884,8 +61886,8 @@
       "lng": -122.336,
       "coord_precision": "listing",
       "status": "active",
-      "status_basis": "indexed_public_page",
-      "source_crawled": "6 days ago",
+      "status_basis": "live_public_page",
+      "source_crawled": "live Chrome page",
       "image_url": "assets/listings/754a3a0cdd3c4c32b678.jpg",
       "image_source_url": "https://www.landsearch.com/properties/1-w-alder-dr-sedro-woolley-wa-98284/4875741",
       "image_credit": "Listing broker / LandSearch",
@@ -61896,7 +61898,7 @@
       "road_note": "Юридический подъезд не проверен",
       "utility_note": "Состояние подключений требует проверки",
       "garage_note": "Размеры и состояние не подтверждены",
-      "rv_storage": "unknown",
+      "rv_storage": "restriction_risk",
       "rv_occupancy": "unknown",
       "existing_garage": false,
       "garage_size": null,
@@ -61905,7 +61907,10 @@
       "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "unknown",
-      "flags": [],
+      "flags": [
+        "Объявление относит участок к Glenhaven Lakes Community; применяются правила товарищества, а не только округа.",
+        "Продавец не проводил исследования участка; возможность застройки, подъезд и подготовка площадки не подтверждены."
+      ],
       "evidence_quote": null,
       "price_history": [
         {
@@ -61920,7 +61925,7 @@
         "https://www.landsearch.com/properties/1-w-alder-dr-sedro-woolley-wa-98284/4875741"
       ],
       "region": "Тихоокеанский",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Дешёвый билет до SEA возможен, но дешёвые участки в основном далеко от западных городов. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -61973,7 +61978,16 @@
           "remote_url": "https://cdn.landsearch.com/listings/4Pwvh/large/sedro-woolley-wa-177259017.jpg",
           "date": "2026-09-13T23:05:59+00:00"
         }
-      ]
+      ],
+      "source_updated_at": "2026-08-13",
+      "legal_source": "https://www.glenhavenlakes.com/_files/ugd/f72173_5105da7223c84c4bb6303431b34262d4.pdf",
+      "legal_checked_at": "2026-09-22T02:20:07+00:00",
+      "review_hold": {
+        "date": "2026-09-22T02:20:07+00:00",
+        "reason": "Glenhaven Lakes, A&Z Resolution 25-11-01 §§7,31 ограничивают хранение RV на пустом лоте. Указанное исключение требует юридического объединения с соседним участком с домом того же владельца и письменного согласования. Отдельный гараж на незастроенном лоте также ограничен (§1(g)). Для самостоятельной базы хранения и ремонта этот вариант исключён до проверки.",
+        "source": "https://www.glenhavenlakes.com/_files/ugd/f72173_5105da7223c84c4bb6303431b34262d4.pdf",
+        "release_condition": "Документально подтвердить применимое исключение, состав приобретаемой недвижимости и разрешения на хранение и личный ремонт RV; заново проверить полный бюджет."
+      }
     },
     {
       "price_currency": "USD",
