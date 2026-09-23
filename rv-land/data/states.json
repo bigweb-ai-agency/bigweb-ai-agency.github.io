@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T01:09:07+00:00",
+  "updated_at": "2026-09-23T02:17:11+00:00",
   "states": [
     {
       "code": "AL",
@@ -428,8 +428,8 @@
       ],
       "analysis": "Сильный аэропорт, слабая выборка дешёвой земли. Проверить wetlands, проезд и пригодность лота до дальнейшего планирования.",
       "total": 2,
-      "photo_candidates": 2,
-      "shortfall": 8,
+      "photo_candidates": 0,
+      "shortfall": 10,
       "coverage": "Недостаточно проверенных кандидатов",
       "sources": [
         "https://www.landsearch.com/properties/massachusetts/search/under-15000",

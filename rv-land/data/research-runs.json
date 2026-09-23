@@ -577,6 +577,83 @@
         "NH",
         "VT"
       ]
+    },
+    {
+      "date": "2026-09-23T02:17:11+00:00",
+      "states": [
+        "MA",
+        "NH",
+        "VT"
+      ],
+      "added_ids": [],
+      "updated_ids": [
+        "ls-4318024",
+        "ls-5423475"
+      ],
+      "scope": "Garage-first New England rotation. Held two retained Massachusetts lots: substantial buyer tax debt at Mill Street and unresolved seller/municipal/HOA RV-use conflict at Deer Run. All records and original photos retained. No additional manual garage or suitable site qualified.",
+      "deferred": [
+        {
+          "url": "https://www.landsearch.com/properties/brookside-st-conway-nh-03818/5232350",
+          "price": 13000,
+          "reason": "Distinct 0.27-acre MLS 5086953 lot, sloping/steep in Cranmore Shores; sale needs state approvals. Do not overwrite retained ID ls-5232350, which currently correctly describes a separate 0.19-acre MLS 5086950 lot at source URL ending 5232452. No proven level RV pad or repair use."
+        },
+        {
+          "url": "https://www.homes.com/new-hampshire/land-for-sale/under-15k/",
+          "price": 13500,
+          "reason": "Newly inspected 0 Langford Road Unit 77, Candia: road access on Roy Street, possible encroaching adjacent structures and uncertain buildability. Exact usable parcel geometry, original photo and RV use not verified; deferred."
+        },
+        {
+          "url": "https://www.realtor.com/realestateandhomes-detail/7-Little-John-Dr_Becket_MA_01223_M93437-81654",
+          "reason": "Budget search says $15,000 but indexed detail still $20,000 dated June 5; no current complete price, coordinates/photo and applicable restrictions established. No import from conflicting snapshots."
+        },
+        {
+          "url": "https://www.craigslist.org/view/d/heath-79-acre-landlocked-property-in/dDmMW7Mn1hCdLqq2gndStU",
+          "price": 15000,
+          "reason": "Heath MA contract-holder offer explicitly has no legal access and no RV storage due to lack of access. Not a usable campervan site."
+        }
+      ],
+      "negative_searches": [
+        {
+          "url": "https://www.homes.com/massachusetts/land-for-sale/under-15k/",
+          "finding": "Inspected purchase/rental distinction and Mill Street buyer tax obligations. Paper-mill lots require debt/environment review, $3,000 Brockton yard is lease, $1 Revere is call for offers."
+        },
+        {
+          "url": "https://www.homes.com/new-hampshire/land-for-sale/under-15k/",
+          "finding": "Nine indexed results: retained/deferred lots, Thompson Road landlocked 0.07-acre abutter parcel and Rockingham Road ground lease. No existing garage purchase in budget established."
+        },
+        {
+          "url": "https://www.land.com/Vermont/all-land/under-20000/",
+          "finding": "Six results: only existing Walker Pit Road pending $15,000 falls in requested range; Clayton Lane pending $2,500 below range, others $18,500–$20,000. LandSearch Vermont likewise includes rentals and same pending lot."
+        },
+        {
+          "url": "https://winhallrealestate.com/stratton-short-term-rentals/winter-vt-rentals/",
+          "finding": "Pratt Bridge Road Jamaica $15,000 appears in land search but broker winter-rental catalog identifies same MLS X97244660 as seasonal rental. Not purchase."
+        },
+        {
+          "url": "https://www.realty.com/land-listings/1051915887/35-Pleasant-Street-Northfield-VT-05663",
+          "finding": "Garage/sheds lot costs $75,000. $15,000 in search is mortgage down payment, not full price."
+        },
+        {
+          "url": "https://www.landbrokermls.com/property/500020127/6-73-acres-of-land-for-sale-in-brandon-vt",
+          "finding": "Previously out-of-budget RV workshop page now redirects to property-unavailable search. No qualifying current offer and no sale inferred from redirect."
+        }
+      ],
+      "official_sources": [
+        {
+          "url": "https://www.townofbecket.org/home/files/zoning-bylaws-revised-2025",
+          "current_link": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/uploads/revised_2025.12.16_bkt_zoning_by-laws_2025.pdf",
+          "finding": "Indexed section 6.2.5 distinguishes unoccupied, mobile, registered RV parking from habitation. Live Planning Board documents page points to December 16, 2025 PDF; content inaccessible. Seller blanket no-RV wording is not treated as municipal confirmation. Parcel applicability, HOA and repair permission remain unresolved."
+        }
+      ],
+      "monitor_diagnosis": "Actual scheduled workflow 35805086030 succeeded. monitor last_run 2026-09-23T01:09:07+00:00 partial: 2 new photo records (FL lc-26299, CO lc-25193), 0 changes, 113 detail pages, same seven 404 source errors. All old statuses retained. No duplicate collector needed.",
+      "access": "LandSearch Mill Street and Deer Run inspected in live connected Chrome. Homes.com direct Mill Street access denied and not retried; indexed description used with explicit source/date. Becket Planning Board and current PDF link verified live; web PDF unavailable, robots.txt 403 stopped direct PDF retrieval. No CAPTCHA, login, robots or 403 bypass.",
+      "flight_review": "September 21 weekly flight observations retained. Next refresh due September 28; no booking.",
+      "github_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/35805086030",
+      "next_states": [
+        "KY",
+        "TN",
+        "PA"
+      ]
     }
   ]
 }

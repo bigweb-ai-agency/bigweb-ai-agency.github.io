@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-23T01:09:07+00:00",
+  "updated_at": "2026-09-23T02:17:11+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -46133,19 +46133,21 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:28+00:00",
-      "last_seen": "2026-09-13T23:00:23+00:00",
-      "last_verified": "2026-09-13T23:00:23+00:00",
+      "last_seen": "2026-09-23T02:17:11+00:00",
+      "last_verified": "2026-09-23T02:17:11+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "На официальной странице Planning Board связана редакция от 16.12.2025, но её текст получить не удалось. Оговорка о §6.2.5 основана на доступном поисковом снимке городского источника; актуальная применимость к этому участку и правила HOA не подтверждены."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ls-5423475",
       "source_id": "5423475",
       "source": "LandSearch",
       "url": "https://www.landsearch.com/properties/becket-ma-01223/5423475",
-      "title": "Berkshire County",
-      "address": "Berkshire County",
+      "title": "Lot 35 Deer Run",
+      "address": "Lot 35 Deer Run",
       "city": "Becket",
       "state": "MA",
       "zip": "01223",
@@ -46160,8 +46162,8 @@
       "lng": -73.0031,
       "coord_precision": "listing",
       "status": "active",
-      "status_basis": "indexed_public_page",
-      "source_crawled": "2 days ago",
+      "status_basis": "live_public_page",
+      "source_crawled": "live Chrome page",
       "image_url": "assets/listings/2b37fc41d8474502ecf1.jpg",
       "image_source_url": "https://www.landsearch.com/properties/becket-ma-01223/5423475",
       "image_credit": "Listing broker / LandSearch",
@@ -46172,17 +46174,19 @@
       "road_note": "Юридический подъезд не проверен",
       "utility_note": "Состояние подключений требует проверки",
       "garage_note": "Размеры и состояние не подтверждены",
-      "rv_storage": "unknown",
-      "rv_occupancy": "seller_claim",
+      "rv_storage": "restriction_risk",
+      "rv_occupancy": "seller_no",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "unknown",
       "water": "unknown",
       "sewer": "unknown",
-      "no_hoa": "unknown",
+      "no_hoa": "none",
       "road_access": "unknown",
       "flags": [
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "В свежей странице продавец пишет, что camping/RV use не допускается. Это заявление продавца, не подтверждение полного запрета городом.",
+        "Подъезд по описанию включает unused road; пригодность для высокого 7-метрового кемпервана не проверена."
       ],
       "evidence_quote": "No camping or RV use per town bylaws.",
       "price_history": [
@@ -46198,7 +46202,7 @@
         "https://www.landsearch.com/properties/becket-ma-01223/5423475"
       ],
       "region": "Северо-восток",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Сильный аэропорт, слабая выборка дешёвой земли. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -46241,7 +46245,7 @@
         "Сезон /10": 4,
         "Дорога /10": 7
       },
-      "score": 25,
+      "score": 20,
       "image_remote_url": "https://cdn.landsearch.com/listings/4Vtdq/large/becket-ma-175056093.jpg",
       "photo_preserved_at": "2026-09-13T23:05:59+00:00",
       "photo_history": [
@@ -46250,6 +46254,26 @@
           "source": "https://www.landsearch.com/properties/becket-ma-01223/5423475",
           "remote_url": "https://cdn.landsearch.com/listings/4Vtdq/large/becket-ma-175056093.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "source_updated_at": "2026-09-10",
+      "legal_source": "https://www.townofbecket.org/home/files/zoning-bylaws-revised-2025",
+      "legal_checked_at": "2026-09-23T02:17:11+00:00",
+      "legal_basis": "indexed_public_page",
+      "review_hold": {
+        "date": "2026-09-23T02:17:11+00:00",
+        "reason": "Продавец прямо исключает camping/RV use и указывает HOA Deer Haven. В индексированной редакции городских правил §6.2.5 есть отдельное исключение для стоянки зарегистрированного подвижного RV без проживания. Применимость к пустому лоту и ограничения HOA не установлены; пригодность для хранения и ремонта требует проверки.",
+        "source": "https://www.landsearch.com/properties/becket-ma-01223/5423475",
+        "release_condition": "Проверить действующую редакцию bylaws, документы Deer Haven и получить ответ по этому parcel о хранении и личном ремонте высокого RV; подтвердить подъезд по указанной неиспользуемой дороге."
+      },
+      "legal_evidence": [
+        {
+          "source": "https://www.townofbecket.org/home/files/zoning-bylaws-revised-2025",
+          "basis": "indexed_public_page",
+          "section": "6.2.5",
+          "finding": "Indexed municipal text distinguishes parking of registered mobile RVs without habitation from occupancy. It does not establish repair permission or override private covenants.",
+          "current_document_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/uploads/revised_2025.12.16_bkt_zoning_by-laws_2025.pdf",
+          "current_document_basis": "link verified in live Chrome; PDF content unavailable; no access-control bypass"
         }
       ]
     },
@@ -46503,12 +46527,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:28+00:00",
-      "last_seen": "2026-09-13T23:00:23+00:00",
-      "last_verified": "2026-09-13T23:00:23+00:00",
+      "last_seen": "2026-09-23T02:17:11+00:00",
+      "last_verified": "2026-09-23T02:17:11+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "Активный статус, цена и наличие tax lien проверены на публичной странице LandSearch 23.09.2026. Размер долга — из поискового снимка Homes.com по тем же трём лотам; свежий документ о погашении не получен."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ls-4318024",
       "source_id": "4318024",
@@ -46522,23 +46548,23 @@
       "county": "Worcester",
       "kind": "land",
       "price": 15000.0,
-      "known_fees": 0,
-      "total_known": 15000.0,
-      "price_evidence": "Показанная запрашиваемая цена; дополнительные сборы не подтверждены.",
+      "known_fees": 96309,
+      "total_known": 111309,
+      "price_evidence": "Запрашиваемая цена проверена; обязательный налоговый долг указан отдельно с датой. Текущий расчёт неизвестен.",
       "acres": 1.6,
       "lat": 42.6044,
       "lng": -72.0719,
       "coord_precision": "listing",
       "status": "active",
-      "status_basis": "indexed_public_page",
-      "source_crawled": "3 weeks ago",
+      "status_basis": "live_public_page",
+      "source_crawled": "live Chrome page",
       "image_url": "assets/listings/9f562395d8f4afbf2cc9.jpg",
       "image_source_url": "https://www.landsearch.com/properties/mill-st-templeton-ma-01436/4318024",
       "image_credit": "Listing broker / LandSearch",
-      "parcel": null,
+      "parcel": "Map 1-4.1 Lots 284, 285; Map 5 Block 5 Lot 62",
       "mls": "NNEREN 5033403",
       "zoning": "Village District",
-      "taxes_note": null,
+      "taxes_note": "Налоговый долг по продавцу на 21.05.2026: около $96,309 плюс $6.71/день. Текущий расчёт неизвестен.",
       "road_note": "Юридический подъезд не проверен",
       "utility_note": "Состояние подключений требует проверки",
       "garage_note": "Размеры и состояние не подтверждены",
@@ -46551,8 +46577,11 @@
       "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
-      "flags": [],
-      "evidence_quote": "And according to the Town online Zoning District Descriptions the uses include single and two family structures, retail sales, personal service shops,",
+      "flags": [
+        "В поле известных дополнительных затрат указана приблизительная налоговая задолженность на 21.05.2026, а не текущий окончательный расчёт.",
+        "Продавец указывает бывшее промышленное использование и отсутствие исследования грунта; загрязнение конкретных лотов не установлено."
+      ],
+      "evidence_quote": "There is a tax lien on the property.",
       "price_history": [
         {
           "date": "2026-09-13T22:25:28+00:00",
@@ -46563,10 +46592,11 @@
       "status_history": [],
       "legacy": false,
       "alternate_urls": [
+        "https://www.homes.com/property/0-mill-st-templeton-ma-unit-22992361/r43weh43b41sb/",
         "https://www.landsearch.com/properties/mill-st-templeton-ma-01436/4318024"
       ],
       "region": "Северо-восток",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Сильный аэропорт, слабая выборка дешёвой земли. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -46602,14 +46632,14 @@
       ],
       "msp_straight_km": 1713,
       "score_parts": {
-        "Цена /25": 5,
+        "Цена /25": 0,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 0,
         "Сезон /10": 4,
         "Дорога /10": 8
       },
-      "score": 17,
+      "score": 12,
       "image_remote_url": "https://cdn.landsearch.com/listings/4Htrb/large/templeton-ma-171078432.jpg",
       "photo_preserved_at": "2026-09-13T23:05:59+00:00",
       "photo_history": [
@@ -46618,6 +46648,27 @@
           "source": "https://www.landsearch.com/properties/mill-st-templeton-ma-01436/4318024",
           "remote_url": "https://cdn.landsearch.com/listings/4Htrb/large/templeton-ma-171078432.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "source_updated_at": "2026-08-16",
+      "known_fees_as_of": "2026-05-21",
+      "known_fees_basis": "seller_reported_approximate_tax_debt",
+      "known_fees_source": "https://www.homes.com/property/0-mill-st-templeton-ma-unit-22992361/r43weh43b41sb/",
+      "review_hold": {
+        "date": "2026-09-23T02:17:11+00:00",
+        "reason": "Цена $15,000 не отражает полную стоимость: продавец возлагает на покупателя около $96,309 налогов на 21.05.2026 плюс $6.71/день. Сумма цены и указанного долга — около $111,309 до последующих начислений и closing. Актуальный payoff неизвестен. Бывшая бумажная фабрика, исследования грунта не проведены.",
+        "source": "https://www.homes.com/property/0-mill-st-templeton-ma-unit-22992361/r43weh43b41sb/",
+        "release_condition": "Получить подтверждённый текущий расчёт погашения всех долгов/обременений и условия их оплаты; подтвердить полный бюджет, экологическое состояние и допустимость базы RV."
+      },
+      "cost_history": [
+        {
+          "date": "2026-09-23T02:17:11+00:00",
+          "known_fees": 96309,
+          "total_known": 111309,
+          "amount_as_of": "2026-05-21",
+          "basis": "seller_reported_approximate_tax_debt",
+          "source": "https://www.homes.com/property/0-mill-st-templeton-ma-unit-22992361/r43weh43b41sb/",
+          "note": "Correction of previously unrecorded buyer tax obligation, not a change in the asking price; current payoff unknown."
         }
       ]
     },
