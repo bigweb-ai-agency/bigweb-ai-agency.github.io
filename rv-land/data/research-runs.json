@@ -654,6 +654,98 @@
         "TN",
         "PA"
       ]
+    },
+    {
+      "date": "2026-09-24T02:18:59+00:00",
+      "states": [
+        "KY",
+        "TN",
+        "PA"
+      ],
+      "added_ids": [],
+      "updated_ids": [],
+      "scope": "Garage-first rotation with live Chrome verification of a standalone Pennsylvania garage and an additional local Tennessee broker catalog. No manually researched candidate qualified for the main map: vehicle clearance, complete price, private restrictions or exact lot geometry remained unsuitable or unverified. Existing records and photographs unchanged.",
+      "deferred": [
+        {
+          "url": "https://www.trulia.com/home/e-webster-st-coal-township-pa-17866-463497916",
+          "price": 9900,
+          "basis": "live_public_page",
+          "reason": "E Webster St, Coal Township PA; CSVBOR C-1733; parcel 00C0100C034A. Live Chrome shows active $9,900, reduced from $15,000 in the search snapshot. Two-stall block garage, 462 square feet on 0.03 acre, no electricity; needs work. Original gallery inspected: low car-sized doors and tightly constrained site. Door clearance, internal depth and space for a high 7 m campervan unverified; not promoted as RV-compatible. Search price was not replayed as current.",
+          "source_image_url": "https://www.trulia.com/pictures/thumbs_5/zillowstatic/fp/490e45fab04b5a7f639ffc7d10d1cba9-full.webp",
+          "next_check": "Only reconsider after exact door/ceiling height, usable internal length and a feasible RV parking/repair area are established. Do not contact seller without authorization."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/mountain-view-rd-williamsburg-ky-40769/5559764",
+          "price": 15000,
+          "reason": "1.7 acres, two inherited parcels 108-00-00-051.00/051.01, MLS LBAR 26025331. Seller describes sloping and lower-lying wooded land, sale by deed description, limited knowledge, and need to verify access, drainage, boundaries and restrictions. No existing garage or proven level vehicle pad. Not added merely to increase coverage."
+        },
+        {
+          "url": "https://www.homes.com/property/clifton-rd-linden-tn/kddy2s30dxhqd/",
+          "price": 14900,
+          "known_fees": 160,
+          "total_known": 15060,
+          "basis": "indexed_public_page",
+          "source_crawled": "2 weeks ago",
+          "reason": "One-acre Hwy 128 / Clifton Road site with existing carport and seller RV claim. Cash price $14,900 plus mandatory $160 document fee already exceeds budget before buyer closing costs. $3,000 is a financing deposit. Equitable-interest offer; carport condition/dimensions, power extension and well also need review. No import.",
+          "alternate_url": "https://www.land.com/property/clifton-rd-linden-tennessee-37096/28040572/"
+        },
+        {
+          "url": "https://idx.rvlandtn.com/idx/details/listing/b022/2986124/0-Boat-Ramp-Ln-Decaturville-TN-38329",
+          "price": 10000,
+          "basis": "live_public_page",
+          "reason": "Active MLS 2986124, tax lot 1; price reduced from $14,000 September 16. Catalog advertises nine surveyed lots on private gravel road with utilities available. Exact area/boundaries and what $10,000 purchases not sufficiently clear; no garage or explicit RV/repair permission. River proximity requires flood/access investigation. Coordinates in broker results: 35.48069316, -88.01177319. Defer until parcel-specific evidence and original photo preservation are complete."
+        },
+        {
+          "url": "https://idx.rvlandtn.com/idx/details/listing/b022/3224307/5-Hidden-Valley-Dr-Nunnelly-TN-37137",
+          "price": 10000,
+          "basis": "live_public_page",
+          "reason": "Lot 5 is active at $10,000, 0.45 acre, but seller requires purchase together with Lot 4 MLS 3224309 and refuses separate sale. Required combined price not established. Private gated Hidden Valley Lakes restrictions and repair permission unknown. Do not present $10,000 as complete purchase cost."
+        }
+      ],
+      "negative_searches": [
+        {
+          "url": "https://jenniferfisk.housmanpartners.com/properties/KY/Richmond/40475/12455/3112-depot-richmond-ky-40475/778059011",
+          "finding": "Indexed $10,000 house with detached garage is explicitly Closed, MLS 1523703, historical sale; page update does not establish a current offer."
+        },
+        {
+          "url": "https://www.disponettrealestate.com/idx/listing/KY-LBAR/26021641/13067-Johnson-Mill-Road-Crofton-KY-42217",
+          "finding": "Indexed $10,000 Crofton acreage/carport headline is an auction listing with August 27, 2026 close, not verified fixed cash purchase price."
+        },
+        {
+          "url": "https://maysville-online.com/wp-content/uploads/2020/03/SHO031220A.pdf",
+          "finding": "Foreman Lane Garrison metal garage $10,000 appears in a March 2020 advertisement only; no current offer established."
+        },
+        {
+          "url": "https://idx.rvlandtn.com/idx/details/listing/b022/2534753/0-Eagle-Nest-Ln-Big-Sandy-TN-38221",
+          "finding": "Live Chrome active $10,000 for 2.07 acres in Point Mason Estates. Seller restrictions: residential use, minimum 1,100-square-foot home, no mobile homes/temporary structures or commercial business. Hilly terrain; standalone RV workshop/storage suitability not established."
+        },
+        {
+          "url": "https://homeslandcountrypropertyforsale.com/recreational-properties/real-estate-listings/riverview-lot-for-sale-on-tennessee-river-fishing-boating/",
+          "finding": "Search index advertises two Catfish Lane lots $14,000; live Chrome returns Page not found. No available property imported and no sale inferred."
+        }
+      ],
+      "additional_source": {
+        "url": "https://idx.rvlandtn.com/i/budget-1k-10k",
+        "finding": "Live Chrome catalog with 19 results and September 23 MLS feed timestamp. Three strongest initial candidates individually checked. Remaining catalog is a future research source, not 19 verified RV sites."
+      },
+      "monitor_diagnosis": "Actual scheduled workflow 35941683894 completed successfully. monitor last_run 2026-09-24T01:09:47+00:00: partial, 4 new photo records, 1 price change, 113 detail pages, 8 errors. Same seven source 404s plus California category timeout. Existing statuses retained. Collector operational; no duplicate local collection needed.",
+      "automatic_added_ids": [
+        "lc-26317",
+        "lc-26311",
+        "lc-26310",
+        "lc-26309"
+      ],
+      "automatic_updated_ids": [
+        "lc-25889"
+      ],
+      "access": "Trulia garage and Tennessee broker index/detail pages read in connected Chrome. Web reader could not open broker IDX pages; normal Chrome public navigation worked without login or challenge. United Country source returned Page not found in Chrome. No CAPTCHA, 403, robots or login bypass; no contact forms submitted.",
+      "flight_review": "September 21 weekly flight observations retained; next refresh September 28. No booking.",
+      "github_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/35941683894",
+      "next_states": [
+        "VA",
+        "WV",
+        "DE"
+      ]
     }
   ]
 }
