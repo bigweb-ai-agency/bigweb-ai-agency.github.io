@@ -663,8 +663,11 @@
         "PA"
       ],
       "added_ids": [],
-      "updated_ids": [],
-      "scope": "Garage-first rotation with live Chrome verification of a standalone Pennsylvania garage and an additional local Tennessee broker catalog. No manually researched candidate qualified for the main map: vehicle clearance, complete price, private restrictions or exact lot geometry remained unsuitable or unverified. Existing records and photographs unchanged.",
+      "updated_ids": [
+        "lc-26317",
+        "lc-26311"
+      ],
+      "scope": "Garage-first rotation with live Chrome verification of a standalone Pennsylvania garage and an additional local Tennessee broker catalog. No manually researched candidate qualified for the main map: vehicle clearance, complete price, private restrictions or exact lot geometry remained unsuitable or unverified. Existing records and photographs unchanged. Postflight then reviewed two newly collected Missouri Forbes lots: retained both with storage/repair restriction holds and corrected utility/HOA facts from seller and primary association sources.",
       "deferred": [
         {
           "url": "https://www.trulia.com/home/e-webster-st-coal-township-pa-17866-463497916",
@@ -745,7 +748,21 @@
         "VA",
         "WV",
         "DE"
-      ]
+      ],
+      "additional_states": [
+        "MO"
+      ],
+      "postflight_review": {
+        "date": "2026-09-24T02:23:01+00:00",
+        "finding": "Live map postflight exposed contradictory utility flags on lc-26317. Source text distinguishes electricity available from uninstalled well/septic; unrelated hypothetical no-power prose caused a false negative and proximity matching incorrectly labeled sewer available. Reviewed facts persisted in corrections for these two new records. Forbes primary association documents additionally establish storage/repair restrictions requiring review holds. No global reparse of old listings.",
+        "official_sources": [
+          "https://forbesloa.com/wp-content/uploads/2023/10/Lot-Camping-Rules-and-Regs-Revised-6-9-2020.pdf",
+          "https://forbesloa.com/wp-content/uploads/2022/11/Covenants.pdf",
+          "https://forbesloa.com/about/forbes-loa-landowner/",
+          "https://forbesloa.com/wp-content/uploads/2024/01/ECC-Project-Approval-Handbook-rev-29January2024-002.pdf"
+        ],
+        "preservation": "Both asking prices, active sale status, first_seen, all histories and original photos retained. Two listings excluded from main shortlist pending parcel-specific exceptions; direct cards remain accessible."
+      }
     }
   ]
 }

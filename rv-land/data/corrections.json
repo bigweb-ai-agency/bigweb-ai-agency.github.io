@@ -166,5 +166,104 @@
     "water": "available",
     "sewer": "available",
     "utility_note": "NextHome: water, sewer, electricity available at lot line; подключение не подтверждено."
+  },
+  "lc-26317": {
+    "rv_storage": "restriction_risk",
+    "rv_occupancy": "seller_conditional",
+    "personal_repair": "restriction_risk",
+    "commercial_repair": "restriction_risk",
+    "no_hoa": "none",
+    "water": "none",
+    "sewer": "none",
+    "legal_source": "https://forbesloa.com/wp-content/uploads/2023/10/Lot-Camping-Rules-and-Regs-Revised-6-9-2020.pdf",
+    "legal_checked_at": "2026-09-24T02:23:01+00:00",
+    "legal_basis": "association_public_documents",
+    "review_hold": {
+      "date": "2026-09-24T02:23:01+00:00",
+      "reason": "Forbes LOA: правила Lot Camping требуют убрать RV и инструменты при отъезде и запрещают использовать лот для хранения. В опубликованных ковенантах ремонт автомобилей включён в перечень запрещённых nuisance activities. Отдельное разрешение для этого parcel не установлено; участок не подходит как подтверждённая база хранения и ремонта.",
+      "source": "https://forbesloa.com/wp-content/uploads/2023/10/Lot-Camping-Rules-and-Regs-Revised-6-9-2020.pdf",
+      "release_condition": "Проверить применимость зарегистрированных covenants и всех изменений к parcel; установить действительное исключение для хранения и личного ремонта. Уточнить взносы LOA, полную цену и условия подъезда."
+    },
+    "legal_evidence": [
+      {
+        "source": "https://forbesloa.com/wp-content/uploads/2023/10/Lot-Camping-Rules-and-Regs-Revised-6-9-2020.pdf",
+        "section": "Page 1; revised 2020-06-09",
+        "basis": "public_association_pdf",
+        "finding": "Camping requires designated-unit eligibility and approval for each visit; maximum 21 days. RVs/tools must leave at departure and lots cannot serve as storage."
+      },
+      {
+        "source": "https://forbesloa.com/wp-content/uploads/2022/11/Covenants.pdf",
+        "section": "Article VIII",
+        "basis": "indexed_association_text; document link verified in live Chrome",
+        "finding": "Vehicle repairs appear among prohibited nuisance activities. Recorded parcel-specific amendments and exceptions not established."
+      },
+      {
+        "source": "https://forbesloa.com/wp-content/uploads/2024/01/ECC-Project-Approval-Handbook-rev-29January2024-002.pdf",
+        "section": "Pages 1 and 3; revised 2024-01-29",
+        "basis": "public_association_pdf; current homepage link verified in Chrome",
+        "finding": "ECC approval required before improvements including garages, driveways and tree removal; handbook states minimum 1,000-square-foot home."
+      }
+    ],
+    "notes": [
+      "24.09.2026: проверены первичные документы частной Forbes LOA; это ограничения ассоциации, не постановление округа. Ссылки на Covenants и Handbook подтверждены на действующей главной странице в Chrome. Текст о ремонте доступен в поисковом снимке ковенантов; применимость исключений к parcel неизвестна."
+    ],
+    "electricity": "available",
+    "utility_note": "По продавцу электричество доступно для подключения; скважину и септик необходимо установить.",
+    "closing_costs": "Продавец требует отдельный document preparation fee, сумма не указана. Итог покупки неизвестен; title/escrow, обследования и подготовка также не включены.",
+    "evidence_quote": null,
+    "flags": [
+      "Forbes LOA: около $195 в год по продавцу; фактический расчёт по двум лотам и задолженности неизвестны.",
+      "Отдельный обязательный document preparation fee не указан в долларах; $0 известных сборов не означает отсутствие сборов.",
+      "Продавец заявляет отсутствие mapped flood/wetland concerns; независимая проверка FEMA и wetlands не выполнена.",
+      "По продавцу уклон 3–35%; ровная площадка и проезд высокого RV не подтверждены."
+    ]
+  },
+  "lc-26311": {
+    "rv_storage": "restriction_risk",
+    "rv_occupancy": "seller_conditional",
+    "personal_repair": "restriction_risk",
+    "commercial_repair": "restriction_risk",
+    "no_hoa": "none",
+    "water": "none",
+    "sewer": "none",
+    "legal_source": "https://forbesloa.com/wp-content/uploads/2023/10/Lot-Camping-Rules-and-Regs-Revised-6-9-2020.pdf",
+    "legal_checked_at": "2026-09-24T02:23:01+00:00",
+    "legal_basis": "association_public_documents",
+    "review_hold": {
+      "date": "2026-09-24T02:23:01+00:00",
+      "reason": "Forbes LOA: правила Lot Camping требуют убрать RV и инструменты при отъезде и запрещают использовать лот для хранения. В опубликованных ковенантах ремонт автомобилей включён в перечень запрещённых nuisance activities. Отдельное разрешение для этого parcel не установлено; участок не подходит как подтверждённая база хранения и ремонта.",
+      "source": "https://forbesloa.com/wp-content/uploads/2023/10/Lot-Camping-Rules-and-Regs-Revised-6-9-2020.pdf",
+      "release_condition": "Проверить применимость зарегистрированных covenants и всех изменений к parcel; установить действительное исключение для хранения и личного ремонта. Уточнить взносы LOA, полную цену и условия подъезда."
+    },
+    "legal_evidence": [
+      {
+        "source": "https://forbesloa.com/wp-content/uploads/2023/10/Lot-Camping-Rules-and-Regs-Revised-6-9-2020.pdf",
+        "section": "Page 1; revised 2020-06-09",
+        "basis": "public_association_pdf",
+        "finding": "Camping requires designated-unit eligibility and approval for each visit; maximum 21 days. RVs/tools must leave at departure and lots cannot serve as storage."
+      },
+      {
+        "source": "https://forbesloa.com/wp-content/uploads/2022/11/Covenants.pdf",
+        "section": "Article VIII",
+        "basis": "indexed_association_text; document link verified in live Chrome",
+        "finding": "Vehicle repairs appear among prohibited nuisance activities. Recorded parcel-specific amendments and exceptions not established."
+      },
+      {
+        "source": "https://forbesloa.com/wp-content/uploads/2024/01/ECC-Project-Approval-Handbook-rev-29January2024-002.pdf",
+        "section": "Pages 1 and 3; revised 2024-01-29",
+        "basis": "public_association_pdf; current homepage link verified in Chrome",
+        "finding": "ECC approval required before improvements including garages, driveways and tree removal; handbook states minimum 1,000-square-foot home."
+      }
+    ],
+    "notes": [
+      "24.09.2026: проверены первичные документы частной Forbes LOA; это ограничения ассоциации, не постановление округа. Ссылки на Covenants и Handbook подтверждены на действующей главной странице в Chrome. Текст о ремонте доступен в поисковом снимке ковенантов; применимость исключений к parcel неизвестна."
+    ],
+    "electricity": "unknown",
+    "utility_note": "Публичные вода и канализация отсутствуют; требуются скважина и септик. Наличие электричества не подтверждено.",
+    "flags": [
+      "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+      "Поле продавца HOA/Fees: None противоречит указанному Forbes subdivision и сведениям LOA об обязательном членстве и ежегодных взносах; точная сумма не установлена.",
+      "Указан closing fee $249 рядом с условиями взноса/финансирования. Применимость к cash purchase требует уточнения; не приравнивать к подтверждённому cash-сбору."
+    ]
   }
 }
