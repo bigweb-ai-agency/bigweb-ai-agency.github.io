@@ -763,6 +763,85 @@
         ],
         "preservation": "Both asking prices, active sale status, first_seen, all histories and original photos retained. Two listings excluded from main shortlist pending parcel-specific exceptions; direct cards remain accessible."
       }
+    },
+    {
+      "date": "2026-09-25T02:18:24+00:00",
+      "states": [
+        "VA",
+        "WV",
+        "DE"
+      ],
+      "additional_states": [
+        "MO"
+      ],
+      "added_ids": [],
+      "updated_ids": [
+        "lc-26323",
+        "lc-26318"
+      ],
+      "scope": "Garage-first research in VA/WV/DE plus review of two new Forbes lots. No additional manual candidate qualified: the WV garage property is pending and needs demolition/rebuild; the VA house lacks a garage or verified level RV pad; DE results were rentals or sold. Both Forbes lots retained with original photos and active sale status but excluded from the main shortlist for storage/repair restrictions.",
+      "deferred": [
+        {
+          "url": "https://www.ezhomesearch.com/propertydetails/us/wv/charleston/453-gap-view-drive-25306/281552/",
+          "price": 15000,
+          "basis": "live_public_page_in_Chrome",
+          "reason": "453 Gap View Dr, Charleston, Kanawha County WV; MLS 281552. Live page updated September 24 shows Pending, 0.108 acre, three units, one garage space. Front house needs full rebuild or demolition; rear garage apartment is advertised as rentable. Interior length and door height for a high 7 m van, vacant possession, usable repair area and total remediation costs unknown. Garage apartment does not establish an available RV workshop.",
+          "source_image_url": "https://images.ezhomesearch.com/1094/78fc7c1fb001788a6ccbfcfb2403ad7f/3178635398.jpeg",
+          "next_check": "Only reconsider if returned to active and vehicle clearance, available vehicle space and building liabilities can be established without contacting sellers."
+        },
+        {
+          "url": "https://www.trulia.com/home/982-palmer-ave-saltville-va-24370-113818537",
+          "price": 15000,
+          "basis": "live_public_page_and_original_gallery_in_Chrome",
+          "reason": "982 Palmer Ave, Saltville VA; SWVAR 111976, listed September 19. Active $15,000 for 0.55 acre and 911-square-foot 1920 house. MLS: no garage/carport, driveway, poor interior/exterior, no heating/cooling, public sewer and no HOA. Original exterior gallery shows a wooded rocky slope around the house. A level RV parking/repair pad, vehicle entry geometry and remediation costs are unverified. Defer rather than represent the house as usable workshop space.",
+          "source_image_url": "https://www.trulia.com/pictures/thumbs_5/zillowstatic/fp/63e021d962a6fc0e7e9f4c6c3beaa39c-full.jpg",
+          "alternate_url": "https://www.weichert.com/138289843/"
+        }
+      ],
+      "negative_searches": [
+        {
+          "url": "https://www.landsearch.com/properties/delaware/search/under-15000",
+          "finding": "Current indexed catalog returns 13 results with monthly rents, not verified land purchases. No rentals imported as cash-price properties."
+        },
+        {
+          "url": "https://www.redfin.com/DE/Wilmington/201-N-DuPont-St-19805/home/45035112",
+          "finding": "201 N Dupont St Wilmington DE, DENC2085948: fresh indexed page says sold August 20, 2026 for $10,000. Older broker $15,000 under-contract snapshot is stale. Tiny 0.03-acre residential lot; not imported as available."
+        },
+        {
+          "url": "https://www.exprealty.com/warrenton-va-real-estate/7185-burke-ln",
+          "finding": "7185 Burke Lane, Warrenton VA garage/vehicle-repair lead at $15,000 is explicitly commercial lease, not a property purchase."
+        },
+        {
+          "url": "https://www.showcase.com/2511-parris-dr-wilmington-de-19808/33936771/",
+          "finding": "2511 Parris Drive Wilmington DE parking property costs $495,000; 10,000 refers to zoning minimum square footage, not cash price."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/771-main-st-rainelle-wv-25962/5500982",
+          "finding": "Garage/workshop headline includes 12,000 square feet, not a confirmed $12,000 asking price. No in-budget cash offer established."
+        }
+      ],
+      "official_sources": [
+        "https://forbesloa.com/wp-content/uploads/2023/10/Lot-Camping-Rules-and-Regs-Revised-6-9-2020.pdf",
+        "https://forbesloa.com/wp-content/uploads/2022/11/Covenants.pdf",
+        "https://forbesloa.com/about/forbes-loa-landowner/"
+      ],
+      "monitor_diagnosis": "Actual scheduled workflow 36080818152 completed successfully. monitor last_run 2026-09-25T01:10:17+00:00: partial, 4 new photo records, 0 changes, 112 detail pages, 8 errors. Seven existing source 404s plus NC23758 404; prior California timeout absent. Access errors did not change listing status. Collector operational; no duplicate local collection needed.",
+      "automatic_added_ids": [
+        "lc-26329",
+        "lc-26323",
+        "lc-26319",
+        "lc-26318"
+      ],
+      "automatic_updated_ids": [],
+      "access": "Read public ezHomeSearch, Trulia and both LandCentury records in connected Chrome. Forbes camping PDF readable; covenants direct reader timed out, so retained explicit indexed-text limitation. No CAPTCHA, 403, robots or login bypass. No contacts, forms, bookings or infrastructure changes.",
+      "preservation": "All 733 records, first_seen, prices, statuses, coordinates, price/status/photo histories and image bytes retained. Only the two reviewed MO records and derived MO count/score changed.",
+      "flight_review": "September 21 flight observations retained; weekly refresh next due September 28. No booking.",
+      "github_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/36080818152",
+      "next_states": [
+        "NC",
+        "SC",
+        "CT"
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-25T01:10:17+00:00",
+  "updated_at": "2026-09-25T02:18:24+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -92875,9 +92875,11 @@
       "last_seen": "2026-09-25T01:13:15Z",
       "last_verified": "2026-09-25T01:13:15Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
-      "personal_repair": "unknown",
-      "commercial_repair": "unknown",
-      "notes": [],
+      "personal_repair": "restriction_risk",
+      "commercial_repair": "restriction_risk",
+      "notes": [
+        "25.09.2026: объявление проверено в Chrome; legal description прямо указывает Forbes Lake of the Ozarks Park. Правила ассоциации проверены отдельно от законодательства округа. Текст ковенантов доступен в старом поисковом снимке; новые поправки для parcel не установлены."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26323",
       "source_id": "26323",
@@ -92908,26 +92910,29 @@
       "parcel": "16-4.0-19-000-001-002.000",
       "zoning": "Residential",
       "road_note": "Dirt Road",
-      "utility_note": "Не подтверждены",
+      "utility_note": "По продавцу линии электропередачи рядом; скважину и септик нужно обустраивать.",
       "taxes_note": "35.67",
       "source_categories": [
         "residential-buildable-land",
         "owner-finance-deals"
       ],
       "garage_note": "Размеры и состояние не подтверждены",
-      "rv_storage": "unknown",
-      "rv_occupancy": "seller_conditional",
+      "rv_storage": "restriction_risk",
+      "rv_occupancy": "seller_no",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "available",
-      "water": "unknown",
-      "sewer": "unknown",
-      "no_hoa": "unknown",
+      "water": "none",
+      "sewer": "none",
+      "no_hoa": "none",
       "road_access": "seller_claim",
       "flags": [
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Продавец прямо запрещает размещение RV до строительства жилого дома; кемпинг допускается только в назначенных ECC местах по его условиям.",
+        "Указан взнос Forbes LOA $75/год с оговоркой for verification; актуальная сумма и задолженности не подтверждены.",
+        "Продавец указывает склон; ровная площадка и фактический подъезд высокого 7-метрового RV не установлены."
       ],
-      "evidence_quote": "Southwest Electric Cooperative serves the surrounding area.",
+      "evidence_quote": null,
       "price_history": [
         {
           "date": "2026-09-25T01:10:17+00:00",
@@ -92947,7 +92952,7 @@
         }
       ],
       "region": "Средний Запад",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Перспективный баланс цены и сезона, особенно небольшие города. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -92990,7 +92995,40 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 28
+      "score": 20,
+      "legal_source": "https://forbesloa.com/wp-content/uploads/2023/10/Lot-Camping-Rules-and-Regs-Revised-6-9-2020.pdf",
+      "legal_checked_at": "2026-09-25T02:18:24+00:00",
+      "legal_basis": "association_public_documents",
+      "review_hold": {
+        "date": "2026-09-25T02:18:24+00:00",
+        "reason": "Forbes LOA: правила кемпинга запрещают хранение на лоте и требуют увозить RV и инструменты при отъезде. Опубликованные ковенанты включают ремонт автомобилей в запрещённые nuisance activities. Применимость исключений к этому parcel неизвестна; база хранения и личного ремонта не подтверждена.",
+        "source": "https://forbesloa.com/wp-content/uploads/2023/10/Lot-Camping-Rules-and-Regs-Revised-6-9-2020.pdf",
+        "release_condition": "Установить применимые зарегистрированные covenants и изменения, действительное исключение для хранения и ремонта, взносы LOA и полный бюджет покупки."
+      },
+      "legal_evidence": [
+        {
+          "source": "https://forbesloa.com/wp-content/uploads/2023/10/Lot-Camping-Rules-and-Regs-Revised-6-9-2020.pdf",
+          "section": "Page 1; revised 2020-06-09",
+          "basis": "public_association_pdf; read 2026-09-25",
+          "finding": "Designated camping lots require approval each visit, maximum 21 days. Storage is prohibited; RVs and tools must leave at departure."
+        },
+        {
+          "source": "https://forbesloa.com/wp-content/uploads/2022/11/Covenants.pdf",
+          "section": "Article VIII(b), (f), (g)",
+          "basis": "indexed_association_text; old search snapshot; direct PDF fetch timed out 2026-09-25",
+          "finding": "Published text includes vehicle repairs in prohibited nuisance activities and restricts RV placement before a home, with designated camping exceptions. Parcel-specific amendments and exceptions unknown."
+        },
+        {
+          "source": "https://forbesloa.com/about/forbes-loa-landowner/",
+          "section": "Land Owners",
+          "basis": "public_association_page; retrieved 2026-09-25",
+          "finding": "Ownership carries automatic LOA membership and annual assessments; exact amount and arrears not established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/missouri/254-acres-for-sale-in-lakeview-heights-missouri-26323"
+      ]
     },
     {
       "price_currency": "USD",
@@ -93124,9 +93162,11 @@
       "last_seen": "2026-09-25T01:13:18Z",
       "last_verified": "2026-09-25T01:13:18Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
-      "personal_repair": "unknown",
-      "commercial_repair": "unknown",
-      "notes": [],
+      "personal_repair": "restriction_risk",
+      "commercial_repair": "restriction_risk",
+      "notes": [
+        "25.09.2026: объявление проверено в Chrome; legal description прямо указывает Forbes Lake of the Ozarks Park. Правила ассоциации проверены отдельно от законодательства округа. Текст ковенантов доступен в старом поисковом снимке; новые поправки для parcel не установлены."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26318",
       "source_id": "26318",
@@ -93138,7 +93178,7 @@
       "state": "MO",
       "county": "Benton",
       "zip": "65326",
-      "kind": "commercial_lot",
+      "kind": "land",
       "price": 8599.0,
       "known_fees": 0.0,
       "total_known": 8599.0,
@@ -93157,7 +93197,7 @@
       "parcel": "15-5.0-22-000-001-003.000",
       "zoning": "Не указано",
       "road_note": "Dirt Road",
-      "utility_note": "Не подтверждены",
+      "utility_note": "Публичных воды и канализации нет; нужны скважина и септик. Продавец предлагает отдельно выяснить возможность электроснабжения.",
       "taxes_note": "35.67",
       "source_categories": [
         "residential-buildable-land",
@@ -93168,19 +93208,22 @@
         "vacant-land"
       ],
       "garage_note": "Размеры и состояние не подтверждены",
-      "rv_storage": "unknown",
+      "rv_storage": "restriction_risk",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "unknown",
       "water": "none",
       "sewer": "none",
-      "no_hoa": "unknown",
+      "no_hoa": "none",
       "road_access": "seller_claim",
       "flags": [
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Заявление HOA/Fees: None противоречит Forbes subdivision и первичной странице LOA об обязательном членстве и ежегодных взносах.",
+        "Closing fee $249 указан вместе с взносом по рассрочке; применимость к cash price $8,599 не подтверждена. $99 down и $125/месяц не являются ценой покупки.",
+        "Площадь в заголовке и таблице 2,7 акра, в тексте 2,78; требуется сверка parcel. Маркетинговая категория commercial не подтверждает коммерческое использование."
       ],
-      "evidence_quote": "7 Acres Gated Recreational with Private Ponds & RV Access for $125/mo- Zero Interest Financing!",
+      "evidence_quote": null,
       "price_history": [
         {
           "date": "2026-09-25T01:10:17+00:00",
@@ -93200,7 +93243,7 @@
         }
       ],
       "region": "Средний Запад",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Перспективный баланс цены и сезона, особенно небольшие города. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -93243,7 +93286,40 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 28
+      "score": 20,
+      "legal_source": "https://forbesloa.com/wp-content/uploads/2023/10/Lot-Camping-Rules-and-Regs-Revised-6-9-2020.pdf",
+      "legal_checked_at": "2026-09-25T02:18:24+00:00",
+      "legal_basis": "association_public_documents",
+      "review_hold": {
+        "date": "2026-09-25T02:18:24+00:00",
+        "reason": "Forbes LOA: правила кемпинга запрещают хранение на лоте и требуют увозить RV и инструменты при отъезде. Опубликованные ковенанты включают ремонт автомобилей в запрещённые nuisance activities. Применимость исключений к этому parcel неизвестна; база хранения и личного ремонта не подтверждена.",
+        "source": "https://forbesloa.com/wp-content/uploads/2023/10/Lot-Camping-Rules-and-Regs-Revised-6-9-2020.pdf",
+        "release_condition": "Установить применимые зарегистрированные covenants и изменения, действительное исключение для хранения и ремонта, взносы LOA и полный бюджет покупки."
+      },
+      "legal_evidence": [
+        {
+          "source": "https://forbesloa.com/wp-content/uploads/2023/10/Lot-Camping-Rules-and-Regs-Revised-6-9-2020.pdf",
+          "section": "Page 1; revised 2020-06-09",
+          "basis": "public_association_pdf; read 2026-09-25",
+          "finding": "Designated camping lots require approval each visit, maximum 21 days. Storage is prohibited; RVs and tools must leave at departure."
+        },
+        {
+          "source": "https://forbesloa.com/wp-content/uploads/2022/11/Covenants.pdf",
+          "section": "Article VIII(b), (f), (g)",
+          "basis": "indexed_association_text; old search snapshot; direct PDF fetch timed out 2026-09-25",
+          "finding": "Published text includes vehicle repairs in prohibited nuisance activities and restricts RV placement before a home, with designated camping exceptions. Parcel-specific amendments and exceptions unknown."
+        },
+        {
+          "source": "https://forbesloa.com/about/forbes-loa-landowner/",
+          "section": "Land Owners",
+          "basis": "public_association_page; retrieved 2026-09-25",
+          "finding": "Ownership carries automatic LOA membership and annual assessments; exact amount and arrears not established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/missouri/270-acres-for-sale-in-hastain-missouri-26318"
+      ]
     }
   ]
 }
