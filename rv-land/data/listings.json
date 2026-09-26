@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-26T01:10:51+00:00",
+  "updated_at": "2026-09-26T09:51:07+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -16894,12 +16894,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-26T01:15:27Z",
-      "last_verified": "2026-09-26T01:15:27Z",
+      "last_seen": "2026-09-26T09:51:07+00:00",
+      "last_verified": "2026-09-26T09:51:07+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "26.09.2026: в Chrome подтверждены $5,999, 0,46 акра, parcel 08-19-427-003 и paved road. Цена ранее $8,999 сохранена в истории. Готового гаража не заявлено; городской zoning и пригодность RV-въезда неизвестны."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-24145",
       "source_id": "24145",
@@ -16930,24 +16932,27 @@
       "parcel": "08-19-427-003",
       "zoning": "Residential",
       "road_note": "Paved Road",
-      "utility_note": "Electricity available, septic and well required",
+      "utility_note": "Таблица продавца: электричество доступно; скважина и септик требуются. Подключённые вода и канализация не заявлены.",
       "taxes_note": "380",
       "source_categories": [
         "residential-buildable-land",
         "owner-finance-deals"
       ],
       "garage_note": "Размеры и состояние не подтверждены",
-      "rv_storage": "seller_claim",
-      "rv_occupancy": "seller_claim",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "available",
-      "water": "unknown",
-      "sewer": "available",
+      "water": "none",
+      "sewer": "none",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
-      "flags": [],
-      "evidence_quote": "Situated in an established part of Benton, the property provides a calm atmosphere while still being conveniently connected to local roads, nearby",
+      "flags": [
+        "26.09.2026: в таблице указан Quit Claim Deed; право собственности, обременения и возможность страхования титула не проверены.",
+        "Текущее описание говорит о жилом участке; разрешение хранения, проживания или ремонта RV не найдено. Прежние seller_claim для RV сняты как неподтверждённые."
+      ],
+      "evidence_quote": null,
       "price_history": [
         {
           "date": "2026-09-13T22:25:02+00:00",
@@ -17008,11 +17013,11 @@
         "Цена /25": 20,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 4,
         "Дорога /10": 8
       },
-      "score": 34,
+      "score": 33,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/03/13/69b49da777c58-1773444519.jpg",
       "photo_preserved_at": "2026-09-26T01:10:51+00:00",
       "photo_history": [
@@ -17023,7 +17028,8 @@
           "date": "2026-09-13T23:05:59+00:00"
         }
       ],
-      "previous_price": 8999.0
+      "previous_price": 8999.0,
+      "deed_type": "Quit Claim Deed"
     },
     {
       "price_currency": "USD",
@@ -94456,6 +94462,148 @@
         "Дорога /10": 5
       },
       "score": 25
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-09-26T09:51:07+00:00",
+      "last_seen": "2026-09-26T09:51:07+00:00",
+      "last_verified": "2026-09-26T09:51:07+00:00",
+      "photo_kind": "Оригинальное фото из галереи объявления: заросший участок. Здания на соседнем краю кадра не подтверждены как часть продажи.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [
+        "Проверено 26.09.2026. Координаты объявления являются приблизительным pin, не кадастровой границей. Парковка, проживание и ремонт RV остаются unknown."
+      ],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "ls-5369498",
+      "source_id": "5369498",
+      "source": "LandSearch",
+      "url": "https://www.landsearch.com/properties/114-lincoln-st-gaffney-sc-29340/5369498",
+      "alternate_urls": [
+        "https://www.landsearch.com/properties/114-lincoln-st-gaffney-sc-29340/5369498",
+        "https://www.redfin.com/SC/Gaffney/114-Lincoln-St-29340/home/202391047"
+      ],
+      "title": "114 Lincoln St, Lot 4",
+      "address": "114 Lincoln St, Lot 4",
+      "city": "Gaffney",
+      "county": "Cherokee",
+      "state": "SC",
+      "zip": "29340",
+      "kind": "land",
+      "price": 15000,
+      "known_fees": 0,
+      "total_known": 15000,
+      "price_evidence": "26.09.2026: Redfin в Chrome показывает For Sale $15,000; LandSearch подтверждает asking price. $97/$139 в месяц — расчёт ипотеки, не цена покупки. Дополнительные обязательные сборы не установлены.",
+      "acres": 0.53,
+      "lat": 35.075,
+      "lng": -81.6339,
+      "coord_precision": "listing",
+      "coordinate_source": "https://www.landsearch.com/properties/114-lincoln-st-gaffney-sc-29340/5369498",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-06-28",
+      "source_published": "2026-06-27",
+      "verification_basis": "Redfin public page and original gallery in Chrome; LandSearch indexed page crawled today for coordinates and matching parcel.",
+      "image_url": "assets/listings/bb5b80b111edabbf5b18.jpg",
+      "image_source_url": "https://www.redfin.com/SC/Gaffney/114-Lincoln-St-29340/home/202391047",
+      "image_credit": "Listing agent / SPMLS / Redfin",
+      "parcel": "099-11-00-030.000",
+      "mls": "CCBR 35597 / SPMLS 338917",
+      "zoning": "Не подтверждено: Redfin указывает none, LandSearch — not; это не официальное разрешение использования.",
+      "road_access": "seller_claim",
+      "road_note": "По MLS 139 футов фасада вдоль асфальтовой улицы; стороны дороги не соединены. Права и геометрия конкретного въезда для высокого 7-метрового RV не проверены.",
+      "electricity": "available",
+      "water": "available",
+      "sewer": "none",
+      "no_hoa": "unknown",
+      "utility_note": "Продавец: электричество и публичная вода доступны, но водопроводный ввод отсутствует. Канализации нет; нужны perc test и септик.",
+      "taxes_note": "LandSearch сообщает $103 recent tax; актуальный счёт округа не проверен.",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "garage_note": "Существующий гараж или ангар не заявлен.",
+      "flags": [
+        "Цена уже на верхней границе $15,000; закрытие сделки, расчистка, въезд и подключения увеличат общие затраты.",
+        "Галерея показывает растительность и мусор/шину. Ровная несущая площадка и свободный въезд не подтверждены.",
+        "Mobile homes possible в описании сопровождается требованием обратиться в County Development; это не разрешение RV, хранения или ремонта.",
+        "Фактическую юрисдикцию участка и улицы нужно установить: продавец пишет outside city limits, MLS также обозначает city street frontage."
+      ],
+      "legal_source": "https://cherokeecountysc.gov/roads-and-bridges/",
+      "legal_checked_at": "2026-09-26T09:51:07+00:00",
+      "legal_basis": "official_driveway_guidance_only",
+      "legal_evidence": [
+        {
+          "source": "https://cherokeecountysc.gov/roads-and-bridges/",
+          "section": "Driveway Access Information",
+          "basis": "official_public_page_2026-09-26",
+          "finding": "Road authority must be identified before a new driveway connection; the applicable agency handles access permits. This page does not establish RV storage or personal repair permission on this parcel."
+        }
+      ],
+      "image_remote_url": "https://ssl.cdn-redfin.com/photo/226/bigphoto/917/338917_0.jpg",
+      "photo_preserved_at": "2026-09-26T09:51:07+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/bb5b80b111edabbf5b18.jpg",
+          "source": "https://www.redfin.com/SC/Gaffney/114-Lincoln-St-29340/home/202391047",
+          "remote_url": "https://ssl.cdn-redfin.com/photo/226/bigphoto/917/338917_0.jpg",
+          "date": "2026-09-26T09:51:07+00:00"
+        }
+      ],
+      "price_history": [
+        {
+          "date": "2026-09-26T09:51:07+00:00",
+          "price": 15000,
+          "source": "https://www.landsearch.com/properties/114-lincoln-st-gaffney-sc-29340/5369498"
+        }
+      ],
+      "status_history": [],
+      "region": "Юг",
+      "screening_issue": null,
+      "climate_note": "Тёплый сезон, земля в бюджете встречается. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "CLT",
+          "name": "Charlotte Douglas International Airport",
+          "straight_km": 65,
+          "drive_km_estimate": 81,
+          "drive_hours_estimate": 1.1,
+          "flight_min_eur": 640,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "ATL",
+          "name": "Hartsfield Jackson Atlanta International Airport",
+          "straight_km": 302,
+          "drive_km_estimate": 378,
+          "drive_hours_estimate": 5.0,
+          "flight_min_eur": 521,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "BNA",
+          "name": "Nashville International Airport",
+          "straight_km": 471,
+          "drive_km_estimate": 588,
+          "drive_hours_estimate": 7.8,
+          "flight_min_eur": 555,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1468,
+      "score_parts": {
+        "Цена /25": 5,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 2,
+        "Сезон /10": 8,
+        "Дорога /10": 9
+      },
+      "score": 24
     }
   ]
 }

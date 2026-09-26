@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T01:10:51+00:00",
+  "updated_at": "2026-09-26T09:51:07+00:00",
   "states": [
     {
       "code": "AL",
@@ -826,8 +826,8 @@
         "ATL"
       ],
       "analysis": "Тёплый сезон, земля в бюджете встречается. Искать сухую площадку с подъездом; coastal flood/HOA не игнорировать.",
-      "total": 14,
-      "photo_candidates": 14,
+      "total": 15,
+      "photo_candidates": 15,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [

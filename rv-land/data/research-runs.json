@@ -842,6 +842,87 @@
         "SC",
         "CT"
       ]
+    },
+    {
+      "date": "2026-09-26T09:51:07+00:00",
+      "states": [
+        "NC",
+        "SC",
+        "CT"
+      ],
+      "additional_states": [
+        "IL"
+      ],
+      "added_ids": [
+        "ls-5369498"
+      ],
+      "updated_ids": [
+        "lc-24145"
+      ],
+      "scope": "Garage-first NC/SC/CT rotation. Imported one SC wooded lot with original photo, matched parcel and listing coordinates, retaining unknown RV/repair permission. Corrected unsupported RV and sewer claims for the IL lot whose cash asking price fell by $3,000 overnight. No verified ready garage found within budget.",
+      "deferred": [
+        {
+          "url": "https://www.trulia.com/home/73-main-st-east-hartford-ct-06118-109731563",
+          "price": 9999,
+          "basis": "live_public_page_and_gallery_in_Chrome",
+          "reason": "73 Main St East Hartford CT; MLS24204392. Active price and 4,791.6 sqft (0.11 acre) confirmed. Sole gallery diagram shows sides around 275/281 by 91/92 feet, inconsistent with listed acreage, with a blue stream feature. Parcel geometry and usable RV area unresolved; A-2 survey required by seller. No photo import until parcel/diagram match is established.",
+          "source_image_url": "https://www.trulia.com/pictures/thumbs_5/zillowstatic/fp/3ca0b19547b1ec8c56b8648e8369e197-full.webp"
+        },
+        {
+          "url": "https://www.zillow.com/homedetails/LOT-27-Joe-Brown-Hwy-Murphy-NC-28906/456624537_zpid/",
+          "price": 10000,
+          "basis": "initial_live_public_page_in_Chrome_before_CAPTCHA",
+          "reason": "0.8 acre Lot27 Joe Brown Hwy Murphy NC; Hive98524905 / MLBOR153726; parcel459318408192000. Public page confirmed wooded slope, no buildings, water/sewer/utilities absent. Seller unrestricted claim is not repair permission. Only satellite boundary image observed, no level pad or entry geometry; coordinates/image URL not established. Press-and-hold CAPTCHA then appeared; stopped source without solving or retries."
+        }
+      ],
+      "negative_searches": [
+        {
+          "url": "https://www.bizquest.com/real-estate-for-sale/auto-repair-shop-in-meriden-connecticut/BW2266061/",
+          "finding": "$15,000 is inventory, not full purchase price of garage/real estate."
+        },
+        {
+          "url": "https://www.homes.com/connecticut/land-for-sale/under-15k/",
+          "finding": "114 Wintechog Hill Rd $1,000 is reserved auction; not fixed cash price. Other cheap lots may convey recreation membership/nonbuildable access only."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/111-lakefront-dr-connelly-springs-nc-28612/5293791",
+          "finding": "$15,000 refers to price reduction; actual asking price $745,000, outside budget."
+        },
+        {
+          "url": "https://www.homes.com/ware-shoals-sc/land-for-sale/",
+          "finding": "0000 Trey Ln $15,000 undeveloped sloped lot and 000 Trey Ln $35,000 lot with 8x24 shed are separate properties; no combining the affordable price with the shed."
+        }
+      ],
+      "official_sources": [
+        "https://cherokeecountysc.gov/roads-and-bridges/",
+        "https://cherokeecountysc.gov/building-safety/info-and-applications/",
+        "https://cherokeecountysc.gov/capital-and-planning-projects/zoning/"
+      ],
+      "official_findings": "Cherokee driveway permit guidance reviewed; no parcel repair permission established. Zoning review drafts and meeting proposals are not adopted regulations.",
+      "monitor_diagnosis": "Scheduled workflow 36207397339 completed successfully. monitor last_run 2026-09-26T01:10:51+00:00: partial, 9 new records, 1 price change, 112 detail pages, 115 category pages, 8 errors. Same eight source 404s as previous day; no status changes inferred. Operational collector; duplicate local crawl unnecessary.",
+      "automatic_added_ids": [
+        "lc-26355",
+        "lc-26352",
+        "lc-26346",
+        "lc-26343",
+        "lc-26338",
+        "lc-26333",
+        "lc-26332",
+        "lc-25621",
+        "lc-15192"
+      ],
+      "automatic_updated_ids": [
+        "lc-24145"
+      ],
+      "access": "Connected Chrome: Trulia, Redfin and LandCentury public pages inspected. Stopped Zillow when CAPTCHA appeared and Compass when robot/JavaScript check appeared. No bypass, seller contact, form submission, booking or infrastructure change.",
+      "preservation": "All 742 prior IDs, first_seen, histories and photos retained; only reviewed IL facts changed and one SC record added. Existing price history, including the overnight cut, retained. Monitor and flights unchanged.",
+      "flight_review": "Weekly comparison last refreshed September21; next due September28. Prior fare observations retained, no booking.",
+      "github_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/36207397339",
+      "next_states": [
+        "MD",
+        "ME",
+        "NJ"
+      ]
     }
   ]
 }
