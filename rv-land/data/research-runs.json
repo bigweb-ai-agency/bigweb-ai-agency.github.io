@@ -923,6 +923,77 @@
         "ME",
         "NJ"
       ]
+    },
+    {
+      "date": "2026-09-27T02:17:36+00:00",
+      "states": [
+        "MD",
+        "ME",
+        "NJ"
+      ],
+      "added_ids": [
+        "ls-4207691"
+      ],
+      "updated_ids": [
+        "ls-5065334"
+      ],
+      "scope": "Garage-first MD/ME/NJ rotation. Added NJ vacant lot after confirming current $12,000 asking price in Chrome; older $40,000 index was stale. Refreshed ME broker record and documented failed septic. No usable existing garage verified within budget.",
+      "deferred": [
+        {
+          "url": "https://www.realtor.com/realestateandhomes-detail/11-W-View-Ter_Cumberland_MD_21502_M65918-12814",
+          "price": 12000,
+          "basis": "indexed_public_page_crawled_yesterday_source_updated_2026-09-23",
+          "reason": "Cumberland MD, MDAL2015598: Pending, cash-only bank-owned house, debris remains, parking on street. Garage claim in an aggregator was not corroborated by MLS. No private RV parking/repair area established; not imported."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/watson-ln-bridgeton-nj-08302/5458932",
+          "price": 10000,
+          "basis": "indexed_public_page_crawled_2_weeks_ago",
+          "reason": "Watson Lane Bridgeton NJ, NJCB2032050, 0.9 acre. Seller explicitly requires variance to build; physical vehicle entry, private RV storage rights and site costs unresolved. Lower priority than verified street-address lead; not imported."
+        }
+      ],
+      "negative_searches": [
+        {
+          "url": "https://www.masiello.com/listing/1658050/12-little-lane-porter-me-04068/",
+          "finding": "12 Little Lane Porter ME barn lead is sold for $30,000; old $15,000 tax-acquired offer/deadline is not a current fixed-price available workshop. No import."
+        },
+        {
+          "url": "https://www.realtor.com/realestateandhomes-detail/Maryland-Hwy_Oakland_MD_21550_M94960-66856",
+          "finding": "MDGA2011452, wooded 0.92 acre $15,000 estate land failed perc; no existing building or RV pad established."
+        },
+        {
+          "url": "https://www.ratemyagent.com/real-estate-agency/keller-williams-realty/property-listings/7-berrys-mill-road-04530-byeefc",
+          "finding": "7 Berrys Mill Rd West Bath ME, $15,000, pending, explicitly landlocked. No campervan-accessible parcel established."
+        },
+        {
+          "url": "https://www.homes.com/cumberland-county-nj/land-for-sale/under-15k/",
+          "finding": "Pole-barn/storage headline belongs to Seaview Ave, already retained as ls-5106526; proposed building is not an existing garage. No duplicate."
+        }
+      ],
+      "official_sources": [
+        "https://ecode360.com/30658305",
+        "https://ecode360.com/30578379",
+        "https://pennsgrove-nj.org/planning-zoning/",
+        "https://www.charlestonmaine.com/code-enforcement"
+      ],
+      "official_findings": "Penns Grove trailer chapter includes repair/storage exception, but separate zoning requirements prevent treating that as parcel approval; all RV/repair fields remain unknown. Charleston Maine official page identifies code enforcement but exposed no operative ordinance text; no permission inferred from other states with the same city name.",
+      "monitor_diagnosis": "Scheduled workflow36285109367 completed success; Pages36285405600 success at9d457842f05862c035b2decafc0295531cf897d4. Monitor2026-09-27T01:18:11+00:00 partial:1 new,2 photo changes,111 details,115 category pages,9 errors. Prior8 source404s plus AZ26075; source failures did not change availability. Collector operational; no duplicate local crawl.",
+      "automatic_added_ids": [
+        "lc-26357"
+      ],
+      "automatic_updated_ids": [
+        "lc-25897",
+        "lc-25901"
+      ],
+      "access": "Chrome startup timed out once; inventory confirmed no new tab and second setup succeeded. Coldwell Banker and Realty of Maine public pages read; no CAPTCHA/login/403 bypass, contact, form submission or booking.",
+      "preservation": "744 prior records and all first_seen, price/status/photo histories and original image bytes retained. One NJ row added; only reviewed ME row and derived state counts changed. Monitor and flights unchanged.",
+      "flight_review": "September21 observations retained; weekly refresh dueSeptember28, not yet due.",
+      "github_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/36285109367",
+      "next_states": [
+        "MT",
+        "ND",
+        "WY"
+      ]
     }
   ]
 }

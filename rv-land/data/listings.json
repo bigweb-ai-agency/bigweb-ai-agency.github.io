@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-27T01:18:11+00:00",
+  "updated_at": "2026-09-27T02:17:36+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -43955,17 +43955,19 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:28+00:00",
-      "last_seen": "2026-09-13T23:00:23+00:00",
-      "last_verified": "2026-09-13T23:00:23+00:00",
+      "last_seen": "2026-09-27T02:17:36+00:00",
+      "last_verified": "2026-09-27T02:17:36+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "27.09.2026: у Realty of Maine в Chrome подтверждены MLS1652538 Active, $12,500, 0,55 акра и gravel driveway. Существующего гаража нет; старое фото, координаты и история сохранены."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ls-5065334",
       "source_id": "5065334",
-      "source": "LandSearch",
-      "url": "https://www.landsearch.com/properties/3-atkinson-rd-charleston-me-04422/5065334",
+      "source": "Realty of Maine / Maine MLS",
+      "url": "https://realtyofmaine.com/listing/1652538/3-atkinson-road-charleston-me-04422/",
       "title": "3 Atkinson Rd",
       "address": "3 Atkinson Rd",
       "city": "Charleston",
@@ -43982,8 +43984,8 @@
       "lng": -69.04,
       "coord_precision": "listing",
       "status": "active",
-      "status_basis": "indexed_public_page",
-      "source_crawled": "last week",
+      "status_basis": "live_public_page",
+      "source_crawled": null,
       "image_url": "assets/listings/e7d192f2b8cbd6e37cb3.jpg",
       "image_source_url": "https://www.landsearch.com/properties/3-atkinson-rd-charleston-me-04422/5065334",
       "image_credit": "Listing broker / LandSearch",
@@ -43991,20 +43993,23 @@
       "mls": "MREIS 1652538",
       "zoning": "Unkown",
       "taxes_note": "2025 $185",
-      "road_note": "Юридический подъезд не проверен",
-      "utility_note": "Состояние подключений требует проверки",
-      "garage_note": "Размеры и состояние не подтверждены",
+      "road_note": "Брокер: gravel driveway, 1–4 места вне улицы; дорога paved/public. Геометрия и несущая способность въезда для высокого 7-метрового RV не измерены.",
+      "utility_note": "Брокер прямо указывает неработающий септик и возможные сложности его замены из-за setbacks. Старый колодец лишь предположительно существует; состояние неизвестно.",
+      "garage_note": "Упоминается только будущий гараж, существующего помещения не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "unknown",
       "water": "unknown",
-      "sewer": "unknown",
+      "sewer": "none",
       "no_hoa": "unknown",
-      "road_access": "unknown",
-      "flags": [],
-      "evidence_quote": "Whether you're looking for extra parking, storage space, a future garage site, or a simple camping retreat, this property offers flexibility.",
+      "road_access": "seller_claim",
+      "flags": [
+        "27.09.2026: брокер подтвердил, что септик неработоспособен; установка нового может быть затруднена отступами. Категория septic tank не означает работающую систему.",
+        "Хранение, будущий гараж и camping названы возможностями, которые нужно согласовать с городом; RV и ремонт не подтверждены."
+      ],
+      "evidence_quote": null,
       "price_history": [
         {
           "date": "2026-09-13T22:25:28+00:00",
@@ -44015,6 +44020,7 @@
       "status_history": [],
       "legacy": false,
       "alternate_urls": [
+        "https://realtyofmaine.com/listing/1652538/3-atkinson-road-charleston-me-04422/",
         "https://www.landsearch.com/properties/3-atkinson-rd-charleston-me-04422/5065334"
       ],
       "region": "Северо-восток",
@@ -44071,7 +44077,8 @@
           "remote_url": "https://cdn.landsearch.com/listings/4RdN8/large/charleston-me-161141855.jpg",
           "date": "2026-09-13T23:05:59+00:00"
         }
-      ]
+      ],
+      "verification_basis": "Live listing broker page read in Chrome; Property Details and Exterior Features expanded."
     },
     {
       "price_currency": "USD",
@@ -94742,6 +94749,155 @@
         "Дорога /10": 5
       },
       "score": 38
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-09-27T02:17:36+00:00",
+      "last_seen": "2026-09-27T02:17:36+00:00",
+      "last_verified": "2026-09-27T02:17:36+00:00",
+      "photo_kind": "Единственное оригинальное фото объявления: травяной лот за ограждением между зданиями. Соседние здания не заявлены частью продажи.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [
+        "Цена и наличие проверены в Chrome 27.09.2026. Старый поисковый снимок LandSearch использован только для approximate pin и parcel; не для текущей цены. Готовая база ремонта не подтверждена."
+      ],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "ls-4207691",
+      "source_id": "NJSA2013646",
+      "source": "Coldwell Banker / Bright MLS",
+      "url": "https://www.coldwellbankerhomes.com/nj/penns-grove/54-w-pitman-st/pid_63426996/",
+      "alternate_urls": [
+        "https://www.coldwellbankerhomes.com/nj/penns-grove/54-w-pitman-st/pid_63426996/",
+        "https://www.landsearch.com/properties/54-w-pitman-st-penns-grove-nj-08069/4207691"
+      ],
+      "title": "54 W Pitman St",
+      "address": "54 W Pitman St",
+      "city": "Penns Grove",
+      "state": "NJ",
+      "county": "Salem",
+      "zip": "08069",
+      "kind": "land",
+      "price": 12000,
+      "known_fees": 0,
+      "total_known": 12000,
+      "price_evidence": "27.09.2026: публичная страница Coldwell Banker в Chrome показывает $12,000 за участок. В истории MLS снижение с $40,000 от 11.09.2026. Дополнительные сборы не установлены; ипотечный взнос не использован как цена.",
+      "acres": 0.22,
+      "lat": 39.7337,
+      "lng": -75.4693,
+      "coord_precision": "listing",
+      "coordinate_source": "https://www.landsearch.com/properties/54-w-pitman-st-penns-grove-nj-08069/4207691",
+      "coordinate_basis": "Older indexed listing pin matched by address and MLS NJSA2013646; parcel boundary not surveyed.",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-09-11",
+      "verification_basis": "Coldwell Banker public page and original image in Chrome on 2026-09-27. Older LandSearch detail price $40,000 was not imported over current broker price.",
+      "image_url": "assets/listings/7bceaa8ac56f706927f3.webp",
+      "image_source_url": "https://www.coldwellbankerhomes.com/nj/penns-grove/54-w-pitman-st/pid_63426996/",
+      "image_credit": "Bright MLS / listing broker / Coldwell Banker",
+      "parcel": "1708_48_24",
+      "mls": "NJSA2013646",
+      "zoning": "RES по MLS; точный район зонирования не установлен.",
+      "road_access": "unknown",
+      "road_note": "Адрес на W Pitman St; MLS указывает 54.10 x 175.40 ft. На фото видны тротуар и забор; разрешённый driveway, ворота и проезд высокого 7-метрового RV не подтверждены.",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "garage_note": "Объявлена пустая земля; существующий гараж не указан.",
+      "electricity": "unknown",
+      "water": "available",
+      "sewer": "available",
+      "no_hoa": "unknown",
+      "utility_note": "MLS: публичные вода и канализация доступны для подключения; подключение и электричество на лоте не подтверждены.",
+      "taxes_note": "В карточке $277 за 2024; в истории $282 за 2025. Актуальный счёт и задолженности не проверены.",
+      "flags": [
+        "Цена не включает closing, обследования, въезд, подготовку площадки и подключения.",
+        "Продажа рекламируется отдельно и как часть пакета; поле Multiple Parcels: Yes требует сверить полный состав договора и границы.",
+        "Забор и соседние строения ограничивают видимый доступ; ширина ворот и законность въезда неизвестны.",
+        "§420-2(A) содержит исключение для repair/storage из ограничений на trailers/camp cars. Это не разрешение ремонта на данном лоте: §§450-9–11 отдельно требуют соответствия zoning и разрешений.",
+        "Ночёвка и проживание в RV не подтверждены. Официальное применение исключения к конкретному кемпервану, работе и parcel неизвестно."
+      ],
+      "legal_source": "https://ecode360.com/30658305",
+      "legal_checked_at": "2026-09-27T02:17:36+00:00",
+      "legal_basis": "published_municipal_code_not_parcel_approval",
+      "legal_evidence": [
+        {
+          "source": "https://ecode360.com/30658305",
+          "section": "420-1; 420-2(A)-(B)",
+          "basis": "published_code_read_2026-09-27",
+          "finding": "Definition includes mobile sleeping units. Section420-2(A) has an exception for repair or storage; this is not a parcel-specific zoning approval. Section420-2(B) restricts making such units permanently immobile."
+        },
+        {
+          "source": "https://ecode360.com/30578379",
+          "section": "450-9 through 450-11",
+          "basis": "published_code_read_2026-09-27",
+          "finding": "Land uses remain subject to the district use table, zoning permits and applicable dimensions/parking requirements. Exact district, amendments and private repair use for this parcel remain unresolved."
+        }
+      ],
+      "image_remote_url": "https://m1.cbhomes.com/p/339/NJSA2013646/4e3B2d8006dC423/pds23tp.webp",
+      "photo_preserved_at": "2026-09-27T02:17:36+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/7bceaa8ac56f706927f3.webp",
+          "source": "https://www.coldwellbankerhomes.com/nj/penns-grove/54-w-pitman-st/pid_63426996/",
+          "remote_url": "https://m1.cbhomes.com/p/339/NJSA2013646/4e3B2d8006dC423/pds23tp.webp",
+          "date": "2026-09-27T02:17:36+00:00"
+        }
+      ],
+      "price_history": [
+        {
+          "date": "2026-09-27T02:17:36+00:00",
+          "price": 12000,
+          "source": "https://www.coldwellbankerhomes.com/nj/penns-grove/54-w-pitman-st/pid_63426996/"
+        }
+      ],
+      "status_history": [],
+      "region": "Северо-восток",
+      "screening_issue": null,
+      "climate_note": "Удобный перелёт, но дешёвые лоты часто непростые: размер, wetlands, отсутствие разрешённого использования. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "PHL",
+          "name": "Philadelphia International Airport",
+          "straight_km": 25,
+          "drive_km_estimate": 31,
+          "drive_hours_estimate": 0.4,
+          "flight_min_eur": 546,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "NYC",
+          "name": "New York city search — JFK used for approximate geometry",
+          "straight_km": 175,
+          "drive_km_estimate": 219,
+          "drive_hours_estimate": 2.9,
+          "flight_min_eur": 454,
+          "flight_origin": "VNO",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "IAD",
+          "name": "Washington Dulles International Airport",
+          "straight_km": 192,
+          "drive_km_estimate": 240,
+          "drive_hours_estimate": 3.2,
+          "flight_min_eur": 517,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1564,
+      "score_parts": {
+        "Цена /25": 10,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 2,
+        "Сезон /10": 5,
+        "Дорога /10": 10
+      },
+      "score": 27
     }
   ]
 }
