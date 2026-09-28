@@ -994,6 +994,77 @@
         "ND",
         "WY"
       ]
+    },
+    {
+      "date": "2026-09-28T02:30:04+00:00",
+      "states": [
+        "MT",
+        "ND",
+        "WY"
+      ],
+      "added_ids": [],
+      "updated_ids": [],
+      "scope": "Garage-first MT/ND/WY rotation and weekly four-origin flight refresh. No new usable existing garage established; candidate imports deferred on specific evidence rather than filling quotas.",
+      "deferred": [
+        {
+          "url": "https://www.trulia.com/home/505-idaho-st-medicine-bow-wy-82329-463246576",
+          "price": 15000,
+          "basis": "live_public_page_Chrome",
+          "reason": "505 Idaho St, Medicine Bow WY, MLS20262925, active fixed asking price $15,000, bare 0.18-acre lot, no garage. Listing map pin41.899555,-106.206009 and real listing photo verified. Area differs7910sqft description vs7840.8 structured field. Claimed taps/WaterConnected; sewer available, connection unknown; electricity statements conflict. NoHOA does not establish RV rights. Adopted town parking/repair and accessory-use restrictions create a material review risk; exact parcel zoning unresolved. Not imported.",
+          "image_source": "https://www.trulia.com/pictures/thumbs_5/zillowstatic/fp/7c71b41d8d78e6c4904ebc38ad13ff1c-full.webp"
+        },
+        {
+          "url": "https://www.realtybillings.com/property-search/detail/257/349610/lot-116-ricky-bobby-ave-billings-mt-59106/",
+          "price": 12000,
+          "basis": "indexed_public_page_crawled_3_months_ago",
+          "reason": "Lot116 Ricky Bobby Ave Billings MT, MLS349610:0.06acre/2526sqft build-your-own shop lot, no existing shop, POA$450/year, no water/sewer and no septic approval. Connected Chrome returned Cloudflare1005 ASN block; stopped without bypass. Current availability, suitable pin/photo and POA RV/repair rights unverified; no import."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/1500-5th-ave-n-new-rockford-nd-58356/5160917",
+          "price": 7000,
+          "basis": "older_index_then_inactive_redirect",
+          "reason": "1500 5th Ave N, New Rockford ND, MLS11687981, parcel19-0021-08808-000: older Apr8 index described0.321acre/140x100ft. Actual page redirects to town results#inactive; old active snapshot not imported. Separate same-address MLS11687976/parcel19-0021-08800-000 is140x200ft,$12,000; facts not combined."
+        }
+      ],
+      "negative_searches": [
+        {
+          "url": "https://www.minotnd.gov/bids.aspx?bidID=419",
+          "finding": "Closed2022 garage auction; land not included. $10,000 bond is not a full purchase price."
+        },
+        {
+          "url": "https://www.globalauctionguide.com/north-dakota-auctions/garrison/ron-waliser-estate-8842.html",
+          "finding": "Garrison estate has a30x30 garage/camper-door lead, but$10,000 is a nonrefundable auction deposit, not a cash asking price in budget."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/north-dakota/search/under-15000",
+          "finding": "Several low numbers are$1/$1,000 auction starting bids; no fixed-price existing workshop qualified."
+        },
+        {
+          "url": "https://www.realtor.com/realestateandhomes-search/Montana/type-land/sby-1",
+          "finding": "Vananda/Rosebud$12,000 already retained asls-4989701 pending; older active index did not overwrite newer pending evidence."
+        }
+      ],
+      "official_sources": [
+        "https://www.medicinebow.org/newpage",
+        "https://www.medicinebow.org/town-ordinances",
+        "https://irp.cdn-website.com/f587b3f4/files/uploaded/Chapter%2016%20Adopted%2001.13.14%20Amd%202020.10.12.pdf"
+      ],
+      "official_findings": "Town-linked Chapter16 amended2020: section16.15.101(b)(ii), printedp76, limits off-street parking areas to automobile parking and prohibits dead storage/repair/dismantling/servicing there. RD1 sections16.4.103 and16.4.104(h) make private garages accessory and tie accessory use to the main building lot or adjacent owned lot. Exact zoning of505 Idaho and later amendments not established. This is a review risk, not a blanket finding that every private repair is prohibited; no permit inferred.",
+      "monitor_diagnosis": "Scheduled run36365516874 completed success, created2026-09-28T01:19:03Z. Monitor01:19:20+00:00 partial:1 new,0 price/status/photo changes,111details,115categories,9errors. Same nine source404s as prior day (OR24669/24670/21323/17067,FL26001,MO24619,AR26030,NC23758,AZ26075); no status changes inferred. Collector operational; no duplicate local crawl.",
+      "automatic_added_ids": [
+        "lc-26360"
+      ],
+      "automatic_updated_ids": [],
+      "access": "Connected Chrome inspected public Trulia and Google Flights. RealtyBillings Cloudflare1005 block respected; no CAPTCHA/403/robots/login bypass. No seller contact, bookings or infrastructure change.",
+      "preservation": "All746 baseline listing IDs, first_seen, listing facts/histories and original photo bytes retained. Only derived flight minima/gateway origins refreshed. All167 prior flight observations retained as history; monitor unchanged.",
+      "flight_review": "84 current dated Chrome observations:VNO13,LON25,WAW22,CPH24. Three transatlantic roundtrips and three positioning roundtrips selected in Google Flights; baggage and overnight gaps distinguished. VNO–JFK€451 with first checked bag included; LGW–JFK€430 plusVNO–LGW€183, before hotels. CPH–MIA€446 is an OTA offer plusVNO–CPH€203; checked-bag total incomplete. No checkout or booking. Same-day Explore fallback dates and nearby-city duplicates omitted.",
+      "github_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/36365516874",
+      "next_states": [
+        "AK",
+        "HI",
+        "UT"
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-09-28T02:30:04+00:00"
 }
