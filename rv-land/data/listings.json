@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-29T01:16:11+00:00",
+  "updated_at": "2026-09-29T02:23:35+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -16480,31 +16480,31 @@
           "code": "KOA",
           "name": "Ellison Onizuka Kona International Airport at Keāhole",
           "straight_km": 72,
-          "drive_km_estimate": 90,
-          "drive_hours_estimate": 1.2,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         },
         {
           "code": "ITO",
           "name": "Hilo International Airport",
           "straight_km": 100,
-          "drive_km_estimate": 124,
-          "drive_hours_estimate": 1.7,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         },
         {
           "code": "HNL",
           "name": "Daniel K. Inouye International Airport",
           "straight_km": 330,
-          "drive_km_estimate": 412,
-          "drive_hours_estimate": 5.5,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": 861,
           "flight_origin": "LON",
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         }
       ],
       "msp_straight_km": 6373,
@@ -38657,11 +38657,11 @@
           "code": "ANC",
           "name": "Ted Stevens Anchorage International Airport",
           "straight_km": 479,
-          "drive_km_estimate": 599,
-          "drive_hours_estimate": 8.0,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         }
       ],
       "msp_straight_km": 3878,
@@ -66968,11 +66968,11 @@
           "code": "ANC",
           "name": "Ted Stevens Anchorage International Airport",
           "straight_km": 409,
-          "drive_km_estimate": 511,
-          "drive_hours_estimate": 6.8,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         }
       ],
       "msp_straight_km": 4058,
@@ -67070,11 +67070,11 @@
           "code": "ANC",
           "name": "Ted Stevens Anchorage International Airport",
           "straight_km": 408,
-          "drive_km_estimate": 510,
-          "drive_hours_estimate": 6.8,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         }
       ],
       "msp_straight_km": 3918,
@@ -68927,11 +68927,11 @@
           "code": "ANC",
           "name": "Ted Stevens Anchorage International Airport",
           "straight_km": 103,
-          "drive_km_estimate": 129,
-          "drive_hours_estimate": 1.7,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         }
       ],
       "msp_straight_km": 4097,
@@ -69029,11 +69029,11 @@
           "code": "ANC",
           "name": "Ted Stevens Anchorage International Airport",
           "straight_km": 148,
-          "drive_km_estimate": 185,
-          "drive_hours_estimate": 2.5,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         }
       ],
       "msp_straight_km": 4117,
@@ -71211,11 +71211,11 @@
           "code": "ANC",
           "name": "Ted Stevens Anchorage International Airport",
           "straight_km": 387,
-          "drive_km_estimate": 484,
-          "drive_hours_estimate": 6.4,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         }
       ],
       "msp_straight_km": 3835,
@@ -73168,11 +73168,11 @@
           "code": "ANC",
           "name": "Ted Stevens Anchorage International Airport",
           "straight_km": 387,
-          "drive_km_estimate": 484,
-          "drive_hours_estimate": 6.4,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         }
       ],
       "msp_straight_km": 3835,
@@ -74616,11 +74616,11 @@
           "code": "ANC",
           "name": "Ted Stevens Anchorage International Airport",
           "straight_km": 190,
-          "drive_km_estimate": 237,
-          "drive_hours_estimate": 3.2,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         }
       ],
       "msp_straight_km": 4131,
@@ -74720,11 +74720,11 @@
           "code": "ANC",
           "name": "Ted Stevens Anchorage International Airport",
           "straight_km": 438,
-          "drive_km_estimate": 548,
-          "drive_hours_estimate": 7.3,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         }
       ],
       "msp_straight_km": 3941,
@@ -74829,11 +74829,11 @@
           "code": "ANC",
           "name": "Ted Stevens Anchorage International Airport",
           "straight_km": 258,
-          "drive_km_estimate": 322,
-          "drive_hours_estimate": 4.3,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         }
       ],
       "msp_straight_km": 3811,
@@ -74932,11 +74932,11 @@
           "code": "ANC",
           "name": "Ted Stevens Anchorage International Airport",
           "straight_km": 387,
-          "drive_km_estimate": 484,
-          "drive_hours_estimate": 6.4,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         }
       ],
       "msp_straight_km": 3835,
@@ -75034,11 +75034,11 @@
           "code": "ANC",
           "name": "Ted Stevens Anchorage International Airport",
           "straight_km": 436,
-          "drive_km_estimate": 545,
-          "drive_hours_estimate": 7.3,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         }
       ],
       "msp_straight_km": 4092,
@@ -78147,7 +78147,9 @@
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "29.09.2026: принадлежность к Nanawale Estates подтверждена названием subdivision в поисковом снимке объявления (crawl 2 недели назад). CC&Rs прочитаны по ссылке с действующего сайта ассоциации, стр. 1–6. Цена, статус продажи и дата проверки объявления не обновлялись по старому снимку. Разрешение личного ремонта остаётся неизвестным."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ls-5478298",
       "source_id": "5478298",
@@ -78188,10 +78190,11 @@
       "electricity": "unknown",
       "water": "unknown",
       "sewer": "unknown",
-      "no_hoa": "unknown",
+      "no_hoa": "none",
       "road_access": "unknown",
       "flags": [
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Nanawale CC&Rs I.A–B: жилое использование; II.A: проживание в trailer/гараже ограничено завершением постоянного строения или одним годом, что наступит раньше. Это не разрешение хранения или ремонта RV."
       ],
       "evidence_quote": null,
       "price_history": [
@@ -78207,38 +78210,38 @@
         "https://www.landsearch.com/properties/shell-rd-pahoa-hi-96778/5478298"
       ],
       "region": "Гавайи",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Дешёвая земля обычно на Big Island, а международный рейс часто до Honolulu. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
           "code": "ITO",
           "name": "Hilo International Airport",
           "straight_km": 28,
-          "drive_km_estimate": 35,
-          "drive_hours_estimate": 0.5,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         },
         {
           "code": "KOA",
           "name": "Ellison Onizuka Kona International Airport at Keāhole",
           "straight_km": 121,
-          "drive_km_estimate": 152,
-          "drive_hours_estimate": 2.0,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         },
         {
           "code": "HNL",
           "name": "Daniel K. Inouye International Airport",
           "straight_km": 373,
-          "drive_km_estimate": 466,
-          "drive_hours_estimate": 6.2,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": 861,
           "flight_origin": "LON",
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         }
       ],
       "msp_straight_km": 6280,
@@ -78250,7 +78253,7 @@
         "Сезон /10": 7,
         "Дорога /10": 0
       },
-      "score": 22,
+      "score": 20,
       "image_remote_url": "https://cdn.landsearch.com/listings/4VY2y/large/pahoa-hi-176996963.jpg",
       "photo_preserved_at": "2026-09-13T23:05:59+00:00",
       "photo_history": [
@@ -78260,7 +78263,18 @@
           "remote_url": "https://cdn.landsearch.com/listings/4VY2y/large/pahoa-hi-176996963.jpg",
           "date": "2026-09-13T23:05:59+00:00"
         }
-      ]
+      ],
+      "review_hold": {
+        "date": "2026-09-29T02:23:35+00:00",
+        "reason": "Nanawale Estates: опубликованные CC&Rs предусматривают жилое использование для одной семьи. Самостоятельная площадка хранения и ремонта RV без дома не подтверждена; требуется проверка применимости правил к parcel и предполагаемым работам.",
+        "sources": [
+          "https://www.landsearch.com/properties/shell-rd-pahoa-hi-96778/5478298",
+          "https://www.nanawale.com/_files/ugd/b838a8_fdbcb1809bfc4a6094f80bf40ee74950.pdf",
+          "https://www.nanawale.com/faqs"
+        ]
+      },
+      "legal_checked_at": "2026-09-29T02:23:35+00:00",
+      "legal_source": "https://www.nanawale.com/_files/ugd/b838a8_fdbcb1809bfc4a6094f80bf40ee74950.pdf"
     },
     {
       "price_currency": "USD",
@@ -78338,31 +78352,31 @@
           "code": "KOA",
           "name": "Ellison Onizuka Kona International Airport at Keāhole",
           "straight_km": 76,
-          "drive_km_estimate": 95,
-          "drive_hours_estimate": 1.3,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         },
         {
           "code": "ITO",
           "name": "Hilo International Airport",
           "straight_km": 99,
-          "drive_km_estimate": 123,
-          "drive_hours_estimate": 1.6,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         },
         {
           "code": "HNL",
           "name": "Daniel K. Inouye International Airport",
           "straight_km": 334,
-          "drive_km_estimate": 418,
-          "drive_hours_estimate": 5.6,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": 861,
           "flight_origin": "LON",
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         }
       ],
       "msp_straight_km": 6373,
@@ -78462,31 +78476,31 @@
           "code": "ITO",
           "name": "Hilo International Airport",
           "straight_km": 27,
-          "drive_km_estimate": 34,
-          "drive_hours_estimate": 0.5,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         },
         {
           "code": "KOA",
           "name": "Ellison Onizuka Kona International Airport at Keāhole",
           "straight_km": 98,
-          "drive_km_estimate": 122,
-          "drive_hours_estimate": 1.6,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         },
         {
           "code": "HNL",
           "name": "Daniel K. Inouye International Airport",
           "straight_km": 353,
-          "drive_km_estimate": 442,
-          "drive_hours_estimate": 5.9,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": 861,
           "flight_origin": "LON",
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         }
       ],
       "msp_straight_km": 6299,
@@ -78519,7 +78533,9 @@
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "29.09.2026: принадлежность к Nanawale Estates подтверждена названием subdivision в поисковом снимке объявления (crawl 2 недели назад). CC&Rs прочитаны по ссылке с действующего сайта ассоциации, стр. 1–6. Цена, статус продажи и дата проверки объявления не обновлялись по старому снимку. Разрешение личного ремонта остаётся неизвестным."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ls-5316767",
       "source_id": "5316767",
@@ -78560,11 +78576,12 @@
       "electricity": "available",
       "water": "unknown",
       "sewer": "unknown",
-      "no_hoa": "unknown",
+      "no_hoa": "none",
       "road_access": "unknown",
       "flags": [
         "В источнике есть указание на затопление: проверить FEMA и отметку площадки.",
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Nanawale CC&Rs I.A–B: жилое использование; II.A: проживание в trailer/гараже ограничено завершением постоянного строения или одним годом, что наступит раньше. Это не разрешение хранения или ремонта RV."
       ],
       "evidence_quote": "Exact location and area of the property should be determined by a licensed surveyor.",
       "price_history": [
@@ -78580,38 +78597,38 @@
         "https://www.landsearch.com/properties/kauai-rd-pahoa-hi-96778/5316767"
       ],
       "region": "Гавайи",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Дешёвая земля обычно на Big Island, а международный рейс часто до Honolulu. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
           "code": "ITO",
           "name": "Hilo International Airport",
           "straight_km": 28,
-          "drive_km_estimate": 36,
-          "drive_hours_estimate": 0.5,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         },
         {
           "code": "KOA",
           "name": "Ellison Onizuka Kona International Airport at Keāhole",
           "straight_km": 122,
-          "drive_km_estimate": 153,
-          "drive_hours_estimate": 2.0,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         },
         {
           "code": "HNL",
           "name": "Daniel K. Inouye International Airport",
           "straight_km": 374,
-          "drive_km_estimate": 467,
-          "drive_hours_estimate": 6.2,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": 861,
           "flight_origin": "LON",
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         }
       ],
       "msp_straight_km": 6279,
@@ -78623,7 +78640,7 @@
         "Сезон /10": 7,
         "Дорога /10": 0
       },
-      "score": 21,
+      "score": 20,
       "image_remote_url": "https://cdn.landsearch.com/listings/4TvVk/large/pahoa-hi-170547102.jpg",
       "photo_preserved_at": "2026-09-13T23:05:59+00:00",
       "photo_history": [
@@ -78633,7 +78650,18 @@
           "remote_url": "https://cdn.landsearch.com/listings/4TvVk/large/pahoa-hi-170547102.jpg",
           "date": "2026-09-13T23:05:59+00:00"
         }
-      ]
+      ],
+      "review_hold": {
+        "date": "2026-09-29T02:23:35+00:00",
+        "reason": "Nanawale Estates: опубликованные CC&Rs предусматривают жилое использование для одной семьи. Самостоятельная площадка хранения и ремонта RV без дома не подтверждена; требуется проверка применимости правил к parcel и предполагаемым работам.",
+        "sources": [
+          "https://www.landsearch.com/properties/kauai-rd-pahoa-hi-96778/5316767",
+          "https://www.nanawale.com/_files/ugd/b838a8_fdbcb1809bfc4a6094f80bf40ee74950.pdf",
+          "https://www.nanawale.com/faqs"
+        ]
+      },
+      "legal_checked_at": "2026-09-29T02:23:35+00:00",
+      "legal_source": "https://www.nanawale.com/_files/ugd/b838a8_fdbcb1809bfc4a6094f80bf40ee74950.pdf"
     },
     {
       "price_currency": "USD",
@@ -78956,31 +78984,31 @@
           "code": "KOA",
           "name": "Ellison Onizuka Kona International Airport at Keāhole",
           "straight_km": 75,
-          "drive_km_estimate": 94,
-          "drive_hours_estimate": 1.3,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         },
         {
           "code": "ITO",
           "name": "Hilo International Airport",
           "straight_km": 101,
-          "drive_km_estimate": 126,
-          "drive_hours_estimate": 1.7,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         },
         {
           "code": "HNL",
           "name": "Daniel K. Inouye International Airport",
           "straight_km": 333,
-          "drive_km_estimate": 416,
-          "drive_hours_estimate": 5.5,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": 861,
           "flight_origin": "LON",
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         }
       ],
       "msp_straight_km": 6375,
@@ -79013,7 +79041,9 @@
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "29.09.2026: принадлежность к Nanawale Estates подтверждена названием subdivision в поисковом снимке объявления (crawl 2 недели назад). CC&Rs прочитаны по ссылке с действующего сайта ассоциации, стр. 1–6. Цена, статус продажи и дата проверки объявления не обновлялись по старому снимку. Разрешение личного ремонта остаётся неизвестным."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ls-5231900",
       "source_id": "5231900",
@@ -79054,10 +79084,11 @@
       "electricity": "unknown",
       "water": "unknown",
       "sewer": "unknown",
-      "no_hoa": "unknown",
+      "no_hoa": "none",
       "road_access": "unknown",
       "flags": [
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Nanawale CC&Rs I.A–B: жилое использование; II.A: проживание в trailer/гараже ограничено завершением постоянного строения или одним годом, что наступит раньше. Это не разрешение хранения или ремонта RV."
       ],
       "evidence_quote": null,
       "price_history": [
@@ -79073,38 +79104,38 @@
         "https://www.landsearch.com/properties/maui-rd-pahoa-hi-96778/5231900"
       ],
       "region": "Гавайи",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Дешёвая земля обычно на Big Island, а международный рейс часто до Honolulu. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
           "code": "ITO",
           "name": "Hilo International Airport",
           "straight_km": 29,
-          "drive_km_estimate": 36,
-          "drive_hours_estimate": 0.5,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         },
         {
           "code": "KOA",
           "name": "Ellison Onizuka Kona International Airport at Keāhole",
           "straight_km": 122,
-          "drive_km_estimate": 152,
-          "drive_hours_estimate": 2.0,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         },
         {
           "code": "HNL",
           "name": "Daniel K. Inouye International Airport",
           "straight_km": 374,
-          "drive_km_estimate": 467,
-          "drive_hours_estimate": 6.2,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": 861,
           "flight_origin": "LON",
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         }
       ],
       "msp_straight_km": 6280,
@@ -79126,7 +79157,18 @@
           "remote_url": "https://cdn.landsearch.com/listings/4SK5g/large/pahoa-hi-166724041.jpg",
           "date": "2026-09-13T23:05:59+00:00"
         }
-      ]
+      ],
+      "review_hold": {
+        "date": "2026-09-29T02:23:35+00:00",
+        "reason": "Nanawale Estates: опубликованные CC&Rs предусматривают жилое использование для одной семьи. Самостоятельная площадка хранения и ремонта RV без дома не подтверждена; требуется проверка применимости правил к parcel и предполагаемым работам.",
+        "sources": [
+          "https://www.landsearch.com/properties/maui-rd-pahoa-hi-96778/5231900",
+          "https://www.nanawale.com/_files/ugd/b838a8_fdbcb1809bfc4a6094f80bf40ee74950.pdf",
+          "https://www.nanawale.com/faqs"
+        ]
+      },
+      "legal_checked_at": "2026-09-29T02:23:35+00:00",
+      "legal_source": "https://www.nanawale.com/_files/ugd/b838a8_fdbcb1809bfc4a6094f80bf40ee74950.pdf"
     },
     {
       "price_currency": "USD",
@@ -79205,31 +79247,31 @@
           "code": "KOA",
           "name": "Ellison Onizuka Kona International Airport at Keāhole",
           "straight_km": 72,
-          "drive_km_estimate": 90,
-          "drive_hours_estimate": 1.2,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         },
         {
           "code": "ITO",
           "name": "Hilo International Airport",
           "straight_km": 97,
-          "drive_km_estimate": 121,
-          "drive_hours_estimate": 1.6,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         },
         {
           "code": "HNL",
           "name": "Daniel K. Inouye International Airport",
           "straight_km": 331,
-          "drive_km_estimate": 414,
-          "drive_hours_estimate": 5.5,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": 861,
           "flight_origin": "LON",
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         }
       ],
       "msp_straight_km": 6371,
@@ -79330,31 +79372,31 @@
           "code": "KOA",
           "name": "Ellison Onizuka Kona International Airport at Keāhole",
           "straight_km": 76,
-          "drive_km_estimate": 94,
-          "drive_hours_estimate": 1.3,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         },
         {
           "code": "ITO",
           "name": "Hilo International Airport",
           "straight_km": 98,
-          "drive_km_estimate": 123,
-          "drive_hours_estimate": 1.6,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         },
         {
           "code": "HNL",
           "name": "Daniel K. Inouye International Airport",
           "straight_km": 334,
-          "drive_km_estimate": 418,
-          "drive_hours_estimate": 5.6,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": 861,
           "flight_origin": "LON",
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         }
       ],
       "msp_straight_km": 6372,
@@ -79387,7 +79429,9 @@
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "29.09.2026: принадлежность к Nanawale Estates подтверждена названием subdivision в поисковом снимке объявления (crawl 2 недели назад). CC&Rs прочитаны по ссылке с действующего сайта ассоциации, стр. 1–6. Цена, статус продажи и дата проверки объявления не обновлялись по старому снимку. Разрешение личного ремонта остаётся неизвестным."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ls-5359839",
       "source_id": "5359839",
@@ -79428,10 +79472,11 @@
       "electricity": "unknown",
       "water": "unknown",
       "sewer": "unknown",
-      "no_hoa": "unknown",
+      "no_hoa": "none",
       "road_access": "unknown",
       "flags": [
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Nanawale CC&Rs I.A–B: жилое использование; II.A: проживание в trailer/гараже ограничено завершением постоянного строения или одним годом, что наступит раньше. Это не разрешение хранения или ремонта RV."
       ],
       "evidence_quote": "Located just minutes from the vibrant town of Pahoa and the Puna Kai Shopping Center, you'll have easy access to restaurants, grocery",
       "price_history": [
@@ -79447,38 +79492,38 @@
         "https://www.landsearch.com/properties/lanai-rd-pahoa-hi-96778/5359839"
       ],
       "region": "Гавайи",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Дешёвая земля обычно на Big Island, а международный рейс часто до Honolulu. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
           "code": "ITO",
           "name": "Hilo International Airport",
           "straight_km": 28,
-          "drive_km_estimate": 34,
-          "drive_hours_estimate": 0.5,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         },
         {
           "code": "KOA",
           "name": "Ellison Onizuka Kona International Airport at Keāhole",
           "straight_km": 121,
-          "drive_km_estimate": 151,
-          "drive_hours_estimate": 2.0,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         },
         {
           "code": "HNL",
           "name": "Daniel K. Inouye International Airport",
           "straight_km": 373,
-          "drive_km_estimate": 466,
-          "drive_hours_estimate": 6.2,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": 861,
           "flight_origin": "LON",
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         }
       ],
       "msp_straight_km": 6280,
@@ -79500,7 +79545,18 @@
           "remote_url": "https://cdn.landsearch.com/listings/4TTBF/large/pahoa-hi-174617541.jpg",
           "date": "2026-09-13T23:05:59+00:00"
         }
-      ]
+      ],
+      "review_hold": {
+        "date": "2026-09-29T02:23:35+00:00",
+        "reason": "Nanawale Estates: опубликованные CC&Rs предусматривают жилое использование для одной семьи. Самостоятельная площадка хранения и ремонта RV без дома не подтверждена; требуется проверка применимости правил к parcel и предполагаемым работам.",
+        "sources": [
+          "https://www.landsearch.com/properties/lanai-rd-pahoa-hi-96778/5359839",
+          "https://www.nanawale.com/_files/ugd/b838a8_fdbcb1809bfc4a6094f80bf40ee74950.pdf",
+          "https://www.nanawale.com/faqs"
+        ]
+      },
+      "legal_checked_at": "2026-09-29T02:23:35+00:00",
+      "legal_source": "https://www.nanawale.com/_files/ugd/b838a8_fdbcb1809bfc4a6094f80bf40ee74950.pdf"
     },
     {
       "price_currency": "USD",
@@ -79511,7 +79567,9 @@
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "29.09.2026: принадлежность к Nanawale Estates подтверждена названием subdivision в поисковом снимке объявления (crawl 2 недели назад). CC&Rs прочитаны по ссылке с действующего сайта ассоциации, стр. 1–6. Цена, статус продажи и дата проверки объявления не обновлялись по старому снимку. Разрешение личного ремонта остаётся неизвестным."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ls-5466102",
       "source_id": "5466102",
@@ -79552,10 +79610,11 @@
       "electricity": "unknown",
       "water": "unknown",
       "sewer": "unknown",
-      "no_hoa": "unknown",
+      "no_hoa": "none",
       "road_access": "seller_claim",
       "flags": [
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Nanawale CC&Rs I.A–B: жилое использование; II.A: проживание в trailer/гараже ограничено завершением постоянного строения или одним годом, что наступит раньше. Это не разрешение хранения или ремонта RV."
       ],
       "evidence_quote": null,
       "price_history": [
@@ -79571,38 +79630,38 @@
         "https://www.landsearch.com/properties/pahoa-rd-pahoa-hi-96778/5466102"
       ],
       "region": "Гавайи",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Дешёвая земля обычно на Big Island, а международный рейс часто до Honolulu. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
           "code": "ITO",
           "name": "Hilo International Airport",
           "straight_km": 28,
-          "drive_km_estimate": 35,
-          "drive_hours_estimate": 0.5,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         },
         {
           "code": "KOA",
           "name": "Ellison Onizuka Kona International Airport at Keāhole",
           "straight_km": 122,
-          "drive_km_estimate": 153,
-          "drive_hours_estimate": 2.0,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         },
         {
           "code": "HNL",
           "name": "Daniel K. Inouye International Airport",
           "straight_km": 374,
-          "drive_km_estimate": 467,
-          "drive_hours_estimate": 6.2,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": 861,
           "flight_origin": "LON",
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         }
       ],
       "msp_straight_km": 6278,
@@ -79614,7 +79673,7 @@
         "Сезон /10": 7,
         "Дорога /10": 0
       },
-      "score": 22,
+      "score": 20,
       "image_remote_url": "https://cdn.landsearch.com/listings/4VRJt/large/pahoa-hi-176617780.jpg",
       "photo_preserved_at": "2026-09-13T23:05:59+00:00",
       "photo_history": [
@@ -79624,7 +79683,18 @@
           "remote_url": "https://cdn.landsearch.com/listings/4VRJt/large/pahoa-hi-176617780.jpg",
           "date": "2026-09-13T23:05:59+00:00"
         }
-      ]
+      ],
+      "review_hold": {
+        "date": "2026-09-29T02:23:35+00:00",
+        "reason": "Nanawale Estates: опубликованные CC&Rs предусматривают жилое использование для одной семьи. Самостоятельная площадка хранения и ремонта RV без дома не подтверждена; требуется проверка применимости правил к parcel и предполагаемым работам.",
+        "sources": [
+          "https://www.landsearch.com/properties/pahoa-rd-pahoa-hi-96778/5466102",
+          "https://www.nanawale.com/_files/ugd/b838a8_fdbcb1809bfc4a6094f80bf40ee74950.pdf",
+          "https://www.nanawale.com/faqs"
+        ]
+      },
+      "legal_checked_at": "2026-09-29T02:23:35+00:00",
+      "legal_source": "https://www.nanawale.com/_files/ugd/b838a8_fdbcb1809bfc4a6094f80bf40ee74950.pdf"
     },
     {
       "price_currency": "USD",
@@ -79700,31 +79770,31 @@
           "code": "ITO",
           "name": "Hilo International Airport",
           "straight_km": 42,
-          "drive_km_estimate": 52,
-          "drive_hours_estimate": 0.7,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         },
         {
           "code": "KOA",
           "name": "Ellison Onizuka Kona International Airport at Keāhole",
           "straight_km": 119,
-          "drive_km_estimate": 149,
-          "drive_hours_estimate": 2.0,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": null,
           "flight_origin": null,
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         },
         {
           "code": "HNL",
           "name": "Daniel K. Inouye International Airport",
           "straight_km": 377,
-          "drive_km_estimate": 471,
-          "drive_hours_estimate": 6.3,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": 861,
           "flight_origin": "LON",
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
         }
       ],
       "msp_straight_km": 6297,

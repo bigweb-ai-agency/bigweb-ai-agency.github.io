@@ -99,10 +99,12 @@ def run():
             quotes=[f for f in flights if f['gateway']==a['code'] and f.get('usable',True)
                     and f.get('departure','')>=NOW[:10] and f.get('duration_hours',999)<=24]
             best=min(quotes,key=lambda f:f['eur'],default=None)
+            separate_logistics=x['state'] in ('HI','AK')
             candidates.append({'code':a['code'],'name':a['name'],'straight_km':round(km),
-                'drive_km_estimate':round(km*1.25),'drive_hours_estimate':round(km*1.25/75,1),
+                'drive_km_estimate':None if separate_logistics else round(km*1.25),
+                'drive_hours_estimate':None if separate_logistics else round(km*1.25/75,1),
                 'flight_min_eur':best['eur'] if best else None,'flight_origin':best['origin'] if best else None,
-                'route_basis':'Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут.'})
+                'route_basis':'Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV.' if separate_logistics else 'Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут.'})
         candidates.sort(key=lambda a:a['straight_km'])
         x['gateways']=candidates[:3]
         x['msp_straight_km']=round(distance((x['lat'],x['lng']),(44.882,-93.222))) if x.get('lat') and x.get('lng') else None

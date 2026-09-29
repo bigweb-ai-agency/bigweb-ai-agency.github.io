@@ -7,6 +7,29 @@ import cache_photos as photos
 import make_analysis as analysis
 
 class ResearchDataTests(unittest.TestCase):
+    def test_island_and_alaska_gateways_do_not_offer_unverified_drive_estimates(self):
+        rows=[{'id':state,'state':state,'lat':lat,'lng':lng,'price':9000,
+               'total_known':9000,'status':'active','price_basis':'asking_cash'}
+              for state,lat,lng in [('HI',19.50,-154.91),('AK',60.55,-151.26),('MN',45,-94)]]
+        airports=[{'code':code,'name':code,'lat':lat,'lng':lng}
+                  for code,lat,lng in [('ITO',19.72,-155.05),('HNL',21.32,-157.92),
+                                       ('ANC',61.17,-150),('MSP',44.88,-93.22)]]
+        data={'listings.json':{'listings':rows},'gateways.json':{'airports':airports},
+              'flights.json':{'observations':[]}}
+        with patch.object(analysis,'read',side_effect=lambda p,default:data[p.name]), \
+             patch.object(analysis,'write'),patch('builtins.print'):
+            analysis.run()
+        self.assertEqual([a['code'] for a in rows[0]['gateways']],['ITO','HNL'])
+        self.assertEqual([a['code'] for a in rows[1]['gateways']],['ANC'])
+        for row in rows[:2]:
+            for airport in row['gateways']:
+                self.assertIsNone(airport['drive_km_estimate'])
+                self.assertIsNone(airport['drive_hours_estimate'])
+                self.assertGreater(airport['straight_km'],0)
+            self.assertEqual(row['score_parts']['Дорога /10'],0)
+        self.assertGreater(rows[2]['gateways'][0]['drive_hours_estimate'],0)
+        self.assertGreater(rows[2]['score_parts']['Дорога /10'],0)
+
     def test_property_airfare_ignores_archived_expired_and_overnight_day_long_fares(self):
         row={'id':'site','state':'MN','lat':45,'lng':-94,'price':9000,
              'total_known':9000,'status':'active','price_basis':'asking_cash'}

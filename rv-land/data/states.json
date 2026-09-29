@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T01:16:11+00:00",
+  "updated_at": "2026-09-29T02:23:35+00:00",
   "states": [
     {
       "code": "AL",
@@ -219,9 +219,9 @@
       ],
       "analysis": "Дешёвая земля обычно на Big Island, а международный рейс часто до Honolulu. Межостровная логистика, доставка RV, лава и ливни ухудшают экономику.",
       "total": 12,
-      "photo_candidates": 12,
-      "shortfall": 0,
-      "coverage": "10+ кандидатов",
+      "photo_candidates": 7,
+      "shortfall": 3,
+      "coverage": "Недостаточно проверенных кандидатов",
       "sources": [
         "https://www.landsearch.com/properties/hawaii/search/under-15000",
         "https://www.landcentury.com/land-for-sale/hawaii",

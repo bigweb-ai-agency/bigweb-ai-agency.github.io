@@ -1064,7 +1064,91 @@
         "HI",
         "UT"
       ]
+    },
+    {
+      "date": "2026-09-29T02:23:35+00:00",
+      "states": [
+        "AK",
+        "HI",
+        "UT",
+        "RI"
+      ],
+      "added_ids": [],
+      "updated_ids": [
+        "ls-5478298",
+        "ls-5316767",
+        "ls-5231900",
+        "ls-5359839",
+        "ls-5466102"
+      ],
+      "scope": "Garage-first AK/HI/UT rotation plus RI with no photo candidates. No new suitable existing workshop verified. Five existing Nanawale parcels held after review of association restrictions; sale facts retained. Removed unverified drive estimates for HI/AK, including cross-island HNL-to-Big-Island geometry.",
+      "deferred": [
+        {
+          "url": "https://www.utahrealestate.com/2128227",
+          "price": 15000,
+          "basis": "live_public_page_Chrome",
+          "reason": "254 W 400 N, East Carbon UT84520, MLS2128227, parcel1C09080000, 0.28acre vacant residential lot. Current primary MLS shows Active $15,000; older $28,000 index not used. Listing photos visible, no existing garage. Exact coordinates not established; utilities available are not verified connected. Standalone RV/storage/repair rights unresolved. No import.",
+          "image_source": "https://assets.utahrealestate.com/photos/1024x768/2128227_17697c5b1bc321ea04af09b7b368da0a_6952c8765f997.jpg"
+        },
+        {
+          "url": "https://www.hoganassociatesre.com/listing/1419851-rhode-island-ave-narragansett-ri-02882/",
+          "price": 15000,
+          "basis": "indexed_public_page_crawled_today",
+          "reason": "Rhode Island Ave, Narragansett RI, MLS1419851, lot T60, 9600sqft wooded R80 lot. Cash price $15,000, seller explicitly requires no contingencies or due diligence period. Browser verification interstitial respected. Suitable coordinates/photo and legal vehicle access not established; no import."
+        }
+      ],
+      "negative_searches": [
+        {
+          "url": "https://www.homes.com/property/lot-3-rector-st-nikiski-ak/xh0cw7dy0v45q/",
+          "finding": "Live Chrome: Lot3 Rector St, Nikiski AK, MLS26-6048, 0.92acre SOLD June24,2026. $15,000 is last list price, actual sold price blank. Old active eXp index not imported."
+        },
+        {
+          "url": "https://www.utahrealestate.com/2178790/direction/RD/location/Indianola%2BUT%2B84629",
+          "finding": "Indianola UT $15,000 is per acre across37.08acres, not full budget purchase price."
+        },
+        {
+          "url": "https://usdreamland.com/listings/5-00-acres-3200-subd/",
+          "finding": "UT 5-acre listing: $15,000 down, full $69,900 plus $250 documentation fee. Not within budget; steep high-elevation site, no existing garage established."
+        },
+        {
+          "url": "https://www.homes.com/property/258-log-rd-smithfield-ri/9dbvj9609er8x/",
+          "finding": "258 Log Rd Smithfield RI $15,000 sold December2,2025; no road frontage. No current RV-accessible sale established."
+        },
+        {
+          "url": "https://honolulu.craigslist.org/big/reo/d/pahoa-no-credit-check-hawaii-vacant/7889843672.html",
+          "finding": "Molokai Rd Nanawale vacant lot: October19,2025 post is too old to establish current availability. $300 down is not cash price; separate $12,000 cash/$14,000 terms. No import."
+        }
+      ],
+      "official_sources": [
+        "https://www.nanawale.com/documents",
+        "https://www.nanawale.com/faqs",
+        "https://www.nanawale.com/_files/ugd/b838a8_fdbcb1809bfc4a6094f80bf40ee74950.pdf",
+        "https://www.eastcarboncity.org/ordinances-resolutions"
+      ],
+      "official_findings": "Nanawale scanned CC&Rs read visually: I.A-B single-family residential use; II.A temporary trailer/garage habitation ends on permanent-building completion or one year, whichever first; II.C minimum dwelling880sqft excluding garage; III.B prohibits dumping discarded/inoperative vehicles, not a blanket ban on every repair; VI mandatory association membership. Current FAQ gives2027 dues$130/year, not a2026 verified charge. Five listing pages explicitly identify Nanawale; held without changing availability or unknown RV/repair permissions. East Carbon current ordinance index found; older indexed Chapter7 PDF now404, exact parcel zoning and current operative rules not established.",
+      "monitor_diagnosis": "Scheduled run36507068609 success, created2026-09-29T01:15:52Z. Monitor01:16:11+00:00 partial:6new,2price/photo changes,111details,115categories,9errors. Same nine source404s (OR24669/24670/21323/17067,FL26001,MO24619,AR26030,NC23758,AZ26075). Collector operational, no duplicate local crawl. Pages36507588753 success atf261deb9558c7889ff2919051b18042974eab57a.",
+      "automatic_added_ids": [
+        "lc-26374",
+        "lc-26367",
+        "lc-26364",
+        "lc-26361",
+        "lc-24150",
+        "lc-21980"
+      ],
+      "automatic_updated_ids": [
+        "lc-25193",
+        "lc-26175"
+      ],
+      "access": "Connected Chrome inspected public MLS/Homes listings. Stopped at eXp Cloudflare, Hogan browser-check and Zillow Press-and-Hold CAPTCHA; no challenge or login bypass. Nanawale PDF downloaded from linked public URL with HTTP200 after browser PDF navigation timed out. No seller contacts, bookings or infrastructure changes.",
+      "preservation": "All752 baseline records, IDs, first_seen, availability, prices, verification dates, histories and all751 original photo files retained. Five Nanawale legal-review annotations plus derived HI/AK gateway fields and state counts changed. Monitor and flights byte-identical.",
+      "flight_review": "September28 observations retained:84current and167historical. Weekly refresh next dueOctober5.",
+      "github_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/36507068609",
+      "next_states": [
+        "ID",
+        "WA",
+        "VT"
+      ]
     }
   ],
-  "updated_at": "2026-09-28T02:30:04+00:00"
+  "updated_at": "2026-09-29T02:23:35+00:00"
 }
