@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T02:30:04+00:00",
+  "updated_at": "2026-09-29T01:16:11+00:00",
   "states": [
     {
       "code": "AL",
@@ -115,8 +115,8 @@
         "DEN"
       ],
       "analysis": "San Luis Valley даёт много дешёвых лотов, но это высокогорье с морозом, ветром и дорогими коммуникациями.",
-      "total": 44,
-      "photo_candidates": 43,
+      "total": 46,
+      "photo_candidates": 45,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -178,8 +178,8 @@
         "MCO"
       ],
       "analysis": "Дешёвый перелёт и мягкая зима. Многие лоты без подъезда/коммуникаций, wetland, HOA или ураганный риск; летняя работа жаркая.",
-      "total": 29,
-      "photo_candidates": 29,
+      "total": 31,
+      "photo_candidates": 31,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -889,8 +889,8 @@
         "IAH"
       ],
       "analysis": "Много дешёвой земли на западе, обычно далеко от DFW/IAH. Жара, вода, электричество и подъезд определяют полную стоимость.",
-      "total": 33,
-      "photo_candidates": 33,
+      "total": 35,
+      "photo_candidates": 35,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
