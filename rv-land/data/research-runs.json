@@ -1148,7 +1148,90 @@
         "WA",
         "VT"
       ]
+    },
+    {
+      "date": "2026-09-30T02:22:57+00:00",
+      "states": [
+        "ID",
+        "WA",
+        "VT"
+      ],
+      "added_ids": [],
+      "updated_ids": [],
+      "scope": "Garage-first rotation across Idaho, Washington and Vermont. No new ready workshop verified. Sprague bare-land candidate verified in Chrome, but photo preservation blocked; no manual import.",
+      "deferred": [
+        {
+          "url": "https://www.homes.com/property/00-w-alder-st-sprague-wa/jgveqcpb7hr9t/",
+          "price": 15000,
+          "basis": "live_public_page_Chrome",
+          "reason": "00 W Alder St Sprague WA99032,Lincoln County,MLS202614688,parcel0704052000020. Active $15,000,unimproved land,no garage. Approximate listing-map pin47.302017,-117.978399. Fields0.13acre/6000sqft conflict with50x100ft description. City-street frontage; power at boundary and city water/sewer nearby,not verified connected. Photo shows slope; pad/turning costs unknown. RV storage,occupancy,repair and HOA remain unknown. Chrome municipal-code block respected. Original photo GET unavailable,diagnostic HEAD403; no bypass/no import.",
+          "image_source": "https://images.homes.com/listings/102/8362754484-469420812/00-w-alder-st-sprague-wa-primaryphoto.jpg",
+          "follow_up": "Recheck ordinary public photo availability and parcel zoning; current listing is not a ready workshop."
+        },
+        {
+          "url": "https://www.coldwellbanker.com/vt/strafford/194-mine-rd/lid-P00800000H8FXuimeuj7pGyfZxe8uUjwMQXtIJwJ",
+          "price": 15000,
+          "basis": "indexed_public_page_crawled_3_months_ago",
+          "reason": "194 Mine Rd Strafford VT, MLS5080389,3.46ac. Broker describes recreational-only use, EPA deed restrictions against well drilling, and buyer debris removal within one year before closing/final inspection. Cleanup cost/current availability/photo-pin set unverified. No import. EPA site-wide institutional-control documents do not establish exact parcel applicability."
+        },
+        {
+          "url": "https://www.homes.com/property/0-washington-103-long-beach-wa/bz99yhl3jczb5/",
+          "price": 13900,
+          "basis": "live_public_category_Chrome",
+          "reason": "0 Washington103 Long Beach WA,0.44ac across five lots; bare land. Access, wetland conditions, exact parcel pin and RV/repair restrictions not verified; deferred."
+        }
+      ],
+      "negative_searches": [
+        {
+          "url": "https://getlandnow.com/listing_property/3-acres-in-napavine-wa-for-only-12900/",
+          "finding": "Live Chrome primary page explicitly SOLD. 0.30acre,608 Koontz Rd,APN018421001000. $9,900 cash plus $375 document fee; headline financing figure not cash price. No import."
+        },
+        {
+          "url": "https://www.homes.com/property/0-loma-ln-grand-coulee-wa-unit-nwm2479373/46jgvebe2swx5/",
+          "finding": "$15,000,0.073acre,MLS2479373: explicit no direct road access; access/utility easements required. No suitable vehicle access established."
+        },
+        {
+          "url": "https://www.homes.com/property/0-road-68-and-rodeo-dr-pasco-wa/db4c0n7v6nz02/",
+          "finding": "$10,000/month lease, not a purchase within budget."
+        },
+        {
+          "url": "https://elevateidaho.com/listings/98977337/",
+          "finding": "405 6th Ave Nezperce ID Quonset shop/car wash is $114,000; $15,000 is the price reduction, not total purchase price."
+        },
+        {
+          "url": "https://www.homes.com/idaho/land-for-sale/under-15k/",
+          "finding": "Live Chrome category returned no matching properties on September30. Older indexed $3,500 Lowman mining claim and $1,100/month Boise rental are not fee-simple land purchases. This source gap does not prove no market supply."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/vermont/search/under-15000",
+          "finding": "Indexed results include monthly rentals and existing Walker Pit Rd pending record; no new fixed-price garage verified. Existing pending status not overwritten with old active snapshots."
+        }
+      ],
+      "official_sources": [
+        "https://sprague-wa.us/forms",
+        "https://sprague.municipal.codes/",
+        "https://www.straffordvt.org/elizabeth-mine",
+        "https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.docdata&id=0102071"
+      ],
+      "official_findings": "Sprague city forms page links municipal code and RV parking permits, but code returned Chrome ERR_BLOCKED_BY_CLIENT; no permission inferred. Town of Strafford and EPA identify Elizabeth Mine cleanup/institutional controls; exact194 Mine parcel restrictions rely on broker statement, not independently matched deed. No legal approvals claimed.",
+      "monitor_diagnosis": "Scheduled run36654462236 success, created2026-09-30T01:18:16Z. Monitor01:18:32+00:00 partial:4new,0price/status/photo changes,110details,10errors. Nine prior source404s plus NM25444 Angel Fire; errors did not alter availability. Collector operational; no duplicate crawl. Pages36654943443 success for451788feeda00d27e2e746f0366ea41d01899b5d.",
+      "automatic_added_ids": [
+        "lc-26382",
+        "lc-26377",
+        "lc-24817",
+        "lc-23024"
+      ],
+      "automatic_updated_ids": [],
+      "access": "Connected Chrome inspected Homes.com listing/MLS/map/photo and GetLandNow. Public search snapshots distinguished from live pages. Municipal-code browser block and Homes image CDN403 respected; no bypass, seller contact or infrastructure change.",
+      "preservation": "All756 baseline records, IDs, first_seen, listing facts, statuses, histories and original photo bytes retained. Listing database, state analysis, monitor and flights byte-identical. Only research journal updated.",
+      "flight_review": "September28 observations retained:84current and167historical; next weekly refreshOctober5.",
+      "github_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/36654462236",
+      "next_states": [
+        "CT",
+        "DE",
+        "MA"
+      ]
     }
   ],
-  "updated_at": "2026-09-29T02:23:35+00:00"
+  "updated_at": "2026-09-30T02:22:57+00:00"
 }
