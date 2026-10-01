@@ -1231,7 +1231,91 @@
         "DE",
         "MA"
       ]
+    },
+    {
+      "date": "2026-10-01T02:20:48+00:00",
+      "states": [
+        "CT",
+        "DE",
+        "MA"
+      ],
+      "added_ids": [],
+      "updated_ids": [
+        "ls-5154444"
+      ],
+      "scope": "Garage-first rotation across Connecticut, Delaware and Massachusetts, each below ten photo candidates. No new suitable existing workshop verified. Existing Cloran Street cash price and availability refreshed from live Chrome; no manual import with unresolved parcel/image/access evidence.",
+      "deferred": [
+        {
+          "url": "https://www.elainemcdonald.com/property/lot-10-auburn-street-east-longmeadow-ma-01028/108087216/",
+          "price": 9800,
+          "basis": "live_public_page_Chrome",
+          "reason": "Lot10 Auburn St, East Longmeadow MA01028, Hampden County, MLS73563348. Active $9,800;0.10acre/4500sqft;RC;level;water and other utilities at street, connections unverified. Exact parcel pin not established; cadastral photo highlights45/12B50 and has not been reconciled with lot10. Indexed Compass/Coldwell disclosures: probate approval and first refusal for buyer of45 Thompkins Ave MLS73563327. Seller buildability statement is not authority approval. RV storage/occupancy/repair unknown; no import.",
+          "image_source": "https://media.mlspin.com/photo.aspx?mls=73563348&h=900&w=1200&n=0",
+          "additional_sources": [
+            "https://www.compass.com/homedetails/Lot-10-Auburn-St-East-Longmeadow-MA-01028/2F81CV_pid/",
+            "https://www.coldwellbankerhomes.com/ma/east-longmeadow/lot-10-auburn-st/pid_73047503/"
+          ]
+        },
+        {
+          "url": "https://www.coldwellbankerhomes.com/ma/gardner/0-florence-st/pid_73612623/",
+          "price": 7500,
+          "basis": "indexed_public_page_crawled_yesterday",
+          "reason": "0 Florence St Gardner MA01440,MLS73574436,0.2275acre/9910sqft,R1. Sloped wooded lot at end of Florence behind Waterford St properties; utilities at street claimed. Current live status, exact parcel pin, photo set and vehicle access not verified; no import."
+        }
+      ],
+      "negative_searches": [
+        {
+          "url": "https://www.compass.com/homedetails/201-N-Dupont-St-Wilmington-DE-19805/1886409279194779105_lid/",
+          "finding": "Live Chrome confirms SOLD/CLOSED August20,2026 for$10,000,MLS DENC2085948. Previous structure cleared,garageNo,0.03acre,14x79ft. Older indexed active$15,000 is stale; no import."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/delaware/search/under-15000",
+          "finding": "Indexed category results include monthly rent and neighboring NJ/MD listings. No new Delaware cash-purchase workshop verified; this source gap does not establish absence of market supply."
+        },
+        {
+          "url": "https://www.homes.com/property/24-berkeley-rd-norwich-ct/h57ed0yzg6jr4/",
+          "finding": "Garage on0.36acre is not currently listed for sale; indexed property history says sold September17,2018 for$12,000. Old$15,000 asking price is not a current offer."
+        },
+        {
+          "url": "https://www.carbuttirealestate.com/property-search/detail/192/24162046/dunn-st-middletown-ct-06457/",
+          "finding": "Dunn St Middletown CT,MLS24162046,$15,000,0.13acre. Indexed broker details explicitly landlocked behind97 Butternut St,zero road frontage/no current access. No suitable vehicle access established; no import."
+        },
+        {
+          "url": "https://www.crexi.com/properties/1209757/connecticut-1700-great-meadow-road",
+          "finding": "1700 Great Meadow Rd Windsor CT,$15,000,about4ac,AG. Indexed broker description says100%wet/floodplain; no usable RV pad established. No import."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/robbins-rd-chicopee-ma-01020/5586814",
+          "finding": "Robbins Rd Chicopee MA,MLS MyStateMLS12003118,0.25acre. $10,000 is auction deposit for October29,2026 auction,not full cash price; variance needed for buildability. No import."
+        }
+      ],
+      "official_sources": [
+        "https://windhamct.gov/198/Zoning-Enforcement",
+        "https://windhamct.gov/DocumentCenter/View/3377",
+        "https://windhamct.gov/DocumentCenter/View/926/Zoning-Regulations-Effective-August-1-2020-PDF",
+        "https://ecode360.com/WI3663",
+        "https://www.eastlongmeadowma.gov/DocumentCenter/View/17268/East-Longmeadow-Zoning-Bylaw-April-2025"
+      ],
+      "official_findings": "Windham live enforcement page confirms vehicle/zoning enforcement, but newer zoning PDF3377 returned404. Indexed section21.2.7 ties RV storage to dwelling units; applicability to Cloran R2 not established. Older2020 regulations and2023 hearing draft not treated as current adopted permission. Town-linked eCode live index states legislation through January26,2022 and is not proof of current zoning. East Longmeadow official PDF index describes RV storage on a lot with principal residential use, but direct PDF returned404 and full current section was not verified. Both candidates retain unknown RV/repair permissions; no legal approval or blanket prohibition inferred.",
+      "monitor_diagnosis": "Scheduled run36800991983 success,created2026-10-01T01:25:04Z. Monitor01:25:20+00:00 partial:1new,3price changes,110details,10errors. Same ten source404s(OR24669/24670/21323/17067,FL26001,MO24619,AR26030,NC23758,AZ26075,NM25444); errors did not alter availability. Collector operational; no duplicate local crawl. Pages36801482534 success for0f0a6a97b554c4187dd12ff162fb0d5694d779ed.",
+      "automatic_added_ids": [
+        "lc-26386"
+      ],
+      "automatic_updated_ids": [
+        "lc-25624",
+        "lc-25628",
+        "lc-26169"
+      ],
+      "access": "Connected Chrome inspected Cloran LandSearch, Wilmington Compass, East Longmeadow broker and town pages. Indexed leads and partial legal extracts remain labeled. No CAPTCHA,403,robots or login bypass; no seller contact,booking or infrastructure change.",
+      "preservation": "All757 baseline IDs,first_seen,prices,statuses,histories and all756 original photo files retained. One Cloran verification/road note updated; previous indexed-verification provenance retained. Monitor and flights byte-identical.",
+      "flight_review": "September28 observations retained:84current and167historical; next weekly refreshOctober5.",
+      "github_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/36800991983",
+      "next_states": [
+        "NH",
+        "NJ",
+        "ME"
+      ]
     }
   ],
-  "updated_at": "2026-09-30T02:22:57+00:00"
+  "updated_at": "2026-10-01T02:20:48+00:00"
 }
