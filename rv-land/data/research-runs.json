@@ -1315,7 +1315,97 @@
         "NJ",
         "ME"
       ]
+    },
+    {
+      "date": "2026-10-02T02:16:51+00:00",
+      "states": [
+        "NH",
+        "NJ",
+        "ME"
+      ],
+      "added_ids": [],
+      "updated_ids": [
+        "ls-5253565"
+      ],
+      "scope": "Garage-first rotation across New Hampshire, New Jersey and Maine; NH/NJ remain below ten photo candidates. No new suitable existing workshop verified. Fresh Chrome check confirms Caribou asking price decrease from$8,500 to$7,750 and a changed listing photograph. New leads with contradictory identity, access limits or pending status kept in research rather than presented as ready RV bases.",
+      "deferred": [
+        {
+          "url": "https://www.landsearch.com/properties/maple-rd-absecon-nj-08201/5572407",
+          "price": 10000,
+          "basis": "live_public_page_Chrome",
+          "reason": "Maple Rd Absecon NJ08201,Atlantic County,SJSRMLS612076:live Active $10,000,0.11acre/4792sqft,pin39.428,-74.5043,source updatedSeptember20. Photo shows wooded roadside; surveyed boundaries/vehicle entrance not established. Indexed Compass identifies block232 lot3,25x200ft; Zillow/Trulia/Redfin combine history with MLS612077,$100,000,0.69acre. Do not transfer the larger listing price or zoning to the small parcel; exact parcel/photo separation unresolved. No import.",
+          "image_source": "https://cdn.landsearch.com/listings/4WPS9/large/absecon-nj-180216458.jpg",
+          "additional_sources": [
+            "https://www.compass.com/homedetails/Maple-Rd-Absecon-NJ-08201/2GBQ4B_pid/",
+            "https://www.redfin.com/NJ/Absecon/Maple-RD-08201/home/205614849"
+          ]
+        },
+        {
+          "url": "https://www.compass.com/homedetails/109-Brimstone-Rd-Lagrange-ME-04453/2H8V2V_pid/",
+          "price": 12000,
+          "basis": "live_public_page_Chrome",
+          "reason": "109 Brimstone Rd Lagrange ME04453,Penobscot,MLS1682036,1.5acre,map5 lot7-2. Live page says Pending/Contract Signed sinceSeptember30,source updatedSeptember30 15:32; old active indexes not current. Gravel/dirt public road not maintained,rolling slope,gravel parking1-4,No Electric,AssociationNo,MobileHomesAllowedYes according to broker. Mobile-home claim does not establish RV storage/occupancy/repair. Latitude45.199758; longitude incorrectly money-formatted/rounded by source so reliable full pin not established. No import."
+        },
+        {
+          "url": "https://www.redfin.com/ME/Brownville/30-Ladd-Rd-04414/home/205696214",
+          "price": 15000,
+          "basis": "indexed_public_page_crawled_yesterday",
+          "reason": "Lot30 Ladd Rd Barnard Plt ME,MLS1682080,0.39acre,surveyed primitive camping lot. Broker explicitly not buildable; no driveway/electric,dirt road. Exact RV access and storage/repair use unresolved. Camping is not repair approval; no import."
+        }
+      ],
+      "negative_searches": [
+        {
+          "url": "https://www.landsearch.com/properties/frohock-brook-rd-alton-nh-03810/5588938",
+          "finding": "Live Chrome:Lot201&202 Frohock Brook Rd Alton NH,MLS5111866,$15,000,0.64acre,RU. Two unmaintained roads; directions instruct park and walk. Seller explicitly says Alton Shores Association disallows camping and no electricity. No suitable high-RV vehicle approach established; no import."
+        },
+        {
+          "url": "https://www.homes.com/new-hampshire/land-for-sale/under-15k/",
+          "finding": "New indexed Thompson Rd Conway state-owned0.07acre$10,000 lot has no direct road frontage/known access and is aimed at abutters. Berlin Bridge St environmental/tax-debt candidate already retained on review hold; no duplicate."
+        },
+        {
+          "url": "https://www.zillow.com/homedetails/LOT-35-Pit-Rd-Vassalboro-ME-04989/461806383_zpid/",
+          "finding": "Indexed Lot35 Off Pit Rd Vassalboro ME,MLS1658472,10ac: soldAugust20,2026 for$15,000; explicitly landlocked,no recorded access easements/no showings. No import."
+        },
+        {
+          "url": "https://sonata-jones-primary.cluster2.hgsitebuilder.com/land/maine-land-up-to-4-acres",
+          "finding": "Howland small-storage-building lead MLS1103786 is advertised$16,900,not the adjacent$15,000 lot; current availability also unverified. Outside budget; no import."
+        },
+        {
+          "url": "https://www.homes.com/property/0-seaview-ave-lawrence-township-nj-unit-605600/9jwf6mjsy9c9r/",
+          "finding": "Seaview Ave future pole-barn/garage/storage listing already retained asls-5106526,not an existing building; no duplicate or fresh status based on the index."
+        }
+      ],
+      "official_sources": [
+        "https://ecode360.com/28635882",
+        "https://abseconnj.gov/code-enforcement/",
+        "https://www.cariboumaine.org/government/city-ordinances/",
+        "https://www.cariboumaine.org/departments/code-enforcement/"
+      ],
+      "official_findings": "Published Absecon code224-107(A)(2) ties RV storage at private residences to resident ownership,yard/driveway setbacks,no occupancy or utility hookups. This does not authorize standalone vacant-lot storage or repair; exact Maple parcel zoning and any newer amendments not established. Caribou official ordinance/code-enforcement portals located; parcel-specific current approval not established. No legal permissions changed.",
+      "monitor_diagnosis": "Scheduled run36950053875 success,created2026-10-02T01:15:24Z. Monitor01:15:42+00:00 partial:7new,0price/status/photo changes,110details,115categories,10errors. Same ten source404s(OR24669/24670/21323/17067,FL26001,MO24619,AR26030,NC23758,AZ26075,NM25444); no failed-access status changes. Collector operational; no duplicate local crawl. Pages36950539435 success for967b59c2544421653d00d7e578fc103f2d34709c.",
+      "automatic_added_ids": [
+        "lc-26401",
+        "lc-26400",
+        "lc-26399",
+        "lc-26397",
+        "lc-26396",
+        "lc-26394",
+        "lc-26393"
+      ],
+      "automatic_updated_ids": [],
+      "access": "Connected Chrome inspected Maple Road,Caribou,Frohock Brook and Compass Brimstone. Initial stale browser connection recovered through supported browser inventory; no source restrictions bypassed. Indexed leads distinguished from live status. No seller contact,bookings or infrastructure changes.",
+      "preservation": "All764 baseline records,IDs,first_seen,statuses and prior price/status/photo histories retained. All763 original photo files preserved byte-for-byte. Caribou price change appended and its current original image preservation attempted; result recorded below. Monitor and flights byte-identical.",
+      "photo_result": {
+        "saved": 1
+      },
+      "flight_review": "September28 observations retained:84current and167historical; weekly refresh next dueOctober5.",
+      "github_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/36950053875",
+      "next_states": [
+        "MT",
+        "WY",
+        "ND"
+      ]
     }
   ],
-  "updated_at": "2026-10-01T02:20:48+00:00"
+  "updated_at": "2026-10-02T02:16:51+00:00"
 }

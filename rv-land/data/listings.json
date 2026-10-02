@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-02T01:15:42+00:00",
+  "updated_at": "2026-10-02T02:16:51+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -43247,8 +43247,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:28+00:00",
-      "last_seen": "2026-09-13T23:00:23+00:00",
-      "last_verified": "2026-09-13T23:00:23+00:00",
+      "last_seen": "2026-10-02T02:16:51+00:00",
+      "last_verified": "2026-10-02T02:16:51+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -43265,18 +43265,18 @@
       "zip": "04736",
       "county": "Aroostook",
       "kind": "land",
-      "price": 8500.0,
+      "price": 7750.0,
       "known_fees": 0,
-      "total_known": 8500.0,
-      "price_evidence": "Показанная запрашиваемая цена; дополнительные сборы не подтверждены.",
+      "total_known": 7750.0,
+      "price_evidence": "02.10.2026: в публичной карточке LandSearch в Chrome показаны Active sale, полная asking price $7,750 и снижение на $750. Известные дополнительные сборы не заявлены.",
       "acres": 0.14,
       "lat": 46.8463,
       "lng": -68.0086,
       "coord_precision": "listing",
       "status": "active",
-      "status_basis": "indexed_public_page",
-      "source_crawled": "6 days ago",
-      "image_url": "assets/listings/f994c9b1ee78ab3364e7.jpg",
+      "status_basis": "live_public_page",
+      "source_crawled": null,
+      "image_url": "assets/listings/bde866e2991f306b65d9.jpg",
       "image_source_url": "https://www.landsearch.com/properties/19-katahdin-ave-caribou-me-04736/5253565",
       "image_credit": "Listing broker / LandSearch",
       "parcel": null,
@@ -43284,7 +43284,7 @@
       "zoning": "R-1 residential",
       "taxes_note": "2026 $167",
       "road_note": "Юридический подъезд не проверен",
-      "utility_note": "Состояние подключений требует проверки",
+      "utility_note": "По описанию продавца городские коммуникации находятся у улицы. Состав, подключение, состояние и стоимость подключения не подтверждены.",
       "garage_note": "Размеры и состояние не подтверждены",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
@@ -43301,6 +43301,11 @@
         {
           "date": "2026-09-13T22:25:28+00:00",
           "price": 8500.0,
+          "source": "https://www.landsearch.com/properties/19-katahdin-ave-caribou-me-04736/5253565"
+        },
+        {
+          "date": "2026-10-02T02:16:51+00:00",
+          "price": 7750.0,
           "source": "https://www.landsearch.com/properties/19-katahdin-ave-caribou-me-04736/5253565"
         }
       ],
@@ -43346,24 +43351,46 @@
       ],
       "msp_straight_km": 1956,
       "score_parts": {
-        "Цена /25": 16,
+        "Цена /25": 17,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 0,
         "Сезон /10": 2,
         "Дорога /10": 1
       },
-      "score": 19,
-      "image_remote_url": "https://cdn.landsearch.com/listings/4SWtC/large/caribou-me-177370781.jpg",
-      "photo_preserved_at": "2026-09-13T23:05:59+00:00",
+      "score": 20,
+      "image_remote_url": "https://cdn.landsearch.com/listings/4SWtC/large/caribou-me-179825534.jpg",
+      "photo_preserved_at": "2026-10-02T02:16:51+00:00",
       "photo_history": [
         {
           "path": "assets/listings/f994c9b1ee78ab3364e7.jpg",
           "source": "https://www.landsearch.com/properties/19-katahdin-ave-caribou-me-04736/5253565",
           "remote_url": "https://cdn.landsearch.com/listings/4SWtC/large/caribou-me-177370781.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        },
+        {
+          "path": "assets/listings/bde866e2991f306b65d9.jpg",
+          "source": "https://www.landsearch.com/properties/19-katahdin-ave-caribou-me-04736/5253565",
+          "remote_url": "https://cdn.landsearch.com/listings/4SWtC/large/caribou-me-179825534.jpg",
+          "date": "2026-10-02T02:16:51+00:00"
         }
-      ]
+      ],
+      "source_updated": "2026-09-15",
+      "verification_history": [
+        {
+          "date": "2026-09-13T23:00:23+00:00",
+          "basis": "indexed_public_page",
+          "source_crawled": "6 days ago",
+          "source": "https://www.landsearch.com/properties/19-katahdin-ave-caribou-me-04736/5253565"
+        },
+        {
+          "date": "2026-10-02T02:16:51+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landsearch.com/properties/19-katahdin-ave-caribou-me-04736/5253565",
+          "finding": "Connected Chrome: Active $7,750;0.14acre/6098sqft;R-1 residential;MREIS1661939;source updated September15. City utilities at street claimed,not connected services. RV and repair rights remain unknown."
+        }
+      ],
+      "previous_price": 8500.0
     },
     {
       "price_currency": "USD",
