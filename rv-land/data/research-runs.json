@@ -1405,7 +1405,104 @@
         "WY",
         "ND"
       ]
+    },
+    {
+      "date": "2026-10-03T02:22:45+00:00",
+      "states": [
+        "MT",
+        "WY",
+        "ND"
+      ],
+      "added_ids": [],
+      "updated_ids": [
+        "ls-4462332"
+      ],
+      "scope": "Garage-first rotation through three states below ten photo candidates. Refreshed Shelby from its live page, retained its original photo, and added the seller grading warning. No newly researched property cleared availability and location checks for import.",
+      "deferred": [
+        {
+          "url": "https://www.homes.com/property/2205-2nd-st-hanna-wy/v178n6pyh5bsr/",
+          "price": 10000,
+          "basis": "live_public_page_Chrome",
+          "reason": "2205 2nd St, Hanna WY 82327, Carbon, MLS 20256606: live ACTIVE, 0.11 acre / 4,800 sqft, vacant residential land, no HOA claimed, city street, electricity at street and taps available. No existing garage. Homes map center 41.869405,-106.558548 differs from indexed Compass Geo Latitude/Longitude 41.877763,-106.537648; neither was independently resolved to the exact parcel. No import until correct parcel position and RV access/use are established.",
+          "image_source": "https://images.homes.com/listings/102/2233663274-942415312/2205-2nd-st-hanna-wy-primaryphoto.jpg",
+          "additional_sources": [
+            "https://www.compass.com/homedetails/2205-2nd-St-Hanna-WY-82327/LFT2V_pid/"
+          ]
+        },
+        {
+          "url": "https://www.redfin.com/ND/Minto/275-3rd-St-58261/home/104985124",
+          "price": 9900,
+          "basis": "live_public_page_Chrome",
+          "reason": "275 3rd St, Minto ND, Walsh, NorthstarMLS 7066564, parcel 39-0000-12356-000: live Pending since September 30; $9,900 since September 5. Older $11,000/$10,500 active snapshots are stale. Vacant 0.159-acre residential lot, not a garage. No import as a new available RV-base candidate."
+        },
+        {
+          "url": "https://www.trulia.com/home/paul-rd-browning-mt-59417-463470291",
+          "price": 15000,
+          "basis": "older_index_only_access_blocked",
+          "reason": "Paul Rd Browning MT, MRMLS 30073753, parcel 38441504407040000: older index advertises nearly quarter-acre lot and utilities at road. Trulia Chrome presented Press & Hold human verification; stopped. Current availability, exact pin and original photo not verified; no import."
+        },
+        {
+          "url": "https://www.homes.com/property/0-hill-st-superior-wy/r5vhlmgxkgfj3/",
+          "price": 9900,
+          "basis": "indexed_public_page_crawled_3_weeks_ago",
+          "reason": "Superior WY seller states $9,900 cash, separately $2,000 down and $300/month. Stated pin 41.761770,-108.965270. Headline 0.11 acre conflicts with description saying 1 acre; adjacent half-acre is city-owned and is not part of the purchase. Parcel identity, boundaries and RV suitability unresolved; no import."
+        }
+      ],
+      "negative_searches": [
+        {
+          "url": "https://www.mystatemls.com/property/11873185/",
+          "finding": "Public MLS detail fetched October 3 explicitly labels 109 Main Street South, McClusky ND, $15,000 Off Market. This resolves the earlier deferred 2,300-sqft storage-building lead; older broker directory and Properstar Active snapshots are stale. No sale inferred and no listing imported."
+        },
+        {
+          "url": "https://www.mystatemls.com/property/11873206/",
+          "finding": "Adjacent 113 Main Street South, McClusky $3,500 lead: public MLS detail explicitly says no longer active. Not imported."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/wyoming/search/under-15000",
+          "finding": "Live Chrome results show only existing Torrington purchase candidate plus nearby out-of-state listings and rentals; older indexed Rawlins 10-acre $4,999 result not promoted to current availability from category evidence."
+        },
+        {
+          "url": "https://www.homes.com/wyoming/land-for-sale/under-15k/",
+          "finding": "North Brush Creek Saratoga $5,300 is a placer mining claim, not a verified fee-simple RV site. Riverside 0 5th St $7,500 is narrow 32x120ft restricted-residential land. Medicine Bow 505 Idaho remains the already researched legal-review lead. No new suitable existing workshop found."
+        },
+        {
+          "url": "https://www.canyonrealestate.net/property-detail/commerical/311-culbertson-ave-worland",
+          "finding": "Four-bay service garage still described as lease, not a purchase in budget."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/montana/search/under-15000",
+          "finding": "Indexed Montana budget set mixes leases, existing Shelby and previously held Madison County mineral-claim leads. No additional verified whole-property garage purchase established."
+        }
+      ],
+      "official_sources": [
+        "https://codelibrary.amlegal.com/codes/hannawy/latest/overview",
+        "https://codelibrary.amlegal.com/codes/hannawy/latest/hanna_wy/0-0-0-4576",
+        "https://codelibrary.amlegal.com/codes/hannawy/latest/hanna_wy/0-0-0-5028",
+        "https://cityofminto.com/planning-and-zoning"
+      ],
+      "official_findings": "Hanna published 2026 code defines accessory use as subordinate to the main use/building on the same lot (153.004); 153.162 specifies parking requirements and is not permission for independent repair/storage. Exact Hanna parcel zoning and authorization remain unresolved. Minto official planning portal identifies municipal review; no parcel-specific RV or repair approval obtained. All permission fields retained as unknown.",
+      "monitor_diagnosis": "Scheduled run 37085181409 success, created 2026-10-03T01:12:12Z. Monitor 01:12:27+00:00 partial: 2 new, 2 price/status/photo changes, 106 detail pages, 115 categories, 14 errors. All errors are source 404s; four additional failures MI26270 and AR21538/26115/26061. Collector operational; no duplicate local crawl. Pages 37085566283 succeeded for f22f9ca3134dc43296a6a21ae5152bf0f6befffc; parallel cancelled Pages run is superseded.",
+      "automatic_added_ids": [
+        "lc-21973",
+        "lc-13268"
+      ],
+      "automatic_updated_ids": [
+        "lc-25806",
+        "lc-26262"
+      ],
+      "access": "Connected Chrome inspected Wyoming results, Minto, Hanna and Shelby. Trulia human-verification wall respected. Public MLS detail resolved the stale McClusky lead. Browser connection initial timeout recovered using supported inventory. No seller contact, bookings or infrastructure changes.",
+      "preservation": "All 766 baseline IDs, first_seen, prices, statuses and histories retained. All pre-existing photo bytes retained; Shelby uses the identical original photo URL/file. Monitor and flights unchanged.",
+      "photo_result": {
+        "cached": 1
+      },
+      "flight_review": "September 28 observations retained: 84 current and 167 historic; next weekly refresh October 5.",
+      "github_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/37085181409",
+      "next_states": [
+        "SD",
+        "NE",
+        "KS"
+      ]
     }
   ],
-  "updated_at": "2026-10-02T02:16:51+00:00"
+  "updated_at": "2026-10-03T02:22:45+00:00"
 }

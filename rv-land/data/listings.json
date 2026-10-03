@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-03T01:12:27+00:00",
+  "updated_at": "2026-10-03T02:22:45+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -50087,8 +50087,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:28+00:00",
-      "last_seen": "2026-09-13T23:00:23+00:00",
-      "last_verified": "2026-09-13T23:00:23+00:00",
+      "last_seen": "2026-10-03T02:22:45+00:00",
+      "last_verified": "2026-10-03T02:22:45+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -50108,14 +50108,14 @@
       "price": 15000.0,
       "known_fees": 0,
       "total_known": 15000.0,
-      "price_evidence": "Показанная запрашиваемая цена; дополнительные сборы не подтверждены.",
-      "acres": 0.28,
+      "price_evidence": "03.10.2026: публичная карточка LandSearch в Chrome подтверждает Active sale и полную asking price $15,000. Дополнительные расходы сделки не подтверждены.",
+      "acres": 0.281,
       "lat": 48.5032,
       "lng": -111.8638,
       "coord_precision": "listing",
       "status": "active",
-      "status_basis": "indexed_public_page",
-      "source_crawled": "5 days ago",
+      "status_basis": "live_public_page",
+      "source_crawled": null,
       "image_url": "assets/listings/b37dd58cdc79c27d0708.jpg",
       "image_source_url": "https://www.landsearch.com/properties/4th-st-s-shelby-mt-59474/4462332",
       "image_credit": "Listing broker / LandSearch",
@@ -50123,7 +50123,7 @@
       "mls": "MRMLS 30048226",
       "zoning": "1",
       "taxes_note": "2024 $510",
-      "road_note": "Юридический подъезд не проверен",
+      "road_note": "По продавцу: угол 4th St S и 7th Ave S. Юридический подъезд, въезд и разворот высокого 7-метрового RV не проверены.",
       "utility_note": "Состояние подключений требует проверки",
       "garage_note": "Размеры и состояние не подтверждены",
       "rv_storage": "unknown",
@@ -50135,7 +50135,9 @@
       "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "unknown",
-      "flags": [],
+      "flags": [
+        "Продавец прямо указывает необходимость выравнивания площадки; объём земляных работ и их стоимость неизвестны."
+      ],
       "evidence_quote": null,
       "price_history": [
         {
@@ -50202,6 +50204,21 @@
           "source": "https://www.landsearch.com/properties/4th-st-s-shelby-mt-59474/4462332",
           "remote_url": "https://cdn.landsearch.com/listings/4JN4B/large/shelby-mt-161590114.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "source_updated": "2026-10-02",
+      "verification_history": [
+        {
+          "date": "2026-09-13T23:00:23+00:00",
+          "basis": "indexed_public_page",
+          "source_crawled": "5 days ago",
+          "source": "https://www.landsearch.com/properties/4th-st-s-shelby-mt-59474/4462332"
+        },
+        {
+          "date": "2026-10-03T02:22:45+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landsearch.com/properties/4th-st-s-shelby-mt-59474/4462332",
+          "finding": "Chrome: Active $15,000, 0.281 acre / 12,240 sqft, MRMLS 30048226, parcel 21442428108130000; source updated October 2. Grading needed per seller. Same original photo URL confirmed. RV storage, occupancy and repair remain unknown."
         }
       ]
     },
