@@ -279,6 +279,22 @@ def merge_records(previous,incoming):
         prior_id=x['id'] if x['id'] in by_id else urls.get(x['url'].rstrip('/')) or keys.get(normalize_key(x))
         if prior_id:
             old=by_id[prior_id]
+            # An older same-source URL may remain active after a parcel is relisted.
+            # Reading that URL later does not make its older source facts newer.
+            def source_time(value):
+                try:return dt.datetime.fromisoformat(str(value).replace('Z','+00:00')).timestamp()
+                except (ValueError,TypeError,OverflowError):return None
+            old_time=source_time(old.get('source_updated'))
+            new_time=source_time(x.get('source_updated'))
+            if (old.get('source') and old.get('source')==x.get('source')
+                    and old['url'].rstrip('/')!=x['url'].rstrip('/')
+                    and normalize_key(old)==normalize_key(x)
+                    and old_time is not None and new_time is not None and new_time<old_time):
+                retained=dict(old)
+                retained['alternate_urls']=sorted(set(old.get('alternate_urls',[])+[old['url'],x['url']]))
+                by_id[prior_id]=retained
+                urls[x['url'].rstrip('/')]=prior_id
+                continue
             merged=dict(old,**x)
             merged['id']=old['id']
             merged['first_seen']=old.get('first_seen',NOW)

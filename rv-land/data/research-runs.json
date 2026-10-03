@@ -1456,7 +1456,8 @@
         "lc-21287",
         "lc-25759",
         "lc-26338",
-        "lc-24817"
+        "lc-24817",
+        "lc-25806"
       ],
       "scope": "Garage-first rotation through three states below ten photo candidates. Refreshed Shelby from its live page, retained its original photo, and added the seller grading warning. No newly researched property cleared availability and location checks for import.",
       "deferred": [
@@ -1669,6 +1670,22 @@
         "lc-24817": [
           "water"
         ]
+      },
+      "postfix_discovery": {
+        "run_url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/37090054432",
+        "status": "success",
+        "monitor_status": "partial",
+        "read_details": 106,
+        "errors": 14,
+        "added": 0,
+        "sold_ids": [
+          "lc-26114",
+          "lc-26116"
+        ],
+        "new_photo_ids": [
+          "lc-23809"
+        ],
+        "source_conflict": "lc-25806: restored newer October 2 relisting source 26412 after the August 10 source 25806 was reread; added same-source, same-parcel source timestamp guard. All histories and photo files retained."
       }
     }
   ],

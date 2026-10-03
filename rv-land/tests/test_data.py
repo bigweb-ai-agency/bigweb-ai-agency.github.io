@@ -7,6 +7,22 @@ import cache_photos as photos
 import make_analysis as analysis
 
 class ResearchDataTests(unittest.TestCase):
+    def test_older_source_url_cannot_replace_newer_parcel_relisting(self):
+        current={'id':'lc-25806','source':'LandCentury','source_id':'26412',
+                 'url':'https://example.com/new','state':'CO','county':'Costilla',
+                 'parcel':'707-05-790','source_updated':'2026-10-02T19:35:22Z',
+                 'price':6499,'status':'active','image_url':'assets/new.jpg',
+                 'first_seen':'2026-09-14','last_verified':'2026-10-03T01:15:07Z',
+                 'price_history':[{'date':'2026-10-03','price':6499}]}
+        stale=dict(current,source_id='25806',url='https://example.com/old',
+                   parcel='70705790',source_updated='2026-08-10T17:25:16Z',
+                   last_verified='2026-10-03T02:34:08Z',price=7999,image_url='assets/old.jpg')
+        result=b.merge_records([copy.deepcopy(current)],[stale])[0]
+        self.assertEqual({k:v for k,v in result.items() if k!='alternate_urls'},current)
+        self.assertEqual(set(result['alternate_urls']),{current['url'],stale['url']})
+        newer=dict(stale,source_updated='2026-10-04T01:00:00Z',price=6000)
+        self.assertEqual(b.merge_records([current],[newer])[0]['price'],6000)
+
     def test_required_utilities_do_not_inherit_nearby_availability(self):
         for text in ('Electricity available, septic and well required',
                      'Power available. Well and septic system are needed'):
