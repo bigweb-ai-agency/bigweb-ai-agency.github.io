@@ -91,6 +91,15 @@ def flags_from_text(description,kind='land',road=None,utilities=None):
             result[tag]='on_site_claim'
         if tag=='sewer' and re.search(r'(?:existing|working|installed) septic|(?:sewer|septic)[ /:]+connected',t+' '+u) and not re.search(r'(?:sewer|septic).{0,15}not connected',t+' '+u):
             result[tag]='on_site_claim'
+    # Installation requirements are not evidence of an available connection.
+    # In "electricity available, septic and well required", the nearby word
+    # "available" must not transfer to either of the required utilities.
+    utility_word=r'(?:septic(?: system)?|well|water|sewer|electricity|power)'
+    required_pattern=rf'\b{utility_word}(?:\s*(?:,|and|&|/)\s*{utility_word})*\s+(?:(?:is|are)\s+)?(?:required|needed)\b'
+    for required in re.finditer(required_pattern,t+' '+compact(utilities).lower()):
+        clause=required.group()
+        for tag,pat in [('electricity',r'\b(?:electricity|power)\b'),('water',r'\b(?:well|water)\b'),('sewer',r'\b(?:septic|sewer)\b')]:
+            if re.search(pat,clause):result[tag]='unknown'
     risk_patterns=[
         (r'tax deed|quit.?claim','Налоговый/quitclaim deed: проверить право собственности, обременения и страхование титула.'),
         (r'flood (?:zone|plain|risk)|floodplain|floodway','В источнике есть указание на затопление: проверить FEMA и отметку площадки.'),

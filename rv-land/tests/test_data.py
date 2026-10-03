@@ -7,6 +7,17 @@ import cache_photos as photos
 import make_analysis as analysis
 
 class ResearchDataTests(unittest.TestCase):
+    def test_required_utilities_do_not_inherit_nearby_availability(self):
+        for text in ('Electricity available, septic and well required',
+                     'Power available. Well and septic system are needed'):
+            with self.subTest(text=text):
+                flags=b.flags_from_text('',utilities=text)
+                self.assertEqual(flags['electricity'],'available')
+                self.assertEqual(flags['water'],'unknown')
+                self.assertEqual(flags['sewer'],'unknown')
+        available=b.flags_from_text('',utilities='Water available; sewer available; electricity at street')
+        self.assertEqual([available[x] for x in ('water','sewer','electricity')],['available']*3)
+
     def test_island_and_alaska_gateways_do_not_offer_unverified_drive_estimates(self):
         rows=[{'id':state,'state':state,'lat':lat,'lng':lng,'price':9000,
                'total_known':9000,'status':'active','price_basis':'asking_cash'}

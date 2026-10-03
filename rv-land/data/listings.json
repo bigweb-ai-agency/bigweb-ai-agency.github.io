@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-03T02:22:45+00:00",
+  "updated_at": "2026-10-03T02:30:06+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -97584,7 +97584,7 @@
       "garage_size": null,
       "electricity": "available",
       "water": "unknown",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [],
@@ -97647,11 +97647,19 @@
         "Цена /25": 11,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 7,
         "Дорога /10": 7
       },
-      "score": 27
+      "score": 26,
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:30:06+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/florida/025-acres-for-sale-in-florahome-florida-21973",
+          "finding": "Corrected sewer available to unknown: existing source utility note says \"Electricity available, septic and well required\". A required installation is not an available connection. Original source verification date, price, status and photo preserved; no new source observation claimed."
+        }
+      ]
     },
     {
       "price_currency": "USD",

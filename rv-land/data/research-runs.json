@@ -1415,7 +1415,8 @@
       ],
       "added_ids": [],
       "updated_ids": [
-        "ls-4462332"
+        "ls-4462332",
+        "lc-21973"
       ],
       "scope": "Garage-first rotation through three states below ten photo candidates. Refreshed Shelby from its live page, retained its original photo, and added the seller grading warning. No newly researched property cleared availability and location checks for import.",
       "deferred": [
@@ -1501,7 +1502,8 @@
         "SD",
         "NE",
         "KS"
-      ]
+      ],
+      "processing_correction": "Live-map QA found Florahome lc-21973 incorrectly marked sewer available although the stored seller note requires septic and well. Corrected sewer to unknown and fixed the collector so required/needed utilities cannot inherit nearby availability. Regression tests retain positive connection evidence. No price, availability, location, photo or original verification date changed."
     }
   ],
   "updated_at": "2026-10-03T02:22:45+00:00"
