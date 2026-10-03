@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-03T02:30:06+00:00",
+  "updated_at": "2026-10-03T02:37:13+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -5289,7 +5289,7 @@
       "garage_size": null,
       "electricity": "available",
       "water": "unknown",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
@@ -5348,11 +5348,11 @@
         "Цена /25": 16,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 30,
+      "score": 29,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/02/6a9827d3a5963-1788356563.jpg",
       "photo_preserved_at": "2026-10-03T01:12:27+00:00",
       "photo_history": [
@@ -5361,6 +5361,17 @@
           "source": "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-saint-johns-arizona-26117",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/02/6a9827d3a5963-1788356563.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-saint-johns-arizona-26117",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -8528,8 +8539,8 @@
       "existing_garage": false,
       "garage_size": null,
       "electricity": "available",
-      "water": "available",
-      "sewer": "available",
+      "water": "unknown",
+      "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [
@@ -8589,11 +8600,11 @@
         "Цена /25": 24,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 3,
+        "Коммуникации /10": 1,
         "Сезон /10": 8,
         "Дорога /10": 5
       },
-      "score": 40,
+      "score": 38,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/19/6a8627403625f-1787176768.jpg",
       "photo_preserved_at": "2026-10-03T01:12:27+00:00",
       "photo_history": [
@@ -8602,6 +8613,18 @@
           "source": "https://www.landcentury.com/land-for-sale/arkansas/036-acres-for-sale-in-horseshoe-bend-arkansas-25919",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/19/6a8627403625f-1787176768.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/arkansas/036-acres-for-sale-in-horseshoe-bend-arkansas-25919",
+          "previous_values": {
+            "sewer": "available",
+            "water": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -8798,7 +8821,7 @@
       "garage_size": null,
       "electricity": "unknown",
       "water": "available",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
@@ -8858,11 +8881,11 @@
         "Цена /25": 20,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 34,
+      "score": 33,
       "image_remote_url": "https://storage.portalstation.com/uploads/2026/07/08/6a4ea9fcc8517-1783540220.jpg",
       "photo_preserved_at": "2026-10-03T01:12:27+00:00",
       "photo_history": [
@@ -8871,6 +8894,17 @@
           "source": "https://www.landcentury.com/land-for-sale/california/0424-acres-for-sale-in-willits-ca-25442",
           "remote_url": "https://storage.portalstation.com/uploads/2026/07/08/6a4ea9fcc8517-1783540220.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/california/0424-acres-for-sale-in-willits-ca-25442",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Public Water,Septic Needed. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -9309,8 +9343,8 @@
       "existing_garage": false,
       "garage_size": null,
       "electricity": "unknown",
-      "water": "available",
-      "sewer": "available",
+      "water": "unknown",
+      "sewer": "unknown",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
@@ -9370,11 +9404,11 @@
         "Цена /25": 18,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 0,
         "Сезон /10": 6,
         "Дорога /10": 8
       },
-      "score": 34,
+      "score": 32,
       "image_remote_url": "https://storage.portalstation.com/uploads/2026/09/15/6aa9270308eaa-1789470467.jpg",
       "photo_preserved_at": "2026-09-28T01:19:20+00:00",
       "photo_history": [
@@ -9383,6 +9417,18 @@
           "source": "https://www.landcentury.com/land-for-sale/california/5-acres-for-sale-in-barstow-ca-25878",
           "remote_url": "https://storage.portalstation.com/uploads/2026/08/14/6a7f37a05f9d8-1786722208.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/california/5-acres-for-sale-in-barstow-ca-25878",
+          "previous_values": {
+            "sewer": "available",
+            "water": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Well and Septic Needed. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -9440,7 +9486,7 @@
       "existing_garage": false,
       "garage_size": null,
       "electricity": "unknown",
-      "water": "available",
+      "water": "unknown",
       "sewer": "none",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
@@ -9500,11 +9546,11 @@
         "Цена /25": 10,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 1,
+        "Коммуникации /10": 0,
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 23,
+      "score": 22,
       "image_remote_url": "https://storage.portalstation.com/uploads/2026/09/15/6aa92730738bd-1789470512.jpg",
       "photo_preserved_at": "2026-09-28T01:19:20+00:00",
       "photo_history": [
@@ -9513,6 +9559,17 @@
           "source": "https://www.landcentury.com/land-for-sale/california/1603-acres-for-sale-in-needles-ca-25861",
           "remote_url": "https://storage.portalstation.com/uploads/2026/08/13/6a7dd8dc3cbf9-1786632412.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/california/1603-acres-for-sale-in-needles-ca-25861",
+          "previous_values": {
+            "water": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Well and Septic Needed. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -9951,7 +10008,7 @@
       "garage_size": null,
       "electricity": "available",
       "water": "unknown",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
@@ -10010,11 +10067,11 @@
         "Цена /25": 22,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 6,
         "Дорога /10": 8
       },
-      "score": 38,
+      "score": 37,
       "image_remote_url": "https://storage.portalstation.com/uploads/2026/08/22/6a89fc6960ab7-1787427945.jpg",
       "photo_preserved_at": "2026-09-28T01:19:20+00:00",
       "photo_history": [
@@ -10023,6 +10080,17 @@
           "source": "https://www.landcentury.com/land-for-sale/california/235-acres-for-sale-in-california-city-california-25489",
           "remote_url": "https://storage.portalstation.com/uploads/2026/08/22/6a89fc6960ab7-1787427945.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/california/235-acres-for-sale-in-california-city-california-25489",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -10209,7 +10277,7 @@
       "existing_garage": false,
       "garage_size": null,
       "electricity": "unknown",
-      "water": "available",
+      "water": "unknown",
       "sewer": "none",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
@@ -10270,11 +10338,11 @@
         "Цена /25": 14,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 1,
+        "Коммуникации /10": 0,
         "Сезон /10": 6,
         "Дорога /10": 7
       },
-      "score": 28,
+      "score": 27,
       "image_remote_url": "https://storage.portalstation.com/uploads/2026/08/05/6a73308585936-1785933957.jpg",
       "photo_preserved_at": "2026-09-28T01:19:20+00:00",
       "photo_history": [
@@ -10283,6 +10351,17 @@
           "source": "https://www.landcentury.com/land-for-sale/california/214-acres-for-sale-in-newberry-springs-ca-25756",
           "remote_url": "https://storage.portalstation.com/uploads/2026/08/05/6a73308585936-1785933957.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/california/214-acres-for-sale-in-newberry-springs-ca-25756",
+          "previous_values": {
+            "water": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Well and Septic Needed. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -10339,7 +10418,7 @@
       "garage_size": null,
       "electricity": "available",
       "water": "unknown",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [],
@@ -10396,11 +10475,11 @@
         "Цена /25": 18,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 6,
         "Дорога /10": 2
       },
-      "score": 28,
+      "score": 27,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/06/10/6a29c594d1d13-1781122452.jpg",
       "photo_preserved_at": "2026-09-28T01:19:20+00:00",
       "photo_history": [
@@ -10409,6 +10488,17 @@
           "source": "https://www.landcentury.com/land-for-sale/california/147-acres-for-sale-in-alturas-california-25132",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/06/10/6a29c594d1d13-1781122452.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/california/147-acres-for-sale-in-alturas-california-25132",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -10726,7 +10816,7 @@
       "garage_size": null,
       "electricity": "available",
       "water": "unknown",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [
@@ -10786,11 +10876,11 @@
         "Цена /25": 24,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 6,
         "Дорога /10": 3
       },
-      "score": 35,
+      "score": 34,
       "image_remote_url": "https://storage.portalstation.com/uploads/2026/05/26/6a159a1480f34-1779800596.jpg",
       "photo_preserved_at": "2026-09-28T01:19:20+00:00",
       "photo_history": [
@@ -10799,6 +10889,17 @@
           "source": "https://www.landcentury.com/land-for-sale/california/094-acres-for-sale-in-christensen-ca-24951",
           "remote_url": "https://storage.portalstation.com/uploads/2026/05/26/6a159a1480f34-1779800596.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/california/094-acres-for-sale-in-christensen-ca-24951",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Well and Septic Needed. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -10859,7 +10960,7 @@
       "garage_size": null,
       "electricity": "available",
       "water": "unknown",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [
@@ -10918,11 +11019,11 @@
         "Цена /25": 16,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 26,
+      "score": 25,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/07/19/6a5cb7aa5456f-1784461226.jpg",
       "photo_preserved_at": "2026-09-28T01:19:20+00:00",
       "photo_history": [
@@ -10931,6 +11032,17 @@
           "source": "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-san-luis-colorado-25566",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/07/19/6a5cb7aa5456f-1784461226.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-san-luis-colorado-25566",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -13085,7 +13197,7 @@
       "garage_size": null,
       "electricity": "available",
       "water": "unknown",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [
@@ -13144,11 +13256,11 @@
         "Цена /25": 11,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 7,
         "Дорога /10": 4
       },
-      "score": 24,
+      "score": 23,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/01/6a97026381dad-1788281443.jpg",
       "photo_preserved_at": "2026-09-29T01:16:11+00:00",
       "photo_history": [
@@ -13157,6 +13269,17 @@
           "source": "https://www.landcentury.com/land-for-sale/florida/058-acres-for-sale-in-chipley-florida-26105",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/01/6a97026381dad-1788281443.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/florida/058-acres-for-sale-in-chipley-florida-26105",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -13216,7 +13339,7 @@
       "garage_size": null,
       "electricity": "available",
       "water": "unknown",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
@@ -13275,11 +13398,11 @@
         "Цена /25": 9,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 7,
         "Дорога /10": 7
       },
-      "score": 25,
+      "score": 24,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/31/6a95cc1d7d0f7-1788202013.jpg",
       "photo_preserved_at": "2026-09-29T01:16:11+00:00",
       "photo_history": [
@@ -13288,6 +13411,17 @@
           "source": "https://www.landcentury.com/land-for-sale/florida/022-acres-for-sale-in-punta-gorda-florida-26085",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/31/6a95cc1d7d0f7-1788202013.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/florida/022-acres-for-sale-in-punta-gorda-florida-26085",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -14000,7 +14134,7 @@
       "garage_size": null,
       "electricity": "available",
       "water": "unknown",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
@@ -14059,11 +14193,11 @@
         "Цена /25": 9,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 7,
         "Дорога /10": 8
       },
-      "score": 26,
+      "score": 25,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2025/11/11/69136b286bd2b-1762880296.jpg",
       "photo_preserved_at": "2026-09-29T01:16:11+00:00",
       "photo_history": [
@@ -14072,6 +14206,17 @@
           "source": "https://www.landcentury.com/land-for-sale/florida/036-acres-for-sale-in-interlachen-florida-22126",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2025/11/11/69136b286bd2b-1762880296.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/florida/036-acres-for-sale-in-interlachen-florida-22126",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -14127,7 +14272,7 @@
       "garage_size": null,
       "electricity": "available",
       "water": "unknown",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
@@ -14187,11 +14332,11 @@
         "Цена /25": 8,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 7,
         "Дорога /10": 4
       },
-      "score": 21,
+      "score": 20,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/14/6aa80044a4412-1789395012.jpg",
       "photo_preserved_at": "2026-09-29T01:16:11+00:00",
       "photo_history": [
@@ -14206,6 +14351,17 @@
           "source": "https://www.landcentury.com/land-for-sale/florida/0241-acres-for-sale-in-defuniak-springs-florida-26104",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/14/6aa80044a4412-1789395012.jpg",
           "date": "2026-09-18T01:10:17+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/florida/0241-acres-for-sale-in-defuniak-springs-florida-26104",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -14262,7 +14418,7 @@
       "garage_size": null,
       "electricity": "none",
       "water": "none",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
@@ -14321,11 +14477,11 @@
         "Цена /25": 14,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 1,
+        "Коммуникации /10": 0,
         "Сезон /10": 7,
         "Дорога /10": 8
       },
-      "score": 30,
+      "score": 29,
       "image_remote_url": "https://storage.portalstation.com/uploads/2026/09/23/6ab434de8b1e1-1790194910.jpg",
       "photo_preserved_at": "2026-09-29T01:16:11+00:00",
       "photo_history": [
@@ -14334,6 +14490,17 @@
           "source": "https://www.landcentury.com/land-for-sale/florida/023-acres-for-sale-in-lake-placid-fl-26158",
           "remote_url": "https://storage.portalstation.com/uploads/2026/09/06/6a9d630612c33-1788699398.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/florida/023-acres-for-sale-in-lake-placid-fl-26158",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Well Needed, Septic Needed, Electric at the Road. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -14646,7 +14813,7 @@
       "garage_size": null,
       "electricity": "available",
       "water": "unknown",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [],
@@ -14703,11 +14870,11 @@
         "Цена /25": 7,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 7,
         "Дорога /10": 7
       },
-      "score": 23,
+      "score": 22,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/02/6a987984b82c8-1788377476.jpg",
       "photo_preserved_at": "2026-09-29T01:16:11+00:00",
       "photo_history": [
@@ -14716,6 +14883,17 @@
           "source": "https://www.landcentury.com/land-for-sale/florida/022-acres-for-sale-in-trenton-florida-26126",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/02/6a987984b82c8-1788377476.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/florida/022-acres-for-sale-in-trenton-florida-26126",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -14900,8 +15078,8 @@
       "existing_garage": false,
       "garage_size": null,
       "electricity": "available",
-      "water": "available",
-      "sewer": "available",
+      "water": "unknown",
+      "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [
@@ -14960,11 +15138,11 @@
         "Цена /25": 16,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 3,
+        "Коммуникации /10": 1,
         "Сезон /10": 7,
         "Дорога /10": 8
       },
-      "score": 34,
+      "score": 32,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/28/6a91c60239341-1787938306.jpg",
       "photo_preserved_at": "2026-09-29T01:16:11+00:00",
       "photo_history": [
@@ -14973,6 +15151,18 @@
           "source": "https://www.landcentury.com/land-for-sale/florida/020-acres-for-sale-in-interlachen-florida-26064",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/28/6a91c60239341-1787938306.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/florida/020-acres-for-sale-in-interlachen-florida-26064",
+          "previous_values": {
+            "sewer": "available",
+            "water": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -15030,7 +15220,7 @@
       "garage_size": null,
       "electricity": "available",
       "water": "unknown",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
@@ -15090,11 +15280,11 @@
         "Цена /25": 22,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 7,
         "Дорога /10": 4
       },
-      "score": 35,
+      "score": 34,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/11/6aa412d14428a-1789137617.jpg",
       "photo_preserved_at": "2026-09-29T01:16:11+00:00",
       "photo_history": [
@@ -15103,6 +15293,17 @@
           "source": "https://www.landcentury.com/land-for-sale/florida/013-acres-for-sale-in-defuniak-springs-florida-26118",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/11/6aa412d14428a-1789137617.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/florida/013-acres-for-sale-in-defuniak-springs-florida-26118",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -15161,7 +15362,7 @@
       "garage_size": null,
       "electricity": "available",
       "water": "unknown",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
@@ -15221,11 +15422,11 @@
         "Цена /25": 22,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 7,
         "Дорога /10": 4
       },
-      "score": 35,
+      "score": 34,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/11/6aa416be739b1-1789138622.jpg",
       "photo_preserved_at": "2026-09-29T01:16:11+00:00",
       "photo_history": [
@@ -15234,6 +15435,17 @@
           "source": "https://www.landcentury.com/land-for-sale/florida/011-acres-for-sale-in-defuniak-springs-florida-26112",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/11/6aa416be739b1-1789138622.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/florida/011-acres-for-sale-in-defuniak-springs-florida-26112",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -15420,7 +15632,7 @@
       "garage_size": null,
       "electricity": "available",
       "water": "unknown",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [
@@ -15479,11 +15691,11 @@
         "Цена /25": 6,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 8,
         "Дорога /10": 8
       },
-      "score": 24,
+      "score": 23,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/05/16/6a08f56407260-1778972004.jpg",
       "photo_preserved_at": "2026-09-29T01:16:11+00:00",
       "photo_history": [
@@ -15492,6 +15704,17 @@
           "source": "https://www.landcentury.com/land-for-sale/georgia/052-acres-for-sale-in-sparta-georgia-24853",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/05/16/6a08f56407260-1778972004.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/georgia/052-acres-for-sale-in-sparta-georgia-24853",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -16195,8 +16418,8 @@
       "existing_garage": false,
       "garage_size": null,
       "electricity": "available",
-      "water": "available",
-      "sewer": "available",
+      "water": "unknown",
+      "sewer": "unknown",
       "no_hoa": "seller_claim",
       "road_access": "unknown",
       "flags": [
@@ -16255,11 +16478,11 @@
         "Цена /25": 10,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 3,
+        "Коммуникации /10": 1,
         "Сезон /10": 8,
         "Дорога /10": 6
       },
-      "score": 27,
+      "score": 25,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/12/6aa59126b2af9-1789235494.jpg",
       "photo_preserved_at": "2026-09-29T01:16:11+00:00",
       "photo_history": [
@@ -16268,6 +16491,18 @@
           "source": "https://www.landcentury.com/land-for-sale/georgia/150-acres-for-sale-in-abbeville-georgia-26222",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/12/6aa59126b2af9-1789235494.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/georgia/150-acres-for-sale-in-abbeville-georgia-26222",
+          "previous_values": {
+            "sewer": "available",
+            "water": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available in the street; well and septic needed. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -16837,7 +17072,7 @@
       "garage_size": null,
       "electricity": "available",
       "water": "unknown",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [],
@@ -16894,11 +17129,11 @@
         "Цена /25": 20,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 4,
         "Дорога /10": 10
       },
-      "score": 36,
+      "score": 35,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/03/14/69b548bac87e0-1773488314.jpg",
       "photo_preserved_at": "2026-10-01T01:25:20+00:00",
       "photo_history": [
@@ -16907,6 +17142,17 @@
           "source": "https://www.landcentury.com/land-for-sale/illinois/047-acres-for-sale-in-alton-illinois-24147",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/03/14/69b548bac87e0-1773488314.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/illinois/047-acres-for-sale-in-alton-illinois-24147",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -17104,7 +17350,7 @@
       "garage_size": null,
       "electricity": "available",
       "water": "unknown",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [],
@@ -17164,11 +17410,11 @@
         "Цена /25": 23,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 4,
         "Дорога /10": 6
       },
-      "score": 35,
+      "score": 34,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/02/13/698f64af1f7ce-1771005103.jpg",
       "photo_preserved_at": "2026-10-01T01:25:20+00:00",
       "photo_history": [
@@ -17177,6 +17423,17 @@
           "source": "https://www.landcentury.com/land-for-sale/illinois/04-acres-for-sale-in-cairo-illinois-23900",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/02/13/698f64af1f7ce-1771005103.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/illinois/04-acres-for-sale-in-cairo-illinois-23900",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -17491,7 +17748,7 @@
       "existing_garage": false,
       "garage_size": null,
       "electricity": "available",
-      "water": "available",
+      "water": "unknown",
       "sewer": "none",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
@@ -17551,11 +17808,11 @@
         "Цена /25": 20,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 4,
         "Дорога /10": 10
       },
-      "score": 36,
+      "score": 35,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/11/6aa44c33e6016-1789152307.jpg",
       "photo_preserved_at": "2026-09-29T01:16:11+00:00",
       "photo_history": [
@@ -17564,6 +17821,17 @@
           "source": "https://www.landcentury.com/land-for-sale/illinois/028-acres-for-sale-in-alton-illinois-24404",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/11/6aa44c33e6016-1789152307.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/illinois/028-acres-for-sale-in-alton-illinois-24404",
+          "previous_values": {
+            "water": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -20950,7 +21218,7 @@
       "garage_size": null,
       "electricity": "available",
       "water": "unknown",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [
@@ -21009,11 +21277,11 @@
         "Цена /25": 24,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 8,
         "Дорога /10": 0
       },
-      "score": 34,
+      "score": 33,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2024/02/20/65d4eaa12e8e0-1708452513.jpg",
       "photo_preserved_at": "2026-09-29T02:25:12+00:00",
       "photo_history": [
@@ -21022,6 +21290,17 @@
           "source": "https://www.landcentury.com/land-for-sale/mississippi/011-acres-for-sale-in-bay-st-louis-mississippi-14353",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2024/02/20/65d4eaa12e8e0-1708452513.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/mississippi/011-acres-for-sale-in-bay-st-louis-mississippi-14353",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -21079,7 +21358,7 @@
       "garage_size": null,
       "electricity": "available",
       "water": "unknown",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [
@@ -21138,11 +21417,11 @@
         "Цена /25": 14,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 8,
         "Дорога /10": 0
       },
-      "score": 24,
+      "score": 23,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2024/02/27/65de1df2e8332-1709055474.jpg",
       "photo_preserved_at": "2026-09-29T02:25:12+00:00",
       "photo_history": [
@@ -21151,6 +21430,17 @@
           "source": "https://www.landcentury.com/land-for-sale/mississippi/049-acres-for-sale-in-waveland-mississippi-14488",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2024/02/27/65de1df2e8332-1709055474.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/mississippi/049-acres-for-sale-in-waveland-mississippi-14488",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -21208,7 +21498,7 @@
       "garage_size": null,
       "electricity": "available",
       "water": "unknown",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [
@@ -21267,11 +21557,11 @@
         "Цена /25": 22,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 8,
         "Дорога /10": 0
       },
-      "score": 32,
+      "score": 31,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2024/01/26/65b3ce76e953d-1706282614.jpg",
       "photo_preserved_at": "2026-09-29T02:25:12+00:00",
       "photo_history": [
@@ -21280,6 +21570,17 @@
           "source": "https://www.landcentury.com/land-for-sale/mississippi/022-acres-for-sale-in-bay-st-louis-mississippi-13893",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2024/01/26/65b3ce76e953d-1706282614.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/mississippi/022-acres-for-sale-in-bay-st-louis-mississippi-13893",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -21335,7 +21636,7 @@
       "garage_size": null,
       "electricity": "available",
       "water": "unknown",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [
@@ -21399,11 +21700,11 @@
         "Цена /25": 9,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 23,
+      "score": 22,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/06/08/6a272816a724b-1780951062.jpg",
       "photo_preserved_at": "2026-09-28T01:19:20+00:00",
       "photo_history": [
@@ -21418,6 +21719,17 @@
           "source": "https://www.landcentury.com/land-for-sale/missouri/541-acres-for-sale-in-edwards-missouri-25096",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/06/08/6a272816a724b-1780951062.jpg",
           "date": "2026-09-14T01:14:48+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/missouri/541-acres-for-sale-in-edwards-missouri-25096",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -24068,7 +24380,7 @@
       "garage_size": null,
       "electricity": "on_site_claim",
       "water": "none",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
@@ -24127,11 +24439,11 @@
         "Цена /25": 19,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 4,
+        "Коммуникации /10": 3,
         "Сезон /10": 5,
         "Дорога /10": 1
       },
-      "score": 29,
+      "score": 28,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/10/6a7a1866651a5-1786386534.jpg",
       "photo_preserved_at": "2026-09-30T01:18:32+00:00",
       "photo_history": [
@@ -24140,6 +24452,17 @@
           "source": "https://www.landcentury.com/land-for-sale/nevada/103-acres-for-sale-in-elko-nevada-25811",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/10/6a7a1866651a5-1786386534.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/nevada/103-acres-for-sale-in-elko-nevada-25811",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -30634,7 +30957,7 @@
       "garage_size": null,
       "electricity": "available",
       "water": "unknown",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [
@@ -30694,11 +31017,11 @@
         "Цена /25": 14,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 4,
         "Дорога /10": 4
       },
-      "score": 24,
+      "score": 23,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2025/10/06/68e3ef3f6a8ea-1759768383.jpg",
       "photo_preserved_at": "2026-09-30T01:18:32+00:00",
       "photo_history": [
@@ -30707,6 +31030,17 @@
           "source": "https://www.landcentury.com/land-for-sale/oregon/154-acres-for-sale-in-sprague-river-oregon-22723",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2025/10/06/68e3ef3f6a8ea-1759768383.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/oregon/154-acres-for-sale-in-sprague-river-oregon-22723",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -30764,7 +31098,7 @@
       "garage_size": null,
       "electricity": "available",
       "water": "unknown",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [
@@ -30824,11 +31158,11 @@
         "Цена /25": 14,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 4,
         "Дорога /10": 4
       },
-      "score": 24,
+      "score": 23,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2025/10/03/68e006ec1ec8d-1759512300.jpg",
       "photo_preserved_at": "2026-09-30T01:18:32+00:00",
       "photo_history": [
@@ -30837,6 +31171,17 @@
           "source": "https://www.landcentury.com/land-for-sale/oregon/153-acres-for-sale-in-chiloquin-oregon-22699",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2025/10/03/68e006ec1ec8d-1759512300.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/oregon/153-acres-for-sale-in-chiloquin-oregon-22699",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
         }
       ]
     },
@@ -31541,7 +31886,7 @@
       "garage_size": null,
       "electricity": "available",
       "water": "none",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [
@@ -31606,11 +31951,11 @@
         "Цена /25": 12,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 4,
         "Дорога /10": 5
       },
-      "score": 23,
+      "score": 22,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/09/6aa1c2f33acd5-1788986099.jpg",
       "photo_preserved_at": "2026-10-01T01:25:20+00:00",
       "photo_history": [
@@ -31621,7 +31966,18 @@
           "date": "2026-09-13T23:05:59+00:00"
         }
       ],
-      "previous_price": 11700.0
+      "previous_price": 11700.0,
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/pennsylvania/49-acres-for-sale-in-darlington-pennsylvania-25624",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
+        }
+      ]
     },
     {
       "price_currency": "USD",
@@ -86089,7 +86445,7 @@
       "garage_size": null,
       "electricity": "on_site_claim",
       "water": "none",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
@@ -86154,14 +86510,25 @@
         "Цена /25": 13,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 4,
+        "Коммуникации /10": 3,
         "Сезон /10": 3,
         "Дорога /10": 6
       },
-      "score": 26,
+      "score": 25,
       "legacy": false,
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/colorado/023-acres-for-sale-in-rye-colorado-25821"
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/023-acres-for-sale-in-rye-colorado-25821",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
+        }
       ]
     },
     {
@@ -86738,7 +87105,7 @@
       "garage_size": null,
       "electricity": "on_site_claim",
       "water": "none",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
@@ -86803,14 +87170,25 @@
         "Цена /25": 16,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 4,
+        "Коммуникации /10": 3,
         "Сезон /10": 3,
         "Дорога /10": 6
       },
-      "score": 29,
+      "score": 28,
       "legacy": false,
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/colorado/034-acres-for-sale-in-rye-colorado-25807"
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/034-acres-for-sale-in-rye-colorado-25807",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
+        }
       ]
     },
     {
@@ -87527,7 +87905,7 @@
       "garage_size": null,
       "electricity": "available",
       "water": "unknown",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [
@@ -87592,14 +87970,25 @@
         "Цена /25": 5,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 6,
         "Дорога /10": 8
       },
-      "score": 21,
+      "score": 20,
       "legacy": false,
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/california/020-acres-for-sale-in-lake-elsinore-california-25614"
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/california/020-acres-for-sale-in-lake-elsinore-california-25614",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
+        }
       ]
     },
     {
@@ -91285,7 +91674,7 @@
       "garage_size": null,
       "electricity": "available",
       "water": "unknown",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [],
@@ -91348,14 +91737,25 @@
         "Цена /25": 25,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 8,
         "Дорога /10": 5
       },
-      "score": 40,
+      "score": 39,
       "legacy": false,
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/arkansas/036-acres-for-sale-in-cherokee-village-arkansas-24990"
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/arkansas/036-acres-for-sale-in-cherokee-village-arkansas-24990",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
+        }
       ]
     },
     {
@@ -91412,7 +91812,7 @@
       "garage_size": null,
       "electricity": "available",
       "water": "unknown",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [
@@ -91478,14 +91878,25 @@
         "Цена /25": 18,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 6,
         "Дорога /10": 8
       },
-      "score": 34,
+      "score": 33,
       "legacy": false,
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/arizona/110-acres-for-sale-in-meadview-arizona-21287"
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/110-acres-for-sale-in-meadview-arizona-21287",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
+        }
       ]
     },
     {
@@ -92057,7 +92468,7 @@
       "garage_size": null,
       "electricity": "available",
       "water": "unknown",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
@@ -92124,14 +92535,25 @@
         "Цена /25": 7,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 7,
         "Дорога /10": 0
       },
-      "score": 16,
+      "score": 15,
       "legacy": false,
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/texas/023-acres-for-sale-in-el-paso-texas-25759"
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/texas/023-acres-for-sale-in-el-paso-texas-25759",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
+        }
       ]
     },
     {
@@ -94143,7 +94565,7 @@
       "garage_size": null,
       "electricity": "available",
       "water": "unknown",
-      "sewer": "available",
+      "sewer": "unknown",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
@@ -94211,14 +94633,25 @@
         "Цена /25": 6,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 7,
         "Дорога /10": 4
       },
-      "score": 19,
+      "score": 18,
       "legacy": false,
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/florida/130-acres-for-sale-in-marianna-florida-26338"
+      ],
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/florida/130-acres-for-sale-in-marianna-florida-26338",
+          "previous_values": {
+            "sewer": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
+        }
       ]
     },
     {
@@ -96337,7 +96770,7 @@
       "existing_garage": false,
       "garage_size": null,
       "electricity": "unknown",
-      "water": "available",
+      "water": "unknown",
       "sewer": "unknown",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
@@ -96404,11 +96837,22 @@
         "Цена /25": 22,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 1,
+        "Коммуникации /10": 0,
         "Сезон /10": 6,
         "Дорога /10": 7
       },
-      "score": 36
+      "score": 35,
+      "verification_history": [
+        {
+          "date": "2026-10-03T02:37:13+00:00",
+          "basis": "parser_correction_of_existing_evidence",
+          "source": "https://www.landcentury.com/land-for-sale/california/021-acres-for-sale-in-california-city-ca-24817",
+          "previous_values": {
+            "water": "available"
+          },
+          "finding": "Stored utility note explicitly requires installation: Well and Septic Needed. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
+        }
+      ]
     },
     {
       "price_currency": "USD",

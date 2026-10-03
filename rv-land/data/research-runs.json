@@ -1416,7 +1416,47 @@
       "added_ids": [],
       "updated_ids": [
         "ls-4462332",
-        "lc-21973"
+        "lc-21973",
+        "lc-26117",
+        "lc-25919",
+        "lc-25442",
+        "lc-25878",
+        "lc-25861",
+        "lc-25489",
+        "lc-25756",
+        "lc-25132",
+        "lc-24951",
+        "lc-25566",
+        "lc-26105",
+        "lc-26085",
+        "lc-22126",
+        "lc-26104",
+        "lc-26158",
+        "lc-26126",
+        "lc-26064",
+        "lc-26118",
+        "lc-26112",
+        "lc-24853",
+        "lc-26222",
+        "lc-24147",
+        "lc-23900",
+        "lc-24404",
+        "lc-14353",
+        "lc-14488",
+        "lc-13893",
+        "lc-25096",
+        "lc-25811",
+        "lc-22723",
+        "lc-22699",
+        "lc-25624",
+        "lc-25821",
+        "lc-25807",
+        "lc-25614",
+        "lc-24990",
+        "lc-21287",
+        "lc-25759",
+        "lc-26338",
+        "lc-24817"
       ],
       "scope": "Garage-first rotation through three states below ten photo candidates. Refreshed Shelby from its live page, retained its original photo, and added the seller grading warning. No newly researched property cleared availability and location checks for import.",
       "deferred": [
@@ -1503,7 +1543,133 @@
         "NE",
         "KS"
       ],
-      "processing_correction": "Live-map QA found Florahome lc-21973 incorrectly marked sewer available although the stored seller note requires septic and well. Corrected sewer to unknown and fixed the collector so required/needed utilities cannot inherit nearby availability. Regression tests retain positive connection evidence. No price, availability, location, photo or original verification date changed."
+      "processing_correction": "Live-map QA found Florahome lc-21973 incorrectly marked sewer available although the stored seller note requires septic and well. Corrected sewer to unknown and fixed the collector so required/needed utilities cannot inherit nearby availability. Regression tests retain positive connection evidence. No price, availability, location, photo or original verification date changed. Focused audit corrected the same explicit required-installation contradiction in 40 additional records. Only utilities actually named before required/needed were changed; an unrelated public-water clause stays intact.",
+      "required_utility_corrections": {
+        "lc-26117": [
+          "sewer"
+        ],
+        "lc-25919": [
+          "sewer",
+          "water"
+        ],
+        "lc-25442": [
+          "sewer"
+        ],
+        "lc-25878": [
+          "sewer",
+          "water"
+        ],
+        "lc-25861": [
+          "water"
+        ],
+        "lc-25489": [
+          "sewer"
+        ],
+        "lc-25756": [
+          "water"
+        ],
+        "lc-25132": [
+          "sewer"
+        ],
+        "lc-24951": [
+          "sewer"
+        ],
+        "lc-25566": [
+          "sewer"
+        ],
+        "lc-26105": [
+          "sewer"
+        ],
+        "lc-26085": [
+          "sewer"
+        ],
+        "lc-22126": [
+          "sewer"
+        ],
+        "lc-26104": [
+          "sewer"
+        ],
+        "lc-26158": [
+          "sewer"
+        ],
+        "lc-26126": [
+          "sewer"
+        ],
+        "lc-26064": [
+          "sewer",
+          "water"
+        ],
+        "lc-26118": [
+          "sewer"
+        ],
+        "lc-26112": [
+          "sewer"
+        ],
+        "lc-24853": [
+          "sewer"
+        ],
+        "lc-26222": [
+          "sewer",
+          "water"
+        ],
+        "lc-24147": [
+          "sewer"
+        ],
+        "lc-23900": [
+          "sewer"
+        ],
+        "lc-24404": [
+          "water"
+        ],
+        "lc-14353": [
+          "sewer"
+        ],
+        "lc-14488": [
+          "sewer"
+        ],
+        "lc-13893": [
+          "sewer"
+        ],
+        "lc-25096": [
+          "sewer"
+        ],
+        "lc-25811": [
+          "sewer"
+        ],
+        "lc-22723": [
+          "sewer"
+        ],
+        "lc-22699": [
+          "sewer"
+        ],
+        "lc-25624": [
+          "sewer"
+        ],
+        "lc-25821": [
+          "sewer"
+        ],
+        "lc-25807": [
+          "sewer"
+        ],
+        "lc-25614": [
+          "sewer"
+        ],
+        "lc-24990": [
+          "sewer"
+        ],
+        "lc-21287": [
+          "sewer"
+        ],
+        "lc-25759": [
+          "sewer"
+        ],
+        "lc-26338": [
+          "sewer"
+        ],
+        "lc-24817": [
+          "water"
+        ]
+      }
     }
   ],
   "updated_at": "2026-10-03T02:22:45+00:00"

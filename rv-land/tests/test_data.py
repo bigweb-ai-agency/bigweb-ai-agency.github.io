@@ -17,6 +17,9 @@ class ResearchDataTests(unittest.TestCase):
                 self.assertEqual(flags['sewer'],'unknown')
         available=b.flags_from_text('',utilities='Water available; sewer available; electricity at street')
         self.assertEqual([available[x] for x in ('water','sewer','electricity')],['available']*3)
+        mixed=b.flags_from_text('Water available at street',utilities='Public Water, Septic Needed')
+        self.assertEqual(mixed['water'],'available')
+        self.assertEqual(mixed['sewer'],'unknown')
 
     def test_island_and_alaska_gateways_do_not_offer_unverified_drive_estimates(self):
         rows=[{'id':state,'state':state,'lat':lat,'lng':lng,'price':9000,
