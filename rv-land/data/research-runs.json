@@ -1687,7 +1687,91 @@
         ],
         "source_conflict": "lc-25806: restored newer October 2 relisting source 26412 after the August 10 source 25806 was reread; added same-source, same-parcel source timestamp guard. All histories and photo files retained."
       }
+    },
+    {
+      "date": "2026-10-04T02:25:26+00:00",
+      "states": [
+        "SD",
+        "NE",
+        "KS",
+        "WA"
+      ],
+      "added_ids": [],
+      "updated_ids": [
+        "ls-5343897"
+      ],
+      "scope": "Garage-first SD/NE/KS rotation plus WA, which has only one eligible photo candidate. Refreshed the existing Waubay lot from live Chrome with the same original photo. No new candidate passed the complete price, current availability, location and genuine listing-photo checks.",
+      "deferred": [
+        {
+          "url": "https://www.homes.com/property/415-elm-st-chetopa-ks/ztqvgjgfr6cbj/",
+          "price": 17000,
+          "basis": "live_public_page_Chrome",
+          "reason": "415 Elm St, Chetopa KS: current asking $17,000, above the $15,000 cap; major-rehab house with detached two-car shop on 14,768 sqft. Retain as a price-drop watch lead, not a budget-qualified listing. Van clearance, dimensions and repair permission unknown. Six-month-old indexed $19,500 Pending snapshot is stale and not used as current status.",
+          "image_source": "https://images.homes.com/listings/102/0442206374-079210412/415-elm-st-chetopa-ks-primaryphoto.jpg"
+        },
+        {
+          "url": "https://www.homes.com/property/2918-meredith-ave-omaha-ne/ms9dgfjtzsh45/",
+          "price": 15000,
+          "basis": "live_public_page_Chrome",
+          "reason": "2918 Meredith Ave, Omaha NE: live NEW/Active, MLS 22628443, listed October 2, parcel 0919990000, fee-simple unimproved lot 66 x 112 feet. Map link 41.300718,-95.955797. The only visible image is a generated street-view placeholder, not a seller listing photograph, so no import. Standalone RV storage and repair permission unverified. Conflicting indexed Realtor future-dated sale data is not treated as current evidence."
+        },
+        {
+          "url": "https://www.homes.com/property/614-osborne-st-downs-ks/er8392b0bqfzh/",
+          "price": 10000,
+          "basis": "live_public_page_Chrome",
+          "reason": "614 Osborne St, Downs KS, MLS 11870581: current $10,000, price reduction September 9, extreme rehabilitation or demolition per seller. Full MLS explicitly shows zero garage spaces. No strong RV workshop match; parcel coordinates and usable vehicle area not fully verified. Older $15,000 index is not current."
+        }
+      ],
+      "rejected_leads": [
+        {
+          "url": "https://www.coldwellbankerhomes.com/wa/ocean-park/28310-y-ln/pid_73297686/",
+          "reason": "28310 Y Lane, Ocean Park WA: recent index shows $139,900 after September 21 reduction, far outside budget. A different search title truncated the price to 9,900; not accepted as cash-price evidence."
+        },
+        {
+          "url": "https://wiemanauction.com/auction-info.php?id=1172",
+          "reason": "38297 288th St, Lake Andes SD: $5,000 is the auction deposit, not a complete purchase price."
+        },
+        {
+          "url": "https://hibid.com/ontario/lot/315202797/parcel-1---country-home-and-exceptional-outbuilding",
+          "reason": "Akaska SD home and outbuildings: $11,200 is an indexed auction bid, not a fixed full asking price."
+        },
+        {
+          "url": "https://www.homes.com/property/413-grey-goose-dr-dr-wentworth-sd-unit-3/tznf962ljzxt1/",
+          "reason": "$15,000 in the garage-condo description is an optional mezzanine addition, not the real-estate purchase price."
+        },
+        {
+          "url": "https://www.qualitystoragebuildings.com/service-areas/watertown-sd/",
+          "reason": "$12,818 garage is a building product without the land; outside the requested real-estate scope."
+        }
+      ],
+      "search_sources": [
+        "https://www.homes.com/nebraska/land-for-sale/under-15k/",
+        "https://www.homes.com/south-dakota/land-for-sale/under-5k/",
+        "https://www.homes.com/kansas/bungalow/p13/",
+        "https://www.landsearch.com/properties/washington/search/under-15000",
+        "https://rvproperty.com/washington-rv-lots-for-sale/"
+      ],
+      "negative_findings": "Low-price category results include auctions, leases, prices per square foot, building products and old duplicate parcels. No newly verified existing garage/workshop at a full asking price of $3,000-$15,000 found in this bounded run. This is not a claim that none exist in these states.",
+      "official_findings": "No parcel-specific official RV-storage or repair permission established. Waubay residential-use restriction is a seller statement. Secondary Omaha ordinance mirrors were insufficient to confirm a current parcel-specific permitted use; all relevant permission fields remain unknown.",
+      "monitor_diagnosis": "Latest scheduled run 37168894601 completed successfully, created 2026-10-04T01:43:49Z. Monitor 01:44:05+00:00 partial: 0 new, 1 material price change, 105 detail pages, 115 category pages, 15 source errors, all HTTP 404. Error count unchanged from extra October 3 run 37090732916. Collector operational; no duplicate local crawl. Pages 37169220393 succeeded for a333cddf5adca94bc05256aa14e3233a7fab0983; parallel cancelled build was superseded.",
+      "automatic_added_ids": [],
+      "automatic_updated_ids": [
+        "lc-25170"
+      ],
+      "automatic_findings": "Moline IL lc-25170 asking price changed $9,900 to $8,900; original photo retained. Extra October 3 run explicitly marked lc-26194 San Luis CO sold. Fresh relisting lc-25806 source 26412 remains $6,499, and lc-21973 Florahome sewer remains unknown after the parser corrections.",
+      "access": "Connected Chrome read Homes details in Downs, Omaha and Chetopa and LandSearch Waubay. Fred Currier Ocean Park listing returned 403 Forbidden; no bypass or retry through another access method. Independent published sources were used only as separate price evidence. No seller contacts, bookings or infrastructure changes.",
+      "preservation": "All 766 baseline IDs, first_seen, price/status/photo histories and all existing image bytes retained. Waubay photo URL and local file unchanged. Monitor and flights unchanged.",
+      "photo_result": {
+        "cached": 1
+      },
+      "flight_review": "September 28 observations retained: 84 current and 167 historic; next weekly refresh October 5.",
+      "github_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/37168894601",
+      "next_states": [
+        "OK",
+        "TX",
+        "NM"
+      ]
     }
   ],
-  "updated_at": "2026-10-03T02:22:45+00:00"
+  "updated_at": "2026-10-04T02:25:26+00:00"
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-04T01:44:05+00:00",
+  "updated_at": "2026-10-04T02:25:26+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -57968,8 +57968,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:28+00:00",
-      "last_seen": "2026-09-13T23:00:23+00:00",
-      "last_verified": "2026-09-13T23:00:23+00:00",
+      "last_seen": "2026-10-04T02:25:26+00:00",
+      "last_verified": "2026-10-04T02:25:26+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -57989,14 +57989,14 @@
       "price": 5999.0,
       "known_fees": 0,
       "total_known": 5999.0,
-      "price_evidence": "Показанная запрашиваемая цена; дополнительные сборы не подтверждены.",
+      "price_evidence": "04.10.2026: публичная карточка LandSearch в Chrome подтверждает Active sale, $5,999 за два участка вместе (Lots 8 и 23), всего около 0.26 acre. Дополнительные расходы сделки не подтверждены.",
       "acres": 0.26,
-      "lat": 45.3424,
-      "lng": -97.3225,
+      "lat": 45.342356,
+      "lng": -97.322547,
       "coord_precision": "listing",
       "status": "active",
-      "status_basis": "indexed_public_page",
-      "source_crawled": "last week",
+      "status_basis": "live_public_page",
+      "source_crawled": null,
       "image_url": "assets/listings/50045e47cc58cf4ab66a.jpg",
       "image_source_url": "https://www.landsearch.com/properties/14095-444th-ave-waubay-sd-57273/5343897",
       "image_credit": "Listing broker / LandSearch",
@@ -58005,8 +58005,8 @@
       "zoning": "Residential",
       "taxes_note": "2025 $8",
       "road_note": "Юридический подъезд не проверен",
-      "utility_note": "Состояние подключений требует проверки",
-      "garage_note": "Размеры и состояние не подтверждены",
+      "utility_note": "Продавец требует отдельно проверить доступность коммуникаций; подключения не подтверждены.",
+      "garage_note": "Два пустых участка; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -58017,9 +58017,10 @@
       "no_hoa": "unknown",
       "road_access": "unknown",
       "flags": [
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Продавец заявляет жилое использование и запрет коммерческих строений. Это не подтверждает разрешение отдельной RV-базы или личного ремонта; правила участка и округа не установлены."
       ],
-      "evidence_quote": null,
+      "evidence_quote": "Both parcels are zoned residential and restricted to residential use; no commercial structures permitted.",
       "price_history": [
         {
           "date": "2026-09-13T22:25:28+00:00",
@@ -58085,6 +58086,21 @@
           "source": "https://www.landsearch.com/properties/14095-444th-ave-waubay-sd-57273/5343897",
           "remote_url": "https://cdn.landsearch.com/listings/4TKGx/large/waubay-sd-171763016.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "source_updated": "2026-07-29",
+      "verification_history": [
+        {
+          "date": "2026-09-13T23:00:23+00:00",
+          "basis": "indexed_public_page",
+          "source_crawled": "last week",
+          "source": "https://www.landsearch.com/properties/14095-444th-ave-waubay-sd-57273/5343897"
+        },
+        {
+          "date": "2026-10-04T02:25:26+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landsearch.com/properties/14095-444th-ave-waubay-sd-57273/5343897",
+          "finding": "Chrome: Active sale $5,999 for Lots 8 and 23 together, 0.26 acre, MyStateMLS 11833350, displayed parcel 07.671.0080. Source updated July 29. Directions link provides 45.342356,-97.322547. Seller limits use to residential and excludes commercial structures; utilities and access require verification. Original photo URL unchanged. Storage, occupancy and repair remain unknown."
         }
       ]
     },
