@@ -1,8 +1,8 @@
 {
   "schedule": "Ежедневно 00:37 UTC: 03:37 летом / 02:37 зимой по Вильнюсу. GitHub Actions может запускаться с задержкой.",
-  "last_run": "2026-10-03T02:42:51+00:00",
+  "last_run": "2026-10-04T01:44:05+00:00",
   "status": "partial",
-  "run_url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/37090732916",
+  "run_url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/37168894601",
   "summary": "0 новых; 1 изменений цены/статуса/фото; 105 страниц проверено; ошибок 15.",
   "scope": "LandCentury: новые страницы всех 50 штатов и ротация старых записей. LandSearch и старые MLS — отдельная исследовательская проверка, не автоматический live-статус.",
   "events": [
@@ -242,6 +242,15 @@
     },
     {
       "date": "2026-10-03T02:42:51+00:00",
+      "status": "partial",
+      "scanned_pages": 115,
+      "read_details": 105,
+      "added": 0,
+      "changed": 1,
+      "errors": 15
+    },
+    {
+      "date": "2026-10-04T01:44:05+00:00",
       "status": "partial",
       "scanned_pages": 115,
       "read_details": 105,
@@ -669,8 +678,8 @@
     }
   ],
   "photo_preservation": {
-    "missing": 1,
     "saved": 45,
-    "cached": 720
+    "cached": 720,
+    "missing": 1
   }
 }
