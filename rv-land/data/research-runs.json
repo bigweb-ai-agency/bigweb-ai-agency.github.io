@@ -1771,7 +1771,72 @@
         "TX",
         "NM"
       ]
+    },
+    {
+      "date": "2026-10-05T02:28:02+00:00",
+      "states": [
+        "OK",
+        "TX",
+        "NM",
+        "DE"
+      ],
+      "added_ids": [
+        "ls-4471886"
+      ],
+      "updated_ids": [],
+      "scope": "Garage-first OK/TX/NM rotation plus under-covered DE public category. One live-photo land candidate added; no suitable existing workshop established in this bounded pass.",
+      "deferred": [
+        {
+          "url": "https://www.trulia.com/home/1021-s-6th-st-6-chickasha-ok-73018-343971032",
+          "reason": "Newer index reports July28,2026 sale $14,500. Older eXp $15,000 lead is vacant land despite House category; not imported as a current garage."
+        },
+        {
+          "url": "https://api.landsofamerica.com/landsconnector/app/midwest-messenger/Details/index.cfm?inv_id=9734496",
+          "reason": "Public indexed Roy NM $12,000 lead returned410 Gone. Multiple addresses/lots and utilities could not be tied to one verified sale/pin/photo. Deferred; HTTP error is not proof sold."
+        }
+      ],
+      "negative_searches": [
+        {
+          "url": "https://www.landsearch.com/properties/856-w-lakeshore-dr-cleveland-ok-74020/4654254",
+          "finding": "$15,000 bare lot. Two-car garage is a future house covenant requirement, not an existing garage; minimum1,500sqft house described."
+        },
+        {
+          "url": "https://trehomesrealestate.com/owner-financing",
+          "finding": "3129 SW41st St OKC garage/shop lead: $15,000 is down payment plus$2,000/month, not full cash price."
+        },
+        {
+          "url": "https://www.compass.com/homedetails/9220-Colorado-St-Joshua-TX-76058/1ABH9M_pid/",
+          "finding": "20x35x11 garage lead: $10,000 is a price reduction, not purchase price."
+        },
+        {
+          "url": "https://www.zillow.com/homedetails/4-Fm-2249-Dell-City-TX-79837/2057451503_zpid/",
+          "finding": "Old$12,000/20-acre/well snippet contradicted by current off-market page, soldJune23,2023. Not imported."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/delaware/search/under-15000",
+          "finding": "Viewed category mixes monthly leases and nearby out-of-state listings. No fixed-price DE purchase established; no invented quota filler."
+        }
+      ],
+      "official_sources": [
+        "https://torrancecountynm.org/departments/planning-zoning",
+        "https://www.torrancecountynm.org/uploads/Downloads/Planning%20and%20Zoning/Ordinances/2024.11.13%20Torrance%20County%20Zoning%20Ordinance.pdf"
+      ],
+      "official_findings": "County portal links adopted2024-04 zoning ordinance. ScannedPDF physicalpage15/printed12 section6.K restricts full-time RV living to permittedRVparks. Read actual page image. This is an occupancy risk, not permission/prohibition for storage or personal repair; exact parcel jurisdiction/zoning unresolved. Section6.D also requires compliant water/wastewater arrangements.",
+      "monitor_diagnosis": "Scheduled37251088554 succeeded, created2026-10-05T01:21:06Z. Monitor01:21:23+00:00 partial:115categorypages,105details,1new,0changed,15errors; same source404s. Collector operational; no duplicate local crawl. Pages37251513403 succeeded atb0a69ef; parallel37251511835 superseded/cancelled.",
+      "automatic_added_ids": [
+        "lc-26420"
+      ],
+      "automatic_updated_ids": [],
+      "access": "Public source pages, official county PDF and Chrome Google Flights. LEVEL provider challenge stopped without bypass; public Roy410 not retried as proof of availability. No seller contacts, purchases, bookings or infrastructure changes.",
+      "preservation": "767 prior IDs, first_seen, factual listing fields/histories and original photo bytes retained. Only derived flight gateway hints updated. All251 prior fare observations retained; monitor unchanged.",
+      "flight_review": "86 current dated Chrome observations:VNO14,LON25,WAW22,CPH25. Three transatlantic and three positioning roundtrips selected. VNO–JFK€471 Iberia offer on Finnair flights, checkedbag extra unknown. LGW–JFK£346/~€407 plusVNO–LGW€152 =€559 before bags/hotels; provider blocked by challenge. CPH–MIA€447 OTA plusVNO–CPH€222 =€669 before bags/hotels; Google checkedbag estimate+€241 for longhaul only. WAW positioning€235LOT separate from unselected transatlantic quote. No checkout. Same-day fallback dates and nearby-airport inference excluded.",
+      "github_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/37251088554",
+      "next_states": [
+        "AZ",
+        "NV",
+        "CA"
+      ]
     }
   ],
-  "updated_at": "2026-10-04T02:25:26+00:00"
+  "updated_at": "2026-10-05T02:28:02+00:00"
 }
