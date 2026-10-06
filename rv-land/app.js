@@ -34,7 +34,9 @@ function labels(x){
 }
 function airportLine(x){
  const a=x.gateways?.[0];if(!a)return 'Аэропорт не рассчитан';
+ if(x.requires_ferry)return a.code+' · нужен паром, время пути не проверено';
  if(['HI','AK'].includes(x.state))return 'Отдельная логистика '+x.state+' · рейс и перевозку RV проверить';
+ if(a.drive_hours_estimate==null)return a.code+' · время пути не проверено';
  return a.code+' · ~'+a.drive_hours_estimate+' ч по модели дороги';
 }
 function card(x){
@@ -125,7 +127,8 @@ function showDetail(id){
  if(x.legal_source)body+='<p>'+link(x.legal_source,'Официальный источник проверки ↗')+'</p>';
  if(x.notes?.length)body+=x.notes.filter(Boolean).map(t=>'<p>'+esc(t)+'</p>').join('');
  body+='<h3>Как добраться</h3>';
- if(['HI','AK'].includes(x.state))body+='<p>Материковая поездка сюда не является простым автомобильным трансфером. Для Hawaii необходимы доставка RV и проверка острова; для Alaska — отдельный рейс или многодневный переезд.</p>';
+ if(x.requires_ferry)body+='<p>'+esc(x.logistics_note||'Нужен автомобильный паром. Время, стоимость и возможность перевозки RV не проверены.')+'</p>'+(x.logistics_source?'<p>'+link(x.logistics_source,'Официальная информация о пароме ↗')+'</p>':'');
+ else if(['HI','AK'].includes(x.state))body+='<p>Материковая поездка сюда не является простым автомобильным трансфером. Для Hawaii необходимы доставка RV и проверка острова; для Alaska — отдельный рейс или многодневный переезд.</p>';
  else body+=(x.gateways||[]).map(a=>'<p><b>'+esc(a.code)+'</b> · '+esc(a.name)+' · '+a.straight_km+' км по прямой; модель ~'+a.drive_km_estimate+' км / '+a.drive_hours_estimate+' ч.'+(a.flight_min_eur?' Найденный авиапоиск от €'+a.flight_min_eur+' из '+esc(a.flight_origin)+', на отдельных датах.':' Датированная авиакотировка не найдена.')+'</p>').join('');
  body+='<p>'+esc(x.climate_note)+'</p><div class="detail-links">'+link(x.url,'Объявление ↗','button-link')+link('https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(x.lat+','+x.lng),'Проверить место / дорогу')+'</div>'+
  '<h3>Приоритет осмотра: '+x.score+' / 100</h3><p>Баллы не подтверждают юридическую или техническую пригодность.</p>'+

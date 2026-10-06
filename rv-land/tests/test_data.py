@@ -40,7 +40,8 @@ class ResearchDataTests(unittest.TestCase):
     def test_island_and_alaska_gateways_do_not_offer_unverified_drive_estimates(self):
         rows=[{'id':state,'state':state,'lat':lat,'lng':lng,'price':9000,
                'total_known':9000,'status':'active','price_basis':'asking_cash'}
-              for state,lat,lng in [('HI',19.50,-154.91),('AK',60.55,-151.26),('MN',45,-94)]]
+              for state,lat,lng in [('HI',19.50,-154.91),('AK',60.55,-151.26),('MN',45,-94),('WA',47.16,-122.69)]]
+        rows[3].update(requires_ferry=True,logistics_note='Anderson Island requires a vehicle ferry.')
         airports=[{'code':code,'name':code,'lat':lat,'lng':lng}
                   for code,lat,lng in [('ITO',19.72,-155.05),('HNL',21.32,-157.92),
                                        ('ANC',61.17,-150),('MSP',44.88,-93.22)]]
@@ -51,12 +52,13 @@ class ResearchDataTests(unittest.TestCase):
             analysis.run()
         self.assertEqual([a['code'] for a in rows[0]['gateways']],['ITO','HNL'])
         self.assertEqual([a['code'] for a in rows[1]['gateways']],['ANC'])
-        for row in rows[:2]:
+        for row in [rows[0],rows[1],rows[3]]:
             for airport in row['gateways']:
                 self.assertIsNone(airport['drive_km_estimate'])
                 self.assertIsNone(airport['drive_hours_estimate'])
                 self.assertGreater(airport['straight_km'],0)
             self.assertEqual(row['score_parts']['Дорога /10'],0)
+        self.assertEqual(rows[3]['gateways'][0]['route_basis'],rows[3]['logistics_note'])
         self.assertGreater(rows[2]['gateways'][0]['drive_hours_estimate'],0)
         self.assertGreater(rows[2]['score_parts']['Дорога /10'],0)
 
@@ -153,14 +155,17 @@ class ResearchDataTests(unittest.TestCase):
         old={'id':'held','url':'https://example.org/held','state':'NH','price':10000,
              'total_known':10000,'price_basis':'asking_cash','status':'active','acres':4.6,
              'image_url':'assets/listings/existing.jpg','lat':44.48,'lng':-71.17,
-             'first_seen':'2026-09-01','review_hold':{'reason':'Mandatory back taxes unknown','date':'2026-09-16'}}
-        refreshed={k:v for k,v in old.items() if k!='review_hold'}
+             'first_seen':'2026-09-01','review_hold':{'reason':'Mandatory back taxes unknown','date':'2026-09-16'},
+             'requires_ferry':True,'logistics_source':'https://example.org/ferry'}
+        refreshed={k:v for k,v in old.items() if k not in ('review_hold','requires_ferry','logistics_source')}
         self.assertIsNone(b.acceptable(refreshed))
         merged=b.merge_records([old],[refreshed])
         self.assertEqual(len(merged),1)
         row=merged[0]
         self.assertEqual(b.acceptable(row),'research_hold')
         self.assertEqual(row['review_hold'],old['review_hold'])
+        self.assertTrue(row['requires_ferry'])
+        self.assertEqual(row['logistics_source'],old['logistics_source'])
         self.assertEqual((row['status'],row['first_seen'],row['image_url']),('active',old['first_seen'],old['image_url']))
 
 if __name__=='__main__':unittest.main()

@@ -1836,7 +1836,80 @@
         "NV",
         "CA"
       ]
+    },
+    {
+      "date": "2026-10-06T02:14:41+00:00",
+      "states": [
+        "AZ",
+        "NV",
+        "CA",
+        "WA",
+        "ID"
+      ],
+      "added_ids": [],
+      "updated_ids": [
+        "lc-26430",
+        "lc-13882"
+      ],
+      "scope": "Garage-first AZ/NV/CA rotation plus under-covered WA/ID searches. Reviewed automatic Anderson Island addition and corrected two island route estimates. No new suitable garage established in this bounded pass.",
+      "deferred": [
+        {
+          "url": "https://www.landsearch.com/properties/w-buckeye-rd-tonopah-az-85354/4631626",
+          "price": 14500,
+          "reason": "Older search index: fenced0.145acre and travel trailer, parcel506-41-080. Live Chrome redirects to Tonopah results#inactive. Not imported as active from stale index; no sale date inferred."
+        },
+        {
+          "url": "https://www.exprealty.com/kingston-nv-real-estate/9-117-canyon-cir",
+          "reason": "Vacant0.69acre septic lead, no verified existing garage. Public fetch403 respected without retry/bypass; current full cash price, photo and parcel not qualified."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/477-tanbark-ave-california-city-ca-93505/5477407",
+          "price": 15000,
+          "reason": "Indexed two-lot R1 residential package; no existing workshop or standalone RV/repair permission established. Combined area differs from single-lot headline. Not imported from index merely to grow an already-covered state."
+        }
+      ],
+      "negative_searches": [
+        {
+          "url": "https://offerup.com/item/detail/11c7ff7b-a31d-3be7-a765-38e1df709edd",
+          "finding": "Ridgecrest$15,000 garage/shop offer sells new building units; ownership of underlying land is not offered."
+        },
+        {
+          "url": "https://www.elliman.com/listing/0-summer-breeze-rd-banning-ca-92220/13877172",
+          "finding": "Indexed$15,000 Banning land markedSOLD. Metal workshop is the neighbor's; source explicitly excludes sheds from sale."
+        },
+        {
+          "url": "https://www.showcase.com/nv/boulder-city/commercial-real-estate/for-sale/",
+          "finding": "1605 Ann Way actual400sqft workshop lead is$127,500 in newer category index, not$15,000. Detail URL redirects to general home. Excluded on price, not assigned a sale status."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/11845-school-land-rd-sw-rochester-wa-98579/5315179",
+          "finding": "Washington24x40garage lead is$524,900; $15,000 is a price reduction, not purchase price."
+        },
+        {
+          "url": "https://www.zillow.com/homedetails/600-S-Idaho-Rd-1063-Apache-Junction-AZ-85119/448432757_zpid/",
+          "finding": "Idaho keyword hit is an Arizona street, $8,900 manufactured unit on leased land. Neither Idaho property nor owned land; excluded."
+        }
+      ],
+      "official_sources": [
+        "https://www.piercecountywa.gov/ferry"
+      ],
+      "official_findings": "Pierce County official ferry page confirms vehicle-ferry service connecting Steilacoom/Anderson Island. No timetable, price or vehicle capacity guaranteed for travel dates. Both existing island records retain straight distances but numeric road estimates and road score are removed. No legal permission for personal repair inferred.",
+      "correction": "LC26430 source explicitly offers part of Lake Florence plus SW shoreline and only suggests a future floating dock. Dry usable ground and vehicle access not established. Added persistent review_hold without deleting record/photo or changing active sale status; source refresh cannot silently clear the hold.",
+      "monitor_diagnosis": "Run37398226369 succeeded, created2026-10-06T01:15:19Z. Monitor01:15:38+00:00 partial:1new,0price/status/photochanges,102details,18errors. Three new source404s for OR25933/25928/25930; prior15 source404s persist. No availability changes inferred. Collector operational, no duplicate local crawl. Pages37398729024 succeeded ated6d48fa7223; parallel37398725704 cancelled/superseded.",
+      "automatic_added_ids": [
+        "lc-26430"
+      ],
+      "automatic_updated_ids": [],
+      "github_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/37398226369",
+      "access": "Connected Chrome inspected public LandCentury listing and LandSearch inactive redirect. eXp403 respected. No seller contact, purchase, booking or infrastructure changes.",
+      "preservation": "All769 baseline IDs, first_seen, prices, sale statuses and price/status/photo histories retained; every previous image byte retained. Flights and monitor unchanged. Only two island records receive research/logistics corrections.",
+      "flight_review": "Weekly comparison refreshed October5; no duplicate refresh required October6. All337 observations and provider-check history unchanged.",
+      "next_states": [
+        "OR",
+        "ID",
+        "MT"
+      ]
     }
   ],
-  "updated_at": "2026-10-05T02:28:02+00:00"
+  "updated_at": "2026-10-06T02:14:41+00:00"
 }

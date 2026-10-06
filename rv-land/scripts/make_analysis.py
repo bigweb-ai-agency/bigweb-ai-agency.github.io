@@ -89,6 +89,7 @@ def run():
         x['screening_issue']=acceptable(x)
         x['climate_note']=s['analysis'].split('.')[0]+'. Климатическая оценка региона, не замер на участке.'
         candidates=[]
+        separate_logistics=x['state'] in ('HI','AK') or bool(x.get('requires_ferry'))
         for a in airports:
             if a['code'] in ('JFK','EWR'):continue # NYC is the city-level fare observation.
             if x['state']=='HI' and a['code'] not in ('HNL','KOA','ITO'):continue
@@ -99,12 +100,11 @@ def run():
             quotes=[f for f in flights if f['gateway']==a['code'] and f.get('usable',True)
                     and f.get('departure','')>=NOW[:10] and f.get('duration_hours',999)<=24]
             best=min(quotes,key=lambda f:f['eur'],default=None)
-            separate_logistics=x['state'] in ('HI','AK')
             candidates.append({'code':a['code'],'name':a['name'],'straight_km':round(km),
                 'drive_km_estimate':None if separate_logistics else round(km*1.25),
                 'drive_hours_estimate':None if separate_logistics else round(km*1.25/75,1),
                 'flight_min_eur':best['eur'] if best else None,'flight_origin':best['origin'] if best else None,
-                'route_basis':'Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV.' if separate_logistics else 'Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут.'})
+                'route_basis':(x.get('logistics_note') or 'Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV.') if separate_logistics else 'Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут.'})
         candidates.sort(key=lambda a:a['straight_km'])
         x['gateways']=candidates[:3]
         x['msp_straight_km']=round(distance((x['lat'],x['lng']),(44.882,-93.222))) if x.get('lat') and x.get('lng') else None
@@ -112,7 +112,7 @@ def run():
             'Помещение /25':22 if x.get('existing_garage') else 9 if x.get('kind') in ('house','commercial','building','workshop') else 0,
             'Личный ремонт /20':20 if x.get('personal_repair')=='authority_confirmed' else 5 if x.get('personal_repair')=='seller_claim' else 0,
             'Коммуникации /10':sum(3 if x.get(k)=='on_site_claim' else 1 if x.get(k)=='available' else 0 for k in ('electricity','water','sewer')),
-            'Сезон /10':s['climate_score'],'Дорога /10':max(0,10-round(candidates[0]['drive_hours_estimate'])) if candidates and x['state'] not in ('HI','AK') else 0}
+            'Сезон /10':s['climate_score'],'Дорога /10':max(0,10-round(candidates[0]['drive_hours_estimate'])) if candidates and not separate_logistics else 0}
         x['score_parts']=parts
         x['score']=min(64 if x.get('personal_repair')!='authority_confirmed' else 100,sum(parts.values()))
         if x.get('review_hold') or x.get('price_conflict') or x.get('status') not in ('active','pending'):x['score']=min(x['score'],20)

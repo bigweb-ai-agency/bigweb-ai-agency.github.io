@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-06T01:15:38+00:00",
+  "updated_at": "2026-10-06T02:14:41+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -36218,31 +36218,31 @@
           "code": "SEA",
           "name": "Seattle–Tacoma International Airport",
           "straight_km": 42,
-          "drive_km_estimate": 52,
-          "drive_hours_estimate": 0.7,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": 429,
           "flight_origin": "LON",
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Anderson Island: требуется автомобильный паром из Steilacoom. Расписание, ожидание, тариф по длине RV и ограничения перевозки не включены; полный путь от аэропорта не рассчитан."
         },
         {
           "code": "PDX",
           "name": "Portland International Airport",
           "straight_km": 177,
-          "drive_km_estimate": 221,
-          "drive_hours_estimate": 2.9,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": 667,
           "flight_origin": "CPH",
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Anderson Island: требуется автомобильный паром из Steilacoom. Расписание, ожидание, тариф по длине RV и ограничения перевозки не включены; полный путь от аэропорта не рассчитан."
         },
         {
           "code": "SFO",
           "name": "San Francisco International Airport",
           "straight_km": 1063,
-          "drive_km_estimate": 1329,
-          "drive_hours_estimate": 17.7,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": 643,
           "flight_origin": "CPH",
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Anderson Island: требуется автомобильный паром из Steilacoom. Расписание, ожидание, тариф по длине RV и ограничения перевозки не включены; полный путь от аэропорта не рассчитан."
         }
       ],
       "msp_straight_km": 2276,
@@ -36252,9 +36252,9 @@
         "Личный ремонт /20": 0,
         "Коммуникации /10": 0,
         "Сезон /10": 4,
-        "Дорога /10": 9
+        "Дорога /10": 0
       },
-      "score": 23,
+      "score": 14,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2024/01/25/65b2d8f728f39-1706219767.jpg",
       "photo_preserved_at": "2026-10-01T01:25:20+00:00",
       "photo_history": [
@@ -36263,6 +36263,20 @@
           "source": "https://www.landcentury.com/land-for-sale/washington/19-acres-for-sale-in-anderson-island-washington-13882",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2024/01/25/65b2d8f728f39-1706219767.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "requires_ferry": true,
+      "logistics_note": "Anderson Island: требуется автомобильный паром из Steilacoom. Расписание, ожидание, тариф по длине RV и ограничения перевозки не включены; полный путь от аэропорта не рассчитан.",
+      "logistics_source": "https://www.piercecountywa.gov/ferry",
+      "logistics_verified_at": "2026-10-06T02:14:41+00:00",
+      "research_history": [
+        {
+          "date": "2026-10-06T02:14:41+00:00",
+          "field": "requires_ferry",
+          "previous": null,
+          "value": true,
+          "source": "https://www.piercecountywa.gov/ferry",
+          "reason": "County ferry service confirms Anderson Island route; straight-line mainland driving model is not a verified road transfer."
         }
       ]
     },
@@ -98603,7 +98617,9 @@
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "Chrome, 6 октября 2026: продавец прямо описывает часть озера и берег; плавучий причал предлагается как возможная идея. Показанный на фото причал не подтверждён как входящий в продажу. Площадь 1.54 acres не равна подтверждённой сухой площадке. Цена $9,900 и статус продажи сохранены."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26430",
       "source_id": "26430",
@@ -98673,38 +98689,38 @@
         }
       ],
       "region": "Тихоокеанский",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Дешёвый билет до SEA возможен, но дешёвые участки в основном далеко от западных городов. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
           "code": "SEA",
           "name": "Seattle–Tacoma International Airport",
           "straight_km": 43,
-          "drive_km_estimate": 53,
-          "drive_hours_estimate": 0.7,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": 429,
           "flight_origin": "LON",
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Anderson Island: требуется автомобильный паром из Steilacoom. Расписание, ожидание, тариф по длине RV и ограничения перевозки не включены; полный путь от аэропорта не рассчитан."
         },
         {
           "code": "PDX",
           "name": "Portland International Airport",
           "straight_km": 176,
-          "drive_km_estimate": 219,
-          "drive_hours_estimate": 2.9,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": 667,
           "flight_origin": "CPH",
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Anderson Island: требуется автомобильный паром из Steilacoom. Расписание, ожидание, тариф по длине RV и ограничения перевозки не включены; полный путь от аэропорта не рассчитан."
         },
         {
           "code": "SFO",
           "name": "San Francisco International Airport",
           "straight_km": 1062,
-          "drive_km_estimate": 1327,
-          "drive_hours_estimate": 17.7,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
           "flight_min_eur": 643,
           "flight_origin": "CPH",
-          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+          "route_basis": "Anderson Island: требуется автомобильный паром из Steilacoom. Расписание, ожидание, тариф по длине RV и ограничения перевозки не включены; полный путь от аэропорта не рассчитан."
         }
       ],
       "msp_straight_km": 2276,
@@ -98714,9 +98730,43 @@
         "Личный ремонт /20": 0,
         "Коммуникации /10": 0,
         "Сезон /10": 4,
-        "Дорога /10": 9
+        "Дорога /10": 0
       },
-      "score": 27
+      "score": 18,
+      "requires_ferry": true,
+      "logistics_note": "Anderson Island: требуется автомобильный паром из Steilacoom. Расписание, ожидание, тариф по длине RV и ограничения перевозки не включены; полный путь от аэропорта не рассчитан.",
+      "logistics_source": "https://www.piercecountywa.gov/ferry",
+      "logistics_verified_at": "2026-10-06T02:14:41+00:00",
+      "research_history": [
+        {
+          "date": "2026-10-06T02:14:41+00:00",
+          "field": "requires_ferry",
+          "previous": null,
+          "value": true,
+          "source": "https://www.piercecountywa.gov/ferry",
+          "reason": "County ferry service confirms Anderson Island route; straight-line mainland driving model is not a verified road transfer."
+        },
+        {
+          "date": "2026-10-06T02:14:41+00:00",
+          "field": "review_hold",
+          "previous": null,
+          "value": {
+            "reason": "Объявление продаёт часть Lake Florence и юго-западную береговую полосу. Наличие сухой доступной площадки для хранения и ремонта RV не подтверждено; до проверки границ и подъезда исключён из основной выборки.",
+            "date": "2026-10-06T02:14:41+00:00",
+            "source": "https://www.landcentury.com/land-for-sale/washington/154-acres-for-sale-in-anderson-island-washington-26430"
+          },
+          "source": "https://www.landcentury.com/land-for-sale/washington/154-acres-for-sale-in-anderson-island-washington-26430"
+        }
+      ],
+      "review_hold": {
+        "reason": "Объявление продаёт часть Lake Florence и юго-западную береговую полосу. Наличие сухой доступной площадки для хранения и ремонта RV не подтверждено; до проверки границ и подъезда исключён из основной выборки.",
+        "date": "2026-10-06T02:14:41+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/washington/154-acres-for-sale-in-anderson-island-washington-26430"
+      },
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/washington/154-acres-for-sale-in-anderson-island-washington-26430"
+      ]
     }
   ]
 }
