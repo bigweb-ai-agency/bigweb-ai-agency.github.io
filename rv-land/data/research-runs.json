@@ -1909,7 +1909,87 @@
         "ID",
         "MT"
       ]
+    },
+    {
+      "date": "2026-10-07T02:16:31+00:00",
+      "states": [
+        "OR",
+        "ID",
+        "MT"
+      ],
+      "added_ids": [],
+      "updated_ids": [],
+      "scope": "Garage-first rotation across Oregon, Idaho and Montana, prioritizing the two under-covered states. No new suitable owned garage or workshop qualified in this bounded pass. Reviewed current nightly outcome; all nine automatically added listings retained with source photographs.",
+      "deferred": [
+        {
+          "url": "https://www.pearlrealty.com/listing/26-6612-nka-mill-street-wardner-id-83837/",
+          "price": 12000,
+          "reason": "Indexed broker page: MLS 26-6612, seven vacant lots totaling 0.55 acre in Wardner, Shoshone County; status pending, zoning WR. Direct Chrome reached a reCAPTCHA browser check; stopped without solving or bypass. No fresh availability, parcel coordinates or RV/repair suitability established, so not imported from the three-month-old snapshot."
+        },
+        {
+          "url": "https://www.trulia.com/ID/land-for-sale-under-10000/",
+          "reason": "Public search extraction labels 31 Idaho lots under $10,000 but omits asking prices for individual rows. The count is not evidence of 31 properties with qualifying cash prices; no imports."
+        }
+      ],
+      "negative_searches": [
+        {
+          "url": "https://www.landsearch.com/properties/ricky-bobby-ave-billings-mt-59106/4051005",
+          "finding": "Old $12,000 Shop World 406 Lot 116 lead is bare land for a future shop, not an existing building. Direct Chrome redirected to /properties/billings-mt#inactive and explicitly displayed Inactive listing. Not imported as active; no sold date inferred."
+        },
+        {
+          "url": "https://www.craigslist.org/view/d/silver-lake-commercial-lot-christmas/9jhDNFQkCc4kwAbTJ1ZvRT",
+          "finding": "$15,000 Christmas Valley commercial-land search lead. Direct Chrome explicitly states This posting has expired. No new active record or sale status inferred."
+        },
+        {
+          "url": "https://elevateidaho.com/listings/98977337/",
+          "finding": "405 6th Ave, Nezperce shop/carwash lead: indexed asking price $114,000; $15,000 is the reduction. Excluded above budget."
+        },
+        {
+          "url": "https://westernskiesmt.com/neighborhoods/roundup/",
+          "finding": "Broker category lists Lot 3, 5th Street W, Roundup at $16,000 for 0.17 acre. Above purchase budget. Realmo detail security challenge was respected; storage-use marketing is not repair permission."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/idaho/search/under-15000",
+          "finding": "Indexed budget category contains four monthly rentals and the already-retained pending Silver St, Gilmore record. Monthly rents are not purchase prices."
+        },
+        {
+          "url": "https://www.exprealty.com/chiloquin-or-real-estate/klamath-forest-estates/lot-7-0-gray-wolf-ln",
+          "finding": "$9,500 Oregon garage keyword result describes a wooded vacant parcel, no existing vehicle-entry garage established."
+        }
+      ],
+      "existing_listing_checks": [
+        {
+          "id": "ls-4462332",
+          "url": "https://www.landsearch.com/properties/4th-st-s-shelby-mt-59474/4462332",
+          "finding": "Public text remains $15,000, active bare Shelby lot with grading needed. No material change from October 3 direct verification; existing observation timestamps not refreshed from search extraction."
+        }
+      ],
+      "official_sources": [],
+      "official_findings": "No newly qualified strong candidate requiring a new parcel-specific legal review. Existing legal and repair uncertainty remains unchanged.",
+      "monitor_diagnosis": "Latest scheduled run 37556489444, created 2026-10-07T01:19:11Z, completed successfully. Monitor 01:19:25+00:00 is partial: 9 new records, 0 price/status/photo changes, 105 detail pages, 15 source 404 errors; no access failures converted to sold. Collector operational; no duplicate local crawl. Pages run 37557014091 succeeded at 467e2805de156af18a914e79c15c7326d7c852e0; parallel run 37557010968 was cancelled/superseded.",
+      "automatic_added_ids": [
+        "lc-26452",
+        "lc-26443",
+        "lc-26442",
+        "lc-24130",
+        "lc-21749",
+        "lc-20036",
+        "lc-19722",
+        "lc-19218",
+        "lc-18646"
+      ],
+      "automatic_updated_ids": [],
+      "github_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/37556489444",
+      "access": "Public search and connected Chrome only. Realmo security challenge and PearlRealty reCAPTCHA respected. No seller contact, purchase, booking or infrastructure changes.",
+      "preservation": "All 769 previous IDs and first_seen retained in 778 records; original price/status/photo histories and all 772 earlier cached image files preserved. Public listings JSON and the nine new image files match the repository. This research pass changes only the journal; listings, monitor, flight observations and existing review holds unchanged.",
+      "flight_review": "Weekly fares refreshed October 5. All 337 observations and provider checks retained; no duplicate refresh due October 7.",
+      "next_states": [
+        "WY",
+        "ND",
+        "SD"
+      ],
+      "validation": "16 focused unit tests pass; validator confirms 778 records, 777 listing photos, all 50 states and 20 original IDs. All nine new public image byte hashes match the repository. Chrome live card lc-26452 loads its real photo and shows full price plus fee, repair unknown, and the map renders 749 selectable markers with loaded tiles. No application code or listing facts changed in this manual pass."
     }
   ],
-  "updated_at": "2026-10-06T02:14:41+00:00"
+  "updated_at": "2026-10-07T02:16:31+00:00"
 }
