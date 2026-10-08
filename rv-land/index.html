@@ -5,19 +5,20 @@
 <meta name="description" content="Карта недвижимости: США $3–15k и Сицилия €1–10k. Реальные объявления, фотографии, ограничения, отдельные валюты и точность местоположения.">
 <meta name="theme-color" content="#173f39">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<link rel="stylesheet" href="app.css?v=20261008-sicily">
-<script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script><script defer src="sicily.js?v=20261008"></script><script defer src="app.js?v=20261008-sicily"></script>
+<link rel="stylesheet" href="app.css?v=20261009-residential">
+<script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script><script defer src="sicily.js?v=20261009"></script><script defer src="app.js?v=20261009-residential"></script>
 </head><body>
 <header class="masthead"><a class="brand" href="./"><span class="brand-icon" aria-hidden="true">▱</span><span>RV LAND<small>США · Сицилия</small></span></a><nav aria-label="Разделы"><button class="tab active" data-tab="explore" aria-current="page">Карта</button><button class="tab" data-tab="states">50 штатов</button><button class="tab" data-tab="flights">Перелёты в США</button><button class="tab" data-tab="guide">Выбор США</button></nav><span class="updated" id="updated">Загрузка базы…</span></header>
 <main><section id="explore" class="panel">
 <div class="intro"><div><span class="eyebrow" id="marketEyebrow">$3,000–$15,000 · США · ПОКУПКА</span><h1>Место для твоего кемпервана.</h1><p>Земля, гаражи и здания. Цена покупки — первый фильтр. Подъезд, помещение и разрешённый ремонт — решающие.</p></div><div class="stats" id="stats"></div></div>
-<div class="market-switch"><label>Регион / валюта<select id="market"><option value="us">США / USD</option><option value="sicily">Сицилия / EUR</option></select></label><p id="sicilyNote" hidden>13 объявленных цен в бюджете + 1 HOLD. Пунктирная точка ≈ населённый пункт, <b>не участок</b>. Наличие у продавца и разрешения не подтверждены. Фото Misilmeri общее для 3 лотов; 2 объявления без фото. <a href="data/sicily.json">Данные и источники</a>.</p></div>
+<div class="market-switch"><label>Регион / валюта<select id="market"><option value="us">США / USD</option><option value="sicily">Сицилия / EUR</option></select></label><p id="sicilyNote" hidden>Пунктирная точка ≈ населённый пункт, <b>не участок</b>. Наличие у продавца и разрешения не подтверждены. Фото Misilmeri общее для 3 лотов; 2 объявления без фото. <a href="data/sicily.json">Данные и источники</a>.</p></div>
 <form id="filters" class="filters" aria-label="Фильтры объявлений">
 <label class="search-label">Поиск<input id="search" type="search" placeholder="Город, округ, адрес, ID…"></label>
 <label><span id="stateLabel">Штат</span><select id="state"><option value="">Все штаты</option></select></label>
 <label>Тип<select id="kind"><option value="">Все типы</option><option value="garage">Указан существующий гараж</option><option value="structure">Постройка / руина</option><option value="land">Земля</option><option value="commercial">Коммерческий / industrial лот</option></select></label>
 <label><span id="budgetLabel">Цена до, USD</span><input id="budget" type="number" value="15000" min="3000" step="500"></label>
 <button type="button" id="moreFilters" class="secondary" aria-expanded="false" aria-controls="extraFilters">Ещё фильтры</button><button type="reset" class="text-button">Сбросить</button>
+<div id="sicilyFilters" class="sicily-filters" hidden><label>Жильё<select id="residentialType"><option value="">Все объекты</option><option value="house">Дом</option><option value="apartment">Квартира</option></select></label><label class="check"><input id="garageIncluded" type="checkbox"> Гараж включён по объявлению</label><a id="sicilyFilterLink" href="#sicily">Ссылка на эту выборку ↗</a></div>
 <div id="extraFilters" class="extra-filters" hidden>
 <label>Регион<select id="region"><option value="">Все регионы</option></select></label>
 <label>Электричество<select id="power"><option value="">Любое / неизвестно</option><option value="on_site_claim">На участке — по продавцу</option><option value="available">Доступно или на участке</option></select></label>

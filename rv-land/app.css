@@ -7,3 +7,6 @@
 
 .market-switch{display:flex;align-items:center;gap:25px;margin:12px 0 15px}.market-switch>label{min-width:210px}.market-switch p{font-size:12px;max-width:950px}.location-warning{background:#f8eddb;border-left:3px solid var(--ochre);padding:12px;margin-top:16px}.detail-content .location-warning{color:#70521e}.popup{max-height:340px;overflow:auto}.map-legend{flex-wrap:wrap}
 @media(max-width:700px){.market-switch{display:block}.market-switch p{margin-top:12px}.market-switch>label{max-width:none}.detail-price{font-size:24px}.card-price{overflow-wrap:anywhere}.map-legend{gap:5px}.location-warning{font-size:12px}}
+
+.sicily-filters{display:flex;align-items:flex-end;gap:16px;flex-basis:100%;flex-wrap:wrap;padding-top:10px;border-top:1px solid var(--line)}.sicily-filters>label:first-child{width:180px}.sicily-filters>.check{min-height:42px}.sicily-filters>a{font-size:12px;padding:10px 0}.card-risk{font-size:11px;margin-top:8px;line-height:1.45}.card-source{font-size:10px;color:var(--muted);margin-top:7px;overflow-wrap:anywhere}
+@media(max-width:700px){.sicily-filters{gap:10px}.sicily-filters>label:first-child{width:100%}.sicily-filters>.check{min-height:32px}.sicily-filters>a{padding:2px 0}}
