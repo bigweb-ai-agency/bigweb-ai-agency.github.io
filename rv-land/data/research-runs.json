@@ -1989,7 +1989,93 @@
         "SD"
       ],
       "validation": "16 focused unit tests pass; validator confirms 778 records, 777 listing photos, all 50 states and 20 original IDs. All nine new public image byte hashes match the repository. Chrome live card lc-26452 loads its real photo and shows full price plus fee, repair unknown, and the map renders 749 selectable markers with loaded tiles. No application code or listing facts changed in this manual pass."
+    },
+    {
+      "date": "2026-10-08T02:20:44+00:00",
+      "states": [
+        "WY",
+        "ND",
+        "SD"
+      ],
+      "added_ids": [],
+      "updated_ids": [],
+      "scope": "Garage-first rotation across Wyoming, North Dakota and South Dakota. No newly qualified garage/workshop or clearly usable RV base in this bounded pass. Retained all eight new automatic land records and the updated source photograph.",
+      "deferred": [
+        {
+          "url": "https://www.landandfarm.com/property/vacant-land-park-rv-mobile-home-38523991/",
+          "price": 9900,
+          "status_basis": "live_public_page",
+          "reason": "Chrome shows Available and explicit $9,900 cash, separate from financing. 0 Hill St, Superior, Sweetwater County, Wyoming; seller GPS 41.761770,-108.965270. Structured area 0.11 acre / 4,939 sq ft conflicts with a 1-acre marketing sentence. Last source update August 23, 2025. The aerial shows a small triangular parcel beside Hill St, not a demonstrated level RV pad. Adjacent city-owned land is outside the purchase. Storage is a seller claim; standalone RV use, legal/physical entry, repair, parcel identity and utility connections remain unconfirmed. Deferred pending area/title and practical-use clarification.",
+          "image_observed": "https://assets.landandfarm.com/resizedimages/600/0/h/80/w/1-5674926482"
+        },
+        {
+          "url": "https://www.realtor.com/realestateandhomes-detail/165-NW-Birch-St_Conde_SD_57434_M98578-65937",
+          "price": 10000,
+          "reason": "Indexed MLS 26-494: 0.48-acre vacant lot in Conde, Spink County. Garage/shop is a future possibility, not an existing building. No fresh direct-page availability, RV permission or sufficient import evidence established; deferred."
+        }
+      ],
+      "negative_searches": [
+        {
+          "url": "https://www.mystatemls.com/property/11873185/",
+          "finding": "109 Main Street South, McClusky, ND: $15,000, 2,300 sq ft storage-building lead. Direct Chrome explicitly says Off Market. Needs substantial repair, no heat; no suitable vehicle-entry dimensions established. Not imported as active and no sold date inferred. Properstar detail reached Azure WAF and was not bypassed; primary MLS was independently available."
+        },
+        {
+          "url": "https://www.mystatemls.com/property/11551703/",
+          "finding": "Lots 6,7,8 Main Street, Lily, SD: former $15,000 RV/future-shop lot. Direct primary MLS says Sold on 5/22/2026 for $12,500. Not imported as active from the stale Trulia lead."
+        },
+        {
+          "url": "https://www.landwatch.com/mercer-county-north-dakota-undeveloped-land-for-sale/pid/420460843",
+          "finding": "209 Main St W, Golden Valley, ND: old $15,000 lead with uninhabitable house and 14x20 ft garage. Sold-category search evidence, not fresh active supply. Garage depth about 6.1 m is also shorter than the target campervan. No import."
+        },
+        {
+          "url": "https://www.bismarckmandanhomes.com/listings/ND/Underwood/58576/307-County-Road-14/4019143",
+          "finding": "307 County Road 14, Underwood, ND: broker page labels $15,000 house/garage listing Closed. Excluded from active additions."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/10484-w-highway-14-spearfish-sd-57783/5064934",
+          "finding": "Spearfish, SD: $15,000 is a buyer credit; asking price $580,000. Above budget."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/613-blair-ave-pine-bluffs-wy-82082/5413863",
+          "finding": "Pine Bluffs, WY 30x24 ft garage lead asks $119,000, above budget."
+        },
+        {
+          "url": "https://www.homes.com/wyoming/land-for-sale/under-15k/",
+          "finding": "Budget results include an unpatented mining claim, not ownership of the underlying land. No such claim imported as an owned RV site."
+        }
+      ],
+      "official_sources": [
+        "https://superiorwyoming.net/s-codes",
+        "https://superiorwyoming.net/ordinances",
+        "https://img1.wsimg.com/blobby/go/08368d27-3ae5-4c64-b027-3017be7a2279/12%20Zoning%20Regulations%202010.pdf"
+      ],
+      "official_findings": "Superior, WY Title 12, pages 16-17: R-1 accessory uses must relate to a permitted principal use on the same zone lot. Residential minimum is 5,000 sq ft per dwelling, or one acre without public water/sewer; this is not a universal prohibition on RV storage. Exact parcel zoning, exceptions and standalone storage/personal repair were not established. Seller RESIDENTIAL and park-RV language do not prove authority permission. Official PDF retrieved normally with HTTP 200 after the web extraction tool could not reopen its result.",
+      "monitor_diagnosis": "Latest scheduled run 37712293447, created 2026-10-08T01:18:50Z, succeeded. Monitor 01:19:04+00:00 is partial: 8 new records, 1 image change, 105 detail pages and 15 source errors. Collector operational; no duplicate local crawl. Pages run 37712797066 succeeded at b8ef20488df9481841ec86117d8a9faf0743b685; sibling run 37712794393 was cancelled/superseded.",
+      "automatic_added_ids": [
+        "lc-26461",
+        "lc-26462",
+        "lc-26463",
+        "lc-26464",
+        "lc-26465",
+        "lc-26468",
+        "lc-26470",
+        "lc-26472"
+      ],
+      "automatic_updated_ids": [
+        "lc-26258"
+      ],
+      "github_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/37712293447",
+      "access": "Public search, connected Chrome and the publicly linked municipal PDF. Azure WAF respected; no CAPTCHA, 403 or login bypass, seller contact, purchase, booking or infrastructure changes.",
+      "preservation": "All 778 prior IDs and first_seen retained in 786 records; original price/status/photo histories and all 781 earlier image files preserved. Eight new image files, including the changed lc-26258 photograph, match public byte hashes. Public listings, states, monitor and flights JSON match the repository. Manual pass changes only this journal.",
+      "flight_review": "Weekly fare review completed October 5; all 337 observations and provider checks retained. Next weekly refresh due October 12.",
+      "next_states": [
+        "IN",
+        "IL",
+        "RI"
+      ],
+      "rotation_reason": "Balance under-covered Rhode Island with garage-oriented Indiana and Illinois, which have not had a recorded recent manual pass. Automatic discovery continues across all 50 states.",
+      "validation": "16 focused tests pass; validator confirms 786 records, 785 photos, 50 states and all 20 original IDs. Chrome live lc-26472 card loads its source photo, displays $9,450 and explicitly unconfirmed personal repair; map has 757 selectable markers and 30 loaded tiles. No app code or listing facts changed in this manual pass."
     }
   ],
-  "updated_at": "2026-10-07T02:16:31+00:00"
+  "updated_at": "2026-10-08T02:20:44+00:00"
 }
