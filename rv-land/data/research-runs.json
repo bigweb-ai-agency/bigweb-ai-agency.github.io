@@ -2075,7 +2075,84 @@
       ],
       "rotation_reason": "Balance under-covered Rhode Island with garage-oriented Indiana and Illinois, which have not had a recorded recent manual pass. Automatic discovery continues across all 50 states.",
       "validation": "16 focused tests pass; validator confirms 786 records, 785 photos, 50 states and all 20 original IDs. Chrome live lc-26472 card loads its source photo, displays $9,450 and explicitly unconfirmed personal repair; map has 757 selectable markers and 30 loaded tiles. No app code or listing facts changed in this manual pass."
+    },
+    {
+      "date": "2026-10-09T02:19:06+00:00",
+      "states": [
+        "IN",
+        "IL",
+        "RI"
+      ],
+      "added_ids": [],
+      "updated_ids": [],
+      "scope": "Garage-first rotation across Indiana, Illinois and under-covered Rhode Island. No newly qualified workshop or practical RV base. Two garage-house leads proved sold on direct browser inspection. Preserved the automatic El Paso land addition and three source-photo updates.",
+      "deferred": [
+        {
+          "url": "https://www.compass.com/homedetails/0-Rhode-Island-Ave-Narragansett-RI-02882/JIJYV_pid/",
+          "price": 15000,
+          "status_basis": "live_public_page",
+          "source_updated": "2026-09-28",
+          "reason": "Live Chrome: active cash-only vacant wooded land, MLS 1419851, 0.2204 acre / 9,600 sq ft, Washington County, tax map T lot 60, seller zoning R80. Listing map pin 41.450084,-71.449503, not verified parcel boundaries. Seller requires as-is purchase without contingencies or due-diligence period. Frontage length 0 conflicts with City Street frontage field; physical/legal access not established. No structure or demonstrated pad. Official residential RV height limit is nine feet (2.7432 m), a material concern for a high campervan; exact vehicle height, parcel application, exceptions and personal repair permission unresolved. Deferred rather than counting as a usable RV base.",
+          "image_observed": "https://www.compass.com/m/1be88ff76db0976cebd282e3840560da23ea2d769993e572ad830905f305fd97/origin.webp"
+        },
+        {
+          "url": "https://www.exprealty.com/chrisman-il-real-estate/112-s-illinois-street",
+          "price": 15000,
+          "status_basis": "indexed_public_page",
+          "reason": "112 S Illinois St, Chrisman, MLS 6258288: former library with storage space, not demonstrated vehicle-entry workshop. Search snapshot approximately five months old; fresh availability, usable overhead entry and full import evidence absent. Deferred."
+        }
+      ],
+      "negative_searches": [
+        {
+          "url": "https://www.coldwellbankerhomes.com/in/gary/776-ohio-st/pid_73635574/",
+          "finding": "776 Ohio St, Gary, MLS 845065: direct Chrome shows Sold/Closed September 23, 2026 for $12,000, previously $15,000 asking. Two-car detached garage claimed, but dimensions unknown. Older active/contingent search snapshots not imported as fresh active supply."
+        },
+        {
+          "url": "https://www.compass.com/homedetails/522-E-Johnson-Ave-Decatur-IL-62526/1WCQGA_pid/",
+          "finding": "522 E Johnson Ave, Decatur, MLS 6259216: direct Chrome shows Sold September 29, 2026 for $11,000 after September 24 pending; formerly $15,000 with one-car garage. Web extraction returned an older active June snapshot. Direct live sold evidence takes precedence; no active import."
+        },
+        {
+          "url": "https://www.adamsauctions.com/wp-content/uploads/2025/10/615-Atwood-St.pdf",
+          "finding": "615 Atwood St, Alton shop lead: $10,000 is auction down payment, with a buyer premium, not an established total purchase price. Excluded from cash-price budget candidates."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/rhode-island/search/under-15000",
+          "finding": "Indexed Rhode Island budget-category examples are monthly rentals. They do not establish qualifying owned properties and were not imported."
+        }
+      ],
+      "existing_listing_checks": [
+        {
+          "id": "mls-il-12720990",
+          "url": "https://www.compass.com/homedetails/506-W-McLean-St-Colchester-IL-62326/8QHD_pid/",
+          "finding": "$9,900 Colchester search lead duplicates the retained record. No fresh direct-page status established in this pass; record and verification timestamp unchanged."
+        }
+      ],
+      "official_sources": [
+        "https://www.narragansettri.gov/89/Community-Development",
+        "https://library.municode.com/ri/narragansett/codes/code_of_ordinances?nodeId=PTIICOOR_APXAZO_S7SUZORE_7.13PASTCOREVE"
+      ],
+      "official_findings": "Followed the town Community Development Zoning Ordinance link to Municode and read the current September 24, 2026 code in Chrome. Appendix A 7.13(b): residential parking/storage allows at most one listed major recreation vehicle, with height no greater than nine feet; living/sleeping/housekeeping while parked is prohibited and derelict/irreparably damaged RV storage is prohibited. Section 7.14 limits outdoor unregistered/uninspected vehicles to one and prohibits residential storage of unserviceable/inoperable/derelict vehicles. These are material screening restrictions, not a determination of every personal maintenance activity or the exact parcel zoning. No meeting proposal treated as adopted law.",
+      "monitor_diagnosis": "Latest scheduled run 37869326929 created October 9 at 01:20:47Z succeeded. Monitor 01:21:02+00:00 is partial: 1 new record, 3 photo changes, 103 detail pages, 17 source 404 errors. Collector operational, so no duplicate local crawl. Pages run 37869824015 succeeded at 3c8d35c0d939144bcff6eabdbb840349f3abde2e; sibling 37869822469 was cancelled/superseded. Access errors did not change sale status.",
+      "automatic_added_ids": [
+        "lc-26473"
+      ],
+      "automatic_updated_ids": [
+        "lc-26117",
+        "lc-26273",
+        "lc-26299"
+      ],
+      "github_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/37869326929",
+      "access": "Public search, live connected Chrome broker pages and town-linked current Municode. No seller contact, purchase, booking, login, CAPTCHA/403 bypass or infrastructure changes.",
+      "preservation": "All 786 baseline IDs and first_seen retained in 787 records; original histories retained. All 817 earlier cached images and Sicily JSON retain their byte hashes. Manual pass changes only this journal. Public US listings, states, monitor and all four new photo files match the repository.",
+      "flight_review": "Weekly fare review completed October 5; flight observations and provider checks unchanged. Next refresh due October 12.",
+      "next_states": [
+        "AL",
+        "MS",
+        "CT"
+      ],
+      "rotation_reason": "Add garage-oriented Alabama and Mississippi, which have no recent recorded manual pass, alongside under-covered Connecticut. Automatic discovery continues across all 50 states.",
+      "validation": "16 focused data tests pass; validator confirms 787 records, 786 photos, 50 states and all 20 original IDs. Live lc-26473 card loads its actual photo and shows $4,000 plus $300 fee, repair/storage/occupancy unknown. Map renders 758 selectable markers and 25 loaded tiles. No app code or listing facts changed manually."
     }
   ],
-  "updated_at": "2026-10-08T02:20:44+00:00"
+  "updated_at": "2026-10-09T02:19:06+00:00"
 }
