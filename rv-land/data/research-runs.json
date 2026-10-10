@@ -2211,7 +2211,7 @@
         {
           "id": "lc-26043",
           "url": "https://www.landcentury.com/land-for-sale/mississippi/042-acres-for-sale-in-horseshoe-bend-mississippi-26043",
-          "finding": "Live Chrome and a fresh robots-respecting public-page read confirm Arkansas in the description, Izard County, ZIP 72512, parcels 800-09451-000 and 800-09452-000 and GPS near 36.241413,-91.765249. Source header/URL incorrectly says Mississippi. Corrected state to AR and kind to land (seller residential zoning; generic commercial tags are not zoning). Cash price remains $6,000; Doc Fee: $300 changes known fees 0 to 300 and known total 6,000 to 6,300. Seller area conflicts: 0.42 acre field versus 0.40 acre prose. Same ID, first_seen, photo and histories preserved. Repair and storage remain unknown."
+          "finding": "Live Chrome and a fresh robots-respecting public-page read confirm Arkansas in the description, Izard County, ZIP 72512, parcels 800-09451-000 and 800-09452-000 and GPS near 36.241413,-91.765249. Source header/URL incorrectly says Mississippi. Corrected state to AR and kind to land (seller residential zoning; generic commercial tags are not zoning). Cash price remains $6,000; Doc Fee: $300 changes known fees 0 to 300 and known total 6,000 to 6,300. Seller area conflicts: 0.42 acre field versus 0.40 acre prose. Same ID, first_seen, photo and histories preserved. Repair and storage remain unknown. Generic RV IS Allowed does not establish occupancy permission; removed the inferred seller_conditional occupancy classification and retained unknown through a reviewed correction."
         }
       ],
       "official_sources": [
@@ -2239,8 +2239,8 @@
         "DE"
       ],
       "rotation_reason": "Return to garage-oriented Louisiana and Iowa with under-covered Delaware. Automatic discovery continues across all 50 states.",
-      "validation": "17 focused data tests pass. Validator confirms 788 retained records, 787 photos, 50 states and all 20 original IDs. Recomputed state coverage: AR 42 and MS 16 photo candidates. Existing image for lc-26043 retained byte-for-byte. No app JavaScript changes."
+      "validation": "17 focused data tests pass. Validator confirms 788 retained records, 787 photos, 50 states and all 20 original IDs. Recomputed state coverage: AR 42 and MS 16 photo candidates. Existing image for lc-26043 retained byte-for-byte. No app JavaScript changes. First Pages publication succeeded; public JSON matched the committed files. Chrome confirmed Arkansas, $6,300 known total, a loaded original photo, 759 selectable markers and 30 loaded map tiles."
     }
   ],
-  "updated_at": "2026-10-10T02:18:17+00:00"
+  "updated_at": "2026-10-10T02:23:16+00:00"
 }
