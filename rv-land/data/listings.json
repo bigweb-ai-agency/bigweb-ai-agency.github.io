@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-10T01:18:23+00:00",
+  "updated_at": "2026-10-10T02:16:50+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -20815,12 +20815,18 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-04T01:49:50Z",
-      "last_verified": "2026-10-04T01:49:50Z",
+      "last_seen": "2026-10-10T02:16:51Z",
+      "last_verified": "2026-10-10T02:16:51Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "Проверка 10.10.2026: в заголовке и URL продавец ошибочно указал Mississippi. В описании — Rolling Lane Square, Horseshoe Bend, Arkansas; GPS, Izard County и ZIP 72512 согласуются с Арканзасом. Штат исправлен; границы участков отдельно не проверены.",
+        "Участок жилого назначения по описанию продавца; универсальные теги commercial/agriculture не подтверждают коммерческое использование. Гараж и разрешение личного ремонта не установлены.",
+        "Проверка 10.10.2026: цена покупки $6,000 плюс указанный продавцом Doc Fee $300. Варианты с $1 down — рассрочка, не полная цена покупки; суммы этой заметки относятся к дате проверки.",
+        "Площадь расходится внутри объявления: 0.42 acre в карточке и 0.40 acre в описании; нужен документ на оба участка.",
+        "Официальный сайт города для проверки местоположения: https://cityofhorseshoebendar.gov/ . Это не подтверждение разрешения RV или ремонта."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26043",
       "source_id": "26043",
@@ -20829,13 +20835,13 @@
       "title": "Rolling Lane Square",
       "address": "Rolling Lane Square",
       "city": "Horseshoe Bend",
-      "state": "MS",
+      "state": "AR",
       "county": "Izard",
       "zip": "72512",
-      "kind": "commercial_lot",
+      "kind": "land",
       "price": 6000.0,
-      "known_fees": 0.0,
-      "total_known": 6000.0,
+      "known_fees": 300.0,
+      "total_known": 6300.0,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 0.42,
       "lat": 36.24141,
@@ -20893,7 +20899,7 @@
       ],
       "region": "Юг",
       "screening_issue": null,
-      "climate_note": "Недорогая земля и длинный сезон. Климатическая оценка региона, не замер на участке.",
+      "climate_note": "Один из полезных рынков земли в бюджете. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
           "code": "STL",
@@ -20937,7 +20943,7 @@
       },
       "score": 34,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/27/6a90467c3dfca-1787840124.jpg",
-      "photo_preserved_at": "2026-10-04T01:44:05+00:00",
+      "photo_preserved_at": "2026-10-10T02:16:50+00:00",
       "photo_history": [
         {
           "path": "assets/listings/8c7f8a68ffd6984e775b.jpg",

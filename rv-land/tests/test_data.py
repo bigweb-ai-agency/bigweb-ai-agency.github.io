@@ -7,6 +7,23 @@ import cache_photos as photos
 import make_analysis as analysis
 
 class ResearchDataTests(unittest.TestCase):
+    def test_label_first_document_fee_is_included_without_counting_financing(self):
+        base={'id':26043,'cashPrice':600000,'processingFee':0,
+              'stateRegion':'Mississippi','type':'land','isPublished':True,
+              '_source_url':'https://www.landcentury.com/example',
+              '_fetched_at':'2026-10-10','info':{},'categories':[]}
+        for description,structured,expected in [
+            ('Cash Sale: $6,000. Seller Finance: $1 down and $115 monthly. Doc Fee: $300',0,300),
+            ('$300 document fee. Processing fee: $300.',0,300),
+            ('Document Fee - $300',40000,400),
+            ('Seller Finance: $1 down and $115 for 60 months.',0,0),
+        ]:
+            with self.subTest(description=description),patch.object(b,'read',return_value={
+                    '26043':dict(base,description=description,processingFee=structured)}):
+                row=b.landcentury_records()[0]
+                self.assertEqual((row['price'],row['known_fees'],row['total_known']),
+                                 (6000,expected,6000+expected))
+
     def test_older_source_url_cannot_replace_newer_parcel_relisting(self):
         current={'id':'lc-25806','source':'LandCentury','source_id':'26412',
                  'url':'https://example.com/new','state':'CO','county':'Costilla',

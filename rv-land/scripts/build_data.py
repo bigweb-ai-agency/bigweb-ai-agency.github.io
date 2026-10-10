@@ -138,6 +138,10 @@ def landcentury_records():
             price=number(declared)
         docfee=matchvalue(description,r'\$([\d,]+(?:\.\d{2})?)\s*(?:non-refundable\s+)?(?:doc(?:ument)?(?:ation)?|processing)\s*fee')
         if docfee:fee=max(fee,number(docfee))
+        # Sellers also put the label first: "Doc Fee: $300". This is a
+        # purchase fee, not the nearby financing down payment or monthly rate.
+        docfee=matchvalue(description,r'(?:doc(?:ument)?(?:ation)?|processing)\s*fee\s*[:\-]?\s*\$([\d,]+(?:\.\d{2})?)')
+        if docfee:fee=max(fee,number(docfee))
         info=p.get('info') or {}
         state=STATE_CODES.get(p.get('stateRegion'))
         image=(p.get('get_main_image') or {}).get('get_image') or (p.get('get_main_image') or {}).get('image') or {}

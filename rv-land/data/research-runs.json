@@ -2152,7 +2152,95 @@
       ],
       "rotation_reason": "Add garage-oriented Alabama and Mississippi, which have no recent recorded manual pass, alongside under-covered Connecticut. Automatic discovery continues across all 50 states.",
       "validation": "16 focused data tests pass; validator confirms 787 records, 786 photos, 50 states and all 20 original IDs. Live lc-26473 card loads its actual photo and shows $4,000 plus $300 fee, repair/storage/occupancy unknown. Map renders 758 selectable markers and 25 loaded tiles. No app code or listing facts changed manually."
+    },
+    {
+      "date": "2026-10-10T02:18:17+00:00",
+      "states": [
+        "AL",
+        "MS",
+        "CT"
+      ],
+      "added_ids": [],
+      "updated_ids": [
+        "lc-26043"
+      ],
+      "scope": "Garage-first rotation across Alabama, Mississippi and under-covered Connecticut. No newly qualified garage/workshop. Corrected the existing Rolling Lane Square record to Arkansas and included its explicitly stated $300 document fee; the automatic collector added one Nevada land listing.",
+      "deferred": [
+        {
+          "url": "https://www.redfin.com/CT/East-Hartford/73-Main-St-06118/home/54326764",
+          "price": 9999,
+          "status_basis": "indexed_public_page",
+          "reason": "73 Main St, East Hartford: MLS 24204392, 0.11-acre vacant lot; seller says survey needed to determine buildability. No existing workshop, fresh direct-page availability, full import evidence or RV storage/repair permission established. January 28 zoning agenda is a proposal, not evidence of an adopted change."
+        },
+        {
+          "url": "https://www.realtor.com/realestateandhomes-detail/2006-Alta-Woods-Blvd_Jackson_MS_39204_M82879-38462",
+          "price": 11000,
+          "status_basis": "indexed_public_page",
+          "reason": "MLS 4149055; search snapshot updated October 2 says Pending. Parking does not establish an enclosed workshop or suitable campervan entry. No fresh direct availability established; no import."
+        },
+        {
+          "url": "https://www.zillow.com/homedetails/28-Bud-Stevens-Rd-Waynesboro-MS-39367/258765984_zpid/",
+          "price": 11500,
+          "status_basis": "indexed_public_page",
+          "reason": "Older Realtor snapshot says Pending. Zillow direct Chrome page required Press & Hold human verification; stopped without solving or bypass. Fresh status and garage dimensions unverified; no import."
+        }
+      ],
+      "negative_searches": [
+        {
+          "url": "https://www.zillow.com/homedetails/1805-16th-Way-N-Bessemer-AL-35020/1044912_zpid/",
+          "finding": "Live Chrome shows $23,000, MLS 21466660, above budget. The $15,000 category snapshot is older. Gutted house requires complete renovation; backyard storage building does not prove campervan-sized garage entry."
+        },
+        {
+          "url": "https://www.realtor.com/realestateandhomes-detail/1-Nutmeg-Dr_Torrington_CT_06790_M35685-52762",
+          "finding": "Indexed MLS 24177614 $6,000 lot explicitly not buildable and prohibits boat/camper storage; lake-membership fees also apply. Direct Realtor Chrome access says unavailable from Europe; no bypass. Unsuitable indexed lead, not imported as an RV base."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/7185-texas-flat-rd-kiln-ms-39556/5570818",
+          "finding": "Garage with high roll-up doors is listed at $2.1 million; 12,000 denotes square feet, not an affordable purchase price."
+        },
+        {
+          "url": "https://prosteelstructures.com/metal-buildings/mississippi",
+          "finding": "$8,000-$15,000 garage examples are building products, not ownership of the underlying real estate. Excluded."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/connecticut/search/under-15000",
+          "finding": "Budget-category results include monthly rentals. They are not evidence of owned sites within the total cash budget."
+        }
+      ],
+      "existing_listing_checks": [
+        {
+          "id": "lc-26043",
+          "url": "https://www.landcentury.com/land-for-sale/mississippi/042-acres-for-sale-in-horseshoe-bend-mississippi-26043",
+          "finding": "Live Chrome and a fresh robots-respecting public-page read confirm Arkansas in the description, Izard County, ZIP 72512, parcels 800-09451-000 and 800-09452-000 and GPS near 36.241413,-91.765249. Source header/URL incorrectly says Mississippi. Corrected state to AR and kind to land (seller residential zoning; generic commercial tags are not zoning). Cash price remains $6,000; Doc Fee: $300 changes known fees 0 to 300 and known total 6,000 to 6,300. Seller area conflicts: 0.42 acre field versus 0.40 acre prose. Same ID, first_seen, photo and histories preserved. Repair and storage remain unknown."
+        }
+      ],
+      "official_sources": [
+        "https://cityofhorseshoebendar.gov/",
+        "https://www.easthartfordct.gov/sites/g/files/vyhlif9241/f/agendas/012826_pzc-iwc_meeting_agenda_revised.pdf"
+      ],
+      "official_findings": "Horseshoe Bend official city website confirms Arkansas and ZIP 72512, supporting the source-description geography correction, not parcel boundaries or any RV/repair permission. East Hartford agenda contains a proposed zone change; no proposal treated as adopted law.",
+      "monitor_diagnosis": "Scheduled RV Land nightly discovery run 38012645364, created October 10 at 01:18:07Z, succeeded. Monitor 01:18:23+00:00 is partial: 1 new record, 3 changes, 101 detail pages and 19 source 404 errors. Collector operational; no duplicate all-state crawl. Only one targeted fresh LandCentury page read for the correction. Pages 38013063347 succeeded at e1389ed2c9740b126787a285eb58805a6b1e6d00; sibling 38013062581 cancelled/superseded.",
+      "automatic_added_ids": [
+        "lc-26146"
+      ],
+      "automatic_updated_ids": [
+        "lc-26105",
+        "lc-25787",
+        "lc-26279"
+      ],
+      "github_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/38012645364",
+      "code_change": "Recognize label-first document/processing fees such as Doc Fee: $300. Regression cases separate cash price from financing down payments/monthly rates and avoid duplicate or lower fee overwrites. Static state/kind correction persists across future refreshes; numeric price/status are not frozen.",
+      "access": "Public search, connected Chrome, official city website and one bounded public collector read. Realtor Europe restriction and Zillow human-verification page respected. No seller contact, booking, purchase, infrastructure or access bypass.",
+      "preservation": "All 787 previous IDs and first_seen retained in 788 records; previous price/status/photo histories preserved. All 822 protected photo/Sicily files match their prior hashes. All three newly published photo files from the automatic run match local original bytes. Only lc-26043 factual fields changed manually.",
+      "flight_review": "Weekly fare review completed October 5; observations and provider checks unchanged. Next refresh due October 12.",
+      "next_states": [
+        "LA",
+        "IA",
+        "DE"
+      ],
+      "rotation_reason": "Return to garage-oriented Louisiana and Iowa with under-covered Delaware. Automatic discovery continues across all 50 states.",
+      "validation": "17 focused data tests pass. Validator confirms 788 retained records, 787 photos, 50 states and all 20 original IDs. Recomputed state coverage: AR 42 and MS 16 photo candidates. Existing image for lc-26043 retained byte-for-byte. No app JavaScript changes."
     }
   ],
-  "updated_at": "2026-10-09T02:19:06+00:00"
+  "updated_at": "2026-10-10T02:18:17+00:00"
 }
