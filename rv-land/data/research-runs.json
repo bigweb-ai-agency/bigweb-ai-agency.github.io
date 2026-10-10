@@ -2212,13 +2212,20 @@
           "id": "lc-26043",
           "url": "https://www.landcentury.com/land-for-sale/mississippi/042-acres-for-sale-in-horseshoe-bend-mississippi-26043",
           "finding": "Live Chrome and a fresh robots-respecting public-page read confirm Arkansas in the description, Izard County, ZIP 72512, parcels 800-09451-000 and 800-09452-000 and GPS near 36.241413,-91.765249. Source header/URL incorrectly says Mississippi. Corrected state to AR and kind to land (seller residential zoning; generic commercial tags are not zoning). Cash price remains $6,000; Doc Fee: $300 changes known fees 0 to 300 and known total 6,000 to 6,300. Seller area conflicts: 0.42 acre field versus 0.40 acre prose. Same ID, first_seen, photo and histories preserved. Repair and storage remain unknown. Generic RV IS Allowed does not establish occupancy permission; removed the inferred seller_conditional occupancy classification and retained unknown through a reviewed correction."
+        },
+        {
+          "id": "lc-26309",
+          "url": "https://www.landcentury.com/land-for-sale/nevada/10-acres-for-sale-in-montello-nevada-26309",
+          "finding": "Fresh public page independently confirms cash $12,999 plus one-time document fee $249, known total $13,248. Financing $399 down and monthly installments remain distinct."
         }
       ],
       "official_sources": [
         "https://cityofhorseshoebendar.gov/",
-        "https://www.easthartfordct.gov/sites/g/files/vyhlif9241/f/agendas/012826_pzc-iwc_meeting_agenda_revised.pdf"
+        "https://www.easthartfordct.gov/sites/g/files/vyhlif9241/f/agendas/012826_pzc-iwc_meeting_agenda_revised.pdf",
+        "https://cityofhorseshoebendar.gov/boaandplatmaps/",
+        "https://cityofhorseshoebendar.gov/municipal-codes/"
       ],
-      "official_findings": "Horseshoe Bend official city website confirms Arkansas and ZIP 72512, supporting the source-description geography correction, not parcel boundaries or any RV/repair permission. East Hartford agenda contains a proposed zone change; no proposal treated as adopted law.",
+      "official_findings": "Horseshoe Bend official city website confirms Arkansas and ZIP 72512, supporting the source-description geography correction, not parcel boundaries or any RV/repair permission. East Hartford agenda contains a proposed zone change; no proposal treated as adopted law. Located city-hosted plats and Bills of Assurance by subdivision. The exact subdivision document for these two parcels was not identified; no subdivision-specific legal permission or prohibition assigned.",
       "monitor_diagnosis": "Scheduled RV Land nightly discovery run 38012645364, created October 10 at 01:18:07Z, succeeded. Monitor 01:18:23+00:00 is partial: 1 new record, 3 changes, 101 detail pages and 19 source 404 errors. Collector operational; no duplicate all-state crawl. Only one targeted fresh LandCentury page read for the correction. Pages 38013063347 succeeded at e1389ed2c9740b126787a285eb58805a6b1e6d00; sibling 38013062581 cancelled/superseded.",
       "automatic_added_ids": [
         "lc-26146"
@@ -2239,8 +2246,32 @@
         "DE"
       ],
       "rotation_reason": "Return to garage-oriented Louisiana and Iowa with under-covered Delaware. Automatic discovery continues across all 50 states.",
-      "validation": "17 focused data tests pass. Validator confirms 788 retained records, 787 photos, 50 states and all 20 original IDs. Recomputed state coverage: AR 42 and MS 16 photo candidates. Existing image for lc-26043 retained byte-for-byte. No app JavaScript changes. First Pages publication succeeded; public JSON matched the committed files. Chrome confirmed Arkansas, $6,300 known total, a loaded original photo, 759 selectable markers and 30 loaded map tiles."
+      "validation": "17 focused data tests pass. Validator confirms 788 retained records, 787 photos, 50 states and all 20 original IDs. Recomputed state coverage: AR 42 and MS 16 photo candidates. Existing image for lc-26043 retained byte-for-byte. No app JavaScript changes. First Pages publication succeeded; public JSON matched the committed files. Chrome confirmed Arkansas, $6,300 known total, a loaded original photo, 759 selectable markers and 30 loaded map tiles. After recovery, all 788 IDs, first_seen and prior histories retained; all 822 pre-run protected photo/Sicily files retain their hashes. Four additional source photos preserved, with no deletion.",
+      "publication_recovery": {
+        "failed_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/38016492632",
+        "cause": "The script-change push triggered a collector from 245bcf8. The manual occupancy correction reached main while it ran. Collection and validation succeeded, but generated-listing publication failed on a Git rebase conflict. No data from that failed attempt was published.",
+        "successful_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/38016972370",
+        "recovery": "Fresh dispatch from current main f27e08d completed successfully. No competing listing commits; fast-forwarded to 499038a. The collector preserved AR, $300 known fee, $6,300 total and unknown occupancy for lc-26043.",
+        "result": {
+          "date": "2026-10-10T02:26:47+00:00",
+          "status": "partial",
+          "scanned_pages": 113,
+          "read_details": 97,
+          "added": 0,
+          "changed": 4,
+          "errors": 23
+        },
+        "changed_ids": [
+          "lc-26096",
+          "lc-25748",
+          "lc-26230",
+          "lc-26310",
+          "lc-26309"
+        ],
+        "notes": "Four source photos refreshed. The parser also captured lc-26309 document fee $249, making its $12,999 cash price $13,248 with known fees. The monitor changes counter covers price/status/photo, excluding fee-only changes. Of 23 reported source errors, all 20 retained examples are 404. Access failures did not change sale status.",
+        "prevention": "NIGHTLY.md requires checking for active discovery before publishing listings and starting a fresh current-main dispatch after a publication conflict."
+      }
     }
   ],
-  "updated_at": "2026-10-10T02:23:16+00:00"
+  "updated_at": "2026-10-10T02:34:55+00:00"
 }
