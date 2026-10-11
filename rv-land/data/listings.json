@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-11T01:23:37+00:00",
+  "updated_at": "2026-10-11T02:16:04+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -88521,12 +88521,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-14T01:14:48+00:00",
-      "last_seen": "2026-10-09T01:25:56Z",
-      "last_verified": "2026-10-09T01:25:56Z",
+      "last_seen": "2026-10-11T02:14:27Z",
+      "last_verified": "2026-10-11T02:14:27Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "Проверка 11.10.2026: cash price $6,300; Doc Fee $300 указан рядом с условиями рассрочки как платёж при взносе. В расчёте учтено $6,600, но применимость $300 при полной оплате требует уточнения. Цена земли больше не прибавляется второй раз как сбор."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-25075",
       "source_id": "25075",
@@ -88540,8 +88542,8 @@
       "zip": "75979",
       "kind": "commercial_lot",
       "price": 6300.0,
-      "known_fees": 6300.0,
-      "total_known": 12600.0,
+      "known_fees": 300.0,
+      "total_known": 6600.0,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 0.2,
       "lat": 30.6879,
@@ -88593,7 +88595,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/06/05/6a22d477580b4-1780667511.jpg",
-      "photo_preserved_at": "2026-10-09T01:21:02+00:00",
+      "photo_preserved_at": "2026-10-11T02:16:04+00:00",
       "photo_history": [
         {
           "path": "assets/listings/b8c965b82d017c7085d6.jpg",
@@ -88639,14 +88641,14 @@
       ],
       "msp_straight_km": 1582,
       "score_parts": {
-        "Цена /25": 9,
+        "Цена /25": 19,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 0,
         "Сезон /10": 7,
         "Дорога /10": 8
       },
-      "score": 24,
+      "score": 34,
       "legacy": false,
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/texas/020-acres-for-sale-in-woodville-texas-25075"
@@ -90999,12 +91001,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-17T01:10:26+00:00",
-      "last_seen": "2026-10-10T01:21:17Z",
-      "last_verified": "2026-10-10T01:21:17Z",
+      "last_seen": "2026-10-11T02:14:28Z",
+      "last_verified": "2026-10-11T02:14:28Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "Проверка 11.10.2026: cash price $4,000 плюс Doc fee $250 = $4,250 известных затрат. Устранено ошибочное повторное прибавление цены земли как сбора. Суммы относятся к этой дате; closing и подготовка площадки отдельно."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-25787",
       "source_id": "26498",
@@ -91018,8 +91022,8 @@
       "zip": "72512",
       "kind": "land",
       "price": 4000.0,
-      "known_fees": 4000.0,
-      "total_known": 8000.0,
+      "known_fees": 250.0,
+      "total_known": 4250.0,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 0.29,
       "lat": 36.223062,
@@ -91065,7 +91069,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/09/6ac913286bb8d-1791562536.jpg",
-      "photo_preserved_at": "2026-10-10T01:18:23+00:00",
+      "photo_preserved_at": "2026-10-11T02:16:04+00:00",
       "photo_history": [
         {
           "path": "assets/listings/deeb99fd773808b30e0e.jpg",
@@ -91117,14 +91121,14 @@
       ],
       "msp_straight_km": 971,
       "score_parts": {
-        "Цена /25": 17,
+        "Цена /25": 23,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 2,
         "Сезон /10": 8,
         "Дорога /10": 5
       },
-      "score": 32,
+      "score": 38,
       "legacy": false,
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/arkansas/029-acres-for-sale-in-horseshoe-bend-arkansas-25787",
@@ -93595,12 +93599,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-25T01:10:17+00:00",
-      "last_seen": "2026-10-11T01:28:59Z",
-      "last_verified": "2026-10-11T01:28:59Z",
+      "last_seen": "2026-10-11T02:12:33Z",
+      "last_verified": "2026-10-11T02:12:33Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "Проверка 11.10.2026: $9 обозначены как Loan Processing Fee и не прибавляются к cash price $5,995. Рассрочка $6,995, взнос и ежемесячные платежи — отдельная схема. Прочие расходы закрытия сделки не установлены."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26329",
       "source_id": "26329",
@@ -93614,8 +93620,8 @@
       "zip": "81019",
       "kind": "land",
       "price": 5995.0,
-      "known_fees": 9.0,
-      "total_known": 6004.0,
+      "known_fees": 0.0,
+      "total_known": 5995.0,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 0.31,
       "lat": 37.944143,
@@ -93661,7 +93667,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/24/6ab582a6b3c53-1790280358.jpg",
-      "photo_preserved_at": "2026-10-11T01:23:37+00:00",
+      "photo_preserved_at": "2026-10-11T02:16:04+00:00",
       "photo_history": [
         {
           "path": "assets/listings/a33f49db6c18ee1a4b02.jpg",
@@ -101422,12 +101428,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-11T01:23:37+00:00",
-      "last_seen": "2026-10-11T01:26:26Z",
-      "last_verified": "2026-10-11T01:26:26Z",
+      "last_seen": "2026-10-11T02:12:32Z",
+      "last_verified": "2026-10-11T02:12:32Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "Проверка 11.10.2026: cash price $3,895 плюс Doc fee $250 = $4,145 известных затрат. Устранено ошибочное повторное прибавление цены земли как сбора. Рассрочка и ежемесячные платежи не входят в cash price. По продавцу R1; гараж не заявлен, для проживания/кемпинга на жилом участке требуется начало строительства. Разрешение хранения и личного ремонта не установлено."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26505",
       "source_id": "26505",
@@ -101441,8 +101449,8 @@
       "zip": "72512",
       "kind": "land",
       "price": 3895.0,
-      "known_fees": 3895.0,
-      "total_known": 7790.0,
+      "known_fees": 250.0,
+      "total_known": 4145.0,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 0.35,
       "lat": 36.216298,
@@ -101488,7 +101496,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/10/6ac9afca97b84-1791602634.jpg",
-      "photo_preserved_at": "2026-10-11T01:23:37+00:00",
+      "photo_preserved_at": "2026-10-11T02:16:04+00:00",
       "photo_history": [
         {
           "path": "assets/listings/baef030ab2e81595d6ea.jpg",
@@ -101534,14 +101542,18 @@
       ],
       "msp_straight_km": 972,
       "score_parts": {
-        "Цена /25": 17,
+        "Цена /25": 23,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 2,
         "Сезон /10": 8,
         "Дорога /10": 5
       },
-      "score": 32
+      "score": 38,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arkansas/035-acres-for-sale-in-horseshoe-bend-arkansas-26505"
+      ]
     }
   ]
 }

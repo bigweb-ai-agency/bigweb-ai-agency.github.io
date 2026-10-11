@@ -43,6 +43,29 @@ def matchvalue(text,pattern,default=None):
     m=re.search(pattern,text,re.I)
     return compact(m[1]) if m else default
 
+def purchase_document_fee(description):
+    """Read a fee's own amount, excluding explicitly loan-only/recurring costs."""
+    text=compact(description)
+    amount=r'\$([\d,]+(?:\.\d{2})?)'
+    fee=0
+    for label in re.finditer(r'\b(?:doc(?:ument)?(?:ation)?|processing)\s*fee\b',text,re.I):
+        before,after=text[:label.start()],text[label.end():]
+        if re.search(r'\b(?:loan|financing|monthly|annual)\s+$',before,re.I):continue
+        # In "Cash price: $3,895 Doc fee: $250", $250 belongs to the fee.
+        # Do not also interpret the preceding purchase price as a fee.
+        following=re.match(r'\s*[:\-]?\s*'+amount,after)
+        if following:
+            value=following[1]
+            if re.match(r'\s*(?:(?:per|a|/)\s*(?:month|year|mo\b)|monthly|annually)',after[following.end():],re.I):continue
+        else:
+            if re.match(r'\s*[:\-]?\s*(?:waived|included|none)\b',after,re.I):continue
+            preceding=re.search(amount+r'\s*(?:non-refundable\s+)?$',before,re.I)
+            if not preceding:continue
+            value=preceding[1]
+            if re.match(r'\s*(?:(?:per|a|/)\s*(?:month|year|mo\b)|monthly|annually)',after,re.I):continue
+        fee=max(fee,number(value) or 0)
+    return fee
+
 def flags_from_text(description,kind='land',road=None,utilities=None):
     t=compact(description).lower()
     result={
@@ -136,12 +159,7 @@ def landcentury_records():
         declared=matchvalue(description,r'cash\s+price\s*[:\-]?\s*\$([\d,]+(?:\.\d{2})?)')
         if declared is not None:
             price=number(declared)
-        docfee=matchvalue(description,r'\$([\d,]+(?:\.\d{2})?)\s*(?:non-refundable\s+)?(?:doc(?:ument)?(?:ation)?|processing)\s*fee')
-        if docfee:fee=max(fee,number(docfee))
-        # Sellers also put the label first: "Doc Fee: $300". This is a
-        # purchase fee, not the nearby financing down payment or monthly rate.
-        docfee=matchvalue(description,r'(?:doc(?:ument)?(?:ation)?|processing)\s*fee\s*[:\-]?\s*\$([\d,]+(?:\.\d{2})?)')
-        if docfee:fee=max(fee,number(docfee))
+        fee=max(fee,purchase_document_fee(description))
         info=p.get('info') or {}
         state=STATE_CODES.get(p.get('stateRegion'))
         image=(p.get('get_main_image') or {}).get('get_image') or (p.get('get_main_image') or {}).get('image') or {}

@@ -2271,7 +2271,112 @@
         "notes": "Four source photos refreshed. The parser also captured lc-26309 document fee $249, making its $12,999 cash price $13,248 with known fees. The monitor changes counter covers price/status/photo, excluding fee-only changes. Of 23 reported source errors, all 20 retained examples are 404. Access failures did not change sale status.",
         "prevention": "NIGHTLY.md requires checking for active discovery before publishing listings and starting a fresh current-main dispatch after a publication conflict."
       }
+    },
+    {
+      "date": "2026-10-11T02:21:44+00:00",
+      "states": [
+        "LA",
+        "IA",
+        "DE"
+      ],
+      "added": 0,
+      "status": "completed_with_source_limits",
+      "focus": "Fresh garage/workshop and owned-site research in Louisiana, Iowa and under-covered Delaware; repair, storage and occupancy remain separate. Corrected a cash-price/fee parser defect found in the successful nightly output.",
+      "automatic_added_ids": [
+        "lc-26521",
+        "lc-26505"
+      ],
+      "automatic_updated_ids": [
+        "lc-24721",
+        "lc-26147",
+        "lc-26130",
+        "lc-26319",
+        "lc-23024"
+      ],
+      "monitor_diagnosis": "Scheduled RV Land nightly discovery 38101668639, created 2026-10-11T01:23:22Z, succeeded. Monitor 01:23:37+00:00 is partial: 115 category pages, 97 detail pages, 2 new records, 5 price/status/photo changes, 23 source errors. All 20 retained error examples are 404; the other three are not individually retained. Fee-only changes do not increment the changes counter. Pages 38101998098 succeeded at eb66af20a4d51891b90c47f02c1e819ea1649be6; sibling 38101997538 cancelled/superseded. No duplicate all-state crawl; only four targeted fresh public reads for corrections.",
+      "github_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/38101668639",
+      "existing_listing_checks": [
+        {
+          "id": "lc-26505",
+          "url": "https://www.landcentury.com/land-for-sale/arkansas/035-acres-for-sale-in-horseshoe-bend-arkansas-26505",
+          "finding": "Fresh page: cash $3,895, document fee $250, known total $4,145. The prior parser incorrectly captured cash price as a $3,895 fee. Pine Ridge Lot 235, R1 residential land; reviewed kind land persists. Seller says no residential-lot camping/occupation before construction, minimum dwelling requirements. Storage and repair not confirmed."
+        },
+        {
+          "id": "lc-25787",
+          "url": "https://www.landcentury.com/land-for-sale/arkansas/029-acres-for-sale-in-horseshoe-bend-arkansas-26498",
+          "finding": "Retained ID for relisted source: cash $4,000 plus $250 one-time doc fee, total $4,250. Removed false $4,000 fee captured from the adjacent cash-price label."
+        },
+        {
+          "id": "lc-25075",
+          "url": "https://www.landcentury.com/land-for-sale/texas/020-acres-for-sale-in-woodville-texas-25075",
+          "finding": "Cash $6,300 and $300 doc fee; prior $6,300 fee was false. Known/conservative total $6,600. Source attaches fee to the down payment; applicability to full-cash purchase remains explicitly unconfirmed in notes. Financing $199 down / $124 x 60 months is separate."
+        },
+        {
+          "id": "lc-26329",
+          "url": "https://www.landcentury.com/land-for-sale/colorado/031-acres-for-sale-in-colorado-city-colorado-26329",
+          "finding": "Cash $5,995; $9 is explicitly Loan Processing Fee and removed from known cash fees. Other closing charges unknown. Finance price $6,995 is distinct."
+        }
+      ],
+      "code_change": "Added purchase_document_fee helper. A fee uses its own following amount before considering an amount before the label, preventing Cash price $3,895 Doc fee $250 from becoming a $3,895 fee. Explicit loan/financing/recurring fees and waived/included labels excluded. Numeric price/fees are not frozen in corrections. Two focused regression tests cover both observed defects.",
+      "deferred_candidates": [
+        {
+          "url": "https://www.homes.com/property/810-7th-ave-shenandoah-ia/3x5cnhsclj1ll/",
+          "price": 15000,
+          "status_basis": "live_public_page",
+          "reason": "Connected Chrome and All MLS Data confirm Active, listed October 5, MLS 26-2174, APN 000519336115000, 2 bedrooms/1 bath, 792 sq ft, 1900 house, no garage/outbuildings, off-street parking, public sewer and asphalt road. Source map center 40.76196,-95.37634, not cadastral boundaries. Lot size 6600 has no unit displayed. The visible source photo URL was identified, but the one permitted photo-preservation attempt returned unavailable; no imported row or substitute photo. Tall 7 m camper entry and personal-repair permission unknown. Renovation and closing costs beyond $15,000 not established.",
+          "image_url": "https://images.homes.com/listings/102/1856809415-891083732/810-7th-ave-shenandoah-ia-primaryphoto.jpg"
+        },
+        {
+          "url": "https://www.exprealty.com/simmesport-la-real-estate/237-riverside-drive",
+          "price": 15000,
+          "status_basis": "indexed_public_page",
+          "reason": "Older indexed MLS 2600003682 describes a house needing major renovation/possible demolition. No fresh direct status, exact pin or preserved photo; no import."
+        },
+        {
+          "url": "https://www.compass.com/homedetails/6111-Henderson-Ave-Shreveport-LA-71106/V2U4A_pid/",
+          "price": 15000,
+          "status_basis": "indexed_public_page",
+          "reason": "Indexed MLS 21352559, source update August 10, says no garage; renovation house. Fresh availability, pin and photo not verified; no import."
+        }
+      ],
+      "negative_searches": [
+        {
+          "url": "https://www.redfin.com/LA/Washington/6653-Highway-10-70589/home/127076329",
+          "finding": "Direct Chrome: sold September 16, 2026 for $42,000. Garage/workshop lead is sold and above budget; no import."
+        },
+        {
+          "url": "https://www.homes.com/property/0-rose-valley-school-rd-dover-de/lt94xzp4yz6vk/",
+          "finding": "Direct Chrome: not listed, sold May 28, 2026 for $11,000; older $15,000 pending search snapshot is not fresh availability. MLS DEKT2044838; no import."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/701-e-6th-st-wilmington-de-19801/5060236",
+          "finding": "Indexed garage/lot asks $55,000; $15,000 is a price reduction, not purchase price. Excluded."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/delaware/search/under-15000",
+          "finding": "Indexed budget results include monthly rentals and adjacent-state lots. Not proof of an owned Delaware property within cash budget."
+        },
+        {
+          "url": "https://www.louisianasportsman.com/rtcl_listing/hunting-or-fishing-camp/",
+          "finding": "$15,000 movable 12 x 40 ft camp building on a skid; underlying real estate not included. Excluded."
+        }
+      ],
+      "official_sources": [
+        "https://shenandoahiowa.net/ordinances/",
+        "https://shenandoahiowa.net/forms-permits/"
+      ],
+      "official_findings": "Located official Shenandoah ordinance index. Indexed forms page references 2012 IPMC, but direct fetch timed out; exact adopted text, amendments and parcel zoning were not verified. No legal permission or prohibition inferred from an index, other Iowa cities or an old zoning search excerpt.",
+      "access": "Public search, connected Chrome and four fresh robots-respecting LandCentury pages. Photo download failed without bypass; no seller contact, booking, purchase or infrastructure changes.",
+      "preservation": "All 788 pre-run IDs, first_seen and prior price/status/photo histories retained in 790 records. All 829 protected photo/Sicily files match pre-run SHA256 hashes. Two new source records and five source-photo refreshes retained from scheduled discovery. No manual record added without a saved source photo.",
+      "flight_review": "Weekly fare review completed October 5; next refresh due October 12. No stale airfare presented as a new quote.",
+      "next_states": [
+        "MI",
+        "OH",
+        "VT"
+      ],
+      "rotation_reason": "Next focus: garage-oriented Michigan and Ohio plus under-covered Vermont; automatic discovery continues across all 50 states.",
+      "validation": "19 focused data tests pass; validator confirms 790 records, 789 photos, all 50 states and 20 original IDs. 37 states have at least 10 screened photo candidates. No JavaScript changes. Publication verification follows the script-triggered collector without competing listing commits."
     }
   ],
-  "updated_at": "2026-10-10T02:34:55+00:00"
+  "updated_at": "2026-10-11T02:21:44+00:00"
 }

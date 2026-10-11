@@ -7,6 +7,18 @@ import cache_photos as photos
 import make_analysis as analysis
 
 class ResearchDataTests(unittest.TestCase):
+    def test_fee_amount_does_not_capture_adjacent_cash_price(self):
+        self.assertEqual(b.purchase_document_fee('Cash price: $3,895 Doc fee: $250 one time, due at signing'),250)
+        self.assertEqual(b.purchase_document_fee('Cash price: $3,895 Doc fee: waived'),0)
+        self.assertEqual(b.purchase_document_fee('$300 non-refundable document fee.'),300)
+
+    def test_loan_and_recurring_fees_are_not_cash_purchase_fees(self):
+        for text in ('Total Monthly Payment $205.49 Loan Processing Fee $9.00 Total Due Today $695.00',
+                     'Financing processing fee: $9', 'Monthly processing fee: $9',
+                     'Processing fee: $9/month', '$9 processing fee per month'):
+            with self.subTest(text=text):self.assertEqual(b.purchase_document_fee(text),0)
+        self.assertEqual(b.purchase_document_fee('Loan Processing Fee $9.00. One-Time Doc Fee: $249'),249)
+
     def test_label_first_document_fee_is_included_without_counting_financing(self):
         base={'id':26043,'cashPrice':600000,'processingFee':0,
               'stateRegion':'Mississippi','type':'land','isPublished':True,
