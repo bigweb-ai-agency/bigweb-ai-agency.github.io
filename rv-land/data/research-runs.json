@@ -2363,11 +2363,13 @@
       ],
       "official_sources": [
         "https://shenandoahiowa.net/ordinances/",
-        "https://shenandoahiowa.net/forms-permits/"
+        "https://shenandoahiowa.net/forms-permits/",
+        "https://cityofhorseshoebendar.gov/boaandplatmaps/",
+        "https://cityofhorseshoebendar.gov/wp-content/uploads/2025/07/BOA-Pine-Ridge.pdf"
       ],
-      "official_findings": "Located official Shenandoah ordinance index. Indexed forms page references 2012 IPMC, but direct fetch timed out; exact adopted text, amendments and parcel zoning were not verified. No legal permission or prohibition inferred from an index, other Iowa cities or an old zoning search excerpt.",
+      "official_findings": "Located official Shenandoah ordinance index. Indexed forms page references 2012 IPMC, but direct fetch timed out; exact adopted text, amendments and parcel zoning were not verified. No legal permission or prohibition inferred from an index, other Iowa cities or an old zoning search excerpt. City-hosted Pine Ridge Bill of Assurance dated July 16, 1970 visually checked, pages 2-4: single-family dwelling, plan approval, 1050/850 sq ft minimum, nuisance restrictions and covenant renewal. Relation to Lot 235 title/current amendments not independently verified; no RV/repair permission inferred.",
       "access": "Public search, connected Chrome and four fresh robots-respecting LandCentury pages. Photo download failed without bypass; no seller contact, booking, purchase or infrastructure changes.",
-      "preservation": "All 788 pre-run IDs, first_seen and prior price/status/photo histories retained in 790 records. All 829 protected photo/Sicily files match pre-run SHA256 hashes. Two new source records and five source-photo refreshes retained from scheduled discovery. No manual record added without a saved source photo.",
+      "preservation": "All 788 pre-run IDs, first_seen and prior histories retained. All 829 protected photo/Sicily hashes unchanged. Five total new source records across two successful runs; lc-24305 retained on research hold. No failed-photo manual lead imported.",
       "flight_review": "Weekly fare review completed October 5; next refresh due October 12. No stale airfare presented as a new quote.",
       "next_states": [
         "MI",
@@ -2375,8 +2377,46 @@
         "VT"
       ],
       "rotation_reason": "Next focus: garage-oriented Michigan and Ohio plus under-covered Vermont; automatic discovery continues across all 50 states.",
-      "validation": "19 focused data tests pass; validator confirms 790 records, 789 photos, all 50 states and 20 original IDs. 37 states have at least 10 screened photo candidates. No JavaScript changes. Publication verification follows the script-triggered collector without competing listing commits."
+      "validation": "19 focused tests pass locally and in the successful script-triggered workflow. Before its final refresh, Chrome showed corrected $4,145 total for lc-26505, a loaded original photo, 761 map shapes and 30 loaded tiles; four public data files and seven refreshed/new photos matched committed bytes. Final retained-data/hold validation and publication check follow the completed collector. Final validator: 793 records, 792 photos, 50 states, all 20 original IDs; all 788 baseline IDs/first_seen/history entries and 829 protected hashes verified. lc-24305 excluded as research_hold, with unknown repair.",
+      "post_fix_verification": {
+        "run_url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/38104925189",
+        "result": {
+          "date": "2026-10-11T02:22:22+00:00",
+          "status": "partial",
+          "scanned_pages": 115,
+          "read_details": 98,
+          "added": 3,
+          "changed": 2,
+          "errors": 22
+        },
+        "github_conclusion": "success",
+        "commit": "0bf1030",
+        "added_ids": [
+          "lc-26522",
+          "lc-25914",
+          "lc-24305"
+        ],
+        "changed_ids": [
+          "lc-26051",
+          "lc-26249"
+        ],
+        "notes": "Collector kept all four corrected fees. Cash price lc-26051 fell from $12,900 to $11,900 with history; lc-26249 source photo refreshed. Three additional rows have preserved source photos. Subsequent fresh review puts lc-24305 on research hold because one live page contradicts itself on APN/address; no old fact replaced the newer price. All 20 retained source-error examples are 404 out of 22 total."
+      },
+      "additional_review": [
+        {
+          "id": "lc-24305",
+          "finding": "Fresh public read 02:29:22Z confirms internal address/APN mismatch and land rather than established commercial use; held, retained with photo/history. No guess at corrected pin."
+        },
+        {
+          "id": "lc-26522",
+          "finding": "Fresh public read 02:29:23Z confirms both parcels, total cash/fee and conditional RV-construction claim; annual amenity fees recorded separately."
+        },
+        {
+          "id": "lc-25914",
+          "finding": "Public page confirms cash/fee versus down payment; connections and low-elevation due diligence recorded without claiming a verified flood designation."
+        }
+      ]
     }
   ],
-  "updated_at": "2026-10-11T02:21:44+00:00"
+  "updated_at": "2026-10-11T02:30:16+00:00"
 }

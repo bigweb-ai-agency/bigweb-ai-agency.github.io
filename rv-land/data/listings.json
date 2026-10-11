@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-11T02:22:22+00:00",
+  "updated_at": "2026-10-11T02:30:16+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -101444,7 +101444,8 @@
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
       "notes": [
-        "Проверка 11.10.2026: cash price $3,895 плюс Doc fee $250 = $4,145 известных затрат. Устранено ошибочное повторное прибавление цены земли как сбора. Рассрочка и ежемесячные платежи не входят в cash price. По продавцу R1; гараж не заявлен, для проживания/кемпинга на жилом участке требуется начало строительства. Разрешение хранения и личного ремонта не установлено."
+        "Проверка 11.10.2026: cash price $3,895 плюс Doc fee $250 = $4,145 известных затрат. Устранено ошибочное повторное прибавление цены земли как сбора. Рассрочка и ежемесячные платежи не входят в cash price. По продавцу R1; гараж не заявлен, для проживания/кемпинга на жилом участке требуется начало строительства. Разрешение хранения и личного ремонта не установлено.",
+        "11.10.2026: на сайте города прочитан и визуально проверен Bill of Assurance Pine Ridge от 16.07.1970, стр. 2–4. Документ предусматривает один жилой дом на лот, согласование построек, минимум 1050 sq ft с carport (850 heated), ограничения nuisance и автоматическое продление covenants. Это подтверждает наличие ограничений subdivision, но не разрешает RV-площадку или личный ремонт. Применимость к титулу Lot 235 и позднейшие изменения ещё не проверены."
       ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26505",
@@ -101563,7 +101564,8 @@
       "legacy": false,
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/arkansas/035-acres-for-sale-in-horseshoe-bend-arkansas-26505"
-      ]
+      ],
+      "legal_source": "https://cityofhorseshoebendar.gov/wp-content/uploads/2025/07/BOA-Pine-Ridge.pdf"
     },
     {
       "price_currency": "USD",
@@ -101574,7 +101576,10 @@
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "11.10.2026: свежая страница подтверждает $9,600 за два соседних лота Executive 404 и 405 вместе (0.76 ac), плюс $250 document fee. Указаны два APN и отдельных deed.",
+        "По продавцу: $9.74 налогов за оба лота и $160 ежегодного city amenity fee ($80 за каждый); это регулярные расходы, а не цена покупки. Кампинг запрещён; RV до 12 месяцев только при действующем building permit и начавшемся строительстве. При рассрочке occupancy запрещена до полного расчёта. Это заявление продавца; личный ремонт и хранение не подтверждены."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26522",
       "source_id": "26522",
@@ -101602,7 +101607,7 @@
       "image_url": "assets/listings/83817f47c9248a2fcc80.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/arkansas/076-acres-for-sale-in-horseshoe-bend-arkansas-26522",
       "image_credit": "Seller / LandCentury",
-      "parcel": "800-03867-000",
+      "parcel": "800-03867-000; 800-03868-000",
       "zoning": "Residential",
       "road_note": "Dirt Road",
       "utility_note": "City utilities available",
@@ -101625,7 +101630,7 @@
       "flags": [
         "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
       ],
-      "evidence_quote": "Horseshoe Bend has grocery and hardware stores, restaurants, a library, a community theater, and medical services.",
+      "evidence_quote": null,
       "price_history": [
         {
           "date": "2026-10-11T02:22:22+00:00",
@@ -101699,7 +101704,10 @@
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "11.10.2026: описание подтверждает cash $10,000 плюс doc fee $500; $1,000 относится к первоначальному взносу рассрочки. Вода, электричество и канализация требуют подключения по продавцу.",
+        "Площадь в заголовке 1.89 ac, в описании 1.8 ac; источник указывает высоту всего 3.3 ft. Точная площадь, затопляемость, сухой подъезд и стоимость подготовки RV-площадки не установлены. Гараж и разрешение личного ремонта не заявлены."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-25914",
       "source_id": "25914",
@@ -101748,7 +101756,7 @@
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [],
-      "evidence_quote": "By implementing organic farming methods, conserving water, and using renewable energy sources, you can reduce your carbon footprint and contribute to environmental",
+      "evidence_quote": null,
       "price_history": [
         {
           "date": "2026-10-11T02:22:22+00:00",
@@ -101822,7 +101830,11 @@
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "11.10.2026: свежая страница противоречит сама себе: структурированный адрес 34939 Sunset Place / APN 261031, но описание указывает Margi Way / APN 240000, Oregon Shores Unit 2, Tract 1184, Block 48, Lot 6. Точный объект и соответствие фото/координат не установлены; карточка сохранена в архиве, исключена из кандидатов до сверки.",
+        "Cash price $13,242 и Doc Fee $300 отделены от рассрочки; fee указан due with a down payment, применимость к полной cash-покупке не подтверждена. Цена и свежий статус не заменялись старым поисковым снимком.",
+        "Описание называет R2 Rural Residential; категории Commercial & Industrial на площадке не доказывают коммерческое zoning. Рельеф также противоречив: flat/open и heavily treed/sloped."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-24305",
       "source_id": "24305",
@@ -101834,7 +101846,7 @@
       "state": "OR",
       "county": "Klamath",
       "zip": "97624",
-      "kind": "commercial_lot",
+      "kind": "land",
       "price": 13242.0,
       "known_fees": 300.0,
       "total_known": 13542.0,
@@ -101877,7 +101889,7 @@
       "flags": [
         "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
       ],
-      "evidence_quote": "RVs Allowed: RVs are allowed on the property for up to 21 days every 6 months Mobile Home Allowed: Allowed but not",
+      "evidence_quote": null,
       "price_history": [
         {
           "date": "2026-10-11T02:22:22+00:00",
@@ -101897,7 +101909,7 @@
         }
       ],
       "region": "Тихоокеанский",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Дешёвая земля часто в Klamath/Lake County, а не в мягком прибрежном климате. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -101940,7 +101952,8 @@
         "Сезон /10": 4,
         "Дорога /10": 4
       },
-      "score": 15
+      "score": 15,
+      "review_hold": true
     }
   ]
 }
