@@ -2504,7 +2504,13 @@
       ],
       "rotation_reason": "Continue garage-oriented Pennsylvania and West Virginia with under-covered Rhode Island; automatic discovery scans all 50 states.",
       "preservation": "All 793 pre-run IDs, first_seen and previous price/status/photo histories retained. All 840 protected photo/Sicily hashes unchanged. All 337 historical flight observations and all 21 prior provider cards preserved.",
-      "validation": "19 focused tests pass; validate_data: 796 records, 795 listing images, 50 states, all 20 original IDs. Existing listing facts unchanged by manual work; only computed gateway fares changed. Source photographs/diagram visually inspected. Public publication check follows."
+      "validation": "19 focused tests pass; validate_data: 796 records, 795 listing images, 50 states, all 20 original IDs. Existing facts untouched by manual work; computed gateway fares refreshed. Public Pages run 38195581601 succeeded for 05946d5. Four public JSON files and three new images matched committed bytes. Chrome verified loaded VT and MI images, MI research hold, 765 map shapes, 24 loaded tiles, all five flight control cards and excluded Seattle fare. Added visible VT sewer hookup cost and diagram label after UI review; no code changes.",
+      "publication": {
+        "commit": "05946d500ac4a2369786d89111d5ca88ac77741a",
+        "pages_run": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/38195581601",
+        "result": "success",
+        "followup": "Visible Vermont cost/diagram clarification and this validation log published in the next data-only commit; final public check recorded in task output."
+      }
     }
   ],
   "updated_at": "2026-10-12T02:21:53+00:00"
