@@ -2416,7 +2416,96 @@
           "finding": "Public page confirms cash/fee versus down payment; connections and low-elevation due diligence recorded without claiming a verified flood designation."
         }
       ]
+    },
+    {
+      "date": "2026-10-12T02:21:53+00:00",
+      "states": [
+        "MI",
+        "OH",
+        "VT"
+      ],
+      "type": "manual_public_research_and_weekly_flights",
+      "workflow": {
+        "run_id": 38191948942,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/38191948942",
+        "conclusion": "success",
+        "created_at": "2026-10-12T01:27:21Z",
+        "data_commit": "24fc102fbc7f05292144bd132a41ee9abc53b952"
+      },
+      "monitor": {
+        "last_run": "2026-10-12T01:27:42+00:00",
+        "status": "partial",
+        "summary": "1 новых; 1 изменений цены/статуса/фото; 96 страниц проверено; ошибок 24."
+      },
+      "source_errors": "24 total collector errors; all 20 retained examples are 404. Access errors do not mark listings sold or removed. No fallback run necessary: scheduled discovery completed successfully.",
+      "added_ids": [
+        "ls-5438775",
+        "rf-98519395"
+      ],
+      "automatic_added_ids": [
+        "lc-26523"
+      ],
+      "automatic_changes": [
+        "lc-26338 cash $14,397 -> $14,797.",
+        "Fee-only updates: lc-24811, lc-25726, lc-26333, lc-26332 each now show $249; fees were not included in the collector price/status/photo change count."
+      ],
+      "findings": [
+        {
+          "id": "ls-5438775",
+          "finding": "New Vermont lot, $10,000 asking, .25 acre. Live Chrome verifies active price, MLS, coordinates and listing diagram. Stream, slope and association noted; utility infrastructure nearby is not a connection. No repair or vacant-lot RV permission inferred."
+        },
+        {
+          "id": "rf-98519395",
+          "finding": "Detroit house + adjacent lot, $12,500 and one-car garage in yesterday-indexed MLS page. Imported with preserved actual interior photo and research hold for mandatory DLBA redevelopment, unknown work budget and RV fit. Not a ready workshop."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.ethosauction.com/results",
+          "finding": "1950 N Ontario St, Toledo: $10,000 minimum auction bid, October 10 event; not a cash asking sale."
+        },
+        {
+          "url": "https://www.nystatemls.com/property/3647-s-newton-falls-rd-diamond-oh-44412/11939923/",
+          "finding": "In contract; $10,000 is down payment. Opening bid $100,000 plus 10% premium, buy-it-now $180,000 plus premium. Excluded."
+        },
+        {
+          "url": "https://www.homes.com/alliance-oh/under-100k/",
+          "finding": "0 Winchester St with existing garage: $39,900, outside budget. Nearby $15,000 Bon Air lot must not inherit that garage."
+        },
+        {
+          "url": "https://www.redfin.com/MI/Saginaw/3944-Clutier-Rd-48601/home/112260486",
+          "finding": "$14,950 house; current alternatives explicitly no garage. Lower priority, no new import."
+        },
+        {
+          "url": "https://www.remax-michigan.com/realestate/details/55740970/5730-field-street-detroit-mi-48213",
+          "finding": "$15,000 house with garage already closed March 26, 2026. Excluded."
+        },
+        {
+          "url": "https://www.wisepropertysellers.com/property/gland/",
+          "finding": "5093 Garland house/garage $15,000: seller marks sold. Excluded."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/vermont/search/under-15000",
+          "finding": "Mount Tabor $4,750/mo and Dorset $7,000/mo are rentals. Not purchases."
+        }
+      ],
+      "official_sources": [
+        "https://buildingdetroit.org/properties/12783-littlefield",
+        "https://wilmingtonvermont.us/departments/zoning-planning-office/zoning-ordinances/",
+        "https://wilmingtonvermont.us/wp-content/uploads/2025/11/2025-Zoning-Ordinance.pdf"
+      ],
+      "official_findings": "Current Wilmington ordinance effective November 25, 2025 obtained from town link; scanned PDF page 81 visually checked. Section 732(F) discusses homeowner RV storage, at most 30 days annual living use and no utility connections. Applicability to vacant lot and personal repair remains unknown. The 2024 regional copy and 2025 proposed tracked-changes draft were not used as current law. DLBA seller terms support redevelopment hold; no claim that personal RV repair is approved.",
+      "access": "Public web search and connected Chrome. Original photo bytes preserved. Google static-map fetch returned 403 and was not retried; Redfin listing map center is retained only as listing-level point, not surveyed boundaries. No seller contact, account sign-in, booking, payment or infrastructure changes.",
+      "flight_review": "98 new dated Explore observations from VNO/LON/WAW/CPH; 337 older observations retained and archived. Same-day departures and neighboring-city drive duplicates excluded. London–Seattle held out after 32h50 return discovered. Five control cards: LOT and Icelandair both selected on airline sites; TAP review page verified. Both separate positioning itineraries selected in Google. Prices/baggage/overnights and non-checkout limits recorded. Next weekly review October 19.",
+      "next_states": [
+        "PA",
+        "WV",
+        "RI"
+      ],
+      "rotation_reason": "Continue garage-oriented Pennsylvania and West Virginia with under-covered Rhode Island; automatic discovery scans all 50 states.",
+      "preservation": "All 793 pre-run IDs, first_seen and previous price/status/photo histories retained. All 840 protected photo/Sicily hashes unchanged. All 337 historical flight observations and all 21 prior provider cards preserved.",
+      "validation": "19 focused tests pass; validate_data: 796 records, 795 listing images, 50 states, all 20 original IDs. Existing listing facts unchanged by manual work; only computed gateway fares changed. Source photographs/diagram visually inspected. Public publication check follows."
     }
   ],
-  "updated_at": "2026-10-11T02:30:16+00:00"
+  "updated_at": "2026-10-12T02:21:53+00:00"
 }

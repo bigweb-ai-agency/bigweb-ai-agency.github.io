@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T01:27:42+00:00",
+  "updated_at": "2026-10-12T02:21:54+00:00",
   "states": [
     {
       "code": "AL",
@@ -448,7 +448,7 @@
         "ORD"
       ],
       "analysis": "Flint и небольшие города дают дома/лоты в бюджете. Гаражи интереснее голой земли, но важны состояние, городские нарушения и снег.",
-      "total": 22,
+      "total": 23,
       "photo_candidates": 22,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
@@ -931,9 +931,9 @@
         "NYC"
       ],
       "analysis": "Мало результатов, снежная зима и непростой доступ. Не приоритет без готового отапливаемого бокса.",
-      "total": 1,
-      "photo_candidates": 1,
-      "shortfall": 9,
+      "total": 2,
+      "photo_candidates": 2,
+      "shortfall": 8,
       "coverage": "Недостаточно проверенных кандидатов",
       "sources": [
         "https://www.landsearch.com/properties/vermont/search/under-15000",
