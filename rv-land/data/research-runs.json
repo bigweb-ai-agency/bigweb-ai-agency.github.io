@@ -2511,7 +2511,96 @@
         "result": "success",
         "followup": "Visible Vermont cost/diagram clarification and this validation log published in the next data-only commit; final public check recorded in task output."
       }
+    },
+    {
+      "date": "2026-10-13T02:18:55+00:00",
+      "states": [
+        "PA",
+        "WV",
+        "RI"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [
+        "tr-463497916",
+        "rf-201814834"
+      ],
+      "automatic_added_ids": [
+        "lc-26538",
+        "lc-26536",
+        "lc-26434",
+        "lc-26431",
+        "lc-26426"
+      ],
+      "workflow": {
+        "run_id": 38331799505,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/38331799505",
+        "conclusion": "success",
+        "created_at": "2026-10-13T01:22:12Z",
+        "data_commit": "f8522236a3735b83205b8bd17c5a39da965e883e"
+      },
+      "monitor": {
+        "last_run": "2026-10-13T01:22:28+00:00",
+        "status": "partial",
+        "scanned_pages": 115,
+        "read_details": 96,
+        "added": 5,
+        "changed": 0,
+        "errors": 24
+      },
+      "source_errors": "All 20 retained source-error examples are 404; 24 total errors. Failed access did not mark records sold. Scheduled collection succeeded, so no duplicate fallback run.",
+      "findings": [
+        {
+          "id": "tr-463497916",
+          "finding": "Live Chrome $9,900 active two-stall 462 sq ft garage, .03 acre. Prior indexed $15,000 superseded only by the live page. Original photo and listing map center preserved. No electricity/sewer; ordinary low doors, tall RV fit and personal repair unknown."
+        },
+        {
+          "id": "rf-201814834",
+          "finding": "Live Chrome $15,000 active .41-acre lot with actual three-car carport. Water available, not connected; R-2 seller claim. Photo retained. Open carport is not counted as enclosed existing_garage; adjacent house not included."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://bhgrec.com/listing/WV/Charleston/453-Gap-View-Drive-25306/220808847",
+          "finding": "Primary broker page currently shows pending $15,000, MLS281552, checked October13 01:23UTC. Front house rebuild/tear-down, plus garage apartment and studio; continued vehicle bay use/condition unknown. Not a better ready workshop; deferred without importing an unverified pin/photo. Do not mark sold based on generic Homes.com Sold Price text."
+        },
+        {
+          "url": "https://www.seaportre.com/listing-swmls/1419851-rhode-island-ave-narragansett-ri-02882/",
+          "finding": "Fresh indexed active $15,000 cash for one T60 lot, 9600sqft/.22acre, R80 seller claim; cash-only as-is with no contingencies/no due-diligence period. Live browser challenge, no access bypass. No verified lot-specific pin and preserved photo, so no import."
+        },
+        {
+          "url": "https://corcoranchr.com/listing/RI/Narragansett/0-Rhode-Island-Avenue-02882/231519435",
+          "finding": "Web-open snapshot dated August23 describes THREE parcels T60/T217/227 at $150,000/.55acre, while newer indexed version describes ONE T60 at $15,000. Do not use old bundled coordinates/images or overwrite new offer with stale bundle facts. Exact T60 boundaries/access and a usable RV site remain unresolved."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/rhode-island/search/under-15000",
+          "finding": "Five indexed low-dollar results were monthly rentals, not owned cash sale offers."
+        },
+        {
+          "url": "https://www.exprealty.com/muncy-pa-real-estate/other/27-n-green-alley",
+          "finding": "$15,000 30x30 building lead explicitly sold; not imported."
+        },
+        {
+          "url": "https://realmo.com/listing/stoystown-pa-15563/20956092",
+          "finding": "Workshop with rear garage bay asks $67,500; 15,000 is square footage, not dollars. Outside budget."
+        }
+      ],
+      "official_sources": [
+        "https://northumberlandcountypa.gov/2018/01/24/coal-township/",
+        "https://www.fayettecountypa.org/259/Zoning-Planning",
+        "https://www.fayettecountypa.org/DocumentCenter/View/1391/Zoning-Ordinance-Adopted-11-1-06-PDF"
+      ],
+      "official_findings": "Coal Township official county directory establishes local zoning administration, but adopted current text not retrieved; 1976 Google Books is not treated as current law. Fayette County official index identifies county-administered municipalities and adopted ordinance/amendments. Read sections 1000-108,1000-300,1000-303: accessory/main use and RV parking limits. Parcel jurisdiction/zone/rights still need verification; no legal permission inferred from seller or from another similarly named township.",
+      "access": "Public search, connected Chrome and original static listing images. Movoto country403, Trulia RI CAPTCHA, Seaport browser challenge and ezHome403 were not bypassed. Trulia garage public page/images were observed before the separate RI search challenge; its public static photo robots check allowed retrieval. No login, seller contact, purchase, booking or infrastructure change.",
+      "flight_review": "Weekly refresh completed October 12; next due October 19. flights.json preserved byte-for-byte; no old quote re-labelled as current.",
+      "next_states": [
+        "NY",
+        "VA",
+        "NH"
+      ],
+      "rotation_reason": "Next rotation: New York and Virginia garages/workshops plus under-covered New Hampshire. Automated discovery continues all 50 states.",
+      "preservation": "All 801 baseline rows unchanged; all 796 pre-nightly IDs, first_seen and prior history entries retained. All 849 protected photo/Sicily/flight hashes unchanged.",
+      "validation": "19 focused data tests passed; validator: 803 records, 802 listing images, 50 states, 20 original IDs. Existing rows unchanged. Final Pages/public byte comparison and Chrome card verification recorded in task output after publication."
     }
   ],
-  "updated_at": "2026-10-12T02:21:53+00:00"
+  "updated_at": "2026-10-13T02:18:55+00:00"
 }

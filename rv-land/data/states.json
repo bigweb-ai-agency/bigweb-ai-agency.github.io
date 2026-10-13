@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T01:22:28+00:00",
+  "updated_at": "2026-10-13T02:18:56+00:00",
   "states": [
     {
       "code": "AL",
@@ -785,8 +785,8 @@
         "IAD"
       ],
       "analysis": "Хорошие EU-шлюзы и городские лоты. Проверять township zoning, гараж как самостоятельное использование и обязанности по аварийному зданию.",
-      "total": 18,
-      "photo_candidates": 18,
+      "total": 20,
+      "photo_candidates": 20,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [

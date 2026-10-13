@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-13T01:22:28+00:00",
+  "updated_at": "2026-10-13T02:18:55+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -103024,6 +103024,273 @@
         "Дорога /10": 7
       },
       "score": 20
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-10-13T02:18:55+00:00",
+      "last_seen": "2026-10-13T02:18:55+00:00",
+      "last_verified": "2026-10-13T02:18:55+00:00",
+      "photo_kind": "Исходное фото фасада гаража из объявления, без изменения байтов.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [
+        "Свежая цена $9,900 вместо указанной на странице первоначальной $15,000; дата снижения не установлена.",
+        "Официальный каталог округа указывает местный zoning Coal Township. Актуальный полный текст правил с сайта township получить не удалось; разрешение или запрет не выводились из старой книги 1976 года."
+      ],
+      "closing_costs": "Неизвестны closing/title/recording, ремонт гаража и возможное изменение проёмов; в $9,900 не включены.",
+      "id": "tr-463497916",
+      "url": "https://www.trulia.com/home/e-webster-st-coal-township-pa-17866-463497916",
+      "image_url": "assets/listings/06dccf8da8bdbae0c9e5.jpg",
+      "image_remote_url": "https://www.trulia.com/pictures/thumbs_5/zillowstatic/fp/490e45fab04b5a7f639ffc7d10d1cba9-full.jpg",
+      "photo_preserved_at": "2026-10-13T02:14:49+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/06dccf8da8bdbae0c9e5.jpg",
+          "source": "https://www.trulia.com/home/e-webster-st-coal-township-pa-17866-463497916",
+          "remote_url": "https://www.trulia.com/pictures/thumbs_5/zillowstatic/fp/490e45fab04b5a7f639ffc7d10d1cba9-full.jpg",
+          "date": "2026-10-13T02:14:49+00:00"
+        }
+      ],
+      "source": "Trulia / CSVBOR",
+      "source_id": "463497916",
+      "title": "E Webster St — двухместный гараж",
+      "address": "E Webster St",
+      "city": "Coal Township",
+      "state": "PA",
+      "county": "Northumberland",
+      "zip": "17866",
+      "kind": "building",
+      "price": 9900,
+      "known_fees": 0,
+      "total_known": 9900,
+      "price_evidence": "В публичной странице Chrome 13.10.2026: полная asking price $9,900, original price $15,000. Closing и ремонт не включены.",
+      "acres": 0.03,
+      "lat": 40.7888908,
+      "lng": -76.5448914,
+      "coord_precision": "listing",
+      "coordinate_evidence": "Центр карты конкретного объявления Trulia; точка видна у E Webster St. Это не границы и не кадастровая съёмка.",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_published": "2026-06-26",
+      "source_crawled": "Live Chrome public listing inspected 2026-10-13; older indexed $15,000 was not imported as current.",
+      "image_source_url": "https://www.trulia.com/home/e-webster-st-coal-township-pa-17866-463497916",
+      "image_credit": "Listing broker / CSVBOR / Trulia",
+      "parcel": "00C0100C034A",
+      "mls": "CSVBOR C-1733",
+      "zoning": "Не подтверждено; применимая зона Coal Township не установлена.",
+      "road_note": "Фасад у улицы по фото, рядом Route 61 по продавцу. Разворот, бордюр, границы и право въезда высокого RV не проверены.",
+      "utility_note": "Электричества нет по описанию; sewer none в MLS; вода неизвестна. Провода на фото не подтверждают подключение.",
+      "garage_note": "Существующий блоковый гараж на два автомобиля, 1956 г., 462 sq ft (~42.9 м²) по MLS. Длина боксов и размеры ворот неизвестны; нужен ремонт.",
+      "garage_size": null,
+      "existing_garage": true,
+      "electricity": "none",
+      "water": "unknown",
+      "sewer": "none",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "flags": [
+        "На фото обычные невысокие автомобильные ворота: высокий кемпер может не пройти; размеры по изображению не измерялись.",
+        "Маленький участок 1,306.8 sq ft (~121 м²): свободное место снаружи и разворот 7-метрового RV не подтверждены.",
+        "Право самостоятельного хранения RV и личного ремонта в Coal Township неизвестно; наличие гаража не заменяет проверку zoning."
+      ],
+      "legal_source": "https://northumberlandcountypa.gov/2018/01/24/coal-township/",
+      "legal_checked_at": "2026-10-13T02:18:55+00:00",
+      "legacy": false,
+      "price_history": [
+        {
+          "date": "2026-10-13T02:18:55+00:00",
+          "price": 9900,
+          "source": "https://www.trulia.com/home/e-webster-st-coal-township-pa-17866-463497916"
+        }
+      ],
+      "status_history": [],
+      "region": "Северо-восток",
+      "screening_issue": null,
+      "climate_note": "Хорошие EU-шлюзы и городские лоты. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "PHL",
+          "name": "Philadelphia International Airport",
+          "straight_km": 150,
+          "drive_km_estimate": 188,
+          "drive_hours_estimate": 2.5,
+          "flight_min_eur": 591,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "IAD",
+          "name": "Washington Dulles International Airport",
+          "straight_km": 219,
+          "drive_km_estimate": 274,
+          "drive_hours_estimate": 3.7,
+          "flight_min_eur": 432,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "NYC",
+          "name": "New York city search — JFK used for approximate geometry",
+          "straight_km": 234,
+          "drive_km_estimate": 292,
+          "drive_hours_estimate": 3.9,
+          "flight_min_eur": 457,
+          "flight_origin": "VNO",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1431,
+      "score_parts": {
+        "Цена /25": 14,
+        "Помещение /25": 22,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 4,
+        "Дорога /10": 8
+      },
+      "score": 48
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-10-13T02:18:55+00:00",
+      "last_seen": "2026-10-13T02:18:55+00:00",
+      "last_verified": "2026-10-13T02:18:55+00:00",
+      "photo_kind": "Исходное фото существующего открытого навеса и подъезда из объявления, без изменения байтов.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [
+        "Fayette County на официальной странице публикует ordinance 2006 и поздние amendments. В §1000-108 вспомогательное использование связано с установленным основным; §1000-300(B) требует тот же lot.",
+        "В §1000-303(A)(6), PDF стр. 64 / печатная 54: стоянка vacation vehicles более 48 часов в неделю или сезонное хранение ограничены в переднем/боковом дворе residential/agricultural/conservation district, с отступом 10 ft от задней границы. Точный участок, возможные исключения и поправки не установлены; это не вывод о разрешении или запрете личного ремонта.",
+        "Округ администрирует zoning в 31 муниципалитете; почтовый адрес Masontown сам по себе не устанавливает юрисдикцию. Дом на соседнем участке на фото не заявлен в продаже."
+      ],
+      "closing_costs": "Closing/title/recording, замеры, подготовка площадки, подключения и изменение навеса не включены; известна только цена $15,000.",
+      "id": "rf-201814834",
+      "url": "https://www.redfin.com/PA/Masontown/616-4th-St-15461/home/201814834",
+      "image_url": "assets/listings/53003f6179ba168d6669.jpg",
+      "image_remote_url": "https://ssl.cdn-redfin.com/photo/162/bigphoto/186/1753186_1.jpg",
+      "photo_preserved_at": "2026-10-13T02:14:49+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/53003f6179ba168d6669.jpg",
+          "source": "https://www.redfin.com/PA/Masontown/616-4th-St-15461/home/201814834",
+          "remote_url": "https://ssl.cdn-redfin.com/photo/162/bigphoto/186/1753186_1.jpg",
+          "date": "2026-10-13T02:14:49+00:00"
+        }
+      ],
+      "source": "Redfin / West Penn MLS",
+      "source_id": "201814834",
+      "title": "616 Fourth St — участок с навесом",
+      "address": "616 Fourth St",
+      "city": "Masontown",
+      "state": "PA",
+      "county": "Fayette",
+      "zip": "15461",
+      "kind": "land",
+      "price": 15000,
+      "known_fees": 0,
+      "total_known": 15000,
+      "price_evidence": "Полная asking price $15,000 на публичной странице; $3,000 в калькуляторе — взнос, $36,585 — цена за акр. Эти значения не цена покупки.",
+      "acres": 0.41,
+      "lat": 39.8307027,
+      "lng": -79.9168574,
+      "coord_precision": "listing",
+      "coordinate_evidence": "Центр map-entry и координаты погодного блока конкретного объявления Redfin; границы parcel не проверены.",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-05-15",
+      "source_published": "2026-05-12",
+      "source_crawled": "Live Chrome public listing and MLS details inspected 2026-10-13.",
+      "image_source_url": "https://www.redfin.com/PA/Masontown/616-4th-St-15461/home/201814834",
+      "image_credit": "Listing broker / West Penn MLS / Redfin",
+      "parcel": null,
+      "mls": "West Penn MLS 1753186",
+      "zoning": "R-2 по MLS; точная юрисдикция и границы parcel не подтверждены.",
+      "taxes_note": "$96/год по MLS; не независимая налоговая проверка.",
+      "road_note": "State Road frontage по MLS, дорожка к навесу видна на фото. Юридический въезд, уклон и ширина для кемпера не измерены.",
+      "utility_note": "Water Available по MLS; это не подключение. Электричество и канализация неизвестны.",
+      "garage_note": "Существующий навес на три автомобиля по продавцу, виден на фото. Это открытое строение без гаражных ворот; закрыть его — только предложение продавца, не разрешённый проект. Высота и длина неизвестны.",
+      "existing_garage": false,
+      "existing_carport": true,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "available",
+      "sewer": "unknown",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "flags": [
+        "Навес существует, но въезд высокого 7-метрового кемпера и разрешение личного ремонта не подтверждены.",
+        "Возможное ограничение долгой стоянки RV: Fayette County §1000-303(A)(6) требует отдельной проверки расположения на участке и применимости к parcel.",
+        "Самостоятельное использование навеса без основного использования земли надо подтвердить; R-2 и предложение продавца закрыть навес не являются разрешением."
+      ],
+      "legal_source": "https://www.fayettecountypa.org/DocumentCenter/View/1391/Zoning-Ordinance-Adopted-11-1-06-PDF",
+      "legal_sources": [
+        "https://www.fayettecountypa.org/259/Zoning-Planning",
+        "https://www.fayettecountypa.org/DocumentCenter/View/1391/Zoning-Ordinance-Adopted-11-1-06-PDF"
+      ],
+      "legal_checked_at": "2026-10-13T02:18:55+00:00",
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.coldwellbanker.com/pa/masontown/616-4th-st/lid-P00800000HB7nDv9IMagDet01Pckpc3nomIuUzwT"
+      ],
+      "price_history": [
+        {
+          "date": "2026-10-13T02:18:55+00:00",
+          "price": 15000,
+          "source": "https://www.redfin.com/PA/Masontown/616-4th-St-15461/home/201814834"
+        }
+      ],
+      "status_history": [],
+      "region": "Северо-восток",
+      "screening_issue": null,
+      "climate_note": "Хорошие EU-шлюзы и городские лоты. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "IAD",
+          "name": "Washington Dulles International Airport",
+          "straight_km": 233,
+          "drive_km_estimate": 292,
+          "drive_hours_estimate": 3.9,
+          "flight_min_eur": 432,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "DTW",
+          "name": "Detroit Metropolitan Wayne County Airport",
+          "straight_km": 392,
+          "drive_km_estimate": 489,
+          "drive_hours_estimate": 6.5,
+          "flight_min_eur": 610,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "PHL",
+          "name": "Philadelphia International Airport",
+          "straight_km": 399,
+          "drive_km_estimate": 499,
+          "drive_hours_estimate": 6.7,
+          "flight_min_eur": 591,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1227,
+      "score_parts": {
+        "Цена /25": 5,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 1,
+        "Сезон /10": 4,
+        "Дорога /10": 6
+      },
+      "score": 16
     }
   ]
 }
