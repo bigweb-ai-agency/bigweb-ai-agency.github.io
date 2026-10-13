@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-12T02:21:53+00:00",
+  "updated_at": "2026-10-13T01:22:28+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -4979,8 +4979,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-07T01:22:08Z",
-      "last_verified": "2026-10-07T01:22:08Z",
+      "last_seen": "2026-10-13T01:27:54Z",
+      "last_verified": "2026-10-13T01:27:54Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -5097,7 +5097,7 @@
       },
       "score": 30,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/06/6ac4f46ad5d28-1791292522.jpg",
-      "photo_preserved_at": "2026-10-07T01:19:25+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/69ec4f0c85e25e06fcf1.jpg",
@@ -13594,8 +13594,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-06T02:22:03Z",
-      "last_verified": "2026-10-06T02:22:03Z",
+      "last_seen": "2026-10-13T01:27:48Z",
+      "last_verified": "2026-10-13T01:27:48Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -13713,7 +13713,7 @@
       },
       "score": 18,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/29/6a93688fec353-1788045455.jpg",
-      "photo_preserved_at": "2026-10-06T02:16:43+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/3ec28b3b5fafb268c1aa.jpg",
@@ -29566,8 +29566,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-07T01:23:58Z",
-      "last_verified": "2026-10-07T01:23:58Z",
+      "last_seen": "2026-10-13T01:28:08Z",
+      "last_verified": "2026-10-13T01:28:08Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -29680,7 +29680,7 @@
       },
       "score": 13,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/20/6a87257b89a90-1787241851.jpg",
-      "photo_preserved_at": "2026-10-07T01:19:25+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/09b2af3f4b66da4dc850.jpg",
@@ -30209,8 +30209,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-07T01:23:59Z",
-      "last_verified": "2026-10-07T01:23:59Z",
+      "last_seen": "2026-10-13T01:28:10Z",
+      "last_verified": "2026-10-13T01:28:10Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -30323,7 +30323,7 @@
       },
       "score": 24,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/20/6a870df7a3235-1787235831.jpg",
-      "photo_preserved_at": "2026-10-07T01:19:25+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/8e10e6271fa3ccaf951a.jpg",
@@ -30595,8 +30595,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-07T01:24:01Z",
-      "last_verified": "2026-10-07T01:24:01Z",
+      "last_seen": "2026-10-13T01:28:11Z",
+      "last_verified": "2026-10-13T01:28:11Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -30709,7 +30709,7 @@
       },
       "score": 25,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/20/6a8716e59989c-1787238117.jpg",
-      "photo_preserved_at": "2026-10-07T01:19:25+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/a9e9e33031cf58d2c502.jpg",
@@ -82602,8 +82602,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-10-06T02:21:49Z",
-      "last_verified": "2026-10-06T02:21:49Z",
+      "last_seen": "2026-10-13T01:27:34Z",
+      "last_verified": "2026-10-13T01:27:34Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -82670,7 +82670,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/10/6aa2e26be1ca1-1789059691.jpg",
-      "photo_preserved_at": "2026-10-06T02:16:43+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/af74c741ee6ceeed8fde.jpg",
@@ -82733,8 +82733,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-10-06T02:21:51Z",
-      "last_verified": "2026-10-06T02:21:51Z",
+      "last_seen": "2026-10-13T01:27:35Z",
+      "last_verified": "2026-10-13T01:27:35Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -82799,7 +82799,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/10/6aa2e0561e0b8-1789059158.jpg",
-      "photo_preserved_at": "2026-10-06T02:16:43+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/abbac575854acd56dccb.jpg",
@@ -82862,8 +82862,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-10-06T02:21:52Z",
-      "last_verified": "2026-10-06T02:21:52Z",
+      "last_seen": "2026-10-13T01:27:37Z",
+      "last_verified": "2026-10-13T01:27:37Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -82881,8 +82881,8 @@
       "zip": "72512",
       "kind": "land",
       "price": 3000.0,
-      "known_fees": 0.0,
-      "total_known": 3000.0,
+      "known_fees": 249.0,
+      "total_known": 3249.0,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 0.41,
       "lat": 36.240689,
@@ -82928,7 +82928,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/09/6aa1bbd461565-1788984276.jpg",
-      "photo_preserved_at": "2026-10-06T02:16:43+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/3340f337209a4d302aeb.jpg",
@@ -82991,8 +82991,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-10-06T02:21:53Z",
-      "last_verified": "2026-10-06T02:21:53Z",
+      "last_seen": "2026-10-13T01:27:38Z",
+      "last_verified": "2026-10-13T01:27:38Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -83010,8 +83010,8 @@
       "zip": "89801",
       "kind": "commercial_lot",
       "price": 3750.0,
-      "known_fees": 0.0,
-      "total_known": 3750.0,
+      "known_fees": 249.0,
+      "total_known": 3999.0,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 0.23,
       "lat": 41.7745,
@@ -83061,7 +83061,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/09/6aa0da6ff0b9d-1788926575.jpg",
-      "photo_preserved_at": "2026-10-06T02:16:43+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/21e7d5c02ca657b89dac.jpg",
@@ -83107,14 +83107,14 @@
       ],
       "msp_straight_km": 1770,
       "score_parts": {
-        "Цена /25": 24,
+        "Цена /25": 23,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 0,
         "Сезон /10": 5,
         "Дорога /10": 0
       },
-      "score": 29,
+      "score": 28,
       "legacy": false,
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/nevada/023-acres-for-sale-in-contact-nevada-26181"
@@ -83124,8 +83124,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-10-06T02:21:55Z",
-      "last_verified": "2026-10-06T02:21:55Z",
+      "last_seen": "2026-10-13T01:27:39Z",
+      "last_verified": "2026-10-13T01:27:39Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -83143,8 +83143,8 @@
       "zip": "89801",
       "kind": "land",
       "price": 14000.0,
-      "known_fees": 0.0,
-      "total_known": 14000.0,
+      "known_fees": 249.0,
+      "total_known": 14249.0,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 2.27,
       "lat": 41.0348,
@@ -83190,7 +83190,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/09/6aa0d57b5a712-1788925307.jpg",
-      "photo_preserved_at": "2026-10-06T02:16:43+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/53dcbd216e4b2f4bfea9.jpg",
@@ -83236,14 +83236,14 @@
       ],
       "msp_straight_km": 1850,
       "score_parts": {
-        "Цена /25": 7,
+        "Цена /25": 6,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 0,
         "Сезон /10": 5,
         "Дорога /10": 1
       },
-      "score": 13,
+      "score": 12,
       "legacy": false,
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/nevada/227-acres-for-sale-in-deeth-nevada-26180"
@@ -83253,8 +83253,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-10-06T02:21:56Z",
-      "last_verified": "2026-10-06T02:21:56Z",
+      "last_seen": "2026-10-13T01:27:41Z",
+      "last_verified": "2026-10-13T01:27:41Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -83272,8 +83272,8 @@
       "zip": "89835",
       "kind": "land",
       "price": 8000.0,
-      "known_fees": 0.0,
-      "total_known": 8000.0,
+      "known_fees": 249.0,
+      "total_known": 8249.0,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 2.06,
       "lat": 41.2325,
@@ -83319,7 +83319,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/09/6aa0c79a5136e-1788921754.jpg",
-      "photo_preserved_at": "2026-10-06T02:16:43+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/60b4f38b5341d4b8b8f5.jpg",
@@ -83365,14 +83365,14 @@
       ],
       "msp_straight_km": 1752,
       "score_parts": {
-        "Цена /25": 17,
+        "Цена /25": 16,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 0,
         "Сезон /10": 5,
         "Дорога /10": 0
       },
-      "score": 22,
+      "score": 21,
       "legacy": false,
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/nevada/206-acres-for-sale-in-wells-nevada-26179"
@@ -83382,8 +83382,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-10-06T02:21:58Z",
-      "last_verified": "2026-10-06T02:21:58Z",
+      "last_seen": "2026-10-13T01:27:42Z",
+      "last_verified": "2026-10-13T01:27:42Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -83447,7 +83447,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/05/6a9c9fe02438d-1788649440.jpg",
-      "photo_preserved_at": "2026-10-06T02:16:43+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/a0c17f960ddaf5973a9a.jpg",
@@ -83510,8 +83510,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-10-06T02:21:59Z",
-      "last_verified": "2026-10-06T02:21:59Z",
+      "last_seen": "2026-10-13T01:27:44Z",
+      "last_verified": "2026-10-13T01:27:44Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -83529,8 +83529,8 @@
       "zip": "89830",
       "kind": "land",
       "price": 8000.0,
-      "known_fees": 0.0,
-      "total_known": 8000.0,
+      "known_fees": 249.0,
+      "total_known": 8249.0,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 2.06,
       "lat": 41.2086,
@@ -83578,7 +83578,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/03/6a98dfda5904d-1788403674.jpg",
-      "photo_preserved_at": "2026-10-06T02:16:43+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/299911fd4dacc9837123.jpg",
@@ -83624,14 +83624,14 @@
       ],
       "msp_straight_km": 1755,
       "score_parts": {
-        "Цена /25": 17,
+        "Цена /25": 16,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 0,
         "Сезон /10": 5,
         "Дорога /10": 0
       },
-      "score": 22,
+      "score": 21,
       "legacy": false,
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/nevada/206-acres-for-sale-in-loray-nevada-26129"
@@ -83641,8 +83641,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-10-06T02:22:00Z",
-      "last_verified": "2026-10-06T02:22:00Z",
+      "last_seen": "2026-10-13T01:27:45Z",
+      "last_verified": "2026-10-13T01:27:45Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -83660,8 +83660,8 @@
       "zip": "86046",
       "kind": "land",
       "price": 12000.0,
-      "known_fees": 0.0,
-      "total_known": 12000.0,
+      "known_fees": 249.0,
+      "total_known": 12249.0,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 1.09,
       "lat": 35.6282,
@@ -83709,7 +83709,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/01/6a963cd89de2e-1788230872.jpg",
-      "photo_preserved_at": "2026-10-06T02:16:43+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/20e164e0cd357cb10fa7.jpg",
@@ -83772,8 +83772,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-10-06T02:22:02Z",
-      "last_verified": "2026-10-06T02:22:02Z",
+      "last_seen": "2026-10-13T01:27:47Z",
+      "last_verified": "2026-10-13T01:27:47Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -83837,7 +83837,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/01/6a9669b5e8af9-1788242357.jpg",
-      "photo_preserved_at": "2026-10-06T02:16:43+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/3b24e7b1f2e03958e3e2.jpg",
@@ -83900,8 +83900,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-10-06T02:22:05Z",
-      "last_verified": "2026-10-06T02:22:05Z",
+      "last_seen": "2026-10-13T01:27:49Z",
+      "last_verified": "2026-10-13T01:27:49Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -83919,8 +83919,8 @@
       "zip": "86029",
       "kind": "land",
       "price": 3000.0,
-      "known_fees": 0.0,
-      "total_known": 3000.0,
+      "known_fees": 249.0,
+      "total_known": 3249.0,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 0.14,
       "lat": 34.992383,
@@ -83967,7 +83967,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/28/6a910c5abaf59-1787890778.jpg",
-      "photo_preserved_at": "2026-10-06T02:16:43+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/ef13d882c51477fa44c0.jpg",
@@ -84030,8 +84030,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-10-06T02:22:06Z",
-      "last_verified": "2026-10-06T02:22:06Z",
+      "last_seen": "2026-10-13T01:27:51Z",
+      "last_verified": "2026-10-13T01:27:51Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -84049,8 +84049,8 @@
       "zip": "72512",
       "kind": "land",
       "price": 3000.0,
-      "known_fees": 0.0,
-      "total_known": 3000.0,
+      "known_fees": 249.0,
+      "total_known": 3249.0,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 0.45,
       "lat": 36.239661,
@@ -84096,7 +84096,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/28/6a9107fa0c5af-1787889658.jpg",
-      "photo_preserved_at": "2026-10-06T02:16:43+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/b16c650bf0448cf68690.jpg",
@@ -84159,8 +84159,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-10-06T02:22:08Z",
-      "last_verified": "2026-10-06T02:22:08Z",
+      "last_seen": "2026-10-13T01:27:52Z",
+      "last_verified": "2026-10-13T01:27:52Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -84178,8 +84178,8 @@
       "zip": "72512",
       "kind": "land",
       "price": 4950.0,
-      "known_fees": 0.0,
-      "total_known": 4950.0,
+      "known_fees": 249.0,
+      "total_known": 5199.0,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 0.43,
       "lat": 36.228844,
@@ -84226,7 +84226,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/27/6a8f87a9a9a28-1787791273.jpg",
-      "photo_preserved_at": "2026-10-06T02:16:43+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/a079f337924df6cb445d.jpg",
@@ -84272,14 +84272,14 @@
       ],
       "msp_straight_km": 970,
       "score_parts": {
-        "Цена /25": 22,
+        "Цена /25": 21,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 0,
         "Сезон /10": 8,
         "Дорога /10": 5
       },
-      "score": 35,
+      "score": 34,
       "legacy": false,
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/arkansas/43-acres-for-sale-in-horseshoe-bend-arkansas-26039"
@@ -84289,8 +84289,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-10-07T01:24:02Z",
-      "last_verified": "2026-10-07T01:24:02Z",
+      "last_seen": "2026-10-13T01:28:13Z",
+      "last_verified": "2026-10-13T01:28:13Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -84360,7 +84360,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/22/6a8919ed15a4f-1787369965.jpg",
-      "photo_preserved_at": "2026-10-07T01:19:25+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/2d0892f9a36027fca513.jpg",
@@ -84423,8 +84423,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-10-07T01:24:04Z",
-      "last_verified": "2026-10-07T01:24:04Z",
+      "last_seen": "2026-10-13T01:28:14Z",
+      "last_verified": "2026-10-13T01:28:14Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -84493,7 +84493,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/22/6a8910ed008fa-1787367661.jpg",
-      "photo_preserved_at": "2026-10-07T01:19:25+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/52cb2095aaf3336fb894.jpg",
@@ -84556,8 +84556,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-10-07T01:24:05Z",
-      "last_verified": "2026-10-07T01:24:05Z",
+      "last_seen": "2026-10-13T01:28:15Z",
+      "last_verified": "2026-10-13T01:28:15Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -84628,7 +84628,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/22/6a88ff3409a02-1787363124.jpg",
-      "photo_preserved_at": "2026-10-07T01:19:25+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/7fa9254dfc15cfa5fb4b.jpg",
@@ -97501,8 +97501,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-02T01:15:42+00:00",
-      "last_seen": "2026-10-06T02:21:41Z",
-      "last_verified": "2026-10-06T02:21:41Z",
+      "last_seen": "2026-10-13T01:27:26Z",
+      "last_verified": "2026-10-13T01:27:26Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -97565,7 +97565,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/01/6abe649d64450-1790862493.jpg",
-      "photo_preserved_at": "2026-10-06T02:16:43+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/f433ab6680f8b9ff431c.jpg",
@@ -97628,8 +97628,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-02T01:15:42+00:00",
-      "last_seen": "2026-10-06T02:21:42Z",
-      "last_verified": "2026-10-06T02:21:42Z",
+      "last_seen": "2026-10-13T01:27:27Z",
+      "last_verified": "2026-10-13T01:27:27Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -97692,7 +97692,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/01/6abe61150e4c6-1790861589.jpg",
-      "photo_preserved_at": "2026-10-06T02:16:43+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/1a76cbea6f2569561b76.jpg",
@@ -97755,8 +97755,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-02T01:15:42+00:00",
-      "last_seen": "2026-10-06T02:21:43Z",
-      "last_verified": "2026-10-06T02:21:43Z",
+      "last_seen": "2026-10-13T01:27:28Z",
+      "last_verified": "2026-10-13T01:27:28Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -97783,7 +97783,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-01T13:15:53.000000Z",
+      "source_updated": "2026-10-13T00:00:00.000000Z",
       "source_published": "2026-10-01T13:09:45.000000Z",
       "image_url": "assets/listings/435393dda6b59c337d70.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/nevada/1010-acres-for-sale-in-montello-nevada-26397",
@@ -97819,7 +97819,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/01/6abe5ce24246d-1790860514.jpg",
-      "photo_preserved_at": "2026-10-06T02:16:43+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/435393dda6b59c337d70.jpg",
@@ -97882,8 +97882,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-02T01:15:42+00:00",
-      "last_seen": "2026-10-06T02:21:45Z",
-      "last_verified": "2026-10-06T02:21:45Z",
+      "last_seen": "2026-10-13T01:27:30Z",
+      "last_verified": "2026-10-13T01:27:30Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -97946,7 +97946,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/01/6abe5aec6c530-1790860012.jpg",
-      "photo_preserved_at": "2026-10-06T02:16:43+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/6352283548472e95db2b.jpg",
@@ -98009,8 +98009,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-02T01:15:42+00:00",
-      "last_seen": "2026-10-06T02:21:46Z",
-      "last_verified": "2026-10-06T02:21:46Z",
+      "last_seen": "2026-10-13T01:27:31Z",
+      "last_verified": "2026-10-13T01:27:31Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -98028,8 +98028,8 @@
       "zip": "72512",
       "kind": "land",
       "price": 3000.0,
-      "known_fees": 0.0,
-      "total_known": 3000.0,
+      "known_fees": 249.0,
+      "total_known": 3249.0,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 0.48,
       "lat": 36.232087,
@@ -98076,7 +98076,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/01/6abdd7632f111-1790826339.jpg",
-      "photo_preserved_at": "2026-10-06T02:16:43+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/3cfab67ec205b78eaac0.jpg",
@@ -98139,8 +98139,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-02T01:15:42+00:00",
-      "last_seen": "2026-10-06T02:21:48Z",
-      "last_verified": "2026-10-06T02:21:48Z",
+      "last_seen": "2026-10-13T01:27:32Z",
+      "last_verified": "2026-10-13T01:27:32Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -98158,8 +98158,8 @@
       "zip": "72512",
       "kind": "land",
       "price": 3000.0,
-      "known_fees": 0.0,
-      "total_known": 3000.0,
+      "known_fees": 249.0,
+      "total_known": 3249.0,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 0.45,
       "lat": 36.233989,
@@ -98205,7 +98205,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/01/6abdcf49e6e75-1790824265.jpg",
-      "photo_preserved_at": "2026-10-06T02:16:43+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/1aae9e36339ff1759e93.jpg",
@@ -98945,8 +98945,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-07T01:19:25+00:00",
-      "last_seen": "2026-10-07T01:22:10Z",
-      "last_verified": "2026-10-07T01:22:10Z",
+      "last_seen": "2026-10-13T01:27:55Z",
+      "last_verified": "2026-10-13T01:27:55Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -99009,7 +99009,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/06/6ac4f2606b913-1791292000.jpg",
-      "photo_preserved_at": "2026-10-07T01:19:25+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/4ffce88980c60c48670f.jpg",
@@ -99062,14 +99062,18 @@
         "Сезон /10": 8,
         "Дорога /10": 5
       },
-      "score": 35
+      "score": 35,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arkansas/048-acres-for-sale-in-horseshoe-bend-arkansas-26452"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-07T01:19:25+00:00",
-      "last_seen": "2026-10-07T01:22:11Z",
-      "last_verified": "2026-10-07T01:22:11Z",
+      "last_seen": "2026-10-13T01:27:56Z",
+      "last_verified": "2026-10-13T01:27:56Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -99135,7 +99139,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/06/6ac4ad774570d-1791274359.jpg",
-      "photo_preserved_at": "2026-10-07T01:19:25+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/fe3fff468083a49fdf67.jpg",
@@ -99188,14 +99192,18 @@
         "Сезон /10": 6,
         "Дорога /10": 5
       },
-      "score": 35
+      "score": 35,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/034-acres-for-sale-in-douglas-arizona-26443"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-07T01:19:25+00:00",
-      "last_seen": "2026-10-07T01:22:13Z",
-      "last_verified": "2026-10-07T01:22:13Z",
+      "last_seen": "2026-10-13T01:27:58Z",
+      "last_verified": "2026-10-13T01:27:58Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -99259,7 +99267,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/06/6ac4a3ab8d7bb-1791271851.jpg",
-      "photo_preserved_at": "2026-10-07T01:19:25+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/5a094d0d1ca3aeae8078.jpg",
@@ -99312,14 +99320,18 @@
         "Сезон /10": 7,
         "Дорога /10": 0
       },
-      "score": 30
+      "score": 30,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/texas/051-acres-for-sale-in-butterfield-texas-26442"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-07T01:19:25+00:00",
-      "last_seen": "2026-10-07T01:22:40Z",
-      "last_verified": "2026-10-07T01:22:40Z",
+      "last_seen": "2026-10-13T01:28:00Z",
+      "last_verified": "2026-10-13T01:28:00Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -99382,7 +99394,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/06/6ac4ebdea4118-1791290334.jpg",
-      "photo_preserved_at": "2026-10-07T01:19:25+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/ea6882edb8630ee32c19.jpg",
@@ -99435,14 +99447,18 @@
         "Сезон /10": 8,
         "Дорога /10": 0
       },
-      "score": 18
+      "score": 18,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/mississippi/020-acres-for-sale-in-valle-vista-arizona-24130"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-07T01:19:25+00:00",
-      "last_seen": "2026-10-07T01:22:54Z",
-      "last_verified": "2026-10-07T01:22:54Z",
+      "last_seen": "2026-10-13T01:28:01Z",
+      "last_verified": "2026-10-13T01:28:01Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -99505,7 +99521,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2025/07/28/6886fc265ae90-1753676838.jpg",
-      "photo_preserved_at": "2026-10-07T01:19:25+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/a22875bbcb472e9677af.jpg",
@@ -99558,14 +99574,18 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 37
+      "score": 37,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/037-acres-for-sale-in-willcox-arizona-21749"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-07T01:19:25+00:00",
-      "last_seen": "2026-10-07T01:23:04Z",
-      "last_verified": "2026-10-07T01:23:04Z",
+      "last_seen": "2026-10-13T01:28:02Z",
+      "last_verified": "2026-10-13T01:28:02Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -99629,7 +99649,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2025/03/03/67c53bb2bffdb-1740979122.jpg",
-      "photo_preserved_at": "2026-10-07T01:19:25+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/e266d99f252fcc4a9de6.jpg",
@@ -99682,14 +99702,18 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 38
+      "score": 38,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/037-acres-for-sale-in-cochise-arizona-20036"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-07T01:19:25+00:00",
-      "last_seen": "2026-10-07T01:23:05Z",
-      "last_verified": "2026-10-07T01:23:05Z",
+      "last_seen": "2026-10-13T01:28:04Z",
+      "last_verified": "2026-10-13T01:28:04Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -99755,7 +99779,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2025/01/29/6799c30e75026-1738130190.jpg",
-      "photo_preserved_at": "2026-10-07T01:19:25+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/9467ec360d7397a37f29.jpg",
@@ -99808,14 +99832,18 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 22
+      "score": 22,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/255-acres-for-sale-in-concho-arizona-19722"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-07T01:19:25+00:00",
-      "last_seen": "2026-10-07T01:23:07Z",
-      "last_verified": "2026-10-07T01:23:07Z",
+      "last_seen": "2026-10-13T01:28:05Z",
+      "last_verified": "2026-10-13T01:28:05Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -99881,7 +99909,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2024/12/05/67512990e406b-1733372304.jpg",
-      "photo_preserved_at": "2026-10-07T01:19:25+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/6ac1fb6d5dbb6bf35b97.jpg",
@@ -99934,14 +99962,18 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 23
+      "score": 23,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/200-acres-for-sale-in-huntst-johns-arizona-19218"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-07T01:19:25+00:00",
-      "last_seen": "2026-10-07T01:23:10Z",
-      "last_verified": "2026-10-07T01:23:10Z",
+      "last_seen": "2026-10-13T01:28:07Z",
+      "last_verified": "2026-10-13T01:28:07Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -100006,7 +100038,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2024/10/03/66fe6509c4d19-1727948041.jpg",
-      "photo_preserved_at": "2026-10-07T01:19:25+00:00",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
       "photo_history": [
         {
           "path": "assets/listings/0a6a363b663f40036f8d.jpg",
@@ -100059,7 +100091,11 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 31
+      "score": 31,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/066-acres-for-sale-in-st-johns-unified-district-arizona-18646"
+      ]
     },
     {
       "price_currency": "USD",
@@ -102358,6 +102394,634 @@
         "Коммуникации /10": 0,
         "Сезон /10": 3,
         "Дорога /10": 10
+      },
+      "score": 20
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-10-13T01:22:28+00:00",
+      "last_seen": "2026-10-13T01:25:13Z",
+      "last_verified": "2026-10-13T01:25:13Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-26538",
+      "source_id": "26538",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/florida/13-acres-for-sale-in-palatka-florida-26538",
+      "title": "1713 Rutland Avenue",
+      "address": "1713 Rutland Avenue",
+      "city": "Palatka",
+      "state": "FL",
+      "county": "Putnam",
+      "zip": "32177",
+      "kind": "land",
+      "price": 13900.0,
+      "known_fees": 0.0,
+      "total_known": 13900.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 1.3,
+      "lat": 29.573044,
+      "lng": -81.724622,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-10-12T23:42:11.000000Z",
+      "source_published": "2026-10-12T22:28:51.000000Z",
+      "image_url": "assets/listings/37a5389232b936c4c16d.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/florida/13-acres-for-sale-in-palatka-florida-26538",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "05-11-26-0000-8888-0910",
+      "zoning": "Residential",
+      "road_note": "Dirt Road",
+      "utility_note": "Please, contract county",
+      "taxes_note": "152 per year",
+      "source_categories": [
+        "residential-buildable-land",
+        "owner-finance-deals"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "available",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "flags": [
+        "В источнике есть указание на затопление: проверить FEMA и отметку площадки.",
+        "Упоминаются заболоченные земли; пригодность площадки требует проверки."
+      ],
+      "evidence_quote": "No wetlands on the lot • Small pond next door • Property taxes only about $152 a year WHAT YOU CAN DO",
+      "price_history": [
+        {
+          "date": "2026-10-13T01:22:28+00:00",
+          "price": 13900.0,
+          "source": "https://www.landcentury.com/land-for-sale/florida/13-acres-for-sale-in-palatka-florida-26538"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/12/6acd5ffd7c0d3-1791844349.jpg",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/37a5389232b936c4c16d.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/florida/13-acres-for-sale-in-palatka-florida-26538",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/12/6acd5ffd7c0d3-1791844349.jpg",
+          "date": "2026-10-13T01:22:28+00:00"
+        }
+      ],
+      "region": "Юг",
+      "screening_issue": null,
+      "climate_note": "Дешёвый перелёт и мягкая зима. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "MCO",
+          "name": "Orlando International Airport",
+          "straight_km": 133,
+          "drive_km_estimate": 167,
+          "drive_hours_estimate": 2.2,
+          "flight_min_eur": 1031,
+          "flight_origin": "VNO",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "MIA",
+          "name": "Miami International Airport",
+          "straight_km": 443,
+          "drive_km_estimate": 554,
+          "drive_hours_estimate": 7.4,
+          "flight_min_eur": 477,
+          "flight_origin": "VNO",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "ATL",
+          "name": "Hartsfield Jackson Atlanta International Airport",
+          "straight_km": 519,
+          "drive_km_estimate": 649,
+          "drive_hours_estimate": 8.7,
+          "flight_min_eur": 521,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1979,
+      "score_parts": {
+        "Цена /25": 7,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 1,
+        "Сезон /10": 7,
+        "Дорога /10": 8
+      },
+      "score": 23
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-10-13T01:22:28+00:00",
+      "last_seen": "2026-10-13T01:25:14Z",
+      "last_verified": "2026-10-13T01:25:14Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-26536",
+      "source_id": "26536",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/utah/203-acres-for-sale-in-cedar-city-utah-26536",
+      "title": "6373 5600 W",
+      "address": "6373 5600 W",
+      "city": "Cedar City",
+      "state": "UT",
+      "county": "Iron",
+      "zip": "84720",
+      "kind": "land",
+      "price": 5950.0,
+      "known_fees": 249.0,
+      "total_known": 6199.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 2.03,
+      "lat": 37.823306,
+      "lng": -113.785111,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-10-12T20:34:05.000000Z",
+      "source_published": "2026-10-12T20:19:53.000000Z",
+      "image_url": "assets/listings/4f4eee65a8d0651ae090.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/utah/203-acres-for-sale-in-cedar-city-utah-26536",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "02-003-75",
+      "zoning": "Residential",
+      "road_note": "Dirt Road",
+      "utility_note": "Electricity available, septic and well required",
+      "taxes_note": "$25",
+      "source_categories": [
+        "residential-buildable-land",
+        "agricultural-and-farm-land",
+        "owner-finance-deals",
+        "recreational-and-hunting-land",
+        "mobile-home-and-rv-land",
+        "vacant-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "seller_claim",
+      "rv_occupancy": "seller_claim",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "available",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "flags": [
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
+      "evidence_quote": "Picture weekends camping under Utah's wide-open skies, bringing your RV for a change of scenery, or heading out to explore the surrounding",
+      "price_history": [
+        {
+          "date": "2026-10-13T01:22:28+00:00",
+          "price": 5950.0,
+          "source": "https://www.landcentury.com/land-for-sale/utah/203-acres-for-sale-in-cedar-city-utah-26536"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/12/6acd43e71221f-1791837159.jpg",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/4f4eee65a8d0651ae090.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/utah/203-acres-for-sale-in-cedar-city-utah-26536",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/12/6acd43e71221f-1791837159.jpg",
+          "date": "2026-10-13T01:22:28+00:00"
+        }
+      ],
+      "region": "Горный",
+      "screening_issue": null,
+      "climate_note": "Бюджетные удалённые участки, холодная зима и большие расстояния. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 228,
+          "drive_km_estimate": 286,
+          "drive_hours_estimate": 3.8,
+          "flight_min_eur": 568,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "PHX",
+          "name": "Phoenix Sky Harbor International Airport",
+          "straight_km": 514,
+          "drive_km_estimate": 642,
+          "drive_hours_estimate": 8.6,
+          "flight_min_eur": 733,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "LAX",
+          "name": "Los Angeles International Airport",
+          "straight_km": 600,
+          "drive_km_estimate": 749,
+          "drive_hours_estimate": 10.0,
+          "flight_min_eur": 514,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1880,
+      "score_parts": {
+        "Цена /25": 20,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 1,
+        "Сезон /10": 3,
+        "Дорога /10": 6
+      },
+      "score": 30
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-10-13T01:22:28+00:00",
+      "last_seen": "2026-10-13T01:25:17Z",
+      "last_verified": "2026-10-13T01:25:17Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-26434",
+      "source_id": "26434",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/california/018-acres-for-sale-in-california-city-ca-26434",
+      "title": "Kenwood Dr",
+      "address": "Kenwood Dr",
+      "city": "California City",
+      "state": "CA",
+      "county": "Kern",
+      "zip": "93505",
+      "kind": "land",
+      "price": 4800.0,
+      "known_fees": 0.0,
+      "total_known": 4800.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 0.18,
+      "lat": 35.1739829462279,
+      "lng": -117.812366893601,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-10-12T19:52:46.000000Z",
+      "source_published": "2026-10-05T19:51:39.000000Z",
+      "image_url": "assets/listings/8c4d2369b4134489051f.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/california/018-acres-for-sale-in-california-city-ca-26434",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "272-372-08-00-9",
+      "zoning": "R1",
+      "road_note": "Dirt Road",
+      "utility_note": "Well Needed, Septic Needed",
+      "taxes_note": "31.00",
+      "source_categories": [
+        "residential-buildable-land",
+        "recreational-and-hunting-land",
+        "mobile-home-and-rv-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "flags": [
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
+      "evidence_quote": "00 🏠 Perfect For ✅ A site-built single-family home (R1 residential use) ✅ A manufactured or mobile home placement ✅ A prefab",
+      "price_history": [
+        {
+          "date": "2026-10-13T01:22:28+00:00",
+          "price": 4800.0,
+          "source": "https://www.landcentury.com/land-for-sale/california/018-acres-for-sale-in-california-city-ca-26434"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/uploads/2026/10/12/6acd3984bdde4-1791834500.jpg",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/8c4d2369b4134489051f.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/california/018-acres-for-sale-in-california-city-ca-26434",
+          "remote_url": "https://storage.portalstation.com/uploads/2026/10/12/6acd3984bdde4-1791834500.jpg",
+          "date": "2026-10-13T01:22:28+00:00"
+        }
+      ],
+      "region": "Тихоокеанский",
+      "screening_issue": null,
+      "climate_note": "Недорогие предложения сосредоточены в пустыне и глубине штата. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "LAX",
+          "name": "Los Angeles International Airport",
+          "straight_km": 147,
+          "drive_km_estimate": 184,
+          "drive_hours_estimate": 2.5,
+          "flight_min_eur": 514,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 261,
+          "drive_km_estimate": 326,
+          "drive_hours_estimate": 4.3,
+          "flight_min_eur": 568,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "SAN",
+          "name": "San Diego International Airport",
+          "straight_km": 277,
+          "drive_km_estimate": 347,
+          "drive_hours_estimate": 4.6,
+          "flight_min_eur": 718,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 2343,
+      "score_parts": {
+        "Цена /25": 22,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 6,
+        "Дорога /10": 8
+      },
+      "score": 36
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-10-13T01:22:28+00:00",
+      "last_seen": "2026-10-13T01:25:18Z",
+      "last_verified": "2026-10-13T01:25:18Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-26431",
+      "source_id": "26431",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/california/012-acres-for-sale-in-mojave-ca-26431",
+      "title": "Ophir Ave",
+      "address": "Ophir Ave",
+      "city": "MOJAVE",
+      "state": "CA",
+      "county": "Kern",
+      "zip": "93501",
+      "kind": "land",
+      "price": 6500.0,
+      "known_fees": 0.0,
+      "total_known": 6500.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 0.12,
+      "lat": 34.9908543012694,
+      "lng": -118.178364329364,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-10-12T19:12:07.000000Z",
+      "source_published": "2026-10-05T19:11:56.000000Z",
+      "image_url": "assets/listings/0e82919be0a68eba1db9.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/california/012-acres-for-sale-in-mojave-ca-26431",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "246-122-10-00-0",
+      "zoning": "A-1",
+      "road_note": "Dirt Road",
+      "utility_note": "Well Needed, Septic Needed",
+      "taxes_note": "68.00",
+      "source_categories": [
+        "residential-buildable-land",
+        "recreational-and-hunting-land",
+        "mobile-home-and-rv-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "flags": [
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
+      "evidence_quote": "There is no water or sewer service available at this parcel.",
+      "price_history": [
+        {
+          "date": "2026-10-13T01:22:28+00:00",
+          "price": 6500.0,
+          "source": "https://www.landcentury.com/land-for-sale/california/012-acres-for-sale-in-mojave-ca-26431"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/uploads/2026/10/12/6acd2fecb1cc4-1791832044.jpg",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/0e82919be0a68eba1db9.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/california/012-acres-for-sale-in-mojave-ca-26431",
+          "remote_url": "https://storage.portalstation.com/uploads/2026/10/12/6acd2fecb1cc4-1791832044.jpg",
+          "date": "2026-10-13T01:22:28+00:00"
+        }
+      ],
+      "region": "Тихоокеанский",
+      "screening_issue": null,
+      "climate_note": "Недорогие предложения сосредоточены в пустыне и глубине штата. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "LAX",
+          "name": "Los Angeles International Airport",
+          "straight_km": 118,
+          "drive_km_estimate": 148,
+          "drive_hours_estimate": 2.0,
+          "flight_min_eur": 514,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "SAN",
+          "name": "San Diego International Airport",
+          "straight_km": 267,
+          "drive_km_estimate": 334,
+          "drive_hours_estimate": 4.5,
+          "flight_min_eur": 718,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 300,
+          "drive_km_estimate": 374,
+          "drive_hours_estimate": 5.0,
+          "flight_min_eur": 568,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 2382,
+      "score_parts": {
+        "Цена /25": 19,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 6,
+        "Дорога /10": 8
+      },
+      "score": 33
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-10-13T01:22:28+00:00",
+      "last_seen": "2026-10-13T01:25:20Z",
+      "last_verified": "2026-10-13T01:25:20Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-26426",
+      "source_id": "26426",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/california/20-acres-for-sale-in-california-city-ca-26426",
+      "title": "Occidental St",
+      "address": "Occidental St",
+      "city": "California City",
+      "state": "CA",
+      "county": "Kern",
+      "zip": "93505",
+      "kind": "land",
+      "price": 14000.0,
+      "known_fees": 0.0,
+      "total_known": 14000.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 20.0,
+      "lat": 35.2342898523981,
+      "lng": -117.691636376231,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-10-12T17:24:24.000000Z",
+      "source_published": "2026-10-05T16:31:57.000000Z",
+      "image_url": "assets/listings/be3cad9e5530801a98fd.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/california/20-acres-for-sale-in-california-city-ca-26426",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "457-062-24-00-2",
+      "zoning": "O/ra",
+      "road_note": "Dirt Road",
+      "utility_note": "Well Needed, Septic Needed",
+      "taxes_note": "125.00",
+      "source_categories": [
+        "residential-buildable-land",
+        "recreational-and-hunting-land",
+        "mobile-home-and-rv-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "seller_claim",
+      "rv_occupancy": "seller_conditional",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "flags": [
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
+      "evidence_quote": "RV living is permitted for temporary recreational use only ; full-time RV living is restricted unless the occupant qualifies under California City's",
+      "price_history": [
+        {
+          "date": "2026-10-13T01:22:28+00:00",
+          "price": 14000.0,
+          "source": "https://www.landcentury.com/land-for-sale/california/20-acres-for-sale-in-california-city-ca-26426"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/uploads/2026/10/12/6acd15f31a086-1791825395.jpg",
+      "photo_preserved_at": "2026-10-13T01:22:28+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/be3cad9e5530801a98fd.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/california/20-acres-for-sale-in-california-city-ca-26426",
+          "remote_url": "https://storage.portalstation.com/uploads/2026/10/12/6acd15f31a086-1791825395.jpg",
+          "date": "2026-10-13T01:22:28+00:00"
+        }
+      ],
+      "region": "Тихоокеанский",
+      "screening_issue": null,
+      "climate_note": "Недорогие предложения сосредоточены в пустыне и глубине штата. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "LAX",
+          "name": "Los Angeles International Airport",
+          "straight_km": 158,
+          "drive_km_estimate": 197,
+          "drive_hours_estimate": 2.6,
+          "flight_min_eur": 514,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 248,
+          "drive_km_estimate": 310,
+          "drive_hours_estimate": 4.1,
+          "flight_min_eur": 568,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "SAN",
+          "name": "San Diego International Airport",
+          "straight_km": 282,
+          "drive_km_estimate": 352,
+          "drive_hours_estimate": 4.7,
+          "flight_min_eur": 718,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 2330,
+      "score_parts": {
+        "Цена /25": 7,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 6,
+        "Дорога /10": 7
       },
       "score": 20
     }
