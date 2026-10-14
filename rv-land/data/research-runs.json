@@ -2600,7 +2600,110 @@
       "rotation_reason": "Next rotation: New York and Virginia garages/workshops plus under-covered New Hampshire. Automated discovery continues all 50 states.",
       "preservation": "All 801 baseline rows unchanged; all 796 pre-nightly IDs, first_seen and prior history entries retained. All 849 protected photo/Sicily/flight hashes unchanged.",
       "validation": "19 focused data tests passed; validator: 803 records, 802 listing images, 50 states, 20 original IDs. Existing rows unchanged. Final Pages/public byte comparison and Chrome card verification recorded in task output after publication."
+    },
+    {
+      "date": "2026-10-14T02:23:44+00:00",
+      "states": [
+        "NY",
+        "VA",
+        "NH"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [
+        "compass-27VL1S"
+      ],
+      "automatic_added_ids": [
+        "lc-26567",
+        "lc-26563",
+        "lc-26561",
+        "lc-26554",
+        "lc-26551",
+        "lc-26545",
+        "lc-26544",
+        "lc-26543",
+        "lc-26542",
+        "lc-26541",
+        "lc-26539",
+        "lc-26457",
+        "lc-26450",
+        "lc-26447",
+        "lc-26446",
+        "lc-26402"
+      ],
+      "workflow": {
+        "run_id": 38494065519,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/38494065519",
+        "conclusion": "success",
+        "created_at": "2026-10-14T01:08:23Z",
+        "data_commit": "b8d675f6f487e30045339323033d16798358e06f"
+      },
+      "monitor": {
+        "last_run": "2026-10-14T01:08:42+00:00",
+        "status": "partial",
+        "scanned_pages": 115,
+        "read_details": 95,
+        "added": 16,
+        "changed": 1,
+        "errors": 25
+      },
+      "source_errors": "25 collection errors; all 20 retained examples are 404. Collector completed successfully; no redundant fallback run. Access failures did not mark listings sold.",
+      "findings": [
+        {
+          "id": "compass-27VL1S",
+          "finding": "Live Compass/Tieger active $13,500 .23 acre; original annotated aerial photo and exact displayed MLS coordinates preserved. Possible encroachment/unbuildability: review_hold, excluded from photo candidates; no existing garage or repair permission claimed."
+        },
+        {
+          "id": "lc-25896",
+          "finding": "Nightly active-to-sold change independently confirmed by explicit Sold on public LandCentury page. All history retained. Five refreshed records also gained explicit $249 document fees; no fabricated price changes."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.arquetterealtors.com/commercial-for-sale/525-W-Willett-Street-Rome-NY-13440-435126177",
+          "finding": "Live Chrome sale price $39,900 for 2800sqft garage/storage, MLS S1695165; search snippet $5,000 was not the purchase price. Outside budget, not imported."
+        },
+        {
+          "url": "https://www.mystatemls.com/property/2623-route-52-liberty-ny-12754/10569291/",
+          "finding": "Former bus garage with 12ft doors: $5,000 per month NNN and off-market, not a cash purchase. Excluded."
+        },
+        {
+          "url": "https://syracuselandbank.org/properties/",
+          "finding": "Indexed primary seller material requires substantial rehabilitation/proof of funds for featured homes. Live browser403 stopped; no low-price garage verified."
+        },
+        {
+          "url": "https://www.redfin.com/VA/Saltville/982-Palmer-Ave-24370/home/132288013",
+          "finding": "Live Chrome pending $15,000, changed Oct2, supersedes September indexed active status. .55acre,911sqft house needing work, APN28A15 A9, MLS111976; driveway/outbuilding do not prove an RV garage. Photo CDN robots disallows automated retrieval; no photo request made, no import. Listing map center36.8559419,-81.7573698."
+        },
+        {
+          "url": "https://www.jpar.com/property/3-73512981-48-Activity-R-Richmond-NH-03470/",
+          "finding": "Indexed active $10,900 .38acre, wetlands. Discloses $6,771 tax out of current use; obligation and whether additional buyer cost unresolved. If additive, $17,671 exceeds budget. Conflicting old utilities are not confirmation. Deferred, no import."
+        },
+        {
+          "url": "https://rocherealty.com/alton-nh-land-for-sale-real-estate-roche-realty-group/",
+          "finding": "MLS5111866 Lot201/202 Frohock Brook $15,000 .64acre. Seller says unmaintained roads, no electricity and association prohibits camping. No RV repair/storage entitlement established; poor fit, not imported."
+        },
+        {
+          "url": "https://www.clerkinagency.com/displayprop/Haverhill/NH/Land/5085172",
+          "finding": "Lot265 King Drive $12,000 .55acre under contract; seller reports no electric/water/sewer. Mountain Lakes restrictions and parcel RV use unresolved; no better workshop, deferred."
+        }
+      ],
+      "official_sources": [
+        "https://www.candianh.org/DocumentCenter/View/1972/Zoning-Regulations---Zoning-Ordinance-and-Map-PDF",
+        "https://candianh.org/docs/candianh_zoning_regulations.pdf",
+        "https://smythcounty.org/departments/building___zoning/index.php"
+      ],
+      "official_findings": "Candia 2026 revision and general conformance section2.01 read in official indexed PDF. Subsequent detailed reads failed522/403, no circumvention and no parcel-specific permission inferred. Smyth department index unavailable; no jurisdiction inferred solely from Saltville postal address.",
+      "access": "Public search and connected Chrome. Raveis challenge, Syracuse403, Realtor geographic restriction, Candia403 and Redfin image robots restriction respected. Compass /m/ photo robots allowed and original bytes saved. No seller contacts, login, purchase, booking or infrastructure change.",
+      "flight_review": "October12 weekly refresh retained byte-for-byte; next due October19. No old fare relabelled as current.",
+      "next_states": [
+        "NC",
+        "SC",
+        "MA"
+      ],
+      "rotation_reason": "Rotate to North/South Carolina workshop searches and under-covered Massachusetts; nationwide automatic category discovery continues.",
+      "preservation": "819 pre-manual rows remain byte-equivalent as JSON objects; 803 pre-nightly IDs, first_seen and all price/status/photo history entries retained; 867 protected file hashes unchanged.",
+      "validation": "19 focused test_data tests passed; validate_data:820 retained listings,819 photos,50 states,all20 original IDs. 787 eligible photo candidates;37 states>=10. git diff --check passed. Public Pages and Chrome postflight follows publication in task output."
     }
   ],
-  "updated_at": "2026-10-13T02:18:55+00:00"
+  "updated_at": "2026-10-14T02:23:44+00:00"
 }
