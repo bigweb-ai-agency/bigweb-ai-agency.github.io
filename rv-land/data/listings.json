@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-15T01:06:48+00:00",
+  "updated_at": "2026-10-15T02:16:12+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -46708,19 +46708,20 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:28+00:00",
-      "last_seen": "2026-09-23T02:17:11+00:00",
-      "last_verified": "2026-09-23T02:17:11+00:00",
+      "last_seen": "2026-10-15T02:16:12+00:00",
+      "last_verified": "2026-10-15T02:16:12+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
       "notes": [
-        "На официальной странице Planning Board связана редакция от 16.12.2025, но её текст получить не удалось. Оговорка о §6.2.5 основана на доступном поисковом снимке городского источника; актуальная применимость к этому участку и правила HOA не подтверждены."
+        "На официальной странице Planning Board связана редакция от 16.12.2025, но её текст получить не удалось. Оговорка о §6.2.5 основана на доступном поисковом снимке городского источника; актуальная применимость к этому участку и правила HOA не подтверждены.",
+        "15.10.2026 открытая страница ACRES/MLS 250245 показывает Pending: под контрактом с 05.10, статус обновлён 06.10. Условия сделки — perc и survey. Цена $9,900; предупреждение продавца о camping/RV и существующий HOLD сохранены."
       ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ls-5423475",
       "source_id": "5423475",
-      "source": "LandSearch",
-      "url": "https://www.landsearch.com/properties/becket-ma-01223/5423475",
+      "source": "Berkshire MLS / ACRES",
+      "url": "https://berkshireacres.com/idx/Lot-35-Deer-Run-Becket-MA-01223-mls_250245/",
       "title": "Lot 35 Deer Run",
       "address": "Lot 35 Deer Run",
       "city": "Becket",
@@ -46736,9 +46737,9 @@
       "lat": 42.2742,
       "lng": -73.0031,
       "coord_precision": "listing",
-      "status": "active",
+      "status": "pending",
       "status_basis": "live_public_page",
-      "source_crawled": "live Chrome page",
+      "source_crawled": "Live Chrome 2026-10-15",
       "image_url": "assets/listings/2b37fc41d8474502ecf1.jpg",
       "image_source_url": "https://www.landsearch.com/properties/becket-ma-01223/5423475",
       "image_credit": "Listing broker / LandSearch",
@@ -46747,15 +46748,15 @@
       "zoning": "Residential",
       "taxes_note": "2025 $211",
       "road_note": "Юридический подъезд не проверен",
-      "utility_note": "Состояние подключений требует проверки",
+      "utility_note": "В актуальной карточке MLS вода и канализация отсутствуют; электричество не подтверждено.",
       "garage_note": "Размеры и состояние не подтверждены",
       "rv_storage": "restriction_risk",
       "rv_occupancy": "seller_no",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "unknown",
-      "water": "unknown",
-      "sewer": "unknown",
+      "water": "none",
+      "sewer": "none",
       "no_hoa": "none",
       "road_access": "unknown",
       "flags": [
@@ -46771,9 +46772,17 @@
           "source": "https://www.landsearch.com/properties/becket-ma-01223/5423475"
         }
       ],
-      "status_history": [],
+      "status_history": [
+        {
+          "date": "2026-10-15T02:16:12+00:00",
+          "from": "active",
+          "to": "pending",
+          "source": "https://berkshireacres.com/idx/Lot-35-Deer-Run-Becket-MA-01223-mls_250245/"
+        }
+      ],
       "legacy": false,
       "alternate_urls": [
+        "https://berkshireacres.com/idx/Lot-35-Deer-Run-Becket-MA-01223-mls_250245/",
         "https://www.landsearch.com/properties/becket-ma-01223/5423475"
       ],
       "region": "Северо-восток",
@@ -46831,7 +46840,7 @@
           "date": "2026-09-13T23:05:59+00:00"
         }
       ],
-      "source_updated_at": "2026-09-10",
+      "source_updated_at": "2026-10-06",
       "legal_source": "https://www.townofbecket.org/home/files/zoning-bylaws-revised-2025",
       "legal_checked_at": "2026-09-23T02:17:11+00:00",
       "legal_basis": "indexed_public_page",
@@ -46850,7 +46859,8 @@
           "current_document_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/uploads/revised_2025.12.16_bkt_zoning_by-laws_2025.pdf",
           "current_document_basis": "link verified in live Chrome; PDF content unavailable; no access-control bypass"
         }
-      ]
+      ],
+      "source_updated": "2026-10-06"
     },
     {
       "price_currency": "USD",
@@ -105731,6 +105741,145 @@
         "Дорога /10": 6
       },
       "score": 19
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-10-15T02:16:12+00:00",
+      "last_seen": "2026-10-15T02:16:12+00:00",
+      "last_verified": "2026-10-15T02:16:12+00:00",
+      "photo_kind": "Единственное изображение объявления — скан плана участков. Фотографии состояния площадки нет.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [
+        "0.64 акра — около 2,590 м². Продавец описывает площадку как расчищенную и предлагает хранение техники; независимо это не проверено.",
+        "Сохранён исходный скан схемы из объявления, без изменения изображения. План не подтверждает нынешние границы, состояние грунта или проезд.",
+        "Вода и канализация не доступны по MLS; расходы на подготовку площадки и коммуникации не включены.",
+        "По официальному индексу округа есть отдельные zoning и junk-vehicle ordinances. Подробный актуальный текст получить не удалось (timeout/521); юрисдикция участка, зона, разрешение хранения и личного ремонта остаются неизвестными.",
+        "Fayetteville — почтовый адрес. Он сам по себе не устанавливает городскую юрисдикцию."
+      ],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "cb-73763712",
+      "url": "https://www.coldwellbankerhomes.com/nc/fayetteville/903-shakertown-rd/pid_73763712/",
+      "image_source_url": "https://www.coldwellbankerhomes.com/nc/fayetteville/903-shakertown-rd/pid_73763712/",
+      "image_url": "assets/listings/668fec18f27d30c2b729.webp",
+      "image_remote_url": "https://m1.cbhomes.com/p/1123/LP769456/dd84156830D44Da/pds23tp.webp",
+      "photo_preserved_at": "2026-10-15T02:13:40+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/668fec18f27d30c2b729.webp",
+          "source": "https://www.coldwellbankerhomes.com/nc/fayetteville/903-shakertown-rd/pid_73763712/",
+          "remote_url": "https://m1.cbhomes.com/p/1123/LP769456/dd84156830D44Da/pds23tp.webp",
+          "date": "2026-10-15T02:13:40+00:00"
+        }
+      ],
+      "source": "Coldwell Banker / Doorify MLS",
+      "source_id": "73763712",
+      "title": "903 Shakertown Road",
+      "address": "903 Shakertown Road",
+      "city": "Fayetteville",
+      "state": "NC",
+      "county": "Cumberland",
+      "zip": "28312",
+      "kind": "land",
+      "price": 12000,
+      "known_fees": 0,
+      "total_known": 12000,
+      "price_evidence": "Полная запрашиваемая цена $12,000 на открытой странице брокера 15.10.2026. Условия Cash указаны в индексированной карточке MLS; расходы закрытия не установлены.",
+      "acres": 0.64,
+      "lat": 35.0656,
+      "lng": -78.7836,
+      "coord_precision": "listing",
+      "coordinate_source": "https://www.landsearch.com/properties/903-shakertown-rd-fayetteville-nc-28312/5564126",
+      "coordinate_basis": "indexed_public_page, crawled 2026-10-11; live LandSearch security check respected",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_published": "2026-09-16",
+      "source_updated": "2026-10-01",
+      "source_crawled": "Live Chrome 2026-10-15",
+      "image_credit": "Deborah Parker Realty / Doorify MLS / Coldwell Banker",
+      "parcel": "0467487858",
+      "mls": "LP769456 / FAR 769456",
+      "zoning": "unknown",
+      "road_note": "Адрес и схема показывают Shakertown Road. Ширина дороги, законный подъезд, состояние покрытия и разворот 7-метрового RV не проверены.",
+      "utility_note": "В объявлении канализации нет; в индексированной карточке Zillow вода и sewer указаны как недоступные. Электричество не подтверждено.",
+      "taxes_note": "По брокерской истории налог 2025: $112; текущий расчёт и отсутствие задолженности не подтверждены.",
+      "garage_note": "Пустой участок; гараж или мастерская не заявлены. Единственное изображение — план, а не фотография площадки.",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "none",
+      "sewer": "none",
+      "no_hoa": "unknown",
+      "road_access": "unknown",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "flags": [
+        "Заявление о хранении техники не подтверждает разрешение на RV или его ремонт.",
+        "Нет фотографии текущего состояния: только схема из объявления."
+      ],
+      "legal_source": "https://www.cumberlandcountync.gov/departments/planning-group/planning-and-inspections/planning/ordinances",
+      "legal_checked_at": "2026-10-15T02:16:12+00:00",
+      "legal_basis": "official_index_only",
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.coldwellbankerhomes.com/nc/fayetteville/903-shakertown-rd/pid_73763712/",
+        "https://www.landsearch.com/properties/903-shakertown-rd-fayetteville-nc-28312/5564126",
+        "https://www.zillow.com/homedetails/903-Shakertown-Rd-Fayetteville-NC-28312/53677963_zpid/"
+      ],
+      "price_history": [
+        {
+          "date": "2026-10-15T02:16:12+00:00",
+          "price": 12000,
+          "source": "https://www.coldwellbankerhomes.com/nc/fayetteville/903-shakertown-rd/pid_73763712/"
+        }
+      ],
+      "status_history": [],
+      "region": "Юг",
+      "screening_issue": null,
+      "climate_note": "Мягкий сезон и несколько шлюзов. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "CLT",
+          "name": "Charlotte Douglas International Airport",
+          "straight_km": 197,
+          "drive_km_estimate": 246,
+          "drive_hours_estimate": 3.3,
+          "flight_min_eur": 670,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "IAD",
+          "name": "Washington Dulles International Airport",
+          "straight_km": 447,
+          "drive_km_estimate": 559,
+          "drive_hours_estimate": 7.5,
+          "flight_min_eur": 432,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "ATL",
+          "name": "Hartsfield Jackson Atlanta International Airport",
+          "straight_km": 542,
+          "drive_km_estimate": 677,
+          "drive_hours_estimate": 9.0,
+          "flight_min_eur": 521,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1640,
+      "score_parts": {
+        "Цена /25": 10,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 8,
+        "Дорога /10": 7
+      },
+      "score": 25
     }
   ]
 }

@@ -2703,7 +2703,101 @@
       "rotation_reason": "Rotate to North/South Carolina workshop searches and under-covered Massachusetts; nationwide automatic category discovery continues.",
       "preservation": "819 pre-manual rows remain byte-equivalent as JSON objects; 803 pre-nightly IDs, first_seen and all price/status/photo history entries retained; 867 protected file hashes unchanged.",
       "validation": "19 focused test_data tests passed; validate_data:820 retained listings,819 photos,50 states,all20 original IDs. 787 eligible photo candidates;37 states>=10. git diff --check passed. Public Pages and Chrome postflight follows publication in task output."
+    },
+    {
+      "date": "2026-10-15T02:16:12+00:00",
+      "states": [
+        "NC",
+        "SC",
+        "MA"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [
+        "cb-73763712"
+      ],
+      "updated_ids": [
+        "ls-5423475"
+      ],
+      "automatic_added_ids": [
+        "lc-26577",
+        "lc-26282"
+      ],
+      "workflow": {
+        "run_id": 38663814497,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/38663814497",
+        "conclusion": "success",
+        "created_at": "2026-10-15T01:06:26Z",
+        "data_commit": "1dfea9101a66042fbb69d4dffe297131f8915d66"
+      },
+      "monitor": {
+        "last_run": "2026-10-15T01:06:48+00:00",
+        "status": "partial",
+        "scanned_pages": 115,
+        "read_details": 95,
+        "added": 2,
+        "changed": 3,
+        "errors": 25
+      },
+      "source_errors": "25 collector errors; all 20 retained examples are 404. Scheduled discovery and its Pages deployment 38664394398 succeeded. No redundant fallback run; access errors did not change listing availability.",
+      "findings": [
+        {
+          "id": "cb-73763712",
+          "finding": "Live broker active $12,000 .64 acre; seller proposes equipment storage, no existing garage. Preserved original plat scan, clearly labelled; no ground photograph. RV storage and personal repair remain unknown. Coordinates from indexed listing, source/date separately recorded."
+        },
+        {
+          "id": "ls-5423475",
+          "finding": "Live ACRES/MLS explicitly Pending, under contract Oct5, status updated Oct6; $9,900 unchanged. No water/sewer per source. Existing hold, seller RV warning and all photos/history preserved."
+        },
+        {
+          "ids": [
+            "lc-25897",
+            "lc-25902",
+            "lc-25953"
+          ],
+          "finding": "Scheduled collector recorded lower Eloy asking prices: $7,900, $9,900 and $7,900 respectively. Separate $100 known fees retained. No new repair permission or workshop inferred."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.homes.com/property/lot-25-saint-pauls-ln-bishopville-sc-unit-25/1gjy4rwf13lrj/",
+          "finding": "Live $10,500 .93acre, MLS634531; seller no-HOA, manufactured-home claim. Dirt private road, septic field does not prove installed functioning system. Rendered map34.261725,-80.255207. Image host robots403: no image request and no import. RV permission unknown; investigate independent public listing source in later rotation."
+        },
+        {
+          "url": "https://modularhomesource.com/lots?state=ma",
+          "finding": "Aggregate stale Deer Run $15k contradicted by current broker $9.9k pending. Mill St $10k not independently current; retained existing $15k plus disclosed tax debt/hold. 58 Summer St Adams .08acre $12k lead too small without garage proof, not imported."
+        },
+        {
+          "url": "https://www.homes.com/massachusetts/land-for-sale/under-15k/",
+          "finding": "Browser tab unresponsive; no broad price-list contents imported. Exact primary Deer Run detail succeeded independently."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/267-riverhills-trl-rockingham-nc-28379/5158401",
+          "finding": "Indexed $12k 2.38acre pending since Aug31 in Chalks Landing; restrictions and garage unverified. No improvement over workshop search, deferred."
+        },
+        {
+          "url": "https://raleighrealty.com/home/lot-11-jefferson-st-hope-mills-nc-28348-b3e30377",
+          "finding": "Indexed $15k vacant lot MLS756588; manufactured-home/building marketing does not establish a garage or RV repair use; deferred."
+        },
+        {
+          "url": "https://www.homes.com/south-carolina/land-for-sale/under-15k/",
+          "finding": "Numerous residential HOA lots; Athens Ct Charleston is fractional ownership of undevelopable strip, excluded. No verified existing suitable workshop found in this bounded rotation."
+        }
+      ],
+      "official_sources": [
+        "https://www.cumberlandcountync.gov/departments/planning-group/planning-and-inspections/planning/ordinances"
+      ],
+      "official_findings": "Official county index identifies zoning revised12-15-25 and junk vehicle ordinance revised4-15-24; detailed follow-up timeout/521. No parcel jurisdiction or permission asserted.",
+      "access": "Public web and connected Chrome. LandSearch challenge respected. Homes image-host robots403 stopped automated photo fetch. m1.cbhomes.com robots404; one original public listing image downloaded. No contact, login, booking, purchase or infrastructure mutation.",
+      "flight_review": "October12 weekly data retained byte-for-byte; next due October19.",
+      "next_states": [
+        "NJ",
+        "DE",
+        "RI"
+      ],
+      "rotation_reason": "All three remain below ten photo candidates; prioritize garages/storage properties near Northeast airports. Automatic category sweep continues nationwide.",
+      "preservation": "All 822 pre-manual IDs, first_seen and price/status/photo/cost histories retained. Only ls-5423475 changed, with explicit broker pending evidence; other 821 prior rows unchanged. All 870 protected photo/flight/Sicily hashes unchanged.",
+      "validation": "19 focused test_data checks passed; validate_data:823 listings,822 preserved images,50 states,all20 original IDs. 790 eligible image-backed candidates,37 states>=10. New NC image is explicitly a plat scan, not a site photograph. git diff --check passed. Public Pages/Chrome postflight follows publication in task output."
     }
   ],
-  "updated_at": "2026-10-14T02:23:44+00:00"
+  "updated_at": "2026-10-15T02:16:12+00:00"
 }
