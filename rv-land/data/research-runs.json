@@ -2797,7 +2797,114 @@
       "rotation_reason": "All three remain below ten photo candidates; prioritize garages/storage properties near Northeast airports. Automatic category sweep continues nationwide.",
       "preservation": "All 822 pre-manual IDs, first_seen and price/status/photo/cost histories retained. Only ls-5423475 changed, with explicit broker pending evidence; other 821 prior rows unchanged. All 870 protected photo/flight/Sicily hashes unchanged.",
       "validation": "19 focused test_data checks passed; validate_data:823 listings,822 preserved images,50 states,all20 original IDs. 790 eligible image-backed candidates,37 states>=10. New NC image is explicitly a plat scan, not a site photograph. git diff --check passed. Public Pages/Chrome postflight follows publication in task output."
+    },
+    {
+      "date": "2026-10-16T02:16:13+00:00",
+      "states": [
+        "NJ",
+        "DE",
+        "RI"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [
+        "ri-1419851",
+        "cb-73942944"
+      ],
+      "updated_ids": [],
+      "automatic_added_ids": [
+        "lc-26592",
+        "lc-26590",
+        "lc-26589",
+        "lc-26586",
+        "lc-26585",
+        "lc-26583"
+      ],
+      "workflow": {
+        "run_id": 38833191214,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/38833191214",
+        "conclusion": "success",
+        "created_at": "2026-10-16T01:05:12Z",
+        "data_commit": "c0aaf43318aac94a3f07cc21c29a843f5cba2cd4"
+      },
+      "monitor": {
+        "last_run": "2026-10-16T01:05:28+00:00",
+        "status": "partial",
+        "scanned_pages": 115,
+        "read_details": 90,
+        "added": 6,
+        "changed": 1,
+        "errors": 30
+      },
+      "source_errors": "30 collector errors; all 20 retained examples are 404. Scheduled collector and Pages38833776777 succeeded. No redundant fallback collection. Access errors never changed listing availability.",
+      "findings": [
+        {
+          "id": "ri-1419851",
+          "finding": "First RI record: live active full cash $15k .2204acre; two broker images, preserved Street View image and live map point. HOLD: no due-diligence period; official residential RV height <=9ft, no sleeping and no inoperable vehicle storage. No repair approval inferred."
+        },
+        {
+          "id": "cb-73942944",
+          "finding": "Live active full asking $7.5k .28acre, HOA $266/year, well/septic required. Preserved original parcel plan and community-sign image, explicitly labelled; actual ground photo absent. No garage or repair permission established."
+        },
+        {
+          "id": "lc-25584",
+          "finding": "Collector active-to-sold change independently confirmed by live HTTP200 page with explicit Sold on Oct16. Older web search snapshot remains active $15k and was not used to overwrite the fresh status."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.landsearch.com/properties/delaware/search/under-15000",
+          "finding": "13 apparent budget hits are monthly leases, not full-cash ownership; excluded."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/rhode-island/search/under-15000",
+          "finding": "Six apparent budget hits are monthly leases; excluded. Independent broker search found the separate Narragansett cash sale."
+        },
+        {
+          "url": "https://www.landwatch.com/new-castle-county-delaware-homes-for-sale/pid/422883985",
+          "finding": "657 Blackbird Station Rd: $10k bid-registration deposit plus auction terms, not a $10k full-cash purchase."
+        },
+        {
+          "url": "https://realmo.com/listing-m/923-wright-st-wilmington-de-19805/1566747510029036237",
+          "finding": "Seven garages lead redirects to analytics; current availability and full asking price unverified. Deferred."
+        },
+        {
+          "url": "https://realmo.com/listing/3055-e-main-road-portsmouth-ri-02871/20863374",
+          "finding": "576sqft garage with power, .17acre, MLS1414543, asking $325k: outside budget."
+        },
+        {
+          "url": "https://www.cityfeet.com/cont/new-jersey/automotive-properties-for-sale",
+          "finding": "Verified price leads far above budget; 15,000 figures often represent square feet, not sale price."
+        },
+        {
+          "url": "https://www.coldwellbankerhomes.com/nj/stillwater/00-anne-rd/pid_73190946/",
+          "finding": "MLS4048155 $15k .74acre: partly wetlands, flood hazard, building variance required; no workshop. Syndicated public-record parcel/acreage conflict (lot14 vs lot11) unresolved; deferred."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/e-collings-dr-williamstown-nj-08094/5574496",
+          "finding": "$10k .338acre seller explicitly nonbuildable undersized lot; no confirmed RV base use; deferred."
+        },
+        {
+          "url": "https://www.coldwellbankerhomes.com/nj/hampton-township/311-lakewood-terrace/pid_72123114/",
+          "finding": "Related live broker card $15k .36acre lead; detail/photo/access not verified in this bounded pass; next NJ rotation."
+        }
+      ],
+      "official_sources": [
+        "https://www.narragansettri.gov/98/Plans-Regulations",
+        "https://library.municode.com/ri/narragansett/codes/code_of_ordinances?nodeId=PTIICOOR_APXAZO_S7SUZORE_7.13PASTCOREVE",
+        "https://ecode360.com/33654651"
+      ],
+      "official_findings": "Narragansett official town link leads to live Municode supplement16, versionSep24. Read §7.13 and §7.14: one RV <=9ft; no living/sleeping; no inoperable/derelict vehicle storage in residential zones. No parcel-specific permission or blanket personal-repair prohibition inferred. Hampton indexed residential accessory rules do not prove standalone use; live eCode403 respected.",
+      "access": "Public web, connected Chrome, original image downloads after robots check. Compass /m/ allowed; m.cbhomes.com and m1.cbhomes.com robots404. No contact, login, booking, purchase or infrastructure mutation.",
+      "flight_review": "October12 weekly data preserved byte-for-byte; next due October19.",
+      "next_states": [
+        "CT",
+        "VT",
+        "ME"
+      ],
+      "rotation_reason": "CT and VT remain below ten photo candidates; Northeast workshop/storage search near Boston/New York; ME periodically revisited. Automatic sweep remains nationwide.",
+      "preservation": "Verified: all 829 pre-manual IDs, first_seen, price/status/photo histories and displayed photos preserved; 877 protected file hashes unchanged, including flights and Sicily.",
+      "validation": "19 targeted data tests passed; validator passed (831 rows, 830 images, 50 states); git diff --check passed. Fresh main c0aaf43318aa inspected with no active collector. Public Pages/browser postflight is a separate release check; see deployment history for completion."
     }
   ],
-  "updated_at": "2026-10-15T02:16:12+00:00"
+  "updated_at": "2026-10-16T02:16:13+00:00"
 }

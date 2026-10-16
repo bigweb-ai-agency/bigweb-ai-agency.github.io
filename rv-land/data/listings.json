@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-16T01:05:28+00:00",
+  "updated_at": "2026-10-16T02:16:13+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -106643,6 +106643,296 @@
         "Дорога /10": 5
       },
       "score": 27
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-10-16T02:16:13+00:00",
+      "last_seen": "2026-10-16T02:16:13+00:00",
+      "last_verified": "2026-10-16T02:16:13+00:00",
+      "photo_kind": "Снимок Street View с меткой, размещённый в самом объявлении; дата съёмки и точность метки не подтверждены.",
+      "personal_repair": "restriction_risk",
+      "commercial_repair": "unknown",
+      "notes": [
+        "0.2204 акра — около 892 м². Цена и активность подтверждены в живой карточке MLS; старые поисковые цены $150,000/$25,000 не использованы как актуальные.",
+        "Продавец предлагает покупку в текущем состоянии, только за наличные, без условий и без периода проверки. До независимой проверки участок не рекомендован.",
+        "В официальном кодексе, открытом по ссылке города (версия 24.09.2026), §7.13(b) ограничивает парковку/хранение в жилой зоне одним RV высотой до 9 футов и запрещает проживание/ночёвку. §7.14 запрещает хранение неходовых машин. Для высокого кемпера возможна несовместимость; точная высота машины неизвестна.",
+        "Эти нормы не подтверждают право использовать конкретный пустой участок как самостоятельную ремонтную базу. Личный ремонт, разрешённый въезд и применение правил к участку требуют отдельного подтверждения.",
+        "Вместо съёмки продавца объявление содержит снимок Google Street View с меткой; сохранены исходные байты. Вид не подтверждает нынешнее состояние или границы.",
+        "При заявленной зоне R80 небольшой размер требует проверки статуса участка и действующих правил для старых маломерных лотов. Сам по себе размер не доказывает запрет строительства."
+      ],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "ri-1419851",
+      "url": "https://www.compass.com/homedetails/0-Rhode-Island-Ave-Narragansett-RI-02882/JIJYV_pid/",
+      "image_url": "assets/listings/1be88ff76db0976cebd2.jpg",
+      "image_remote_url": "https://www.compass.com/m/1be88ff76db0976cebd282e3840560da23ea2d769993e572ad830905f305fd97/origin.webp",
+      "photo_preserved_at": "2026-10-16T02:11:21+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/1be88ff76db0976cebd2.jpg",
+          "source": "https://www.compass.com/homedetails/0-Rhode-Island-Ave-Narragansett-RI-02882/JIJYV_pid/",
+          "remote_url": "https://www.compass.com/m/1be88ff76db0976cebd282e3840560da23ea2d769993e572ad830905f305fd97/origin.webp",
+          "date": "2026-10-16T02:11:21+00:00"
+        }
+      ],
+      "source": "Compass / Rhode Island Statewide MLS",
+      "source_id": "1419851",
+      "title": "0 Rhode Island Avenue",
+      "address": "0 Rhode Island Avenue",
+      "city": "Narragansett",
+      "state": "RI",
+      "county": "Washington",
+      "zip": "02882",
+      "kind": "land",
+      "price": 15000,
+      "known_fees": 0,
+      "total_known": 15000,
+      "price_evidence": "Полная цена продажи $15,000, Cash only, на открытой странице Compass 16.10.2026. Не аренда и не первый взнос. Расходы закрытия неизвестны.",
+      "acres": 0.2204,
+      "lat": 41.450084,
+      "lng": -71.449503,
+      "coord_precision": "listing",
+      "coordinate_source": "https://www.compass.com/homedetails/0-Rhode-Island-Ave-Narragansett-RI-02882/JIJYV_pid/",
+      "coordinate_basis": "Live Compass rendered Listing Map center, 2026-10-16; broker point, not a boundary survey",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-10-10",
+      "source_crawled": "Live Chrome 2026-10-16",
+      "image_source_url": "https://www.compass.com/homedetails/0-Rhode-Island-Ave-Narragansett-RI-02882/JIJYV_pid/",
+      "image_credit": "RE/MAX Revolution / RI Statewide MLS / Compass; seller image includes Google Maps attribution",
+      "parcel": "Plat T, Lot 60 (MLS)",
+      "mls": "1419851",
+      "zoning": "R80 Residential — по MLS; отдельно по карте зон не подтверждено",
+      "taxes_note": "MLS: налог $147 за 2026 год. Отсутствие задолженности не проверено.",
+      "road_note": "MLS указывает City Street. Фактический въезд, ширина, разворот и границы не проверены; на фото густая растительность.",
+      "utility_note": "MLS: utilities None, Water Available. Это не подтверждает подключённую воду. Электричество и канализация на участке не установлены.",
+      "garage_note": "Существующий гараж/мастерская не заявлены; заросший пустой участок.",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "available",
+      "sewer": "unknown",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "legal_source": "https://library.municode.com/ri/narragansett/codes/code_of_ordinances?nodeId=PTIICOOR_APXAZO_S7SUZORE_7.13PASTCOREVE",
+      "legal_checked_at": "2026-10-16T02:16:13+00:00",
+      "legal_basis": "live_official_municode_via_town_link",
+      "flags": [
+        "HOLD: жилые зоны Narragansett — RV не выше 9 ft (2.74 м), без ночёвки.",
+        "Хранение неходовых/заброшенных машин в жилой зоне запрещено; личный ремонт отдельно не разрешён.",
+        "Продавец требует сделку без условий и без периода due diligence."
+      ],
+      "review_hold": {
+        "date": "2026-10-16T02:16:13+00:00",
+        "reason": "Высота RV ограничена 2.74 м, неходовое хранение и ночёвка запрещены в жилых зонах; самостоятельное использование пустого лота не подтверждено. Продавец исключает период проверки.",
+        "source": "https://library.municode.com/ri/narragansett/codes/code_of_ordinances?nodeId=PTIICOOR_APXAZO_S7SUZORE_7.13PASTCOREVE",
+        "release_condition": "Подтвердить точную юрисдикцию/зону, высоту RV, законный подъезд, допустимое хранение и конкретные личные ремонтные работы; завершить проверку титула и участка до безусловной покупки."
+      },
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.compass.com/homedetails/0-Rhode-Island-Ave-Narragansett-RI-02882/JIJYV_pid/",
+        "https://www.seaportre.com/listing-swmls/1419851-rhode-island-ave-narragansett-ri-02882/"
+      ],
+      "price_history": [
+        {
+          "date": "2026-10-16T02:16:13+00:00",
+          "price": 15000,
+          "source": "https://www.compass.com/homedetails/0-Rhode-Island-Ave-Narragansett-RI-02882/JIJYV_pid/"
+        }
+      ],
+      "status_history": [],
+      "region": "Северо-восток",
+      "screening_issue": "research_hold",
+      "climate_note": "Мало предложений в бюджете. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "BOS",
+          "name": "Boston Logan International Airport",
+          "straight_km": 108,
+          "drive_km_estimate": 135,
+          "drive_hours_estimate": 1.8,
+          "flight_min_eur": 487,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "NYC",
+          "name": "New York city search — JFK used for approximate geometry",
+          "straight_km": 215,
+          "drive_km_estimate": 269,
+          "drive_hours_estimate": 3.6,
+          "flight_min_eur": 457,
+          "flight_origin": "VNO",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "PHL",
+          "name": "Philadelphia International Airport",
+          "straight_km": 365,
+          "drive_km_estimate": 456,
+          "drive_hours_estimate": 6.1,
+          "flight_min_eur": 591,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1801,
+      "score_parts": {
+        "Цена /25": 5,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 1,
+        "Сезон /10": 4,
+        "Дорога /10": 8
+      },
+      "score": 18
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-10-16T02:16:13+00:00",
+      "last_seen": "2026-10-16T02:16:13+00:00",
+      "last_verified": "2026-10-16T02:16:13+00:00",
+      "photo_kind": "План участка из объявления; вторая фотография — указатель Clearview Lake. Фото состояния самого участка отсутствует.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [
+        "0.28 акра — около 1,133 м²; MLS указывает 100×120 ft, частично лесной участок в Clearview Lake.",
+        "Годовой взнос HOA $266 отделён от цены покупки; $22/месяц в шапке брокера — округлённое отображение того же взноса.",
+        "Сохранены оба изображения объявления: план Block 2908 Lot 1 и знак въезда в Clearview Lake. Ни одно не показывает текущее состояние площадки.",
+        "Открытая карточка брокера перекладывает проверку зонирования, стройки, коммуникаций и допустимого использования на покупателя.",
+        "Индексированный код Hampton Township §108-12.2 описывает хранение прицепов как accessory use в R-1.5. Зона этого участка не установлена; это не подтверждение самостоятельного RV-хранилища или ремонта. Живой eCode вернул 403, дальнейшие запросы прекращены."
+      ],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "cb-73942944",
+      "url": "https://www.coldwellbankerhomes.com/nj/hampton-township/3-cherry-st/pid_73942944/",
+      "image_url": "assets/listings/134e0b292d2d1bfaa75e.webp",
+      "image_remote_url": "https://m.cbhomes.com/p/31/4055197/F59e21BbA00C4C6/pdl23tp.webp",
+      "photo_preserved_at": "2026-10-16T02:13:00+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/134e0b292d2d1bfaa75e.webp",
+          "source": "https://www.coldwellbankerhomes.com/nj/hampton-township/3-cherry-st/pid_73942944/",
+          "remote_url": "https://m.cbhomes.com/p/31/4055197/F59e21BbA00C4C6/pdl23tp.webp",
+          "date": "2026-10-16T02:12:02+00:00"
+        },
+        {
+          "path": "assets/listings/2c0d4c524d87ee0fbe87.webp",
+          "source": "https://www.coldwellbankerhomes.com/nj/hampton-township/3-cherry-st/pid_73942944/",
+          "remote_url": "https://m1.cbhomes.com/p/31/4055197/034cCB092B7c461/pdl23tp.webp",
+          "date": "2026-10-16T02:13:00+00:00"
+        }
+      ],
+      "source": "Coldwell Banker / Garden State MLS",
+      "source_id": "73942944",
+      "title": "3 Cherry Street",
+      "address": "3 Cherry Street",
+      "city": "Hampton Township",
+      "state": "NJ",
+      "county": "Sussex",
+      "zip": "07860",
+      "kind": "land",
+      "price": 7500,
+      "known_fees": 0,
+      "total_known": 7500,
+      "price_evidence": "Полная запрашиваемая цена $7,500 на открытой странице брокера 16.10.2026. Отдельно HOA $266 ежегодно; расходы закрытия и возможные сборы передачи неизвестны.",
+      "acres": 0.28,
+      "lat": 41.0608,
+      "lng": -74.7562,
+      "coord_precision": "listing",
+      "coordinate_source": "https://www.landsearch.com/properties/3-cherry-st-hampton-township-nj-07860/5585113",
+      "coordinate_basis": "indexed_public_listing, checked 2026-10-16; not a boundary survey",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_published": "2026-09-21",
+      "source_updated": "2026-09-25",
+      "source_crawled": "Live Chrome 2026-10-16",
+      "image_source_url": "https://www.coldwellbankerhomes.com/nj/hampton-township/3-cherry-st/pid_73942944/",
+      "image_credit": "RE/MAX Platinum Group / Garden State MLS / Coldwell Banker",
+      "parcel": "Block 2908, Lot 1",
+      "mls": "4055197",
+      "zoning": "Residential 1 Family — по MLS, точный код зоны не подтверждён",
+      "taxes_note": "Брокер: $174 за 2025; таблица истории на той же странице показывает $175. HOA $266 в год отдельно. Задолженности не проверены.",
+      "hoa_annual_usd": 266,
+      "road_note": "MLS: Blacktop/Asphalt Road. План показывает Cherry Road и прилегающую paper street; доступ с фактически построенной дороги и разворот 7-метрового RV не проверены.",
+      "utility_note": "MLS: нужны скважина и септик. Электричество и стоимость подготовки не подтверждены.",
+      "garage_note": "Пустой участок; существующего гаража/мастерской нет по объявлению.",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "none",
+      "sewer": "none",
+      "no_hoa": "none",
+      "road_access": "seller_claim",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "flags": [
+        "Есть HOA: $266 ежегодно; её правила RV/ремонта неизвестны.",
+        "Изображение карточки — план; фото самого участка нет."
+      ],
+      "legal_source": "https://ecode360.com/33654651",
+      "legal_checked_at": "2026-10-16T02:16:13+00:00",
+      "legal_basis": "indexed_official_code_only_live_403",
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.coldwellbankerhomes.com/nj/hampton-township/3-cherry-st/pid_73942944/",
+        "https://www.landsearch.com/properties/3-cherry-st-hampton-township-nj-07860/5585113"
+      ],
+      "price_history": [
+        {
+          "date": "2026-10-16T02:16:13+00:00",
+          "price": 7500,
+          "source": "https://www.coldwellbankerhomes.com/nj/hampton-township/3-cherry-st/pid_73942944/"
+        }
+      ],
+      "status_history": [],
+      "region": "Северо-восток",
+      "screening_issue": null,
+      "climate_note": "Удобный перелёт, но дешёвые лоты часто непростые: размер, wetlands, отсутствие разрешённого использования. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "NYC",
+          "name": "New York city search — JFK used for approximate geometry",
+          "straight_km": 95,
+          "drive_km_estimate": 118,
+          "drive_hours_estimate": 1.6,
+          "flight_min_eur": 457,
+          "flight_origin": "VNO",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "PHL",
+          "name": "Philadelphia International Airport",
+          "straight_km": 138,
+          "drive_km_estimate": 173,
+          "drive_hours_estimate": 2.3,
+          "flight_min_eur": 591,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "IAD",
+          "name": "Washington Dulles International Airport",
+          "straight_km": 329,
+          "drive_km_estimate": 411,
+          "drive_hours_estimate": 5.5,
+          "flight_min_eur": 432,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1557,
+      "score_parts": {
+        "Цена /25": 18,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 5,
+        "Дорога /10": 8
+      },
+      "score": 31
     }
   ]
 }
