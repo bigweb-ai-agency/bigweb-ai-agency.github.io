@@ -168,6 +168,33 @@ class ResearchDataTests(unittest.TestCase):
         merged=b.merge_records([a],[c]);self.assertEqual(len(merged),1);self.assertEqual(merged[0]['id'],'a')
         self.assertEqual(len(merged[0]['alternate_urls']),2)
 
+    def test_reused_source_id_preserves_original_parcel_and_quarantines_observation(self):
+        old={'id':'lc-26146','url':'https://example.org/26146','source':'LandCentury',
+             'parcel':'014-0231-110','county':'Humboldt','state':'NV','acres':4.87,
+             'lat':40.8835,'lng':-117.8736,'price':13995,'status':'active',
+             'image_url':'assets/listings/old.jpg','first_seen':'2026-09-01','last_verified':'2026-10-10',
+             'price_history':[{'date':'2026-10-10','price':13995}],
+             'photo_history':[{'path':'assets/listings/old.jpg'}]}
+        new=dict(old,parcel='003-051-15',county='Pershing',acres=320,lat=40.1793,lng=-118.4734,
+                 price=119995,status='sold',image_url='https://example.org/new.jpg',last_verified='2026-10-16')
+        before=copy.deepcopy(old)
+        result=b.merge_records([old],[new])[0]
+        for key in ('parcel','county','acres','lat','lng','price','status','image_url','first_seen','last_verified','price_history','photo_history'):
+            self.assertEqual(result[key],before[key],key)
+        self.assertEqual(old,before)
+        self.assertEqual(b.acceptable(result),'research_hold')
+        self.assertEqual(result['source_identity_conflict']['parcel'],'003-051-15')
+        again=b.merge_records([result],[new])[0]
+        self.assertEqual(len(again['source_identity_history']),1)
+
+    def test_small_parcel_correction_does_not_freeze_legitimate_price_update(self):
+        old={'id':'same','url':'https://example.org/same','parcel':'014-0231-110','state':'NV',
+             'county':'Humboldt','acres':4.87,'lat':40.8835,'lng':-117.8736,'price':13995}
+        new=dict(old,parcel='014-0231-11',lat=40.884,price=12995)
+        result=b.merge_records([old],[new])[0]
+        self.assertEqual(result['price'],12995)
+        self.assertNotIn('review_hold',result)
+
     def test_future_garage_and_rv_claim_do_not_certify_repair(self):
         x=b.flags_from_text('Land with room for a future garage. RV camping allowed.','land')
         self.assertFalse(x['existing_garage']);self.assertEqual(x['personal_repair'],'unknown')

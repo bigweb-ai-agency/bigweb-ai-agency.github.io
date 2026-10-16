@@ -2810,7 +2810,9 @@
         "ri-1419851",
         "cb-73942944"
       ],
-      "updated_ids": [],
+      "updated_ids": [
+        "lc-26146"
+      ],
       "automatic_added_ids": [
         "lc-26592",
         "lc-26590",
@@ -2848,6 +2850,10 @@
         {
           "id": "lc-25584",
           "finding": "Collector active-to-sold change independently confirmed by live HTTP200 page with explicit Sold on Oct16. Older web search snapshot remains active $15k and was not used to overwrite the fresh status."
+        },
+        {
+          "id": "lc-26146",
+          "finding": "Post-push collector38839666858 reused sourceID/URL and overwrote Humboldt4.87acre $13,995 with Pershing320acre $119,995. Live Chrome confirms replacement. Restored original facts/freshness/photo; explicit HOLD, conflicting source snapshot and invalid price/photo history retained. Merge now quarantines strong parcel identity changes rather than treating them as price/status changes."
         }
       ],
       "rejected_or_deferred": [
@@ -2903,8 +2909,19 @@
       ],
       "rotation_reason": "CT and VT remain below ten photo candidates; Northeast workshop/storage search near Boston/New York; ME periodically revisited. Automatic sweep remains nationwide.",
       "preservation": "Verified: all 829 pre-manual IDs, first_seen, price/status/photo histories and displayed photos preserved; 877 protected file hashes unchanged, including flights and Sicily.",
-      "validation": "19 targeted data tests passed; validator passed (831 rows, 830 images, 50 states); git diff --check passed. Fresh main c0aaf43318aa inspected with no active collector. Public Pages/browser postflight is a separate release check; see deployment history for completion."
+      "validation": "21 targeted data tests passed; actual captured recycled-source replay quarantined; validator passed831 rows/830 images/50states; JavaScript syntax and diff checks passed. All829 baseline IDs/first_seen/history/photos and877 hashes preserved, including false observation retained with annotations. Public Pages/browser postflight is a separate release check.",
+      "followup_workflow": {
+        "run_id": 38839666858,
+        "conclusion": "success",
+        "last_run": "2026-10-16T02:17:47+00:00",
+        "added": 0,
+        "changed": 1,
+        "errors": 31,
+        "read_details": 89,
+        "scanned_pages": 115
+      },
+      "workflow_maintenance": "Script pushes now run tests/validation only. Schedule and workflow_dispatch continue bounded public collection and publication; normal main pushes retain standard Pages deployment."
     }
   ],
-  "updated_at": "2026-10-16T02:16:13+00:00"
+  "updated_at": "2026-10-16T02:30:03+00:00"
 }

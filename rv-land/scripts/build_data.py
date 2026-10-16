@@ -5,6 +5,7 @@ Raw cached descriptions are never published.
 """
 import argparse
 import collections
+import copy
 import datetime as dt
 import json
 import math
@@ -291,6 +292,29 @@ def acceptable(x):
     if x.get('status') not in ('active','pending'):return 'availability_not_confirmed_by_source'
     return None
 
+def property_identity_conflict(old,new):
+    """A reused listing ID must not move a saved parcel to another property."""
+    def parcel(row):
+        value=re.sub(r'[^a-z0-9]','',str(row.get('parcel') or '').lower())
+        return '' if value in ('unknown','none','na','notavailable') else value
+    a,c=parcel(old),parcel(new)
+    if not a or not c or a==c:return False
+    # A formatting correction alone is not evidence that the property changed.
+    for key in ('state','county'):
+        before=str(old.get(key) or '').strip().lower()
+        after=str(new.get(key) or '').strip().lower()
+        if before and after and before!=after:return True
+    try:
+        lat1,lon1,lat2,lon2=map(math.radians,[old['lat'],old['lng'],new['lat'],new['lng']])
+        angle=math.sin((lat2-lat1)/2)**2+math.cos(lat1)*math.cos(lat2)*math.sin((lon2-lon1)/2)**2
+        if 6371*2*math.asin(min(1,math.sqrt(angle)))>10:return True
+    except (KeyError,TypeError,ValueError):pass
+    try:
+        a,c=float(old['acres']),float(new['acres'])
+        if a>0 and c>0 and max(a,c)/min(a,c)>=4:return True
+    except (KeyError,TypeError,ValueError):pass
+    return False
+
 def merge_records(previous,incoming):
     """Preserve IDs, first_seen and all historical records, even if refresh disappears."""
     by_id={x['id']:x for x in previous}
@@ -301,6 +325,20 @@ def merge_records(previous,incoming):
         prior_id=x['id'] if x['id'] in by_id else urls.get(x['url'].rstrip('/')) or keys.get(normalize_key(x))
         if prior_id:
             old=by_id[prior_id]
+            if property_identity_conflict(old,x):
+                retained=copy.deepcopy(old)
+                keys_observed=('url','parcel','state','county','address','city','acres','lat','lng','price','image_url','source_updated')
+                observed={k:x.get(k) for k in keys_observed}
+                observed['date']=NOW
+                retained['source_identity_conflict']=observed
+                history=retained.setdefault('source_identity_history',[])
+                if not any(all(h.get(k)==observed.get(k) for k in keys_observed) for h in history):history.append(observed)
+                reason='Источник заменил parcel и местоположение/масштаб объекта под прежним ID или URL. Старые сведения сохранены; наличие прежнего участка не подтверждено.'
+                if reason not in retained.setdefault('flags',[]):retained['flags'].append(reason)
+                retained.setdefault('review_hold',{'date':NOW,'reason':reason,'source':x['url'],
+                    'release_condition':'Найти действующее объявление именно прежнего parcel и независимо подтвердить цену, местоположение и наличие.'})
+                by_id[prior_id]=retained
+                continue
             # An older same-source URL may remain active after a parcel is relisted.
             # Reading that URL later does not make its older source facts newer.
             def source_time(value):

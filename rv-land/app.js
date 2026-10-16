@@ -182,7 +182,7 @@ function showDetail(id){
  '<h3>Источник и свежесть</h3><p>'+esc(basisNames[x.status_basis]||x.status_basis)+'. Просмотрено '+date(x.last_verified)+'. Индекс: '+esc(x.source_crawled||'не применяется')+'.</p><p>'+esc(x.image_credit||'Фото продавца')+' · '+link(x.image_source_url||x.url,'Источник изображения')+'</p>';
  if(x.evidence_quote && !x.legacy)body+='<p lang="en"><b>Короткая выдержка продавца:</b> “'+esc(x.evidence_quote)+'”</p>';
  body+='<h3>История</h3><p>Впервые сохранено: '+date(x.first_seen)+'. ID: '+esc(x.id)+'</p><ul>'+
- (x.price_history||[]).map(h=>'<li>'+date(h.date)+' — '+money(h.price)+'</li>').join('')+
+ (x.price_history||[]).map(h=>'<li>'+date(h.date)+' — '+money(h.price)+(h.invalid_observation?' · Ошибочная запись другого участка; не изменение цены этого объекта.':'')+(h.correction?' · Исправление записи; не изменение цены продавцом.':'')+'</li>').join('')+
  (x.status_history||[]).map(h=>'<li>'+date(h.date)+' — '+esc(statusNames[h.from]||h.from)+' → '+esc(statusNames[h.to]||h.to)+'</li>').join('')+'</ul></div>';
  $('detailBody').innerHTML=body;$('detail').showModal();$('detail').scrollTop=0;
  history.replaceState(null,'','#property='+encodeURIComponent(id));

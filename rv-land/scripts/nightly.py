@@ -51,6 +51,11 @@ def run(args):
                 incoming.append(x)
         else:rejected.append({'url':x['url'],'reason':issue,'price':x['price'],'state':x['state']})
     merged=merge_records(old,incoming)
+    for x in merged:
+        conflict=x.get('source_identity_conflict') or {}
+        if conflict.get('date')==NOW:
+            rejected.append({'url':conflict['url'],'reason':'source_reused_property_identity','preserved_id':x['id'],
+                'previous_parcel':x.get('parcel'),'observed_parcel':conflict.get('parcel')})
     corrections=read(DATA/'corrections.json',{})
     for x in merged:
         # Reviewed static context persists, but a newer source observation may change

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-16T02:17:47+00:00",
+  "updated_at": "2026-10-16T02:30:03+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -101305,44 +101305,46 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-10T01:18:23+00:00",
-      "last_seen": "2026-10-16T02:23:39Z",
-      "last_verified": "2026-10-16T02:23:39Z",
+      "last_seen": "2026-10-10T01:21:23Z",
+      "last_verified": "2026-10-10T01:21:23Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "16.10.2026 источник под тем же ID/URL показывает другой участок: 320 акров в Pershing, parcel003-051-15, за $119,995. Старая карточка Humboldt 4.87 акра, parcel014-0231-110 восстановлена по сохранённым данным 10.10. Цена $13,995 историческая, текущее наличие неизвестно. HOLD исключает объект из кандидатов. Ошибочный снимок цены и чужое фото сохранены как помеченные свидетельства; это не подорожание прежнего участка."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26146",
       "source_id": "26146",
       "source": "LandCentury",
       "url": "https://www.landcentury.com/land-for-sale/nevada/487-acres-for-sale-in-winnemucca-nevada-26146",
-      "title": "Troughs Road",
-      "address": "Troughs Road",
-      "city": "Lovelock (Owner Financing $1,199.00 a month and no Credit Check)",
+      "title": "Bighorn Street",
+      "address": "Bighorn Street",
+      "city": "Winnemucca  (Owner Financing $249.00 a month)",
       "state": "NV",
-      "county": "Pershing",
-      "zip": "89419",
+      "county": "Humboldt (Hwy 80)",
+      "zip": "89445",
       "kind": "land",
-      "price": 119995.0,
+      "price": 13995.0,
       "known_fees": 0.0,
-      "total_known": 119995.0,
+      "total_known": 13995.0,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
-      "acres": 320.0,
-      "lat": 40.17935370000001,
-      "lng": -118.4734808,
+      "acres": 4.87,
+      "lat": 40.8835447,
+      "lng": -117.8736612,
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-14T19:43:54.000000Z",
+      "source_updated": "2026-10-09T09:38:49.000000Z",
       "source_published": "2026-09-03T22:54:01.000000Z",
-      "image_url": "assets/listings/14502ed33aa1e0299c71.jpg",
+      "image_url": "assets/listings/51cd2566889832a82462.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/nevada/487-acres-for-sale-in-winnemucca-nevada-26146",
       "image_credit": "Seller / LandCentury",
-      "parcel": "003-051-15",
+      "parcel": "014-0231-110",
       "zoning": "Residential",
       "road_note": "Dirt Road",
       "utility_note": "City utilities available",
-      "taxes_note": "202",
+      "taxes_note": "101",
       "source_categories": [
         "residential-buildable-land",
         "agricultural-and-farm-land",
@@ -101355,15 +101357,16 @@
       "rv_occupancy": "unknown",
       "existing_garage": false,
       "garage_size": null,
-      "electricity": "unknown",
+      "electricity": "available",
       "water": "unknown",
       "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Источник заменил parcel и местоположение/масштаб объекта под прежним ID или URL. Старые сведения сохранены; наличие прежнего участка не подтверждено."
       ],
-      "evidence_quote": null,
+      "evidence_quote": "87 ACRES OF OPEN SPACE JUST MINUTES FROM DOWNTOWN WINNEMUCCA Get the best of both worlds— peace, privacy and wide-open Nevada freedom",
       "price_history": [
         {
           "date": "2026-10-10T01:18:23+00:00",
@@ -101373,12 +101376,20 @@
         {
           "date": "2026-10-16T02:17:47+00:00",
           "price": 119995.0,
-          "source": "https://www.landcentury.com/land-for-sale/nevada/487-acres-for-sale-in-winnemucca-nevada-26146"
+          "source": "https://www.landcentury.com/land-for-sale/nevada/487-acres-for-sale-in-winnemucca-nevada-26146",
+          "invalid_observation": "Source LC26146 reused for Pershing parcel003-051-15; not original Humboldt parcel014-0231-110."
+        },
+        {
+          "date": "2026-10-16T02:30:03+00:00",
+          "price": 13995.0,
+          "source": "https://www.landcentury.com/land-for-sale/nevada/487-acres-for-sale-in-winnemucca-nevada-26146",
+          "correction": true,
+          "note": "Restore last verified original parcel price; wrong-parcel snapshot retained and labelled above."
         }
       ],
       "status_history": [],
-      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/14/6acfe4ad084cf-1792009389.jpg",
-      "photo_preserved_at": "2026-10-16T02:17:47+00:00",
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/03/6a99fb8832125-1788476296.jpg",
+      "photo_preserved_at": "2026-10-10T01:18:23+00:00",
       "photo_history": [
         {
           "path": "assets/listings/51cd2566889832a82462.jpg",
@@ -101390,19 +101401,20 @@
           "path": "assets/listings/14502ed33aa1e0299c71.jpg",
           "source": "https://www.landcentury.com/land-for-sale/nevada/487-acres-for-sale-in-winnemucca-nevada-26146",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/14/6acfe4ad084cf-1792009389.jpg",
-          "date": "2026-10-16T02:17:47+00:00"
+          "date": "2026-10-16T02:17:47+00:00",
+          "invalid_observation": "Photo of replacement parcel, retained only as conflict evidence; not used as original parcel photograph."
         }
       ],
       "region": "Юго-запад",
-      "screening_issue": "outside_cash_budget",
+      "screening_issue": "research_hold",
       "climate_note": "Много удалённых лотов. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
           "code": "SFO",
           "name": "San Francisco International Airport",
-          "straight_km": 441,
-          "drive_km_estimate": 552,
-          "drive_hours_estimate": 7.4,
+          "straight_km": 531,
+          "drive_km_estimate": 664,
+          "drive_hours_estimate": 8.8,
           "flight_min_eur": 514,
           "flight_origin": "LON",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
@@ -101410,9 +101422,9 @@
         {
           "code": "LAS",
           "name": "Harry Reid International Airport",
-          "straight_km": 540,
-          "drive_km_estimate": 675,
-          "drive_hours_estimate": 9.0,
+          "straight_km": 584,
+          "drive_km_estimate": 730,
+          "drive_hours_estimate": 9.7,
           "flight_min_eur": 568,
           "flight_origin": "LON",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
@@ -101420,29 +101432,62 @@
         {
           "code": "PDX",
           "name": "Portland International Airport",
-          "straight_km": 689,
-          "drive_km_estimate": 861,
-          "drive_hours_estimate": 11.5,
+          "straight_km": 648,
+          "drive_km_estimate": 810,
+          "drive_hours_estimate": 10.8,
           "flight_min_eur": 666,
           "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
-      "msp_straight_km": 2125,
+      "msp_straight_km": 2049,
       "score_parts": {
-        "Цена /25": 0,
+        "Цена /25": 7,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 0,
+        "Коммуникации /10": 1,
         "Сезон /10": 5,
-        "Дорога /10": 3
+        "Дорога /10": 1
       },
-      "score": 8,
-      "legacy": false,
-      "previous_price": 13995.0,
-      "alternate_urls": [
-        "https://www.landcentury.com/land-for-sale/nevada/487-acres-for-sale-in-winnemucca-nevada-26146"
-      ]
+      "score": 14,
+      "source_identity_conflict": {
+        "url": "https://www.landcentury.com/land-for-sale/nevada/487-acres-for-sale-in-winnemucca-nevada-26146",
+        "parcel": "003-051-15",
+        "state": "NV",
+        "county": "Pershing",
+        "address": "Troughs Road",
+        "city": "Lovelock (Owner Financing $1,199.00 a month and no Credit Check)",
+        "acres": 320.0,
+        "lat": 40.17935370000001,
+        "lng": -118.4734808,
+        "price": 119995.0,
+        "image_url": "assets/listings/14502ed33aa1e0299c71.jpg",
+        "source_updated": "2026-10-14T19:43:54.000000Z",
+        "date": "2026-10-16T02:30:03+00:00"
+      },
+      "source_identity_history": [
+        {
+          "url": "https://www.landcentury.com/land-for-sale/nevada/487-acres-for-sale-in-winnemucca-nevada-26146",
+          "parcel": "003-051-15",
+          "state": "NV",
+          "county": "Pershing",
+          "address": "Troughs Road",
+          "city": "Lovelock (Owner Financing $1,199.00 a month and no Credit Check)",
+          "acres": 320.0,
+          "lat": 40.17935370000001,
+          "lng": -118.4734808,
+          "price": 119995.0,
+          "image_url": "assets/listings/14502ed33aa1e0299c71.jpg",
+          "source_updated": "2026-10-14T19:43:54.000000Z",
+          "date": "2026-10-16T02:30:03+00:00"
+        }
+      ],
+      "review_hold": {
+        "date": "2026-10-16T02:30:03+00:00",
+        "reason": "Источник заменил parcel и местоположение/масштаб объекта под прежним ID или URL. Старые сведения сохранены; наличие прежнего участка не подтверждено.",
+        "source": "https://www.landcentury.com/land-for-sale/nevada/487-acres-for-sale-in-winnemucca-nevada-26146",
+        "release_condition": "Найти действующее объявление именно прежнего parcel и независимо подтвердить цену, местоположение и наличие."
+      }
     },
     {
       "price_currency": "USD",

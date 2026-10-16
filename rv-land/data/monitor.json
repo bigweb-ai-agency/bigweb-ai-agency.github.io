@@ -3,7 +3,7 @@
   "last_run": "2026-10-16T02:17:47+00:00",
   "status": "partial",
   "run_url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/38839666858",
-  "summary": "0 новых; 1 изменений цены/статуса/фото; 89 страниц проверено; ошибок 31.",
+  "summary": "0 новых; 1 изменений цены/статуса/фото; 89 страниц проверено; ошибок 31. Ручная проверка: LC26146 оказался другим участком под прежним ID; исходная запись восстановлена и исключена до проверки.",
   "scope": "LandCentury: новые страницы всех 50 штатов и ротация старых записей. LandSearch и старые MLS — отдельная исследовательская проверка, не автоматический live-статус.",
   "events": [
     {
@@ -851,5 +851,12 @@
     "missing": 1,
     "saved": 29,
     "cached": 801
-  }
+  },
+  "manual_corrections": [
+    {
+      "date": "2026-10-16T02:30:03+00:00",
+      "id": "lc-26146",
+      "reason": "Source reused ID for a different parcel. Original facts/photo restored on review hold; spurious price/photo change retained as annotated conflict evidence."
+    }
+  ]
 }
