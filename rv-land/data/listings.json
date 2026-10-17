@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-17T01:06:42+00:00",
+  "updated_at": "2026-10-17T02:17:33+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -107766,6 +107766,149 @@
         "Дорога /10": 1
       },
       "score": 24
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-10-17T02:17:33+00:00",
+      "last_seen": "2026-10-17T02:17:33+00:00",
+      "last_verified": "2026-10-17T02:17:33+00:00",
+      "photo_kind": "Исходное фото участка из объявления; подпись продавца датирует снимок 05.08.2026. Без обработки.",
+      "personal_repair": "restriction_risk",
+      "commercial_repair": "unknown",
+      "notes": [
+        "0.5 акра — около 2,023 м²; продавец заявляет ровный открытый участок, отсутствие ассоциации и разрешение mobile homes. Последнее не подтверждает хранение, проживание или ремонт RV.",
+        "Официальный PDF Westfield, §6.19(A), стр.49: неходовые/незарегистрированные машины, кузова, детали и двигатели нельзя размещать в передней части участка, кроме гаража/строения, отвечающего Building Code. Гараж здесь не заявлен. Это не общий запрет любого личного ремонта.",
+        "На муниципальной странице также опубликована редакция раздела 10 за 2023 год. У основного PDF поле даты принятия пустое; точная действующая редакция и применимость к parcel требуют подтверждения. Разрешение не выдано.",
+        "Определение Automobile (Vehicle) Storage на стр.129 касается здания для платного коммерческого хранения. Не переношу эту категорию автоматически на личный кемперван.",
+        "Гравийная парковка — заявление MLS, а не результат осмотра. Снимок показывает растительность и столб; подключённое электричество не подтверждено.",
+        "Северный Мэн: зимний доступ и уборка снега неизвестны. Международный шлюз и дорога оцениваются общей моделью карты; местный аэропорт и реальные маршруты отдельно не проверены."
+      ],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "me-1682494",
+      "url": "https://www.compass.com/homedetails/290-Burleigh-Rd-Westfield-ME-04787/2I4YVV_pid/",
+      "image_url": "assets/listings/5c00e67d587ed036890e.jpg",
+      "image_remote_url": "https://www.compass.com/m/5c00e67d587ed036890ef1ec2b81f602901fad9f7aa1a00cd431ef667e07515f/origin.webp",
+      "photo_preserved_at": "2026-10-17T02:15:12+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/5c00e67d587ed036890e.jpg",
+          "source": "https://www.compass.com/homedetails/290-Burleigh-Rd-Westfield-ME-04787/2I4YVV_pid/",
+          "remote_url": "https://www.compass.com/m/5c00e67d587ed036890ef1ec2b81f602901fad9f7aa1a00cd431ef667e07515f/origin.webp",
+          "date": "2026-10-17T02:15:12+00:00"
+        }
+      ],
+      "source": "Compass / Maine Listings",
+      "source_id": "1682494",
+      "title": "290 Burleigh Road",
+      "address": "290 Burleigh Road",
+      "city": "Westfield",
+      "county": "Aroostook",
+      "state": "ME",
+      "zip": "04787",
+      "kind": "land",
+      "price": 15000,
+      "known_fees": 0,
+      "total_known": 15000,
+      "price_evidence": "Полная запрашиваемая цена продажи $15,000 на открытой странице Compass 17.10.2026. Не аренда, не взнос и не цена за акр. Closing и подготовка отдельно, суммы неизвестны.",
+      "acres": 0.5,
+      "lat": 46.570571,
+      "lng": -67.921304,
+      "coord_precision": "listing",
+      "coordinate_source": "https://www.compass.com/homedetails/290-Burleigh-Rd-Westfield-ME-04787/2I4YVV_pid/",
+      "coordinate_basis": "Live Compass rendered Listing Map center 2026-10-17; broker point, not surveyed boundaries.",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_published": "2026-09-30",
+      "source_updated": "2026-10-01",
+      "source_crawled": "Live Chrome 2026-10-17",
+      "image_source_url": "https://www.compass.com/homedetails/290-Burleigh-Rd-Westfield-ME-04787/2I4YVV_pid/",
+      "image_credit": "RE/MAX County / Maine Listings / Compass",
+      "parcel": "WSTF-000011-000000-000037",
+      "mls": "1682494",
+      "zoning": "Res — по MLS; точный район V/RB/RM и применимые условия отдельно не подтверждены.",
+      "taxes_note": "MLS: $239.58 за 2025 год (в шапке округлено до $240). Долги и сборы сделки не проверены.",
+      "road_note": "MLS: Paved, Public; Gravel, 1–4 Spaces, Off Street. Подъезд и парковка заявлены продавцом; ширина, несущая способность и разворот высокого 7-метрового RV не проверены.",
+      "utility_note": "MLS прямо указывает No Electric, Well Needed on Site, Septic Needed, Septic Design Available. Проект септика не означает установленный септик. Столб на фото не подтверждает подключение.",
+      "garage_note": "Пустой участок без заявленного гаража/мастерской; фото показывает заросшую площадку.",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "none",
+      "water": "none",
+      "sewer": "none",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "legal_source": "https://www.westfieldmaine.org/land-use-ordiance",
+      "legal_checked_at": "2026-10-17T02:17:33+00:00",
+      "legal_basis": "live_official_town_page_and_linked_PDF; adoption date and parcel zoning not independently established",
+      "flags": [
+        "Нет электричества, скважины и установленного септика по MLS.",
+        "Опубликованный регламент Westfield ограничивает неходовые/незарегистрированные машины и детали во front yard; право личного ремонта неизвестно."
+      ],
+      "legal_sources": [
+        "https://www.westfieldmaine.org/land-use-ordiance",
+        "https://www.westfieldmaine.org/_files/ugd/1a7136_d63bbe312cbe45f2bcb0a4b40e5feb75.pdf"
+      ],
+      "alternate_urls": [
+        "https://www.compass.com/homedetails/290-Burleigh-Rd-Westfield-ME-04787/2I4YVV_pid/",
+        "https://www.coldwellbankerhomes.com/me/westfield/290-burleigh-rd/pid_74009277/"
+      ],
+      "legacy": false,
+      "price_history": [
+        {
+          "date": "2026-10-17T02:17:33+00:00",
+          "price": 15000,
+          "source": "https://www.compass.com/homedetails/290-Burleigh-Rd-Westfield-ME-04787/2I4YVV_pid/"
+        }
+      ],
+      "status_history": [],
+      "region": "Северо-восток",
+      "screening_issue": null,
+      "climate_note": "Земля в бюджете встречается в удалённых районах. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "BOS",
+          "name": "Boston Logan International Airport",
+          "straight_km": 528,
+          "drive_km_estimate": 660,
+          "drive_hours_estimate": 8.8,
+          "flight_min_eur": 487,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "NYC",
+          "name": "New York city search — JFK used for approximate geometry",
+          "straight_km": 810,
+          "drive_km_estimate": 1013,
+          "drive_hours_estimate": 13.5,
+          "flight_min_eur": 457,
+          "flight_origin": "VNO",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "PHL",
+          "name": "Philadelphia International Airport",
+          "straight_km": 951,
+          "drive_km_estimate": 1189,
+          "drive_hours_estimate": 15.9,
+          "flight_min_eur": 591,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1964,
+      "score_parts": {
+        "Цена /25": 5,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 2,
+        "Дорога /10": 1
+      },
+      "score": 8
     }
   ]
 }

@@ -2921,7 +2921,89 @@
         "scanned_pages": 115
       },
       "workflow_maintenance": "Script pushes now run tests/validation only. Schedule and workflow_dispatch continue bounded public collection and publication; normal main pushes retain standard Pages deployment."
+    },
+    {
+      "date": "2026-10-17T02:17:33+00:00",
+      "states": [
+        "CT",
+        "VT",
+        "ME"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [
+        "me-1682494"
+      ],
+      "updated_ids": [],
+      "automatic_added_ids": [
+        "lc-26607",
+        "lc-26604",
+        "lc-26602",
+        "lc-26598",
+        "lc-26594",
+        "lc-26593"
+      ],
+      "workflow": {
+        "run_id": 38989419838,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/38989419838",
+        "conclusion": "success",
+        "created_at": "2026-10-17T01:06:24Z",
+        "data_commit": "794e5532"
+      },
+      "monitor": {
+        "date": "2026-10-17T01:06:42+00:00",
+        "status": "partial",
+        "scanned_pages": 115,
+        "read_details": 87,
+        "added": 6,
+        "changed": 0,
+        "errors": 33
+      },
+      "source_errors": "33 collector errors; all 20 retained examples are 404. Scheduled run and Pages38989888583 succeeded. No redundant fallback collection. Source-ID guard quarantined LC26146 again, retaining original parcel, price, image, freshness and HOLD.",
+      "findings": [
+        {
+          "id": "me-1682494",
+          "finding": "Live active full asking $15k, half acre, genuine ground photo preserved, broker coordinates and parcel. MLS says no electric, well/septic needed, no association, public paved road and gravel parking. No garage. Personal repair remains unconfirmed with front-yard vehicle restriction noted."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.compass.com/homedetails/Englewood-Trail-Coventry-CT-06238/27FFPO_pid/",
+          "finding": "Live active $10k .23acre; seller explicitly not a building lot, promoted for association beach access; HOA $50/year. No demonstrated independent RV/storage/repair use; deferred rather than counting a beach-membership lot as an RV candidate."
+        },
+        {
+          "url": "https://www.williampitt.com/search/real-estate-sales/seneca-trail-coventry-ct-06238-24160566-42917166/",
+          "finding": "Indexed active $10k .23acre LR, $5/year association. No utilities, entry, parcel coordinates or RV use established in this pass; deferred."
+        },
+        {
+          "url": "https://www.hickokandboardman.com/real-estate/randolph/00-wallace-hill-road/4945969/",
+          "finding": "Live broker explicitly SOLD August25 2023 for $15k, originally $20k; garage was future development language, no existing garage. Excluded from new candidates."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/vermont/search/under-15000",
+          "finding": "Indexed under-budget results dominated by leases; Concord $15k already retained as pending, Jamaica $2.5k below purchase target. No new verified workshop in budget."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/23-03-bangor-rd-troy-me-04987/4610425",
+          "finding": "28x32 outbuilding, well, 200A and camper hookup lead is $89,900. The $15k search hit is a historical price reduction, not cash price."
+        }
+      ],
+      "official_sources": [
+        "https://www.westfieldmaine.org/land-use-ordiance",
+        "https://www.westfieldmaine.org/_files/ugd/1a7136_d63bbe312cbe45f2bcb0a4b40e5feb75.pdf",
+        "https://www.westfieldmaine.org/_files/ugd/1a7136_da9f91c7eb6b4fa0ad036fca8c55137d.pdf"
+      ],
+      "official_findings": "Town-linked PDF §6.19(A), p49 restricts unregistered/inoperable vehicles and parts in front yard except compliant building. p129 vehicle storage definition is commercial paid building use. p144 RV definition requires tires on ground/current registration. Adoption-date field empty; 2023 section10 revision separately linked; exact current version and parcel zone unresolved. No personal repair or vacant-land storage approval inferred.",
+      "access": "LandSearch Chrome security challenge respected; no bypass/retry. Independent public Compass and broker pages used. Original Compass image preserved after robots allow check. Town robots allows documents; two official PDFs HTTP200. No seller contact, login, purchase, booking or infrastructure mutation.",
+      "flight_review": "October12 weekly data preserved byte-for-byte; next due October19.",
+      "next_states": [
+        "HI",
+        "AK",
+        "WA"
+      ],
+      "rotation_reason": "HI and WA below ten eligible photo candidates; periodic Alaska review. Keep islands/ferries/drive claims conservative. Automatic sweep remains nationwide.",
+      "preservation": "All837 pre-manual records, first_seen, histories, current images and888 protected hashes unchanged, including flights/Sicily. Scheduled collector separately checked against prior831 IDs.",
+      "validation": "21 targeted data tests passed; validator passed838 rows/837 images/50states. All837 pre-manual rows exactly unchanged;888 protected file hashes retained. Scheduled collector preserves831 prior IDs, first_seen and all price/status/photo histories. Diff check passed. Public Pages/browser postflight recorded separately."
     }
   ],
-  "updated_at": "2026-10-16T02:30:03+00:00"
+  "updated_at": "2026-10-17T02:17:33+00:00"
 }
