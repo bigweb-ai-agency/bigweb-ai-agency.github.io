@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T02:30:04+00:00",
+  "updated_at": "2026-10-17T01:06:42+00:00",
   "states": [
     {
       "code": "AL",
@@ -574,8 +574,8 @@
         "SFO"
       ],
       "analysis": "Много удалённых лотов. Север штата холодный, юг жаркий; юридическая дорога и питание часто дороже самого участка.",
-      "total": 38,
-      "photo_candidates": 37,
+      "total": 43,
+      "photo_candidates": 42,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -763,8 +763,8 @@
         "SFO"
       ],
       "analysis": "Дешёвая земля часто в Klamath/Lake County, а не в мягком прибрежном климате. Холод, огонь и автономные коммуникации.",
-      "total": 26,
-      "photo_candidates": 25,
+      "total": 27,
+      "photo_candidates": 26,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
