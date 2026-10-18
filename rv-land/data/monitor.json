@@ -1,9 +1,9 @@
 {
   "schedule": "Ежедневно 00:37 UTC: 03:37 летом / 02:37 зимой по Вильнюсу. GitHub Actions может запускаться с задержкой.",
-  "last_run": "2026-10-17T01:06:42+00:00",
+  "last_run": "2026-10-18T01:12:05+00:00",
   "status": "partial",
-  "run_url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/38989419838",
-  "summary": "6 новых; 0 изменений цены/статуса/фото; 87 страниц проверено; ошибок 33.",
+  "run_url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/39085593232",
+  "summary": "7 новых; 2 изменений цены/статуса/фото; 87 страниц проверено; ошибок 33.",
   "scope": "LandCentury: новые страницы всех 50 штатов и ротация старых записей. LandSearch и старые MLS — отдельная исследовательская проверка, не автоматический live-статус.",
   "events": [
     {
@@ -410,6 +410,15 @@
       "added": 6,
       "changed": 0,
       "errors": 33
+    },
+    {
+      "date": "2026-10-18T01:12:05+00:00",
+      "status": "partial",
+      "scanned_pages": 115,
+      "read_details": 87,
+      "added": 7,
+      "changed": 2,
+      "errors": 33
     }
   ],
   "source_errors": [
@@ -814,12 +823,6 @@
       "state": "TN"
     },
     {
-      "url": "https://www.landcentury.com/land-for-sale/georgia/064-acres-for-sale-in-fitzgerald-ga-12491",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 14900.0,
-      "state": "GA"
-    },
-    {
       "url": "https://www.landcentury.com/land-for-sale/nevada/487-acres-for-sale-in-winnemucca-nevada-26146",
       "reason": "source_reused_property_identity",
       "preserved_id": "lc-26146",
@@ -829,7 +832,7 @@
   ],
   "photo_preservation": {
     "missing": 1,
-    "cached": 804,
-    "saved": 32
+    "saved": 33,
+    "cached": 811
   }
 }
