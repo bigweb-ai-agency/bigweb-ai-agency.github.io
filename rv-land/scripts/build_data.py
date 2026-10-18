@@ -187,7 +187,14 @@ def landcentury_records():
             'garage_note':'Размеры и состояние не подтверждены',
         })
         x.update(flags_from_text(description,kind,info.get('roadAccess'),info.get('utilities')))
-        if p.get('isAuction'):x['price_basis']='auction_start'
+        # The visible offer can disclose bidding even when the structured flag is absent.
+        # Match an explicit monetary starting bid, not historical foreclosure language.
+        bid=matchvalue(description,r'\b(?:starting|opening|minimum)\s+bid\s*(?:(?:of|is|just)\s*)*[:\-]?\s*\$([\d,]+(?:\.\d{2})?)')
+        if p.get('isAuction') or bid is not None:
+            x['price_basis']='auction_start'
+            if bid is not None:x['price']=number(bid)
+            x['total_known']=None
+            x['price_evidence']='Начальная ставка аукциона по источнику; итоговая цена покупки и обязательные аукционные сборы неизвестны.'
         x['_description']=description
         records.append(x)
     return records
@@ -281,6 +288,7 @@ def normalize_key(x):
 
 def acceptable(x):
     if x.get('review_hold'):return 'research_hold'
+    if x.get('price_basis') not in (None,'asking_cash'):return 'not_fixed_cash_price'
     if x.get('price') is None or not 3000<=x['price']<=15000:return 'outside_cash_budget'
     if x.get('total_known',x['price'])>15000:return 'known_fees_exceed_budget'
     if x.get('price_basis')!='asking_cash':return 'not_fixed_cash_price'
@@ -360,10 +368,10 @@ def merge_records(previous,incoming):
             merged['first_seen']=old.get('first_seen',NOW)
             merged['legacy']=old.get('legacy',False)
             hist=list(old.get('price_history',[]))
-            if not hist:hist=[{'date':old.get('first_seen',NOW),'price':old.get('price'),'source':old.get('url')}]
-            if old.get('price')!=x.get('price'):
+            if not hist:hist=[{'date':old.get('first_seen',NOW),'price':old.get('price'),'price_basis':old.get('price_basis'),'source':old.get('url')}]
+            if (old.get('price'),old.get('price_basis'))!=(x.get('price'),x.get('price_basis')):
                 merged['previous_price']=old.get('price')
-                hist.append({'date':NOW,'price':x.get('price'),'source':x['url']})
+                hist.append({'date':NOW,'price':x.get('price'),'price_basis':x.get('price_basis'),'source':x['url']})
             merged['price_history']=hist
             changes=list(old.get('status_history',[]))
             if old.get('status')!=x.get('status'):
@@ -375,7 +383,7 @@ def merge_records(previous,incoming):
             keys[normalize_key(x)]=prior_id
             urls[x['url'].rstrip('/')]=prior_id
         else:
-            x.setdefault('price_history',[{'date':NOW,'price':x.get('price'),'source':x['url']}])
+            x.setdefault('price_history',[{'date':NOW,'price':x.get('price'),'price_basis':x.get('price_basis'),'source':x['url']}])
             x.setdefault('status_history',[])
             by_id[x['id']]=x
             keys[normalize_key(x)]=x['id']

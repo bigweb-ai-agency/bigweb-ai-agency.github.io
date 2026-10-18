@@ -7,6 +7,34 @@ import cache_photos as photos
 import make_analysis as analysis
 
 class ResearchDataTests(unittest.TestCase):
+    def test_auction_start_is_not_cash_purchase_with_or_without_structured_flag(self):
+        base={'id':25642,'cashPrice':500000,'processingFee':0,'stateRegion':'Illinois',
+              'type':'land','isPublished':True,'_source_url':'https://www.landcentury.com/example',
+              '_fetched_at':'2026-10-18','info':{},'categories':[]}
+        for flag,text,price in [(True,'Land auction',5000),
+                (False,'Offered at auction with a starting bid of just $500. Starting Bid: $500',500),
+                (False,'Opening bid: $5,000',5000),
+                (False,'Cash price: $5,000. Not an auction. Previously bought at foreclosure auction.',5000)]:
+            auction=flag or 'bid' in text.lower()
+            with self.subTest(text=text),patch.object(b,'read',return_value={'25642':dict(base,isAuction=flag,description=text)}):
+                x=b.landcentury_records()[0]
+                self.assertEqual(x['price'],price)
+                self.assertEqual(x['price_basis'],'auction_start' if auction else 'asking_cash')
+                self.assertEqual(x['total_known'],None if auction else 5000)
+                if auction:self.assertEqual(b.acceptable(x),'not_fixed_cash_price')
+
+    def test_price_basis_change_preserves_amount_history_without_duplicate_refreshes(self):
+        old={'id':'same','url':'https://example.org/same','state':'IL','price':5000,
+             'price_basis':'asking_cash','status':'active','first_seen':'2026-09-01',
+             'price_history':[{'date':'2026-09-01','price':5000,'source':'https://example.org/same'}]}
+        new=dict(old,price_basis='auction_start',total_known=None)
+        result=b.merge_records([old],[new])[0]
+        self.assertEqual(result['price_history'][0],old['price_history'][0])
+        self.assertEqual(result['price_history'][-1]['price_basis'],'auction_start')
+        self.assertEqual(len(result['price_history']),2)
+        again=b.merge_records([result],[new])[0]
+        self.assertEqual(again['price_history'],result['price_history'])
+
     def test_fee_amount_does_not_capture_adjacent_cash_price(self):
         self.assertEqual(b.purchase_document_fee('Cash price: $3,895 Doc fee: $250 one time, due at signing'),250)
         self.assertEqual(b.purchase_document_fee('Cash price: $3,895 Doc fee: waived'),0)

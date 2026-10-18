@@ -67,7 +67,8 @@ def run(args):
     rejected.extend(photo_rejected)
     added=len(merged)-len(old)
     old_by={x['id']:x for x in old}
-    material=sum(x['id'] in old_by and (x.get('price'),x.get('status'),x.get('image_url'))!=(old_by[x['id']].get('price'),old_by[x['id']].get('status'),old_by[x['id']].get('image_url')) for x in merged)
+    material_keys=('price','price_basis','status','image_url')
+    material=sum(x['id'] in old_by and any(x.get(k)!=old_by[x['id']].get(k) for k in material_keys) for x in merged)
     write(DATA/'listings.json',{'schema_version':2,'updated_at':NOW,'listings':merged})
     analyze()
     previous=read(DATA/'monitor.json',{})

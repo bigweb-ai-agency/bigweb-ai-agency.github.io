@@ -3003,7 +3003,99 @@
       "rotation_reason": "HI and WA below ten eligible photo candidates; periodic Alaska review. Keep islands/ferries/drive claims conservative. Automatic sweep remains nationwide.",
       "preservation": "All837 pre-manual records, first_seen, histories, current images and888 protected hashes unchanged, including flights/Sicily. Scheduled collector separately checked against prior831 IDs.",
       "validation": "21 targeted data tests passed; validator passed838 rows/837 images/50states. All837 pre-manual rows exactly unchanged;888 protected file hashes retained. Scheduled collector preserves831 prior IDs, first_seen and all price/status/photo histories. Diff check passed. Public Pages/browser postflight recorded separately."
+    },
+    {
+      "date": "2026-10-18T02:20:10+00:00",
+      "states": [
+        "HI",
+        "AK",
+        "WA"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [],
+      "updated_ids": [
+        "lc-25642"
+      ],
+      "automatic_added_ids": [
+        "lc-26620",
+        "lc-26619",
+        "lc-26617",
+        "lc-26615",
+        "lc-26613",
+        "lc-26610",
+        "lc-26380"
+      ],
+      "workflow": {
+        "run_id": 39085593232,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/39085593232",
+        "conclusion": "success",
+        "created_at": "2026-10-18T01:11:51Z",
+        "data_commit": "bc808029d18685172133eca877e602c7b403033c"
+      },
+      "monitor": {
+        "date": "2026-10-18T01:12:05+00:00",
+        "status": "partial",
+        "scanned_pages": 115,
+        "read_details": 87,
+        "added": 7,
+        "changed": 2,
+        "errors": 33
+      },
+      "source_errors": "33 collector errors; all 20 retained examples are 404. Scheduled run and Pages39085962274 succeeded; duplicate Pages39085961587 cancelled. No redundant fallback collection.",
+      "findings": [
+        {
+          "id": "lc-25642",
+          "finding": "Live Chrome confirms $500 starting bid for the same 0.14acre parcel02170318033 at711North26thStreet. Collector already set auction_start and excluded it; UI lacked an auction qualifier and displayed a purchase total. Added explicit label/history basis/CSV basis, unknown purchase total and HOLD. Original $4,999 and $500 observations/photos retained."
+        },
+        {
+          "id": "lc-26317",
+          "finding": "Automatic update changes preserved source photo; parcel/price/status identity fields unchanged compared with prior release. Old photo retained."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.landsearch.com/properties/1125-e-32nd-ave-spokane-wa-99203/5015583",
+          "finding": "Indexed active $4,900 .16acre MLS202611406, parcel35321.0639. Seller explicitly says landlocked and no access. Not added for campervan use."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/morton-wa-98356/5398657",
+          "finding": "Indexed active $10,000 2.24acre MLS291297, NkaSR7. No legal access; slope15-35%, 100-year floodplain, no utilities on site. Not added."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/pasco-wa-99301/3381931",
+          "finding": "LandSearch labels NKAStThomas MLS272882 $6,000 as sale; independent Homes.com rent catalogue explicitly $6,000 per month. Cash sale not established; excluded.",
+          "crosscheck": "https://www.homes.com/pasco-wa/homes-for-rent/newest/"
+        },
+        {
+          "url": "https://www.landsearch.com/properties/albacore-loop-fairbanks-ak-99712/5574816",
+          "finding": "Indexed $14,900 4.183ac parcel357162 MLS161371. Platted roads may be unconstructed; seller directs ATV/snowmachine access via pipeline ROW and3.5mile trail. Not a verified7mRV access candidate."
+        },
+        {
+          "url": "https://landinalaska.com/wp-content/uploads/N120-Brochure.pdf",
+          "finding": "Broker PDF N120 has paved road/gravel driveway but full price $85,000 for6.3ac; above budget."
+        },
+        {
+          "url": "https://www.trulia.com/home/pineapple-pkwy-15-captain-cook-hi-96704-459036781",
+          "finding": "Live Chrome active $15,000 cash fee-simple1.001ac, MLS726495 APN3920530540000; map19.1411247,-155.7469025 and original listing photo visible. Unimproved pahoehoe lava, private paved road, water unavailable, sewer wording conflicting. HOVE official2026 fees include $155 annual assessment and $25 escrow/$35 private transfer. Deferred: no spare budget for known transfer charge; fee allocation, lot debt, site preparation, RV entry and personal repair unknown. No garage.",
+          "fee_source": "https://hoveroad.com/payments"
+        }
+      ],
+      "official_sources": [
+        "https://hoveroad.com/payments"
+      ],
+      "official_findings": "HOVE road corporation live payment page confirms2026 annual assessment155 and transfer25 viaescrow/35 private. This is a road assessment, not proof of HOA covenants or county permission. No strong new candidate required parcel-specific county-law review this pass.",
+      "access": "Public search/indexed pages, connected Chrome on LandCentury, Trulia and HOVE. No seller contact, login, purchase, booking or infrastructure mutation. No source barrier bypass. Trulia image robots allowed, but deferred lot not imported.",
+      "flight_review": "October12 weekly data preserved byte-for-byte; next due October19.",
+      "next_states": [
+        "ID",
+        "MT",
+        "OR"
+      ],
+      "rotation_reason": "ID and MT below ten eligible photo candidates; OR periodically revisited. Prioritize actual buildings and road-accessible lots. Nationwide automatic sweep remains enabled.",
+      "pipeline_maintenance": "Auction UI, history and CSV now carry price basis. Parser also recognizes explicit starting/opening/minimum monetary bid if structured auction flag is missing; purchase total stays unknown. Basis-only changes create history and count as material; repeated refresh is idempotent.",
+      "preservation": "All845 baseline IDs and first_seen retained; only lc-25642 manually changed. Historical entries retained with auction annotation; all897 protected hashes unchanged including flights/Sicily.",
+      "validation": "23 targeted data tests,4 Sicily boundary tests,845-row/844-photo/50-state validator,JavaScript syntax and diff checks passed. All845 baseline IDs/first_seen/history/photos retained and897 protected hashes unchanged. Public Pages/browser postflight recorded separately."
     }
   ],
-  "updated_at": "2026-10-17T02:17:33+00:00"
+  "updated_at": "2026-10-18T02:20:10+00:00"
 }

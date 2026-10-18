@@ -2,7 +2,7 @@
 const $ = id => document.getElementById(id);
 const esc = v => String(v ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const money = (v,currency='USD') => v == null ? '—' : (currency==='EUR'?'€':'$') + Number(v).toLocaleString('en-US',{maximumFractionDigits:2});
-const listingPrice = x => x.country==='IT'?Sicily.price(x,money):money(x.price)+(x.price_basis==='monthly_lease'?' / мес. · аренда':'');
+const listingPrice = x => x.country==='IT'?Sicily.price(x,money):money(x.price)+(x.price_basis==='monthly_lease'?' / мес. · аренда':x.price_basis==='auction_start'?' · старт аукциона':'');
 const date = v => v && !isNaN(Date.parse(v)) ? new Date(v).toLocaleDateString('ru-RU') : 'не подтверждена';
 const safe = (v,photo=false) => {
  if(!v)return '';
@@ -165,7 +165,7 @@ function showDetail(id){
  const facts=[['Тип',kindNames[x.kind]||x.kind],['Площадь',String(x.acres??'?')+' ac'],['Хранение RV',useNames[x.rv_storage]],['Проживание в RV',useNames[x.rv_occupancy]],['Личный ремонт',useNames[x.personal_repair]],['Коммерческий ремонт',useNames[x.commercial_repair]],['Электричество',useNames[x.electricity]],['Вода',useNames[x.water]],['Канализация / септик',useNames[x.sewer]],['Отсутствие HOA',useNames[x.no_hoa]],['Подъезд',useNames[x.road_access]],['Статус',statusNames[x.status]]];
  let body=photo(x,'detail-photo')+'<div class="detail-content"><span class="eyebrow">'+esc(x.city+', '+x.state+' / '+x.county)+'</span><span class="detail-price">'+listingPrice(x)+'</span><h2>'+esc(x.title)+'</h2><div class="card-labels">'+labels(x)+'</div>'+
  (x.review_hold?'<p><b>Исключён из основной выборки:</b> '+esc(x.review_hold.reason)+'</p>':'')+
- (x.price_basis==='monthly_lease'?'<p style="margin-top:12px">'+esc(x.price_evidence||'Месячная аренда; цена покупки не указана.')+'</p>':'<p style="margin-top:12px">Известные сборы: '+money(x.known_fees||0)+'. Цена + известные сборы: '+money(x.total_known)+'. Closing, обследование и подготовка площадки не включены.</p>')+
+ (['monthly_lease','auction_start'].includes(x.price_basis)?'<p style="margin-top:12px">'+esc(x.price_evidence||(x.price_basis==='auction_start'?'Начальная ставка аукциона; итоговая цена покупки неизвестна.':'Месячная аренда; цена покупки не указана.'))+'</p>':'<p style="margin-top:12px">Известные сборы: '+money(x.known_fees||0)+'. Цена + известные сборы: '+money(x.total_known)+'. Closing, обследование и подготовка площадки не включены.</p>')+
  '<div class="facts">'+facts.map(([k,v])=>'<div><small>'+esc(k)+'</small>'+esc(v||'Не подтверждено')+'</div>').join('')+'</div>'+
  '<p><b>Помещение:</b> '+esc(x.garage_note||'Не подтверждено')+'</p><p><b>Коммуникации:</b> '+esc(x.utility_note||'Не подтверждены')+'</p><p><b>Zoning:</b> '+esc(x.zoning)+'</p><p><b>Parcel / MLS:</b> '+esc(x.parcel||'не указан')+' / '+esc(x.mls||'не указан')+'</p>'+
  '<p><b>Налоги по источнику:</b> '+esc(x.taxes_note||'Не подтверждены')+'</p>';
@@ -182,7 +182,7 @@ function showDetail(id){
  '<h3>Источник и свежесть</h3><p>'+esc(basisNames[x.status_basis]||x.status_basis)+'. Просмотрено '+date(x.last_verified)+'. Индекс: '+esc(x.source_crawled||'не применяется')+'.</p><p>'+esc(x.image_credit||'Фото продавца')+' · '+link(x.image_source_url||x.url,'Источник изображения')+'</p>';
  if(x.evidence_quote && !x.legacy)body+='<p lang="en"><b>Короткая выдержка продавца:</b> “'+esc(x.evidence_quote)+'”</p>';
  body+='<h3>История</h3><p>Впервые сохранено: '+date(x.first_seen)+'. ID: '+esc(x.id)+'</p><ul>'+
- (x.price_history||[]).map(h=>'<li>'+date(h.date)+' — '+money(h.price)+(h.invalid_observation?' · Ошибочная запись другого участка; не изменение цены этого объекта.':'')+(h.correction?' · Исправление записи; не изменение цены продавцом.':'')+'</li>').join('')+
+ (x.price_history||[]).map(h=>'<li>'+date(h.date)+' — '+listingPrice(h)+(h.invalid_observation?' · Ошибочная запись другого участка; не изменение цены этого объекта.':'')+(h.correction?' · Исправление записи; не изменение цены продавцом.':'')+'</li>').join('')+
  (x.status_history||[]).map(h=>'<li>'+date(h.date)+' — '+esc(statusNames[h.from]||h.from)+' → '+esc(statusNames[h.to]||h.to)+'</li>').join('')+'</ul></div>';
  $('detailBody').innerHTML=body;$('detail').showModal();$('detail').scrollTop=0;
  history.replaceState(null,'','#property='+encodeURIComponent(id));
@@ -227,12 +227,12 @@ function renderGuide(){
  ['lc-24853','Georgia, продавец упоминает один RV. Электричество доступно, но нужны well/septic; ремонт и затопление не подтверждены.'],
  ['lc-25942','Mississippi, земля с заявленной доступностью городских коммуникаций. Проверить сухость площадки, реальное подключение и правила хранения/ремонта.']
  ];
- $('shortlist').innerHTML=picks.map(([id,note],i)=>{const x=byId.get(id);return x?'<article class="shortlist-item">'+photo(x,'shortlist-photo')+'<div><span class="eyebrow">'+String(i+1).padStart(2,'0')+' / '+esc(x.state)+' · '+money(x.price)+'</span><h3>'+esc(x.title)+'</h3><p>'+esc(note)+'</p><button data-detail="'+esc(id)+'">Проверить карточку →</button></div></article>':'';}).join('');
+ $('shortlist').innerHTML=picks.map(([id,note],i)=>{const x=byId.get(id);return x?'<article class="shortlist-item">'+photo(x,'shortlist-photo')+'<div><span class="eyebrow">'+String(i+1).padStart(2,'0')+' / '+esc(x.state)+' · '+listingPrice(x)+'</span><h3>'+esc(x.title)+'</h3><p>'+esc(note)+'</p><button data-detail="'+esc(id)+'">Проверить карточку →</button></div></article>':'';}).join('');
 }
 function exportCSV(){
- const headers=['id','title','city','state_or_province','price','currency','price_conflict','price_observations','acres','land_m2','building_m2','kind','residential_type','garage_included_claim','garage_m2','seller','risk_ru','status','personal_repair','coordinate_precision','source_url','image_source','verified'];
+ const headers=['id','title','city','state_or_province','price','currency','price_basis','price_conflict','price_observations','acres','land_m2','building_m2','kind','residential_type','garage_included_claim','garage_m2','seller','risk_ru','status','personal_repair','coordinate_precision','source_url','image_source','verified'];
  const csvcell=v=>{let s=String(v??'');if(/^[=+@\t\r-]/.test(s))s="'"+s;return '"'+s.replace(/"/g,'""')+'"';};
- const rows=filtered.map(x=>[x.id,x.title,x.city,x.state,x.price,x.price_currency||'USD',!!x.price_conflict,JSON.stringify(x.research?.price_observations||[]),x.acres,x.land_m2,x.building_m2,x.kind,x.residential_type,x.garage_included_claim,x.garage_m2,x.seller,x.risk_ru,x.status,x.personal_repair,x.coord_precision,x.url,x.image_source_url,x.last_verified]);
+ const rows=filtered.map(x=>[x.id,x.title,x.city,x.state,x.price,x.price_currency||'USD',x.price_basis||'unknown',!!x.price_conflict,JSON.stringify(x.research?.price_observations||[]),x.acres,x.land_m2,x.building_m2,x.kind,x.residential_type,x.garage_included_claim,x.garage_m2,x.seller,x.risk_ru,x.status,x.personal_repair,x.coord_precision,x.url,x.image_source_url,x.last_verified]);
  const blob=new Blob(['\ufeff'+[headers,...rows].map(row=>row.map(csvcell).join(',')).join('\r\n')],{type:'text/csv;charset=utf-8'});
  const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='rv-land-selection.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
 }

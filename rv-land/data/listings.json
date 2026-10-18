@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-18T01:12:05+00:00",
+  "updated_at": "2026-10-18T02:20:10+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -17899,8 +17899,8 @@
       "price_currency": "USD",
       "price_basis": "auction_start",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-18T01:17:01Z",
-      "last_verified": "2026-10-18T01:17:01Z",
+      "last_seen": "2026-10-18T02:20:10+00:00",
+      "last_verified": "2026-10-18T02:20:10+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -17919,8 +17919,8 @@
       "kind": "land",
       "price": 500.0,
       "known_fees": 0.0,
-      "total_known": 500.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "total_known": null,
+      "price_evidence": "Начальная ставка аукциона $500, подтверждённая видимым описанием 18.10.2026. Итоговая цена покупки и аукционные сборы неизвестны; прежние $4,999 сохранены только как история.",
       "acres": 0.14,
       "lat": 38.6182,
       "lng": -90.1254,
@@ -17953,7 +17953,7 @@
       "flags": [
         "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
       ],
-      "evidence_quote": "City services are available at the street, and the lot has paved, city-maintained road access out front, making it a convenient infill",
+      "evidence_quote": "Offered at auction with a starting bid of just $500.",
       "price_history": [
         {
           "date": "2026-09-13T22:25:02+00:00",
@@ -17963,7 +17963,9 @@
         {
           "date": "2026-10-18T01:12:05+00:00",
           "price": 500.0,
-          "source": "https://www.landcentury.com/land-for-sale/illinois/014-acres-for-sale-in-east-st-louis-illinois-25642"
+          "source": "https://www.landcentury.com/land-for-sale/illinois/014-acres-for-sale-in-east-st-louis-illinois-25642",
+          "price_basis": "auction_start",
+          "annotation": "Начальная ставка; не подтверждённая цена покупки."
         }
       ],
       "status_history": [],
@@ -17972,7 +17974,7 @@
         "https://www.landcentury.com/land-for-sale/illinois/014-acres-for-sale-in-east-st-louis-illinois-25642"
       ],
       "region": "Средний Запад",
-      "screening_issue": "outside_cash_budget",
+      "screening_issue": "research_hold",
       "climate_note": "Полезный рынок небольших зданий, гаражей и городских лотов. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -18008,14 +18010,14 @@
       ],
       "msp_straight_km": 742,
       "score_parts": {
-        "Цена /25": 25,
+        "Цена /25": 0,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 3,
         "Сезон /10": 4,
         "Дорога /10": 10
       },
-      "score": 42,
+      "score": 17,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/07/24/6a639a210b25b-1784912417.jpg",
       "photo_preserved_at": "2026-10-18T01:12:05+00:00",
       "photo_history": [
@@ -18026,7 +18028,13 @@
           "date": "2026-09-13T23:05:59+00:00"
         }
       ],
-      "previous_price": 4999.0
+      "previous_price": 4999.0,
+      "review_hold": {
+        "date": "2026-10-18T02:20:10+00:00",
+        "reason": "$500 — начальная ставка аукциона, не полная фиксированная цена покупки. Нельзя считать снижением cash price с $4,999 до $500.",
+        "source": "https://www.landcentury.com/land-for-sale/illinois/014-acres-for-sale-in-east-st-louis-illinois-25642",
+        "release_condition": "Новое действующее предложение с полной фиксированной ценой покупки в бюджете и проверенными обязательными сборами."
+      }
     },
     {
       "price_currency": "USD",
