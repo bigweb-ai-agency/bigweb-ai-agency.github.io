@@ -3095,7 +3095,101 @@
       "pipeline_maintenance": "Auction UI, history and CSV now carry price basis. Parser also recognizes explicit starting/opening/minimum monetary bid if structured auction flag is missing; purchase total stays unknown. Basis-only changes create history and count as material; repeated refresh is idempotent.",
       "preservation": "All845 baseline IDs and first_seen retained; only lc-25642 manually changed. Historical entries retained with auction annotation; all897 protected hashes unchanged including flights/Sicily.",
       "validation": "23 targeted data tests,4 Sicily boundary tests,845-row/844-photo/50-state validator,JavaScript syntax and diff checks passed. All845 baseline IDs/first_seen/history/photos retained and897 protected hashes unchanged. Public Pages/browser postflight recorded separately."
+    },
+    {
+      "date": "2026-10-19T02:33:59+00:00",
+      "states": [
+        "ID",
+        "MT",
+        "OR"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [
+        "ls-5400888"
+      ],
+      "updated_ids": [],
+      "automatic_added_ids": [
+        "lc-26641",
+        "lc-26638",
+        "lc-26627",
+        "lc-26625",
+        "lc-26624",
+        "lc-26623",
+        "lc-26622",
+        "lc-26621"
+      ],
+      "workflow": {
+        "run_id": 39184320117,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/39184320117",
+        "conclusion": "success",
+        "created_at": "2026-10-19T01:12:55Z",
+        "data_commit": "b66739ac895898fd5b172ba924e11d31330eddc5"
+      },
+      "monitor": {
+        "date": "2026-10-19T01:13:11+00:00",
+        "status": "partial",
+        "scanned_pages": 115,
+        "read_details": 87,
+        "added": 8,
+        "changed": 2,
+        "errors": 33
+      },
+      "source_errors": "33 collector errors; all 20 retained examples are404. Schedule and Pages39184786725 succeeded; duplicate39184785089 cancelled. No redundant fallback.",
+      "findings": [
+        {
+          "id": "ls-5400888",
+          "finding": "Ash Dr, Elk Bend, Idaho: $14,500 full asking price after October17 cut from18,000, .16ac parcel000790130210. Indexed today, original listing photo preserved. Seller road/power-nearby claims; photo shows slope and nearby structures, none established as included. No garage, RV entry/storage/repair permission unknown. Weak remote candidate, not a confirmed workshop."
+        },
+        {
+          "id": "lc-25100",
+          "finding": "Live Chrome confirms $10,000, MoteRoad35ac, same parcel010-090-03; automatic decrease from14,900 retained. Narrative says36ac, discrepancy is not resolved by inference."
+        },
+        {
+          "id": "lc-26241",
+          "finding": "Live Chrome confirms cash $4,999 on AlaskaAve parcel5703130057; automatic decrease from5,999 retained. Older two-week indexed snapshot still shows5,999 and was not replayed."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.landsearch.com/properties/cove-rd-pocatello-id-83204/5581975",
+          "finding": "$8,000 .37ac pending; seller explicitly not buildable due to missing required utilities. Road present but city limits and repair use unknown; not added."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/pendleton-or-97801/5530143",
+          "finding": "$13,000 for an individual .11ac lot, not all seven. ResidentialR2 hillside, street utilities claimed. Exact single-lot pad/access and storage/repair unknown; deferred."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/ross-ln-cannon-beach-or-97110/5608693",
+          "finding": "$5,000 asking, seller explicitly says wetland; offer reviewNovember2. Not a ready RV pad; excluded."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/montana/search/under-15000",
+          "finding": "Budget catalogue includes rentals and fractional mining claims; existing holds retained. No new verified full-property garage sale."
+        },
+        {
+          "url": "https://www.buyorsellmontana.com/property-search/detail/378/30072054/6155-scott-ln-helena-mt-59602/",
+          "finding": "Garage/workshop search hit:15,000 is seller credit; full house price699,000. Excluded."
+        },
+        {
+          "url": "https://www.windermere.com/listing/MT/Lincoln/4447-Snow-Fleury-Lane-59639/216956482",
+          "finding": "Workshop search hit:15,000 is price reduction; full property250,000. Excluded."
+        }
+      ],
+      "official_sources": [
+        "https://www.lemhicountyidaho.org/231/Building"
+      ],
+      "official_findings": "County Building Department verified as relevant land-use office. Old county-code link /building-department/files/lemhi-county-development-code returned404; indexed old code was not represented as current adopted law. City of Salmon code cannot automatically apply to ElkBend. Personal repair remains unknown.",
+      "access": "Public web search/indexed listings, connectedChrome, listing-image download afterrobots check. Original photo visually inspected. No sellercontact, login, booking, purchase or infrastructure change. No CAPTCHA/403/robots bypass.",
+      "flight_review": "103 new dated Explore observations fromVNO/LON/WAW/CPH;15 outgoing durations over24h excluded,88 usable. All435 old observations retained and archived; previous5 current providercards appended to history. LOT andNorse both fares selected;TAP review/breakdown cash verified after0mile selection. Two positioning roundtrips selected inGoogle, baggage and overnight gaps explicit. Next weekly reviewOctober26.",
+      "next_states": [
+        "ND",
+        "SD",
+        "WY"
+      ],
+      "rotation_reason": "Continue under-covered plains/mountain states and garage search; automatic collector spans50states.",
+      "preservation": "All853 baselineIDs, first_seen, price/status/photo histories, facts and freshness retained;903 protected hashes unchanged includingSicily. All435 old flight observations retained;26 previous providercards archived.",
+      "validation": "23 targeted data tests and854-row/853-photo/50-state validation passed. All retention assertions and diff checks passed. Public Pages/browser postflight recorded separately."
     }
   ],
-  "updated_at": "2026-10-18T02:20:10+00:00"
+  "updated_at": "2026-10-19T02:33:59+00:00"
 }
