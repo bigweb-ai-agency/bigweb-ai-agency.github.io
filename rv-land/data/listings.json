@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-20T01:08:30+00:00",
+  "updated_at": "2026-10-20T02:19:23+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -110254,6 +110254,522 @@
         "Дорога /10": 5
       },
       "score": 25
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-10-20T02:19:23+00:00",
+      "last_seen": "2026-10-20T02:19:23+00:00",
+      "last_verified": "2026-10-20T02:19:23+00:00",
+      "photo_kind": "Оригинальное фото объявления: небольшой старый сарай и травяной участок. Подвал и бетонный въезд на этом фото не проверены.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [
+        "§6.13.35 описывает private garage как вспомогательное помещение хранения личного транспорта, что само по себе не разрешает ремонт. Источник: опубликованный городом Chapter 6, проверен 20.10.2026.",
+        "История источника: $16,000 при публикации 12.08.2026, $14,500 с 08.10.2026; это не предыдущие наблюдения нашей карты."
+      ],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "available",
+      "sewer": "available",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "flags": [
+        "Сохранившийся подвал может требовать ограждения, обследования или засыпки; расходы неизвестны.",
+        "Wishek §6.42.2(7): в R-1 новый accessory building на пустом участке допустим только рядом с участком владельца с жилым домом. Зона этого parcel и возможность отдельной RV-площадки не установлены.",
+        "Хранение, проживание и личный ремонт RV не подтверждены. Холодная зима и длинная дорога от международных аэропортов."
+      ],
+      "evidence_quote": null,
+      "id": "ls-5481719",
+      "source_id": "5481719",
+      "source": "LandSearch",
+      "url": "https://www.landsearch.com/properties/5th-ave-s-wishek-nd-58495/5481719",
+      "kind": "land",
+      "known_fees": 0,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_crawled": "live Chrome page, 2026-10-20",
+      "image_source_url": "https://www.landsearch.com/properties/5th-ave-s-wishek-nd-58495/5481719",
+      "image_credit": "Listing seller / LandSearch",
+      "price_evidence": "Полная запрашиваемая цена на открытой странице в Chrome; не взнос и не месячный платёж. Closing и подготовка не включены; дополнительные сборы не установлены.",
+      "garage_note": "Старый садовый сарай; бывший дом вывезен. Подвал/фундамент около 1,056 sq ft остаётся, состояние неизвестно. Это не гараж и не готовая несущая плита.",
+      "title": "5th Ave S — бетонный въезд, старый подвал и сарай",
+      "address": "5th Ave S",
+      "city": "Wishek",
+      "state": "ND",
+      "county": "McIntosh",
+      "zip": "58495",
+      "price": 14500,
+      "acres": 0.45,
+      "lat": 46.254013,
+      "lng": -99.552339,
+      "parcel": "08626004",
+      "mls": "MyStateMLS 11931381",
+      "source_updated": "2026-10-08",
+      "source_published": "2026-08-12",
+      "zoning": "Residential по объявлению; точный район на официальной zoning map не подтверждён.",
+      "road_note": "Продавец указывает бетонный въезд и размер 140 × 140 ft. Ширина, несущая способность и разворот 7-метрового кемпервана не проверены.",
+      "utility_note": "Вода public и sewer отмечены Available. Подключение, работоспособность старых линий и электричество не подтверждены.",
+      "taxes_note": "$225 за 2025 год по объявлению; долги и актуальные начисления не проверены.",
+      "legal_source": "https://wishek-nd.com/documents/700/Chapter_6_Zone__1_.pdf?1744662190=",
+      "total_known": 14500,
+      "image_url": "assets/listings/f60be5a7399517c45853.jpg",
+      "image_remote_url": "https://cdn.landsearch.com/listings/4VZvQ/large/wishek-nd-177112162.jpg",
+      "photo_preserved_at": "2026-10-20T02:19:23+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/f60be5a7399517c45853.jpg",
+          "source": "https://www.landsearch.com/properties/5th-ave-s-wishek-nd-58495/5481719",
+          "remote_url": "https://cdn.landsearch.com/listings/4VZvQ/large/wishek-nd-177112162.jpg",
+          "date": "2026-10-20T02:19:23+00:00"
+        }
+      ],
+      "review_hold": {
+        "date": "2026-10-20T02:19:23+00:00",
+        "reason": "Старый подвал и ограничение строительства отдельного гаража в жилой зоне: пригодность для самостоятельной площадки хранения/ремонта не установлена.",
+        "source": "https://wishek-nd.com/documents/700/Chapter_6_Zone__1_.pdf?1744662190=",
+        "release_condition": "Подтвердить точную zoning-категорию, допустимость отдельного хранения/личного ремонта и безопасную площадку вне старого подвала."
+      },
+      "price_history": [
+        {
+          "date": "2026-10-20T02:19:23+00:00",
+          "price": 14500,
+          "price_basis": "asking_cash",
+          "source": "https://www.landsearch.com/properties/5th-ave-s-wishek-nd-58495/5481719"
+        }
+      ],
+      "status_history": [],
+      "region": "Равнины",
+      "screening_issue": "research_hold",
+      "climate_note": "Небольшая выборка, суровая зима и большое расстояние. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "MSP",
+          "name": "Minneapolis–Saint Paul International Airport / Wold–Chamberlain Field",
+          "straight_km": 516,
+          "drive_km_estimate": 645,
+          "drive_hours_estimate": 8.6,
+          "flight_min_eur": 619,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "DEN",
+          "name": "Denver International Airport",
+          "straight_km": 823,
+          "drive_km_estimate": 1029,
+          "drive_hours_estimate": 13.7,
+          "flight_min_eur": 759,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "ORD",
+          "name": "Chicago O'Hare International Airport",
+          "straight_km": 1043,
+          "drive_km_estimate": 1304,
+          "drive_hours_estimate": 17.4,
+          "flight_min_eur": 464,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 516,
+      "score_parts": {
+        "Цена /25": 6,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 2,
+        "Сезон /10": 1,
+        "Дорога /10": 1
+      },
+      "score": 10
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-10-20T02:19:23+00:00",
+      "last_seen": "2026-10-20T02:19:23+00:00",
+      "last_verified": "2026-10-20T02:19:23+00:00",
+      "photo_kind": "Фото именно из объявления: участок с табличкой продажи, улица и здание на заднем плане. Здание не считается включённым в продажу.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [
+        "Старое поисковое описание соседней жилой недвижимости с похожим адресом не использовано для подмены фактов этого земельного объявления."
+      ],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "available",
+      "sewer": "unknown",
+      "no_hoa": "unknown",
+      "road_access": "unknown",
+      "flags": [
+        "Принадлежность видимого гаража не подтверждена. Не считать покупкой готовой мастерской.",
+        "Parcel записан в источнике необычным форматом; сверить title, границы и состав продажи.",
+        "Хранение, проживание и личный ремонт RV неизвестны."
+      ],
+      "evidence_quote": null,
+      "id": "ls-5083188",
+      "source_id": "5083188",
+      "source": "LandSearch",
+      "url": "https://www.landsearch.com/properties/602-odegard-sw-ave-sw-cooperstown-nd-58425/5083188",
+      "kind": "land",
+      "known_fees": 0,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_crawled": "live Chrome page, 2026-10-20",
+      "image_source_url": "https://www.landsearch.com/properties/602-odegard-sw-ave-sw-cooperstown-nd-58425/5083188",
+      "image_credit": "Listing seller / LandSearch",
+      "price_evidence": "Полная запрашиваемая цена на открытой странице в Chrome; не взнос и не месячный платёж. Closing и подготовка не включены; дополнительные сборы не установлены.",
+      "garage_note": "Источник продаёт land/undeveloped. Видимый на фото гараж не подтверждён как входящий в parcel; размеры ворот и помещения неизвестны.",
+      "title": "602 Odegard Ave SW — участок; гараж на фото не подтверждён",
+      "address": "602 Odegard Sw Ave SW",
+      "city": "Cooperstown",
+      "state": "ND",
+      "county": "Griggs",
+      "zip": "58425",
+      "price": 9000,
+      "acres": 0.251,
+      "lat": 47.441269,
+      "lng": -98.128218,
+      "parcel": "000000-000.000-0010-009.000",
+      "mls": "MyStateMLS 11666088",
+      "source_updated": "2026-07-30",
+      "source_published": "2026-03-04",
+      "zoning": "Не установлено",
+      "road_note": "На фото видна улица с бордюром и грунтовый заезд. Право подъезда, ширина и пригодность для высокого 7-метрового RV не проверены.",
+      "utility_note": "В объявлении указано Public water без подтверждения подключения. Электричество и канализация неизвестны.",
+      "total_known": 9000,
+      "image_url": "assets/listings/c6f6cf320e66b633833c.jpg",
+      "image_remote_url": "https://cdn.landsearch.com/listings/4Rpx6/large/cooperstown-nd-173399831.jpg",
+      "photo_preserved_at": "2026-10-20T02:19:23+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/c6f6cf320e66b633833c.jpg",
+          "source": "https://www.landsearch.com/properties/602-odegard-sw-ave-sw-cooperstown-nd-58425/5083188",
+          "remote_url": "https://cdn.landsearch.com/listings/4Rpx6/large/cooperstown-nd-173399831.jpg",
+          "date": "2026-10-20T02:19:23+00:00"
+        }
+      ],
+      "price_history": [
+        {
+          "date": "2026-10-20T02:19:23+00:00",
+          "price": 9000,
+          "price_basis": "asking_cash",
+          "source": "https://www.landsearch.com/properties/602-odegard-sw-ave-sw-cooperstown-nd-58425/5083188"
+        }
+      ],
+      "status_history": [],
+      "region": "Равнины",
+      "screening_issue": null,
+      "climate_note": "Небольшая выборка, суровая зима и большое расстояние. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "MSP",
+          "name": "Minneapolis–Saint Paul International Airport / Wold–Chamberlain Field",
+          "straight_km": 473,
+          "drive_km_estimate": 591,
+          "drive_hours_estimate": 7.9,
+          "flight_min_eur": 619,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "DEN",
+          "name": "Denver International Airport",
+          "straight_km": 993,
+          "drive_km_estimate": 1241,
+          "drive_hours_estimate": 16.6,
+          "flight_min_eur": 759,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "ORD",
+          "name": "Chicago O'Hare International Airport",
+          "straight_km": 1009,
+          "drive_km_estimate": 1262,
+          "drive_hours_estimate": 16.8,
+          "flight_min_eur": 464,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 473,
+      "score_parts": {
+        "Цена /25": 15,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 1,
+        "Сезон /10": 1,
+        "Дорога /10": 2
+      },
+      "score": 19
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-10-20T02:19:23+00:00",
+      "last_seen": "2026-10-20T02:19:23+00:00",
+      "last_verified": "2026-10-20T02:19:23+00:00",
+      "photo_kind": "Изображение именно из объявления: панорама местности с водяным знаком Google 2021. Это не свежая фотография состояния участка.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [
+        "Полная цена $4,990 подтверждена в Chrome; цена за акр $2,851 не использована как цена всего участка. В истории источника снижение с $7,875 от 15.10.2026.",
+        "Legal description источника: Niederriter’s Fourth Addition Lot One Block Two Kenmare City."
+      ],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "flags": [
+        "Фото источника датировано водяным знаком 2021; сегодняшнее состояние и точные границы на нём не подтверждены.",
+        "Не подтверждены готовый въезд, сухая несущая площадка, хранение и личный ремонт RV.",
+        "Удалённость от международных аэропортов и холодная зима."
+      ],
+      "evidence_quote": null,
+      "id": "ls-3114999",
+      "source_id": "3114999",
+      "source": "LandSearch",
+      "url": "https://www.landsearch.com/properties/soo-st-se-kenmare-nd-58746/3114999",
+      "kind": "land",
+      "known_fees": 0,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_crawled": "live Chrome page, 2026-10-20",
+      "image_source_url": "https://www.landsearch.com/properties/soo-st-se-kenmare-nd-58746/3114999",
+      "image_credit": "Listing seller / LandSearch",
+      "price_evidence": "Полная запрашиваемая цена на открытой странице в Chrome; не взнос и не месячный платёж. Closing и подготовка не включены; дополнительные сборы не установлены.",
+      "garage_note": "Готовый гараж для высокого кемпервана не подтверждён.",
+      "title": "Soo St SE — 1.75 acres",
+      "address": "Soo St SE",
+      "city": "Kenmare",
+      "state": "ND",
+      "county": "Ward",
+      "zip": "58746",
+      "price": 4990,
+      "acres": 1.75,
+      "lat": 48.669514,
+      "lng": -102.07424,
+      "parcel": "KM270240200010",
+      "source_updated": "2026-10-15",
+      "source_published": "2023-07-31",
+      "zoning": "Residential — категория объявления, точная zoning-зона неизвестна.",
+      "road_note": "Источник указывает Public road. На сохранённом изображении видна канава/понижение у дороги; готовый въезд для RV и состояние грунта не установлены.",
+      "utility_note": "Коммуникации и стоимость подключения не указаны.",
+      "taxes_note": "$74 за 2024 год по объявлению; текущие налоги и долги неизвестны.",
+      "total_known": 4990,
+      "image_url": "assets/listings/980e9d77b099752b06b9.jpg",
+      "image_remote_url": "https://cdn.landsearch.com/listings/4tBh9/large/kenmare-nd-106290262.jpg",
+      "photo_preserved_at": "2026-10-20T02:19:23+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/980e9d77b099752b06b9.jpg",
+          "source": "https://www.landsearch.com/properties/soo-st-se-kenmare-nd-58746/3114999",
+          "remote_url": "https://cdn.landsearch.com/listings/4tBh9/large/kenmare-nd-106290262.jpg",
+          "date": "2026-10-20T02:19:23+00:00"
+        }
+      ],
+      "price_history": [
+        {
+          "date": "2026-10-20T02:19:23+00:00",
+          "price": 4990,
+          "price_basis": "asking_cash",
+          "source": "https://www.landsearch.com/properties/soo-st-se-kenmare-nd-58746/3114999"
+        }
+      ],
+      "status_history": [],
+      "region": "Равнины",
+      "screening_issue": null,
+      "climate_note": "Небольшая выборка, суровая зима и большое расстояние. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "MSP",
+          "name": "Minneapolis–Saint Paul International Airport / Wold–Chamberlain Field",
+          "straight_km": 794,
+          "drive_km_estimate": 993,
+          "drive_hours_estimate": 13.2,
+          "flight_min_eur": 619,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "DEN",
+          "name": "Denver International Airport",
+          "straight_km": 1001,
+          "drive_km_estimate": 1251,
+          "drive_hours_estimate": 16.7,
+          "flight_min_eur": 759,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "ORD",
+          "name": "Chicago O'Hare International Airport",
+          "straight_km": 1331,
+          "drive_km_estimate": 1664,
+          "drive_hours_estimate": 22.2,
+          "flight_min_eur": 464,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 794,
+      "score_parts": {
+        "Цена /25": 22,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 1,
+        "Дорога /10": 0
+      },
+      "score": 23
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-10-20T02:19:23+00:00",
+      "last_seen": "2026-10-20T02:19:23+00:00",
+      "last_verified": "2026-10-20T02:19:23+00:00",
+      "photo_kind": "Аэрофото со схематичной жёлтой границей из объявления; граница продавца не является survey.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [
+        "Официальная библиотека показывает код 2026 года. Текст §153.206 получен из поискового индекса; прямой HTTP-доступ к коду вернул 403, повторных попыток обхода не было.",
+        "Поле Waterfront в MLS не подтверждено фото и не трактуется как фактический водоём."
+      ],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "available",
+      "water": "unknown",
+      "sewer": "available",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "flags": [
+        "Полная цена покупки на верхней границе бюджета; closing, подключения и подготовка оплачиваются отдельно.",
+        "No HOA — только заявление источника, не разрешение хранения или ремонта.",
+        "Индекс опубликованного кода Hanna §153.206 ограничивает проживание вне лицензированного RV-парка, с исключением для одного visiting trailer до 14 дней в год. Применимость исключения к этой покупке не установлена; хранение и ремонт неизвестны."
+      ],
+      "evidence_quote": null,
+      "id": "mls-wy-20260291",
+      "source_id": "20260291",
+      "source": "Trulia / Wyoming MLS",
+      "url": "https://www.trulia.com/home/2305-2nd-st-hanna-wy-82327-236221626",
+      "kind": "land",
+      "known_fees": 0,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_crawled": "live Chrome page, 2026-10-20",
+      "image_source_url": "https://www.trulia.com/home/2305-2nd-st-hanna-wy-82327-236221626",
+      "image_credit": "Wyoming Real Estate Group / Trulia",
+      "price_evidence": "Полная запрашиваемая цена на открытой странице в Chrome; не взнос и не месячный платёж. Closing и подготовка не включены; дополнительные сборы не установлены.",
+      "garage_note": "Готовый гараж для высокого кемпервана не подтверждён.",
+      "title": "2305 2nd St — городской участок",
+      "address": "2305 2nd St",
+      "city": "Hanna",
+      "state": "WY",
+      "county": "Carbon",
+      "zip": "82327",
+      "price": 15000,
+      "acres": 0.22,
+      "lat": 41.8777618,
+      "lng": -106.5359573,
+      "parcel": null,
+      "mls": "WYOMLS 20260291",
+      "source_updated": "2026-01-23",
+      "source_published": "2026-01-20",
+      "zoning": "Residential Development по объявлению; точная zoning-зона не установлена.",
+      "road_note": "Источник указывает City Street / Arterial Street. Точка из видимой карты объявления, не кадастровая съёмка. Ширина въезда, бордюр и разворот RV не проверены.",
+      "utility_note": "Электричество At Street; gas on property/connected; Public Sewer. Подключение sewer, водоснабжение и стоимость работ не установлены.",
+      "legal_source": "https://codelibrary.amlegal.com/codes/hannawy/latest/overview",
+      "total_known": 15000,
+      "image_url": "assets/listings/714c1239be8cfae579bd.webp",
+      "image_remote_url": "https://www.trulia.com/pictures/thumbs_5/zillowstatic/fp/164bad0add227edfdc0504ffb84be6eb-full.webp",
+      "photo_preserved_at": "2026-10-20T02:19:23+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/714c1239be8cfae579bd.webp",
+          "source": "https://www.trulia.com/home/2305-2nd-st-hanna-wy-82327-236221626",
+          "remote_url": "https://www.trulia.com/pictures/thumbs_5/zillowstatic/fp/164bad0add227edfdc0504ffb84be6eb-full.webp",
+          "date": "2026-10-20T02:19:23+00:00"
+        }
+      ],
+      "price_history": [
+        {
+          "date": "2026-10-20T02:19:23+00:00",
+          "price": 15000,
+          "price_basis": "asking_cash",
+          "source": "https://www.trulia.com/home/2305-2nd-st-hanna-wy-82327-236221626"
+        }
+      ],
+      "status_history": [],
+      "region": "Горный",
+      "screening_issue": null,
+      "climate_note": "Недостаточно хороших результатов; ветер, мороз и удалённость. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "DEN",
+          "name": "Denver International Airport",
+          "straight_km": 274,
+          "drive_km_estimate": 342,
+          "drive_hours_estimate": 4.6,
+          "flight_min_eur": 759,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 984,
+          "drive_km_estimate": 1230,
+          "drive_hours_estimate": 16.4,
+          "flight_min_eur": 569,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "PHX",
+          "name": "Phoenix Sky Harbor International Airport",
+          "straight_km": 1054,
+          "drive_km_estimate": 1318,
+          "drive_hours_estimate": 17.6,
+          "flight_min_eur": 721,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1125,
+      "score_parts": {
+        "Цена /25": 5,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 2,
+        "Сезон /10": 2,
+        "Дорога /10": 5
+      },
+      "score": 14
     }
   ]
 }

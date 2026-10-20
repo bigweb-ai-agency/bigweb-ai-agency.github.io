@@ -3189,7 +3189,111 @@
       "rotation_reason": "Continue under-covered plains/mountain states and garage search; automatic collector spans50states.",
       "preservation": "All853 baselineIDs, first_seen, price/status/photo histories, facts and freshness retained;903 protected hashes unchanged includingSicily. All435 old flight observations retained;26 previous providercards archived.",
       "validation": "23 targeted data tests and854-row/853-photo/50-state validation passed. All retention assertions and diff checks passed. Public Pages/browser postflight recorded separately."
+    },
+    {
+      "date": "2026-10-20T02:23:02+00:00",
+      "states": [
+        "ND",
+        "SD",
+        "WY"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [
+        "ls-5481719",
+        "ls-5083188",
+        "ls-3114999",
+        "mls-wy-20260291"
+      ],
+      "updated_ids": [],
+      "automatic_added_ids": [
+        "lc-26655",
+        "lc-26651"
+      ],
+      "automatic_updated_ids": [
+        "lc-26142"
+      ],
+      "workflow": {
+        "run_id": 39351727177,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/39351727177",
+        "conclusion": "success",
+        "created_at": "2026-10-20T01:08:11Z",
+        "data_commit": "11eaf83bee44d7b94d85d9ef676c6032c5b9c744"
+      },
+      "monitor": {
+        "date": "2026-10-20T01:08:30+00:00",
+        "status": "partial",
+        "scanned_pages": 115,
+        "read_details": 87,
+        "added": 2,
+        "changed": 1,
+        "errors": 33
+      },
+      "source_errors": "33 retained collector errors; retained examples are 404. Nightly and Pages 39352336860 succeeded; duplicate Pages 39352335926 cancelled. Collector operational; no redundant fallback collection.",
+      "findings": [
+        {
+          "id": "ls-5481719",
+          "finding": "Wishek ND $14,500 .45 acre: former house removed, 1,056 sq ft basement remains, concrete driveway and old garden shed claimed. Original photo shows shed and grass, not a garage or proven safe slab. HOLD: official R-1 rule limits a new accessory building on an empty lot to a lot adjacent to the owner dwelling; exact parcel zone and storage/repair use unknown."
+        },
+        {
+          "id": "ls-5083188",
+          "finding": "Cooperstown ND $9,000 .251 acre land. Original listing photo includes a garage in the background, but source does not establish that building is included. existing_garage stays false; parcel format, boundaries, entry and personal repair remain unverified."
+        },
+        {
+          "id": "ls-3114999",
+          "finding": "Kenmare ND $4,990 full price, 1.75 acres, source price reduction October15. Original listing image is a Google 2021 panorama, explicitly labelled as old. Public road claim, ditch/low ground visible; actual RV driveway, pad, utilities and repair unknown. Remote airport access."
+        },
+        {
+          "id": "mls-wy-20260291",
+          "finding": "Hanna WY 2305 2nd St $15,000 .22 acre, live ACTIVE in Chrome. Source aerial photo and visible map point retained. Electricity at street, gas and public-sewer claims; no existing garage. No HOA claim is not permission. Indexed official occupancy limit recorded with access and applicability caveats; storage and repair unknown."
+        },
+        {
+          "id": "lc-26142",
+          "finding": "Automatic source relisting from 26269 to 26649 retained stable internal ID, old URL, history and photo. Same parcel and asking price; new source photo preserved. No manual overwrite."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.landsearch.com/properties/la-barge-wy-83123/4920153",
+          "finding": "Former $12,000 .14 acre commercial lead redirects in live Chrome to La Barge catalogue #inactive and explicitly says Inactive listing. Not imported; no sold inference."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/tolstoy-sd-57475/5447069",
+          "finding": "Former $7,500 .7 acre lead now redirects to town catalogue with zero properties. No exact usable point or live listing; prior deferral retained, no invented coordinates or sold status."
+        },
+        {
+          "url": "https://www.realtor.com/realestateandhomes-detail/165-NW-Birch-St_Conde_SD_57434_M98578-65937",
+          "finding": "Indexed $10,000 .48 acre MLS26-494 is land with future garage/shop wording, not an existing building. No fresh direct sale/photo/point confirmation; deferred."
+        },
+        {
+          "url": "https://therealestateco.co/real-estate/89-1st-street-sw-beach-nd-26-306/",
+          "finding": "Actual 8,232 sq ft mechanic shop with tall doors, but full asking price $120,000; excluded above budget."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/3465-remington-rd-casper-wy-82601/5266120",
+          "finding": "54 acre property full price $59,000; $15,000 is a down payment. Excluded."
+        },
+        {
+          "url": "https://www.trulia.com/home/2205-2nd-st-hanna-wy-82327-236221632",
+          "finding": "Nearby $10,000 lead hit Press & Hold CAPTCHA in Chrome. Stopped without bypass; not imported. Earlier 2305 listing had already been read successfully."
+        }
+      ],
+      "official_sources": [
+        "https://wishek-nd.com/documents/700/Chapter_6_Zone__1_.pdf?1744662190=",
+        "https://wishek-nd.com/ordinances",
+        "https://codelibrary.amlegal.com/codes/hannawy/latest/overview"
+      ],
+      "official_findings": "Wishek published Chapter6, section6.42.2(7), PDF page17: R-1 accessory building on empty lot requires adjacency to owner lot with family dwelling. Sections6.13.35/36 distinguish storage/private and public garages; no personal repair permission inferred. Hanna published-code search index section153.206 limits occupancy outside RV parks with visiting-trailer exception up to14 days/year; direct code HTTP403 respected. Neither exact zone nor exception applicability established.",
+      "access": "Public web search and source pages, connected Chrome, visible listing map links, robots-permitted original listing-image downloads and visual inspection. Trulia CAPTCHA and code403 stopped. No login, seller contact, booking, purchase or infrastructure change.",
+      "flight_review": "October19 flight comparison preserved byte-for-byte; next weekly review October26.",
+      "next_states": [
+        "NE",
+        "KS",
+        "OK"
+      ],
+      "rotation_reason": "Revisit central plains states and actual garage/workshop leads; periodic 50-state coverage continues through the automatic sweep.",
+      "preservation": "All 856 baseline records retained exactly, including facts, freshness, IDs, first_seen and histories. All 909 protected hashes unchanged, including old photos, flights and Sicily. Wishek HOLD excluded from ordinary candidate counts; ND8, SD11, WY3 eligible photo candidates.",
+      "validation": "23 targeted data tests and860-row/859-photo/50-state validation passed. Retention assertions and diff checks passed. Public Pages/browser postflight recorded separately."
     }
   ],
-  "updated_at": "2026-10-19T02:33:59+00:00"
+  "updated_at": "2026-10-20T02:23:02+00:00"
 }
