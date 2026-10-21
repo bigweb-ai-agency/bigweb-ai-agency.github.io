@@ -3293,7 +3293,109 @@
       "rotation_reason": "Revisit central plains states and actual garage/workshop leads; periodic 50-state coverage continues through the automatic sweep.",
       "preservation": "All 856 baseline records retained exactly, including facts, freshness, IDs, first_seen and histories. All 909 protected hashes unchanged, including old photos, flights and Sicily. Wishek HOLD excluded from ordinary candidate counts; ND8, SD11, WY3 eligible photo candidates.",
       "validation": "23 targeted data tests and860-row/859-photo/50-state validation passed. Retention assertions and diff checks passed. Public Pages/browser postflight recorded separately."
+    },
+    {
+      "date": "2026-10-21T02:16:50+00:00",
+      "states": [
+        "NE",
+        "KS",
+        "OK"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [
+        "ls-5626336",
+        "mls-ks-206148"
+      ],
+      "updated_ids": [],
+      "automatic_added_ids": [
+        "lc-26695",
+        "lc-26688",
+        "lc-26681",
+        "lc-26678",
+        "lc-26676",
+        "lc-26675",
+        "lc-26672",
+        "lc-26668",
+        "lc-26667",
+        "lc-26666",
+        "lc-26665",
+        "lc-26664",
+        "lc-26663",
+        "lc-26662",
+        "lc-26660",
+        "lc-26659",
+        "lc-26658",
+        "lc-26656"
+      ],
+      "automatic_updated_ids": [],
+      "workflow": {
+        "run_id": 39525608984,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/39525608984",
+        "conclusion": "success",
+        "created_at": "2026-10-21T01:08:58Z",
+        "data_commit": "83b5244b59d1c313ced39646d3f220a8df0752d0"
+      },
+      "monitor": {
+        "date": "2026-10-21T01:09:15+00:00",
+        "status": "partial",
+        "scanned_pages": 115,
+        "read_details": 86,
+        "added": 18,
+        "changed": 0,
+        "errors": 34
+      },
+      "source_errors": "34 collector errors, up from33; all20 retained examples are404. Nightly and Pages39526229417 succeeded; duplicate39526228675 cancelled. Collector operational; no redundant fallback collection. Failed requests do not change sale status.",
+      "findings": [
+        {
+          "id": "mls-ks-206148",
+          "finding": "Morland KS $15,000 house with1-car garage, .29acre, MLS206148, parcel033-156-23-0-10-07-001.00-0. Live Chrome confirms sale on Redfin and Trulia. Source photo shows garage, van outside and visibly deteriorated roof covering. Full remodel required by seller. Tall7mRV fit, safe building condition and repair rights unknown; not a ready workshop. Electricity/sewer connected are seller claims, public water availability from Redfin; function untested."
+        },
+        {
+          "id": "ls-5626336",
+          "finding": "New October15/16 Eufaula OK listing, $7,500 total for.26acre ChoctawTrl Parcels2&3, source parcel0000-25-09N-16E-0-402-75. Live Chrome active. Seller says RV welcome/no restrictions and electricity by road; water must be bought and hauled from entrance tap, not a lot connection. Original image shows dense growth and no prepared hardstand. Storage/repair, covenants, access and floodplain status unverified."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.seekansascityhomes.com/homedetails/ks/pittsburg/kshmls-hms53305307-kshmls/649-e-20th-st-pittsburg-ks-66762",
+          "finding": "Old $10,000 house/garage result; direct broker404. Independent Trulia explicitly sold September17,2026 under same MLS2639128; older active snapshot not imported.",
+          "crosscheck": "https://www.trulia.com/home/649-e-20th-st-pittsburg-ks-66762-77182592"
+        },
+        {
+          "url": "https://www.landwatch.com/cedar-county-nebraska-homesite-for-sale/pid/417015751",
+          "finding": "503ElmSt Laurel NE explicitly off market. Large63x50ft machine shed priced165,000;15,000 applied to a separately sold bare lot with two sheds. Listing last updated March2024. Not a15,000 workshop; excluded."
+        },
+        {
+          "url": "https://www.exprealty.com/chickasha-ok-real-estate/1021-s-6th-st",
+          "finding": "Old15,000 result; current public page explicitly sold July28,2026 for14,500. No new import."
+        },
+        {
+          "url": "https://www.homes.com/property/614-osborne-st-downs-ks/er8392b0bqfzh/",
+          "finding": "10,000 extreme fixer-upper or teardown, no established garage or safe repair area. Weaker than verified Morland building lead; deferred."
+        },
+        {
+          "url": "https://www.realty.com/home-listings/355675684/605-E-7th-St-Eureka-KS-67045",
+          "finding": "15,000 mobile-home hit indexed over two years ago. Current property-and-land sale not established; not imported."
+        }
+      ],
+      "official_sources": [
+        "https://morlandks.citycode.net/articleMinimumHousingCode.htm",
+        "https://morlandks.citycode.net/artiDangAndUnfiStru.htm",
+        "https://morlandks.citycode.net/certificateOfTheCityClerk.htm",
+        "https://pittsburg.okcounties.org/departments/floodplain/floodplain-forms-permits"
+      ],
+      "official_findings": "Morland adopted code:8-406 sets habitable-dwelling requirements;8-409 addresses unsightly equipment/vehicle/parts storage and8-416 provides a municipal-demolition cost recovery process. No finding that this exact parcel has a condemnation order or lien, and no verified personal repair permission. PittsburgCounty floodplain forms office identified; parcel flood zone and individual permit applicability remain unknown. PDF regulations available but not relied upon for a substantive legal claim.",
+      "access": "Connected Chrome4 with visible listing/map/photo evidence, public web research, robots checks and byte-preserved source images. Redfin CDN robots disallowed downloads, so no Redfin image was downloaded; separate Trulia listing and allowed public photo URL used. No CAPTCHA,403,robots or login bypass. No seller contacts, bookings, purchases or infrastructure changes.",
+      "flight_review": "October19 comparison preserved byte-for-byte; next review October26.",
+      "next_states": [
+        "CT",
+        "NH",
+        "NJ"
+      ],
+      "rotation_reason": "Return to northeastern states below ten eligible photo candidates; prioritize actual garages and reasonable gateway access. Today completed central plains rotation; automatic discovery continues across50states.",
+      "preservation": "All878 baseline records exactly unchanged, including IDs, first_seen, facts, freshness and histories; all925 protected file hashes unchanged, including old photos, Sicily and flights.",
+      "validation": "23 focused data tests and880-record/879-photo/50-state validation passed. Preservation assertions passed; diff and public Pages/browser postflight checked separately."
     }
   ],
-  "updated_at": "2026-10-20T02:23:02+00:00"
+  "updated_at": "2026-10-21T02:16:50+00:00"
 }

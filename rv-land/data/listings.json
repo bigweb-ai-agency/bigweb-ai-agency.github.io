@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-21T01:09:15+00:00",
+  "updated_at": "2026-10-21T02:15:18+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -113048,6 +113048,267 @@
         "Дорога /10": 6
       },
       "score": 32
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-10-21T02:15:18+00:00",
+      "last_seen": "2026-10-21T02:15:18+00:00",
+      "last_verified": "2026-10-21T02:15:18+00:00",
+      "photo_kind": "Фото именно из объявления: деревья, густая растительность, ветки и травяная полоса. Готовая твёрдая площадка не показана.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [
+        "Seller financing доступно отдельно; $7,500 показаны как цена всей продажи, а не первоначальный взнос.",
+        "Официальная страница Pittsburg County найдена для проверки floodplain. Наличие разрешения для этого parcel и право ремонта не установлены."
+      ],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "rv_storage": "unknown",
+      "rv_occupancy": "seller_claim",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "available",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "unknown",
+      "road_access": "unknown",
+      "flags": [
+        "RV welcome и No restrictions — заявления продавца; срок проживания, хранение и личный ремонт компетентным органом не подтверждены.",
+        "Готовой площадки и гаража нет по имеющимся сведениям. Понадобится проверка въезда, расчистки, грунта и дренажа.",
+        "Parcel возле Lake Eufaula: floodplain-зона не установлена. У округа опубликованы floodplain-разрешения; отсутствие ограничений в рекламе не заменяет проверку.",
+        "Parcel 2 & 3 указаны вместе за $7,500, но состав передаваемых прав и границы требуют проверки."
+      ],
+      "evidence_quote": null,
+      "id": "ls-5626336",
+      "source_id": "5626336",
+      "source": "LandSearch",
+      "url": "https://www.landsearch.com/properties/choctaw-trl-eufaula-ok-74432/5626336",
+      "kind": "land",
+      "known_fees": 0,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_crawled": "live Chrome page, 2026-10-21",
+      "image_source_url": "https://www.landsearch.com/properties/choctaw-trl-eufaula-ok-74432/5626336",
+      "image_credit": "Listing seller / LandSearch",
+      "price_evidence": "Полная запрашиваемая цена на публичной странице в Chrome; не взнос, аукционная ставка или месячный платёж. Дополнительные сборы не установлены; closing и подготовка не включены.",
+      "garage_note": "Существующее помещение для высокого 7-метрового RV не подтверждено.",
+      "title": "Choctaw Trl — лесной участок, RV по заявлению продавца",
+      "address": "Choctaw Trl, Parcel 2 & 3",
+      "city": "Eufaula",
+      "state": "OK",
+      "county": "Pittsburg",
+      "zip": "74432",
+      "price": 7500,
+      "acres": 0.26,
+      "lat": 35.21975,
+      "lng": -95.56135,
+      "parcel": "0000-25-09N-16E-0-402-75",
+      "mls": "MyStateMLS 12028921",
+      "source_updated": "2026-10-16",
+      "source_published": "2026-10-15",
+      "zoning": "Residential по объявлению; точная юрисдикция, зона и ограничения parcel не подтверждены.",
+      "utility_note": "Электричество у дороги — заявление продавца. Воду предлагают платно набирать в ёмкости/RV у входа в Castaway Cove; это не подключение к участку. Канализация/септик неизвестны.",
+      "road_note": "Источник описывает путь через Highway 9A, Cheyenne Trail, Ottawa и Choctaw. Право подъезда и фактический проезд высокого 7-метрового RV не проверены.",
+      "taxes_note": "$9 за 2025 год по объявлению; актуальные начисления и долги неизвестны.",
+      "legal_source": "https://pittsburg.okcounties.org/departments/floodplain/floodplain-forms-permits",
+      "total_known": 7500,
+      "image_url": "assets/listings/34e06518c4944642cb5d.jpg",
+      "image_remote_url": "https://cdn.landsearch.com/listings/4XjgG/large/eufaula-ok-181951809.jpg",
+      "photo_preserved_at": "2026-10-21T02:15:18+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/34e06518c4944642cb5d.jpg",
+          "source": "https://www.landsearch.com/properties/choctaw-trl-eufaula-ok-74432/5626336",
+          "remote_url": "https://cdn.landsearch.com/listings/4XjgG/large/eufaula-ok-181951809.jpg",
+          "date": "2026-10-21T02:15:18+00:00"
+        }
+      ],
+      "price_history": [
+        {
+          "date": "2026-10-21T02:15:18+00:00",
+          "price": 7500,
+          "price_basis": "asking_cash",
+          "source": "https://www.landsearch.com/properties/choctaw-trl-eufaula-ok-74432/5626336"
+        }
+      ],
+      "status_history": [],
+      "region": "Равнины",
+      "screening_issue": null,
+      "climate_note": "Недорогие лоты, относительно мягкая зима. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "DFW",
+          "name": "Dallas Fort Worth International Airport",
+          "straight_km": 292,
+          "drive_km_estimate": 365,
+          "drive_hours_estimate": 4.9,
+          "flight_min_eur": 710,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "IAH",
+          "name": "George Bush Intercontinental Airport",
+          "straight_km": 583,
+          "drive_km_estimate": 728,
+          "drive_hours_estimate": 9.7,
+          "flight_min_eur": 716,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "STL",
+          "name": "St. Louis Lambert International Airport",
+          "straight_km": 605,
+          "drive_km_estimate": 757,
+          "drive_hours_estimate": 10.1,
+          "flight_min_eur": 760,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1093,
+      "score_parts": {
+        "Цена /25": 18,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 1,
+        "Сезон /10": 6,
+        "Дорога /10": 5
+      },
+      "score": 30
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-10-21T02:15:18+00:00",
+      "last_seen": "2026-10-21T02:15:18+00:00",
+      "last_verified": "2026-10-21T02:15:18+00:00",
+      "photo_kind": "Исходное фото объявления Trulia: гараж, фургон снаружи и заметно изношенное покрытие крыши. Фото не доказывает, что фургон входит в продажу или помещается внутри.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [
+        "Наличие и цена подтверждены в Chrome на Trulia и Redfin 21.10.2026. Дата обновления MLS 14.07.2026 не заменяется датой просмотра.",
+        "Morland §8-406 устанавливает требования для проживания в доме. §8-416 допускает взыскание расходов на муниципальный снос после установленной процедуры; сведений о таком предписании или долге именно по этому дому нет.",
+        "Дополнительный источник parcel и карты: https://www.redfin.com/KS/Morland/601-W-Summer-67650/home/83082471",
+        "Фото Redfin не скачивались из-за robots. Сохранена фотография из отдельно открытой публикации Trulia с разрешённого публичного URL."
+      ],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": true,
+      "garage_size": null,
+      "electricity": "on_site_claim",
+      "water": "available",
+      "sewer": "on_site_claim",
+      "no_hoa": "unknown",
+      "road_access": "unknown",
+      "flags": [
+        "Продавец прямо указывает необходимость полного ремонта дома; на фото видны значительные дефекты кровельного покрытия. Стоимость восстановления и безопасность здания не установлены.",
+        "Обычный гараж на одну машину не подтверждает пригодность для высокого RV длиной около 7 м. Проём выглядит низким; точных размеров нет.",
+        "Цена $15,000 исчерпывает бюджет покупки; closing, обследование и ремонт оплачиваются дополнительно.",
+        "Morland §8-409 относит неопрятное хранение техники, машин и частей к возможным основаниям признания участка неблагоустроенным. Хранение и личный ремонт RV остаются неизвестными."
+      ],
+      "evidence_quote": null,
+      "id": "mls-ks-206148",
+      "source_id": "206148",
+      "source": "Trulia / Western Kansas AOR",
+      "url": "https://www.trulia.com/home/601-w-summer-ave-morland-ks-67650-91163519",
+      "kind": "house",
+      "known_fees": 0,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_crawled": "live Chrome page, 2026-10-21",
+      "image_source_url": "https://www.trulia.com/home/601-w-summer-ave-morland-ks-67650-91163519",
+      "image_credit": "Platinum Group / Western Kansas AOR / Trulia",
+      "price_evidence": "Полная запрашиваемая цена на публичной странице в Chrome; не взнос, аукционная ставка или месячный платёж. Дополнительные сборы не установлены; closing и подготовка не включены.",
+      "garage_note": "Гараж на одну машину включён по MLS. Фото показывает ворота и фургон снаружи. Высота/ширина проёма, полезная длина, состояние перекрытий и въезд высокого 7-метрового кемпервана неизвестны.",
+      "title": "601 W Summer Ave — дом под полный ремонт + 1-car garage",
+      "address": "601 W Summer Ave",
+      "city": "Morland",
+      "state": "KS",
+      "county": "Graham",
+      "zip": "67650",
+      "price": 15000,
+      "acres": 0.29,
+      "lat": 39.3478605,
+      "lng": -100.0775073,
+      "parcel": "033-156-23-0-10-07-001.00-0",
+      "mls": "Western Kansas AOR 206148",
+      "source_updated": "2026-07-14",
+      "source_published": "2026-07-14",
+      "zoning": "Residential — категория объявления; точная zoning-зона и допустимость RV-базы неизвестны.",
+      "utility_note": "Trulia/MLS указывают подключённые электричество, газ и public sewer; Redfin указывает public water. Работоспособность, счета и возможность пользования не проверены.",
+      "road_note": "Точка из открытой карты Redfin для этого адреса, не survey. На фото фургон стоит перед воротами; это не проверка габаритов, юридического доступа или разворота.",
+      "legal_source": "https://morlandks.citycode.net/articleMinimumHousingCode.htm",
+      "total_known": 15000,
+      "image_url": "assets/listings/e58a701691cc0698e92f.webp",
+      "image_remote_url": "https://www.trulia.com/pictures/thumbs_5/zillowstatic/fp/3f26ed03545a67f61d478785026951a0-full.webp",
+      "photo_preserved_at": "2026-10-21T02:15:18+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/e58a701691cc0698e92f.webp",
+          "source": "https://www.trulia.com/home/601-w-summer-ave-morland-ks-67650-91163519",
+          "remote_url": "https://www.trulia.com/pictures/thumbs_5/zillowstatic/fp/3f26ed03545a67f61d478785026951a0-full.webp",
+          "date": "2026-10-21T02:15:18+00:00"
+        }
+      ],
+      "price_history": [
+        {
+          "date": "2026-10-21T02:15:18+00:00",
+          "price": 15000,
+          "price_basis": "asking_cash",
+          "source": "https://www.trulia.com/home/601-w-summer-ave-morland-ks-67650-91163519"
+        }
+      ],
+      "status_history": [],
+      "region": "Равнины",
+      "screening_issue": null,
+      "climate_note": "Городские лоты и отдельные дешёвые здания возможны; длинный наземный путь, ветер, град и холодная зима. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "DEN",
+          "name": "Denver International Airport",
+          "straight_km": 398,
+          "drive_km_estimate": 497,
+          "drive_hours_estimate": 6.6,
+          "flight_min_eur": 759,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "DFW",
+          "name": "Dallas Fort Worth International Airport",
+          "straight_km": 767,
+          "drive_km_estimate": 959,
+          "drive_hours_estimate": 12.8,
+          "flight_min_eur": 710,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "MSP",
+          "name": "Minneapolis–Saint Paul International Airport / Wold–Chamberlain Field",
+          "straight_km": 835,
+          "drive_km_estimate": 1044,
+          "drive_hours_estimate": 13.9,
+          "flight_min_eur": 619,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 835,
+      "score_parts": {
+        "Цена /25": 5,
+        "Помещение /25": 22,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 7,
+        "Сезон /10": 4,
+        "Дорога /10": 3
+      },
+      "score": 41
     }
   ]
 }
