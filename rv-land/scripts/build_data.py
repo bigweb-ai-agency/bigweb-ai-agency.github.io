@@ -99,6 +99,10 @@ def flags_from_text(description,kind='land',road=None,utilities=None):
     if re.search(r'landlocked|no (?:legal |road |vehicle |vehicular )?access|boat access only|fly.in only|water access only',t+' '+rt):
         result['road_access']='problem'
         result['flags'].append('Доступ для автомобиля не подтверждён или ограничен; физический проезд обязателен.')
+    elif re.search(r'\b(?:road frontage|(?:direct |legal |vehicle |vehicular |road )?access)\b'
+                   r'(?:\s+and\s+(?:direct |legal |road )?access)?\s*[:,-]?\s*'
+                   r'(?:(?:is|are|has|have)\s+)?(?:not\s+(?:yet\s+)?(?:been\s+)?(?:confirmed|established|verified)|unknown|unconfirmed|uncertain)\b',t+' '+rt):
+        result['flags'].append('Продавец прямо указывает, что подъезд или дорожный фронт не подтверждены; требуется проверка доступа для RV.')
     elif re.search(r'paved|dirt road|gravel road|road frontage|public road|county road|maintained road',t+' '+rt):
         result['road_access']='seller_claim'
     for tag,pat in [('electricity',r'(?:electric(?:ity)?|power)'),('water',r'(?:water)'),('sewer',r'(?:sewer|septic)')]:

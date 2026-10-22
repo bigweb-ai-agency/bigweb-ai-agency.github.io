@@ -3395,7 +3395,98 @@
       "rotation_reason": "Return to northeastern states below ten eligible photo candidates; prioritize actual garages and reasonable gateway access. Today completed central plains rotation; automatic discovery continues across50states.",
       "preservation": "All878 baseline records exactly unchanged, including IDs, first_seen, facts, freshness and histories; all925 protected file hashes unchanged, including old photos, Sicily and flights.",
       "validation": "23 focused data tests and880-record/879-photo/50-state validation passed. Preservation assertions passed; diff and public Pages/browser postflight checked separately."
+    },
+    {
+      "date": "2026-10-22T02:14:06+00:00",
+      "states": [
+        "CT",
+        "NH",
+        "NJ"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [],
+      "updated_ids": [
+        "lc-26714"
+      ],
+      "automatic_added_ids": [
+        "lc-26719",
+        "lc-26718",
+        "lc-26717",
+        "lc-26714",
+        "lc-26713",
+        "lc-26575",
+        "lc-26573",
+        "lc-26571"
+      ],
+      "automatic_updated_ids": [
+        "lc-26051"
+      ],
+      "workflow": {
+        "run_id": 39703777339,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/39703777339",
+        "conclusion": "success",
+        "created_at": "2026-10-22T01:06:51Z",
+        "data_commit": "d9684fd4832c9387cd6bb14facbc7312a1468749"
+      },
+      "monitor": {
+        "date": "2026-10-22T01:07:13+00:00",
+        "status": "partial",
+        "scanned_pages": 114,
+        "read_details": 85,
+        "added": 8,
+        "changed": 1,
+        "errors": 35
+      },
+      "source_errors": "35 collector errors; all 20 retained examples are 404. Discovery and Pages 39704401711 succeeded; duplicate Pages 39704401044 cancelled. No redundant fallback required; access errors do not alter sale status.",
+      "findings": [
+        {
+          "id": "lc-26714",
+          "finding": "Live Chrome confirms 0.09 acre and full cash $9,900 at Bruceville Road, Meherrin VA; URL slug is misleading but acreage was already normalized correctly. Seller explicitly says road frontage/direct access not yet confirmed. Corrected road_access seller_claim to unknown and added a narrowly tested negation guard before positive frontage matching. No assumption of landlocked status, repair rights or current auction."
+        },
+        {
+          "id": "lc-26051",
+          "finding": "Automatic refresh changed Sierra Blanca TX asking cash from $11,900 to $10,900; known $100 fee gives $11,000. Earlier price history and photo retained. No garage or confirmed repair rights; not a materially better workshop candidate."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.njhomeswithlisa.com/listing-detail/1183182143/15-Wrightstown-Georgetown-Road-Wrightstown-NJ",
+          "finding": "Commercial garage/collision shop $10,000 is explicitly Purchase Type For Rent / Business for Lease, not full purchase. Excluded."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/37-jordan-dr-vernon-township-nj-07422/5527521",
+          "finding": "Live Chrome confirms active $10,000 .3 acre, GSMLS4049689, coordinates41.2051,-74.42567. Gallery contains only a generated Stadia satellite-map image, no genuine listing photograph. Deferred; no image substitute or import."
+        },
+        {
+          "url": "https://www.coldwellbanker.com/ct/east-hartford/73-main-st/lid-P00800000HGjckiWVx35J4GqkDYmB4w4Fv9L6wnI",
+          "finding": "October18 source snapshot says Pending for $9,999, MLS24204392. Independent Homes.com records Pending October10. Earlier active September snapshots not replayed; prior unresolved parcel/diagram mismatch remains. Not imported.",
+          "crosscheck": "https://www.homes.com/property/73-main-st-east-hartford-ct/z6thwl5z5tvwp/"
+        },
+        {
+          "url": "https://www.biggreenrealestate.com/displayprop/Alton/NH/Land/5111866",
+          "finding": "Fresh indexed MLS5111866 $15,000 .64 acre continues to disclose unmaintained roads, no electricity and association prohibition on camping. Earlier deferral remains; no improved vehicle access or workshop evidence."
+        },
+        {
+          "url": "https://www.zillow.com/homedetails/48-Activity-Rd-R-Winchester-NH-03470/462195524_zpid/",
+          "finding": "Current indexed $10,900 .38 acre result discloses wetlands and $6,771 tax amount. Earlier disclosed out-of-current-use tax liability remains unresolved; no new evidence removing that concern, and utility claims are unverified. Deferred."
+        },
+        {
+          "url": "https://www.homes.com/connecticut/land-for-sale/under-15k/",
+          "finding": "Most fresh low-price CT hits are rentals, reserve auctions, boat slips, or association beach-access/nonbuilding lots. Existing 28 Cloran Street already retained. No new garage or suitable photo candidate established."
+        }
+      ],
+      "official_sources": [],
+      "access": "Public indexed pages and connected Chrome 3; previous browser 4 was unavailable and supported inventory identified current connection. No CAPTCHA, 403, robots or login bypass; no seller contacts, purchases, bookings or infrastructure changes.",
+      "flight_review": "October19 dated comparison retained; next review October26.",
+      "next_states": [
+        "TN",
+        "KY",
+        "MA"
+      ],
+      "rotation_reason": "Continue regional rotation with garage-focused Tennessee/Kentucky searches and under-ten Massachusetts coverage; automated discovery continues all50states.",
+      "preservation": "All888 retained IDs and their first_seen, price/status/photo histories preserved. Exactly one access interpretation corrected; all887 other records unchanged in manual pass. Old source photos, Sicily and flights unchanged.",
+      "validation": "24 focused data tests passed, including observed negated-frontage regression and positive/landlocked controls. Full data validation, narrow diff and public postflight performed separately."
     }
   ],
-  "updated_at": "2026-10-21T02:16:50+00:00"
+  "updated_at": "2026-10-22T02:14:06+00:00"
 }

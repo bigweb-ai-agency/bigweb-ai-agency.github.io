@@ -232,6 +232,19 @@ class ResearchDataTests(unittest.TestCase):
         x=b.flags_from_text('Water not connected. Sewer not connected.')
         self.assertNotEqual(x['water'],'on_site_claim');self.assertNotEqual(x['sewer'],'on_site_claim')
 
+    def test_unconfirmed_road_frontage_is_not_an_access_claim(self):
+        cases=(
+            'Road frontage and direct access have not yet been confirmed for this lot based on available mapping.',
+            'Road frontage is unconfirmed. The property is near a paved county road.',
+            'Direct access: unknown. Paved roads nearby.',
+        )
+        for text in cases:
+            with self.subTest(text=text):
+                self.assertEqual(b.flags_from_text(text)['road_access'],'unknown')
+        self.assertEqual(b.flags_from_text('200 feet of road frontage on a paved public road.')['road_access'],'seller_claim')
+        self.assertEqual(b.flags_from_text('Landlocked parcel near a paved public road.')['road_access'],'problem')
+        self.assertEqual(b.flags_from_text('Road frontage is 200 feet. Utilities are unknown.')['road_access'],'seller_claim')
+
     def test_known_fees_over_budget_reject_new_candidate(self):
         self.assertEqual(b.acceptable({'price':15000,'total_known':15499}),'known_fees_exceed_budget')
 

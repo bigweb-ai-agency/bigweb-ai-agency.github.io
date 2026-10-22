@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-22T01:07:13+00:00",
+  "updated_at": "2026-10-22T02:14:06+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -113710,12 +113710,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-22T01:07:13+00:00",
-      "last_seen": "2026-10-22T01:10:03Z",
-      "last_verified": "2026-10-22T01:10:03Z",
+      "last_seen": "2026-10-22T02:14:06+00:00",
+      "last_verified": "2026-10-22T02:14:06+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "22.10.2026: прежняя отметка о наличии подъезда исправлена — продавец прямо пишет, что дорожный фронт и прямой подъезд не подтверждены. Цена $9,900 — полная cash price; прежнее приобретение продавцом на налоговых торгах не делает текущую цену аукционной ставкой."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26714",
       "source_id": "26714",
@@ -113745,7 +113747,7 @@
       "image_credit": "Seller / LandCentury",
       "parcel": "001A2-01-07-11-3",
       "zoning": "Не указано",
-      "road_note": "Не подтверждён",
+      "road_note": "По словам продавца, дорожный фронт и прямой подъезд по доступным картам не подтверждены.",
       "utility_note": "Не подтверждены",
       "taxes_note": "1",
       "source_categories": [
@@ -113760,9 +113762,10 @@
       "water": "unknown",
       "sewer": "unknown",
       "no_hoa": "unknown",
-      "road_access": "seller_claim",
+      "road_access": "unknown",
       "flags": [
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Продавец прямо указывает, что подъезд или дорожный фронт не подтверждены; требуется проверка доступа для RV."
       ],
       "evidence_quote": null,
       "price_history": [
@@ -113828,7 +113831,11 @@
         "Сезон /10": 7,
         "Дорога /10": 6
       },
-      "score": 27
+      "score": 27,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/virginia/88599-acres-for-sale-in-meherrin-virginia-26714"
+      ]
     },
     {
       "price_currency": "USD",
