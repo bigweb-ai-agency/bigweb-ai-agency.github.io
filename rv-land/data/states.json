@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T02:14:08+00:00",
+  "updated_at": "2026-10-23T01:10:56+00:00",
   "states": [
     {
       "code": "AL",
@@ -115,8 +115,8 @@
         "DEN"
       ],
       "analysis": "San Luis Valley даёт много дешёвых лотов, но это высокогорье с морозом, ветром и дорогими коммуникациями.",
-      "total": 55,
-      "photo_candidates": 50,
+      "total": 57,
+      "photo_candidates": 52,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -574,8 +574,8 @@
         "SFO"
       ],
       "analysis": "Много удалённых лотов. Север штата холодный, юг жаркий; юридическая дорога и питание часто дороже самого участка.",
-      "total": 46,
-      "photo_candidates": 45,
+      "total": 48,
+      "photo_candidates": 47,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -889,8 +889,8 @@
         "IAH"
       ],
       "analysis": "Много дешёвой земли на западе, обычно далеко от DFW/IAH. Жара, вода, электричество и подъезд определяют полную стоимость.",
-      "total": 40,
-      "photo_candidates": 40,
+      "total": 41,
+      "photo_candidates": 41,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
