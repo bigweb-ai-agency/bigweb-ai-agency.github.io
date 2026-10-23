@@ -3486,7 +3486,114 @@
       "rotation_reason": "Continue regional rotation with garage-focused Tennessee/Kentucky searches and under-ten Massachusetts coverage; automated discovery continues all50states.",
       "preservation": "All888 retained IDs and their first_seen, price/status/photo histories preserved. Exactly one access interpretation corrected; all887 other records unchanged in manual pass. Old source photos, Sicily and flights unchanged.",
       "validation": "24 focused data tests passed, including observed negated-frontage regression and positive/landlocked controls. Full data validation, narrow diff and public postflight performed separately."
+    },
+    {
+      "date": "2026-10-23T02:14:53+00:00",
+      "states": [
+        "TN",
+        "KY",
+        "MA"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [],
+      "updated_ids": [
+        "ls-5538561",
+        "ls-5357745",
+        "ls-5510708",
+        "ls-5344325",
+        "ls-5537602"
+      ],
+      "automatic_added_ids": [
+        "lc-26734",
+        "lc-26733",
+        "lc-26730",
+        "lc-26381",
+        "lc-13123"
+      ],
+      "automatic_updated_ids": [],
+      "workflow": {
+        "run_id": 39882483668,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/39882483668",
+        "conclusion": "success",
+        "created_at": "2026-10-23T01:10:30Z",
+        "data_commit": "75ca57ce41a4414eb19a42e27edee9be34c08faf"
+      },
+      "monitor": {
+        "date": "2026-10-23T01:10:56+00:00",
+        "status": "partial",
+        "scanned_pages": 114,
+        "read_details": 83,
+        "added": 5,
+        "changed": 0,
+        "errors": 37
+      },
+      "source_errors": "37 collector errors; all 20 retained examples are HTTP404. Scheduled discovery and Pages39883113425 succeeded; duplicate Pages39883112394 cancelled. No fallback needed. Access errors do not change sale status.",
+      "findings": [
+        {
+          "id": "ls-5510708",
+          "finding": "Live Chrome asking cash $7,000 vs retained $15,000; cleared Selmer city lot. Published city code restricts outdoor storage of dismantled/inoperative vehicles beyond72h, with enclosed-building/lawful-business exceptions. No garage or permission for personal repair established."
+        },
+        {
+          "id": "ls-5538561",
+          "finding": "Live Chrome confirms same parcel, active $6,999 vs $8,999. No mandatory dues is a seller claim, not no HOA or permission for RV repair."
+        },
+        {
+          "id": "ls-5357745",
+          "finding": "Live Chrome same parcel, active $2,999 vs $3,999; retained exactly below $3k lower bound. $25monthly amenities fee kept separate."
+        },
+        {
+          "id": "ls-5344325",
+          "finding": "Live Chrome active $12,000 vs $15,000; precut driveway and electric at road are seller claims; HOA330/year, well/septic needed."
+        },
+        {
+          "id": "ls-5537602",
+          "finding": "Live Chrome explicitly pending/under contract, cash still$14,000. Status history appended; no inference sold. No building and no perc/septic per seller."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.realtor.com/realestateandhomes-detail/Shop-Branch-Right-Fork-Bull-Crk_Prestonsburg_KY_41653_M96839-25314",
+          "finding": "Garage lead now explicitly off-market/sold February7,2026 for$23,000. Not a current budget candidate."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/11025-highway-100-toone-tn-38381/5121160",
+          "finding": "Indexed snapshot says active$11,300, but live Chrome says Pending sale/Under contract, source updatedOctober20. Do not import as active."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/rainbow-lake-rd-waynesboro-tn-38485/5630865",
+          "finding": "Live page$10,000 .46acre has Active sale header but seller description explicitly SALE PENDING. Deferred, not promoted as active. No onsite water/septic."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/600-running-deer-rd-crab-orchard-tn-37723/5633248",
+          "finding": "Live active$8,000 .4acre, R1, private road, HOA75/year. Wooded mountain lot without garage, established RV base or repair rights; no material improvement over retained local options."
+        },
+        {
+          "url": "https://www.coldwellbankerhomes.com/ma/gardner/0-florence-st/pid_73612623/",
+          "finding": "Live active$7,500 .23acre MLS73574436; gallery shows narrow wooded parcel behind WaterfordSt houses. Sloped site and legal vehicle access unresolved. Portal school block incorrectly points to Malden; trustworthy parcel coordinates not established. Deferred rather than importing an assumed map point."
+        },
+        {
+          "url": "https://www.zillow.com/homedetails/0-Davidson-Fork-Rd-Hyden-KY-41749/2065774298_zpid/",
+          "finding": "Fresh indexed MLS129482$15,000 for15.4acres mountainside; no existing garage, confirmed flat RV area or access established. Deferred."
+        }
+      ],
+      "official_sources": [
+        {
+          "url": "https://www.mtas.tennessee.edu/system/files/codes/combined/Selmer-code.pdf",
+          "checked_at": "2026-10-23T02:14:53+00:00",
+          "finding": "Published code Change8 June29,2023. §13-401 includes72h restriction and enclosed-building/lawful-licensed-business exceptions; §14-201 refers to separate zoning Ordinance539 and amendments at recorder. Current parcel authorization remains unknown."
+        }
+      ],
+      "access": "Public search, source pages and Chrome3. Official PDF read over public HTTP200 after robots check; web viewer timeout was not an access denial. No CAPTCHA/403/login bypass or seller contact.",
+      "flight_review": "October19 comparison retained unchanged; next reviewOctober26.",
+      "next_states": [
+        "FL",
+        "SC",
+        "DE"
+      ],
+      "rotation_reason": "Continue southeast/low-count Delaware rotation; all50states remain covered by automatic discovery. No filler records to meet quota.",
+      "preservation": "All893 IDs, first_seen, old price/status histories and photographs retained. Five factual refreshes; no manual new records. Flights and Sicily unchanged.",
+      "validation": "Focused data tests, data validation, preservation assertions and public Pages/Chrome postflight checked separately."
     }
   ],
-  "updated_at": "2026-10-22T02:14:06+00:00"
+  "updated_at": "2026-10-23T02:14:53+00:00"
 }

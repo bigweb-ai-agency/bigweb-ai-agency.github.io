@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-23T01:10:56+00:00",
+  "updated_at": "2026-10-23T02:14:53+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -37516,12 +37516,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-09-13T23:00:23+00:00",
-      "last_verified": "2026-09-13T23:00:23+00:00",
+      "last_seen": "2026-10-23T02:14:53+00:00",
+      "last_verified": "2026-10-23T02:14:53+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "23.10.2026: полная цена $2,999 вместо $3,999 — на $1 ниже установленной нижней границы. Запись и фото сохранены; фильтрация следует фактической цене, без округления до $3,000."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ls-5357745",
       "source_id": "5357745",
@@ -37534,17 +37536,17 @@
       "zip": "38572",
       "county": "Cumberland",
       "kind": "land",
-      "price": 3999.0,
+      "price": 2999,
       "known_fees": 0,
-      "total_known": 3999.0,
-      "price_evidence": "Показанная запрашиваемая цена; дополнительные сборы не подтверждены.",
+      "total_known": 2999,
+      "price_evidence": "Полная запрашиваемая цена подтверждена на публичной карточке в Chrome 23.10.2026; не взнос, аренда или ставка. Closing и неустановленные сборы не включены.",
       "acres": 0.25,
       "lat": 35.8651,
       "lng": -85.0925,
       "coord_precision": "listing",
       "status": "active",
-      "status_basis": "indexed_public_page",
-      "source_crawled": "today",
+      "status_basis": "live_public_page",
+      "source_crawled": "Live Chrome page, 2026-10-23",
       "image_url": "assets/listings/e3c91e2964f0e3f4e267.jpg",
       "image_source_url": "https://www.landsearch.com/properties/8948-pima-dr-crossville-tn-38572/5357745",
       "image_credit": "Listing broker / LandSearch",
@@ -37552,7 +37554,7 @@
       "mls": null,
       "zoning": "Не указано",
       "taxes_note": "2026 $21",
-      "road_note": "Юридический подъезд не проверен",
+      "road_note": "Публичная дорога по карточке; проезд и разворот высокого RV не проверены.",
       "utility_note": "Состояние подключений требует проверки",
       "garage_note": "Размеры и состояние не подтверждены",
       "rv_storage": "unknown",
@@ -37562,16 +37564,23 @@
       "electricity": "unknown",
       "water": "unknown",
       "sewer": "unknown",
-      "no_hoa": "unknown",
-      "road_access": "unknown",
+      "no_hoa": "none",
+      "road_access": "seller_claim",
       "flags": [
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Lake Tansi: в объявлении указаны регулярные платежи $25 в месяц за amenities. Это отдельные расходы владения; право RV-хранения и ремонта неизвестно."
       ],
       "evidence_quote": null,
       "price_history": [
         {
           "date": "2026-09-13T22:25:02+00:00",
           "price": 3999.0,
+          "source": "https://www.landsearch.com/properties/8948-pima-dr-crossville-tn-38572/5357745"
+        },
+        {
+          "date": "2026-10-23T02:14:53+00:00",
+          "price": 2999,
+          "price_basis": "asking_cash",
           "source": "https://www.landsearch.com/properties/8948-pima-dr-crossville-tn-38572/5357745"
         }
       ],
@@ -37581,7 +37590,7 @@
         "https://www.landsearch.com/properties/8948-pima-dr-crossville-tn-38572/5357745"
       ],
       "region": "Юг",
-      "screening_issue": null,
+      "screening_issue": "outside_cash_budget",
       "climate_note": "Один из первых регионов для поиска базы. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -37617,14 +37626,14 @@
       ],
       "msp_straight_km": 1215,
       "score_parts": {
-        "Цена /25": 23,
+        "Цена /25": 25,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 0,
         "Сезон /10": 8,
         "Дорога /10": 8
       },
-      "score": 39,
+      "score": 41,
       "image_remote_url": "https://cdn.landsearch.com/listings/4TSH3/large/crossville-tn-172220132.jpg",
       "photo_preserved_at": "2026-09-13T23:05:59+00:00",
       "photo_history": [
@@ -37634,7 +37643,9 @@
           "remote_url": "https://cdn.landsearch.com/listings/4TSH3/large/crossville-tn-172220132.jpg",
           "date": "2026-09-13T23:05:59+00:00"
         }
-      ]
+      ],
+      "source_updated": "2026-10-09",
+      "previous_price": 3999.0
     },
     {
       "price_currency": "USD",
@@ -42792,12 +42803,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:28+00:00",
-      "last_seen": "2026-09-13T23:00:23+00:00",
-      "last_verified": "2026-09-13T23:00:23+00:00",
+      "last_seen": "2026-10-23T02:14:53+00:00",
+      "last_verified": "2026-10-23T02:14:53+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "23.10.2026: живая карточка явно сообщает Pending sale / Under contract. Не отмечено как проданное. Построек нет по продавцу; заявление о низком flood-risk независимо не подтверждено."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ls-5537602",
       "source_id": "5537602",
@@ -42810,26 +42823,26 @@
       "zip": "42345",
       "county": "Muhlenberg",
       "kind": "land",
-      "price": 14000.0,
+      "price": 14000,
       "known_fees": 0,
-      "total_known": 14000.0,
-      "price_evidence": "Показанная запрашиваемая цена; дополнительные сборы не подтверждены.",
+      "total_known": 14000,
+      "price_evidence": "Полная запрашиваемая цена подтверждена на публичной карточке в Chrome 23.10.2026; не взнос, аренда или ставка. Closing и неустановленные сборы не включены.",
       "acres": 4.0,
       "lat": 37.2406,
       "lng": -87.256,
       "coord_precision": "listing",
-      "status": "active",
-      "status_basis": "indexed_public_page",
-      "source_crawled": "yesterday",
+      "status": "pending",
+      "status_basis": "live_public_page",
+      "source_crawled": "Live Chrome page, 2026-10-23",
       "image_url": "assets/listings/e9e958e58e2232fdbe69.jpg",
       "image_source_url": "https://www.landsearch.com/properties/1970-graham-cypress-rd-greenville-ky-42345/5537602",
       "image_credit": "Listing broker / LandSearch",
-      "parcel": null,
+      "parcel": "073-00-00-002.003",
       "mls": "REALTRACS 3541189",
       "zoning": "R",
       "taxes_note": null,
-      "road_note": "Юридический подъезд не проверен",
-      "utility_note": "Состояние подключений требует проверки",
+      "road_note": "Публичная дорога по объявлению; точный въезд и юридический доступ не проверены.",
+      "utility_note": "County water у дороги по продавцу; септика нет и perc-тест не выполнен.",
       "garage_note": "Размеры и состояние не подтверждены",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
@@ -42839,7 +42852,7 @@
       "water": "available",
       "sewer": "unknown",
       "no_hoa": "unknown",
-      "road_access": "unknown",
+      "road_access": "seller_claim",
       "flags": [],
       "evidence_quote": null,
       "price_history": [
@@ -42849,7 +42862,14 @@
           "source": "https://www.landsearch.com/properties/1970-graham-cypress-rd-greenville-ky-42345/5537602"
         }
       ],
-      "status_history": [],
+      "status_history": [
+        {
+          "date": "2026-10-23T02:14:53+00:00",
+          "from": "active",
+          "to": "pending",
+          "source": "https://www.landsearch.com/properties/1970-graham-cypress-rd-greenville-ky-42345/5537602"
+        }
+      ],
       "legacy": false,
       "alternate_urls": [
         "https://www.landsearch.com/properties/1970-graham-cypress-rd-greenville-ky-42345/5537602"
@@ -42908,7 +42928,8 @@
           "remote_url": "https://cdn.landsearch.com/listings/4WvM4/large/greenville-ky-179064104.jpg",
           "date": "2026-09-13T23:05:59+00:00"
         }
-      ]
+      ],
+      "source_updated": "2026-09-16"
     },
     {
       "price_currency": "USD",
@@ -59488,12 +59509,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:28+00:00",
-      "last_seen": "2026-09-13T23:00:23+00:00",
-      "last_verified": "2026-09-13T23:00:23+00:00",
+      "last_seen": "2026-10-23T02:14:53+00:00",
+      "last_verified": "2026-10-23T02:14:53+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "23.10.2026: цена $6,999 вместо ранее сохранённых $8,999. Продавец заявляет освобождение старого лота от обязательных dues; это не доказательство отсутствия HOA, covenants или разрешения ремонта. Рассрочка и её взнос указаны отдельно."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ls-5538561",
       "source_id": "5538561",
@@ -59506,17 +59529,17 @@
       "zip": "37723",
       "county": "Cumberland",
       "kind": "land",
-      "price": 8999.0,
+      "price": 6999,
       "known_fees": 0,
-      "total_known": 8999.0,
-      "price_evidence": "Показанная запрашиваемая цена; дополнительные сборы не подтверждены.",
+      "total_known": 6999,
+      "price_evidence": "Полная запрашиваемая цена подтверждена на публичной карточке в Chrome 23.10.2026; не взнос, аренда или ставка. Closing и неустановленные сборы не включены.",
       "acres": 0.4,
       "lat": 35.8789,
       "lng": -84.8513,
       "coord_precision": "listing",
       "status": "active",
-      "status_basis": "indexed_public_page",
-      "source_crawled": "3 days ago",
+      "status_basis": "live_public_page",
+      "source_crawled": "Live Chrome page, 2026-10-23",
       "image_url": "assets/listings/53d2841d81f6e8035295.jpg",
       "image_source_url": "https://www.landsearch.com/properties/crab-orchard-tn-37723/5538561",
       "image_credit": "Listing broker / LandSearch",
@@ -59524,7 +59547,7 @@
       "mls": null,
       "zoning": "Не указано",
       "taxes_note": "2026 $24",
-      "road_note": "Юридический подъезд не проверен",
+      "road_note": "Публичная дорога и гравийный подъезд заявлены продавцом; фактический въезд высокого 7-метрового RV не проверен.",
       "utility_note": "Состояние подключений требует проверки",
       "garage_note": "Размеры и состояние не подтверждены",
       "rv_storage": "unknown",
@@ -59542,6 +59565,12 @@
         {
           "date": "2026-09-13T22:25:28+00:00",
           "price": 8999.0,
+          "source": "https://www.landsearch.com/properties/crab-orchard-tn-37723/5538561"
+        },
+        {
+          "date": "2026-10-23T02:14:53+00:00",
+          "price": 6999,
+          "price_basis": "asking_cash",
           "source": "https://www.landsearch.com/properties/crab-orchard-tn-37723/5538561"
         }
       ],
@@ -59587,14 +59616,14 @@
       ],
       "msp_straight_km": 1225,
       "score_parts": {
-        "Цена /25": 15,
+        "Цена /25": 18,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 0,
         "Сезон /10": 8,
         "Дорога /10": 7
       },
-      "score": 30,
+      "score": 33,
       "image_remote_url": "https://cdn.landsearch.com/listings/4Wwb3/large/crab-orchard-tn-179106129.jpg",
       "photo_preserved_at": "2026-09-13T23:05:59+00:00",
       "photo_history": [
@@ -59604,7 +59633,9 @@
           "remote_url": "https://cdn.landsearch.com/listings/4Wwb3/large/crab-orchard-tn-179106129.jpg",
           "date": "2026-09-13T23:05:59+00:00"
         }
-      ]
+      ],
+      "source_updated": "2026-09-23",
+      "previous_price": 8999.0
     },
     {
       "price_currency": "USD",
@@ -60352,12 +60383,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:28+00:00",
-      "last_seen": "2026-09-13T23:00:23+00:00",
-      "last_verified": "2026-09-13T23:00:23+00:00",
+      "last_seen": "2026-10-23T02:14:53+00:00",
+      "last_verified": "2026-10-23T02:14:53+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "23.10.2026: цена $7,000 вместо ранее сохранённых $15,000. Разрешение double-wide manufactured home передано со слов продавца и не означает разрешения RV-базы. §14-201 отсылает к отдельному Ordinance 539 и поправкам у town recorder; текущая parcel-зона и применимость исключений не установлены."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ls-5510708",
       "source_id": "5510708",
@@ -60370,17 +60403,17 @@
       "zip": "38375",
       "county": "McNairy",
       "kind": "land",
-      "price": 15000.0,
+      "price": 7000,
       "known_fees": 0,
-      "total_known": 15000.0,
-      "price_evidence": "Показанная запрашиваемая цена; дополнительные сборы не подтверждены.",
+      "total_known": 7000,
+      "price_evidence": "Полная запрашиваемая цена подтверждена на публичной карточке в Chrome 23.10.2026; не взнос, аренда или ставка. Closing и неустановленные сборы не включены.",
       "acres": 0.2,
       "lat": 35.1765,
       "lng": -88.5983,
       "coord_precision": "listing",
       "status": "active",
-      "status_basis": "indexed_public_page",
-      "source_crawled": "last week",
+      "status_basis": "live_public_page",
+      "source_crawled": "Live Chrome page, 2026-10-23",
       "image_url": "assets/listings/0fc7bd8d3af48d9910f7.jpg",
       "image_source_url": "https://www.landsearch.com/properties/456-pharr-ave-selmer-tn-38375/5510708",
       "image_credit": "Listing broker / LandSearch",
@@ -60388,8 +60421,8 @@
       "mls": "REALTRACS 3526467",
       "zoning": "R2",
       "taxes_note": null,
-      "road_note": "Юридический подъезд не проверен",
-      "utility_note": "Состояние подключений требует проверки",
+      "road_note": "Продавец указывает около 90 ft дорожного фронта и публичную дорогу. Расчищенный жилой участок; габариты въезда RV не проверены.",
+      "utility_note": "Public water и sewer доступны по объявлению; наличие подключений и их работоспособность не подтверждены.",
       "garage_note": "Размеры и состояние не подтверждены",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
@@ -60400,12 +60433,20 @@
       "sewer": "available",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
-      "flags": [],
+      "flags": [
+        "Selmer §13-401 в опубликованной редакции кодекса от 29.06.2023 ограничивает хранение ржавых, разбитых, частично разобранных или неходовых машин свыше 72 часов. Исключения: полностью закрытое здание либо законно действующее лицензированное предприятие. Гараж на участке не подтверждён; право личного ремонта неизвестно."
+      ],
       "evidence_quote": null,
       "price_history": [
         {
           "date": "2026-09-13T22:25:28+00:00",
           "price": 15000.0,
+          "source": "https://www.landsearch.com/properties/456-pharr-ave-selmer-tn-38375/5510708"
+        },
+        {
+          "date": "2026-10-23T02:14:53+00:00",
+          "price": 7000,
+          "price_basis": "asking_cash",
           "source": "https://www.landsearch.com/properties/456-pharr-ave-selmer-tn-38375/5510708"
         }
       ],
@@ -60451,14 +60492,14 @@
       ],
       "msp_straight_km": 1148,
       "score_parts": {
-        "Цена /25": 5,
+        "Цена /25": 18,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 2,
         "Сезон /10": 8,
         "Дорога /10": 7
       },
-      "score": 22,
+      "score": 35,
       "image_remote_url": "https://cdn.landsearch.com/listings/4Wg5M/large/selmer-tn-178175196.jpg",
       "photo_preserved_at": "2026-09-13T23:05:59+00:00",
       "photo_history": [
@@ -60468,7 +60509,10 @@
           "remote_url": "https://cdn.landsearch.com/listings/4Wg5M/large/selmer-tn-178175196.jpg",
           "date": "2026-09-13T23:05:59+00:00"
         }
-      ]
+      ],
+      "source_updated": "2026-09-28",
+      "legal_source": "https://www.mtas.tennessee.edu/system/files/codes/combined/Selmer-code.pdf",
+      "previous_price": 15000.0
     },
     {
       "price_currency": "USD",
@@ -60720,12 +60764,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:28+00:00",
-      "last_seen": "2026-09-13T23:00:23+00:00",
-      "last_verified": "2026-09-13T23:00:23+00:00",
+      "last_seen": "2026-10-23T02:14:53+00:00",
+      "last_verified": "2026-10-23T02:14:53+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "23.10.2026: полная цена $12,000 вместо $15,000. Лот 188 и прежние координаты/parcel совпадают; история и фото сохранены."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ls-5344325",
       "source_id": "5344325",
@@ -60738,17 +60784,17 @@
       "zip": "37825",
       "county": "Claiborne",
       "kind": "land",
-      "price": 15000.0,
+      "price": 12000,
       "known_fees": 0,
-      "total_known": 15000.0,
-      "price_evidence": "Показанная запрашиваемая цена; дополнительные сборы не подтверждены.",
+      "total_known": 12000,
+      "price_evidence": "Полная запрашиваемая цена подтверждена на публичной карточке в Chrome 23.10.2026; не взнос, аренда или ставка. Closing и неустановленные сборы не включены.",
       "acres": 2.8,
       "lat": 36.3669,
       "lng": -83.6129,
       "coord_precision": "listing",
       "status": "active",
-      "status_basis": "indexed_public_page",
-      "source_crawled": "3 days ago",
+      "status_basis": "live_public_page",
+      "source_crawled": "Live Chrome page, 2026-10-23",
       "image_url": "assets/listings/d8f061088ccb1c4b691a.jpg",
       "image_source_url": "https://www.landsearch.com/properties/chimney-rock-rd-new-tazewell-tn-37825/5344325",
       "image_credit": "Listing broker / LandSearch",
@@ -60756,24 +60802,32 @@
       "mls": "KAARMLS 1344889",
       "zoning": "Zoned Residential",
       "taxes_note": null,
-      "road_note": "Юридический подъезд не проверен",
-      "utility_note": "Состояние подключений требует проверки",
+      "road_note": "Продавец сообщает о прорезанном подъезде; состояние и габариты для RV неизвестны.",
+      "utility_note": "Электричество и связь у дороги по продавцу. Требуются скважина и септик; прежнее одобрение septic для 3-bedroom не подтверждает действующее разрешение.",
       "garage_note": "Размеры и состояние не подтверждены",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
       "garage_size": null,
-      "electricity": "unknown",
+      "electricity": "available",
       "water": "unknown",
       "sewer": "unknown",
-      "no_hoa": "unknown",
-      "road_access": "unknown",
-      "flags": [],
+      "no_hoa": "none",
+      "road_access": "seller_claim",
+      "flags": [
+        "Lone Mountain Shores: HOA $330 в год по объявлению; standalone RV storage и личный ремонт не подтверждены."
+      ],
       "evidence_quote": "Utilities, including electricity, telephone service, and high-speed fiber optic internet, are available at the road.",
       "price_history": [
         {
           "date": "2026-09-13T22:25:28+00:00",
           "price": 15000.0,
+          "source": "https://www.landsearch.com/properties/chimney-rock-rd-new-tazewell-tn-37825/5344325"
+        },
+        {
+          "date": "2026-10-23T02:14:53+00:00",
+          "price": 12000,
+          "price_basis": "asking_cash",
           "source": "https://www.landsearch.com/properties/chimney-rock-rd-new-tazewell-tn-37825/5344325"
         }
       ],
@@ -60819,14 +60873,14 @@
       ],
       "msp_straight_km": 1245,
       "score_parts": {
-        "Цена /25": 5,
+        "Цена /25": 10,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 0,
+        "Коммуникации /10": 1,
         "Сезон /10": 8,
         "Дорога /10": 6
       },
-      "score": 19,
+      "score": 25,
       "image_remote_url": "https://cdn.landsearch.com/listings/4TKSs/large/new-tazewell-tn-171787884.jpg",
       "photo_preserved_at": "2026-09-13T23:05:59+00:00",
       "photo_history": [
@@ -60836,7 +60890,9 @@
           "remote_url": "https://cdn.landsearch.com/listings/4TKSs/large/new-tazewell-tn-171787884.jpg",
           "date": "2026-09-13T23:05:59+00:00"
         }
-      ]
+      ],
+      "source_updated": "2026-09-16",
+      "previous_price": 15000.0
     },
     {
       "price_currency": "USD",

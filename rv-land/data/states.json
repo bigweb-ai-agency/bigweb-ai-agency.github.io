@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T01:10:56+00:00",
+  "updated_at": "2026-10-23T02:14:55+00:00",
   "states": [
     {
       "code": "AL",
@@ -869,7 +869,7 @@
       ],
       "analysis": "Один из первых регионов для поиска базы. Проверять склон, driveway easement и реальные границы: гараж на фото иногда исключён из продажи.",
       "total": 17,
-      "photo_candidates": 17,
+      "photo_candidates": 16,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
