@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-24T01:07:22+00:00",
+  "updated_at": "2026-10-24T02:17:09+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -115556,6 +115556,264 @@
         "Дорога /10": 5
       },
       "score": 30
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-10-24T02:17:09+00:00",
+      "last_seen": "2026-10-24T02:17:09+00:00",
+      "last_verified": "2026-10-24T02:17:09+00:00",
+      "photo_kind": "Аэрофотография именно из объявления с нанесённой продавцом красной границей. Это иллюстрация, не survey; здания вокруг не включены в подтверждённый состав продажи.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [
+        "Координаты взяты из ссылки Directions самой карточки; геодезическая точность и право въезда не подтверждены.",
+        "Официальный акт Pacolet 2025-04 найден вместо старой редакции 2014 года. Наличие правил хранения не означает разрешение ремонта; rv_storage, rv_occupancy и personal_repair сохранены как unknown."
+      ],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "available",
+      "sewer": "unknown",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "flags": [
+        "Жилое назначение и возможность строительства дома не подтверждают право отдельной базы хранения или личного ремонта RV.",
+        "Участок лесной. Въезд, расчистка, ровная площадка и дренаж для высокого 7-метрового RV требуют проверки и дополнительных затрат.",
+        "Если parcel находится в Town of Pacolet: §4-5.13 принятого 01.05.2025 zoning ordinance ограничивает RV-хранение перед главным зданием, допускает до 24 часов погрузки/разгрузки и запрещает проживание/ночёвку в RV на жилом лоте. Граница муниципалитета и применимость к этому parcel не установлены; разрешение ремонта неизвестно.",
+        "Продавец прямо сообщает о запрете mobile homes в land restrictions. Документ ограничений не получен; значение для RV-хранения и ремонта неизвестно."
+      ],
+      "evidence_quote": null,
+      "id": "ls-5640806",
+      "source_id": "5640806",
+      "source": "LandSearch",
+      "url": "https://www.landsearch.com/properties/121-woodland-cir-pacolet-sc-29303/5640806",
+      "title": "121 Woodland Cir — 1 акр под жилую застройку",
+      "address": "121 Woodland Cir",
+      "city": "Pacolet",
+      "county": "Spartanburg",
+      "state": "SC",
+      "zip": "29303",
+      "price": 14900,
+      "known_fees": 0,
+      "total_known": 14900,
+      "acres": 1,
+      "lat": 34.900399,
+      "lng": -81.750474,
+      "coord_precision": "listing",
+      "parcel": "3-29-16-099.00",
+      "mls": "GGAR 1607512",
+      "kind": "land",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_crawled": "Live Chrome page, 2026-10-24",
+      "source_updated": "2026-10-23",
+      "source_published": "2026-10-23",
+      "image_source_url": "https://www.landsearch.com/properties/121-woodland-cir-pacolet-sc-29303/5640806",
+      "image_credit": "eXp Realty / GGAR / LandSearch",
+      "legal_source": "https://www.townofpacolet.com/wp-content/uploads/2025/05/Final-adopted-Pacolet-Zoning-Ordinance-05-01-2025.pdf",
+      "price_evidence": "Полная запрашиваемая цена $14,900 подтверждена в Chrome 24.10.2026. Рассрочка предлагается отдельно. Дополнительные сборы не установлены; closing и подготовка площадки не включены.",
+      "zoning": "Residential — категория объявления. Муниципальная граница, конкретная zoning-зона и действующие covenants по parcel не проверены.",
+      "garage_note": "Существующего гаража или мастерской не заявлено. На исходной фотографии лесной участок без готовой площадки для RV.",
+      "road_note": "145 ft дорожного фронта по продавцу. Юридический подъезд, состояние въезда и разворот RV не проверены.",
+      "utility_note": "Вода доступна и septic approved — заявления продавца. Это не доказательство подключения воды, установленного септика или действующего разрешения; электричество неизвестно.",
+      "image_url": "assets/listings/f87e2c2dc7c2d74e781b.jpg",
+      "image_remote_url": "https://cdn.landsearch.com/listings/4Xry8/large/pacolet-sc-182424700.jpg",
+      "photo_preserved_at": "2026-10-24T02:17:09+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/f87e2c2dc7c2d74e781b.jpg",
+          "source": "https://www.landsearch.com/properties/121-woodland-cir-pacolet-sc-29303/5640806",
+          "remote_url": "https://cdn.landsearch.com/listings/4Xry8/large/pacolet-sc-182424700.jpg",
+          "date": "2026-10-24T02:17:09+00:00"
+        }
+      ],
+      "price_history": [
+        {
+          "date": "2026-10-24T02:17:09+00:00",
+          "price": 14900,
+          "price_basis": "asking_cash",
+          "source": "https://www.landsearch.com/properties/121-woodland-cir-pacolet-sc-29303/5640806"
+        }
+      ],
+      "status_history": [],
+      "region": "Юг",
+      "screening_issue": null,
+      "climate_note": "Тёплый сезон, земля в бюджете встречается. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "CLT",
+          "name": "Charlotte Douglas International Airport",
+          "straight_km": 81,
+          "drive_km_estimate": 102,
+          "drive_hours_estimate": 1.4,
+          "flight_min_eur": 672,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "ATL",
+          "name": "Hartsfield Jackson Atlanta International Airport",
+          "straight_km": 283,
+          "drive_km_estimate": 354,
+          "drive_hours_estimate": 4.7,
+          "flight_min_eur": 577,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "BNA",
+          "name": "Nashville International Airport",
+          "straight_km": 466,
+          "drive_km_estimate": 583,
+          "drive_hours_estimate": 7.8,
+          "flight_min_eur": 604,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1477,
+      "score_parts": {
+        "Цена /25": 5,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 1,
+        "Сезон /10": 8,
+        "Дорога /10": 9
+      },
+      "score": 23
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-10-24T02:17:09+00:00",
+      "last_seen": "2026-10-24T02:17:09+00:00",
+      "last_verified": "2026-10-24T02:17:09+00:00",
+      "photo_kind": "Аэрофотография именно из объявления с нанесённой продавцом красной границей. Это иллюстрация, не survey; здания вокруг не включены в подтверждённый состав продажи.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [
+        "Координаты взяты из ссылки Directions самой карточки; геодезическая точность и право въезда не подтверждены.",
+        "Официальный акт Pacolet 2025-04 найден вместо старой редакции 2014 года. Наличие правил хранения не означает разрешение ремонта; rv_storage, rv_occupancy и personal_repair сохранены как unknown."
+      ],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "available",
+      "sewer": "available",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "flags": [
+        "Жилое назначение и возможность строительства дома не подтверждают право отдельной базы хранения или личного ремонта RV.",
+        "Участок лесной. Въезд, расчистка, ровная площадка и дренаж для высокого 7-метрового RV требуют проверки и дополнительных затрат.",
+        "Если parcel находится в Town of Pacolet: §4-5.13 принятого 01.05.2025 zoning ordinance ограничивает RV-хранение перед главным зданием, допускает до 24 часов погрузки/разгрузки и запрещает проживание/ночёвку в RV на жилом лоте. Граница муниципалитета и применимость к этому parcel не установлены; разрешение ремонта неизвестно.",
+        "Продавец лишь предполагает допустимость manufactured home на постоянном фундаменте по land restrictions. Это не подтверждённое право RV-базы."
+      ],
+      "evidence_quote": null,
+      "id": "ls-5640807",
+      "source_id": "5640807",
+      "source": "LandSearch",
+      "url": "https://www.landsearch.com/properties/591-dogwood-cir-pacolet-sc-29303/5640807",
+      "title": "591 Dogwood Cir — 1 акр под жилую застройку",
+      "address": "591 Dogwood Cir",
+      "city": "Pacolet",
+      "county": "Spartanburg",
+      "state": "SC",
+      "zip": "29303",
+      "price": 14900,
+      "known_fees": 0,
+      "total_known": 14900,
+      "acres": 1,
+      "lat": 34.900461,
+      "lng": -81.751049,
+      "coord_precision": "listing",
+      "parcel": "3-29-16-100.00",
+      "mls": "GGAR 1607513",
+      "kind": "land",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_crawled": "Live Chrome page, 2026-10-24",
+      "source_updated": "2026-10-23",
+      "source_published": "2026-10-23",
+      "image_source_url": "https://www.landsearch.com/properties/591-dogwood-cir-pacolet-sc-29303/5640807",
+      "image_credit": "eXp Realty / GGAR / LandSearch",
+      "legal_source": "https://www.townofpacolet.com/wp-content/uploads/2025/05/Final-adopted-Pacolet-Zoning-Ordinance-05-01-2025.pdf",
+      "price_evidence": "Полная запрашиваемая цена $14,900 подтверждена в Chrome 24.10.2026. Рассрочка предлагается отдельно. Дополнительные сборы не установлены; closing и подготовка площадки не включены.",
+      "zoning": "Residential — категория объявления. Муниципальная граница, конкретная zoning-зона и действующие covenants по parcel не проверены.",
+      "garage_note": "Существующего гаража или мастерской не заявлено. На исходной фотографии лесной участок без готовой площадки для RV.",
+      "road_note": "166 ft дорожного фронта по продавцу. Юридический подъезд, состояние въезда и разворот RV не проверены.",
+      "utility_note": "Вода и sewer доступны по продавцу. Подключения, стоимость подключения и электричество не подтверждены.",
+      "image_url": "assets/listings/57b64d3961c82ec1746e.jpg",
+      "image_remote_url": "https://cdn.landsearch.com/listings/4Xry9/large/pacolet-sc-182424710.jpg",
+      "photo_preserved_at": "2026-10-24T02:17:09+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/57b64d3961c82ec1746e.jpg",
+          "source": "https://www.landsearch.com/properties/591-dogwood-cir-pacolet-sc-29303/5640807",
+          "remote_url": "https://cdn.landsearch.com/listings/4Xry9/large/pacolet-sc-182424710.jpg",
+          "date": "2026-10-24T02:17:09+00:00"
+        }
+      ],
+      "price_history": [
+        {
+          "date": "2026-10-24T02:17:09+00:00",
+          "price": 14900,
+          "price_basis": "asking_cash",
+          "source": "https://www.landsearch.com/properties/591-dogwood-cir-pacolet-sc-29303/5640807"
+        }
+      ],
+      "status_history": [],
+      "region": "Юг",
+      "screening_issue": null,
+      "climate_note": "Тёплый сезон, земля в бюджете встречается. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "CLT",
+          "name": "Charlotte Douglas International Airport",
+          "straight_km": 81,
+          "drive_km_estimate": 102,
+          "drive_hours_estimate": 1.4,
+          "flight_min_eur": 672,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "ATL",
+          "name": "Hartsfield Jackson Atlanta International Airport",
+          "straight_km": 283,
+          "drive_km_estimate": 354,
+          "drive_hours_estimate": 4.7,
+          "flight_min_eur": 577,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "BNA",
+          "name": "Nashville International Airport",
+          "straight_km": 466,
+          "drive_km_estimate": 583,
+          "drive_hours_estimate": 7.8,
+          "flight_min_eur": 604,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1477,
+      "score_parts": {
+        "Цена /25": 5,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 2,
+        "Сезон /10": 8,
+        "Дорога /10": 9
+      },
+      "score": 24
     }
   ]
 }

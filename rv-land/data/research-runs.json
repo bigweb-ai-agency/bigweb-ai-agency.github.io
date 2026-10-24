@@ -3593,7 +3593,98 @@
       "rotation_reason": "Continue southeast/low-count Delaware rotation; all50states remain covered by automatic discovery. No filler records to meet quota.",
       "preservation": "All893 IDs, first_seen, old price/status histories and photographs retained. Five factual refreshes; no manual new records. Flights and Sicily unchanged.",
       "validation": "Focused data tests, data validation, preservation assertions and public Pages/Chrome postflight checked separately."
+    },
+    {
+      "date": "2026-10-24T02:17:09+00:00",
+      "states": [
+        "FL",
+        "SC",
+        "DE"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [
+        "ls-5640806",
+        "ls-5640807"
+      ],
+      "updated_ids": [],
+      "automatic_added_ids": [
+        "lc-26744",
+        "lc-26743",
+        "lc-26742",
+        "lc-26738"
+      ],
+      "automatic_updated_ids": [],
+      "workflow": {
+        "run_id": 40048308680,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/40048308680",
+        "conclusion": "success",
+        "created_at": "2026-10-24T01:07:06Z",
+        "data_commit": "813844832896aa9c8ed4638ebfceb3cf8ca060a8"
+      },
+      "monitor": {
+        "date": "2026-10-24T01:07:22+00:00",
+        "status": "partial",
+        "scanned_pages": 114,
+        "read_details": 78,
+        "added": 4,
+        "changed": 0,
+        "errors": 42
+      },
+      "source_errors": "42 collector errors; all20 retained source_error examples are HTTP404. Discovery succeeded with114 scanned pages,78 details and4 added records. Pages40048749267 succeeded; duplicate40048747343 cancelled. No fallback needed; access errors never alter availability.",
+      "findings": [
+        {
+          "id": "ls-5640806",
+          "finding": "Live Chrome active full asking$14,900,1acre,GGAR1607512,parcel3-29-16-099.00. Listing source dateOctober23. Water available/septic approved are seller claims; no mobile homes per advertised land restrictions. Real aerial photo retained; no garage or permission for RV storage/repair established."
+        },
+        {
+          "id": "ls-5640807",
+          "finding": "Live Chrome active full asking$14,900,1acre,GGAR1607513,parcel3-29-16-100.00. Listing source dateOctober23. Water/sewer availability and possible manufactured home on permanent foundation are seller claims. Distinct parcel and real aerial photo retained; no garage or permission for RV storage/repair established."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.landwatch.com/marion-county-florida-undeveloped-land-for-sale/pid/426763841",
+          "finding": "Live Chrome active MLSO6409411,updatedOctober23. Umatilla three newly split75x100ft lots priced$15,000 EACH,not package. R4/cleared/surveyed are seller claims; exact split-lot selection and parcel allocation unresolved. Deferred; no building or repair rights established."
+        },
+        {
+          "url": "https://www.redfin.com/DE/Wilmington/923-Wright-St-19805/home/45055972",
+          "finding": "Resolves earlier deferred7-garage lead. Live Chrome explicitly OFF MARKET;history listing removedJuly31,2026,lastasking$134,999 July29. Old indexed page still$139,999 active. Fresh live facts prevail; far above budget. Historical19ft garage depth also below7m."
+        },
+        {
+          "url": "https://www.redfin.com/DE/Wilmington/201-N-DuPont-St-19805/home/45035112",
+          "finding": "Public indexed page explicitly SOLD August20,2026 for$10,000; old aggregator asking$15,000 is stale. No current active candidate imported."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/delaware/search/under-10000",
+          "finding": "Budget results surfaced lease prices,not full property purchases. No confirmed budget garage or defensible new Delaware candidate."
+        },
+        {
+          "url": "https://movebeachside.com/homes/no-access-w-of-date-palm-2-parcels-cocoa-fl-32927_20260527152819974952000000",
+          "finding": "$15,000 lead explicitly no road access; unsuitable for vehicle base without proven access."
+        },
+        {
+          "url": "https://offerup.com/item/detail/9da5946d-77a6-38e0-b848-4cf60a6201c5",
+          "finding": "$10,000 12x40shed is a building-only offer,not established purchase of a property with land."
+        }
+      ],
+      "official_sources": [
+        {
+          "url": "https://www.townofpacolet.com/wp-content/uploads/2025/05/Final-adopted-Pacolet-Zoning-Ordinance-05-01-2025.pdf",
+          "checked_at": "2026-10-24T02:17:09+00:00",
+          "finding": "Official enacted TownofPacolet ordinance2025-04,May1,2025;§4-5.13 regulates residential RV storage relative to principal building and24h loading/unloading,prohibits RV living/sleeping. Parcel municipal jurisdiction and zoning remain unknown; no personal-repair authorization inferred."
+        }
+      ],
+      "access": "Public search plus live Chrome3. Two actual listing photos downloaded from observed CDN URLs after robots explicitly allowed all; HTTP200 JPEGs inspected and preserved unchanged. No CAPTCHA/403/login bypass or seller contact.",
+      "flight_review": "October19 comparison retained unchanged; next reviewOctober26.",
+      "next_states": [
+        "NY",
+        "PA",
+        "RI"
+      ],
+      "rotation_reason": "Rotate northeast and low-count RhodeIsland after southeast/Delaware; automatic discovery continues50-state coverage. No quota filler.",
+      "preservation": "All897 previous records retained exactly;2 manual additions. Every old asset,first_seen,history,flights andSicily preserved.",
+      "validation": "Focused data tests,data validation,preservation assertions and publicPages/Chrome postflight checked separately."
     }
   ],
-  "updated_at": "2026-10-23T02:14:53+00:00"
+  "updated_at": "2026-10-24T02:17:09+00:00"
 }
