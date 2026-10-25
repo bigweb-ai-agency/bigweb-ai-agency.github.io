@@ -3684,7 +3684,104 @@
       "rotation_reason": "Rotate northeast and low-count RhodeIsland after southeast/Delaware; automatic discovery continues50-state coverage. No quota filler.",
       "preservation": "All897 previous records retained exactly;2 manual additions. Every old asset,first_seen,history,flights andSicily preserved.",
       "validation": "Focused data tests,data validation,preservation assertions and publicPages/Chrome postflight checked separately."
+    },
+    {
+      "date": "2026-10-25T03:11:35+00:00",
+      "states": [
+        "NY",
+        "PA",
+        "RI"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [],
+      "updated_ids": [
+        "ls-5315775",
+        "ri-1419851",
+        "tr-463497916"
+      ],
+      "automatic_added_ids": [
+        "lc-26755",
+        "lc-26754",
+        "lc-26753",
+        "lc-26748",
+        "lc-26747"
+      ],
+      "automatic_updated_ids": [],
+      "workflow": {
+        "run_id": 40149713451,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/40149713451",
+        "conclusion": "success",
+        "created_at": "2026-10-25T01:12:24Z",
+        "data_commit": "20da2bf29729efd0ce8e6eaa96f2ea3464af2d47"
+      },
+      "monitor": {
+        "date": "2026-10-25T01:12:40+00:00",
+        "status": "partial",
+        "scanned_pages": 114,
+        "read_details": 78,
+        "added": 5,
+        "changed": 0,
+        "errors": 42
+      },
+      "source_errors": "42 collector errors; all20 retained source_error examples are HTTP404. Scheduled discovery succeeded with114 scanned pages,78 details and5 new records/photos. Pages40150090899 succeeded; duplicate40150090673 cancelled. No fallback needed. Access errors do not change availability.",
+      "automatic_observations": "17 retained rows received source/freshness observations; lc-26146 retained its existing source-identity hold and conflicting-observation history. No automatic price/status changes reported; these are not new properties.",
+      "findings": [
+        {
+          "id": "ls-5315775",
+          "finding": "Live Chrome confirms active full asking$7,500,.59acre, same parcel and map point. Expanded history explicitly records September14,2026 reduction from$9,900; stale$9,900 in description not replayed. No building, utilities or RV/repair permission confirmed."
+        },
+        {
+          "id": "ri-1419851",
+          "finding": "Live Compass explicitly Pending/Contract Signed, source updatedOctober19, asking$15,000. Existing review hold, height/inoperable-storage warnings and original legal check date retained. Not marked sold."
+        },
+        {
+          "id": "tr-463497916",
+          "finding": "Live Trulia reverified Active$9,900 for same MLS/parcel. Existing two-stall block garage,462sqft,no electricity; unknown door/bay dimensions and repair rights unchanged. No newer source-update date invented."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.coldwellbankerhomes.com/pa/glassport/310-n-monongahela-ave/pid_61119024/",
+          "finding": "Broker explicitly Closed/Sold for$10,000,MLS1668326. Old fixer-upper blog asking$12,000 with detached garage is not a current active offer; excluded."
+        },
+        {
+          "url": "https://theareashopper.com/wp-content/uploads/2025/09/september-27-shopper.pdf",
+          "finding": "11WaterSt,Corsica house/30x60garage is an old October4,2025 estate auction. $15,000 is a nonrefundable deposit,not full purchase price; excluded."
+        },
+        {
+          "url": "https://www.loopnet.com/search/listings/parking-garages/pa/for-sale/5/",
+          "finding": "911LigonierSt,Latrobe low-price lead is office condos despite parking-garage category; no vehicle-workshop purchase established."
+        },
+        {
+          "url": "https://images1.showcase.com/d2/W93JoH5m6Omul9Ztfoo6dsDLx2R4bgFRLDBABoT2l-s/document.pdf",
+          "finding": "5675MerrickRd,Massapequa advertised sale$1.7million or$10,000NNN lease. Lease cannot be counted as budget purchase."
+        },
+        {
+          "url": "https://www.redfin.com/NY/Batavia/240-Liberty-St-14020/home/72296936",
+          "finding": "Live Chrome current full asking$8,000,active vacant land4,725sqft,MLSB1699963,updatedOctober15; history confirms$9,500September28 to$8,000October15. Historical house fields are not evidence of a standing house/garage. Advertised$3,000 city refund requires building and water/sewer connections beforeMarch17,2028; not deducted from price. Deferred: no existing workshop or confirmed standalone RV use; no material improvement over retained city lots."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/rhode-island/search/under-15000",
+          "finding": "Five budget results surfaced monthly rental prices,not full cash property purchases. No new qualifying RI garage or land candidate confirmed."
+        },
+        {
+          "url": "https://www.homes.com/rhode-island/land-for-sale/under-20k/",
+          "finding": "0CypressAve,Tiverton advertised$19,900,above budget; not imported."
+        }
+      ],
+      "official_sources": [],
+      "legal_access": "CoalTownship municipal URL http://www.coaltwpnorthumberland.com from the retained official county directory could not be read by the web tool. No current ordinance established; legal_checked_at remainsOctober13. Unofficial coaltwp.com and historical1976 material were not used as current authority. Narragansett legal check remainsOctober16; no new legal claim today.",
+      "access": "Public search and live Chrome3 source pages. No CAPTCHA/403/robots/login bypass, seller contact or photo replacement.",
+      "flight_review": "October19 comparison retained unchanged; next reviewOctober26.",
+      "next_states": [
+        "OH",
+        "MI",
+        "WI"
+      ],
+      "rotation_reason": "Continue Midwest garage search after northeast/low-count RhodeIsland. Automatic discovery spans50states; no filler to meet quota.",
+      "preservation": "All904 IDs,first_seen,coordinates,photos and histories preserved. Three manual factual refreshes; no manual new records. Flights and Sicily unchanged.",
+      "validation": "Focused data tests,data validation,preservation assertions and publicPages/Chrome postflight checked separately."
     }
   ],
-  "updated_at": "2026-10-24T02:17:09+00:00"
+  "updated_at": "2026-10-25T03:11:35+00:00"
 }

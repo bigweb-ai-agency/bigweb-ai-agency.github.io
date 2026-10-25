@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-25T01:12:40+00:00",
+  "updated_at": "2026-10-25T03:11:35+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -53116,12 +53116,15 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:28+00:00",
-      "last_seen": "2026-09-13T23:00:23+00:00",
-      "last_verified": "2026-09-13T23:00:23+00:00",
+      "last_seen": "2026-10-25T03:11:35+00:00",
+      "last_verified": "2026-10-25T03:11:35+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "25.10.2026: заголовок и история объявления подтверждают $7,500; снижение от 14.09.2026 составляет $2,400. Старое упоминание $9,900 внутри описания не принято за текущую цену. Parcel, площадь и координаты совпадают; фото сохранено.",
+        "Продавец требует самостоятельной проверки zoning, допустимого использования и коммуникаций; налоговые сведения ещё уточняет. Разрешение хранения RV и личного ремонта неизвестно."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ls-5315775",
       "source_id": "5315775",
@@ -53134,17 +53137,17 @@
       "zip": "13480",
       "county": "Oneida",
       "kind": "land",
-      "price": 9900.0,
+      "price": 7500,
       "known_fees": 0,
-      "total_known": 9900.0,
-      "price_evidence": "Показанная запрашиваемая цена; дополнительные сборы не подтверждены.",
+      "total_known": 7500,
+      "price_evidence": "Полная запрашиваемая цена $7,500 подтверждена в живой карточке LandSearch 25.10.2026 и в раскрытой истории: снижение 14.09.2026 с $9,900. Не взнос или аренда; closing и неизвестные сборы не включены.",
       "acres": 0.59,
       "lat": 42.9332,
       "lng": -75.3815,
       "coord_precision": "listing",
       "status": "active",
-      "status_basis": "indexed_public_page",
-      "source_crawled": "last month",
+      "status_basis": "live_public_page",
+      "source_crawled": "Live public Chrome page inspected 2026-10-25",
       "image_url": "assets/listings/c24522cdda1ebe81a616.jpg",
       "image_source_url": "https://www.landsearch.com/properties/107-berrill-ave-waterville-ny-13480/5315775",
       "image_credit": "Listing broker / LandSearch",
@@ -53170,6 +53173,12 @@
         {
           "date": "2026-09-13T22:25:28+00:00",
           "price": 9900.0,
+          "source": "https://www.landsearch.com/properties/107-berrill-ave-waterville-ny-13480/5315775"
+        },
+        {
+          "date": "2026-10-25T03:11:35+00:00",
+          "price": 7500,
+          "price_basis": "asking_cash",
           "source": "https://www.landsearch.com/properties/107-berrill-ave-waterville-ny-13480/5315775"
         }
       ],
@@ -53215,14 +53224,14 @@
       ],
       "msp_straight_km": 1443,
       "score_parts": {
-        "Цена /25": 14,
+        "Цена /25": 18,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 0,
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 22,
+      "score": 26,
       "image_remote_url": "https://cdn.landsearch.com/listings/4TvtF/large/waterville-ny-170505313.jpg",
       "photo_preserved_at": "2026-09-13T23:05:59+00:00",
       "photo_history": [
@@ -53232,7 +53241,9 @@
           "remote_url": "https://cdn.landsearch.com/listings/4TvtF/large/waterville-ny-170505313.jpg",
           "date": "2026-09-13T23:05:59+00:00"
         }
-      ]
+      ],
+      "source_updated": "2026-09-14",
+      "previous_price": 9900.0
     },
     {
       "price_currency": "USD",
@@ -103389,14 +103400,15 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-13T02:18:55+00:00",
-      "last_seen": "2026-10-13T02:18:55+00:00",
-      "last_verified": "2026-10-13T02:18:55+00:00",
+      "last_seen": "2026-10-25T03:11:35+00:00",
+      "last_verified": "2026-10-25T03:11:35+00:00",
       "photo_kind": "Исходное фото фасада гаража из объявления, без изменения байтов.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
       "notes": [
         "Свежая цена $9,900 вместо указанной на странице первоначальной $15,000; дата снижения не установлена.",
-        "Официальный каталог округа указывает местный zoning Coal Township. Актуальный полный текст правил с сайта township получить не удалось; разрешение или запрет не выводились из старой книги 1976 года."
+        "Официальный каталог округа указывает местный zoning Coal Township. Актуальный полный текст правил с сайта township получить не удалось; разрешение или запрет не выводились из старой книги 1976 года.",
+        "25.10.2026: повторно подтверждены Active и $9,900 для того же MLS C-1733 и parcel 00C0100C034A. Два бокса, 462 sq ft, электричества нет; размеры ворот/боксов и право личного ремонта по-прежнему не установлены. Новая дата изменения цены источником не указана."
       ],
       "closing_costs": "Неизвестны closing/title/recording, ремонт гаража и возможное изменение проёмов; в $9,900 не включены.",
       "id": "tr-463497916",
@@ -103424,7 +103436,7 @@
       "price": 9900,
       "known_fees": 0,
       "total_known": 9900,
-      "price_evidence": "В публичной странице Chrome 13.10.2026: полная asking price $9,900, original price $15,000. Closing и ремонт не включены.",
+      "price_evidence": "Живая публичная карточка Trulia 25.10.2026: полная asking price $9,900, MLS Status Active, original price $15,000. Closing и ремонт не включены.",
       "acres": 0.03,
       "lat": 40.7888908,
       "lng": -76.5448914,
@@ -103433,7 +103445,7 @@
       "status": "active",
       "status_basis": "live_public_page",
       "source_published": "2026-06-26",
-      "source_crawled": "Live Chrome public listing inspected 2026-10-13; older indexed $15,000 was not imported as current.",
+      "source_crawled": "Live public Chrome page inspected 2026-10-25",
       "image_source_url": "https://www.trulia.com/home/e-webster-st-coal-township-pa-17866-463497916",
       "image_credit": "Listing broker / CSVBOR / Trulia",
       "parcel": "00C0100C034A",
@@ -103511,7 +103523,10 @@
         "Сезон /10": 4,
         "Дорога /10": 8
       },
-      "score": 48
+      "score": 48,
+      "alternate_urls": [
+        "https://www.trulia.com/home/e-webster-st-coal-township-pa-17866-463497916"
+      ]
     },
     {
       "price_currency": "USD",
@@ -106930,8 +106945,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-16T02:16:13+00:00",
-      "last_seen": "2026-10-16T02:16:13+00:00",
-      "last_verified": "2026-10-16T02:16:13+00:00",
+      "last_seen": "2026-10-25T03:11:35+00:00",
+      "last_verified": "2026-10-25T03:11:35+00:00",
       "photo_kind": "Снимок Street View с меткой, размещённый в самом объявлении; дата съёмки и точность метки не подтверждены.",
       "personal_repair": "restriction_risk",
       "commercial_repair": "unknown",
@@ -106941,7 +106956,8 @@
         "В официальном кодексе, открытом по ссылке города (версия 24.09.2026), §7.13(b) ограничивает парковку/хранение в жилой зоне одним RV высотой до 9 футов и запрещает проживание/ночёвку. §7.14 запрещает хранение неходовых машин. Для высокого кемпера возможна несовместимость; точная высота машины неизвестна.",
         "Эти нормы не подтверждают право использовать конкретный пустой участок как самостоятельную ремонтную базу. Личный ремонт, разрешённый въезд и применение правил к участку требуют отдельного подтверждения.",
         "Вместо съёмки продавца объявление содержит снимок Google Street View с меткой; сохранены исходные байты. Вид не подтверждает нынешнее состояние или границы.",
-        "При заявленной зоне R80 небольшой размер требует проверки статуса участка и действующих правил для старых маломерных лотов. Сам по себе размер не доказывает запрет строительства."
+        "При заявленной зоне R80 небольшой размер требует проверки статуса участка и действующих правил для старых маломерных лотов. Сам по себе размер не доказывает запрет строительства.",
+        "25.10.2026: Compass явно показывает Pending / Contract Signed, последнее обновление 19.10.2026 12:34 PM. Цена остаётся $15,000. Запись не отмечена как проданная; прежний HOLD, правовые оговорки и фото сохранены."
       ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ri-1419851",
@@ -106969,17 +106985,17 @@
       "price": 15000,
       "known_fees": 0,
       "total_known": 15000,
-      "price_evidence": "Полная цена продажи $15,000, Cash only, на открытой странице Compass 16.10.2026. Не аренда и не первый взнос. Расходы закрытия неизвестны.",
+      "price_evidence": "Полная запрашиваемая цена $15,000, Cash only, подтверждена на Compass 25.10.2026. Статус Pending / Contract Signed; это не цена завершённой сделки. Closing неизвестны.",
       "acres": 0.2204,
       "lat": 41.450084,
       "lng": -71.449503,
       "coord_precision": "listing",
       "coordinate_source": "https://www.compass.com/homedetails/0-Rhode-Island-Ave-Narragansett-RI-02882/JIJYV_pid/",
       "coordinate_basis": "Live Compass rendered Listing Map center, 2026-10-16; broker point, not a boundary survey",
-      "status": "active",
+      "status": "pending",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-10",
-      "source_crawled": "Live Chrome 2026-10-16",
+      "source_updated": "2026-10-19",
+      "source_crawled": "Live public Chrome page inspected 2026-10-25",
       "image_source_url": "https://www.compass.com/homedetails/0-Rhode-Island-Ave-Narragansett-RI-02882/JIJYV_pid/",
       "image_credit": "RE/MAX Revolution / RI Statewide MLS / Compass; seller image includes Google Maps attribution",
       "parcel": "Plat T, Lot 60 (MLS)",
@@ -107024,7 +107040,14 @@
           "source": "https://www.compass.com/homedetails/0-Rhode-Island-Ave-Narragansett-RI-02882/JIJYV_pid/"
         }
       ],
-      "status_history": [],
+      "status_history": [
+        {
+          "date": "2026-10-25T03:11:35+00:00",
+          "from": "active",
+          "to": "pending",
+          "source": "https://www.compass.com/homedetails/0-Rhode-Island-Ave-Narragansett-RI-02882/JIJYV_pid/"
+        }
+      ],
       "region": "Северо-восток",
       "screening_issue": "research_hold",
       "climate_note": "Мало предложений в бюджете. Климатическая оценка региона, не замер на участке.",
