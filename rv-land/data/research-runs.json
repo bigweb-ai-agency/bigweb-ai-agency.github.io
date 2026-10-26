@@ -3781,7 +3781,87 @@
       "rotation_reason": "Continue Midwest garage search after northeast/low-count RhodeIsland. Automatic discovery spans50states; no filler to meet quota.",
       "preservation": "All904 IDs,first_seen,coordinates,photos and histories preserved. Three manual factual refreshes; no manual new records. Flights and Sicily unchanged.",
       "validation": "Focused data tests,data validation,preservation assertions and publicPages/Chrome postflight checked separately."
+    },
+    {
+      "date": "2026-10-26T03:21:51+00:00",
+      "states": [
+        "OH",
+        "MI",
+        "WI"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [],
+      "updated_ids": [
+        "mls-mi-50221111"
+      ],
+      "automatic_added_ids": [],
+      "automatic_updated_ids": [],
+      "workflow": {
+        "run_id": 40253088642,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/40253088642",
+        "conclusion": "success",
+        "created_at": "2026-10-26T01:12:39Z",
+        "data_commit": "fba5f206a40017a8f60bea8d60166a677957b0f7"
+      },
+      "monitor": {
+        "date": "2026-10-26T01:12:58+00:00",
+        "status": "partial",
+        "scanned_pages": 114,
+        "read_details": 74,
+        "added": 0,
+        "changed": 0,
+        "errors": 46
+      },
+      "source_errors": "Discovery succeeded: 114 pages, 74 details, no additions or material changes, 46 errors. All 20 retained error examples are HTTP 404. Pages 40253563967 succeeded; duplicate 40253561140 was cancelled. No fallback needed. Fourteen existing rows received freshness/source observations, without price, status or photo changes.",
+      "findings": [
+        {
+          "id": "mls-mi-50221111",
+          "finding": "Live Chrome Redfin explicitly reports SOLD OCT 2, 2026 for $4,000, with the same MLS 50221111 and parcel. Archived asking price $7,900 remains separate; original photos and legal caveats retained."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.realestateone.com/MI/Genesee/Flint/1705-Ohio-Avenue-Flint-MI-48506/20261067979-MIRC",
+          "finding": "LiveChrome active$9,900,MLS20261067979,.10acre,detached1-car garage,point43.030354,-83.6674. Parcel4108134011 corroborated by otherpublicbrokerrecords. FooterOct25 is sitefeed date,not property-update proof. Independent broker history at kathywilsonrealestate.com reports PendingOct17 despiteactiveheader; availabilityconflict unresolved. OriginalimageCDNrobots returned403 andprimaryEpique page showedhumanverification. Deferred: no photo downloaded, no bypass, no new activecandidate; entry dimensions andrepair rightsunknown."
+        },
+        {
+          "url": "https://www.kathywilsonrealestate.com/homes-for-sale/1705-Ohio-Avenue-Flint-MI-48506-438738337",
+          "finding": "Indexed4daysago: sameMLS/parcel asking$9,900 buthistoryPendingOctober17. Do not silently prefer an activeportalheader over datedconflict."
+        },
+        {
+          "url": "https://www.redfin.com/MI/Flint/3710-Kellar-Ave-48504/home/111522444",
+          "finding": "LiveChrome$7,500 active,sourceOctober12,MLS20261002147/60963068,parcel46-35-355-013,.12acre. No garage stated in currentprimarydetails. Historicalcounty-record garage claim not treated as currentincluded workshop; deferred."
+        },
+        {
+          "url": "https://www.zillow.com/homedetails/790-Springdale-St-Akron-OH-44310/92344456_zpid/",
+          "finding": "Old$15,000 garagelead contradicted by Closed,soldJune18,2024 for$5,700. No currentactive offer imported."
+        },
+        {
+          "url": "https://bid.wisconsinsurplus.com/",
+          "finding": "2317E6thSt,Superior house/garage:15,000 is auctionstartingbid;indexedcurrentbid58,000. Not a fixedcashpurchase withinbudget."
+        },
+        {
+          "url": "https://www.shorewest.com/WI/Sheboygan/Plymouth/728-Wisconsin-57-Road-42-Plymouth-WI-53073/2034212-SCWMLS",
+          "finding": "$15,000 manufacturedhome explicitlyNO LAND,zeroacres,parkapplicationrequired. Not ownedland/garage purchase; excluded."
+        }
+      ],
+      "official_sources": [
+        {
+          "url": "https://www.cityofflint.com/documents/city-of-flint-zoning-code/",
+          "finding": "Officiallandingpage identifies currentcode amendedOrdinance240459 effectiveDecember7,2025;linked2025-ZC-v1.5.1-Ord.-240459-T-Amendments-Minor-Corrections.pdf exceedswebtool11MBlimit. Directrobotsrequest403; stopped. Olderindexed2024section50-64 not representedas currentpermission. No parcel-specificlegalconfirmation."
+        }
+      ],
+      "access": "Public search and live Chrome. No CAPTCHA, 403, robots or login bypass. No seller contact, booking, purchase or infrastructure changes. New Flint candidate deferred because availability conflicts and no photo was safely obtained.",
+      "flight_review": "97 новых датированных наблюдений VNO/LON/WAW/CPH: 86 usable, 11 исходящих путей >24ч исключены. Все 538 прошлых наблюдений сохранены; прежние 5 контрольных карточек добавлены к 26 историческим. LOT Standard €657,10 и Norse Classic £413 выбраны в обе стороны, TAP cash 3 465 DKK при 0 милях подтверждён на Review your trip. Подлёты €156/€175 проверены выбором обоих рейсов Google, багаж/ночёвки отдельно. Возврат из LGW имеет только 3ч15 между раздельными билетами: риск явно показан. Следующая недельная проверка 2 ноября.",
+      "next_states": [
+        "NH",
+        "VT",
+        "ME"
+      ],
+      "rotation_reason": "Next: under-covered New England after the Midwest garage search. Automatic discovery continues across all 50 states; no quota filler.",
+      "preservation": "All 904 IDs, first_seen, original photos and histories retained. One explicit sold-status change; archived asking price unchanged. Sicily and 947 protected files unchanged. All old flight quotes and provider cards retained with original dates.",
+      "validation": "Focused data tests, data validation, preservation assertions and public Pages/Chrome postflight recorded separately."
     }
   ],
-  "updated_at": "2026-10-25T03:11:35+00:00"
+  "updated_at": "2026-10-26T03:21:51+00:00"
 }
