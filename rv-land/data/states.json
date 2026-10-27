@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T03:24:07+00:00",
+  "updated_at": "2026-10-27T01:12:43+00:00",
   "states": [
     {
       "code": "AL",
@@ -11,8 +11,8 @@
         "ATL"
       ],
       "analysis": "Длинный рабочий сезон; влажность, грозы и локальное затопление. Искать ровный участок вне жилых ограничений.",
-      "total": 19,
-      "photo_candidates": 19,
+      "total": 20,
+      "photo_candidates": 20,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -54,7 +54,7 @@
       ],
       "analysis": "Много дешёвой земли. Пустынная жара, отсутствие воды и электричества; север штата холодный. Ремонт в Mohave требует отдельной проверки правил.",
       "total": 69,
-      "photo_candidates": 69,
+      "photo_candidates": 68,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -74,8 +74,8 @@
         "STL"
       ],
       "analysis": "Один из полезных рынков земли в бюджете. Осторожно с курортными subdivision, POA, оврагами и обещанием RV без документов.",
-      "total": 52,
-      "photo_candidates": 51,
+      "total": 53,
+      "photo_candidates": 52,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -115,8 +115,8 @@
         "DEN"
       ],
       "analysis": "San Luis Valley даёт много дешёвых лотов, но это высокогорье с морозом, ветром и дорогими коммуникациями.",
-      "total": 58,
-      "photo_candidates": 53,
+      "total": 60,
+      "photo_candidates": 55,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -178,8 +178,8 @@
         "MCO"
       ],
       "analysis": "Дешёвый перелёт и мягкая зима. Многие лоты без подъезда/коммуникаций, wetland, HOA или ураганный риск; летняя работа жаркая.",
-      "total": 40,
-      "photo_candidates": 40,
+      "total": 42,
+      "photo_candidates": 42,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -889,8 +889,8 @@
         "IAH"
       ],
       "analysis": "Много дешёвой земли на западе, обычно далеко от DFW/IAH. Жара, вода, электричество и подъезд определяют полную стоимость.",
-      "total": 41,
-      "photo_candidates": 41,
+      "total": 42,
+      "photo_candidates": 42,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -952,8 +952,8 @@
         "CLT"
       ],
       "analysis": "IAD может быть выгоден через UK. Недорогая земля чаще далеко на юго-западе; склон и длинный трансфер учитывать заранее.",
-      "total": 16,
-      "photo_candidates": 16,
+      "total": 17,
+      "photo_candidates": 17,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
