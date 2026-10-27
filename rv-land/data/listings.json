@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-27T01:12:43+00:00",
+  "updated_at": "2026-10-27T03:20:49+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -102492,9 +102492,9 @@
     },
     {
       "id": "ls-5438775",
-      "source_id": "5438775",
-      "source": "LandSearch",
-      "url": "https://www.landsearch.com/properties/8-two-brook-rd-wilmington-vt-05363/5438775",
+      "source_id": "5101723",
+      "source": "PrimeMLS / LXTN Realty",
+      "url": "https://lxtnrealty.com/vt-real-estate/wilmington/8-two-brook-road-mls-5101723",
       "title": "8 Two Brook Rd",
       "address": "8 Two Brook Rd",
       "city": "Wilmington",
@@ -102512,13 +102512,13 @@
       "lat": 42.898047,
       "lng": -72.893803,
       "coord_precision": "listing",
-      "status": "active",
+      "status": "pending",
       "status_basis": "live_public_page",
-      "source_crawled": "Live Chrome public page inspected 2026-10-12",
+      "source_crawled": "Live public Chrome page inspected 2026-10-27",
       "source_updated": "2026-10-09",
       "first_seen": "2026-10-12T02:14:41+00:00",
-      "last_seen": "2026-10-12T02:21:53+00:00",
-      "last_verified": "2026-10-12T02:21:53+00:00",
+      "last_seen": "2026-10-27T03:20:49+00:00",
+      "last_verified": "2026-10-27T03:20:49+00:00",
       "image_url": "assets/listings/af02d0991ab306b66c4c.jpg",
       "image_source_url": "https://www.landsearch.com/properties/8-two-brook-rd-wilmington-vt-05363/5438775",
       "image_credit": "Listing broker / LandSearch",
@@ -102546,7 +102546,8 @@
       "notes": [
         "Ассоциация Davis Brook: $75/год за пустой участок, $595/год после строительства; Cold Brook Fire District $75/год за пустой участок. После подключения sewer: $1,443/год по продавцу.",
         "Ручей и склон: сухая площадка, буферы, разрешения и правила ассоциации ещё не проверены.",
-        "Подключение канализации: $7,500 дополнительно по продавцу, если потребуется; это не сбор покупки. Изображение — исходная схема лота из объявления, не фото местности."
+        "Подключение канализации: $7,500 дополнительно по продавцу, если потребуется; это не сбор покупки. Изображение — исходная схема лота из объявления, не фото местности.",
+        "27.10.2026: LXTN Realty явно показывает Status Pending для MLS 5101723 при прежней asking price $10,000. LandSearch перенаправляет на общую выдачу; это само по себе не доказательство продажи. Старые поисковые снимки с $18,500 не заменяют подтверждённую цену $10,000. Дата изменения статуса неизвестна; source_updated 09.10 относится к ранее подтверждённому снижению цены."
       ],
       "flags": [
         "Не готовая RV-база: ассоциация, ручей, необходимость площадки и неизвестное право отдельного хранения/ремонта.",
@@ -102559,7 +102560,8 @@
         "https://wilmingtonvermont.us/departments/zoning-planning-office/zoning-ordinances/"
       ],
       "alternate_urls": [
-        "https://lxtnrealty.com/vt-real-estate/wilmington/8-two-brook-road-mls-5101723"
+        "https://lxtnrealty.com/vt-real-estate/wilmington/8-two-brook-road-mls-5101723",
+        "https://www.landsearch.com/properties/8-two-brook-rd-wilmington-vt-05363/5438775"
       ],
       "image_remote_url": "https://cdn.landsearch.com/listings/4VBS9/large/wilmington-vt-175750759.jpg",
       "photo_preserved_at": "2026-10-12T02:14:41+00:00",
@@ -102578,7 +102580,14 @@
           "source": "https://www.landsearch.com/properties/8-two-brook-rd-wilmington-vt-05363/5438775"
         }
       ],
-      "status_history": [],
+      "status_history": [
+        {
+          "date": "2026-10-27T03:20:49+00:00",
+          "from": "active",
+          "to": "pending",
+          "source": "https://lxtnrealty.com/vt-real-estate/wilmington/8-two-brook-road-mls-5101723"
+        }
+      ],
       "region": "Северо-восток",
       "screening_issue": null,
       "climate_note": "Мало результатов, снежная зима и непростой доступ. Климатическая оценка региона, не замер на участке.",
@@ -104071,12 +104080,14 @@
       "price_currency": "USD",
       "price_basis": "auction_start",
       "first_seen": "2026-10-14T01:08:42+00:00",
-      "last_seen": "2026-10-27T01:17:41Z",
-      "last_verified": "2026-10-27T01:17:41Z",
+      "last_seen": "2026-10-27T03:20:49+00:00",
+      "last_verified": "2026-10-27T03:20:49+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "27.10.2026: живая карточка прямо указывает opening bid $500; заголовок Cash price не означает фиксированную покупку. История asking $9,900 сохранена, total_known остаётся null; объект исключён из основной cash-выборки. В дисклеймере продавец предупреждает, что фото могут не показывать именно продаваемый parcel."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26554",
       "source_id": "26554",
@@ -104199,7 +104210,8 @@
       "previous_price": 9900.0,
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/arizona/029-acres-for-sale-in-eloy-arizona-26554"
-      ]
+      ],
+      "source_crawled": "Live public Chrome page inspected 2026-10-27"
     },
     {
       "price_currency": "USD",
@@ -116568,13 +116580,15 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-27T01:12:43+00:00",
-      "last_seen": "2026-10-27T01:15:12Z",
-      "last_verified": "2026-10-27T01:15:12Z",
+      "last_seen": "2026-10-27T03:20:49+00:00",
+      "last_verified": "2026-10-27T03:20:49+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
-      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "notes": [
+        "27.10.2026: живая карточка подтверждает цену, parcel и координаты. RV упоминается только временно при строительстве основного дома с разрешением; это не разрешение самостоятельной базы хранения или ремонта. Продавец сообщает о прежнем приобретении через tax sale и передаче Quit Claim Deed. Его заявление об отсутствии mapped flood/wetlands не проверено по официальным картам."
+      ],
+      "closing_costs": "Сумма обязательного document preparation fee неизвестна. Title/escrow, обследования, подключения и подготовка площадки также отдельно.",
       "id": "lc-26777",
       "source_id": "26777",
       "source": "LandCentury",
@@ -116589,7 +116603,7 @@
       "price": 14397.0,
       "known_fees": 0.0,
       "total_known": 14397.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "Полная cash price $14,397 в живой карточке. Продавец также требует разовый document preparation fee, но сумму не называет; она не включена в известный итог.",
       "acres": 0.98,
       "lat": 30.64295,
       "lng": -85.3212,
@@ -116604,7 +116618,7 @@
       "parcel": "02-2N-11-0087-1400-0230",
       "zoning": "Residential",
       "road_note": "Dirt Road",
-      "utility_note": "Please, contract county",
+      "utility_note": "Электричество и возможность подключения требуют подтверждения у округа/провайдера. По продавцу нужно установить колодец и септик; действующие подключения не подтверждены.",
       "taxes_note": "79.00",
       "source_categories": [
         "owner-finance-deals"
@@ -116622,7 +116636,8 @@
       "flags": [
         "В источнике есть указание на затопление: проверить FEMA и отметку площадки.",
         "Упоминаются заболоченные земли; пригодность площадки требует проверки.",
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Неизвестная сумма обязательного document preparation fee: полная стоимость покупки может превысить известную цену. Tax sale / Quit Claim Deed требуют проверки титула."
       ],
       "evidence_quote": "You should independently verify electrical connection costs, service requirements, water availability, expected well depth, septic suitability, installation costs, permit requirements, and any",
       "price_history": [
@@ -116688,19 +116703,27 @@
         "Сезон /10": 7,
         "Дорога /10": 4
       },
-      "score": 17
+      "score": 17,
+      "source_crawled": "Live public Chrome page inspected 2026-10-27",
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/florida/098-acres-for-sale-in-alford-florida-26777"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-27T01:12:43+00:00",
-      "last_seen": "2026-10-27T01:15:13Z",
-      "last_verified": "2026-10-27T01:15:13Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-10-27T03:20:49+00:00",
+      "last_verified": "2026-10-27T03:20:49+00:00",
+      "photo_kind": "Исходное рекламное изображение из объявления: вид леса со схемой границ и надписью продавца. Границы и соответствие конкретному parcel независимо не проверены.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
-      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "notes": [
+        "27.10.2026: живая карточка подтверждает цену, parcel и координаты. RV упоминается только временно при строительстве основного дома с разрешением; это не разрешение самостоятельной базы хранения или ремонта. Продавец сообщает о прежнем приобретении через tax sale и передаче Quit Claim Deed. Его заявление об отсутствии mapped flood/wetlands не проверено по официальным картам.",
+        "27.10.2026 исправлена автоматическая интерпретация: просьба проверить возможность подключения ошибочно дала on_site_claim; electricity возвращено в unknown. В сборщике добавлена проверка явной неопределённости."
+      ],
+      "closing_costs": "Сумма обязательного document preparation fee неизвестна. Title/escrow, обследования, подключения и подготовка площадки также отдельно.",
       "id": "lc-26776",
       "source_id": "26776",
       "source": "LandCentury",
@@ -116715,7 +116738,7 @@
       "price": 14797.0,
       "known_fees": 0.0,
       "total_known": 14797.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "Полная cash price $14,797 в живой карточке. Продавец также требует разовый document preparation fee, но сумму не называет; она не включена в известный итог.",
       "acres": 1.34,
       "lat": 30.64525,
       "lng": -85.31975,
@@ -116730,7 +116753,7 @@
       "parcel": "02-2N-11-0087-1400-0350",
       "zoning": "Residential",
       "road_note": "Dirt Road",
-      "utility_note": "Не подтверждены",
+      "utility_note": "Электричество и возможность подключения требуют подтверждения у округа/провайдера. По продавцу нужно установить колодец и септик; действующие подключения не подтверждены.",
       "taxes_note": "79.00",
       "source_categories": [
         "owner-finance-deals"
@@ -116740,7 +116763,7 @@
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
-      "electricity": "on_site_claim",
+      "electricity": "unknown",
       "water": "unknown",
       "sewer": "unknown",
       "no_hoa": "seller_claim",
@@ -116749,7 +116772,8 @@
         "В источнике есть указание на затопление: проверить FEMA и отметку площадки.",
         "Упоминаются заболоченные земли; пригодность площадки требует проверки.",
         "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
-        "Оценить уклон, разворот и стоимость ровной площадки."
+        "Оценить уклон, разворот и стоимость ровной площадки.",
+        "Неизвестная сумма обязательного document preparation fee: полная стоимость покупки может превысить известную цену. Tax sale / Quit Claim Deed требуют проверки титула."
       ],
       "evidence_quote": "Electricity availability still needs to be confirmed with Jackson County and the appropriate service provider.",
       "price_history": [
@@ -116811,11 +116835,16 @@
         "Цена /25": 5,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 3,
+        "Коммуникации /10": 0,
         "Сезон /10": 7,
         "Дорога /10": 4
       },
-      "score": 19
+      "score": 16,
+      "source_crawled": "Live public Chrome page inspected 2026-10-27",
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/florida/134-acres-for-sale-in-alford-florida-26776"
+      ]
     },
     {
       "price_currency": "USD",

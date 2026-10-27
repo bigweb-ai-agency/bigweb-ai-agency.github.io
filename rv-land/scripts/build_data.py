@@ -113,7 +113,7 @@ def flags_from_text(description,kind='land',road=None,utilities=None):
             result[tag]='available'
         if re.search(pat+r'.{0,25}(?:not available|none|not connected)|(?:no |without )'+pat,t+' '+u):
             result[tag]='none'
-        if tag=='electricity' and re.search(r'(?:electric|power).{0,45}(?:meter|connected)|meter.{0,20}in place',t+' '+u):
+        if tag=='electricity' and re.search(r'(?:electric|power).{0,45}(?:meter|connected)|meter.{0,20}in place',t+' '+u) and not re.search(r'(?:electric(?:ity)?|power).{0,25}not connected',t+' '+u):
             result[tag]='on_site_claim'
         if tag=='water' and re.search(r'(?:existing|operational|working) (?:water )?well|water[ /:]+connected',t+' '+u) and not re.search(r'water.{0,15}not connected',t+' '+u):
             result[tag]='on_site_claim'
@@ -128,6 +128,12 @@ def flags_from_text(description,kind='land',road=None,utilities=None):
         clause=required.group()
         for tag,pat in [('electricity',r'\b(?:electricity|power)\b'),('water',r'\b(?:well|water)\b'),('sewer',r'\b(?:septic|sewer)\b')]:
             if re.search(pat,clause):result[tag]='unknown'
+    # A request to verify whether a connection is possible is not an installed
+    # connection. Explicit uncertainty must override nearby positive keywords.
+    for tag,pat in [('electricity',r'(?:electricity|power)'),('water',r'water'),('sewer',r'(?:sewer|septic)')]:
+        uncertain=(rf'\b{pat}\s+availability\s+(?:still\s+)?needs?\s+to\s+be\s+confirmed\b'
+                   rf'|\b(?:verify|confirm|check)\s+whether\s+{pat}\s+can\s+be\s+connected\b')
+        if re.search(uncertain,t+' '+compact(utilities).lower()):result[tag]='unknown'
     risk_patterns=[
         (r'tax deed|quit.?claim','Налоговый/quitclaim deed: проверить право собственности, обременения и страхование титула.'),
         (r'flood (?:zone|plain|risk)|floodplain|floodway','В источнике есть указание на затопление: проверить FEMA и отметку площадки.'),
@@ -368,6 +374,9 @@ def merge_records(previous,incoming):
                 urls[x['url'].rstrip('/')]=prior_id
                 continue
             merged=dict(old,**x)
+            # A routine source refresh has an empty notes list; retain dated
+            # research caveats while allowing fresh prices and status to change.
+            merged['notes']=list(dict.fromkeys(old.get('notes',[])+x.get('notes',[])))
             merged['id']=old['id']
             merged['first_seen']=old.get('first_seen',NOW)
             merged['legacy']=old.get('legacy',False)

@@ -3861,7 +3861,112 @@
       "rotation_reason": "Next: under-covered New England after the Midwest garage search. Automatic discovery continues across all 50 states; no quota filler.",
       "preservation": "All 904 IDs, first_seen, original photos and histories retained. One explicit sold-status change; archived asking price unchanged. Sicily and 947 protected files unchanged. All old flight quotes and provider cards retained with original dates.",
       "validation": "Focused data tests, data validation, preservation assertions and public Pages/Chrome postflight recorded separately."
+    },
+    {
+      "date": "2026-10-27T03:20:49+00:00",
+      "states": [
+        "NH",
+        "VT",
+        "ME"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [],
+      "updated_ids": [
+        "lc-26554",
+        "lc-26776",
+        "lc-26777",
+        "ls-5438775"
+      ],
+      "automatic_added_ids": [
+        "lc-26777",
+        "lc-26776",
+        "lc-26774",
+        "lc-26770",
+        "lc-26653",
+        "lc-26652",
+        "lc-26553",
+        "lc-26552"
+      ],
+      "automatic_updated_ids": [
+        "lc-26554"
+      ],
+      "workflow": {
+        "run_id": 40431189879,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/40431189879",
+        "conclusion": "success",
+        "created_at": "2026-10-27T01:12:27Z",
+        "data_commit": "cd3981768f318e81ab1fdb21861292b2b1b4c996"
+      },
+      "monitor": {
+        "date": "2026-10-27T01:12:43+00:00",
+        "status": "partial",
+        "scanned_pages": 114,
+        "read_details": 74,
+        "added": 8,
+        "changed": 1,
+        "errors": 46
+      },
+      "source_errors": "Discovery and Pages 40431747891 succeeded; duplicate Pages 40431746856 cancelled. 114 pages,74 details,8 new land records,1 price/basis change,46 errors. All20 retained error examples are404. Fourteen prior rows received observations, including the retained source-identity hold and fee changes. No redundant fallback needed; errors do not change sale status.",
+      "findings": [
+        {
+          "id": "ls-5438775",
+          "finding": "Live LXTN Realty Status Pending for MLS5101723,asking$10,000 unchanged. LandSearch redirects to town search; older$18,500 snapshots not replayed. Original image and legal caveats preserved."
+        },
+        {
+          "id": "lc-26776",
+          "finding": "Live source says electricity availability needs confirmation and asks buyer to verify whether connection is possible. Corrected on_site_claim to unknown and added a tested parser guard. Both Alford lots carry an unspecified mandatory document fee,tax-sale/Quit Claim caveat,and RV wording limited to permitted home construction."
+        },
+        {
+          "id": "lc-26554",
+          "finding": "Live Chrome confirms auction opening bid$500 despite Cash price header. Previous asking$9,900 retained in history; no cash-buy recommendation. All8 automatic additions are vacant land,none an existing garage or confirmed personal-repair site."
+        },
+        {
+          "finding": "Routine source refreshes previously replaced dated manual notes with an empty list. merge_records now retains and deduplicates research notes while allowing fresh price and status changes; regression verified."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.landandfarm.com/property/0-8-acres-in-merrimack-county-nh-43072527/",
+          "finding": "NH 0AmherstDrive19-20,Webster,MLS5113126,$9,000,.8acre: paper-road access expressly by foot. No current vehicle route for a7mRV established; not imported."
+        },
+        {
+          "url": "https://www.raveis.com/prop/73512981/48-activity-r-richmond-nh-03470",
+          "finding": "NH 48ActivityR,MLS73512981,$10,900,.38acre: fresh index still discloses wetlands and$6,771 tax amount. Prior current-use tax concern unresolved; no newly suitable garage or safe access established."
+        },
+        {
+          "url": "https://balsamrealty.com/listing/1663741/9-ryan-lane-surry-me-04684/",
+          "finding": "ME live Chrome active$15,000,1acre,MLS1663741,coordinates44.487271,-68.523508; electricity at road,well/septic needed,no existing garage. Originalphoto CDN d1u39ah4l74ffy.cloudfront.net robots returned200 and disallowed image URL; stopped without downloading/importing. Realty of Maine additionally lists No Driveway. Deferred without image and parcel-specific repair confirmation."
+        },
+        {
+          "url": "https://www.coldwellbankerhomes.com/me/04418/",
+          "finding": "ME 176ERidgeRoad,Greenbush,MLS1677896,$15,000,800sqft camp: fresh index Pending. Older active August snapshots not adopted; no existing vehicle garage or new active opportunity established."
+        },
+        {
+          "url": "https://www.ratemyagent.com/real-estate-agency/davis-realty-of-nh-and-vt-inc/property-listings/lot-8-tenney-pond-road-newbury-bbb1ms",
+          "finding": "VT TenneyPondRoad nearly1acre RV-friendly seller wording but$18,500,above fullcashbudget; not imported."
+        },
+        {
+          "url": "https://chimneyhill.com/listings/our-listings/?r=21-40",
+          "finding": "Low-priced$4,000-$15,000 Wilmington house entries are seasonal/rental inventory leads rather than established full-price purchases; no owned-property purchase verified or imported."
+        }
+      ],
+      "official_sources": [
+        {
+          "url": "https://cms8.revize.com/revize/surryme/Conservation%20Commission/Surry%20Code%20of%20Ordinances%20v7.0%2012-1-2025.pdf",
+          "finding": "Consulted Surry Maine Code v7.0,PDFp115/printed3-21,III.10(D): distinguishes RV permanent-home use,travel-trailer use in authorized campgrounds,and storage when not in use on owner premises. It does not establish standalone repair permission for9RyanLane. Exact district and parcel applicability unknown; NH/NC Surry rules not used."
+        }
+      ],
+      "access": "Public search and live connected Chrome3. No seller contact,CAPTCHA/403/robots/login bypass,booking,purchase or infrastructure changes. Blocked photo source deferred without substitutes.",
+      "flight_review": "October26 weekly observations and selected carrier/positioning checks preserved byte-for-byte. Next reviewNovember2.",
+      "next_states": [
+        "DE",
+        "MD",
+        "VA"
+      ],
+      "rotation_reason": "Continue Mid-Atlantic garage search with under-ten Delaware; automatic discovery continues across50states. No quota filler.",
+      "preservation": "All912 current IDs,first_seen,prices,photos and histories preserved. Four manual factual clarifications including one explicit pending-status change. Flights,Sicily and all image assets unchanged.",
+      "validation": "26 focused data tests passed, including utility uncertainty, positive/negative connection controls, and preservation of dated research notes during source refresh. Data validation, preservation assertions and public postflight checked separately."
     }
   ],
-  "updated_at": "2026-10-26T03:21:51+00:00"
+  "updated_at": "2026-10-27T03:20:49+00:00"
 }

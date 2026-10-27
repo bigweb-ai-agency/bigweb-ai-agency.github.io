@@ -7,6 +7,31 @@ import cache_photos as photos
 import make_analysis as analysis
 
 class ResearchDataTests(unittest.TestCase):
+    def test_source_refresh_retains_research_notes_without_freezing_facts(self):
+        old={'id':'site','url':'https://example.org/site','price':10000,
+             'price_basis':'asking_cash','status':'active',
+             'notes':['2026-10-27: additional document fee amount unknown.']}
+        fresh=dict(old,price=9000,status='pending',notes=[])
+        result=b.merge_records([copy.deepcopy(old)],[fresh])[0]
+        self.assertEqual(result['notes'],old['notes'])
+        self.assertEqual((result['price'],result['status']),(9000,'pending'))
+        next_update=dict(fresh,notes=old['notes']+['2026-10-28: fee still unspecified.'])
+        result=b.merge_records([result],[next_update,next_update])[0]
+        self.assertEqual(result['notes'],next_update['notes'])
+
+    def test_unconfirmed_connection_does_not_become_installed_electricity(self):
+        cases=[
+            ('Electricity availability still needs to be confirmed with Jackson County and the appropriate service provider. You should independently verify whether electricity can be connected to the property.', 'unknown'),
+            ('You should independently verify whether electricity can be connected to the property.', 'unknown'),
+            ('Electricity is not connected.', 'none'),
+            ('Electricity is connected. Confirm connection costs with the provider.', 'on_site_claim'),
+            ('Electric meter in place.', 'on_site_claim'),
+            ('Electricity available at the road. Confirm connection costs.', 'available'),
+        ]
+        for description,expected in cases:
+            with self.subTest(description=description):
+                self.assertEqual(b.flags_from_text(description)['electricity'],expected)
+
     def test_auction_start_is_not_cash_purchase_with_or_without_structured_flag(self):
         base={'id':25642,'cashPrice':500000,'processingFee':0,'stateRegion':'Illinois',
               'type':'land','isPublished':True,'_source_url':'https://www.landcentury.com/example',
