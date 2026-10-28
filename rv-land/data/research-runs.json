@@ -3966,7 +3966,146 @@
       "rotation_reason": "Continue Mid-Atlantic garage search with under-ten Delaware; automatic discovery continues across50states. No quota filler.",
       "preservation": "All912 current IDs,first_seen,prices,photos and histories preserved. Four manual factual clarifications including one explicit pending-status change. Flights,Sicily and all image assets unchanged.",
       "validation": "26 focused data tests passed, including utility uncertainty, positive/negative connection controls, and preservation of dated research notes during source refresh. Data validation, preservation assertions and public postflight checked separately."
+    },
+    {
+      "date": "2026-10-28T03:20:25+00:00",
+      "states": [
+        "DE",
+        "MD",
+        "VA"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [],
+      "updated_ids": [
+        "lc-26402",
+        "lc-26882"
+      ],
+      "automatic_added_ids": [
+        "lc-26890",
+        "lc-26889",
+        "lc-26888",
+        "lc-26887",
+        "lc-26886",
+        "lc-26882",
+        "lc-26850",
+        "lc-26842",
+        "lc-26841",
+        "lc-26840",
+        "lc-26838",
+        "lc-26837",
+        "lc-26836",
+        "lc-26835",
+        "lc-26834",
+        "lc-26833",
+        "lc-26832",
+        "lc-26831",
+        "lc-26830",
+        "lc-26827",
+        "lc-26826",
+        "lc-26819",
+        "lc-26818",
+        "lc-26817",
+        "lc-26810",
+        "lc-26809",
+        "lc-26805",
+        "lc-26803",
+        "lc-26802",
+        "lc-26801",
+        "lc-26800",
+        "lc-26794",
+        "lc-26793",
+        "lc-26792",
+        "lc-26791",
+        "lc-26790",
+        "lc-26789",
+        "lc-26788",
+        "lc-26787",
+        "lc-26786",
+        "lc-26781",
+        "lc-26780",
+        "lc-26775",
+        "lc-26524"
+      ],
+      "automatic_updated_ids": [
+        "lc-26402"
+      ],
+      "workflow": {
+        "run_id": 40611905434,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/40611905434",
+        "conclusion": "success",
+        "created_at": "2026-10-28T00:55:59Z",
+        "data_commit": "c814b4eba2c29fd6445155f11e81b0994df24060"
+      },
+      "monitor": {
+        "date": "2026-10-28T00:56:16+00:00",
+        "status": "partial",
+        "scanned_pages": 115,
+        "read_details": 74,
+        "added": 44,
+        "changed": 1,
+        "errors": 46
+      },
+      "source_errors": "Discovery succeeded: 115 scanned pages, 74 details, 44 additions, 1 price change, 46 errors. All 20 retained error examples are HTTP 404. Pages 40612535015 succeeded; duplicate 40612534277 cancelled. No redundant fallback collection needed; errors do not alter availability.",
+      "findings": [
+        {
+          "id": "lc-26882",
+          "finding": "Live page: cash $8,000 plus $500 non-refundable transaction fee; other $500 of earnest money is credited, not extra cost. Corrected known total to $8,500. Source explicitly leaves legal access unverified on an interior lot; added persistent review hold, retained active status and actual aerial photograph. Electricity/water/sewer and repair remain unknown."
+        },
+        {
+          "id": "lc-26402",
+          "finding": "Live page has conflicting simultaneous prices: header $10,900, description Cash Discount Price $12,000, plus $100 document fee. Retained automatic observed price/history, added review hold and explicit caveat; did not claim a verified discount or revert the fresher observation."
+        },
+        {
+          "finding": "All 44 automatic additions are land records with preserved images, none an existing garage. No normalized state/county/parcel duplicate against the prior 912 rows. Fee parser now recognizes the observed non-refundable transaction fee separately from credited deposits and recurring/loan fees. Explicit legal-access uncertainty overrides nearby road keywords."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.landsearch.com/properties/delaware/search/under-10000",
+          "finding": "Fresh indexed under-budget results are monthly rentals, not cash property purchases. Delaware remains without a verified photo candidate; no quota filler."
+        },
+        {
+          "url": "https://www.coldwellbankerhomes.com/de/dover/lot-38-simms-woods-rd/pid_56177801/",
+          "finding": "DE $10,000 is a historical closed sale on March 4, 2024, not an available asking price."
+        },
+        {
+          "url": "https://www.coldwellbanker.com/de/dover/62-10th-st/lid-P00800000GUSvYjOTnUNpZyIYWEab1WMWaDv80ub",
+          "finding": "DE $10,000 refers to a price reduction; source is Sold September 21, 2026, above budget. Not imported."
+        },
+        {
+          "url": "https://ajbillig.com/auction/west-baltimore-garage-building/",
+          "finding": "MD six-space garage behind 3124 Windsor Ave, tax ID 0315293034030: auctioneer explicitly SOLD $25,000. $10,000 was opening bid, $5,000 deposit, buyer premium 6% with $3,000 minimum. No available budget garage."
+        },
+        {
+          "url": "https://www.trulia.com/home/19823-broad-st-midland-md-21532-36159714",
+          "finding": "MD $9,500 land lead MDAL2013570 has fresh indexed sale listing but old off-market mobile-home record elsewhere; not treated as garage or verified vehicle site. No new photo/parcel-access verification completed."
+        },
+        {
+          "url": "https://www.whitetailproperties.com/hunting-land/virginia/tazewell/tazewell-co-va-566-altizer",
+          "finding": "VA live public page For Sale $15,000 for 5.66 acres, coordinates 37.192902,-81.759613. County-road/pavement are seller claims; access, utilities, zoning and suitability expressly require verification, no building. Original gallery CDN robots returned HTTP403; stopped without download/import. Independent CB Advantage page also returned403, not bypassed."
+        },
+        {
+          "url": "https://www.coldwellbanker.com/va/richlands/156-oxford-st/lid-P00800000H4B9P9wfMwBHgNc3EgC6wYgKr6HZI6t",
+          "finding": "VA indexed $15,000, 0.32 acres, MLS104467 includes an expressly uninhabitable mobile home, not an existing garage. No new verified RV-repair opportunity established."
+        }
+      ],
+      "official_sources": [
+        {
+          "url": "https://tazewellcountyva.org/departments/buildinginspections/",
+          "finding": "Official Virginia county page requires building permits for garages/carports and describes separate town zoning and well/septic approvals. It does not confirm standalone RV storage or personal repair on the Bandy parcel. Illinois Tazewell code and the Eastern District draft were not treated as applicable adopted rules."
+        }
+      ],
+      "access": "Chrome capability absent in current inventory; used available in-app browser and public web search. No seller contact, login, CAPTCHA/403/robots bypass, purchase, booking or infrastructure changes.",
+      "flight_review": "October 26 observations retained byte-for-byte; next weekly review November 2.",
+      "next_states": [
+        "ID",
+        "MT",
+        "WY"
+      ],
+      "rotation_reason": "Revisit under-ten mountain states after Mid-Atlantic research; nightly public collector continues all 50 states.",
+      "preservation": "All 956 current records, IDs, first_seen, asking prices, statuses, images and histories preserved; two persistent review holds. No manual new listing without a safely preserved photo.",
+      "validation": "28 focused data tests passed; actual source text yields $500 one-time fee and unknown road access. Data validator, preservation checks and public postflight run separately."
     }
   ],
-  "updated_at": "2026-10-27T03:20:49+00:00"
+  "updated_at": "2026-10-28T03:20:25+00:00"
 }

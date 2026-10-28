@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-28T00:56:16+00:00",
+  "updated_at": "2026-10-28T03:20:25+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -105630,12 +105630,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-14T01:08:42+00:00",
-      "last_seen": "2026-10-28T01:01:29Z",
-      "last_verified": "2026-10-28T01:01:29Z",
+      "last_seen": "2026-10-28T03:20:25+00:00",
+      "last_verified": "2026-10-28T03:20:25+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "restriction_risk",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "28.10.2026: снижение панели с $12,000 до $10,900 не подтверждено согласованным текстом — в описании осталось $12,000. Оба наблюдения и история сохранены. Продажа по странице активна; это отметка проверки цены, а не сообщение о продаже или снятии."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26402",
       "source_id": "26402",
@@ -105651,7 +105653,7 @@
       "price": 10900.0,
       "known_fees": 100.0,
       "total_known": 11000.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "28.10.2026: ценовая панель показывает $10,900, но текст той же страницы сохраняет Cash Discount Price $12,000. Сбор $100 указан отдельно. $11,000 — арифметическая сумма по панели; согласованная цена покупки не подтверждена.",
       "acres": 1.68,
       "lat": 35.8695,
       "lng": -114.31705,
@@ -105713,7 +105715,7 @@
       ],
       "legal_source": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
       "region": "Юго-запад",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Много дешёвой земли. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -105756,12 +105758,18 @@
         "Сезон /10": 6,
         "Дорога /10": 9
       },
-      "score": 28,
+      "score": 20,
       "legacy": false,
       "previous_price": 12000.0,
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/arizona/168-acres-for-sale-in-willow-beach-arizona-26402"
-      ]
+      ],
+      "review_hold": {
+        "date": "2026-10-28T03:20:25+00:00",
+        "reason": "Противоречие в текущем объявлении: панель $10,900, описание cash price $12,000, плюс $100 document fee. Участок исключён из основной подборки до уточнения полной цены.",
+        "source": "https://www.landcentury.com/land-for-sale/arizona/168-acres-for-sale-in-willow-beach-arizona-26402",
+        "release_condition": "Получить однозначную актуальную cash price и обязательные сборы для parcel 342-07-085. Ограничения хранения и личного ремонта проверить отдельно."
+      }
     },
     {
       "price_currency": "USD",
@@ -118261,12 +118269,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-28T00:56:16+00:00",
-      "last_seen": "2026-10-28T00:59:00Z",
-      "last_verified": "2026-10-28T00:59:00Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-10-28T03:20:25+00:00",
+      "last_verified": "2026-10-28T03:20:25+00:00",
+      "photo_kind": "Аэрофото из объявления с красной границей участка. Граница и право проезда не проверены; это не геодезический план.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "28.10.2026: проверена живая страница. Обязательный невозвратный сбор $500 учтён отдельно от части депозита, идущей в цену. Продавец заявляет об отсутствии выявленных flood/wetland проблем; независимая проверка не выполнена. Электричество, вода, sewer и личный ремонт остаются неизвестными."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26882",
       "source_id": "26882",
@@ -118280,9 +118290,9 @@
       "zip": "28345",
       "kind": "land",
       "price": 8000.0,
-      "known_fees": 0.0,
-      "total_known": 8000.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "known_fees": 500,
+      "total_known": 8500,
+      "price_evidence": "28.10.2026: cash price $8,000. Из $1,000 при подписании $500 — невозвратный transaction fee, остальные $500 засчитываются в цену покупки. Известная сумма $8,500 до closing; взнос рассрочки $1,600 и ежемесячный servicing fee не добавлены к cash price.",
       "acres": 0.17,
       "lat": 34.89,
       "lng": -79.71845,
@@ -118296,7 +118306,7 @@
       "image_credit": "Seller / LandCentury",
       "parcel": "748101455657",
       "zoning": "R-20 Residential District",
-      "road_note": "Не подтверждён",
+      "road_note": "Внутренний участок без подтверждённого фронта на публичную дорогу. Видимый гравийный проезд от Boyette St не подтверждает юридическое право въезда; easement/полоса отвода не проверены.",
       "utility_note": "Не подтверждены",
       "taxes_note": "37",
       "source_categories": [
@@ -118312,11 +118322,10 @@
       "water": "unknown",
       "sewer": "unknown",
       "no_hoa": "seller_claim",
-      "road_access": "seller_claim",
+      "road_access": "unknown",
       "flags": [
-        "В источнике есть указание на затопление: проверить FEMA и отметку площадки.",
-        "Упоминаются заболоченные земли; пригодность площадки требует проверки.",
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Юридическое право проезда не подтверждено продавцом; положение участка и видимая дорога на фото не доказывают доступ для RV."
       ],
       "evidence_quote": "17-acre residential lot sits in the established Fairview Heights subdivision within the city limits of Hamlet, Richmond County, North Carolina.",
       "price_history": [
@@ -118339,7 +118348,7 @@
         }
       ],
       "region": "Юг",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Мягкий сезон и несколько шлюзов. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -118375,14 +118384,24 @@
       ],
       "msp_straight_km": 1597,
       "score_parts": {
-        "Цена /25": 17,
+        "Цена /25": 16,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 0,
         "Сезон /10": 8,
         "Дорога /10": 8
       },
-      "score": 33
+      "score": 20,
+      "review_hold": {
+        "date": "2026-10-28T03:20:25+00:00",
+        "reason": "Продавец прямо сообщает, что юридический подъезд не подтверждён. Участок внутри квартала; площадка недоступна для основной подборки RV до проверки права въезда.",
+        "source": "https://www.landcentury.com/land-for-sale/north-carolina/017-acres-for-sale-in-hamlet-north-carolina-26882",
+        "release_condition": "Проверить записанный easement/право проезда, физический въезд и разворот высокого кемпервана длиной около 7 м, а также допустимость хранения и личного ремонта."
+      },
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/north-carolina/017-acres-for-sale-in-hamlet-north-carolina-26882"
+      ]
     },
     {
       "price_currency": "USD",

@@ -65,6 +65,27 @@ class ResearchDataTests(unittest.TestCase):
         self.assertEqual(b.purchase_document_fee('Cash price: $3,895 Doc fee: waived'),0)
         self.assertEqual(b.purchase_document_fee('$300 non-refundable document fee.'),300)
 
+    def test_transaction_fee_is_separate_from_credited_earnest_money(self):
+        description=('Cash Discount Price: $8,000. A $1,000 earnest money deposit is required '
+                     'at signing. $500 is a non-refundable transaction fee and the remaining '
+                     '$500 would be applied to the purchase price at closing.')
+        self.assertEqual(b.purchase_document_fee(description),500)
+        for text in ('Monthly transaction fee: $35', '$35 transaction fee per month',
+                     'Loan transaction fee: $35', 'Transaction fee: waived',
+                     '$1,000 earnest money deposit applied to the purchase price.'):
+            with self.subTest(text=text):self.assertEqual(b.purchase_document_fee(text),0)
+
+    def test_qualified_legal_access_uncertainty_overrides_nearby_public_road(self):
+        description=('This lot does not have confirmed frontage on Boyette Street or any '
+                     'other dedicated public road. Physical access appears via a gravel drive, '
+                     'but legal access (a recorded easement or dedicated right-of-way) '
+                     'has not been verified.')
+        self.assertEqual(b.flags_from_text(description)['road_access'],'unknown')
+        self.assertEqual(b.flags_from_text('Legal access (recorded easement) has not been verified. '
+                                         'Paved public road nearby.')['road_access'],'unknown')
+        self.assertEqual(b.flags_from_text('Legal access is recorded with paved public road frontage.')
+                         ['road_access'],'seller_claim')
+
     def test_loan_and_recurring_fees_are_not_cash_purchase_fees(self):
         for text in ('Total Monthly Payment $205.49 Loan Processing Fee $9.00 Total Due Today $695.00',
                      'Financing processing fee: $9', 'Monthly processing fee: $9',

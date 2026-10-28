@@ -49,7 +49,7 @@ def purchase_document_fee(description):
     text=compact(description)
     amount=r'\$([\d,]+(?:\.\d{2})?)'
     fee=0
-    for label in re.finditer(r'\b(?:doc(?:ument)?(?:ation)?|processing)\s*fee\b',text,re.I):
+    for label in re.finditer(r'\b(?:doc(?:ument)?(?:ation)?|processing|transaction)\s*fee\b',text,re.I):
         before,after=text[:label.start()],text[label.end():]
         if re.search(r'\b(?:loan|financing|monthly|annual)\s+$',before,re.I):continue
         # In "Cash price: $3,895 Doc fee: $250", $250 belongs to the fee.
@@ -60,7 +60,7 @@ def purchase_document_fee(description):
             if re.match(r'\s*(?:(?:per|a|/)\s*(?:month|year|mo\b)|monthly|annually)',after[following.end():],re.I):continue
         else:
             if re.match(r'\s*[:\-]?\s*(?:waived|included|none)\b',after,re.I):continue
-            preceding=re.search(amount+r'\s*(?:non-refundable\s+)?$',before,re.I)
+            preceding=re.search(amount+r'\s*(?:is\s+(?:a\s+)?)?(?:non-refundable\s+)?$',before,re.I)
             if not preceding:continue
             value=preceding[1]
             if re.match(r'\s*(?:(?:per|a|/)\s*(?:month|year|mo\b)|monthly|annually)',after,re.I):continue
@@ -100,8 +100,10 @@ def flags_from_text(description,kind='land',road=None,utilities=None):
         result['road_access']='problem'
         result['flags'].append('Доступ для автомобиля не подтверждён или ограничен; физический проезд обязателен.')
     elif re.search(r'\b(?:road frontage|(?:direct |legal |vehicle |vehicular |road )?access)\b'
+                   r'(?:\s*\([^)]{0,120}\))?'
                    r'(?:\s+and\s+(?:direct |legal |road )?access)?\s*[:,-]?\s*'
-                   r'(?:(?:is|are|has|have)\s+)?(?:not\s+(?:yet\s+)?(?:been\s+)?(?:confirmed|established|verified)|unknown|unconfirmed|uncertain)\b',t+' '+rt):
+                   r'(?:(?:is|are|has|have)\s+)?(?:not\s+(?:yet\s+)?(?:been\s+)?(?:confirmed|established|verified)|unknown|unconfirmed|uncertain)\b'
+                   r'|\bdoes not have confirmed (?:road )?frontage\b',t+' '+rt):
         result['flags'].append('Продавец прямо указывает, что подъезд или дорожный фронт не подтверждены; требуется проверка доступа для RV.')
     elif re.search(r'paved|dirt road|gravel road|road frontage|public road|county road|maintained road',t+' '+rt):
         result['road_access']='seller_claim'
