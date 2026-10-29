@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-29T00:55:32+00:00",
+  "updated_at": "2026-10-29T03:23:40+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -123165,12 +123165,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-29T00:55:32+00:00",
-      "last_seen": "2026-10-29T00:58:27Z",
-      "last_verified": "2026-10-29T00:58:27Z",
+      "last_seen": "2026-10-29T03:23:40+00:00",
+      "last_verified": "2026-10-29T03:23:40+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "29.10.2026: Pioneer Park, R-1 по продавцу: минимум 1,000 sqft жилья (720 heated), запрет mobile/manufactured homes, camping/living только после начала строительства. Это не подтверждает RV storage. City amenity fee $80/год и налог $53.72/год — ежегодные расходы; $10 note service относится к рассрочке. Панель и описание цены расходятся; скидка не подтверждена."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26900",
       "source_id": "26900",
@@ -123186,7 +123188,7 @@
       "price": 4525.0,
       "known_fees": 250.0,
       "total_known": 4775.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "29.10.2026: панель $4,525; описание одновременно содержит $4,099.00 и $4,099.50 как cash discount, плюс $250 doc fee. Наблюдаемая цена панели и история сохранены; однозначная сумма покупки не установлена.",
       "acres": 0.4,
       "lat": 36.238532,
       "lng": -91.783222,
@@ -123200,7 +123202,7 @@
       "image_credit": "Seller / LandCentury",
       "parcel": "800-08696-000",
       "zoning": "Residential",
-      "road_note": "Paved Road",
+      "road_note": "Описание указывает dirt road, краткая карточка Paved Road. Покрытие и фактический въезд RV не подтверждены.",
       "utility_note": "City utilities available",
       "taxes_note": "53.72",
       "source_categories": [
@@ -123209,15 +123211,15 @@
         "vacant-land"
       ],
       "garage_note": "Размеры и состояние не подтверждены",
-      "rv_storage": "seller_claim",
-      "rv_occupancy": "unknown",
+      "rv_storage": "unknown",
+      "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "available",
       "water": "available",
       "sewer": "unknown",
       "no_hoa": "unknown",
-      "road_access": "seller_claim",
+      "road_access": "unknown",
       "flags": [
         "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
       ],
@@ -123242,7 +123244,7 @@
         }
       ],
       "region": "Юг",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Один из полезных рынков земли в бюджете. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -123285,19 +123287,31 @@
         "Сезон /10": 8,
         "Дорога /10": 5
       },
-      "score": 37
+      "score": 20,
+      "review_hold": {
+        "date": "2026-10-29T03:23:40+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/arkansas/040-acres-for-sale-in-horseshoe-bend-arkansas-26900",
+        "reason": "Несогласованные cash prices $4,525 / $4,099.00 / $4,099.50 в одной живой карточке и противоречие dirt/paved road. Исключён из основной подборки до уточнения.",
+        "release_condition": "Подтвердить единую полную cash price, сборы, покрытие и право подъезда; отдельно проверить допустимость RV-хранения и личного ремонта."
+      },
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arkansas/040-acres-for-sale-in-horseshoe-bend-arkansas-26900"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-29T00:55:32+00:00",
-      "last_seen": "2026-10-29T00:58:28Z",
-      "last_verified": "2026-10-29T00:58:28Z",
+      "last_seen": "2026-10-29T03:23:40+00:00",
+      "last_verified": "2026-10-29T03:23:40+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
-      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "notes": [
+        "29.10.2026: RV по заявлению продавца разрешён только во время строительства основного дома с разрешением; это не подтверждение самостоятельного хранения или личного ремонта. Электричество неизвестно, well и septic предстоит установить. Продавец заявляет об отсутствии mapped flood/wetland проблем; независимая проверка не выполнена. Уклон 5–8% по источнику; въезд и разворот RV не проверены."
+      ],
+      "closing_costs": "Неизвестная сумма обязательного document preparation fee; title/escrow, обследования, подключения и подготовка также отдельно.",
       "id": "lc-26899",
       "source_id": "26899",
       "source": "LandCentury",
@@ -123312,7 +123326,7 @@
       "price": 14397.0,
       "known_fees": 0.0,
       "total_known": 14397.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "29.10.2026: живая карточка показывает полную cash price $14,397. Обязательный разовый document preparation fee оплачивается при closing, но сумма не названа и не включена в известный итог. Рассрочка и резервирование не являются ценой покупки.",
       "acres": 1.18,
       "lat": 30.6497,
       "lng": -85.3285,
@@ -123343,9 +123357,8 @@
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
-        "В источнике есть указание на затопление: проверить FEMA и отметку площадки.",
-        "Упоминаются заболоченные земли; пригодность площадки требует проверки.",
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Обязательный document preparation fee без указанной суммы: окончательная стоимость неизвестна и может превысить $15,000. Прежний tax sale / Quit Claim Deed требуют проверки титула."
       ],
       "evidence_quote": "You should independently verify electrical service, water availability, well depth, septic suitability, installation costs, and permit requirements before making plans.",
       "price_history": [
@@ -123411,18 +123424,24 @@
         "Сезон /10": 7,
         "Дорога /10": 4
       },
-      "score": 17
+      "score": 17,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/florida/118-acres-for-sale-in-alford-florida-26899"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-29T00:55:32+00:00",
-      "last_seen": "2026-10-29T00:58:30Z",
-      "last_verified": "2026-10-29T00:58:30Z",
+      "last_seen": "2026-10-29T03:23:40+00:00",
+      "last_verified": "2026-10-29T03:23:40+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "29.10.2026: четыре смежных лота Deming Ranchettes Unit 49 Block 18 Tracts 32–35. Первый APN противоречив внутри страницы; не исправлен догадкой. Описание разрешает RV только кратковременно/с временными ограничениями и предупреждает против full-time living. Хранение и личный ремонт остаются unknown; $100 exchange fee относится к обмену другим участком, не к покупке."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26894",
       "source_id": "26894",
@@ -123438,7 +123457,7 @@
       "price": 6000.0,
       "known_fees": 150.0,
       "total_known": 6150.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "29.10.2026: живая карточка подтверждает cash $6,000 плюс $150 doc fee. $150 down и 39 платежей по $150 — отдельная рассрочка; они не добавлены повторно.",
       "acres": 2.0,
       "lat": 32.1314,
       "lng": -107.7728,
@@ -123452,8 +123471,8 @@
       "image_credit": "Seller / LandCentury",
       "parcel": "3052147142044, 3052147129244, 3052147118244, 3052147107245",
       "zoning": "Residential",
-      "road_note": "Dirt Road",
-      "utility_note": "Electricity available, septic and well required",
+      "road_note": "По описанию CII Los Vecinos SW; юридический и физический въезд, ширина и разворот RV не проверены.",
+      "utility_note": "Power nearby, needs to be installed — заявление продавца. Well и septic требуются; готовых подключений не подтверждено.",
       "taxes_note": "56",
       "source_categories": [
         "residential-buildable-land",
@@ -123464,7 +123483,7 @@
       ],
       "garage_note": "Размеры и состояние не подтверждены",
       "rv_storage": "unknown",
-      "rv_occupancy": "seller_claim",
+      "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "available",
@@ -123496,7 +123515,7 @@
         }
       ],
       "region": "Юго-запад",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Много доступной земли, однако высота и мороз неоднородны. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -123539,19 +123558,31 @@
         "Сезон /10": 6,
         "Дорога /10": 3
       },
-      "score": 30
+      "score": 20,
+      "review_hold": {
+        "date": "2026-10-29T03:23:40+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/new-mexico/2-acres-for-sale-in-sunshine-new-mexico-26894",
+        "reason": "В первом из четырёх APN расходятся цифры: поле Parcel 3052147142044, описание 3052147140244. Состав продаваемого пакета требует уточнения; старое поле parcel сохранено.",
+        "release_condition": "Сверить все четыре parcel и границы продаваемого пакета по официальному кадастру и документам. Отдельно проверить подъезд, RV storage и личный ремонт."
+      },
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/new-mexico/2-acres-for-sale-in-sunshine-new-mexico-26894"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-29T00:55:32+00:00",
-      "last_seen": "2026-10-29T00:58:31Z",
-      "last_verified": "2026-10-29T00:58:31Z",
+      "last_seen": "2026-10-29T03:23:40+00:00",
+      "last_verified": "2026-10-29T03:23:40+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
-      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "notes": [
+        "29.10.2026: RV по заявлению продавца разрешён не более 18 месяцев во время строительства дома; это не подтверждение самостоятельного хранения или личного ремонта. Электричество неизвестно, well и septic предстоит установить. Продавец заявляет об отсутствии mapped flood/wetland проблем; независимая проверка не выполнена. Уклон 5–8% по источнику; въезд и разворот RV не проверены."
+      ],
+      "closing_costs": "Неизвестная сумма обязательного document preparation fee; title/escrow, обследования, подключения и подготовка также отдельно.",
       "id": "lc-26892",
       "source_id": "26892",
       "source": "LandCentury",
@@ -123566,7 +123597,7 @@
       "price": 14397.0,
       "known_fees": 0.0,
       "total_known": 14397.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "29.10.2026: живая карточка показывает полную cash price $14,397. Обязательный разовый document preparation fee оплачивается при closing, но сумма не названа и не включена в известный итог. Рассрочка и резервирование не являются ценой покупки.",
       "acres": 1.17,
       "lat": 30.64925,
       "lng": -85.3265,
@@ -123597,9 +123628,8 @@
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
-        "В источнике есть указание на затопление: проверить FEMA и отметку площадки.",
-        "Упоминаются заболоченные земли; пригодность площадки требует проверки.",
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Обязательный document preparation fee без указанной суммы: окончательная стоимость неизвестна и может превысить $15,000. Прежний tax sale / Quit Claim Deed требуют проверки титула."
       ],
       "evidence_quote": "You should independently verify electrical service, water availability, well depth, septic suitability, installation costs, and permit requirements before making plans.",
       "price_history": [
@@ -123664,6 +123694,136 @@
         "Коммуникации /10": 0,
         "Сезон /10": 7,
         "Дорога /10": 4
+      },
+      "score": 17,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/florida/117-acres-for-sale-in-alford-florida-26892"
+      ]
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-10-29T03:23:40+00:00",
+      "last_seen": "2026-10-29T03:23:40+00:00",
+      "last_verified": "2026-10-29T03:23:40+00:00",
+      "photo_kind": "Наземное фото свободного участка из объявления. Здания на заднем плане не подтверждены как часть продажи; границы не размечены.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [
+        "29.10.2026: проверена живая страница ACTIVE, полная цена $15,000, четыре фото. В таблице 7,840.8 sqft / 0.18 acre, в описании 7,910 sqft; точную площадь и parcel проверить по кадастру.",
+        "Официальная страница города ссылается на municipal code 2013 и отдельный обновлённый zoning PDF Ord 3-2020. Новый PDF превышает предел чтения web-инструмента; старую редакцию не трактуем как подтверждение действующего разрешения. RV occupancy, storage и personal repair неизвестны."
+      ],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "on_site_claim",
+      "sewer": "available",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "flags": [
+        "Цена на верхней границе бюджета; closing, обследования, подключения и подготовка оплачиваются отдельно.",
+        "Продавец сообщает о запрете mobile homes в подразделении Dolling; tiny/modular homes не означают разрешение RV-хранения или ремонта.",
+        "Противоречивые сведения об электричестве; готовое подключение не подтверждено."
+      ],
+      "evidence_quote": null,
+      "id": "mls-wy-20262925",
+      "source_id": "20262925",
+      "source": "Trulia / Wyoming MLS",
+      "url": "https://www.trulia.com/home/505-idaho-st-medicine-bow-wy-82329-463246576",
+      "title": "505 Idaho St — городской участок",
+      "address": "505 Idaho St",
+      "city": "Medicine Bow",
+      "state": "WY",
+      "county": "Carbon",
+      "zip": "82329",
+      "kind": "land",
+      "price": 15000,
+      "known_fees": 0,
+      "total_known": 15000,
+      "acres": 0.18,
+      "lat": 41.8995552,
+      "lng": -106.2060089,
+      "coord_precision": "listing",
+      "parcel": null,
+      "mls": "WYOMLS 20262925",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_crawled": "live Chrome page, 2026-10-29",
+      "image_source_url": "https://www.trulia.com/home/505-idaho-st-medicine-bow-wy-82329-463246576",
+      "image_credit": "Haven Real Estate / Trulia",
+      "price_evidence": "Полная запрашиваемая цена $15,000 на живой странице Chrome; не взнос, аренда или цена за акр. Дополнительные обязательные сборы не установлены, closing и подготовка отдельно.",
+      "garage_note": "Пустой участок; существующий гараж отсутствует по объявлению. Постройки за участком на фото не входят в подтверждённое предложение.",
+      "zoning": "Residential / Dolling по MLS; точная зона и допустимость самостоятельной RV-базы не подтверждены.",
+      "road_note": "City Street и круглогодичный доступ по продавцу. Координаты из видимой карты объявления, не survey; въезд и разворот 7-метрового кемпервана не проверены.",
+      "utility_note": "Water taps already in place / Water Connected — заявление продавца. Sewer available; Electric At Street противоречит Electricity Not Available в таблице, поэтому электричество unknown. Работоспособность и стоимость подключений не проверены.",
+      "legal_source": "https://www.medicinebow.org/town-ordinances",
+      "price_history": [
+        {
+          "date": "2026-10-29T03:23:40+00:00",
+          "price": 15000,
+          "price_basis": "asking_cash",
+          "source": "https://www.trulia.com/home/505-idaho-st-medicine-bow-wy-82329-463246576"
+        }
+      ],
+      "status_history": [],
+      "image_url": "assets/listings/1e6a0d921b7807d9f9a4.webp",
+      "image_remote_url": "https://www.trulia.com/pictures/thumbs_5/zillowstatic/fp/7c71b41d8d78e6c4904ebc38ad13ff1c-full.webp",
+      "photo_preserved_at": "2026-10-29T03:23:40+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/1e6a0d921b7807d9f9a4.webp",
+          "source": "https://www.trulia.com/home/505-idaho-st-medicine-bow-wy-82329-463246576",
+          "remote_url": "https://www.trulia.com/pictures/thumbs_5/zillowstatic/fp/7c71b41d8d78e6c4904ebc38ad13ff1c-full.webp",
+          "date": "2026-10-29T03:23:40+00:00"
+        }
+      ],
+      "region": "Горный",
+      "screening_issue": null,
+      "climate_note": "Недостаточно хороших результатов; ветер, мороз и удалённость. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "DEN",
+          "name": "Denver International Airport",
+          "straight_km": 261,
+          "drive_km_estimate": 326,
+          "drive_hours_estimate": 4.3,
+          "flight_min_eur": 646,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 1007,
+          "drive_km_estimate": 1259,
+          "drive_hours_estimate": 16.8,
+          "flight_min_eur": 575,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "PHX",
+          "name": "Phoenix Sky Harbor International Airport",
+          "straight_km": 1070,
+          "drive_km_estimate": 1338,
+          "drive_hours_estimate": 17.8,
+          "flight_min_eur": 710,
+          "flight_origin": "WAW",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1099,
+      "score_parts": {
+        "Цена /25": 5,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 4,
+        "Сезон /10": 2,
+        "Дорога /10": 6
       },
       "score": 17
     }

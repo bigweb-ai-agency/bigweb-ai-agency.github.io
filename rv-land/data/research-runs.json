@@ -4105,7 +4105,114 @@
       "rotation_reason": "Revisit under-ten mountain states after Mid-Atlantic research; nightly public collector continues all 50 states.",
       "preservation": "All 956 current records, IDs, first_seen, asking prices, statuses, images and histories preserved; two persistent review holds. No manual new listing without a safely preserved photo.",
       "validation": "28 focused data tests passed; actual source text yields $500 one-time fee and unknown road access. Data validator, preservation checks and public postflight run separately."
+    },
+    {
+      "date": "2026-10-29T03:23:40+00:00",
+      "states": [
+        "ID",
+        "MT",
+        "WY"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [
+        "mls-wy-20262925"
+      ],
+      "updated_ids": [
+        "lc-26899",
+        "lc-26892",
+        "lc-26900",
+        "lc-26894"
+      ],
+      "automatic_added_ids": [
+        "lc-26900",
+        "lc-26899",
+        "lc-26894",
+        "lc-26892"
+      ],
+      "automatic_updated_ids": [
+        "lc-25821"
+      ],
+      "workflow": {
+        "run_id": 40797160441,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/40797160441",
+        "conclusion": "success",
+        "created_at": "2026-10-29T00:55:15Z",
+        "data_commit": "9e4de7cdb6eb1fb4acd7541729bb69adf4ea442e"
+      },
+      "monitor": {
+        "date": "2026-10-29T00:55:32+00:00",
+        "status": "partial",
+        "scanned_pages": 115,
+        "read_details": 74,
+        "added": 4,
+        "changed": 0,
+        "errors": 46
+      },
+      "source_errors": "Discovery succeeded: 115 scanned pages, 74 details, 4 additions, 46 errors. Retained source-error examples are 404; no status changed because of access errors. Pages40797844109 succeeded; duplicate40797843563 cancelled. No redundant fallback needed.",
+      "findings": [
+        {
+          "id": "mls-wy-20262925",
+          "finding": "Live Chrome ACTIVE full asking $15,000,0.18acre,MLS20262925. Original photo saved with HTTP200 after robots allowed; visually inspected vacant ground, background buildings not claimed. Exact point from visible listing map. Water taps are seller claim; electricity contradictory. No garage or RV repair permission established."
+        },
+        {
+          "id": "lc-26900",
+          "finding": "Live panel $4,525 vs description $4,099/$4,099.50 plus $250fee. Added review hold without guessing cash discount. Removed unsupported RV-storage claim; occupancy conditional on construction, dirt/paved road unresolved."
+        },
+        {
+          "id": "lc-26894",
+          "finding": "Cash $6,000+$150doc confirmed. First APN differs between page detail and description (3052147142044 vs3052147140244); persistent hold, previous identity retained. RV use expressly time-restricted; personal repair unknown."
+        },
+        {
+          "ids": [
+            "lc-26899",
+            "lc-26892"
+          ],
+          "finding": "Cash $14,397 each plus unspecified mandatory document fee. Added fee/title and conditional-RV caveats. Removed misleading positive flood/wetland flags: source claims no mapped concerns, independent risk unknown."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.homefront.com/homes/id/nampa/property/447-1st-st-n-4930515e-239c-3185-af90-2810306787f7",
+          "finding": "ID4471stStN:$15,000 explicitly initial auction bid; online bidding startsOctober26. Not fixed cash price."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/idaho/search/under-15000",
+          "finding": "Indexed low-price results are monthly rentals or existing pending Gilmore lot; no new full-cash workshop. Homes.com budget-land page returned no matching listings."
+        },
+        {
+          "url": "https://homefinder.com/realestateandhomes-detail/Oregon-Ave_Butte_MT_59701_M79418-21282",
+          "finding": "MT actual22x24garage oncitylot is$49,000; $10k ispricechange, notpurchaseprice. Abovebudget and7mRVfit unverified."
+        },
+        {
+          "url": "https://www.zillow.com/homedetails/Arkansas-Lode-5859-Mc-Allister-MT-59740/456348699_zpid/",
+          "finding": "MT$7,102 is undivided1/27interest in18.41ac,seasonalaccess. Not exclusive owned RV-base parcel; not imported."
+        },
+        {
+          "url": "https://www.landandfarm.com/property/land-mt-39709952/",
+          "finding": "MTVananda$12,000 is existing Forsyth lead; older active snapshot not used to overwrite newer pending evidence."
+        },
+        {
+          "url": "https://www.redfin.com/WY/Hanna/2205-2nd-St-82327/home/134407263",
+          "finding": "WY liveForSale$10,000,MLS20256606,4800sqft,utilitiesnearby. OnlyStreetViewdisplay, no genuine listing photograph verified. Deferred. IndependentColdwellBanker page403 stopped."
+        }
+      ],
+      "official_sources": [
+        {
+          "url": "https://www.medicinebow.org/town-ordinances",
+          "finding": "Official page provides2013municipalcode and separate updatedzoning fileOrd3-2020. Updated30MBPDF exceeds webtoolcontentlimit; no adopted-current parcel-specific storage/repair permission established."
+        }
+      ],
+      "access": "Connected Chrome and public web used. No contacts, login, CAPTCHA/403/robots bypass, purchase, booking or infrastructure changes.",
+      "flight_review": "October26 observations unchanged; next weekly review November2.",
+      "next_states": [
+        "WA",
+        "HI",
+        "ND"
+      ],
+      "rotation_reason": "Under-ten states not covered by the recent manual rotation; collector continues all50.",
+      "preservation": "All960 prior IDs,first_seen,prices,statuses,parcels,photos and histories preserved; one genuine-photo addition, four manual clarifications, two review holds.",
+      "validation": "Focused data tests,validator,preservation checks and public map/photo postflight are recorded separately."
     }
   ],
-  "updated_at": "2026-10-28T03:20:25+00:00"
+  "updated_at": "2026-10-29T03:23:40+00:00"
 }
