@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-30T00:56:42+00:00",
+  "updated_at": "2026-10-30T03:24:18+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -87468,12 +87468,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-10-30T01:02:28Z",
-      "last_verified": "2026-10-30T01:02:28Z",
+      "last_seen": "2026-10-30T03:24:18+00:00",
+      "last_verified": "2026-10-30T03:24:18+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "30.10.2026: живая карточка явно показывает Sold; статус продажи подтверждён, старые фото и история сохранены. Поле parcel 707-05-790 расходится с APN 70711490 в описании; прежнее значение не заменено догадкой."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-25806",
       "source_id": "26412",
@@ -87631,6 +87633,12 @@
           "basis": "source_version_conflict_correction",
           "source": "https://www.landcentury.com/land-for-sale/colorado/423-acres-for-sale-in-san-luis-colorado-26412",
           "finding": "Kept source 26412 updated October 2 at $6,499 instead of source 25806 updated August 10 at $7,999 for the same normalized parcel. The older URL was fetched later, but its source facts are older. Both URLs, observed prices and photographs remain in history; no fresh observation of the newer URL claimed."
+        },
+        {
+          "date": "2026-10-30T03:24:18+00:00",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/423-acres-for-sale-in-san-luis-colorado-26412",
+          "basis": "live_public_page",
+          "finding": "Chrome price panel explicitly marks this listing Sold. Existing status history and older alternative source URL retained."
         }
       ]
     },
@@ -87638,12 +87646,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-10-30T01:02:15Z",
-      "last_verified": "2026-10-30T01:02:15Z",
+      "last_seen": "2026-10-30T03:24:18+00:00",
+      "last_verified": "2026-10-30T03:24:18+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "30.10.2026: 2.3 acres у Smackover Creek; продавец не подтверждает прямой подъезд, не заявляет frontage и сообщает об отсутствии survey. No zoning on file не равно разрешению хранения или ремонта. Цена панели снизилась до $8,900, но описание $10,000 не обновлено; $100 document fee отдельно."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-25803",
       "source_id": "25803",
@@ -87659,7 +87669,7 @@
       "price": 8900.0,
       "known_fees": 100.0,
       "total_known": 9000.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "30.10.2026: живая панель cash price $8,900, но описание сохраняет $10,000 cash discount и $100 document fee. История снижения сохранена; единая полная цена покупки не подтверждена.",
       "acres": 2.3,
       "lat": 33.3666,
       "lng": -92.63615,
@@ -87673,7 +87683,7 @@
       "image_credit": "Seller / LandCentury",
       "parcel": "026-00016-000R",
       "zoning": "No Zoning",
-      "road_note": "No Confirmed Access",
+      "road_note": "Продавец прямо сообщает об отсутствии подтверждённого прямого подъезда и не заявляет дорожный фронт. Доступ должен быть юридически и физически установлен; близкая дорога сама по себе его не подтверждает.",
       "utility_note": "Не подтверждены",
       "taxes_note": "2.87",
       "source_categories": [
@@ -87689,7 +87699,7 @@
       "water": "unknown",
       "sewer": "unknown",
       "no_hoa": "unknown",
-      "road_access": "seller_claim",
+      "road_access": "unknown",
       "flags": [
         "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
       ],
@@ -87719,7 +87729,7 @@
         }
       ],
       "region": "Юг",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Один из полезных рынков земли в бюджете. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -87762,12 +87772,18 @@
         "Сезон /10": 8,
         "Дорога /10": 3
       },
-      "score": 26,
+      "score": 20,
       "legacy": false,
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/arkansas/23-acres-for-sale-in-norphlet-arkansas-25803"
       ],
-      "previous_price": 10000.0
+      "previous_price": 10000.0,
+      "review_hold": {
+        "date": "2026-10-30T03:24:18+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/arkansas/23-acres-for-sale-in-norphlet-arkansas-25803",
+        "reason": "Цена панели $8,900 противоречит $10,000 в описании; прямой подъезд не подтверждён. Исключён до проверки цены и доступа для RV.",
+        "release_condition": "Согласованная полная cash price со сборами и доказанный юридический и физический автомобильный подъезд."
+      }
     },
     {
       "price_currency": "USD",
@@ -124102,12 +124118,15 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-30T00:56:42+00:00",
-      "last_seen": "2026-10-30T00:59:34Z",
-      "last_verified": "2026-10-30T00:59:34Z",
+      "last_seen": "2026-10-30T03:24:18+00:00",
+      "last_verified": "2026-10-30T03:24:18+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "30.10.2026: LC26914 — альтернативный пакет двух участков 10733291 и 10733292 за $12,000; те же участки отдельно представлены LC26916 и LC26915 по $6,500. Это два участка, а не три независимых объекта. Все три объявления дают одну GPS-точку; она не подтверждает отдельные границы или въезд. RV storage и личный ремонт не подтверждены.",
+        "RV по продавцу — recreational/camping с соблюдением правил округа; это не подтверждение постоянной стоянки или личной мастерской."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26916",
       "source_id": "26916",
@@ -124123,7 +124142,7 @@
       "price": 6500.0,
       "known_fees": 0.0,
       "total_known": 6500.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "30.10.2026: cash price $6,500 за один участок; $125 down не является ценой покупки. Тот же участок входит в пакет LC26914 за $12,000. Дополнительные сборы не установлены.",
       "acres": 1.0,
       "lat": 34.3679167,
       "lng": -109.60125,
@@ -124137,7 +124156,7 @@
       "image_credit": "Seller / LandCentury",
       "parcel": "10733291",
       "zoning": "Residential",
-      "road_note": "Dirt Road",
+      "road_note": "Dirt Road по продавцу. Общая точка с соседним лотом и пакетом; юридический доступ, границы, проезд и разворот высокого 7-метрового RV не проверены.",
       "utility_note": "No utilities",
       "taxes_note": null,
       "source_categories": [
@@ -124149,7 +124168,7 @@
       ],
       "garage_note": "Размеры и состояние не подтверждены",
       "rv_storage": "unknown",
-      "rv_occupancy": "seller_claim",
+      "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "none",
@@ -124224,18 +124243,25 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 31
+      "score": 31,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/1-acres-for-sale-in-concho-arizona-26916"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-30T00:56:42+00:00",
-      "last_seen": "2026-10-30T00:59:35Z",
-      "last_verified": "2026-10-30T00:59:35Z",
+      "last_seen": "2026-10-30T03:24:18+00:00",
+      "last_verified": "2026-10-30T03:24:18+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "30.10.2026: LC26914 — альтернативный пакет двух участков 10733291 и 10733292 за $12,000; те же участки отдельно представлены LC26916 и LC26915 по $6,500. Это два участка, а не три независимых объекта. Все три объявления дают одну GPS-точку; она не подтверждает отдельные границы или въезд. RV storage и личный ремонт не подтверждены.",
+        "RV по продавцу — recreational/camping с соблюдением правил округа; это не подтверждение постоянной стоянки или личной мастерской. Продлённое пребывание продавец связывает с одобренным septic connection."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26915",
       "source_id": "26915",
@@ -124251,7 +124277,7 @@
       "price": 6500.0,
       "known_fees": 0.0,
       "total_known": 6500.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "30.10.2026: cash price $6,500 за один участок; $125 down не является ценой покупки. Тот же участок входит в пакет LC26914 за $12,000. Дополнительные сборы не установлены.",
       "acres": 1.0,
       "lat": 34.3679167,
       "lng": -109.60125,
@@ -124265,7 +124291,7 @@
       "image_credit": "Seller / LandCentury",
       "parcel": "10733292",
       "zoning": "Residential",
-      "road_note": "Dirt Road",
+      "road_note": "Dirt Road по продавцу. Общая точка с соседним лотом и пакетом; юридический доступ, границы, проезд и разворот высокого 7-метрового RV не проверены.",
       "utility_note": "No utilities",
       "taxes_note": null,
       "source_categories": [
@@ -124353,18 +124379,24 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 31
+      "score": 31,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/1-acres-for-sale-in-concho-arizona-26915"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-30T00:56:42+00:00",
-      "last_seen": "2026-10-30T00:59:37Z",
-      "last_verified": "2026-10-30T00:59:37Z",
+      "last_seen": "2026-10-30T03:24:18+00:00",
+      "last_verified": "2026-10-30T03:24:18+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "30.10.2026: LC26914 — альтернативный пакет двух участков 10733291 и 10733292 за $12,000; те же участки отдельно представлены LC26916 и LC26915 по $6,500. Это два участка, а не три независимых объекта. Все три объявления дают одну GPS-точку; она не подтверждает отдельные границы или въезд. RV storage и личный ремонт не подтверждены."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26914",
       "source_id": "26914",
@@ -124380,7 +124412,7 @@
       "price": 12000.0,
       "known_fees": 0.0,
       "total_known": 12000.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "30.10.2026: cash price $12,000 за два смежных участка вместе. $225 down и месячный платёж относятся к рассрочке. Дополнительные сборы не установлены; closing отдельно.",
       "acres": 2.0,
       "lat": 34.3679167,
       "lng": -109.60125,
@@ -124394,7 +124426,7 @@
       "image_credit": "Seller / LandCentury",
       "parcel": "10733291-92",
       "zoning": "Residential",
-      "road_note": "Dirt Road",
+      "road_note": "Dirt Road по продавцу. Общая точка с соседним лотом и пакетом; юридический доступ, границы, проезд и разворот высокого 7-метрового RV не проверены.",
       "utility_note": "No utilities",
       "taxes_note": "15.28",
       "source_categories": [
@@ -124435,7 +124467,7 @@
         }
       ],
       "region": "Юго-запад",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Много дешёвой земли. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -124478,7 +124510,17 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 22
+      "score": 20,
+      "review_hold": {
+        "date": "2026-10-30T03:24:18+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/arizona/2-acres-for-sale-in-concho-arizona-26914",
+        "reason": "Альтернативный пакет тех же двух участков LC26915 и LC26916. Сохранён в базе, исключён из основной выборки, чтобы не считать его третьим независимым объектом.",
+        "release_condition": "Показывать как альтернативный пакет без повторного подсчёта участков либо подтвердить иной состав продажи."
+      },
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/2-acres-for-sale-in-concho-arizona-26914"
+      ]
     },
     {
       "price_currency": "USD",
@@ -124610,13 +124652,16 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-30T00:56:42+00:00",
-      "last_seen": "2026-10-30T00:59:40Z",
-      "last_verified": "2026-10-30T00:59:40Z",
+      "last_seen": "2026-10-30T03:24:18+00:00",
+      "last_verified": "2026-10-30T03:24:18+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
-      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "notes": [
+        "30.10.2026: RV разрешён по заявлению продавца только временно при строительстве основного дома с разрешением. Хранение без дома и личный ремонт неизвестны. Продавец заявляет отсутствие mapped flood/wetland concerns; независимая проверка не выполнена.",
+        "В описании электричество одновременно названо неподтверждённым и доступным примерно в 90 метрах; это не электросчётчик на участке. Готовое подключение не заявлено. Уклон 0–8% по продавцу. Сумма обязательного document preparation fee неизвестна; гарантийный deed через Tax Title Services предполагает дополнительные расходы покупателя."
+      ],
+      "closing_costs": "Обязательный разовый document preparation fee без указанной суммы; title/escrow, survey, подключения и подготовка отдельно.",
       "id": "lc-26906",
       "source_id": "26906",
       "source": "LandCentury",
@@ -124631,7 +124676,7 @@
       "price": 14797.0,
       "known_fees": 0.0,
       "total_known": 14797.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "30.10.2026: живая карточка показывает cash price $14,797; $50 hold является резервированием, не ценой покупки. Closing, проверка титула и подготовка отдельно. Обязательный document preparation fee не указан в долларах и не включён в известный итог.",
       "acres": 1.39,
       "lat": 30.64885,
       "lng": -85.32935,
@@ -124646,7 +124691,7 @@
       "parcel": "02-2N-11-0087-1500-0160",
       "zoning": "Residential",
       "road_note": "Dirt Road",
-      "utility_note": "Не подтверждены",
+      "utility_note": "Электричество не подтверждено; well и septic предстоит установить. Наличие и стоимость готовых подключений неизвестны.",
       "taxes_note": "79.00",
       "source_categories": [
         "owner-finance-deals"
@@ -124656,14 +124701,15 @@
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
-      "electricity": "on_site_claim",
+      "electricity": "unknown",
       "water": "unknown",
       "sewer": "unknown",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
-        "Упоминаются заболоченные земли; пригодность площадки требует проверки.",
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Предыдущий tax sale; титул, обременения и страхование права собственности требуют проверки. Бюджет почти исчерпан до closing и подготовки.",
+        "Обязательный document preparation fee неизвестен: полная стоимость может превысить $15,000."
       ],
       "evidence_quote": "Contact Jackson County and the appropriate utility provider to determine whether electrical service is available or can be extended to the property.",
       "price_history": [
@@ -124725,11 +124771,15 @@
         "Цена /25": 5,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 3,
+        "Коммуникации /10": 0,
         "Сезон /10": 7,
         "Дорога /10": 4
       },
-      "score": 19
+      "score": 16,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/florida/139-acres-for-sale-in-alford-florida-26906"
+      ]
     },
     {
       "price_currency": "USD",
@@ -124863,12 +124913,15 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-30T00:56:42+00:00",
-      "last_seen": "2026-10-30T00:59:43Z",
-      "last_verified": "2026-10-30T00:59:43Z",
+      "last_seen": "2026-10-30T03:24:18+00:00",
+      "last_verified": "2026-10-30T03:24:18+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "30.10.2026: RV разрешён по заявлению продавца только временно при строительстве основного дома с разрешением. Хранение без дома и личный ремонт неизвестны. Продавец заявляет отсутствие mapped flood/wetland concerns; независимая проверка не выполнена.",
+        "Уклон 5–8% и public dirt road по продавцу. Сумма дополнительных обязательных сборов не установлена; отсутствие суммы не означает отсутствие расходов."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26903",
       "source_id": "26903",
@@ -124884,7 +124937,7 @@
       "price": 14797.0,
       "known_fees": 0.0,
       "total_known": 14797.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "30.10.2026: живая карточка показывает cash price $14,797; $50 hold является резервированием, не ценой покупки. Closing, проверка титула и подготовка отдельно.",
       "acres": 1.2,
       "lat": 30.649,
       "lng": -85.32605,
@@ -124899,7 +124952,7 @@
       "parcel": "02-2N-11-0087-1440-0360",
       "zoning": "Residential",
       "road_note": "Dirt Road",
-      "utility_note": "Не подтверждены",
+      "utility_note": "Электричество не подтверждено; well и septic предстоит установить. Наличие и стоимость готовых подключений неизвестны.",
       "taxes_note": "79.00",
       "source_categories": [
         "owner-finance-deals"
@@ -124915,9 +124968,8 @@
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
-        "В источнике есть указание на затопление: проверить FEMA и отметку площадки.",
-        "Упоминаются заболоченные земли; пригодность площадки требует проверки.",
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Предыдущий tax sale; титул, обременения и страхование права собственности требуют проверки. Бюджет почти исчерпан до closing и подготовки."
       ],
       "evidence_quote": "Electricity availability still needs to be confirmed with Jackson County and the appropriate service provider.",
       "price_history": [
@@ -124983,7 +125035,11 @@
         "Сезон /10": 7,
         "Дорога /10": 4
       },
-      "score": 16
+      "score": 16,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/florida/120-acres-for-sale-in-alford-florida-26903"
+      ]
     }
   ]
 }

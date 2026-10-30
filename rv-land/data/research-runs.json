@@ -4212,7 +4212,114 @@
       "rotation_reason": "Under-ten states not covered by the recent manual rotation; collector continues all50.",
       "preservation": "All960 prior IDs,first_seen,prices,statuses,parcels,photos and histories preserved; one genuine-photo addition, four manual clarifications, two review holds.",
       "validation": "Focused data tests,validator,preservation checks and public map/photo postflight are recorded separately."
+    },
+    {
+      "date": "2026-10-30T03:24:18+00:00",
+      "states": [
+        "WA",
+        "HI",
+        "ND"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [],
+      "updated_ids": [
+        "lc-25803",
+        "lc-25806",
+        "lc-26914",
+        "lc-26915",
+        "lc-26916",
+        "lc-26906",
+        "lc-26903"
+      ],
+      "automatic_added_ids": [
+        "lc-26922",
+        "lc-26921",
+        "lc-26916",
+        "lc-26915",
+        "lc-26914",
+        "lc-26913",
+        "lc-26906",
+        "lc-26905",
+        "lc-26903"
+      ],
+      "automatic_updated_ids": [
+        "lc-25806",
+        "lc-25803"
+      ],
+      "workflow": {
+        "run_id": 40982796619,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/40982796619",
+        "conclusion": "success",
+        "created_at": "2026-10-30T00:56:24Z",
+        "data_commit": "af032902bcb651d7e8cdf7130f503c64a0ea5f75"
+      },
+      "monitor": {
+        "date": "2026-10-30T00:56:42+00:00",
+        "status": "partial",
+        "scanned_pages": 115,
+        "read_details": 73,
+        "added": 9,
+        "changed": 2,
+        "errors": 47
+      },
+      "source_errors": "Discovery succeeded with partial source coverage: 115 pages, 73 details, 9 additions, 2 changes, 47 source errors. Inspected retained examples are 404; not all errors classified. No status changed merely because access failed. Pages40983442171 succeeded; duplicate40983441921 cancelled. No redundant fallback needed.",
+      "findings": [
+        {
+          "id": "lc-25803",
+          "finding": "Fresh Chrome panel $8,900 conflicts with $10,000 cash description, plus $100 document fee. No confirmed direct access. Price history retained, review hold added; not promoted as a better deal."
+        },
+        {
+          "id": "lc-25806",
+          "finding": "Live Sold badge and explicit sold sentence confirm automatic status change. Conflicting APN in description noted; original parcel, photos, alternative URLs and history retained."
+        },
+        {
+          "ids": [
+            "lc-26914",
+            "lc-26915",
+            "lc-26916"
+          ],
+          "finding": "Live $12,000 bundle contains the same two parcels offered separately for $6,500 each. All source IDs retained; bundle held from independent-property count. Same listing GPS is not separate surveyed parcel centers. Recreational RV conditions do not establish storage or repair rights."
+        },
+        {
+          "ids": [
+            "lc-26906",
+            "lc-26903"
+          ],
+          "finding": "Live cash $14,797 each; tax-sale and construction-only RV caveats. Electricity unknown, wells/septic required. LC26906 mandatory document fee amount unknown. Seller claims no mapped flood/wetland issues; independent risk unknown."
+        },
+        {
+          "finding": "Fixed two observed collector interpretation errors: distance in meters must not become an installed electric meter; no confirmed direct access must not inherit a positive frontage keyword. Added explicit electricity-availability uncertainty coverage and focused regression cases."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.mystatemls.com/property/11873185/",
+          "finding": "ND109 Main St South, McClusky: $15,000 storage-building lead, about2300sqft on2lots. Live primary MLS explicitly Off Market; not imported as active despite stale aggregator cards. Repair condition and RV entry unknown."
+        },
+        {
+          "url": "https://www.mystatemls.com/property/11873206/",
+          "finding": "ND adjacent113 Main St South $3,500 lot: exact primary MLS states listing no longer active. Not combined with building or imported."
+        },
+        {
+          "url": "https://govauctions.app/auction/shed-or-garage-248-acres-near-poulsbo-washington-publicsurplus-4090489",
+          "finding": "WA2.48acre shed/garage lead: $10,212 is an auction bid, not cash purchase price. Page countdown conflicts with January2027 sale date in description; no verified closing date claimed. Not imported, no bid or contact."
+        },
+        {
+          "url": "https://www.locationshawaii.com/buy/hawaii/puna/aloha-estates-subdivision/18-2017-pua-st/?allow=true&mls=732985",
+          "finding": "HI live public preview shows Active $9,500 after October28 reduction, not older indexed $10,000. Current description says adjacent lot available, replacing older sold-together wording. Overgrown/unmaintained approach and no existing building; deferred for unsuitable/unverified RV access. Registration prompt not used; no restricted details requested."
+        }
+      ],
+      "access": "Connected Chrome plus public web; public preview only when registration was offered. No contacts, purchases, bookings, login, CAPTCHA/403/robots bypass or infrastructure changes.",
+      "flight_review": "October26 flight observations retained; next weekly review November2.",
+      "next_states": [
+        "CT",
+        "NJ",
+        "MA"
+      ],
+      "rotation_reason": "Below-ten states last manually covered October22–23; automatic discovery continues all50.",
+      "preservation": "970 records retained, with all IDs, first_seen, prices, statuses, coordinates, parcels, image bytes and prior histories preserved. Seven manual clarifications, two persistent holds; no quota-filling import.",
+      "validation": "Focused data tests, validator, preservation audit and public map/photo checks recorded separately."
     }
   ],
-  "updated_at": "2026-10-29T03:23:40+00:00"
+  "updated_at": "2026-10-30T03:24:18+00:00"
 }

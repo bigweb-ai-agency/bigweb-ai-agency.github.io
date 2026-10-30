@@ -103,7 +103,7 @@ def flags_from_text(description,kind='land',road=None,utilities=None):
                    r'(?:\s*\([^)]{0,120}\))?'
                    r'(?:\s+and\s+(?:direct |legal |road )?access)?\s*[:,-]?\s*'
                    r'(?:(?:is|are|has|have)\s+)?(?:not\s+(?:yet\s+)?(?:been\s+)?(?:confirmed|established|verified)|unknown|unconfirmed|uncertain)\b'
-                   r'|\bdoes not have confirmed (?:road )?frontage\b',t+' '+rt):
+                   r'|\b(?:no|does not have) confirmed (?:(?:direct|legal|road|vehicle|vehicular)\s+)*(?:access|frontage)\b',t+' '+rt):
         result['flags'].append('Продавец прямо указывает, что подъезд или дорожный фронт не подтверждены; требуется проверка доступа для RV.')
     elif re.search(r'paved|dirt road|gravel road|road frontage|public road|county road|maintained road',t+' '+rt):
         result['road_access']='seller_claim'
@@ -115,7 +115,7 @@ def flags_from_text(description,kind='land',road=None,utilities=None):
             result[tag]='available'
         if re.search(pat+r'.{0,25}(?:not available|none|not connected)|(?:no |without )'+pat,t+' '+u):
             result[tag]='none'
-        if tag=='electricity' and re.search(r'(?:electric|power).{0,45}(?:meter|connected)|meter.{0,20}in place',t+' '+u) and not re.search(r'(?:electric(?:ity)?|power).{0,25}not connected',t+' '+u):
+        if tag=='electricity' and re.search(r'(?:electric|power).{0,45}(?:\bmeter\b|connected)|\bmeter\b.{0,20}in place',t+' '+u) and not re.search(r'(?:electric(?:ity)?|power).{0,25}not connected',t+' '+u):
             result[tag]='on_site_claim'
         if tag=='water' and re.search(r'(?:existing|operational|working) (?:water )?well|water[ /:]+connected',t+' '+u) and not re.search(r'water.{0,15}not connected',t+' '+u):
             result[tag]='on_site_claim'
@@ -134,6 +134,7 @@ def flags_from_text(description,kind='land',road=None,utilities=None):
     # connection. Explicit uncertainty must override nearby positive keywords.
     for tag,pat in [('electricity',r'(?:electricity|power)'),('water',r'water'),('sewer',r'(?:sewer|septic)')]:
         uncertain=(rf'\b{pat}\s+availability\s+(?:still\s+)?needs?\s+to\s+be\s+confirmed\b'
+                   rf'|\b{pat}\s+availability\s+has\s+not\s+been\s+confirmed\b'
                    rf'|\b(?:verify|confirm|check)\s+whether\s+{pat}\s+can\s+be\s+connected\b')
         if re.search(uncertain,t+' '+compact(utilities).lower()):result[tag]='unknown'
     risk_patterns=[

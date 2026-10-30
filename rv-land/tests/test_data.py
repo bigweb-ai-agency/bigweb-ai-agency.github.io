@@ -27,6 +27,8 @@ class ResearchDataTests(unittest.TestCase):
             ('Electricity is connected. Confirm connection costs with the provider.', 'on_site_claim'),
             ('Electric meter in place.', 'on_site_claim'),
             ('Electricity available at the road. Confirm connection costs.', 'available'),
+            ('Power is available for connection 90 meters from the property.', 'available'),
+            ('Electricity availability has not been confirmed. Power available 90 meters away.', 'unknown'),
         ]
         for description,expected in cases:
             with self.subTest(description=description):
@@ -85,6 +87,11 @@ class ResearchDataTests(unittest.TestCase):
                                          'Paved public road nearby.')['road_access'],'unknown')
         self.assertEqual(b.flags_from_text('Legal access is recorded with paved public road frontage.')
                          ['road_access'],'seller_claim')
+        for text,road in [('No confirmed direct road access; no road frontage is represented.', None),
+                          ('This tract does not have confirmed direct road access. Road frontage is not represented.', None),
+                          ('Public road nearby.', 'No Confirmed Access')]:
+            with self.subTest(text=text,road=road):
+                self.assertEqual(b.flags_from_text(text,road=road)['road_access'],'unknown')
 
     def test_loan_and_recurring_fees_are_not_cash_purchase_fees(self):
         for text in ('Total Monthly Payment $205.49 Loan Processing Fee $9.00 Total Due Today $695.00',
