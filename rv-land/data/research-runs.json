@@ -4319,7 +4319,125 @@
       "rotation_reason": "Below-ten states last manually covered October22–23; automatic discovery continues all50.",
       "preservation": "970 records retained, with all IDs, first_seen, prices, statuses, coordinates, parcels, image bytes and prior histories preserved. Seven manual clarifications, two persistent holds; no quota-filling import.",
       "validation": "Focused data tests, validator, preservation audit and public map/photo checks recorded separately."
+    },
+    {
+      "date": "2026-10-31T03:22:45+00:00",
+      "states": [
+        "CT",
+        "NJ",
+        "MA"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [
+        "mlspin-73557876"
+      ],
+      "updated_ids": [
+        "ls-5154444",
+        "lc-26740",
+        "lc-20945"
+      ],
+      "automatic_added_ids": [
+        "lc-26950",
+        "lc-26949",
+        "lc-26946",
+        "lc-26945",
+        "lc-26944",
+        "lc-26943",
+        "lc-26942",
+        "lc-26939",
+        "lc-26938",
+        "lc-26937",
+        "lc-26936",
+        "lc-26935",
+        "lc-26934",
+        "lc-26930",
+        "lc-26924",
+        "lc-26923",
+        "lc-26740",
+        "lc-26736",
+        "lc-20945"
+      ],
+      "automatic_updated_ids": [
+        "lc-25769"
+      ],
+      "workflow": {
+        "run_id": 41152058198,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/41152058198",
+        "conclusion": "success",
+        "created_at": "2026-10-31T00:47:24Z",
+        "data_commit": "2c47c04229356ac4c1fc15d9c4ce02dc3e689f78"
+      },
+      "monitor": {
+        "date": "2026-10-31T00:47:40+00:00",
+        "status": "partial",
+        "scanned_pages": 116,
+        "read_details": 72,
+        "added": 19,
+        "changed": 1,
+        "errors": 48
+      },
+      "source_errors": "Actual scheduled run succeeded; monitor partial:116 pages,72 details,19 additions,1 changed,48 errors. Inspected retained examples are404; not all errors classified. Pages41152586492 success, duplicate41152585513 cancelled. No redundant fallback required.",
+      "findings": [
+        {
+          "id": "ls-5154444",
+          "finding": "Same Cloran/Alice corner0.17acre relisted under MLS24217749 Active$8,500. Old$9,400 price retained in history; ID,coords,first_seen and original photo preserved. Public broker preview only; signup overlay not used."
+        },
+        {
+          "id": "mlspin-73557876",
+          "finding": "New real-photo MA record at$15,000 with listing-map coordinates. Held from candidate count because photographed roadside guardrail/vegetation leave RV entry unconfirmed. No existing building. Official town motorhome rules read; trailer-storage exception not promoted into motorhome or repair permission."
+        },
+        {
+          "id": "lc-26740",
+          "finding": "Live$7,500 is package of3parcels, not a verified single0.4acre RV site. One source point retained; adjacency and area breakdown unknown. Quitclaim and city-utility claims flagged; connections remain unknown."
+        },
+        {
+          "id": "lc-20945",
+          "finding": "Live$14,900 buy-and-hold pending possible future sewer. Seller description GPS differs about101m from map; both observations retained, review hold added. Equitable interest requires title/transfer verification; no standalone RV use established."
+        },
+        {
+          "id": "lc-25769",
+          "finding": "Automatic relisting to sourceID26925 retained originalID25769 and old photo/history; no material price/status change."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.coldwellbankerhomes.com/ct/groton/0-route-12/pid_71140667/",
+          "finding": "CT commercial1.34acre/$15,000 lead indexed explicitly sold/closed. Not imported as active."
+        },
+        {
+          "url": "https://www.trulia.com/CT/land-for-sale-under-10000/",
+          "finding": "CT public list showed Cloran$8,500; exact detail presented human CAPTCHA and was stopped. Other low-price leads did not establish repair/storage suitability; Englewood described as nonbuilding lake-access lot."
+        },
+        {
+          "url": "https://www.homes.com/new-jersey/land-for-sale/under-10k/",
+          "finding": "NJ garage/pole-barn construction claim matched existing SeaviewAve record, not existing garage. Manalapan$6,000 was land lease; Voorhees$4,000 auction plus5%premium; SeattleAve paperstreet/minimum-area issues. Not fixed-cash ready workshops."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/maple-rd-absecon-nj-08201/5572407",
+          "finding": "NJ exact page redirected to general results, not evidence of sold. Independent$10,000 MLS6120760.11acre lead has merged portal history with different$100,0000.69acre MLS612077. Exact parcel/usable access unresolved; deferred, not imported by mixing facts."
+        },
+        {
+          "url": "https://www.redfin.com/MA/Brookfield/56-W-Main-St-01506/home/206703259",
+          "finding": "MA$10,0000.51acre MLS73595662 lead explicitly undevelopable residential/standing-water-wetland concerns. No workshop or usable RV pad established; not quota filler."
+        }
+      ],
+      "official_sources": [
+        {
+          "url": "https://www.hardwick-ma.gov/DocumentCenter/View/616/Zoning-Bylaws",
+          "finding": "Town Building Department links adopted/amended zoningPDF; coveramendedApr24,2025. Visually read printedpp43–44,sections6.9.2/6.9.4. Limited living-use period and trailer-storage exception do not establish personal-repair rights or motorhome storage on this parcel."
+        }
+      ],
+      "access": "Chrome/public web used. TruliaCAPTCHA and broker registration overlay stopped; independent public broker preview verified CT price. No contacts, purchases, bookings, login, restriction bypass or infrastructure changes.",
+      "flight_review": "October26 observations retained; next weekly reviewNovember2.",
+      "next_states": [
+        "KY",
+        "TN",
+        "RI"
+      ],
+      "rotation_reason": "Below-ten markets/recently uncovered building candidates; KY/TN lastmanualOct23 andRI Oct25. Automatic collector coversall50.",
+      "preservation": "989prior records,IDs,first_seen,photo bytes and histories retained. One newreal-photo MA record onhold; one existing CT price decrease appended. No sold status inferred from access errors.",
+      "validation": "Focused tests,validator,preservation audit and public map/photo postflight recorded separately."
     }
   ],
-  "updated_at": "2026-10-30T03:24:18+00:00"
+  "updated_at": "2026-10-31T03:22:45+00:00"
 }

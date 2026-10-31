@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-31T00:47:40+00:00",
+  "updated_at": "2026-10-31T03:22:45+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -76872,17 +76872,19 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:28+00:00",
-      "last_seen": "2026-10-01T02:20:48+00:00",
-      "last_verified": "2026-10-01T02:20:48+00:00",
+      "last_seen": "2026-10-31T03:22:45+00:00",
+      "last_verified": "2026-10-31T03:22:45+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "31.10.2026: повторно выставлен через Regency Real Estate, MLS 24217749, с ценой $8,500 вместо прежних $9,400. Совпадают адрес, площадь и угол Cloran / Alice. Сохранены исходные ID, координаты и фото старого объявления; новые фото за регистрационной формой не запрашивались. Заявлен суммарный дорожный фронт более 95 ft. Застройка, подключения, стоянка и личный ремонт не подтверждены."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ls-5154444",
-      "source_id": "5154444",
-      "source": "LandSearch",
-      "url": "https://www.landsearch.com/properties/28-cloran-st-windham-ct-06226/5154444",
+      "source_id": "24217749",
+      "source": "SmartMLS / Higgins Group",
+      "url": "https://www.fairfieldcounty-properties.com/homedetails/ct/windham/ctsmart-5eef1837dafb70cde0631a01100a2fdc-ctsmartrets/28-cloran-st-windham-ct-06226",
       "title": "28 Cloran St",
       "address": "28 Cloran St",
       "city": "Windham",
@@ -76890,10 +76892,10 @@
       "zip": "06226",
       "county": "Windham",
       "kind": "land",
-      "price": 9400.0,
+      "price": 8500,
       "known_fees": 0,
-      "total_known": 9400.0,
-      "price_evidence": "Показанная запрашиваемая цена; дополнительные сборы не подтверждены.",
+      "total_known": 8500,
+      "price_evidence": "31.10.2026: публичный preview брокера показывает ACTIVE и $8,500 за тот же участок 0.17 acre на углу Cloran / Alice. Новый MLS 24217749; дополнительные сборы не установлены.",
       "acres": 0.17,
       "lat": 41.6998,
       "lng": -72.1866,
@@ -76905,7 +76907,7 @@
       "image_source_url": "https://www.landsearch.com/properties/28-cloran-st-windham-ct-06226/5154444",
       "image_credit": "Listing broker / LandSearch",
       "parcel": null,
-      "mls": "CTMLS 24164113",
+      "mls": "SmartMLS 24217749",
       "zoning": "R2",
       "taxes_note": "2026 $77",
       "road_note": "По объявлению: угловой участок Cloran St / Alice St, выход к двум улицам. Юридический подъезд и заезд высокого RV не проверены.",
@@ -76927,11 +76929,18 @@
           "date": "2026-09-13T22:25:28+00:00",
           "price": 9400.0,
           "source": "https://www.landsearch.com/properties/28-cloran-st-windham-ct-06226/5154444"
+        },
+        {
+          "date": "2026-10-31T03:22:45+00:00",
+          "price": 8500,
+          "price_basis": "asking_cash",
+          "source": "https://www.fairfieldcounty-properties.com/homedetails/ct/windham/ctsmart-5eef1837dafb70cde0631a01100a2fdc-ctsmartrets/28-cloran-st-windham-ct-06226"
         }
       ],
       "status_history": [],
       "legacy": false,
       "alternate_urls": [
+        "https://www.fairfieldcounty-properties.com/homedetails/ct/windham/ctsmart-5eef1837dafb70cde0631a01100a2fdc-ctsmartrets/28-cloran-st-windham-ct-06226",
         "https://www.landsearch.com/properties/28-cloran-st-windham-ct-06226/5154444"
       ],
       "region": "Северо-восток",
@@ -76971,14 +76980,14 @@
       ],
       "msp_straight_km": 1734,
       "score_parts": {
-        "Цена /25": 14,
+        "Цена /25": 16,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 0,
         "Сезон /10": 4,
         "Дорога /10": 8
       },
-      "score": 26,
+      "score": 28,
       "image_remote_url": "https://cdn.landsearch.com/listings/4S3sB/large/windham-ct-172361026.jpg",
       "photo_preserved_at": "2026-09-13T23:05:59+00:00",
       "photo_history": [
@@ -76989,7 +76998,7 @@
           "date": "2026-09-13T23:05:59+00:00"
         }
       ],
-      "source_updated": "2026-09-28",
+      "source_updated": null,
       "verification_history": [
         {
           "date": "2026-09-13T23:00:23+00:00",
@@ -77002,8 +77011,16 @@
           "basis": "live_public_page",
           "source": "https://www.landsearch.com/properties/28-cloran-st-windham-ct-06226/5154444",
           "finding": "Connected Chrome: Active $9,400; 0.17 acre / 7,405 sqft; R2; CTMLS 24164113; source updated September28. Same original listing photo. No permission for standalone RV storage or personal repair established."
+        },
+        {
+          "date": "2026-10-31T03:22:45+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.fairfieldcounty-properties.com/homedetails/ct/windham/ctsmart-5eef1837dafb70cde0631a01100a2fdc-ctsmartrets/28-cloran-st-windham-ct-06226",
+          "finding": "Public broker preview: Active $8,500, 0.17 acre, exact address and MLS24217749. Registration overlay stopped further interaction. Original listing image retained with original provenance."
         }
-      ]
+      ],
+      "source_published": "2026-10-28",
+      "previous_price": 9400.0
     },
     {
       "price_currency": "USD",
@@ -127057,12 +127074,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-31T00:47:40+00:00",
-      "last_seen": "2026-10-31T00:50:53Z",
-      "last_verified": "2026-10-31T00:50:53Z",
+      "last_seen": "2026-10-31T03:22:45+00:00",
+      "last_verified": "2026-10-31T03:22:45+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "31.10.2026: продажа пакетом из трёх parcels 05 0378 00000, 05 0379 00000 и 11 1007 00000. В карточке дана только одна точка у 614 North 8th Street и площадь 0.4 acre: нельзя считать её проверенной единой площадкой или утроить площадь. Смежность, площадь каждого лота и самостоятельное использование под RV неизвестны. Paved road, city utilities available и Quit Claim Deed — заявления продавца; готовые подключения не подтверждены."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26740",
       "source_id": "26740",
@@ -127078,7 +127097,7 @@
       "price": 7500.0,
       "known_fees": 0.0,
       "total_known": 7500.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "31.10.2026: cash price $7,500 за пакет из трёх parcels; $389–$583 в месяц — рассрочка. Дополнительные сборы и closing неизвестны.",
       "acres": 0.4,
       "lat": 43.437993,
       "lng": -83.92408999999999,
@@ -127093,7 +127112,7 @@
       "parcel": "05037800000",
       "zoning": "Residential",
       "road_note": "Paved Road",
-      "utility_note": "City utilities available",
+      "utility_note": "По продавцу city utilities available; перечень, готовые подключения и стоимость неизвестны.",
       "taxes_note": null,
       "source_categories": [
         "residential-buildable-land",
@@ -127111,7 +127130,10 @@
       "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
-      "flags": [],
+      "flags": [
+        "Пакет трёх участков: одна точка и одна площадь источника не доказывают смежность и общую пригодную площадку.",
+        "Quit Claim Deed: проверить право собственности, обременения и страхование титула по всем трём parcels."
+      ],
       "evidence_quote": null,
       "price_history": [
         {
@@ -127176,7 +127198,16 @@
         "Сезон /10": 3,
         "Дорога /10": 8
       },
-      "score": 29
+      "score": 29,
+      "package_parcels": [
+        "05037800000",
+        "05037900000",
+        "11100700000"
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/michigan/04-acres-for-sale-in-saginaw-michigan-26740"
+      ]
     },
     {
       "price_currency": "USD",
@@ -127306,12 +127337,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-31T00:47:40+00:00",
-      "last_seen": "2026-10-31T00:51:31Z",
-      "last_verified": "2026-10-31T00:51:31Z",
+      "last_seen": "2026-10-31T03:22:45+00:00",
+      "last_verified": "2026-10-31T03:22:45+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "31.10.2026: продавец предлагает buy-and-hold в ожидании возможной будущей канализации; срок и подключение не подтверждены. В описании центр 38.157514, -76.518093 отличается примерно на 101 м от точки карты 38.157897, -76.517050; исходная точка сохранена как наблюдение, границы не установлены. Продавец заявляет equitable interest, а не подтверждённый зарегистрированный титул. Проверить полномочия отчуждения и title/escrow. Хранение RV и личный ремонт неизвестны."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-20945",
       "source_id": "20945",
@@ -127342,7 +127375,7 @@
       "parcel": "02-008327",
       "zoning": "Не указано",
       "road_note": "Не подтверждён",
-      "utility_note": "Не подтверждены",
+      "utility_note": "Канализация лишь потенциально в будущем; работающие вода, электричество и канализация не подтверждены.",
       "taxes_note": null,
       "source_categories": [
         "residential-buildable-land",
@@ -127382,7 +127415,7 @@
         }
       ],
       "region": "Северо-восток",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Хорошая авиационная доступность; дешёвые лоты часто слишком ограничены для самостоятельной мастерской. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -127425,7 +127458,173 @@
         "Сезон /10": 6,
         "Дорога /10": 8
       },
-      "score": 19
+      "score": 19,
+      "coord_note": "Две конфликтующие точки в одном объявлении примерно в 101 м друг от друга; исходная точка карты сохранена, точный parcel не подтверждён.",
+      "coordinate_observations": [
+        {
+          "lat": 38.1578966,
+          "lng": -76.5170503,
+          "basis": "listing map",
+          "date": "2026-10-31T03:22:45+00:00"
+        },
+        {
+          "lat": 38.15751361413926,
+          "lng": -76.51809278326671,
+          "basis": "seller description center",
+          "date": "2026-10-31T03:22:45+00:00"
+        }
+      ],
+      "review_hold": {
+        "date": "2026-10-31T03:22:45+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/maryland/027-acres-for-sale-in-piney-point-maryland-20945",
+        "reason": "Конфликт координат карты и описания для малого лота; подготовленная площадка и заезд RV не установлены. Ожидание канализации и equitable interest требуют дополнительной проверки.",
+        "release_condition": "Подтвердить parcel 02-008327, его границы, юридический и физический заезд, передаваемое право собственности и возможность отдельной RV-базы."
+      },
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/maryland/027-acres-for-sale-in-piney-point-maryland-20945"
+      ]
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-10-31T03:22:45+00:00",
+      "last_seen": "2026-10-31T03:22:45+00:00",
+      "last_verified": "2026-10-31T03:22:45+00:00",
+      "photo_kind": "Оригинальное фото из объявления: заросший участок за дорожным отбойником; проезд не подтверждён.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [
+        "31.10.2026: живая карточка брокера Active $15,000, 0.33 acre; ориентир между 356 и 384 Main Street. Координаты взяты из карты именно этого объявления, не из центра города; границы не проверены. Около 140 ft frontage и 105 ft глубины по продавцу. Номера parcel из сторонних порталов расходятся; не присвоены.",
+        "Официальные Hardwick Zoning By-Laws, редакция 24.04.2025, §6.9.2: проживание в одном motorhome/trailer ограничено 14 днями за раз и 30 днями в год; длительное использование требует отдельной процедуры. §6.9.4 описывает исключение для хранения travel/camping trailers без проживания и бизнеса, в здании либо не ближе 10 ft от дороги. Его применимость к моторному кемпервэну не установлена. Личный ремонт отдельно не подтверждён."
+      ],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "available",
+      "sewer": "unknown",
+      "no_hoa": "unknown",
+      "road_access": "unknown",
+      "flags": [
+        "Отбойник и заросший фронт участка: физический и разрешённый заезд высокого RV не установлен.",
+        "Цена на верхней границе бюджета до closing, расчистки, обследований и устройства площадки."
+      ],
+      "evidence_quote": null,
+      "id": "mlspin-73557876",
+      "source": "MLSPIN / Equine Homes",
+      "source_id": "73557876",
+      "url": "https://www.equinehomes.com/listing/73557876/0-main-street-hardwick-ma-01031/",
+      "title": "0 Main Street — между 356 и 384 Main St",
+      "address": "0 Main Street",
+      "city": "Hardwick",
+      "state": "MA",
+      "county": "Worcester",
+      "zip": "01031",
+      "kind": "land",
+      "price": 15000,
+      "known_fees": 0,
+      "total_known": 15000,
+      "acres": 0.33,
+      "lat": 42.312967,
+      "lng": -72.205227,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "mls": "MLSPIN 73557876",
+      "parcel": null,
+      "zoning": "GV по объявлению",
+      "source_updated": null,
+      "source_published": null,
+      "taxes_note": "Текущий налог не подтверждён.",
+      "price_evidence": "31.10.2026: действующая публичная карточка брокера, List Price $15,000 за 0.33 acre. Closing, обследования, расчистка и заезд не включены; дополнительные сборы не установлены.",
+      "road_note": "140 ft дорожного фронта по продавцу. На двух фото вдоль дороги виден отбойник; готовый заезд на лот не показан. Разрешение на устройство заезда и место разворота 7-метрового RV не подтверждены.",
+      "utility_note": "Вода available on site по описанию продавца; рабочее подключение, тип и стоимость не подтверждены. Электричество и канализация неизвестны.",
+      "garage_note": "Неосвоенный участок без заявленного гаража или мастерской.",
+      "image_source_url": "https://www.equinehomes.com/listing/73557876/0-main-street-hardwick-ma-01031/",
+      "image_credit": "Listing broker / MLSPIN",
+      "image_url": "assets/listings/1a99488d9a9e842d18d1.jpg",
+      "legal_source": "https://www.hardwick-ma.gov/DocumentCenter/View/616/Zoning-Bylaws",
+      "review_hold": {
+        "date": "2026-10-31T03:22:45+00:00",
+        "source": "https://www.equinehomes.com/listing/73557876/0-main-street-hardwick-ma-01031/",
+        "reason": "На фотографиях дорожный отбойник вдоль заросшего фронта; самостоятельный заезд RV не подтверждён. Цена $15,000 ещё до подготовки площадки.",
+        "release_condition": "Подтвердить юридический и физический заезд и допустимость базы для моторного кемпервэна; оценить полную стоимость подготовки."
+      },
+      "verification_history": [
+        {
+          "date": "2026-10-31T03:22:45+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.equinehomes.com/listing/73557876/0-main-street-hardwick-ma-01031/",
+          "finding": "Active asking $15,000,0.33acre; listing map42.312967,-72.205227; four original MLSPIN photos, first two visually inspected. Exact parcel and ready driveway unverified."
+        }
+      ],
+      "image_remote_url": "https://media.mlspin.com/photo.aspx?mls=73557876&h=480&w=640&n=0",
+      "photo_preserved_at": "2026-10-31T03:22:45+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/1a99488d9a9e842d18d1.jpg",
+          "source": "https://www.equinehomes.com/listing/73557876/0-main-street-hardwick-ma-01031/",
+          "remote_url": "https://media.mlspin.com/photo.aspx?mls=73557876&h=480&w=640&n=0",
+          "date": "2026-10-31T03:22:45+00:00"
+        }
+      ],
+      "price_history": [
+        {
+          "date": "2026-10-31T03:22:45+00:00",
+          "price": 15000,
+          "price_basis": "asking_cash",
+          "source": "https://www.equinehomes.com/listing/73557876/0-main-street-hardwick-ma-01031/"
+        }
+      ],
+      "status_history": [],
+      "region": "Северо-восток",
+      "screening_issue": "research_hold",
+      "climate_note": "Сильный аэропорт, слабая выборка дешёвой земли. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "BOS",
+          "name": "Boston Logan International Airport",
+          "straight_km": 99,
+          "drive_km_estimate": 123,
+          "drive_hours_estimate": 1.6,
+          "flight_min_eur": 497,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "NYC",
+          "name": "New York city search — JFK used for approximate geometry",
+          "straight_km": 228,
+          "drive_km_estimate": 285,
+          "drive_hours_estimate": 3.8,
+          "flight_min_eur": 435,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "PHL",
+          "name": "Philadelphia International Airport",
+          "straight_km": 372,
+          "drive_km_estimate": 465,
+          "drive_hours_estimate": 6.2,
+          "flight_min_eur": 610,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1711,
+      "score_parts": {
+        "Цена /25": 5,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 1,
+        "Сезон /10": 4,
+        "Дорога /10": 8
+      },
+      "score": 18
     }
   ]
 }
