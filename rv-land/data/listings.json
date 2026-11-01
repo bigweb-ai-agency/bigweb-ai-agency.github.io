@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-31T03:22:45+00:00",
+  "updated_at": "2026-11-01T00:53:50+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -3774,8 +3774,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-15T01:11:52Z",
-      "last_verified": "2026-10-15T01:11:52Z",
+      "last_seen": "2026-11-01T00:59:11Z",
+      "last_verified": "2026-11-01T00:59:11Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -3792,9 +3792,9 @@
       "county": "Pinal",
       "zip": "85131",
       "kind": "land",
-      "price": 7900.0,
+      "price": 6900.0,
       "known_fees": 100.0,
-      "total_known": 8000.0,
+      "total_known": 7000.0,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 0.33,
       "lat": 32.8124,
@@ -3802,7 +3802,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-14T16:57:33.000000Z",
+      "source_updated": "2026-10-19T19:50:59.000000Z",
       "source_published": "2026-08-18T15:58:05.000000Z",
       "image_url": "assets/listings/937532cfa242cc537ac0.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/033-acres-for-sale-in-eloy-arizona-25897",
@@ -3839,6 +3839,12 @@
         {
           "date": "2026-10-15T01:06:48+00:00",
           "price": 7900.0,
+          "source": "https://www.landcentury.com/land-for-sale/arizona/033-acres-for-sale-in-eloy-arizona-25897"
+        },
+        {
+          "date": "2026-11-01T00:53:50+00:00",
+          "price": 6900.0,
+          "price_basis": "asking_cash",
           "source": "https://www.landcentury.com/land-for-sale/arizona/033-acres-for-sale-in-eloy-arizona-25897"
         }
       ],
@@ -3884,16 +3890,16 @@
       ],
       "msp_straight_km": 2074,
       "score_parts": {
-        "Цена /25": 17,
+        "Цена /25": 18,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 0,
         "Сезон /10": 6,
         "Дорога /10": 9
       },
-      "score": 32,
+      "score": 33,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/21/6a88378da8d2e-1787312013.jpg",
-      "photo_preserved_at": "2026-10-15T01:06:48+00:00",
+      "photo_preserved_at": "2026-11-01T00:53:50+00:00",
       "photo_history": [
         {
           "path": "assets/listings/95f5ea21400453087258.jpg",
@@ -3908,14 +3914,14 @@
           "date": "2026-09-27T01:18:11+00:00"
         }
       ],
-      "previous_price": 9900.0
+      "previous_price": 7900.0
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-15T01:11:53Z",
-      "last_verified": "2026-10-15T01:11:53Z",
+      "last_seen": "2026-11-01T00:59:12Z",
+      "last_verified": "2026-11-01T00:59:12Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -3932,9 +3938,9 @@
       "county": "Pinal",
       "zip": "85131",
       "kind": "land",
-      "price": 9900.0,
+      "price": 6900.0,
       "known_fees": 100.0,
-      "total_known": 10000.0,
+      "total_known": 7000.0,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 0.29,
       "lat": 32.80295,
@@ -3942,7 +3948,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-14T16:58:31.000000Z",
+      "source_updated": "2026-10-19T19:50:08.000000Z",
       "source_published": "2026-08-18T16:36:55.000000Z",
       "image_url": "assets/listings/87801e66d0493e79c7c2.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/029-acres-for-sale-in-eloy-arizona-25901",
@@ -3974,6 +3980,12 @@
         {
           "date": "2026-09-13T22:25:02+00:00",
           "price": 9900.0,
+          "source": "https://www.landcentury.com/land-for-sale/arizona/029-acres-for-sale-in-eloy-arizona-25901"
+        },
+        {
+          "date": "2026-11-01T00:53:50+00:00",
+          "price": 6900.0,
+          "price_basis": "asking_cash",
           "source": "https://www.landcentury.com/land-for-sale/arizona/029-acres-for-sale-in-eloy-arizona-25901"
         }
       ],
@@ -4019,16 +4031,16 @@
       ],
       "msp_straight_km": 2076,
       "score_parts": {
-        "Цена /25": 13,
+        "Цена /25": 18,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 0,
         "Сезон /10": 6,
         "Дорога /10": 9
       },
-      "score": 28,
+      "score": 33,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/18/6a849cf122958-1787075825.jpg",
-      "photo_preserved_at": "2026-10-15T01:06:48+00:00",
+      "photo_preserved_at": "2026-11-01T00:53:50+00:00",
       "photo_history": [
         {
           "path": "assets/listings/31354d6cd123481b0771.jpg",
@@ -4042,14 +4054,15 @@
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/18/6a849cf122958-1787075825.jpg",
           "date": "2026-09-27T01:18:11+00:00"
         }
-      ]
+      ],
+      "previous_price": 9900.0
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-15T01:11:55Z",
-      "last_verified": "2026-10-15T01:11:55Z",
+      "last_seen": "2026-11-01T00:59:14Z",
+      "last_verified": "2026-11-01T00:59:14Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "restriction_risk",
       "commercial_repair": "unknown",
@@ -4167,7 +4180,7 @@
       "score": 29,
       "legal_source": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/09/6aa0bb762ca36-1788918646.jpg",
-      "photo_preserved_at": "2026-10-15T01:06:48+00:00",
+      "photo_preserved_at": "2026-11-01T00:53:50+00:00",
       "photo_history": [
         {
           "path": "assets/listings/e94b57e995f258901d64.jpg",
@@ -4315,8 +4328,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-15T01:12:04Z",
-      "last_verified": "2026-10-15T01:12:04Z",
+      "last_seen": "2026-11-01T00:59:21Z",
+      "last_verified": "2026-11-01T00:59:21Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "restriction_risk",
       "commercial_repair": "unknown",
@@ -4431,7 +4444,7 @@
       "score": 27,
       "legal_source": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/20/6a872e84ccb6f-1787244164.jpg",
-      "photo_preserved_at": "2026-10-15T01:06:48+00:00",
+      "photo_preserved_at": "2026-11-01T00:53:50+00:00",
       "photo_history": [
         {
           "path": "assets/listings/543858d509bbafec0358.jpg",
@@ -4445,8 +4458,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-15T01:12:05Z",
-      "last_verified": "2026-10-15T01:12:05Z",
+      "last_seen": "2026-11-01T00:59:22Z",
+      "last_verified": "2026-11-01T00:59:22Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "restriction_risk",
       "commercial_repair": "unknown",
@@ -4473,7 +4486,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-13T16:46:39.000000Z",
+      "source_updated": "2026-10-28T21:16:42.000000Z",
       "source_published": "2026-08-17T21:31:34.000000Z",
       "image_url": "assets/listings/3aaf296a0999f81572d6.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/218-acres-for-sale-in-golden-valley-arizona-25892",
@@ -4564,7 +4577,7 @@
       "score": 36,
       "legal_source": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/17/6a837e5c8192b-1787002460.jpg",
-      "photo_preserved_at": "2026-10-15T01:06:48+00:00",
+      "photo_preserved_at": "2026-11-01T00:53:50+00:00",
       "photo_history": [
         {
           "path": "assets/listings/3aaf296a0999f81572d6.jpg",
@@ -90686,8 +90699,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-17T01:10:26+00:00",
-      "last_seen": "2026-10-15T01:11:58Z",
-      "last_verified": "2026-10-15T01:11:58Z",
+      "last_seen": "2026-11-01T00:59:15Z",
+      "last_verified": "2026-11-01T00:59:15Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -90749,7 +90762,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/16/6aaaf17159b0e-1789587825.jpg",
-      "photo_preserved_at": "2026-10-15T01:06:48+00:00",
+      "photo_preserved_at": "2026-11-01T00:53:50+00:00",
       "photo_history": [
         {
           "path": "assets/listings/73313f68b80cb219351e.jpg",
@@ -90812,8 +90825,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-17T01:10:26+00:00",
-      "last_seen": "2026-10-15T01:11:59Z",
-      "last_verified": "2026-10-15T01:11:59Z",
+      "last_seen": "2026-11-01T00:59:17Z",
+      "last_verified": "2026-11-01T00:59:17Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -90879,7 +90892,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/16/6aaaa0e9cc4e7-1789567209.jpg",
-      "photo_preserved_at": "2026-10-15T01:06:48+00:00",
+      "photo_preserved_at": "2026-11-01T00:53:50+00:00",
       "photo_history": [
         {
           "path": "assets/listings/c71912d77bce0a7fbc55.jpg",
@@ -90942,8 +90955,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-17T01:10:26+00:00",
-      "last_seen": "2026-10-15T01:12:01Z",
-      "last_verified": "2026-10-15T01:12:01Z",
+      "last_seen": "2026-11-01T00:59:18Z",
+      "last_verified": "2026-11-01T00:59:18Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -90968,9 +90981,9 @@
       "lat": 36.3142,
       "lng": -91.39905,
       "coord_precision": "listing",
-      "status": "active",
+      "status": "sold",
       "status_basis": "live_public_page",
-      "source_updated": "2026-09-30T08:53:22.000000Z",
+      "source_updated": "2026-10-26T21:23:40.000000Z",
       "source_published": "2026-09-16T13:56:34.000000Z",
       "image_url": "assets/listings/a33cf6351378bf6b017f.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/arkansas/034-acres-for-sale-in-williford-arkansas-26262",
@@ -91009,9 +91022,16 @@
           "source": "https://www.landcentury.com/land-for-sale/arkansas/034-acres-for-sale-in-williford-arkansas-26262"
         }
       ],
-      "status_history": [],
+      "status_history": [
+        {
+          "date": "2026-11-01T00:53:50+00:00",
+          "from": "active",
+          "to": "sold",
+          "source": "https://www.landcentury.com/land-for-sale/arkansas/034-acres-for-sale-in-williford-arkansas-26262"
+        }
+      ],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/27/6ab915deafa50-1790514654.jpg",
-      "photo_preserved_at": "2026-10-15T01:06:48+00:00",
+      "photo_preserved_at": "2026-11-01T00:53:50+00:00",
       "photo_history": [
         {
           "path": "assets/listings/eb099500b027869955a9.jpg",
@@ -91027,7 +91047,7 @@
         }
       ],
       "region": "Юг",
-      "screening_issue": null,
+      "screening_issue": "availability_not_confirmed_by_source",
       "climate_note": "Один из полезных рынков земли в бюджете. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -91070,7 +91090,7 @@
         "Сезон /10": 8,
         "Дорога /10": 5
       },
-      "score": 36,
+      "score": 20,
       "legacy": false,
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/arkansas/034-acres-for-sale-in-williford-arkansas-26262"
@@ -91080,8 +91100,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-17T01:10:26+00:00",
-      "last_seen": "2026-10-15T01:12:02Z",
-      "last_verified": "2026-10-15T01:12:02Z",
+      "last_seen": "2026-11-01T00:59:19Z",
+      "last_verified": "2026-11-01T00:59:19Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -91144,7 +91164,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/07/6ac66c1a60de8-1791388698.jpg",
-      "photo_preserved_at": "2026-10-15T01:06:48+00:00",
+      "photo_preserved_at": "2026-11-01T00:53:50+00:00",
       "photo_history": [
         {
           "path": "assets/listings/68eb29971f704d3adb3b.jpg",
@@ -101100,8 +101120,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-08T01:19:04+00:00",
-      "last_seen": "2026-10-15T01:11:49Z",
-      "last_verified": "2026-10-15T01:11:49Z",
+      "last_seen": "2026-11-01T00:59:08Z",
+      "last_verified": "2026-11-01T00:59:08Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -101167,7 +101187,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/07/6ac5e8e51e4bd-1791355109.jpg",
-      "photo_preserved_at": "2026-10-15T01:06:48+00:00",
+      "photo_preserved_at": "2026-11-01T00:53:50+00:00",
       "photo_history": [
         {
           "path": "assets/listings/0be08f868b50c9f8f48b.jpg",
@@ -101230,8 +101250,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-08T01:19:04+00:00",
-      "last_seen": "2026-10-15T01:11:51Z",
-      "last_verified": "2026-10-15T01:11:51Z",
+      "last_seen": "2026-11-01T00:59:09Z",
+      "last_verified": "2026-11-01T00:59:09Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -101297,7 +101317,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/07/6ac5e74bae415-1791354699.jpg",
-      "photo_preserved_at": "2026-10-15T01:06:48+00:00",
+      "photo_preserved_at": "2026-11-01T00:53:50+00:00",
       "photo_history": [
         {
           "path": "assets/listings/138366e5b5e82033171a.jpg",
@@ -101646,7 +101666,7 @@
         "price": 119995.0,
         "image_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/14/6acfe4ad084cf-1792009389.jpg",
         "source_updated": "2026-10-25T00:07:10.000000Z",
-        "date": "2026-10-31T00:47:40+00:00"
+        "date": "2026-11-01T00:53:50+00:00"
       },
       "source_identity_history": [
         {
@@ -127625,6 +127645,135 @@
         "Дорога /10": 8
       },
       "score": 18
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-01T00:53:50+00:00",
+      "last_seen": "2026-11-01T00:56:32Z",
+      "last_verified": "2026-11-01T00:56:32Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-26952",
+      "source_id": "26952",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/arizona/469-acres-for-sale-in-saint-johns-arizona-26952",
+      "title": "N7407",
+      "address": "N7407",
+      "city": "Saint Johns",
+      "state": "AZ",
+      "county": "Apache",
+      "zip": "85936",
+      "kind": "land",
+      "price": 9499.0,
+      "known_fees": 249.0,
+      "total_known": 9748.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 4.69,
+      "lat": 34.937801,
+      "lng": -109.350067,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-10-31T16:52:09.000000Z",
+      "source_published": "2026-10-31T16:44:02.000000Z",
+      "image_url": "assets/listings/61c463d2b2434806fb1c.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/469-acres-for-sale-in-saint-johns-arizona-26952",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "AZ-Apache-206-10-466",
+      "zoning": "Rural",
+      "road_note": "Dirt Road",
+      "utility_note": "No utilities",
+      "taxes_note": "15",
+      "source_categories": [
+        "residential-buildable-land",
+        "agricultural-and-farm-land",
+        "owner-finance-deals",
+        "recreational-and-hunting-land",
+        "mobile-home-and-rv-land",
+        "vacant-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "seller_claim",
+      "rv_occupancy": "seller_conditional",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "none",
+      "water": "none",
+      "sewer": "unknown",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "flags": [
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
+      "evidence_quote": "69 Acres in the Arizona High Country – $199/mo HIGHLIGHTS Private, wooded corner lot with juniper trees and natural shade Two well-made",
+      "price_history": [
+        {
+          "date": "2026-11-01T00:53:50+00:00",
+          "price": 9499.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/469-acres-for-sale-in-saint-johns-arizona-26952"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/31/6ae61bc2a7c57-1793465282.jpg",
+      "photo_preserved_at": "2026-11-01T00:53:50+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/61c463d2b2434806fb1c.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/469-acres-for-sale-in-saint-johns-arizona-26952",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/31/6ae61bc2a7c57-1793465282.jpg",
+          "date": "2026-11-01T00:53:50+00:00"
+        }
+      ],
+      "region": "Юго-запад",
+      "screening_issue": null,
+      "climate_note": "Много дешёвой земли. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "PHX",
+          "name": "Phoenix Sky Harbor International Airport",
+          "straight_km": 296,
+          "drive_km_estimate": 370,
+          "drive_hours_estimate": 4.9,
+          "flight_min_eur": 710,
+          "flight_origin": "WAW",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 540,
+          "drive_km_estimate": 675,
+          "drive_hours_estimate": 9.0,
+          "flight_min_eur": 575,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "DEN",
+          "name": "Denver International Airport",
+          "straight_km": 685,
+          "drive_km_estimate": 857,
+          "drive_hours_estimate": 11.4,
+          "flight_min_eur": 646,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1759,
+      "score_parts": {
+        "Цена /25": 14,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 6,
+        "Дорога /10": 5
+      },
+      "score": 25
     }
   ]
 }
