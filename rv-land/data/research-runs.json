@@ -4437,7 +4437,117 @@
       "rotation_reason": "Below-ten markets/recently uncovered building candidates; KY/TN lastmanualOct23 andRI Oct25. Automatic collector coversall50.",
       "preservation": "989prior records,IDs,first_seen,photo bytes and histories retained. One newreal-photo MA record onhold; one existing CT price decrease appended. No sold status inferred from access errors.",
       "validation": "Focused tests,validator,preservation audit and public map/photo postflight recorded separately."
+    },
+    {
+      "date": "2026-11-01T03:18:20+00:00",
+      "states": [
+        "KY",
+        "TN",
+        "RI"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [
+        "ls-3393731"
+      ],
+      "updated_ids": [
+        "lc-25897",
+        "lc-25901",
+        "lc-26262",
+        "lc-26952"
+      ],
+      "automatic_added_ids": [
+        "lc-26952"
+      ],
+      "automatic_updated_ids": [
+        "lc-25897",
+        "lc-25901",
+        "lc-26262"
+      ],
+      "workflow": {
+        "run_id": 41258724588,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/41258724588",
+        "conclusion": "success",
+        "created_at": "2026-11-01T00:53:32Z",
+        "data_commit": "3cd0936f9421676f23c3f40bee259616c1bd17b6"
+      },
+      "monitor": {
+        "date": "2026-11-01T00:53:50+00:00",
+        "status": "partial",
+        "scanned_pages": 116,
+        "read_details": 72,
+        "added": 1,
+        "changed": 3,
+        "errors": 48
+      },
+      "source_errors": "Actual schedule succeeded; partial monitor116pages/72details,1addition,3changes,48errors. All20 retained source-error samples are404, not evidence for all48 or sold status. Pages41259152356 success, duplicate41259151230 cancelled; no redundant fallback required.",
+      "findings": [
+        {
+          "id": "ls-3393731",
+          "finding": "New real-photo TN raw-land candidate $10,000,0.7acre; listing coordinates and active status verified live. No garage, ready pad or repair permission. Correct Greenfield TN official zoning reference reviewed, separate ordinance unavailable."
+        },
+        {
+          "ids": [
+            "lc-25897",
+            "lc-25901"
+          ],
+          "finding": "Both current Cash price panels$6,900; descriptions still$9,900 plus$100document fee. Automatic lower observations retained with history, but both held from candidates pending price clarification."
+        },
+        {
+          "id": "lc-26262",
+          "finding": "Explicit live Sold confirmed. Record,images and history retained."
+        },
+        {
+          "id": "lc-26952",
+          "finding": "Automatic addition verified live:4.69acre cash$9,499+$249fee,matchingGPS/parcel206-10-466. No utilities/garage; seller camping statements not authority confirmation. Current county ordinance link checked;2022proposal not treated as adopted."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.nashvillerealestate.com/listing/3622706-4-bond-st-clarksville-tn-37040/",
+          "finding": "TN4BondSt$3,150 garage lead is Residential Lease, not purchase. Rejected despite misleading cheap-house search snippet."
+        },
+        {
+          "url": "https://www.realty.com/home-listings/1052785918/920-Ky-306-Bevinsville-KY-41606",
+          "finding": "KY$14,500 MLS25505009 lead has house metadata but0.15acreLOT description; Stessa says no garage. Current broker source503 and RealtyChromeCloudflareverification stopped. No fresh photo/building verification; deferred without status inference."
+        },
+        {
+          "url": "https://www.liberty-kentucky.com/featured-properties",
+          "finding": "KY0RiverviewDr1.1acre$15,000,16017-063220 raw-land/utility-access lead found in current indexed primary-broker catalog. Browser navigation timed out; exact parcel coordinates and RV use unverified. Deferred, not imported with a town-centre point."
+        },
+        {
+          "url": "https://homefinder.com/realestateandhomes-detail/Rhode-Island-Ave_Narragansett_RI_02882_M96338-08690",
+          "finding": "RI indexed$15,000 pending lead is existingri-1419851 with prior reviewhold; no stronger new cash workshop. Existing status/freshness not overwritten from search snapshot."
+        },
+        {
+          "url": "https://www.movoto.com/smithfield-ri/258-log-rd-smithfield-ri-02917-821_1214815/",
+          "finding": "RI258LogRd$15,000 is explicitly soldDec2,2025 with no road frontage; not an active purchase candidate."
+        },
+        {
+          "url": "https://www.ratemyagent.com/real-estate-agency/lila-delman-compass/property-listings/0-nepaug-rd-washington-county-bqqo4v",
+          "finding": "RI0NepaugRd$15,000 is soldMar28,2025 statistical nonMLS record; not active."
+        }
+      ],
+      "official_sources": [
+        {
+          "url": "https://www.mtas.tennessee.edu/system/files/codes/greenfield-t14.pdf",
+          "finding": "GreenfieldTN Title14§14-201 directs land use to separate zoning ordinance and map held by city recorder. MTAS code dateDec18,2002; parcel/current RV rules not established. Title13 robots denied, stopped."
+        },
+        {
+          "url": "https://www.apachecountyaz.gov/accnt_591117/site_591118/Documents/Apache-County-Zoning-Ordinance-amended.pdf",
+          "finding": "County department currently links amendedDec3,2019 ordinance;§403 A-G uses reviewed. No parcel-specific permission for standalone private RV repair established. Jan6,2022 RVpolicymeeting materials are proposal evidence only."
+        }
+      ],
+      "access": "Public web and Chrome only; 503/security verification/robots barriers stopped. No sellers contacted,login,purchases,bookings or infrastructure changes.",
+      "flight_review": "October26 observations preserved; next weekly reviewNovember2.",
+      "next_states": [
+        "DE",
+        "NH",
+        "VT"
+      ],
+      "rotation_reason": "Below-ten photo states; DE lastmanualOct28,NH/VT Oct27. Automatic discovery rotates details and coversall50 statewide feeds.",
+      "preservation": "991 prior rows,IDs,first_seen,photos,prices/statuses and histories retained during manual merge. One genuine TN photo record added; two live-source price conflicts put on reviewhold. Automatic sold transition supported by explicit page text.",
+      "validation": "Focused tests,validator,preservation audit and public map/photo postflight recorded separately."
     }
   ],
-  "updated_at": "2026-10-31T03:22:45+00:00"
+  "updated_at": "2026-11-01T03:18:20+00:00"
 }

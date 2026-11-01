@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-01T00:53:50+00:00",
+  "updated_at": "2026-11-01T03:18:20+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -3774,12 +3774,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-11-01T00:59:11Z",
-      "last_verified": "2026-11-01T00:59:11Z",
+      "last_seen": "2026-11-01T03:18:20+00:00",
+      "last_verified": "2026-11-01T03:18:20+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "01.11.2026: подтверждена новая цена шапки $6,900, но описание содержит $9,900 и прежние условия рассрочки. Известный сбор $100 сохранён; сумма $7,000 условна до устранения расхождения. Действующих коммуникаций нет по продавцу. Указания на City of Eloy и зонирование Pinal County требуют проверки юрисдикции; личный ремонт и самостоятельное хранение RV неизвестны."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-25897",
       "source_id": "25897",
@@ -3795,7 +3797,7 @@
       "price": 6900.0,
       "known_fees": 100.0,
       "total_known": 7000.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "01.11.2026: живая шапка Cash price $6,900, однако описание всё ещё содержит Cash Discount Price $9,900. Сохранена новая цена шапки как наблюдение, окончательная сумма не подтверждена. В описании дополнительно $100 document fee.",
       "acres": 0.33,
       "lat": 32.8124,
       "lng": -111.6098,
@@ -3827,7 +3829,8 @@
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Цена в шапке $6,900 расходится с $9,900 в описании; окончательная cash price не подтверждена."
       ],
       "evidence_quote": "*Applicable fees may apply including but not limited to $18/month loan servicing fee.",
       "price_history": [
@@ -3854,7 +3857,7 @@
         "https://www.landcentury.com/land-for-sale/arizona/033-acres-for-sale-in-eloy-arizona-25897"
       ],
       "region": "Юго-запад",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Много дешёвой земли. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -3897,7 +3900,7 @@
         "Сезон /10": 6,
         "Дорога /10": 9
       },
-      "score": 33,
+      "score": 20,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/21/6a88378da8d2e-1787312013.jpg",
       "photo_preserved_at": "2026-11-01T00:53:50+00:00",
       "photo_history": [
@@ -3914,18 +3917,35 @@
           "date": "2026-09-27T01:18:11+00:00"
         }
       ],
-      "previous_price": 7900.0
+      "previous_price": 7900.0,
+      "review_hold": {
+        "date": "2026-11-01T03:18:20+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/arizona/033-acres-for-sale-in-eloy-arizona-25897",
+        "reason": "Одновременные противоречащие cash prices в живом объявлении: $6,900 и $9,900.",
+        "release_condition": "Источник должен однозначно подтвердить полную cash price и обязательные сборы по этому parcel."
+      },
+      "verification_history": [
+        {
+          "date": "2026-11-01T03:18:20+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/033-acres-for-sale-in-eloy-arizona-25897",
+          "finding": "Chrome shows Cash price $6,900 in price panel but Cash Discount Price $9,900 in description; $100 document fee retained. Source price disagreement held for review."
+        }
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-11-01T00:59:12Z",
-      "last_verified": "2026-11-01T00:59:12Z",
+      "last_seen": "2026-11-01T03:18:20+00:00",
+      "last_verified": "2026-11-01T03:18:20+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "01.11.2026: подтверждена новая цена шапки $6,900, но описание содержит $9,900 и прежние условия рассрочки. Известный сбор $100 сохранён; сумма $7,000 условна до устранения расхождения. Действующих коммуникаций нет по продавцу. Указания на City of Eloy и зонирование Pinal County требуют проверки юрисдикции; личный ремонт и самостоятельное хранение RV неизвестны.",
+        "В карточке parcel 403183360; legal description перечисляет Lot 15 / 403-18-33504 и Lot 16 / 403-18-33603. Состав продажи и площадь каждого лота не установлены; исходная точка и parcel сохранены."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-25901",
       "source_id": "25901",
@@ -3941,7 +3961,7 @@
       "price": 6900.0,
       "known_fees": 100.0,
       "total_known": 7000.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "01.11.2026: живая шапка Cash price $6,900, однако описание всё ещё содержит Cash Discount Price $9,900. Сохранена новая цена шапки как наблюдение, окончательная сумма не подтверждена. В описании дополнительно $100 document fee.",
       "acres": 0.29,
       "lat": 32.80295,
       "lng": -111.62765,
@@ -3973,7 +3993,8 @@
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Цена в шапке $6,900 расходится с $9,900 в описании; окончательная cash price не подтверждена."
       ],
       "evidence_quote": "*Applicable fees may apply including but not limited to $18/month loan servicing fee.",
       "price_history": [
@@ -3995,7 +4016,7 @@
         "https://www.landcentury.com/land-for-sale/arizona/029-acres-for-sale-in-eloy-arizona-25901"
       ],
       "region": "Юго-запад",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Много дешёвой земли. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -4038,7 +4059,7 @@
         "Сезон /10": 6,
         "Дорога /10": 9
       },
-      "score": 33,
+      "score": 20,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/18/6a849cf122958-1787075825.jpg",
       "photo_preserved_at": "2026-11-01T00:53:50+00:00",
       "photo_history": [
@@ -4055,7 +4076,21 @@
           "date": "2026-09-27T01:18:11+00:00"
         }
       ],
-      "previous_price": 9900.0
+      "previous_price": 9900.0,
+      "review_hold": {
+        "date": "2026-11-01T03:18:20+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/arizona/029-acres-for-sale-in-eloy-arizona-25901",
+        "reason": "Одновременные противоречащие cash prices в живом объявлении: $6,900 и $9,900.",
+        "release_condition": "Источник должен однозначно подтвердить полную cash price и обязательные сборы по этому parcel."
+      },
+      "verification_history": [
+        {
+          "date": "2026-11-01T03:18:20+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/029-acres-for-sale-in-eloy-arizona-25901",
+          "finding": "Chrome shows Cash price $6,900 in price panel but Cash Discount Price $9,900 in description; $100 document fee retained. Source price disagreement held for review."
+        }
+      ]
     },
     {
       "price_currency": "USD",
@@ -90955,12 +90990,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-17T01:10:26+00:00",
-      "last_seen": "2026-11-01T00:59:18Z",
-      "last_verified": "2026-11-01T00:59:18Z",
+      "last_seen": "2026-11-01T03:18:20+00:00",
+      "last_verified": "2026-11-01T03:18:20+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "01.11.2026: живая страница прямо сообщает Sold / This property has been sold. Статус sold подтверждён; карточка, цена, фотографии и история сохранены."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26262",
       "source_id": "26262",
@@ -91094,6 +91131,14 @@
       "legacy": false,
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/arkansas/034-acres-for-sale-in-williford-arkansas-26262"
+      ],
+      "verification_history": [
+        {
+          "date": "2026-11-01T03:18:20+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arkansas/034-acres-for-sale-in-williford-arkansas-26262",
+          "finding": "Explicit Sold badge and sold sentence verified in Chrome; no inference from access failure."
+        }
       ]
     },
     {
@@ -127650,13 +127695,16 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-01T00:53:50+00:00",
-      "last_seen": "2026-11-01T00:56:32Z",
-      "last_verified": "2026-11-01T00:56:32Z",
+      "last_seen": "2026-11-01T03:18:20+00:00",
+      "last_verified": "2026-11-01T03:18:20+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
-      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "notes": [
+        "01.11.2026: 4.69 acre, parcel 206-10-466, карта и текст совпадают: 34.937801, -109.350067. Шапка N7407; описание предлагает подъезды через N7102/N7444. Проезд высокого RV, состояние дорог после дождя и точный въезд не проверены. Продавец оценивает дорогу до Phoenix примерно в 4.5 часа; это не проверенное время до аэропорта.",
+        "Официальная страница Apache County Community Development по-прежнему ссылается на zoning ordinance amended 03.12.2019. §403 содержит ограничения видов использования A-G, но не подтверждает личный ремонт кемпервэна на этом parcel. Найденный RV Placement Policy в материалах заседания 06.01.2022 не принят за доказательство принятого правила. Заявления продавца о 14/30 днях camping и длительном RV-проживании с septic независимо не подтверждены."
+      ],
+      "closing_costs": "Продавец заявляет, что $249 Doc Fee покрывает closing. Независимые title/escrow, обследования, подготовка и коммуникации в сумму не оценены.",
       "id": "lc-26952",
       "source_id": "26952",
       "source": "LandCentury",
@@ -127671,7 +127719,7 @@
       "price": 9499.0,
       "known_fees": 249.0,
       "total_known": 9748.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "01.11.2026: cash price $9,499 плюс обязательный $249 Doc Fee для cash и financing; известная сумма $9,748. $199 down/month и $12,139 — отдельные условия рассрочки.",
       "acres": 4.69,
       "lat": 34.937801,
       "lng": -109.350067,
@@ -127684,9 +127732,9 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/469-acres-for-sale-in-saint-johns-arizona-26952",
       "image_credit": "Seller / LandCentury",
       "parcel": "AZ-Apache-206-10-466",
-      "zoning": "Rural",
+      "zoning": "Agricultural General (A-G), по продавцу; parcel zoning не проверен",
       "road_note": "Dirt Road",
-      "utility_note": "No utilities",
+      "utility_note": "По продавцу нет воды, электричества и канализации. Well/cistern, solar/generator и septic — возможные будущие работы, не готовые подключения.",
       "taxes_note": "15",
       "source_categories": [
         "residential-buildable-land",
@@ -127696,18 +127744,19 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Пустой участок; гараж, мастерская и готовая площадка отсутствуют в описании.",
       "rv_storage": "seller_claim",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "none",
       "water": "none",
-      "sewer": "unknown",
+      "sewer": "none",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Нет коммуникаций и готовой мастерской; разрешение ремонта неизвестно. Длительная дорога от крупных аэропортов."
       ],
       "evidence_quote": "69 Acres in the Arizona High Country – $199/mo HIGHLIGHTS Private, wooded corner lot with juniper trees and natural shade Two well-made",
       "price_history": [
@@ -127773,7 +127822,148 @@
         "Сезон /10": 6,
         "Дорога /10": 5
       },
-      "score": 25
+      "score": 25,
+      "legal_source": "https://www.apachecountyaz.gov/accnt_591117/site_591118/Documents/Apache-County-Zoning-Ordinance-amended.pdf",
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/469-acres-for-sale-in-saint-johns-arizona-26952"
+      ]
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-01T03:18:20+00:00",
+      "last_seen": "2026-11-01T03:18:20+00:00",
+      "last_verified": "2026-11-01T03:18:20+00:00",
+      "photo_kind": "Оригинальное фото объявления: травянистый участок с деревьями у асфальтированной дороги.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [
+        "01.11.2026: живая карточка Active sale $10,000, 0.7 acre, TVAR128322. Координаты из ссылки Directions этого объявления; границы не обследованы. Фото визуально проверено и сохранено без изменений. Существующего гаража нет. Разрешение на manufactured home не означает разрешения на хранение, проживание или ремонт RV.",
+        "Greenfield, Tennessee / Weakley County: официальный MTAS Title14 §14-201 отсылает к отдельной zoning ordinance и её карте у city recorder. Каталог маркирует municipal code датой 18.12.2002; текущая зона этого parcel и действующие ограничения на RV/личный ремонт не подтверждены. Title13 недоступен из-за robots; обход не выполнялся.",
+        "Дополнительная публичная карточка: https://www.redfin.com/TN/Greenfield/317-Garland-St-38230/home/132838056 — та же цена и MLS; подключения только available, не ready. Полный APN из агрегатора не подменяет сокращённый parcel без county-проверки."
+      ],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "available",
+      "sewer": "available",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "flags": [
+        "Потребуются проверка городского zoning, самостоятельного хранения RV и личного ремонта без жилого дома.",
+        "Подготовка площадки и въезда не оценена; разрешение проживания в кемпервэне неизвестно."
+      ],
+      "evidence_quote": null,
+      "id": "ls-3393731",
+      "source": "LandSearch / TVAR",
+      "source_id": "3393731",
+      "url": "https://www.landsearch.com/properties/317-garland-st-greenfield-tn-38230/3393731",
+      "title": "317 Garland Street",
+      "address": "317 Garland St",
+      "city": "Greenfield",
+      "state": "TN",
+      "county": "Weakley",
+      "zip": "38230",
+      "kind": "land",
+      "price": 10000,
+      "known_fees": 0,
+      "total_known": 10000,
+      "acres": 0.7,
+      "lat": 36.156945,
+      "lng": -88.795551,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "mls": "TVAR 128322",
+      "parcel": "022.00 (сокращённый идентификатор источника)",
+      "zoning": "unknown",
+      "source_updated": "2026-05-21",
+      "source_published": "2023-12-28",
+      "taxes_note": "LandSearch показывает $30 без года; текущий налог не подтверждён.",
+      "price_evidence": "01.11.2026: публичная карточка Active sale $10,000 за 0.7 acre, TVAR 128322. Это asking purchase price, не $92/month из калькулятора. Дополнительные сборы не установлены; closing и подготовка не включены.",
+      "road_note": "Источник показывает участок у Garland St; на фото видна асфальтированная дорога и травянистый край. Юридический доступ, готовый въезд, дренаж и разворот 7-метрового RV не проверены.",
+      "utility_note": "Независимая публичная карточка Redfin/TVAR128322 заявляет public water/sewer available. Работающие подключения, счётчики, стоимость и мощность не подтверждены.",
+      "garage_note": "Неосвоенный участок; гараж, ангар или мастерская не заявлены.",
+      "image_source_url": "https://www.landsearch.com/properties/317-garland-st-greenfield-tn-38230/3393731",
+      "image_credit": "Listing broker / TVAR via LandSearch",
+      "image_url": "assets/listings/fe5a6858b6d3b773ca31.jpg",
+      "legal_source": "https://www.mtas.tennessee.edu/system/files/codes/greenfield-t14.pdf",
+      "verification_history": [
+        {
+          "date": "2026-11-01T03:18:20+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landsearch.com/properties/317-garland-st-greenfield-tn-38230/3393731",
+          "finding": "Active sale $10,000,0.7acre,TVAR128322; exact listing directions36.156945,-88.795551; original listing image downloaded and visually inspected. Vacant land; no existing garage or repair authorization."
+        }
+      ],
+      "image_remote_url": "https://cdn.landsearch.com/listings/4x7g5/large/greenfield-tn-168254632.jpg",
+      "photo_preserved_at": "2026-11-01T03:18:20+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/fe5a6858b6d3b773ca31.jpg",
+          "source": "https://www.landsearch.com/properties/317-garland-st-greenfield-tn-38230/3393731",
+          "remote_url": "https://cdn.landsearch.com/listings/4x7g5/large/greenfield-tn-168254632.jpg",
+          "date": "2026-11-01T03:18:20+00:00"
+        }
+      ],
+      "price_history": [
+        {
+          "date": "2026-11-01T03:18:20+00:00",
+          "price": 10000,
+          "price_basis": "asking_cash",
+          "source": "https://www.landsearch.com/properties/317-garland-st-greenfield-tn-38230/3393731"
+        }
+      ],
+      "status_history": [],
+      "region": "Юг",
+      "screening_issue": null,
+      "climate_note": "Один из первых регионов для поиска базы. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "BNA",
+          "name": "Nashville International Airport",
+          "straight_km": 190,
+          "drive_km_estimate": 238,
+          "drive_hours_estimate": 3.2,
+          "flight_min_eur": 604,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "STL",
+          "name": "St. Louis Lambert International Airport",
+          "straight_km": 320,
+          "drive_km_estimate": 400,
+          "drive_hours_estimate": 5.3,
+          "flight_min_eur": null,
+          "flight_origin": null,
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "ATL",
+          "name": "Hartsfield Jackson Atlanta International Airport",
+          "straight_km": 487,
+          "drive_km_estimate": 609,
+          "drive_hours_estimate": 8.1,
+          "flight_min_eur": 559,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1039,
+      "score_parts": {
+        "Цена /25": 13,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 2,
+        "Сезон /10": 8,
+        "Дорога /10": 7
+      },
+      "score": 30
     }
   ]
 }
