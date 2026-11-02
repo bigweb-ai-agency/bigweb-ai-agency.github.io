@@ -4547,7 +4547,97 @@
       "rotation_reason": "Below-ten photo states; DE lastmanualOct28,NH/VT Oct27. Automatic discovery rotates details and coversall50 statewide feeds.",
       "preservation": "991 prior rows,IDs,first_seen,photos,prices/statuses and histories retained during manual merge. One genuine TN photo record added; two live-source price conflicts put on reviewhold. Automatic sold transition supported by explicit page text.",
       "validation": "Focused tests,validator,preservation audit and public map/photo postflight recorded separately."
+    },
+    {
+      "date": "2026-11-02T03:16:35+00:00",
+      "states": [
+        "DE",
+        "NH",
+        "VT"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [],
+      "updated_ids": [
+        "lc-25953",
+        "lc-26953",
+        "lc-26920"
+      ],
+      "automatic_added_ids": [
+        "lc-26953",
+        "lc-26920"
+      ],
+      "automatic_updated_ids": [
+        "lc-25953"
+      ],
+      "workflow": {
+        "run_id": 41369230171,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/41369230171",
+        "conclusion": "success",
+        "created_at": "2026-11-02T00:49:40Z",
+        "data_commit": "9f2169d54fca3b4421d69e58e5b4ee2f70b6c26c"
+      },
+      "monitor": {
+        "date": "2026-11-02T00:49:57+00:00",
+        "status": "partial",
+        "scanned_pages": 116,
+        "read_details": 71,
+        "added": 2,
+        "changed": 1,
+        "errors": 49
+      },
+      "source_errors": "Schedule succeeded: 116 pages, 71 details, 2 additions, 1 price change, 49 errors. All 20 retained samples are HTTP 404; this does not explain every error or prove a sale. Pages 41369754562 succeeded; duplicate 41369752718 cancelled. No redundant fallback needed.",
+      "findings": [
+        {
+          "id": "lc-25953",
+          "finding": "Fresh header $5,900 contradicts $9,900 cash description plus $100 fee. Preserve price history and hold from candidates."
+        },
+        {
+          "id": "lc-26953",
+          "finding": "4.54 acres, $9,751 cash + $249 fee, genuine road photo and listing GPS. No utilities/workshop; storage and repair unknown."
+        },
+        {
+          "id": "lc-26920",
+          "finding": "1.05 acres, $9,995 cash, genuine aerial photo and listing GPS. $249 fee in financing block only; cash applicability unknown. No utilities/workshop."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.compass.com/homedetails/201-N-Dupont-St-Wilmington-DE-19805/1MK4BT_pid/",
+          "finding": "DE DENC2085948 closed Aug 20,2026 for $10,000. Stale $15,000 available catalog and generic home-design image do not support an active new property."
+        },
+        {
+          "url": "https://www.coldwellbankerhomes.com/nh/alton/lot-201-andamp-202-frohock-brook-rd/pid_73974653/",
+          "finding": "NH new MLS5111866, 0.64ac $15,000: association prohibits camping, no power, unmaintained roads, directions require parking at Barbara Lane and continuing on foot. No verified RV access; deferred."
+        },
+        {
+          "url": "https://www.verani.com/nh-real-estate/richmond/48-activity-r-mls-73512981",
+          "finding": "NH $10,900 Activity R lead remains deferred: wetlands/current-use tax and access uncertainty; not added as a verified RV base."
+        },
+        {
+          "url": "https://bluemountainland.com/properties/",
+          "finding": "NH Williams Dr $6,995 and White Mountain Rd $13,700 explicitly SOLD in broker catalog. Province Lake $8,000 and Knowles Farm $15,000 are down payments on larger full prices, not cash purchases."
+        },
+        {
+          "url": "https://winhallrealestate.com/stratton_land/",
+          "finding": "VT catalog labels land Rentals and has lease availability controls; cheap seasonal offers are not cash purchase candidates."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/vermont/search/under-15000",
+          "finding": "VT fresh under-$15,000 results are $3,200/mo, $4,750/mo and $7,000/mo leases; no genuine new cash workshop identified."
+        }
+      ],
+      "official_sources": [],
+      "access": "Public search and Chrome; no bypass of CAPTCHA, robots,403 or login. No seller contact, booking, purchase or infrastructure changes.",
+      "flight_review": "99 new dated Explore observations: 85 usable, 14 outbound paths >24h excluded. All 635 old observations and 36 prior provider cards preserved. Finnair Classic €696.76, Norse Classic £484 and TAP cash 3466 DKK verified at carriers; TAP 23kg quoted 522 DKK each way, not purchased. Separate positioning €196/€240 chosen in Google, two overnight buffers each; positioning baggage, hotels and ground transport unknown. Next weekly review November9.",
+      "next_states": [
+        "MA",
+        "CT",
+        "NJ"
+      ],
+      "rotation_reason": "Rotate below-ten states after DE/NH/VT. Automatic statewide discovery continues across all 50.",
+      "preservation": "All 994 IDs, first_seen, photos, price/status histories retained. No manual price/status changes; one price-conflict hold. Old flight observations retained in archive.",
+      "validation": "28 focused data tests, validator, 994-row/old-image/history preservation assertions; public map, photos and flight panel to be checked after Pages publication."
     }
   ],
-  "updated_at": "2026-11-01T03:18:20+00:00"
+  "updated_at": "2026-11-02T03:16:35+00:00"
 }
