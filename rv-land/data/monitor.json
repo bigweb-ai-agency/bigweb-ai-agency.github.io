@@ -1,9 +1,9 @@
 {
   "schedule": "Ежедневно 00:37 UTC: 03:37 летом / 02:37 зимой по Вильнюсу. GitHub Actions может запускаться с задержкой.",
-  "last_run": "2026-11-01T00:53:50+00:00",
+  "last_run": "2026-11-02T00:49:57+00:00",
   "status": "partial",
-  "run_url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/41258724588",
-  "summary": "1 новых; 3 изменений цены/статуса/фото; 72 страниц проверено; ошибок 48.",
+  "run_url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/41369230171",
+  "summary": "2 новых; 1 изменений цены/статуса/фото; 71 страниц проверено; ошибок 49.",
   "scope": "LandCentury: новые страницы всех 50 штатов и ротация старых записей. LandSearch и старые MLS — отдельная исследовательская проверка, не автоматический live-статус.",
   "events": [
     {
@@ -545,6 +545,15 @@
       "added": 1,
       "changed": 3,
       "errors": 48
+    },
+    {
+      "date": "2026-11-02T00:49:57+00:00",
+      "status": "partial",
+      "scanned_pages": 116,
+      "read_details": 71,
+      "added": 2,
+      "changed": 1,
+      "errors": 49
     }
   ],
   "source_errors": [
@@ -979,12 +988,6 @@
       "state": "TN"
     },
     {
-      "url": "https://www.landcentury.com/land-for-sale/tennessee/024-acres-for-sale-in-crossville-tn-12502",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 3500.0,
-      "state": "TN"
-    },
-    {
       "url": "https://www.landcentury.com/land-for-sale/nevada/487-acres-for-sale-in-winnemucca-nevada-26146",
       "reason": "source_reused_property_identity",
       "preserved_id": "lc-26146",
@@ -993,8 +996,8 @@
     }
   ],
   "photo_preservation": {
+    "saved": 12,
     "missing": 1,
-    "cached": 978,
-    "saved": 12
+    "cached": 981
   }
 }
