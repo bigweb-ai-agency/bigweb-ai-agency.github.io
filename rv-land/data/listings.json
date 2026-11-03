@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-03T00:47:59+00:00",
+  "updated_at": "2026-11-03T03:19:20+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -5301,12 +5301,15 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-11-03T00:50:51Z",
-      "last_verified": "2026-11-03T00:50:51Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-03T03:19:20+00:00",
+      "last_verified": "2026-11-03T03:19:20+00:00",
+      "photo_kind": "Второе фото из текущего объявления: пикап на грунтовой дороге среди открытой местности. Границы parcel и готовая площадка не показаны.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "03.11.2026: новое объявление LC26959 относится к тому же APN 203-49-455, Lot 455 San Juan Meadows, 1.04 acre, GPS 34.5018,-109.4507. Старый ID lc-26117, first_seen, альтернативные URL и фотографии сохранены. Это повторная публикация того же parcel, а не новый объект.",
+        "Рекламный коллаж с кемпером и обещанием Long-Term RV Living Approved не доказывает фактическое состояние участка или разрешение округа. Для карточки выбран исходный второй снимок грунтовой дороги из галереи; коллаж и предыдущие изображения сохранены. Заявления продавца о camping, длительном проживании с septic и 200 sq ft minimum не приняты за официальное разрешение ремонта."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26117",
       "source_id": "26959",
@@ -5322,7 +5325,7 @@
       "price": 7990.0,
       "known_fees": 249.0,
       "total_known": 8239.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "03.11.2026: cash $7,990 плюс $249 doc fee = $8,239. $349 to start и $200/month относятся к рассрочке, не полной цене.",
       "acres": 1.04,
       "lat": 34.5018,
       "lng": -109.4507,
@@ -5331,11 +5334,11 @@
       "status_basis": "live_public_page",
       "source_updated": "2026-11-02T22:14:39.000000Z",
       "source_published": "2026-11-02T22:10:09.000000Z",
-      "image_url": "assets/listings/9092c4cef8eb0abf7115.jpg",
+      "image_url": "assets/listings/98f46fcf3cb5b3e3ba74.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-saint-johns-arizona-26959",
       "image_credit": "Seller / LandCentury",
       "parcel": "203-49-455",
-      "zoning": "Agricultural",
+      "zoning": "Agricultural General, по продавцу; parcel zoning не проверен",
       "road_note": "Dirt Road",
       "utility_note": "Electricity available, septic and well required",
       "taxes_note": "25.88/year",
@@ -5345,7 +5348,7 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Пустой участок; workshop в описании — возможное будущее использование, существующего гаража нет.",
       "rv_storage": "seller_claim",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
@@ -5356,9 +5359,10 @@
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Нет существующей мастерской; личный ремонт неизвестен. Электричество лишь available, well и septic ещё требуются."
       ],
-      "evidence_quote": "04-Acre Property in Saint Johns with RV Living Approved Discover freedom and flexibility on this full 1.",
+      "evidence_quote": "Electricity available, septic and well required",
       "price_history": [
         {
           "date": "2026-09-13T22:25:02+00:00",
@@ -5418,8 +5422,8 @@
         "Дорога /10": 6
       },
       "score": 29,
-      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/02/6ae90aeba6f94-1793657579.jpg",
-      "photo_preserved_at": "2026-11-03T00:47:59+00:00",
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/02/6ae90a97a672d-1793657495.jpg",
+      "photo_preserved_at": "2026-11-03T03:19:20+00:00",
       "photo_history": [
         {
           "path": "assets/listings/9092c4cef8eb0abf7115.jpg",
@@ -5432,6 +5436,12 @@
           "source": "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-saint-johns-arizona-26476",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/08/6ac799ac9f93a-1791465900.jpg",
           "date": "2026-10-09T01:21:02+00:00"
+        },
+        {
+          "path": "assets/listings/98f46fcf3cb5b3e3ba74.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-saint-johns-arizona-26959",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/02/6ae90a97a672d-1793657495.jpg",
+          "date": "2026-11-03T03:19:20+00:00"
         }
       ],
       "verification_history": [
@@ -5443,6 +5453,12 @@
             "sewer": "available"
           },
           "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
+        },
+        {
+          "date": "2026-11-03T03:19:20+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-saint-johns-arizona-26959",
+          "finding": "Relisted source26959 matches existing lc-26117 parcel/GPS/acreage, cash unchanged. Replaced display of promotional montage with original gallery photo2 of the dirt road, preserving all previous files and photo history. Storage/occupancy seller claims only; personal repair unknown."
         }
       ]
     },
@@ -128316,19 +128332,22 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-03T00:47:59+00:00",
-      "last_seen": "2026-11-03T00:50:49Z",
-      "last_verified": "2026-11-03T00:50:49Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-03T03:19:20+00:00",
+      "last_verified": "2026-11-03T03:19:20+00:00",
+      "photo_kind": "Изображение из объявления: грунтовая дорога и открытая местность, поверх фото реклама рассрочки $388/month. Это не полная цена покупки.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
-      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "notes": [
+        "03.11.2026: 5 acre, APN 71512550, GPS 37.030853,-105.684097 совпадают с живым объявлением. Реальная дорога в описании Mariposa Trail после Black Hawk Road, возле Mesita; маркетинговый адрес шапки сохранён отдельно. County-maintained dirt road и отсутствие HOA — заявления продавца; юридический доступ и проезд высокого 7-метрового RV не проверены.",
+        "Продавец описывает краткое camping и более длительное RV-проживание только при полной оплате земли, septic, well/cistern, строительстве постоянного дома и разрешении округа. Эти условия независимо не подтверждены и не доказывают самостоятельное хранение или личный ремонт. Нет воды, электричества и канализации; расходы на освоение не включены."
+      ],
+      "closing_costs": "По продавцу $249 Doc Fee покрывает closing. Независимые title/escrow, обследования, коммуникации и подготовка площадки не оценены.",
       "id": "lc-26961",
       "source_id": "26961",
       "source": "LandCentury",
       "url": "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-the-sunny-san-luis-valley-colorado-26961",
-      "title": "Easy Street & No-Interest Financing Lane",
-      "address": "Easy Street & No-Interest Financing Lane",
+      "title": "Mariposa Trail — Rio Grande Ranches Unit 11, Lot 79",
+      "address": "Mariposa Trail, Unit 11 Lot 79",
       "city": "The Sunny San Luis Valley",
       "state": "CO",
       "county": "Costilla",
@@ -128337,7 +128356,7 @@
       "price": 6588.0,
       "known_fees": 249.0,
       "total_known": 6837.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "03.11.2026: описание явно разделяет Cash Price $6,588 и Financed Price $6,984. Шапка ошибочно называет $6,984 cash. $249 Doc Fee относится к обоим вариантам; известная cash сумма $6,837. $388/month не цена участка.",
       "acres": 5.0,
       "lat": 37.030853,
       "lng": -105.684097,
@@ -128350,7 +128369,7 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-the-sunny-san-luis-valley-colorado-26961",
       "image_credit": "Seller / LandCentury",
       "parcel": "71512550",
-      "zoning": "Residential",
+      "zoning": "Estate Residential, по продавцу; parcel zoning не проверен",
       "road_note": "Dirt Road",
       "utility_note": "No utilities",
       "taxes_note": "74",
@@ -128363,20 +128382,21 @@
         "resort-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Пустой участок; существующие гараж, мастерская и готовая площадка не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "none",
       "water": "none",
-      "sewer": "unknown",
+      "sewer": "none",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Нет коммуникаций и мастерской; самостоятельное хранение и личный ремонт RV неизвестны. Высокогорье и длительная дорога от крупного аэропорта."
       ],
-      "evidence_quote": "Sold directly by the owner, with personal service from someone who loves Colorado as much as you 3.",
+      "evidence_quote": "This is rural land without city water, sewer, or power.",
       "price_history": [
         {
           "date": "2026-11-03T00:47:59+00:00",
@@ -128440,18 +128460,34 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 27
+      "score": 27,
+      "source_address": "Easy Street & No-Interest Financing Lane",
+      "verification_history": [
+        {
+          "date": "2026-11-03T03:19:20+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-the-sunny-san-luis-valley-colorado-26961",
+          "finding": "Cash $6,588 plus $249 fee explicitly separated from $6,984 financing in live description. Header disagreement documented; parcel/GPS and road location checked. Original advertising-overlay road image visually inspected. No standalone storage or repair authorization."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-the-sunny-san-luis-valley-colorado-26961"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-03T00:47:59+00:00",
-      "last_seen": "2026-11-03T00:50:52Z",
-      "last_verified": "2026-11-03T00:50:52Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-03T03:19:20+00:00",
+      "last_verified": "2026-11-03T03:19:20+00:00",
+      "photo_kind": "Изображение из объявления: пересечение Nortek Blvd с грунтовой дорогой, стрелка и небольшая воздушная схема parcel. Это вид подъезда, не готовой площадки.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "03.11.2026: APN 02-2N-11-0084-0600-0250, GPS 30.60529,-85.30865, 1.03 acre проверены по живой карточке. Ложный положительный флаг затопления от слова flood исправлен: исходная фраза содержит отрицание. Это не подтверждение отсутствия flood risk. Compass Lake Hills, optional HOA и отсутствие ограничений требуют отдельной проверки covenants.",
+        "RV до 18 месяцев в период строительства и camping заявлены продавцом. Самостоятельное длительное хранение и личный ремонт неизвестны. Подготовка въезда, дренаж, расчистка и разворот высокого RV не проверены; новые well/septic и прочие затраты не оценены."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26958",
       "source_id": "26958",
@@ -128467,7 +128503,7 @@
       "price": 11975.0,
       "known_fees": 399.0,
       "total_known": 12374.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "03.11.2026: полная cash price $11,975 плюс $399 processing fee = $12,374 известных затрат. $899 today = $500 down + $399 fee; это не цена покупки. Финансирование указано отдельно.",
       "acres": 1.03,
       "lat": 30.60529,
       "lng": -85.30865,
@@ -128480,16 +128516,16 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/florida/103-acres-for-sale-in-marianna-florida-26958",
       "image_credit": "Seller / LandCentury",
       "parcel": "02-2N-11-0084-0600-0250",
-      "zoning": "Residential",
+      "zoning": "R Residential, по продавцу; parcel zoning не проверен",
       "road_note": "Dirt Road",
-      "utility_note": "Electricity available, septic and well required",
+      "utility_note": "Продавец указывает electricity available, well и septic required; работающих подключений нет в подтверждённых сведениях.",
       "taxes_note": "127",
       "source_categories": [
         "residential-buildable-land",
         "owner-finance-deals",
         "mobile-home-and-rv-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Лесной незастроенный участок; гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
@@ -128500,10 +128536,10 @@
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [
-        "В источнике есть указание на затопление: проверить FEMA и отметку площадки.",
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Продавец заявляет, что участок вне flood zone; FEMA, wetlands и высота пригодной площадки независимо не проверены."
       ],
-      "evidence_quote": "195 x 251 ft) • Zoned R - Residential: site-built, modular, manufactured and mobile homes allowed • RV on the property for",
+      "evidence_quote": "Not located in a flood zone",
       "price_history": [
         {
           "date": "2026-11-03T00:47:59+00:00",
@@ -128567,7 +128603,19 @@
         "Сезон /10": 7,
         "Дорога /10": 4
       },
-      "score": 21
+      "score": 21,
+      "verification_history": [
+        {
+          "date": "2026-11-03T03:19:20+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/florida/103-acres-for-sale-in-marianna-florida-26958",
+          "finding": "Live cash $11,975 + $399 processing; $899 today is deposit plus fee. Parcel/GPS and genuine road/inset-map photo checked. Negative flood statement corrected without claiming FEMA verification. RV during construction does not establish standalone storage or repair."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/florida/103-acres-for-sale-in-marianna-florida-26958"
+      ]
     }
   ]
 }

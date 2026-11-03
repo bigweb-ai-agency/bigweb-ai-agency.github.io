@@ -4637,7 +4637,118 @@
       "rotation_reason": "Rotate below-ten states after DE/NH/VT. Automatic statewide discovery continues across all 50.",
       "preservation": "All 994 IDs, first_seen, photos, price/status histories retained. No manual price/status changes; one price-conflict hold. Old flight observations retained in archive.",
       "validation": "28 focused data tests, validator, 994-row/old-image/history preservation assertions; public map, photos and flight panel to be checked after Pages publication."
+    },
+    {
+      "date": "2026-11-03T03:19:20+00:00",
+      "states": [
+        "MA",
+        "CT",
+        "NJ"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [],
+      "updated_ids": [
+        "lc-26961",
+        "lc-26958",
+        "lc-26117"
+      ],
+      "automatic_added_ids": [
+        "lc-26961",
+        "lc-26958"
+      ],
+      "automatic_updated_ids": [
+        "lc-26117"
+      ],
+      "workflow": {
+        "run_id": 41555354078,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/41555354078",
+        "conclusion": "success",
+        "created_at": "2026-11-03T00:47:34Z",
+        "data_commit": "195ce48d1f24298ff0b7f9b343044e95bad19f61"
+      },
+      "monitor": {
+        "date": "2026-11-03T00:47:59+00:00",
+        "status": "partial",
+        "scanned_pages": 116,
+        "read_details": 71,
+        "added": 2,
+        "changed": 1,
+        "errors": 49
+      },
+      "source_errors": "Successful schedule:116 pages,71 details,2 additions,1 changed,49 errors. All20 retained error samples HTTP404; not evidence explaining all49 or of sold status. Pages41556095388 succeeded; duplicate41556093727 cancelled. No redundant fallback required.",
+      "findings": [
+        {
+          "id": "lc-26961",
+          "finding": "Cash description$6,588+$249 fee, header$6,984 is separately described financing. Corrected marketing address to MariposaTrail/Unit11Lot79. No utilities/workshop; original road image with payment overlay."
+        },
+        {
+          "id": "lc-26958",
+          "finding": "Cash$11,975+$399 fee. Corrected false flood assertion because source says outside flood zone; no independent FEMA clearance. Original road/inset-parcel photo verified."
+        },
+        {
+          "id": "lc-26117",
+          "finding": "Relisted source26959 same parcel203-49-455/GPS/1.04ac. StableID and old photos retained; display replaced promotional montage with genuine road photo2. Cash$7,990+$249 unchanged; repair unknown."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.redfin.com/MA/Brookfield/56-W-Main-St-01506/home/206703259",
+          "finding": "MA73595662 new$10,000/0.51ac lot: standingwater/wetlands, undevelopable residential,58ft deeded frontage. No verified usable RV pad; deferred."
+        },
+        {
+          "url": "https://www.foster-healey.com/property/0-florence-street-gardner-ma-01440/109178974/",
+          "finding": "MA73574436$7,500/0.23ac: explicitly nonbuildable and no street access, sloped wooded land. Not usable as verified RV base."
+        },
+        {
+          "url": "https://www.trulia.com/home/1-nutmeg-passway-harwinton-ct-06791-109724304",
+          "finding": "CT24177614$6,000: lake-association membership lot, not building lot; explicit no camper storage. Excluded."
+        },
+        {
+          "url": "https://www.coldwellbankerhomes.com/ct/coventry/englewood-trail/pid_71133094/",
+          "finding": "CT24173868$10,000/0.23ac: nonbuilding lake-membership lot. Boat/beach access does not establish RV storage or repair; deferred."
+        },
+        {
+          "url": "https://www.coldwellbanker.com/ct/watertown/0-saugus-ave/lid-P00800000H7Hg6Ti7ZA1xqwpKLMBqJfUgblD1Lvp",
+          "finding": "CT24157644$10,000/0.2ac: nonconforming wooded sloped lot, not approved building site; other uses require approval. Deferred."
+        },
+        {
+          "url": "https://thebrentonrealtygroup.com/landlots-for-sale/1651-Pine-Avenue-Voorhees-NJ-08043-440538244",
+          "finding": "NJCD2128916$10,000 is Oct15-Nov5auction with5percent buyerspremium, not fixed cash price. Excluded."
+        },
+        {
+          "url": "https://www.compass.com/homedetails/0-James-Moore-Rd-Port-Norris-NJ-08349/1N43MG_pid/",
+          "finding": "Live Active SJSRMLS603001$15,000/2.5ac,CommercialTownship block214lot3.01; listing map39.2779083,-75.0481021. Firstimage is generic VacantLand sign; second genuine wooded road-front photo inspected. Wetlands delineation required. Official145-48C prohibits vehicle storage on vacant residential-zone land; parcel zoning/exception unresolved. Not imported as RV candidate."
+        },
+        {
+          "url": "https://www.realtor.com/realestateandhomes-detail/Philadelphia-Ave_Egg-Harbor-City_NJ_08215_M99355-39897",
+          "finding": "NJ609174$9,900/0.22ac: minimum0.275ac, variance and Pinelands approval needed. Deferred. Garage wording in broad catalog concerned already-known Seaview lot and potential future construction, not existing building."
+        }
+      ],
+      "official_sources": [
+        {
+          "url": "https://ecode360.com/12603038",
+          "finding": "CommercialTownship145-41 connects accessory structures/uses to permitted residential use.145-48C expressly bars vehicle/camper storage on vacant property in residential zones; no parcel-specific exception or personal-repair authority established."
+        },
+        {
+          "url": "https://ecode360.com/12604835",
+          "finding": "CommercialTownship211-1 restricts human occupancy of campers/motorhomes; not interpreted as automatic storage/repair permission."
+        },
+        {
+          "url": "https://ecode360.com/CO2750/laws/LF2795898.pdf",
+          "finding": "Pending-codification amendment2026-645 adoptedAug20 concerns data-center prohibition; does not provide RV-storage authorization."
+        }
+      ],
+      "access": "Public search, broker/listing pages and Chrome only. Browser media download timed out; exact public second-image URL returned HTTP200 normally. No CAPTCHA/403/robots/login bypass. No seller contact, booking, purchase or infrastructure changes.",
+      "flight_review": "Weekly refresh completedNovember2; existing734observations and36provider-history entries preserved. Next dueNovember9; no stale fares relabelled today.",
+      "next_states": [
+        "ID",
+        "MT",
+        "WY"
+      ],
+      "rotation_reason": "Below-ten states last manual reviewOctober29. MA/CT/NJ covered today; automatic statewide discovery covers all50.",
+      "preservation": "All996 prior IDs,first_seen,prices,statuses,histories and original image files retained. No manual new listing or availability change. One source-gallery display photo added without deleting the prior montage.",
+      "validation": "Focused data tests,validator,preservation audit and live map/photo postflight recorded separately."
     }
   ],
-  "updated_at": "2026-11-02T03:16:35+00:00"
+  "updated_at": "2026-11-03T03:19:20+00:00"
 }
