@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-02T03:16:35+00:00",
+  "updated_at": "2026-11-03T00:47:59+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -5301,17 +5301,17 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-16T01:11:00Z",
-      "last_verified": "2026-10-16T01:11:00Z",
+      "last_seen": "2026-11-03T00:50:51Z",
+      "last_verified": "2026-11-03T00:50:51Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
       "notes": [],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26117",
-      "source_id": "26476",
+      "source_id": "26959",
       "source": "LandCentury",
-      "url": "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-saint-johns-arizona-26476",
+      "url": "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-saint-johns-arizona-26959",
       "title": "14 County Road 6031",
       "address": "14 County Road 6031",
       "city": "Saint Johns",
@@ -5329,10 +5329,10 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-08T13:27:20.000000Z",
-      "source_published": "2026-10-08T13:23:52.000000Z",
-      "image_url": "assets/listings/e2d67d017c364e2b7f98.jpg",
-      "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-saint-johns-arizona-26476",
+      "source_updated": "2026-11-02T22:14:39.000000Z",
+      "source_published": "2026-11-02T22:10:09.000000Z",
+      "image_url": "assets/listings/9092c4cef8eb0abf7115.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-saint-johns-arizona-26959",
       "image_credit": "Seller / LandCentury",
       "parcel": "203-49-455",
       "zoning": "Agricultural",
@@ -5370,7 +5370,8 @@
       "legacy": false,
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-saint-johns-arizona-26117",
-        "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-saint-johns-arizona-26476"
+        "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-saint-johns-arizona-26476",
+        "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-saint-johns-arizona-26959"
       ],
       "region": "Юго-запад",
       "screening_issue": null,
@@ -5417,8 +5418,8 @@
         "Дорога /10": 6
       },
       "score": 29,
-      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/08/6ac799ac9f93a-1791465900.jpg",
-      "photo_preserved_at": "2026-10-16T01:05:28+00:00",
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/02/6ae90aeba6f94-1793657579.jpg",
+      "photo_preserved_at": "2026-11-03T00:47:59+00:00",
       "photo_history": [
         {
           "path": "assets/listings/9092c4cef8eb0abf7115.jpg",
@@ -7045,8 +7046,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-15T01:12:22Z",
-      "last_verified": "2026-10-15T01:12:22Z",
+      "last_seen": "2026-11-03T00:53:33Z",
+      "last_verified": "2026-11-03T00:53:33Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -7158,7 +7159,7 @@
       },
       "score": 35,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/25/6a8dea8cdff15-1787685516.jpg",
-      "photo_preserved_at": "2026-10-15T01:06:48+00:00",
+      "photo_preserved_at": "2026-11-03T00:47:59+00:00",
       "photo_history": [
         {
           "path": "assets/listings/b3faee905523ae8126ee.jpg",
@@ -7172,8 +7173,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-15T01:12:25Z",
-      "last_verified": "2026-10-15T01:12:25Z",
+      "last_seen": "2026-11-03T00:53:36Z",
+      "last_verified": "2026-11-03T00:53:36Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -7200,7 +7201,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-12T20:39:45.000000Z",
+      "source_updated": "2026-10-25T08:34:21.000000Z",
       "source_published": "2026-09-08T18:34:11.000000Z",
       "image_url": "assets/listings/c90652bf2317b1772d3b.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/arkansas/046-acres-for-sale-in-horseshoe-bend-arkansas-26172",
@@ -7288,7 +7289,7 @@
       },
       "score": 32,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/08/6aa0554c86823-1788892492.jpg",
-      "photo_preserved_at": "2026-10-15T01:06:48+00:00",
+      "photo_preserved_at": "2026-11-03T00:47:59+00:00",
       "photo_history": [
         {
           "path": "assets/listings/c90652bf2317b1772d3b.jpg",
@@ -92786,8 +92787,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-22T01:09:27+00:00",
-      "last_seen": "2026-10-16T01:10:31Z",
-      "last_verified": "2026-10-16T01:10:31Z",
+      "last_seen": "2026-11-03T00:53:47Z",
+      "last_verified": "2026-11-03T00:53:47Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -92851,7 +92852,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/21/6ab1495fcceaa-1790003551.jpg",
-      "photo_preserved_at": "2026-10-16T01:05:28+00:00",
+      "photo_preserved_at": "2026-11-03T00:47:59+00:00",
       "photo_history": [
         {
           "path": "assets/listings/da54007f6ad91841abfc.jpg",
@@ -96121,8 +96122,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-28T01:19:20+00:00",
-      "last_seen": "2026-10-15T01:12:24Z",
-      "last_verified": "2026-10-15T01:12:24Z",
+      "last_seen": "2026-11-03T00:53:35Z",
+      "last_verified": "2026-11-03T00:53:35Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -96149,7 +96150,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-09-27T10:05:40.000000Z",
+      "source_updated": "2026-10-15T19:36:30.000000Z",
       "source_published": "2026-09-27T09:58:49.000000Z",
       "image_url": "assets/listings/ae2765abbd6712eb072d.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/texas/024-acres-for-sale-in-el-paso-texas-26360",
@@ -96186,7 +96187,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/27/6ab8ea076c107-1790503431.jpg",
-      "photo_preserved_at": "2026-10-15T01:06:48+00:00",
+      "photo_preserved_at": "2026-11-03T00:47:59+00:00",
       "photo_history": [
         {
           "path": "assets/listings/ae2765abbd6712eb072d.jpg",
@@ -101734,7 +101735,7 @@
         "price": 119995.0,
         "image_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/14/6acfe4ad084cf-1792009389.jpg",
         "source_updated": "2026-11-02T00:00:05.000000Z",
-        "date": "2026-11-02T00:49:57+00:00"
+        "date": "2026-11-03T00:47:59+00:00"
       },
       "source_identity_history": [
         {
@@ -106489,8 +106490,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-16T01:05:28+00:00",
-      "last_seen": "2026-10-16T01:08:22Z",
-      "last_verified": "2026-10-16T01:08:22Z",
+      "last_seen": "2026-11-03T00:53:38Z",
+      "last_verified": "2026-11-03T00:53:38Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -106517,7 +106518,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-15T21:49:19.000000Z",
+      "source_updated": "2026-10-26T14:54:29.000000Z",
       "source_published": "2026-10-15T21:47:30.000000Z",
       "image_url": "assets/listings/9ccd216e97da0feab3d2.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/10-acres-for-sale-in-saint-johns-arizona-26592",
@@ -106555,7 +106556,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/15/6ad14a220b857-1792100898.jpg",
-      "photo_preserved_at": "2026-10-16T01:05:28+00:00",
+      "photo_preserved_at": "2026-11-03T00:47:59+00:00",
       "photo_history": [
         {
           "path": "assets/listings/9ccd216e97da0feab3d2.jpg",
@@ -106608,14 +106609,18 @@
         "Сезон /10": 6,
         "Дорога /10": 5
       },
-      "score": 26
+      "score": 26,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/10-acres-for-sale-in-saint-johns-arizona-26592"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-16T01:05:28+00:00",
-      "last_seen": "2026-10-16T01:08:24Z",
-      "last_verified": "2026-10-16T01:08:24Z",
+      "last_seen": "2026-11-03T00:53:39Z",
+      "last_verified": "2026-11-03T00:53:39Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -106680,7 +106685,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/15/6ad134b5727b6-1792095413.jpg",
-      "photo_preserved_at": "2026-10-16T01:05:28+00:00",
+      "photo_preserved_at": "2026-11-03T00:47:59+00:00",
       "photo_history": [
         {
           "path": "assets/listings/4c5212c9132b8f5f1259.jpg",
@@ -106733,14 +106738,18 @@
         "Сезон /10": 8,
         "Дорога /10": 5
       },
-      "score": 37
+      "score": 37,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arkansas/041-acres-for-sale-in-horseshoe-bend-arkansas-26590"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-16T01:05:28+00:00",
-      "last_seen": "2026-10-16T01:08:25Z",
-      "last_verified": "2026-10-16T01:08:25Z",
+      "last_seen": "2026-11-03T00:53:41Z",
+      "last_verified": "2026-11-03T00:53:41Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -106767,7 +106776,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-15T18:46:21.000000Z",
+      "source_updated": "2026-10-28T00:55:02.000000Z",
       "source_published": "2026-10-15T17:50:01.000000Z",
       "image_url": "assets/listings/352aa3a064f9bf406ab0.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/nevada/1000-acres-for-sale-in-montello-nevada-26589",
@@ -106807,7 +106816,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/15/6ad1150a5bf01-1792087306.jpg",
-      "photo_preserved_at": "2026-10-16T01:05:28+00:00",
+      "photo_preserved_at": "2026-11-03T00:47:59+00:00",
       "photo_history": [
         {
           "path": "assets/listings/352aa3a064f9bf406ab0.jpg",
@@ -106860,14 +106869,18 @@
         "Сезон /10": 5,
         "Дорога /10": 0
       },
-      "score": 15
+      "score": 15,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/nevada/1000-acres-for-sale-in-montello-nevada-26589"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-16T01:05:28+00:00",
-      "last_seen": "2026-10-16T01:08:27Z",
-      "last_verified": "2026-10-16T01:08:27Z",
+      "last_seen": "2026-11-03T00:53:43Z",
+      "last_verified": "2026-11-03T00:53:43Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -106894,7 +106907,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-15T15:58:05.000000Z",
+      "source_updated": "2026-11-03T00:00:47.000000Z",
       "source_published": "2026-10-15T15:49:54.000000Z",
       "image_url": "assets/listings/8ef80a4fdac51b7c1b26.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/florida/030-acres-for-sale-in-florahome-florida-26586",
@@ -106929,7 +106942,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/15/6ad0f7402dfd0-1792079680.jpg",
-      "photo_preserved_at": "2026-10-16T01:05:28+00:00",
+      "photo_preserved_at": "2026-11-03T00:47:59+00:00",
       "photo_history": [
         {
           "path": "assets/listings/8ef80a4fdac51b7c1b26.jpg",
@@ -106982,14 +106995,18 @@
         "Сезон /10": 7,
         "Дорога /10": 7
       },
-      "score": 29
+      "score": 29,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/florida/030-acres-for-sale-in-florahome-florida-26586"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-16T01:05:28+00:00",
-      "last_seen": "2026-10-16T01:08:29Z",
-      "last_verified": "2026-10-16T01:08:29Z",
+      "last_seen": "2026-11-03T00:53:44Z",
+      "last_verified": "2026-11-03T00:53:44Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -107016,7 +107033,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-15T15:46:06.000000Z",
+      "source_updated": "2026-10-26T21:45:44.000000Z",
       "source_published": "2026-10-15T15:24:39.000000Z",
       "image_url": "assets/listings/56d0e48a0972c767aefe.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/colorado/491-acres-for-sale-in-blanca-colorado-26585",
@@ -107057,7 +107074,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/15/6ad0f3e4e2c19-1792078820.jpg",
-      "photo_preserved_at": "2026-10-16T01:05:28+00:00",
+      "photo_preserved_at": "2026-11-03T00:47:59+00:00",
       "photo_history": [
         {
           "path": "assets/listings/56d0e48a0972c767aefe.jpg",
@@ -107110,14 +107127,18 @@
         "Сезон /10": 3,
         "Дорога /10": 6
       },
-      "score": 18
+      "score": 18,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/491-acres-for-sale-in-blanca-colorado-26585"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-16T01:05:28+00:00",
-      "last_seen": "2026-10-16T01:08:30Z",
-      "last_verified": "2026-10-16T01:08:30Z",
+      "last_seen": "2026-11-03T00:53:46Z",
+      "last_verified": "2026-11-03T00:53:46Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -107144,7 +107165,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-15T14:51:51.000000Z",
+      "source_updated": "2026-11-03T00:00:47.000000Z",
       "source_published": "2026-10-15T14:09:34.000000Z",
       "image_url": "assets/listings/5605d5e3c4af46f8e271.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/colorado/502-acres-for-sale-in-mesita-colorado-26583",
@@ -107182,7 +107203,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/15/6ad0e81659802-1792075798.jpg",
-      "photo_preserved_at": "2026-10-16T01:05:28+00:00",
+      "photo_preserved_at": "2026-11-03T00:47:59+00:00",
       "photo_history": [
         {
           "path": "assets/listings/5605d5e3c4af46f8e271.jpg",
@@ -107235,7 +107256,11 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 27
+      "score": 27,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/502-acres-for-sale-in-mesita-colorado-26583"
+      ]
     },
     {
       "price_currency": "USD",
@@ -128286,6 +128311,263 @@
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/arizona/105-acres-for-sale-in-concho-arizona-26920"
       ]
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-03T00:47:59+00:00",
+      "last_seen": "2026-11-03T00:50:49Z",
+      "last_verified": "2026-11-03T00:50:49Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-26961",
+      "source_id": "26961",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-the-sunny-san-luis-valley-colorado-26961",
+      "title": "Easy Street & No-Interest Financing Lane",
+      "address": "Easy Street & No-Interest Financing Lane",
+      "city": "The Sunny San Luis Valley",
+      "state": "CO",
+      "county": "Costilla",
+      "zip": "81138",
+      "kind": "land",
+      "price": 6588.0,
+      "known_fees": 249.0,
+      "total_known": 6837.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 5.0,
+      "lat": 37.030853,
+      "lng": -105.684097,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-03T00:02:05.000000Z",
+      "source_published": "2026-11-02T23:53:47.000000Z",
+      "image_url": "assets/listings/09cc3eaaa7a64766bb69.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-the-sunny-san-luis-valley-colorado-26961",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "71512550",
+      "zoning": "Residential",
+      "road_note": "Dirt Road",
+      "utility_note": "No utilities",
+      "taxes_note": "74",
+      "source_categories": [
+        "residential-buildable-land",
+        "agricultural-and-farm-land",
+        "owner-finance-deals",
+        "recreational-and-hunting-land",
+        "mobile-home-and-rv-land",
+        "resort-land",
+        "vacant-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "seller_conditional",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "none",
+      "water": "none",
+      "sewer": "unknown",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "flags": [
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
+      "evidence_quote": "Sold directly by the owner, with personal service from someone who loves Colorado as much as you 3.",
+      "price_history": [
+        {
+          "date": "2026-11-03T00:47:59+00:00",
+          "price": 6588.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-the-sunny-san-luis-valley-colorado-26961"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/02/6ae923ced5f4f-1793663950.jpg",
+      "photo_preserved_at": "2026-11-03T00:47:59+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/09cc3eaaa7a64766bb69.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-the-sunny-san-luis-valley-colorado-26961",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/02/6ae923ced5f4f-1793663950.jpg",
+          "date": "2026-11-03T00:47:59+00:00"
+        }
+      ],
+      "region": "Горный",
+      "screening_issue": null,
+      "climate_note": "San Luis Valley даёт много дешёвых лотов, но это высокогорье с морозом, ветром и дорогими коммуникациями. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "DEN",
+          "name": "Denver International Airport",
+          "straight_km": 327,
+          "drive_km_estimate": 408,
+          "drive_hours_estimate": 5.4,
+          "flight_min_eur": 629,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "PHX",
+          "name": "Phoenix Sky Harbor International Airport",
+          "straight_km": 699,
+          "drive_km_estimate": 874,
+          "drive_hours_estimate": 11.7,
+          "flight_min_eur": 731,
+          "flight_origin": "WAW",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 852,
+          "drive_km_estimate": 1065,
+          "drive_hours_estimate": 14.2,
+          "flight_min_eur": 576,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1360,
+      "score_parts": {
+        "Цена /25": 19,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 3,
+        "Дорога /10": 5
+      },
+      "score": 27
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-03T00:47:59+00:00",
+      "last_seen": "2026-11-03T00:50:52Z",
+      "last_verified": "2026-11-03T00:50:52Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-26958",
+      "source_id": "26958",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/florida/103-acres-for-sale-in-marianna-florida-26958",
+      "title": "Magnolia Lane",
+      "address": "Magnolia Lane",
+      "city": "Marianna",
+      "state": "FL",
+      "county": "Jackson",
+      "zip": "32448",
+      "kind": "land",
+      "price": 11975.0,
+      "known_fees": 399.0,
+      "total_known": 12374.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 1.03,
+      "lat": 30.60529,
+      "lng": -85.30865,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-02T18:35:10.000000Z",
+      "source_published": "2026-11-02T18:27:03.000000Z",
+      "image_url": "assets/listings/1642546b619c2aa51af0.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/florida/103-acres-for-sale-in-marianna-florida-26958",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "02-2N-11-0084-0600-0250",
+      "zoning": "Residential",
+      "road_note": "Dirt Road",
+      "utility_note": "Electricity available, septic and well required",
+      "taxes_note": "127",
+      "source_categories": [
+        "residential-buildable-land",
+        "owner-finance-deals",
+        "mobile-home-and-rv-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "seller_conditional",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "available",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "flags": [
+        "В источнике есть указание на затопление: проверить FEMA и отметку площадки.",
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
+      "evidence_quote": "195 x 251 ft) • Zoned R - Residential: site-built, modular, manufactured and mobile homes allowed • RV on the property for",
+      "price_history": [
+        {
+          "date": "2026-11-03T00:47:59+00:00",
+          "price": 11975.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/florida/103-acres-for-sale-in-marianna-florida-26958"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/02/6ae8d67860e21-1793644152.jpg",
+      "photo_preserved_at": "2026-11-03T00:47:59+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/1642546b619c2aa51af0.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/florida/103-acres-for-sale-in-marianna-florida-26958",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/02/6ae8d67860e21-1793644152.jpg",
+          "date": "2026-11-03T00:47:59+00:00"
+        }
+      ],
+      "region": "Юг",
+      "screening_issue": null,
+      "climate_note": "Дешёвый перелёт и мягкая зима. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "ATL",
+          "name": "Hartsfield Jackson Atlanta International Airport",
+          "straight_km": 347,
+          "drive_km_estimate": 434,
+          "drive_hours_estimate": 5.8,
+          "flight_min_eur": 564,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "MCO",
+          "name": "Orlando International Airport",
+          "straight_km": 456,
+          "drive_km_estimate": 570,
+          "drive_hours_estimate": 7.6,
+          "flight_min_eur": 484,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "BNA",
+          "name": "Nashville International Airport",
+          "straight_km": 627,
+          "drive_km_estimate": 783,
+          "drive_hours_estimate": 10.4,
+          "flight_min_eur": 604,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1731,
+      "score_parts": {
+        "Цена /25": 9,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 1,
+        "Сезон /10": 7,
+        "Дорога /10": 4
+      },
+      "score": 21
     }
   ]
 }
