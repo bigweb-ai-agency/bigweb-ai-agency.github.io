@@ -1,9 +1,9 @@
 {
   "schedule": "Ежедневно 00:37 UTC: 03:37 летом / 02:37 зимой по Вильнюсу. GitHub Actions может запускаться с задержкой.",
-  "last_run": "2026-11-03T00:47:59+00:00",
+  "last_run": "2026-11-04T00:48:24+00:00",
   "status": "partial",
-  "run_url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/41555354078",
-  "summary": "2 новых; 1 изменений цены/статуса/фото; 71 страниц проверено; ошибок 49.",
+  "run_url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/41749519135",
+  "summary": "23 новых; 1 изменений цены/статуса/фото; 71 страниц проверено; ошибок 49.",
   "scope": "LandCentury: новые страницы всех 50 штатов и ротация старых записей. LandSearch и старые MLS — отдельная исследовательская проверка, не автоматический live-статус.",
   "events": [
     {
@@ -563,6 +563,15 @@
       "added": 2,
       "changed": 1,
       "errors": 49
+    },
+    {
+      "date": "2026-11-04T00:48:24+00:00",
+      "status": "partial",
+      "scanned_pages": 116,
+      "read_details": 71,
+      "added": 23,
+      "changed": 1,
+      "errors": 49
     }
   ],
   "source_errors": [
@@ -667,34 +676,10 @@
       "state": "UT"
     },
     {
-      "url": "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-concho-arizona-26772",
-      "reason": "known_fees_exceed_budget",
-      "price": 14960.0,
-      "state": "AZ"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/arizona/25-acres-for-sale-in-adamana-arizona-26701",
-      "reason": "vehicle_access_problem",
-      "price": 4455.0,
-      "state": "AZ"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/colorado/007-acres-for-sale-in-mosca-colorado-26677",
-      "reason": "lot_too_small_for_screening",
-      "price": 4478.0,
-      "state": "CO"
-    },
-    {
       "url": "https://www.landcentury.com/land-for-sale/colorado/500-acres-for-sale-in-fort-garland-colorado-26644",
       "reason": "coordinates_outside_us",
       "price": 8500.0,
       "state": "CO"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/arizona/1-acres-for-sale-in-showlow-arizona-26639",
-      "reason": "coordinates_outside_us",
-      "price": 6500.0,
-      "state": "AZ"
     },
     {
       "url": "https://www.landcentury.com/land-for-sale/california/518-acres-for-sale-in-lancaster-california-26626",
@@ -895,102 +880,6 @@
       "state": "MS"
     },
     {
-      "url": "https://www.landcentury.com/land-for-sale/mississippi/011-acres-for-sale-in-bay-st-louis-mississippi-13718",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 3500.0,
-      "state": "MS"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/tennessee/024-acres-for-sale-in-crossville-tn-13392",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 4500.0,
-      "state": "TN"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/georgia/09-acres-for-sale-in-tignall-ga-13350",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 7900.0,
-      "state": "GA"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/pennsylvania/012-acres-for-sale-in-monroeville-pennsylvania-13275",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 4500.0,
-      "state": "PA"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/georgia/033-acres-for-sale-in-perry-ga-13257",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 7900.0,
-      "state": "GA"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/pennsylvania/011-acres-for-sale-in-glassport-pennsylvania-13173",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 8000.0,
-      "state": "PA"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/north-carolina/046-acres-for-sale-in-woodleaf-nc-12951",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 11950.0,
-      "state": "NC"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/georgia/021-acres-for-sale-in-rome-ga-12672",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 8000.0,
-      "state": "GA"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/georgia/05-acres-for-sale-in-sparta-ga-12664",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 7500.0,
-      "state": "GA"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/georgia/149-acres-for-sale-in-decatur-ga-12613",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 11900.0,
-      "state": "GA"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/georgia/11-acres-for-sale-in-ellijay-ga-12591",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 8000.0,
-      "state": "GA"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/georgia/069-acres-for-sale-in-waverly-hall-ga-12582",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 9900.0,
-      "state": "GA"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/tennessee/025-acres-for-sale-in-crossville-tn-12575",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 5990.0,
-      "state": "TN"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/georgia/055-acres-for-sale-in-sparta-ga-12550",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 9900.0,
-      "state": "GA"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/tennessee/017-acres-for-sale-in-memphis-tn-12545",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 8000.0,
-      "state": "TN"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/georgia/037-acres-for-sale-in-rome-ga-12529",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 8500.0,
-      "state": "GA"
-    },
-    {
       "url": "https://www.landcentury.com/land-for-sale/nevada/487-acres-for-sale-in-winnemucca-nevada-26146",
       "reason": "source_reused_property_identity",
       "preserved_id": "lc-26146",
@@ -999,8 +888,8 @@
     }
   ],
   "photo_preservation": {
-    "cached": 982,
-    "missing": 1,
-    "saved": 13
+    "saved": 33,
+    "cached": 985,
+    "missing": 1
   }
 }
