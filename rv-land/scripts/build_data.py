@@ -139,7 +139,7 @@ def flags_from_text(description,kind='land',road=None,utilities=None):
         if re.search(uncertain,t+' '+compact(utilities).lower()):result[tag]='unknown'
     risk_patterns=[
         (r'tax deed|quit.?claim','Налоговый/quitclaim deed: проверить право собственности, обременения и страхование титула.'),
-        (r'flood (?:zone|plain|risk)|floodplain|floodway','В источнике есть указание на затопление: проверить FEMA и отметку площадки.'),
+        (r'flood (?:zone|plain|risk)|floodplain|floodway','Источник упоминает flood zone/flood risk; контекст и фактический риск требуют проверки FEMA и отметки площадки.'),
         (r'wetlands?|marsh|swamp','Упоминаются заболоченные земли; пригодность площадки требует проверки.'),
         (r'landlocked|boat access only|water access only','Нужен доказанный юридический и физический подъезд для 7-метрового RV.'),
         (r'hoa|covenants|subdivision|restrictions','Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.'),

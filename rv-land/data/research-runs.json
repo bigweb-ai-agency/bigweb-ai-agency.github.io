@@ -4748,7 +4748,188 @@
       "rotation_reason": "Below-ten states last manual reviewOctober29. MA/CT/NJ covered today; automatic statewide discovery covers all50.",
       "preservation": "All996 prior IDs,first_seen,prices,statuses,histories and original image files retained. No manual new listing or availability change. One source-gallery display photo added without deleting the prior montage.",
       "validation": "Focused data tests,validator,preservation audit and live map/photo postflight recorded separately."
+    },
+    {
+      "date": "2026-11-04T03:22:31+00:00",
+      "states": [
+        "ID",
+        "MT",
+        "WY"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [
+        "mls-wy-20261144"
+      ],
+      "updated_ids": [
+        "lc-27007",
+        "lc-27000",
+        "lc-26999",
+        "lc-26998",
+        "lc-26997",
+        "lc-26995",
+        "lc-26994",
+        "lc-26993",
+        "lc-26992",
+        "lc-26991",
+        "lc-26989",
+        "lc-26988",
+        "lc-26987",
+        "lc-26986",
+        "lc-26985",
+        "lc-26984",
+        "lc-26982",
+        "lc-26980",
+        "lc-26979",
+        "lc-26977",
+        "lc-26973",
+        "lc-26972",
+        "lc-26971",
+        "lc-25816"
+      ],
+      "automatic_added_ids": [
+        "lc-27007",
+        "lc-27000",
+        "lc-26999",
+        "lc-26998",
+        "lc-26997",
+        "lc-26995",
+        "lc-26994",
+        "lc-26993",
+        "lc-26992",
+        "lc-26991",
+        "lc-26989",
+        "lc-26988",
+        "lc-26987",
+        "lc-26986",
+        "lc-26985",
+        "lc-26984",
+        "lc-26982",
+        "lc-26980",
+        "lc-26979",
+        "lc-26977",
+        "lc-26973",
+        "lc-26972",
+        "lc-26971"
+      ],
+      "automatic_updated_ids": [
+        "lc-25816"
+      ],
+      "workflow": {
+        "run_id": 41749519135,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/41749519135",
+        "conclusion": "success",
+        "created_at": "2026-11-04T00:48:06Z",
+        "data_commit": "12f2c9acd60fe80d78b034fcb9424c94a9ad04f9"
+      },
+      "monitor": {
+        "date": "2026-11-04T00:48:24+00:00",
+        "status": "partial",
+        "scanned_pages": 116,
+        "read_details": 71,
+        "added": 23,
+        "changed": 1,
+        "errors": 49
+      },
+      "source_errors": "Successful schedule:116pages,71details,23additions,1changed,49errors. All20 retained error samples HTTP404; not proof explaining all49 or of sold status. Pages41750249989 succeeded; duplicate41750248929 cancelled. No redundant fallback required.",
+      "findings": [
+        {
+          "id": "mls-wy-20261144",
+          "finding": "New real-photo WY commercial raw-land lead,live$12,500,0.26acre,MLS20261144,exact parcel/coordinates. No utilities or garage; slope/access and independent B2/RV use unresolved."
+        },
+        {
+          "id": "lc-25816",
+          "finding": "Live$6,900header vs$9,000cash description+$100fee. Automatic price history retained; reviewhold pending coherent price/parcel scope."
+        },
+        {
+          "ids": [
+            "lc-27000",
+            "lc-26999",
+            "lc-26998",
+            "lc-26997"
+          ],
+          "finding": "Four SunValley bundle offers share parcel IDs with six separate offers; explicit related IDs/notes added. Not additional independent acreage."
+        },
+        {
+          "ids": [
+            "lc-27000",
+            "lc-26999",
+            "lc-26998",
+            "lc-26997",
+            "lc-26995",
+            "lc-26993",
+            "lc-26989",
+            "lc-26988",
+            "lc-26987",
+            "lc-26986",
+            "lc-26985",
+            "lc-26984",
+            "lc-26982",
+            "lc-26980",
+            "lc-26979",
+            "lc-26977",
+            "lc-26973"
+          ],
+          "finding": "Seventeen live descriptions claim FEMA Zone X/no required insurance. False flood-positive wording corrected; parser keyword flag now neutral for future positive or negative context. No independent flood clearance."
+        },
+        {
+          "id": "lc-26971",
+          "finding": "Cash$5,999+$249 verified; real location KlamathLane Unit11Lot5 nearMesita replaces marketing address, old address preserved. No utilities/garage."
+        },
+        {
+          "id": "lc-26979",
+          "finding": "Original photo explicitly says general area,not this parcel; caveat exposed. All23 automatic photos visually inspected and retained."
+        },
+        {
+          "finding": "Added omitted SLC airport from current OurAirports record40.788860,-111.979866; recomputed approximate gateway distances/scores and ID/UT/WY summaries. Existing November2 flight dataset already has15 SLC observations: no new fares or freshness dates created. RockSprings model309km/4.1h vs DEN537km/7.2h; not a verified road route."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.landsearch.com/properties/idaho/search/under-15000",
+          "finding": "Live Idaho results:three monthly leases,already-known AshDr$14,500,and SilverStGilmore$5,000pending. No new fixed-cash garage candidate; existing statuses not overwritten by catalog."
+        },
+        {
+          "url": "https://www.idahohomerealty.com/search?allowundisclosed=1&city=Salmon&haslat=1&haslong=1&page=1&perpage=100&soldproperty=0&sortby=latest&state=ID&type=grid",
+          "finding": "Primary-broker indexed BalsamRoadLot12$19,900 exceeds budget; no import."
+        },
+        {
+          "url": "https://www.redfin.com/MT/Great-Falls/1015-38th-St-N-59405/home/206380731",
+          "finding": "Live MLS30075841 NHNWilcoxAddition$5,000/.149ac,Oct27relisted. Description explicitly warns road/access unavailable until development. Old street-address URL/map does not independently verify Wilcox parcel location; deferred,not imported as RV-ready base."
+        },
+        {
+          "url": "https://www.zillow.com/homedetails/1126-Elk-St-Rock-Springs-WY-82901/462434497_zpid/",
+          "finding": "Older indexed Auction.com listing with unknown price noted separately; not a current cash quote or evidence overriding live Compass MLS status."
+        },
+        {
+          "url": "https://governmentlandsales.us/properties/bring-your-rv-over-12-acre-lot/flyer",
+          "finding": "Public flyer returned search cache miss; no verified current state/price/coordinates imported."
+        }
+      ],
+      "official_sources": [
+        {
+          "url": "https://codelibrary.amlegal.com/codes/rockspringswy/latest/rocksprings_wy/0-0-0-6778",
+          "finding": "Official RockSprings2026S-2 index identifies B2 CommunityBusiness; full direct public request403,stopped. No permit conclusion."
+        },
+        {
+          "url": "https://codelibrary.amlegal.com/codes/rockspringswy/latest/rocksprings_wy/0-0-0-6363",
+          "finding": "Official indexed157.008 minor automotive repair excludes recreational vehicles; major definition includes vehicles over8ft. Personal repair applicability unresolved; direct request403 not bypassed."
+        },
+        {
+          "url": "https://ourairports.com/airports/KSLC/",
+          "finding": "Public airport dataset same provenance as existing gateways: SLC/KSLC,large_airport,scheduled service,coordinates40.788860,-111.979866. Airport metadata,not a flight quote or road route."
+        }
+      ],
+      "access": "Live Chrome,public indexed sources and bounded ordinary public requests only. All23newLC pages HTTP200. Two official code requests403 stopped; no CAPTCHA/403/robots/login bypass,contacts,bookings,purchases or infrastructure changes.",
+      "flight_review": "Weekly refreshNovember2 preserved;734observations and36provider-history entries unchanged. Next dueNovember9.",
+      "next_states": [
+        "WA",
+        "HI",
+        "ND"
+      ],
+      "rotation_reason": "Below-ten photo states last manual reviewOctober30. ID/MT/WY covered today; scheduled statewide discovery coversall50.",
+      "preservation": "All1019pre-manual rows,IDs,first_seen,prices,statuses,coordinates,photos and histories retained. One WYrecord/photo added; ARconflict held; bundle overlaps explicit.",
+      "validation": "Focused data checks,preservation audit and public map/photo postflight recorded separately."
     }
   ],
-  "updated_at": "2026-11-03T03:19:20+00:00"
+  "updated_at": "2026-11-04T03:22:31+00:00"
 }
