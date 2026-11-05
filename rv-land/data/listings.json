@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-05T00:47:31+00:00",
+  "updated_at": "2026-11-05T03:20:29+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -7964,12 +7964,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-11-05T00:50:27Z",
-      "last_verified": "2026-11-05T00:50:27Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-05T03:20:29+00:00",
+      "last_verified": "2026-11-05T03:20:29+00:00",
+      "photo_kind": "Фото из повторного объявления: растительность и озеро вдали. Не готовая RV-площадка и не доказательство waterfront.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "05.11.2026: повтор LC27033 совпадает с прежним APN 800-11777-000, 1111 Edgewater, 0.34 acre; старый ID и фото сохранены. RV заявлен только до года во время строительства; самостоятельное хранение/ремонт неизвестны. Вода/электричество available не означают подключение."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-25790",
       "source_id": "27033",
@@ -7985,7 +7987,7 @@
       "price": 7225.0,
       "known_fees": 249.0,
       "total_known": 7474.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "05.11.2026: cash $7,225 + $249 doc fee = $7,474. $349 to start и $200/month — рассрочка.",
       "acres": 0.34,
       "lat": 36.21415,
       "lng": -91.7313,
@@ -8007,7 +8009,7 @@
         "owner-finance-deals",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Гараж не заявлен; пустой участок для будущего дома.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_claim",
       "existing_garage": false,
@@ -8091,6 +8093,14 @@
           "source": "https://www.landcentury.com/land-for-sale/arkansas/034-acres-for-sale-in-horseshoe-bend-arkansas-27033",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/04/6aebace47ca8f-1793830116.jpg",
           "date": "2026-11-05T00:47:31+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-11-05T03:20:29+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arkansas/034-acres-for-sale-in-horseshoe-bend-arkansas-27033",
+          "finding": "Relist27033 same APN,address,acreage,cash$7,225+$249. New source lake-view photo checked; prior ID/photos retained."
         }
       ]
     },
@@ -55950,12 +55960,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:28+00:00",
-      "last_seen": "2026-09-13T23:00:23+00:00",
-      "last_verified": "2026-09-13T23:00:23+00:00",
+      "last_seen": "2026-11-05T03:20:29+00:00",
+      "last_verified": "2026-11-05T03:20:29+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "05.11.2026: цена $5,610 → $5,000 подтверждена в Chrome; дата снижения по источнику 20.10.2026. Parcel и координаты совпадают. Треугольная форма, железная дорога и highway ограничивают полезность; гараж, подключения и ремонт не подтверждены."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ls-3362168",
       "source_id": "3362168",
@@ -55968,16 +55980,16 @@
       "zip": "58718",
       "county": "Ward",
       "kind": "land",
-      "price": 5610.0,
+      "price": 5000,
       "known_fees": 0,
-      "total_known": 5610.0,
-      "price_evidence": "Показанная запрашиваемая цена; дополнительные сборы не подтверждены.",
+      "total_known": 5000,
+      "price_evidence": "05.11.2026: Active sale $5,000 за все 2 acres. Источник обновлён 20.10.2026; $76/month — калькулятор. Дополнительные сборы не установлены.",
       "acres": 2.0,
       "lat": 48.3631,
       "lng": -101.5667,
       "coord_precision": "listing",
       "status": "active",
-      "status_basis": "indexed_public_page",
+      "status_basis": "live_public_page",
       "source_crawled": "4 weeks ago",
       "image_url": "assets/listings/d59e7a74fa3a1acf0f75.jpg",
       "image_source_url": "https://www.landsearch.com/properties/52-berthold-st-berthold-nd-58718/3362168",
@@ -55986,9 +55998,9 @@
       "mls": null,
       "zoning": "Не указано",
       "taxes_note": "2024 $20",
-      "road_note": "Юридический подъезд не проверен",
+      "road_note": "По продавцу public road; треугольник между highway и железной дорогой. Законный съезд и пригодная ширина неизвестны.",
       "utility_note": "Состояние подключений требует проверки",
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Сараи и небольшие здания находятся в окрестностях; на parcel строение не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -56004,6 +56016,12 @@
         {
           "date": "2026-09-13T22:25:28+00:00",
           "price": 5610.0,
+          "source": "https://www.landsearch.com/properties/52-berthold-st-berthold-nd-58718/3362168"
+        },
+        {
+          "date": "2026-11-05T03:20:29+00:00",
+          "price": 5000,
+          "price_basis": "asking_cash",
           "source": "https://www.landsearch.com/properties/52-berthold-st-berthold-nd-58718/3362168"
         }
       ],
@@ -56049,14 +56067,14 @@
       ],
       "msp_straight_km": 745,
       "score_parts": {
-        "Цена /25": 21,
+        "Цена /25": 22,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 0,
         "Сезон /10": 1,
         "Дорога /10": 0
       },
-      "score": 22,
+      "score": 23,
       "image_remote_url": "https://cdn.landsearch.com/listings/4wQyw/large/berthold-nd-112309854.jpg",
       "photo_preserved_at": "2026-09-13T23:05:59+00:00",
       "photo_history": [
@@ -56066,7 +56084,17 @@
           "remote_url": "https://cdn.landsearch.com/listings/4wQyw/large/berthold-nd-112309854.jpg",
           "date": "2026-09-13T23:05:59+00:00"
         }
-      ]
+      ],
+      "source_updated": "2026-10-20",
+      "verification_history": [
+        {
+          "date": "2026-11-05T03:20:29+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landsearch.com/properties/52-berthold-st-berthold-nd-58718/3362168",
+          "finding": "Live Active sale$5,000 whole2ac,sourceupdatedOct20. Same parcel/coordinates. Buildings nearby are not included garage; old price retained."
+        }
+      ],
+      "previous_price": 5610.0
     },
     {
       "price_currency": "USD",
@@ -132106,12 +132134,15 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-05T00:47:31+00:00",
-      "last_seen": "2026-11-05T00:50:21Z",
-      "last_verified": "2026-11-05T00:50:21Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-05T03:20:29+00:00",
+      "last_verified": "2026-11-05T03:20:29+00:00",
+      "photo_kind": "Аэрофото из объявления с выделением участка; контур продавца, не survey.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "05.11.2026: cash price, parcel и координаты проверены по живой карточке; исходное изображение просмотрено и сохранено. Доступ и разворот высокого 7-метрового RV, титул и затраты на освоение не подтверждены. Реклама RV/camping не доказывает самостоятельное хранение или личный ремонт.",
+        "Продавец указывает scrub jay area; площадь в описании 0.23 acre, в шапке 0.25. Город требует проверки habitat и координации перед воздействием на охраняемое местообитание. Актуальный parcel-list и возможность расчистки не подтверждены."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27037",
       "source_id": "27037",
@@ -132127,7 +132158,7 @@
       "price": 13999.0,
       "known_fees": 0.0,
       "total_known": 13999.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "05.11.2026: cash price $13,999; известный разовый сбор $0, сумма $13,999. Взнос и платежи — отдельная рассрочка; прочие расходы не оценены. Ноль означает отсутствие установленного сбора, а не гарантию бесплатного closing.",
       "acres": 0.25,
       "lat": 27.0426,
       "lng": -82.09735,
@@ -132147,7 +132178,7 @@
       "source_categories": [
         "residential-buildable-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -132158,7 +132189,8 @@
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "По продавцу scrub jay area: расчистка требует экологической проверки; no HOA не означает свободу использования."
       ],
       "evidence_quote": "These utility arrangements are common throughout the region and provide homeowners with independence while preserving the spacious, low-density atmosphere that makes North",
       "price_history": [
@@ -132224,18 +132256,34 @@
         "Сезон /10": 7,
         "Дорога /10": 7
       },
-      "score": 22
+      "score": 22,
+      "verification_history": [
+        {
+          "date": "2026-11-05T03:20:29+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/florida/025-acres-for-sale-in-north-port-florida-27037",
+          "finding": "Live public cash/fee/parcel/coordinates and source image reviewed. No existing garage or private-repair authorization established."
+        }
+      ],
+      "legal_source": "https://www.northportfl.gov/Building-Planning/Natural-Resources/Wildlife-Preservation/Scrub-Jay",
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/florida/025-acres-for-sale-in-north-port-florida-27037"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-05T00:47:31+00:00",
-      "last_seen": "2026-11-05T00:50:23Z",
-      "last_verified": "2026-11-05T00:50:23Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-05T03:20:29+00:00",
+      "last_verified": "2026-11-05T03:20:29+00:00",
+      "photo_kind": "Фото грунтовой колеи из объявления; границы двух parcel не показаны.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "05.11.2026: cash price, parcel и координаты проверены по живой карточке; исходное изображение просмотрено и сохранено. Доступ и разворот высокого 7-метрового RV, титул и затраты на освоение не подтверждены. Реклама RV/camping не доказывает самостоятельное хранение или личный ремонт.",
+        "Пакет двух APN: 10733231 и 10733232. Shared Type 1 non-irrigation water rights — заявление продавца, не работающий водопровод или подтверждённое индивидуальное право."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27036",
       "source_id": "27036",
@@ -132251,7 +132299,7 @@
       "price": 11940.0,
       "known_fees": 0.0,
       "total_known": 11940.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "05.11.2026: cash price $11,940; известный разовый сбор $0, сумма $11,940. Взнос и платежи — отдельная рассрочка; прочие расходы не оценены. Ноль означает отсутствие установленного сбора, а не гарантию бесплатного closing.",
       "acres": 2.0,
       "lat": 34.368911,
       "lng": -109.600319,
@@ -132274,7 +132322,7 @@
         "owner-finance-deals",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
@@ -132349,18 +132397,34 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 22
+      "score": 22,
+      "verification_history": [
+        {
+          "date": "2026-11-05T03:20:29+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/2-acres-for-sale-in-concho-arizona-27036",
+          "finding": "Live public cash/fee/parcel/coordinates and source image reviewed. No existing garage or private-repair authorization established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/2-acres-for-sale-in-concho-arizona-27036"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-05T00:47:31+00:00",
-      "last_seen": "2026-11-05T00:50:26Z",
-      "last_verified": "2026-11-05T00:50:26Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-05T03:20:29+00:00",
+      "last_verified": "2026-11-05T03:20:29+00:00",
+      "photo_kind": "Наклонный спутниковый обзор из объявления; не наземное фото въезда.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "05.11.2026: cash price, parcel и координаты проверены по живой карточке; исходное изображение просмотрено и сохранено. Доступ и разворот высокого 7-метрового RV, титул и затраты на освоение не подтверждены. Реклама RV/camping не доказывает самостоятельное хранение или личный ремонт.",
+        "Продавец описывает camping до 14 дней за три месяца и RV-проживание во время строительства по permit. Высокогорье, грунтовый подъезд, отсутствие воды/электричества и subdivision covenants требуют проверки; no HOA не отменяет covenants.",
+        "Продавец заявляет FEMA Zone X; независимая проверка flood map не выполнена. Это не доказательство отсутствия риска."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27034",
       "source_id": "27034",
@@ -132376,7 +132440,7 @@
       "price": 5999.0,
       "known_fees": 199.0,
       "total_known": 6198.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "05.11.2026: cash price $5,999; известный разовый сбор $199, сумма $6,198. Взнос и платежи — отдельная рассрочка; прочие расходы не оценены.",
       "acres": 4.54,
       "lat": 37.36781,
       "lng": -105.66051,
@@ -132399,7 +132463,7 @@
         "recreational-and-hunting-land",
         "mobile-home-and-rv-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
@@ -132477,18 +132541,34 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 28
+      "score": 28,
+      "verification_history": [
+        {
+          "date": "2026-11-05T03:20:29+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/454-acres-for-sale-in-blanca-colorado-27034",
+          "finding": "Live public cash/fee/parcel/coordinates and source image reviewed. No existing garage or private-repair authorization established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/454-acres-for-sale-in-blanca-colorado-27034"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-05T00:47:31+00:00",
-      "last_seen": "2026-11-05T00:50:30Z",
-      "last_verified": "2026-11-05T00:50:30Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-05T03:20:29+00:00",
+      "last_verified": "2026-11-05T03:20:29+00:00",
+      "photo_kind": "Спутниковая схема из объявления с контуром и размерами; не наземное фото.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "05.11.2026: cash price, parcel и координаты проверены по живой карточке; исходное изображение просмотрено и сохранено. Доступ и разворот высокого 7-метрового RV, титул и затраты на освоение не подтверждены. Реклама RV/camping не доказывает самостоятельное хранение или личный ремонт.",
+        "Продавец описывает camping до 14 дней за три месяца и RV-проживание во время строительства по permit. Высокогорье, грунтовый подъезд, отсутствие воды/электричества и subdivision covenants требуют проверки; no HOA не отменяет covenants.",
+        "Продавец заявляет FEMA Zone X; независимая проверка flood map не выполнена. Это не доказательство отсутствия риска."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27031",
       "source_id": "27031",
@@ -132504,7 +132584,7 @@
       "price": 7999.0,
       "known_fees": 199.0,
       "total_known": 8198.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "05.11.2026: cash price $7,999; известный разовый сбор $199, сумма $8,198. Взнос и платежи — отдельная рассрочка; прочие расходы не оценены.",
       "acres": 5.0,
       "lat": 37.2601,
       "lng": -105.5805,
@@ -132527,7 +132607,7 @@
         "recreational-and-hunting-land",
         "mobile-home-and-rv-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
@@ -132605,18 +132685,34 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 24
+      "score": 24,
+      "verification_history": [
+        {
+          "date": "2026-11-05T03:20:29+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-san-acacio-colorado-27031",
+          "finding": "Live public cash/fee/parcel/coordinates and source image reviewed. No existing garage or private-repair authorization established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-san-acacio-colorado-27031"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-05T00:47:31+00:00",
-      "last_seen": "2026-11-05T00:50:32Z",
-      "last_verified": "2026-11-05T00:50:32Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-05T03:20:29+00:00",
+      "last_verified": "2026-11-05T03:20:29+00:00",
+      "photo_kind": "Фото сухой местности и гор из объявления; площадка и границы не подтверждены.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "05.11.2026: cash price, parcel и координаты проверены по живой карточке; исходное изображение просмотрено и сохранено. Доступ и разворот высокого 7-метрового RV, титул и затраты на освоение не подтверждены. Реклама RV/camping не доказывает самостоятельное хранение или личный ремонт.",
+        "Продавец описывает camping до 14 дней за три месяца и RV-проживание во время строительства по permit. Высокогорье, грунтовый подъезд, отсутствие воды/электричества и subdivision covenants требуют проверки; no HOA не отменяет covenants.",
+        "Продавец заявляет FEMA Zone X; независимая проверка flood map не выполнена. Это не доказательство отсутствия риска."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27030",
       "source_id": "27030",
@@ -132632,7 +132728,7 @@
       "price": 8999.0,
       "known_fees": 199.0,
       "total_known": 9198.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "05.11.2026: cash price $8,999; известный разовый сбор $199, сумма $9,198. Взнос и платежи — отдельная рассрочка; прочие расходы не оценены.",
       "acres": 4.85,
       "lat": 37.315024,
       "lng": -105.501282,
@@ -132655,7 +132751,7 @@
         "recreational-and-hunting-land",
         "mobile-home-and-rv-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
@@ -132733,18 +132829,33 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 23
+      "score": 23,
+      "verification_history": [
+        {
+          "date": "2026-11-05T03:20:29+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/485-acres-for-sale-in-fort-garland-colorado-27030",
+          "finding": "Live public cash/fee/parcel/coordinates and source image reviewed. No existing garage or private-repair authorization established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/485-acres-for-sale-in-fort-garland-colorado-27030"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-05T00:47:31+00:00",
-      "last_seen": "2026-11-05T00:50:33Z",
-      "last_verified": "2026-11-05T00:50:33Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-05T03:20:29+00:00",
+      "last_verified": "2026-11-05T03:20:29+00:00",
+      "photo_kind": "Аэрофото лесного городского участка из объявления с нарисованным контуром.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "05.11.2026: cash price, parcel и координаты проверены по живой карточке; исходное изображение просмотрено и сохранено. Доступ и разворот высокого 7-метрового RV, титул и затраты на освоение не подтверждены. Реклама RV/camping не доказывает самостоятельное хранение или личный ремонт.",
+        "Продавец прямо исключает camping и RVs. City sewer и power — доступные сети, не подтверждённые подключения. Запись и фото сохранены; из подходящей подборки исключён до проверки допустимости RV-базы."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27025",
       "source_id": "27025",
@@ -132760,7 +132871,7 @@
       "price": 9700.0,
       "known_fees": 399.0,
       "total_known": 10099.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "05.11.2026: cash price $9,700; известный разовый сбор $399, сумма $10,099. Взнос и платежи — отдельная рассрочка; прочие расходы не оценены.",
       "acres": 0.11,
       "lat": 29.651111,
       "lng": -81.676222,
@@ -132773,7 +132884,7 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/florida/011-acres-for-sale-in-palatka-florida-27025",
       "image_credit": "Seller / LandCentury",
       "parcel": "02-10-26-7720-0080-0090",
-      "zoning": "Residential",
+      "zoning": "R-3 City of Palatka, по продавцу",
       "road_note": "Paved Road",
       "utility_note": "City utilities available",
       "taxes_note": "71.81",
@@ -132781,9 +132892,9 @@
         "residential-buildable-land",
         "owner-finance-deals"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
-      "rv_occupancy": "seller_claim",
+      "rv_occupancy": "seller_no",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "unknown",
@@ -132793,7 +132904,8 @@
       "road_access": "seller_claim",
       "flags": [
         "Источник упоминает flood zone/flood risk; контекст и фактический риск требуют проверки FEMA и отметки площадки.",
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Продавец прямо исключает camping и RVs; для RV-базы не подтверждён."
       ],
       "evidence_quote": "City sewer serves the area, so there's no septic to install.",
       "price_history": [
@@ -132816,7 +132928,7 @@
         }
       ],
       "region": "Юг",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Дешёвый перелёт и мягкая зима. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -132859,18 +132971,38 @@
         "Сезон /10": 7,
         "Дорога /10": 8
       },
-      "score": 28
+      "score": 20,
+      "verification_history": [
+        {
+          "date": "2026-11-05T03:20:29+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/florida/011-acres-for-sale-in-palatka-florida-27025",
+          "finding": "Live public cash/fee/parcel/coordinates and source image reviewed. No existing garage or private-repair authorization established."
+        }
+      ],
+      "review_hold": {
+        "date": "2026-11-05T03:20:29+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/florida/011-acres-for-sale-in-palatka-florida-27025",
+        "reason": "Продавец прямо исключает camping и RVs на незастроенном R-3 участке.",
+        "release_condition": "Официально подтвердить самостоятельное хранение и личный ремонт RV именно на этом parcel."
+      },
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/florida/011-acres-for-sale-in-palatka-florida-27025"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-05T00:47:31+00:00",
-      "last_seen": "2026-11-05T00:50:35Z",
-      "last_verified": "2026-11-05T00:50:35Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-05T03:20:29+00:00",
+      "last_verified": "2026-11-05T03:20:29+00:00",
+      "photo_kind": "Фото местности из объявления с рекламой $139/month; это платёж, не цена земли.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "05.11.2026: cash price, parcel и координаты проверены по живой карточке; исходное изображение просмотрено и сохранено. Доступ и разворот высокого 7-метрового RV, титул и затраты на освоение не подтверждены. Реклама RV/camping не доказывает самостоятельное хранение или личный ремонт."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27024",
       "source_id": "27024",
@@ -132886,7 +133018,7 @@
       "price": 5999.0,
       "known_fees": 249.0,
       "total_known": 6248.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "05.11.2026: cash price $5,999; известный разовый сбор $249, сумма $6,248. Взнос и платежи — отдельная рассрочка; прочие расходы не оценены.",
       "acres": 1.04,
       "lat": 35.217979,
       "lng": -109.421654,
@@ -132900,7 +133032,7 @@
       "image_credit": "Seller / LandCentury",
       "parcel": "207-50-010",
       "zoning": "Rural",
-      "road_note": "Dirt Road",
+      "road_note": "По продавцу последние 1,500 ft (~457 м) — колея; рекомендован 4x4/high clearance. Заезд высокого длинного RV неизвестен.",
       "utility_note": "No utilities",
       "taxes_note": "6",
       "source_categories": [
@@ -132911,18 +133043,19 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "none",
       "water": "none",
-      "sewer": "unknown",
+      "sewer": "none",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Последние ~457 м: продавец рекомендует 4x4/high clearance; проезд кемпервана неизвестен."
       ],
       "evidence_quote": "04 acres in the Bell Brand Ranches subdivision Only $139 Down and $139/month for 60 months About 30 minutes to Petrified Forest",
       "price_history": [
@@ -132988,18 +133121,34 @@
         "Сезон /10": 6,
         "Дорога /10": 5
       },
-      "score": 31
+      "score": 31,
+      "verification_history": [
+        {
+          "date": "2026-11-05T03:20:29+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-chambers-arizona-27024",
+          "finding": "Live public cash/fee/parcel/coordinates and source image reviewed. No existing garage or private-repair authorization established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-chambers-arizona-27024"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-05T00:47:31+00:00",
-      "last_seen": "2026-11-05T00:50:36Z",
-      "last_verified": "2026-11-05T00:50:36Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-05T03:20:29+00:00",
+      "last_verified": "2026-11-05T03:20:29+00:00",
+      "photo_kind": "Фото кустарниковой местности и гор из объявления; готовая площадка не показана.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "05.11.2026: cash price, parcel и координаты проверены по живой карточке; исходное изображение просмотрено и сохранено. Доступ и разворот высокого 7-метрового RV, титул и затраты на освоение не подтверждены. Реклама RV/camping не доказывает самостоятельное хранение или личный ремонт.",
+        "Продавец описывает camping до 14 дней за три месяца и RV-проживание во время строительства по permit. Высокогорье, грунтовый подъезд, отсутствие воды/электричества и subdivision covenants требуют проверки; no HOA не отменяет covenants.",
+        "Продавец заявляет FEMA Zone X; независимая проверка flood map не выполнена. Это не доказательство отсутствия риска."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27017",
       "source_id": "27017",
@@ -133015,7 +133164,7 @@
       "price": 14499.0,
       "known_fees": 199.0,
       "total_known": 14698.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "05.11.2026: cash price $14,499; известный разовый сбор $199, сумма $14,698. Взнос и платежи — отдельная рассрочка; прочие расходы не оценены.",
       "acres": 5.004,
       "lat": 37.437694,
       "lng": -105.372306,
@@ -133038,7 +133187,7 @@
         "recreational-and-hunting-land",
         "mobile-home-and-rv-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
@@ -133116,18 +133265,34 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 14
+      "score": 14,
+      "verification_history": [
+        {
+          "date": "2026-11-05T03:20:29+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/5004-acres-for-sale-in-fort-garland-colorado-27017",
+          "finding": "Live public cash/fee/parcel/coordinates and source image reviewed. No existing garage or private-repair authorization established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/5004-acres-for-sale-in-fort-garland-colorado-27017"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-05T00:47:31+00:00",
-      "last_seen": "2026-11-05T00:50:38Z",
-      "last_verified": "2026-11-05T00:50:38Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-05T03:20:29+00:00",
+      "last_verified": "2026-11-05T03:20:29+00:00",
+      "photo_kind": "Фото грунтовой дороги со снегом по обочинам из объявления.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "05.11.2026: cash price, parcel и координаты проверены по живой карточке; исходное изображение просмотрено и сохранено. Доступ и разворот высокого 7-метрового RV, титул и затраты на освоение не подтверждены. Реклама RV/camping не доказывает самостоятельное хранение или личный ремонт.",
+        "Продавец описывает camping до 14 дней за три месяца и RV-проживание во время строительства по permit. Высокогорье, грунтовый подъезд, отсутствие воды/электричества и subdivision covenants требуют проверки; no HOA не отменяет covenants.",
+        "Продавец заявляет FEMA Zone X; независимая проверка flood map не выполнена. Это не доказательство отсутствия риска."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27016",
       "source_id": "27016",
@@ -133143,7 +133308,7 @@
       "price": 7499.0,
       "known_fees": 199.0,
       "total_known": 7698.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "05.11.2026: cash price $7,499; известный разовый сбор $199, сумма $7,698. Взнос и платежи — отдельная рассрочка; прочие расходы не оценены.",
       "acres": 3.89,
       "lat": 37.246806,
       "lng": -105.441694,
@@ -133166,7 +133331,7 @@
         "recreational-and-hunting-land",
         "mobile-home-and-rv-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
@@ -133244,18 +133409,33 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 25
+      "score": 25,
+      "verification_history": [
+        {
+          "date": "2026-11-05T03:20:29+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/389-acres-for-sale-in-san-luis-colorado-27016",
+          "finding": "Live public cash/fee/parcel/coordinates and source image reviewed. No existing garage or private-repair authorization established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/389-acres-for-sale-in-san-luis-colorado-27016"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-05T00:47:31+00:00",
-      "last_seen": "2026-11-05T00:50:40Z",
-      "last_verified": "2026-11-05T00:50:40Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-05T03:20:29+00:00",
+      "last_verified": "2026-11-05T03:20:29+00:00",
+      "photo_kind": "Наклонный спутниковый обзор с метками из объявления; не наземное фото.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "05.11.2026: cash price, parcel и координаты проверены по живой карточке; исходное изображение просмотрено и сохранено. Доступ и разворот высокого 7-метрового RV, титул и затраты на освоение не подтверждены. Реклама RV/camping не доказывает самостоятельное хранение или личный ремонт.",
+        "По продавцу R-2, camping до 21 дня за шесть месяцев с permit для дней 8–21, отдельные условия охоты/строительства. Длительное хранение и ремонт неизвестны; вода и электричество не подключены."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27015",
       "source_id": "27015",
@@ -133271,7 +133451,7 @@
       "price": 9999.0,
       "known_fees": 199.0,
       "total_known": 10198.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "05.11.2026: cash price $9,999; известный разовый сбор $199, сумма $10,198. Взнос и платежи — отдельная рассрочка; прочие расходы не оценены.",
       "acres": 1.64,
       "lat": 42.54390869156134,
       "lng": -121.41169869276605,
@@ -133294,7 +133474,7 @@
         "recreational-and-hunting-land",
         "mobile-home-and-rv-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -133372,18 +133552,34 @@
         "Сезон /10": 4,
         "Дорога /10": 4
       },
-      "score": 24
+      "score": 24,
+      "verification_history": [
+        {
+          "date": "2026-11-05T03:20:29+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/oregon/164-acres-for-sale-in-dairy-oregon-27015",
+          "finding": "Live public cash/fee/parcel/coordinates and source image reviewed. No existing garage or private-repair authorization established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/oregon/164-acres-for-sale-in-dairy-oregon-27015"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-05T00:47:31+00:00",
-      "last_seen": "2026-11-05T00:50:41Z",
-      "last_verified": "2026-11-05T00:50:41Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-05T03:20:29+00:00",
+      "last_verified": "2026-11-05T03:20:29+00:00",
+      "photo_kind": "Аэрофото открытой местности и дорог из объявления; границы и въезд не проверены.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "05.11.2026: cash price, parcel и координаты проверены по живой карточке; исходное изображение просмотрено и сохранено. Доступ и разворот высокого 7-метрового RV, титул и затраты на освоение не подтверждены. Реклама RV/camping не доказывает самостоятельное хранение или личный ремонт.",
+        "Продавец описывает camping до 14 дней за три месяца и RV-проживание во время строительства по permit. Высокогорье, грунтовый подъезд, отсутствие воды/электричества и subdivision covenants требуют проверки; no HOA не отменяет covenants.",
+        "Продавец заявляет FEMA Zone X; независимая проверка flood map не выполнена. Это не доказательство отсутствия риска."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27014",
       "source_id": "27014",
@@ -133399,7 +133595,7 @@
       "price": 7999.0,
       "known_fees": 199.0,
       "total_known": 8198.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "05.11.2026: cash price $7,999; известный разовый сбор $199, сумма $8,198. Взнос и платежи — отдельная рассрочка; прочие расходы не оценены.",
       "acres": 5.12,
       "lat": 37.38815,
       "lng": -105.6807,
@@ -133422,7 +133618,7 @@
         "recreational-and-hunting-land",
         "mobile-home-and-rv-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
@@ -133500,18 +133696,33 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 24
+      "score": 24,
+      "verification_history": [
+        {
+          "date": "2026-11-05T03:20:29+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/512-acres-for-sale-in-blanca-colorado-27014",
+          "finding": "Live public cash/fee/parcel/coordinates and source image reviewed. No existing garage or private-repair authorization established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/512-acres-for-sale-in-blanca-colorado-27014"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-05T00:47:31+00:00",
-      "last_seen": "2026-11-05T00:50:44Z",
-      "last_verified": "2026-11-05T00:50:44Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-05T03:20:29+00:00",
+      "last_verified": "2026-11-05T03:20:29+00:00",
+      "photo_kind": "Аэрофото открытой местности из объявления; готовые въезд и подключения не показаны.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "05.11.2026: cash price, parcel и координаты проверены по живой карточке; исходное изображение просмотрено и сохранено. Доступ и разворот высокого 7-метрового RV, титул и затраты на освоение не подтверждены. Реклама RV/camping не доказывает самостоятельное хранение или личный ремонт.",
+        "Продавец заявляет camping до 30 дней подряд раз в год и permit для более долгого пребывания. Это не разрешение ремонта. Воды и электричества нет."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27010",
       "source_id": "27010",
@@ -133527,7 +133738,7 @@
       "price": 7999.0,
       "known_fees": 199.0,
       "total_known": 8198.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "05.11.2026: cash price $7,999; известный разовый сбор $199, сумма $8,198. Взнос и платежи — отдельная рассрочка; прочие расходы не оценены.",
       "acres": 1.04,
       "lat": 34.4383,
       "lng": -109.6149,
@@ -133550,7 +133761,7 @@
         "recreational-and-hunting-land",
         "mobile-home-and-rv-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
@@ -133628,7 +133839,153 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 28
+      "score": 28,
+      "verification_history": [
+        {
+          "date": "2026-11-05T03:20:29+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-concho-arizona-27010",
+          "finding": "Live public cash/fee/parcel/coordinates and source image reviewed. No existing garage or private-repair authorization established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-concho-arizona-27010"
+      ]
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-05T03:20:29+00:00",
+      "last_seen": "2026-11-05T03:20:29+00:00",
+      "last_verified": "2026-11-05T03:20:29+00:00",
+      "photo_kind": "Аэрофото из объявления: заросшая каменистая земля у дороги, контур продавца.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [
+        "05.11.2026: текущие MLS, APN и точка карты проверены в Chrome. Сведения driveway/graded pad из старых соседних MLS в истории не перенесены.",
+        "Описание level расходится с MLS rocky/rolling; площадка не доказана. Lava Zone 2 по MLS. Хранение, проживание и ремонт неизвестны. Доставка RV на остров требует отдельного бюджета."
+      ],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "none",
+      "sewer": "unknown",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "flags": [
+        "Нет гаража, воды и готовой площадки; Lava Zone 2 по MLS.",
+        "Доставка RV на остров не включена в перелёт."
+      ],
+      "evidence_quote": null,
+      "id": "mls-hi-734622",
+      "source": "Redfin / HI Information Service",
+      "source_id": "734622",
+      "mls": "HIS 734622",
+      "url": "https://www.redfin.com/HI/Ocean-View/Iwalani-Makai-Cir-96704/home/143165013",
+      "title": "Iwalani Circle Makai — 1 acre",
+      "address": "Iwalani Circle Makai",
+      "city": "Ocean View",
+      "state": "HI",
+      "county": "Hawaii",
+      "zip": "96737",
+      "kind": "land",
+      "price": 11999,
+      "known_fees": 0,
+      "total_known": 11999,
+      "acres": 1,
+      "lat": 19.13335709,
+      "lng": -155.74274906,
+      "coord_precision": "listing",
+      "parcel": "3921430700000",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-02",
+      "source_published": "2026-10-27",
+      "zoning": "A-1A по MLS; независимо не проверен",
+      "price_evidence": "05.11.2026: For sale $11,999 за 1 acre; MLS Fee Simple / Full ownership. $2,400 down — калькулятор. Road fee $155/year отдельно; closing не оценён.",
+      "taxes_note": "$200 за 2026 год по MLS; отдельно road fee $155/year.",
+      "road_note": "MLS: paved private roads. Въезд и разворот 7-метрового RV неизвестны.",
+      "utility_note": "Воды нет, catchment; электричество/septic не подтверждены.",
+      "garage_note": "Гараж, мастерская и готовая площадка не заявлены.",
+      "image_url": "assets/listings/2ce4c4c95e2a9836f28c.jpg",
+      "image_source_url": "https://www.redfin.com/HI/Ocean-View/Iwalani-Makai-Cir-96704/home/143165013",
+      "image_credit": "Seller / eXp Realty / HIS via Redfin",
+      "verification_history": [
+        {
+          "date": "2026-11-05T03:20:29+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.redfin.com/HI/Ocean-View/Iwalani-Makai-Cir-96704/home/143165013",
+          "finding": "Live$11,999,FeeSimple1ac,MLS734622,parcel and listing-map coordinates checked. Genuine source photo viewed. Repair unknown; roadfee$155/year separate."
+        }
+      ],
+      "image_remote_url": "https://ssl.cdn-redfin.com/photo/168/bigphoto/622/734622_0.jpg",
+      "photo_preserved_at": "2026-11-05T03:20:29+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/2ce4c4c95e2a9836f28c.jpg",
+          "source": "https://www.redfin.com/HI/Ocean-View/Iwalani-Makai-Cir-96704/home/143165013",
+          "remote_url": "https://ssl.cdn-redfin.com/photo/168/bigphoto/622/734622_0.jpg",
+          "date": "2026-11-05T03:20:29+00:00"
+        }
+      ],
+      "price_history": [
+        {
+          "date": "2026-11-05T03:20:29+00:00",
+          "price": 11999,
+          "price_basis": "asking_cash",
+          "source": "https://www.redfin.com/HI/Ocean-View/Iwalani-Makai-Cir-96704/home/143165013"
+        }
+      ],
+      "status_history": [],
+      "region": "Гавайи",
+      "screening_issue": null,
+      "climate_note": "Дешёвая земля обычно на Big Island, а международный рейс часто до Honolulu. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "KOA",
+          "name": "Ellison Onizuka Kona International Airport at Keāhole",
+          "straight_km": 74,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
+          "flight_min_eur": null,
+          "flight_origin": null,
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
+        },
+        {
+          "code": "ITO",
+          "name": "Hilo International Airport",
+          "straight_km": 98,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
+          "flight_min_eur": null,
+          "flight_origin": null,
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
+        },
+        {
+          "code": "HNL",
+          "name": "Daniel K. Inouye International Airport",
+          "straight_km": 333,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
+          "flight_min_eur": 888,
+          "flight_origin": "LON",
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
+        }
+      ],
+      "msp_straight_km": 6372,
+      "score_parts": {
+        "Цена /25": 10,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 7,
+        "Дорога /10": 0
+      },
+      "score": 17
     }
   ]
 }

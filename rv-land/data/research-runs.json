@@ -4929,7 +4929,142 @@
       "rotation_reason": "Below-ten photo states last manual reviewOctober30. ID/MT/WY covered today; scheduled statewide discovery coversall50.",
       "preservation": "All1019pre-manual rows,IDs,first_seen,prices,statuses,coordinates,photos and histories retained. One WYrecord/photo added; ARconflict held; bundle overlaps explicit.",
       "validation": "Focused data checks,preservation audit and public map/photo postflight recorded separately."
+    },
+    {
+      "date": "2026-11-05T03:20:29+00:00",
+      "states": [
+        "WA",
+        "HI",
+        "ND"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [
+        "mls-hi-734622"
+      ],
+      "updated_ids": [
+        "lc-27037",
+        "lc-27036",
+        "lc-27034",
+        "lc-27031",
+        "lc-27030",
+        "lc-27025",
+        "lc-27024",
+        "lc-27017",
+        "lc-27016",
+        "lc-27015",
+        "lc-27014",
+        "lc-27010",
+        "lc-25790",
+        "ls-3362168"
+      ],
+      "automatic_added_ids": [
+        "lc-27037",
+        "lc-27036",
+        "lc-27034",
+        "lc-27031",
+        "lc-27030",
+        "lc-27025",
+        "lc-27024",
+        "lc-27017",
+        "lc-27016",
+        "lc-27015",
+        "lc-27014",
+        "lc-27010"
+      ],
+      "automatic_updated_ids": [
+        "lc-25790"
+      ],
+      "workflow": {
+        "run_id": 41943896422,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/41943896422",
+        "conclusion": "success",
+        "created_at": "2026-11-05T00:47:11Z",
+        "data_commit": "c4816322bb65fc7dc42113460a072a834ee22360"
+      },
+      "monitor": {
+        "date": "2026-11-05T00:47:31+00:00",
+        "status": "partial",
+        "scanned_pages": 116,
+        "read_details": 70,
+        "added": 12,
+        "changed": 1,
+        "errors": 50
+      },
+      "source_errors": "Nightly succeeded:116catalogpages,70details,12new,1photochange,50errors. All20 retained samples HTTP404,not proof explaining all50 or sold status. Pages41944666926success,duplicate41944665149cancelled. No redundant fallback.",
+      "findings": [
+        {
+          "id": "mls-hi-734622",
+          "finding": "New HI1ac cash$11,999 fee-simple with genuine photo/map point. Rocky/rolling,LavaZone2,no garage/water;repair unknown."
+        },
+        {
+          "id": "ls-3362168",
+          "finding": "Live$5,000 replaces$5,610,sourceOct20. Sameparcel;triangle betweenhighway/railway,buildings onlynearby."
+        },
+        {
+          "id": "lc-27025",
+          "finding": "Explicit seller noRV/camping;held,record/photo retained."
+        },
+        {
+          "id": "lc-27037",
+          "finding": "Scrubjay-area warning and0.23vs0.25acre discrepancy exposed;cityhabitat guidance linked."
+        },
+        {
+          "id": "lc-27024",
+          "finding": "Last1,500ft seller recommends4x4/highclearance."
+        },
+        {
+          "id": "lc-25790",
+          "finding": "Relist27033 stableparcel/ID;newlakephoto checked,oldphotos retained."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.bismanonline.com/homes?ao_53=Other&doSearch=true",
+          "finding": "IndexedHarvey1972doublewide+24x14garage$15,000citylot promising,but currentcatalog/exactsearch0. No detailURL/address/parcel/coordinates confirmed;not calledsold.24ftgarage doesnotprove7mhighRVfit."
+        },
+        {
+          "url": "https://cheaplands.com/property-type/commercial-building/",
+          "finding": "Sherwood125MainSt oldersearch$8,000 vs openedcatalog$30,000 and3x$10,000;detailunexpectedstatus. Not imported as$8k purchase."
+        },
+        {
+          "url": "https://www.homes.com/property/0-high-ridge-dr-marblemount-wa-unit-nwm2504151/y32d9f3xkhcl9/",
+          "finding": "WA2504151$10k,.2459ac,CascadeRiverPark,P63987. No structure/electricity/septic;annualHOA$2,023,repair permissionunverified. Deferred."
+        },
+        {
+          "url": "https://www.homes.com/property/0-nka-se-may-ave-wilbur-wa/ywkbht0bhgeld/",
+          "finding": "Chrome screenshot$13,500,.09ac/3725sqft,NWMLS2571351,parcelmap. DOMtimeout recovered screenshot. Exactcoordinates,RVuse,utilities unverified;deferred."
+        },
+        {
+          "url": "https://www.homes.com/washington/land-for-sale/under-15k/",
+          "finding": "LomaLn2479373$15k explicitlyno directroadaccess/easementsneeded. Otherlowoffers largelyHOA/islandlots;no garage."
+        },
+        {
+          "url": "https://www.redfin.com/HI/Ocean-View/92-2073-Kona-DR-96737/home/206826738",
+          "finding": "HI734693$15k,1ac,APN3921160080000,LavaZone2,no water/garage;lowerpriority deferred."
+        }
+      ],
+      "official_sources": [
+        {
+          "url": "https://www.northportfl.gov/Building-Planning/Natural-Resources/Wildlife-Preservation/Scrub-Jay",
+          "finding": "City requires habitatreview/USFWScoordination before disturbance;currentparcel-list notverified,no clearance assumed."
+        },
+        {
+          "url": "https://cascaderiverpark.com/navigation",
+          "finding": "Officialpark gatedaccess/visitor escort. No repairpermission established;unrelated VirginiaCascadesPark rules excluded."
+        }
+      ],
+      "access": "Chrome,publicsearch,13bounded freshLCpages via robots-aware reader,original photos. No CAPTCHA/403/robots/login bypass,contacts,purchases,bookings,infrastructurechanges.",
+      "flight_review": "November2weeklyreview preserved,nextNovember9;no oldfare relabelled.",
+      "next_states": [
+        "RI",
+        "DE",
+        "NH",
+        "VT"
+      ],
+      "rotation_reason": "Older low-coverage states lastreviewedNovember1/2;WA/HI/ND coveredtoday,scheduledcatalogall50.",
+      "preservation": "All1032priorIDs,first_seen,statuses,coordinates,photos retained;NDpricehistory appended,oneHIrecord/photo added,Palatkaheld.",
+      "validation": "Focuseddata,preservationaudit andpublicmap/photo postflight recordedseparately."
     }
   ],
-  "updated_at": "2026-11-04T03:22:31+00:00"
+  "updated_at": "2026-11-05T03:20:29+00:00"
 }

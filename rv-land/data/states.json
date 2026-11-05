@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T00:47:31+00:00",
+  "updated_at": "2026-11-05T03:20:41+00:00",
   "states": [
     {
       "code": "AL",
@@ -179,7 +179,7 @@
       ],
       "analysis": "Дешёвый перелёт и мягкая зима. Многие лоты без подъезда/коммуникаций, wetland, HOA или ураганный риск; летняя работа жаркая.",
       "total": 50,
-      "photo_candidates": 50,
+      "photo_candidates": 49,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -218,9 +218,9 @@
         "HNL"
       ],
       "analysis": "Дешёвая земля обычно на Big Island, а международный рейс часто до Honolulu. Межостровная логистика, доставка RV, лава и ливни ухудшают экономику.",
-      "total": 12,
-      "photo_candidates": 7,
-      "shortfall": 3,
+      "total": 13,
+      "photo_candidates": 8,
+      "shortfall": 2,
       "coverage": "Недостаточно проверенных кандидатов",
       "sources": [
         "https://www.landsearch.com/properties/hawaii/search/under-15000",
