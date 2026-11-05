@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T03:24:23+00:00",
+  "updated_at": "2026-11-05T00:47:31+00:00",
   "states": [
     {
       "code": "AL",
@@ -53,8 +53,8 @@
         "PHX"
       ],
       "analysis": "Много дешёвой земли. Пустынная жара, отсутствие воды и электричества; север штата холодный. Ремонт в Mohave требует отдельной проверки правил.",
-      "total": 106,
-      "photo_candidates": 100,
+      "total": 109,
+      "photo_candidates": 103,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -115,8 +115,8 @@
         "DEN"
       ],
       "analysis": "San Luis Valley даёт много дешёвых лотов, но это высокогорье с морозом, ветром и дорогими коммуникациями.",
-      "total": 73,
-      "photo_candidates": 67,
+      "total": 79,
+      "photo_candidates": 73,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -178,8 +178,8 @@
         "MCO"
       ],
       "analysis": "Дешёвый перелёт и мягкая зима. Многие лоты без подъезда/коммуникаций, wetland, HOA или ураганный риск; летняя работа жаркая.",
-      "total": 48,
-      "photo_candidates": 48,
+      "total": 50,
+      "photo_candidates": 50,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -764,8 +764,8 @@
         "SFO"
       ],
       "analysis": "Дешёвая земля часто в Klamath/Lake County, а не в мягком прибрежном климате. Холод, огонь и автономные коммуникации.",
-      "total": 29,
-      "photo_candidates": 28,
+      "total": 30,
+      "photo_candidates": 29,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
