@@ -132886,7 +132886,7 @@
       "parcel": "02-10-26-7720-0080-0090",
       "zoning": "R-3 City of Palatka, по продавцу",
       "road_note": "Paved Road",
-      "utility_note": "City utilities available",
+      "utility_note": "City sewer и FPL power доступны в районе по продавцу; подключения на parcel не подтверждены.",
       "taxes_note": "71.81",
       "source_categories": [
         "residential-buildable-land",
@@ -132899,7 +132899,7 @@
       "garage_size": null,
       "electricity": "unknown",
       "water": "unknown",
-      "sewer": "none",
+      "sewer": "available",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
@@ -132967,7 +132967,7 @@
         "Цена /25": 13,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 0,
+        "Коммуникации /10": 1,
         "Сезон /10": 7,
         "Дорога /10": 8
       },
