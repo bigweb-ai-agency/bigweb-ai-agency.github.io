@@ -52,6 +52,11 @@ def purchase_document_fee(description):
     for label in re.finditer(r'\b(?:doc(?:ument)?(?:ation)?|processing|transaction)\s*fee\b',text,re.I):
         before,after=text[:label.start()],text[label.end():]
         if re.search(r'\b(?:loan|financing|monthly|annual)\s+$',before,re.I):continue
+        # A trailing qualifier can apply to the document fee and the recurring
+        # charges in the same sentence. It does not establish a cash-sale fee.
+        sentence_end=re.search(r'[.!?](?:\s|$)',after)
+        fee_clause=after[:sentence_end.start()] if sentence_end else after
+        if re.search(r'\bfor purchases? on terms\b',fee_clause,re.I):continue
         # In "Cash price: $3,895 Doc fee: $250", $250 belongs to the fee.
         # Do not also interpret the preceding purchase price as a fee.
         following=re.match(r'\s*[:\-]?\s*'+amount,after)

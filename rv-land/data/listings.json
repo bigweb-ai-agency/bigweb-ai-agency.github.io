@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-06T00:48:20+00:00",
+  "updated_at": "2026-11-06T03:19:39+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -21812,12 +21812,15 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-11-06T00:53:31Z",
-      "last_verified": "2026-11-06T00:53:31Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-06T03:19:39+00:00",
+      "last_verified": "2026-11-06T03:19:39+00:00",
+      "photo_kind": "Аэрофото леса из повторной карточки с красной заливкой и рекламным баннером; не survey и не готовая RV-площадка.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "06.11.2026: живая карточка, cash price, parcel, координаты и исходное изображение проверены. Размеры въезда и разворота 7-метрового RV, самостоятельное хранение и личный ремонт не подтверждены.",
+        "Тот же APN и 5.41 acres; прежнее фото сохранено. Forbes Lake of the Ozarks Park HOA ~$195/year; лес и склон 1–35%. Well/septic отсутствуют. Упоминание Marion County в блоке электричества противоречит Benton County; подключение и стоимость неизвестны. Сумма обязательного doc fee не раскрыта."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-25096",
       "source_id": "25096",
@@ -21833,7 +21836,7 @@
       "price": 12497.0,
       "known_fees": 0.0,
       "total_known": 12497.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "06.11.2026: cash $12,497; обязательный one-time document preparation fee в описании без суммы. Полная цена неизвестна. $50 hold — резервирование, не покупка.",
       "acres": 5.41,
       "lat": 38.213,
       "lng": -93.0814,
@@ -21849,24 +21852,25 @@
       "zoning": "Residential",
       "road_note": "Dirt Road",
       "utility_note": "Electricity available, septic and well required",
-      "taxes_note": "53.99",
+      "taxes_note": "По продавцу налог ~$53.99/year и HOA ~$195/year отдельно.",
       "source_categories": [
         "owner-finance-deals"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
-      "rv_occupancy": "seller_conditional",
+      "rv_occupancy": "unknown",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "available",
-      "water": "unknown",
-      "sewer": "unknown",
+      "water": "none",
+      "sewer": "none",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [
         "Источник упоминает flood zone/flood risk; контекст и фактический риск требуют проверки FEMA и отметки площадки.",
         "Упоминаются заболоченные земли; пригодность площадки требует проверки.",
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Обязательный document preparation fee без суммы: полный бюджет покупки неизвестен."
       ],
       "evidence_quote": "A private well and septic system will need to be installed, and for electricity, the buyer should contact the nearest electric provider",
       "price_history": [
@@ -21960,6 +21964,12 @@
             "sewer": "available"
           },
           "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
+        },
+        {
+          "date": "2026-11-06T03:19:39+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/missouri/541-acres-for-sale-in-edwards-missouri-25096",
+          "finding": "Fresh public cash/parcel/coordinates and listing image checked; no existing workshop or personal-repair authorization established."
         }
       ]
     },
@@ -52201,12 +52211,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:28+00:00",
-      "last_seen": "2026-09-13T23:00:23+00:00",
-      "last_verified": "2026-09-13T23:00:23+00:00",
+      "last_seen": "2026-11-06T03:19:39+00:00",
+      "last_verified": "2026-11-06T03:19:39+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "06.11.2026: live Pending / Under contract, MLS5086950, $15,000 за 0.19 acre; источник обновлён 24.09.2026. Продажа государственной земли требует Governor/Executive Council approval. Conway RA: индекс официального Chapter190, J(3), запрещает хранение RV на пустых лотах; личный ремонт неизвестен. Chrome кодекса показал security verification, обхода не было; индивидуальные исключения и границы зоны не проверены."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ls-5232350",
       "source_id": "5232452",
@@ -52227,8 +52239,8 @@
       "lat": 43.9636,
       "lng": -71.1341,
       "coord_precision": "listing",
-      "status": "active",
-      "status_basis": "indexed_public_page",
+      "status": "pending",
+      "status_basis": "live_public_page",
       "source_crawled": "3 weeks ago",
       "image_url": "assets/listings/656c26c8f50671cd8c08.jpg",
       "image_source_url": "https://www.landsearch.com/properties/brookside-st-conway-nh-03818/5232452",
@@ -52240,7 +52252,7 @@
       "road_note": "Юридический подъезд не проверен",
       "utility_note": "Состояние подключений требует проверки",
       "garage_note": "Размеры и состояние не подтверждены",
-      "rv_storage": "unknown",
+      "rv_storage": "restriction_risk",
       "rv_occupancy": "unknown",
       "existing_garage": false,
       "garage_size": null,
@@ -52249,7 +52261,9 @@
       "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "unknown",
-      "flags": [],
+      "flags": [
+        "Conway RA: официальный кодекс ограничивает хранение RV жилым участком; самостоятельная база на пустом лоте не подтверждена."
+      ],
       "evidence_quote": null,
       "price_history": [
         {
@@ -52283,7 +52297,14 @@
           "source": "https://www.landsearch.com/properties/brookside-st-conway-nh-03818/5232452"
         }
       ],
-      "status_history": [],
+      "status_history": [
+        {
+          "date": "2026-11-06T03:19:39+00:00",
+          "from": "active",
+          "to": "pending",
+          "source": "https://www.landsearch.com/properties/brookside-st-conway-nh-03818/5232452"
+        }
+      ],
       "legacy": false,
       "previous_price": 13000.0,
       "alternate_urls": [
@@ -52291,7 +52312,7 @@
         "https://www.landsearch.com/properties/brookside-st-conway-nh-03818/5232452"
       ],
       "region": "Северо-восток",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Мало подходящих предложений; снег и местные ограничения на standalone RV. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -52343,6 +52364,24 @@
           "source": "https://www.landsearch.com/properties/brookside-st-conway-nh-03818/5232452",
           "remote_url": "https://cdn.landsearch.com/listings/4SKjM/large/conway-nh-169979763.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "source_updated": "2026-09-24",
+      "legal_source": "https://ecode360.com/29477474",
+      "legal_basis": "indexed_official_code",
+      "legal_checked_at": "2026-11-06T03:19:39+00:00",
+      "review_hold": {
+        "date": "2026-11-06T03:19:39+00:00",
+        "source": "https://ecode360.com/29477474",
+        "reason": "В официальном кодексе Conway для RA хранение RV на пустом лоте запрещено; исключение или ранее возникшее право для parcel не подтверждены. Участок под контрактом.",
+        "release_condition": "Официально подтвердить parcel-specific исключение/права хранения и личного ремонта, правила Cranmore Shores и условия государственной продажи."
+      },
+      "verification_history": [
+        {
+          "date": "2026-11-06T03:19:39+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landsearch.com/properties/brookside-st-conway-nh-03818/5232452",
+          "finding": "Live pending$15,000/0.19ac/RA/MLS5086950. State sale approval caveat. Separate official-code indexed evidence supports storage-risk hold, not a parcel-specific legal determination."
         }
       ]
     },
@@ -107347,8 +107386,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-16T02:16:13+00:00",
-      "last_seen": "2026-10-25T03:11:35+00:00",
-      "last_verified": "2026-10-25T03:11:35+00:00",
+      "last_seen": "2026-11-06T03:19:39+00:00",
+      "last_verified": "2026-11-06T03:19:39+00:00",
       "photo_kind": "Снимок Street View с меткой, размещённый в самом объявлении; дата съёмки и точность метки не подтверждены.",
       "personal_repair": "restriction_risk",
       "commercial_repair": "unknown",
@@ -107359,11 +107398,12 @@
         "Эти нормы не подтверждают право использовать конкретный пустой участок как самостоятельную ремонтную базу. Личный ремонт, разрешённый въезд и применение правил к участку требуют отдельного подтверждения.",
         "Вместо съёмки продавца объявление содержит снимок Google Street View с меткой; сохранены исходные байты. Вид не подтверждает нынешнее состояние или границы.",
         "При заявленной зоне R80 небольшой размер требует проверки статуса участка и действующих правил для старых маломерных лотов. Сам по себе размер не доказывает запрет строительства.",
-        "25.10.2026: Compass явно показывает Pending / Contract Signed, последнее обновление 19.10.2026 12:34 PM. Цена остаётся $15,000. Запись не отмечена как проданная; прежний HOLD, правовые оговорки и фото сохранены."
+        "25.10.2026: Compass явно показывает Pending / Contract Signed, последнее обновление 19.10.2026 12:34 PM. Цена остаётся $15,000. Запись не отмечена как проданная; прежний HOLD, правовые оговорки и фото сохранены.",
+        "06.11.2026: живая карточка MLS1419851 явно сообщает sold 03.11.2026 за $14,000. Историческая asking price $15,000, ID, фото и прежний review hold сохранены; это не действующее предложение."
       ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ri-1419851",
-      "url": "https://www.compass.com/homedetails/0-Rhode-Island-Ave-Narragansett-RI-02882/JIJYV_pid/",
+      "url": "https://corcoranchr.com/listing/RI/Narragansett/0-Rhode-Island-Avenue-02882/231519435",
       "image_url": "assets/listings/1be88ff76db0976cebd2.jpg",
       "image_remote_url": "https://www.compass.com/m/1be88ff76db0976cebd282e3840560da23ea2d769993e572ad830905f305fd97/origin.webp",
       "photo_preserved_at": "2026-10-16T02:11:21+00:00",
@@ -107375,7 +107415,7 @@
           "date": "2026-10-16T02:11:21+00:00"
         }
       ],
-      "source": "Compass / Rhode Island Statewide MLS",
+      "source": "Corcoran / StateWide MLS",
       "source_id": "1419851",
       "title": "0 Rhode Island Avenue",
       "address": "0 Rhode Island Avenue",
@@ -107394,7 +107434,7 @@
       "coord_precision": "listing",
       "coordinate_source": "https://www.compass.com/homedetails/0-Rhode-Island-Ave-Narragansett-RI-02882/JIJYV_pid/",
       "coordinate_basis": "Live Compass rendered Listing Map center, 2026-10-16; broker point, not a boundary survey",
-      "status": "pending",
+      "status": "sold",
       "status_basis": "live_public_page",
       "source_updated": "2026-10-19",
       "source_crawled": "Live public Chrome page inspected 2026-10-25",
@@ -107432,6 +107472,7 @@
       },
       "legacy": false,
       "alternate_urls": [
+        "https://corcoranchr.com/listing/RI/Narragansett/0-Rhode-Island-Avenue-02882/231519435",
         "https://www.compass.com/homedetails/0-Rhode-Island-Ave-Narragansett-RI-02882/JIJYV_pid/",
         "https://www.seaportre.com/listing-swmls/1419851-rhode-island-ave-narragansett-ri-02882/"
       ],
@@ -107448,6 +107489,12 @@
           "from": "active",
           "to": "pending",
           "source": "https://www.compass.com/homedetails/0-Rhode-Island-Ave-Narragansett-RI-02882/JIJYV_pid/"
+        },
+        {
+          "date": "2026-11-06T03:19:39+00:00",
+          "from": "pending",
+          "to": "sold",
+          "source": "https://corcoranchr.com/listing/RI/Narragansett/0-Rhode-Island-Avenue-02882/231519435"
         }
       ],
       "region": "Северо-восток",
@@ -107494,7 +107541,17 @@
         "Сезон /10": 4,
         "Дорога /10": 8
       },
-      "score": 18
+      "score": 18,
+      "sold_at": "2026-11-03",
+      "sold_price": 14000,
+      "verification_history": [
+        {
+          "date": "2026-11-06T03:19:39+00:00",
+          "basis": "live_public_page",
+          "source": "https://corcoranchr.com/listing/RI/Narragansett/0-Rhode-Island-Avenue-02882/231519435",
+          "finding": "Chrome: explicit SOLD November3,2026 at$14,000,MLS1419851. Previous asking$15,000 retained separately from sold_price."
+        }
+      ]
     },
     {
       "price_currency": "USD",
@@ -133997,12 +134054,15 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-06T00:48:20+00:00",
-      "last_seen": "2026-11-06T00:50:54Z",
-      "last_verified": "2026-11-06T00:50:54Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-06T03:19:39+00:00",
+      "last_verified": "2026-11-06T03:19:39+00:00",
+      "photo_kind": "Аэрофото из объявления с контуром продавца, холмами и водоёмом вдали; не survey.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "06.11.2026: живая карточка, cash price, parcel, координаты и исходное изображение проверены. Размеры въезда и разворота 7-метрового RV, самостоятельное хранение и личный ремонт не подтверждены.",
+        "Высота около 8,665 ft (2,641 м), умеренные склоны и кустарник по продавцу. Электричество available, не подключено; нужны well/septic. Camping до 14 дней за три месяца и дольше при строительстве по permit — заявления продавца, не право хранения/ремонта."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27045",
       "source_id": "27045",
@@ -134016,9 +134076,9 @@
       "zip": "81152",
       "kind": "land",
       "price": 8950.0,
-      "known_fees": 199.0,
-      "total_known": 9149.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "known_fees": 0,
+      "total_known": 8950,
+      "price_evidence": "06.11.2026: cash $8,950. $199 document fee указан для покупки в рассрочку вместе с ежемесячными сборами; применимость к cash неизвестна. $249 down / $189 × 60 — рассрочка, не полная цена.",
       "acres": 1.75,
       "lat": 37.10025,
       "lng": -105.433139,
@@ -134031,8 +134091,8 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/colorado/1-75-acres-for-sale-in-san-luis-colorado-27045",
       "image_credit": "Seller / LandCentury",
       "parcel": "71228940",
-      "zoning": "Residential",
-      "road_note": "Dirt Road",
+      "zoning": "Estate Residential, по продавцу",
+      "road_note": "Грунтовая Mountain View Trail; продавец описывает склоны и кустарник. Ровная RV-площадка и разворот не доказаны.",
       "utility_note": "Electricity available, septic and well required",
       "taxes_note": "$180",
       "source_categories": [
@@ -134043,14 +134103,14 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "available",
-      "water": "unknown",
-      "sewer": "unknown",
+      "water": "none",
+      "sewer": "none",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [
@@ -134120,18 +134180,33 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 24
+      "score": 24,
+      "verification_history": [
+        {
+          "date": "2026-11-06T03:19:39+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/1-75-acres-for-sale-in-san-luis-colorado-27045",
+          "finding": "Fresh public cash/parcel/coordinates and listing image checked; no existing workshop or personal-repair authorization established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/1-75-acres-for-sale-in-san-luis-colorado-27045"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-06T00:48:20+00:00",
-      "last_seen": "2026-11-06T00:50:56Z",
-      "last_verified": "2026-11-06T00:50:56Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-06T03:19:39+00:00",
+      "last_verified": "2026-11-06T03:19:39+00:00",
+      "photo_kind": "Спутниковая схема из объявления с меткой Apache 21134081; не наземное фото. AI-рендер дома из галереи не используется.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "06.11.2026: живая карточка, cash price, parcel, координаты и исходное изображение проверены. Размеры въезда и разворота 7-метрового RV, самостоятельное хранение и личный ремонт не подтверждены.",
+        "Просмотрены все четыре изображения: сохранена спутниковая схема с APN, три карты отделены от четвёртого AI-рендера дома. Рендер не импортирован и не доказывает строение. ZIP 85192 указан источником, его соответствие местоположению не подтверждено. RV/camping — только заявление продавца."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27039",
       "source_id": "27039",
@@ -134147,7 +134222,7 @@
       "price": 6450.0,
       "known_fees": 249.0,
       "total_known": 6699.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "06.11.2026: cash $6,450 + заявленный разовый doc fee $249 = $6,699. $199 down / $150 × 50 — рассрочка; closing сверх установленного неизвестен.",
       "acres": 2.38,
       "lat": 35.009278,
       "lng": -109.833139,
@@ -134160,8 +134235,8 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/238-acres-for-sale-in-adamana-arizona-27039",
       "image_credit": "Seller / LandCentury",
       "parcel": "21134081",
-      "zoning": "Не указано",
-      "road_note": "Не подтверждён",
+      "zoning": "Agricultural General, по продавцу",
+      "road_note": "Название HWY-40 не доказывает законный съезд или проезд до parcel; доступ неизвестен.",
       "utility_note": "Не подтверждены",
       "taxes_note": null,
       "source_categories": [
@@ -134170,7 +134245,7 @@
         "owner-finance-deals",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_claim",
       "existing_garage": false,
@@ -134180,7 +134255,9 @@
       "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "unknown",
-      "flags": [],
+      "flags": [
+        "В галерее продавца есть AI-рендер дома; дом и улучшения не существуют по оговорке продавца."
+      ],
       "evidence_quote": "38 Acres of Arizona Land in Apache County Agricultural General Zoning • Camping Allowed • RV-Friendly • Owner Financing Available If you've",
       "price_history": [
         {
@@ -134245,19 +134322,34 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 31
+      "score": 31,
+      "verification_history": [
+        {
+          "date": "2026-11-06T03:19:39+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/238-acres-for-sale-in-adamana-arizona-27039",
+          "finding": "Fresh public cash/parcel/coordinates and listing image checked; no existing workshop or personal-repair authorization established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/238-acres-for-sale-in-adamana-arizona-27039"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-06T00:48:20+00:00",
-      "last_seen": "2026-11-06T00:51:03Z",
-      "last_verified": "2026-11-06T00:51:03Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-06T03:19:39+00:00",
+      "last_verified": "2026-11-06T03:19:39+00:00",
+      "photo_kind": "Аэрофото из объявления с цветной разметкой участка и дорог; границы и подъезд независимо не подтверждены.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
-      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "notes": [
+        "06.11.2026: живая карточка, cash price, parcel, координаты и исходное изображение проверены. Размеры въезда и разворота 7-метрового RV, самостоятельное хранение и личный ремонт не подтверждены.",
+        "Запрет RV-проживания не переведён в установленный запрет хранения/ремонта: эти права неизвестны. Участок внутри California City; no HOA не отменяет городские правила. На фото дороги, но продавец указывает dirt road; состояние въезда требует проверки."
+      ],
+      "closing_costs": "Альтернативы продавца: in-house closing $499 или title company около $1,800–$2,200. Подготовка участка и подключения дополнительно.",
       "id": "lc-26910",
       "source_id": "26910",
       "source": "LandCentury",
@@ -134272,7 +134364,7 @@
       "price": 4500.0,
       "known_fees": 0.0,
       "total_known": 4500.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "06.11.2026: cash $4,500. Closing отдельно: $499 у продавца (расчёт $4,999) либо ориентировочно $1,800–$2,200 через title company (расчёт $6,300–$6,700). Вариант не выбран; конечная смета неизвестна.",
       "acres": 0.27,
       "lat": 35.1936357336594,
       "lng": -117.771076469211,
@@ -134285,27 +134377,28 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/california/027-acres-for-sale-in-california-city-ca-26910",
       "image_credit": "Seller / LandCentury",
       "parcel": "287-034-09-00-5",
-      "zoning": "Rm1/rm2",
+      "zoning": "RM1 California City, по продавцу",
       "road_note": "Dirt Road",
-      "utility_note": "Well Needed, Septic Needed",
+      "utility_note": "По продавцу публичные сети не проходят у участка; требуются собственные well/septic с разрешениями.",
       "taxes_note": "14.00",
       "source_categories": [
         "residential-buildable-land",
         "owner-finance-deals",
         "mobile-home-and-rv-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
-      "rv_occupancy": "seller_conditional",
+      "rv_occupancy": "seller_no",
       "existing_garage": false,
       "garage_size": null,
-      "electricity": "unknown",
-      "water": "unknown",
-      "sewer": "unknown",
+      "electricity": "none",
+      "water": "none",
+      "sewer": "none",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "По продавцу RV-проживание на пустом участке запрещено; временное guest parking допускается только после постройки основного дома."
       ],
       "evidence_quote": "RV living: Prohibited on vacant lots; only allowed as temporary guest parking after a primary home is built.",
       "price_history": [
@@ -134371,7 +134464,19 @@
         "Сезон /10": 6,
         "Дорога /10": 8
       },
-      "score": 36
+      "score": 36,
+      "verification_history": [
+        {
+          "date": "2026-11-06T03:19:39+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/california/027-acres-for-sale-in-california-city-ca-26910",
+          "finding": "Fresh public cash/parcel/coordinates and listing image checked; no existing workshop or personal-repair authorization established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/california/027-acres-for-sale-in-california-city-ca-26910"
+      ]
     }
   ]
 }

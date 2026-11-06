@@ -100,6 +100,20 @@ class ResearchDataTests(unittest.TestCase):
             with self.subTest(text=text):self.assertEqual(b.purchase_document_fee(text),0)
         self.assertEqual(b.purchase_document_fee('Loan Processing Fee $9.00. One-Time Doc Fee: $249'),249)
 
+    def test_terms_only_document_fee_does_not_raise_cash_total(self):
+        text=('$199 document fee will be required along with $10/mo note servicing '
+              'fee & $15/mo property taxes for purchase on terms.')
+        self.assertEqual(b.purchase_document_fee(text),0)
+        self.assertEqual(b.purchase_document_fee('Document fee: $199. Fees for purchase on terms vary.'),199)
+        self.assertEqual(b.purchase_document_fee('Document fee: $199 for cash and terms purchases.'),199)
+        base={'id':27045,'cashPrice':895000,'processingFee':0,'stateRegion':'Colorado',
+              'type':'land','isPublished':True,'_source_url':'https://www.landcentury.com/example',
+              '_fetched_at':'2026-11-06','info':{},'categories':[],
+              'description':'Discount Cash Price: $8,950. '+text}
+        with patch.object(b,'read',return_value={'27045':base}):
+            x=b.landcentury_records()[0]
+        self.assertEqual((x['price'],x['known_fees'],x['total_known']),(8950,0,8950))
+
     def test_label_first_document_fee_is_included_without_counting_financing(self):
         base={'id':26043,'cashPrice':600000,'processingFee':0,
               'stateRegion':'Mississippi','type':'land','isPublished':True,
