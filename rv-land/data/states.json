@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T03:24:54+00:00",
+  "updated_at": "2026-11-06T00:48:20+00:00",
   "states": [
     {
       "code": "AL",
@@ -53,8 +53,8 @@
         "PHX"
       ],
       "analysis": "Много дешёвой земли. Пустынная жара, отсутствие воды и электричества; север штата холодный. Ремонт в Mohave требует отдельной проверки правил.",
-      "total": 109,
-      "photo_candidates": 103,
+      "total": 110,
+      "photo_candidates": 104,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -95,8 +95,8 @@
         "SFO"
       ],
       "analysis": "Недорогие предложения сосредоточены в пустыне и глубине штата. Прибрежный мягкий климат нельзя переносить на эти участки.",
-      "total": 35,
-      "photo_candidates": 34,
+      "total": 36,
+      "photo_candidates": 35,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -115,8 +115,8 @@
         "DEN"
       ],
       "analysis": "San Luis Valley даёт много дешёвых лотов, но это высокогорье с морозом, ветром и дорогими коммуникациями.",
-      "total": 79,
-      "photo_candidates": 73,
+      "total": 80,
+      "photo_candidates": 74,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
