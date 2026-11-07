@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-06T03:19:39+00:00",
+  "updated_at": "2026-11-07T00:47:04+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -28116,8 +28116,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-16T02:23:09Z",
-      "last_verified": "2026-10-16T02:23:09Z",
+      "last_seen": "2026-11-07T00:52:15Z",
+      "last_verified": "2026-11-07T00:52:15Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -28170,7 +28170,7 @@
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
-        "В источнике есть указание на затопление: проверить FEMA и отметку площадки.",
+        "Источник упоминает flood zone/flood risk; контекст и фактический риск требуют проверки FEMA и отметки площадки.",
         "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
       ],
       "evidence_quote": "63 Zoning: Residential-6 (R-6) Time Limit To Build: None as far as we are aware Access: Improved Road Power: We recommend that",
@@ -28266,7 +28266,7 @@
       },
       "score": 28,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2025/10/17/68f19464e2ba2-1760662628.jpg",
-      "photo_preserved_at": "2026-10-16T02:17:47+00:00",
+      "photo_preserved_at": "2026-11-07T00:47:04+00:00",
       "photo_history": [
         {
           "path": "assets/listings/d17a060bbfa85a4fddfa.jpg",
@@ -28817,8 +28817,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-16T02:23:07Z",
-      "last_verified": "2026-10-16T02:23:07Z",
+      "last_seen": "2026-11-07T00:52:14Z",
+      "last_verified": "2026-11-07T00:52:14Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -28870,7 +28870,7 @@
       "road_access": "seller_claim",
       "flags": [
         "Продавец указывает ограничение на RV; хранение и ремонт проверить отдельно.",
-        "В источнике есть указание на затопление: проверить FEMA и отметку площадки.",
+        "Источник упоминает flood zone/flood risk; контекст и фактический риск требуют проверки FEMA и отметки площадки.",
         "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
       ],
       "evidence_quote": "25 Zoning: Residential 1 Time Limit To Build: None as far as we are aware Access: Improved Road Power: We recommend that",
@@ -28935,7 +28935,7 @@
       },
       "score": 25,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/03/20/69bc939a0b70d-1773966234.jpg",
-      "photo_preserved_at": "2026-10-16T02:17:47+00:00",
+      "photo_preserved_at": "2026-11-07T00:47:04+00:00",
       "photo_history": [
         {
           "path": "assets/listings/749c5183262c9807382a.jpg",
@@ -32792,8 +32792,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-16T02:23:04Z",
-      "last_verified": "2026-10-16T02:23:04Z",
+      "last_seen": "2026-11-07T00:52:11Z",
+      "last_verified": "2026-11-07T00:52:11Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -32845,7 +32845,7 @@
       "road_access": "seller_claim",
       "flags": [
         "Продавец указывает ограничение на RV; хранение и ремонт проверить отдельно.",
-        "В источнике есть указание на затопление: проверить FEMA и отметку площадки.",
+        "Источник упоминает flood zone/flood risk; контекст и фактический риск требуют проверки FEMA и отметки площадки.",
         "Упоминаются заболоченные земли; пригодность площадки требует проверки.",
         "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
       ],
@@ -32911,7 +32911,7 @@
       },
       "score": 26,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/03/19/69bc63baf169b-1773953978.jpg",
-      "photo_preserved_at": "2026-10-16T02:17:47+00:00",
+      "photo_preserved_at": "2026-11-07T00:47:04+00:00",
       "photo_history": [
         {
           "path": "assets/listings/25a4885f593bb4850149.jpg",
@@ -33190,8 +33190,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-16T02:23:06Z",
-      "last_verified": "2026-10-16T02:23:06Z",
+      "last_seen": "2026-11-07T00:52:12Z",
+      "last_verified": "2026-11-07T00:52:12Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -33307,7 +33307,7 @@
       },
       "score": 35,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/28/6abaf6eb84d3c-1790637803.jpg",
-      "photo_preserved_at": "2026-10-16T02:17:47+00:00",
+      "photo_preserved_at": "2026-11-07T00:47:04+00:00",
       "photo_history": [
         {
           "path": "assets/listings/cabdb1b0459a747f6cb9.jpg",
@@ -89305,8 +89305,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-14T01:14:48+00:00",
-      "last_seen": "2026-10-16T02:22:58Z",
-      "last_verified": "2026-10-16T02:22:58Z",
+      "last_seen": "2026-11-07T00:52:06Z",
+      "last_verified": "2026-11-07T00:52:06Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -89369,7 +89369,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/05/10/6a0107f30f8be-1778452467.jpg",
-      "photo_preserved_at": "2026-10-16T02:17:47+00:00",
+      "photo_preserved_at": "2026-11-07T00:47:04+00:00",
       "photo_history": [
         {
           "path": "assets/listings/5ea63ff23567fc0ace2c.jpg",
@@ -91560,8 +91560,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-18T01:10:17+00:00",
-      "last_seen": "2026-10-16T02:22:59Z",
-      "last_verified": "2026-10-16T02:22:59Z",
+      "last_seen": "2026-11-07T00:52:07Z",
+      "last_verified": "2026-11-07T00:52:07Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -91588,7 +91588,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-06T13:13:59.000000Z",
+      "source_updated": "2026-11-05T12:31:55.000000Z",
       "source_published": "2026-09-17T14:27:27.000000Z",
       "image_url": "assets/listings/e27f6b978f1bb4d13f99.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/florida/098-acres-for-sale-in-satsuma-florida-26273",
@@ -91626,7 +91626,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/07/6ac66c3d6e861-1791388733.jpg",
-      "photo_preserved_at": "2026-10-16T02:17:47+00:00",
+      "photo_preserved_at": "2026-11-07T00:47:04+00:00",
       "photo_history": [
         {
           "path": "assets/listings/f351ed482be4cc2b44c4.jpg",
@@ -91695,8 +91695,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-18T01:10:17+00:00",
-      "last_seen": "2026-10-16T02:23:01Z",
-      "last_verified": "2026-10-16T02:23:01Z",
+      "last_seen": "2026-11-07T00:52:08Z",
+      "last_verified": "2026-11-07T00:52:08Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -91723,7 +91723,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-09-18T11:06:34.000000Z",
+      "source_updated": "2026-11-05T13:08:47.000000Z",
       "source_published": "2026-09-16T21:37:20.000000Z",
       "image_url": "assets/listings/74fc9cde08a4fc44941c.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/texas/5-acres-for-sale-in-pecos-texas-26268",
@@ -91760,7 +91760,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/16/6aab0cc4a2d45-1789594820.jpg",
-      "photo_preserved_at": "2026-10-16T02:17:47+00:00",
+      "photo_preserved_at": "2026-11-07T00:47:04+00:00",
       "photo_history": [
         {
           "path": "assets/listings/74fc9cde08a4fc44941c.jpg",
@@ -101854,8 +101854,8 @@
         "lng": -118.4734808,
         "price": 119995.0,
         "image_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/14/6acfe4ad084cf-1792009389.jpg",
-        "source_updated": "2026-11-02T00:00:05.000000Z",
-        "date": "2026-11-06T00:48:20+00:00"
+        "source_updated": "2026-11-06T04:32:14.000000Z",
+        "date": "2026-11-07T00:47:04+00:00"
       },
       "source_identity_history": [
         {
@@ -101977,6 +101977,21 @@
           "image_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/14/6acfe4ad084cf-1792009389.jpg",
           "source_updated": "2026-11-02T00:00:05.000000Z",
           "date": "2026-11-02T00:49:57+00:00"
+        },
+        {
+          "url": "https://www.landcentury.com/land-for-sale/nevada/487-acres-for-sale-in-winnemucca-nevada-26146",
+          "parcel": "003-051-15",
+          "state": "NV",
+          "county": "Pershing",
+          "address": "Troughs Road",
+          "city": "Lovelock",
+          "acres": 320.0,
+          "lat": 40.17935370000001,
+          "lng": -118.4734808,
+          "price": 119995.0,
+          "image_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/14/6acfe4ad084cf-1792009389.jpg",
+          "source_updated": "2026-11-06T04:32:14.000000Z",
+          "date": "2026-11-07T00:47:04+00:00"
         }
       ],
       "review_hold": {
@@ -134479,6 +134494,631 @@
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/california/027-acres-for-sale-in-california-city-ca-26910"
       ]
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-07T00:47:04+00:00",
+      "last_seen": "2026-11-07T00:49:36Z",
+      "last_verified": "2026-11-07T00:49:36Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27062",
+      "source_id": "27062",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/arizona/2-2-acres-for-sale-in-saint-johns-arizona-27062",
+      "title": "N7421",
+      "address": "N7421",
+      "city": "Saint Johns",
+      "state": "AZ",
+      "county": "Apache",
+      "zip": "85936",
+      "kind": "land",
+      "price": 11995.0,
+      "known_fees": 0.0,
+      "total_known": 11995.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 2.2,
+      "lat": 34.965062,
+      "lng": -109.393182,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-06T21:40:58.000000Z",
+      "source_published": "2026-11-06T21:36:28.000000Z",
+      "image_url": "assets/listings/8e2e9f8cddd95dc69ec2.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/2-2-acres-for-sale-in-saint-johns-arizona-27062",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "206-12-001",
+      "zoning": "Agricultural",
+      "road_note": "Dirt Road",
+      "utility_note": "No utilities",
+      "taxes_note": "8",
+      "source_categories": [
+        "residential-buildable-land",
+        "owner-finance-deals",
+        "recreational-and-hunting-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "seller_conditional",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "none",
+      "water": "none",
+      "sewer": "none",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "flags": [
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
+      "evidence_quote": "RVs: You can have an RV but if you live in it longer than 30 days, it needs to be hooked to",
+      "price_history": [
+        {
+          "date": "2026-11-07T00:47:04+00:00",
+          "price": 11995.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/2-2-acres-for-sale-in-saint-johns-arizona-27062"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/06/6aee491e4f128-1794001182.jpg",
+      "photo_preserved_at": "2026-11-07T00:47:04+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/8e2e9f8cddd95dc69ec2.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/2-2-acres-for-sale-in-saint-johns-arizona-27062",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/06/6aee491e4f128-1794001182.jpg",
+          "date": "2026-11-07T00:47:04+00:00"
+        }
+      ],
+      "region": "Юго-запад",
+      "screening_issue": null,
+      "climate_note": "Много дешёвой земли. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "PHX",
+          "name": "Phoenix Sky Harbor International Airport",
+          "straight_km": 294,
+          "drive_km_estimate": 368,
+          "drive_hours_estimate": 4.9,
+          "flight_min_eur": 731,
+          "flight_origin": "WAW",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 536,
+          "drive_km_estimate": 670,
+          "drive_hours_estimate": 8.9,
+          "flight_min_eur": 576,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "DEN",
+          "name": "Denver International Airport",
+          "straight_km": 685,
+          "drive_km_estimate": 857,
+          "drive_hours_estimate": 11.4,
+          "flight_min_eur": 629,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1760,
+      "score_parts": {
+        "Цена /25": 10,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 6,
+        "Дорога /10": 5
+      },
+      "score": 21
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-07T00:47:04+00:00",
+      "last_seen": "2026-11-07T00:49:37Z",
+      "last_verified": "2026-11-07T00:49:37Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27054",
+      "source_id": "27054",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/florida/0-23-acres-for-sale-in-interlachen-florida-27054",
+      "title": "422 Nova Scotia Street",
+      "address": "422 Nova Scotia Street",
+      "city": "Interlachen",
+      "state": "FL",
+      "county": "Putnam",
+      "zip": "32148",
+      "kind": "land",
+      "price": 9499.0,
+      "known_fees": 199.0,
+      "total_known": 9698.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 0.23,
+      "lat": 29.60975,
+      "lng": -81.93861,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-06T19:03:25.000000Z",
+      "source_published": "2026-11-06T18:13:43.000000Z",
+      "image_url": "assets/listings/a588fd079160541b606f.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/florida/0-23-acres-for-sale-in-interlachen-florida-27054",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "19-10-24-4074-0520-0280",
+      "zoning": "Residential",
+      "road_note": "Dirt Road",
+      "utility_note": "No utilities",
+      "taxes_note": "99",
+      "source_categories": [
+        "residential-buildable-land",
+        "owner-finance-deals",
+        "mobile-home-and-rv-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "seller_conditional",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "none",
+      "water": "none",
+      "sewer": "none",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "flags": [
+        "Источник упоминает flood zone/flood risk; контекст и фактический риск требуют проверки FEMA и отметки площадки.",
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
+      "evidence_quote": "On terms, each monthly payment also includes a $12 note servicing fee and $9 in prorated property taxes.",
+      "price_history": [
+        {
+          "date": "2026-11-07T00:47:04+00:00",
+          "price": 9499.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/florida/0-23-acres-for-sale-in-interlachen-florida-27054"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/06/6aee1914a3d30-1793988884.jpg",
+      "photo_preserved_at": "2026-11-07T00:47:04+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/a588fd079160541b606f.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/florida/0-23-acres-for-sale-in-interlachen-florida-27054",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/06/6aee1914a3d30-1793988884.jpg",
+          "date": "2026-11-07T00:47:04+00:00"
+        }
+      ],
+      "region": "Юг",
+      "screening_issue": null,
+      "climate_note": "Дешёвый перелёт и мягкая зима. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "MCO",
+          "name": "Orlando International Airport",
+          "straight_km": 145,
+          "drive_km_estimate": 181,
+          "drive_hours_estimate": 2.4,
+          "flight_min_eur": 484,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "MIA",
+          "name": "Miami International Airport",
+          "straight_km": 454,
+          "drive_km_estimate": 568,
+          "drive_hours_estimate": 7.6,
+          "flight_min_eur": 537,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "ATL",
+          "name": "Hartsfield Jackson Atlanta International Airport",
+          "straight_km": 506,
+          "drive_km_estimate": 632,
+          "drive_hours_estimate": 8.4,
+          "flight_min_eur": 564,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1966,
+      "score_parts": {
+        "Цена /25": 14,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 7,
+        "Дорога /10": 8
+      },
+      "score": 29
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-07T00:47:04+00:00",
+      "last_seen": "2026-11-07T00:49:38Z",
+      "last_verified": "2026-11-07T00:49:38Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27052",
+      "source_id": "27052",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/nevada/0-18-acres-for-sale-in-pahrump-nevada-27052",
+      "title": "70 Bagdad Lane",
+      "address": "70 Bagdad Lane",
+      "city": "Pahrump",
+      "state": "NV",
+      "county": "Nye",
+      "zip": "89060",
+      "kind": "land",
+      "price": 8000.0,
+      "known_fees": 249.0,
+      "total_known": 8249.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 0.18,
+      "lat": 36.3171,
+      "lng": -116.0136,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-06T16:35:40.000000Z",
+      "source_published": "2026-11-06T16:31:00.000000Z",
+      "image_url": "assets/listings/d3a8cd18fccb4b8c5a72.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/nevada/0-18-acres-for-sale-in-pahrump-nevada-27052",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "3026221",
+      "zoning": "Residential",
+      "road_note": "Dirt Road",
+      "utility_note": "Не подтверждены",
+      "taxes_note": null,
+      "source_categories": [
+        "residential-buildable-land",
+        "owner-finance-deals",
+        "vacant-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "seller_claim",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "flags": [],
+      "evidence_quote": "Camping and RV Recreation: Camping and RV use are allowed for short-term recreational purposes, giving you another way to enjoy your property.",
+      "price_history": [
+        {
+          "date": "2026-11-07T00:47:04+00:00",
+          "price": 8000.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/nevada/0-18-acres-for-sale-in-pahrump-nevada-27052"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/06/6aee01246c50a-1793982756.jpg",
+      "photo_preserved_at": "2026-11-07T00:47:04+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/d3a8cd18fccb4b8c5a72.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/nevada/0-18-acres-for-sale-in-pahrump-nevada-27052",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/06/6aee01246c50a-1793982756.jpg",
+          "date": "2026-11-07T00:47:04+00:00"
+        }
+      ],
+      "region": "Юго-запад",
+      "screening_issue": null,
+      "climate_note": "Много удалённых лотов. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 82,
+          "drive_km_estimate": 102,
+          "drive_hours_estimate": 1.4,
+          "flight_min_eur": 576,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "LAX",
+          "name": "Los Angeles International Airport",
+          "straight_km": 342,
+          "drive_km_estimate": 428,
+          "drive_hours_estimate": 5.7,
+          "flight_min_eur": 489,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "SAN",
+          "name": "San Diego International Airport",
+          "straight_km": 413,
+          "drive_km_estimate": 516,
+          "drive_hours_estimate": 6.9,
+          "flight_min_eur": 724,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 2137,
+      "score_parts": {
+        "Цена /25": 16,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 5,
+        "Дорога /10": 9
+      },
+      "score": 30
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-07T00:47:04+00:00",
+      "last_seen": "2026-11-07T00:49:40Z",
+      "last_verified": "2026-11-07T00:49:40Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27051",
+      "source_id": "27051",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/nevada/0-27-acres-for-sale-in-pahrump-nevada-27051",
+      "title": "1581 Hardscrabble Street",
+      "address": "1581 Hardscrabble Street",
+      "city": "Pahrump",
+      "state": "NV",
+      "county": "Nye",
+      "zip": "89060",
+      "kind": "land",
+      "price": 8800.0,
+      "known_fees": 249.0,
+      "total_known": 9049.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 0.27,
+      "lat": 36.300128,
+      "lng": -115.985953,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-06T15:57:25.000000Z",
+      "source_published": "2026-11-06T15:44:04.000000Z",
+      "image_url": "assets/listings/b91c2dfda6a347f47dd4.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/nevada/0-27-acres-for-sale-in-pahrump-nevada-27051",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "4319303",
+      "zoning": "Residential",
+      "road_note": "Dirt Road",
+      "utility_note": "Не подтверждены",
+      "taxes_note": null,
+      "source_categories": [
+        "residential-buildable-land",
+        "owner-finance-deals",
+        "vacant-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "flags": [],
+      "evidence_quote": null,
+      "price_history": [
+        {
+          "date": "2026-11-07T00:47:04+00:00",
+          "price": 8800.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/nevada/0-27-acres-for-sale-in-pahrump-nevada-27051"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/06/6aedf864e8717-1793980516.jpg",
+      "photo_preserved_at": "2026-11-07T00:47:04+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/b91c2dfda6a347f47dd4.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/nevada/0-27-acres-for-sale-in-pahrump-nevada-27051",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/06/6aedf864e8717-1793980516.jpg",
+          "date": "2026-11-07T00:47:04+00:00"
+        }
+      ],
+      "region": "Юго-запад",
+      "screening_issue": null,
+      "climate_note": "Много удалённых лотов. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 79,
+          "drive_km_estimate": 98,
+          "drive_hours_estimate": 1.3,
+          "flight_min_eur": 576,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "LAX",
+          "name": "Los Angeles International Airport",
+          "straight_km": 342,
+          "drive_km_estimate": 428,
+          "drive_hours_estimate": 5.7,
+          "flight_min_eur": 489,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "SAN",
+          "name": "San Diego International Airport",
+          "straight_km": 412,
+          "drive_km_estimate": 515,
+          "drive_hours_estimate": 6.9,
+          "flight_min_eur": 724,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 2136,
+      "score_parts": {
+        "Цена /25": 15,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 5,
+        "Дорога /10": 9
+      },
+      "score": 29
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-07T00:47:04+00:00",
+      "last_seen": "2026-11-07T00:49:41Z",
+      "last_verified": "2026-11-07T00:49:41Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27050",
+      "source_id": "27050",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/nevada/0-165-acres-for-sale-in-pahrump-nevada-27050",
+      "title": "351 Quince Lane",
+      "address": "351 Quince Lane",
+      "city": "Pahrump",
+      "state": "NV",
+      "county": "Nye",
+      "zip": "89060",
+      "kind": "land",
+      "price": 9216.0,
+      "known_fees": 249.0,
+      "total_known": 9465.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 0.165,
+      "lat": 36.3078,
+      "lng": -116.0079,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-06T13:36:46.000000Z",
+      "source_published": "2026-11-06T13:32:33.000000Z",
+      "image_url": "assets/listings/07bc00077cee8972e958.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/nevada/0-165-acres-for-sale-in-pahrump-nevada-27050",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "3031230",
+      "zoning": "Residential",
+      "road_note": "Dirt Road",
+      "utility_note": "Не подтверждены",
+      "taxes_note": "85.27",
+      "source_categories": [
+        "residential-buildable-land",
+        "owner-finance-deals",
+        "vacant-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "seller_claim",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "flags": [],
+      "evidence_quote": "165 Acres in Nye County Village Residential Zoning • Approved to Build a Home • Camping and RV Use Allowed for Short-Term",
+      "price_history": [
+        {
+          "date": "2026-11-07T00:47:04+00:00",
+          "price": 9216.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/nevada/0-165-acres-for-sale-in-pahrump-nevada-27050"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/06/6aedd7689a48e-1793972072.jpg",
+      "photo_preserved_at": "2026-11-07T00:47:04+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/07bc00077cee8972e958.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/nevada/0-165-acres-for-sale-in-pahrump-nevada-27050",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/06/6aedd7689a48e-1793972072.jpg",
+          "date": "2026-11-07T00:47:04+00:00"
+        }
+      ],
+      "region": "Юго-запад",
+      "screening_issue": null,
+      "climate_note": "Много удалённых лотов. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 81,
+          "drive_km_estimate": 101,
+          "drive_hours_estimate": 1.3,
+          "flight_min_eur": 576,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "LAX",
+          "name": "Los Angeles International Airport",
+          "straight_km": 342,
+          "drive_km_estimate": 427,
+          "drive_hours_estimate": 5.7,
+          "flight_min_eur": 489,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "SAN",
+          "name": "San Diego International Airport",
+          "straight_km": 412,
+          "drive_km_estimate": 515,
+          "drive_hours_estimate": 6.9,
+          "flight_min_eur": 724,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 2137,
+      "score_parts": {
+        "Цена /25": 14,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 5,
+        "Дорога /10": 9
+      },
+      "score": 28
     }
   ]
 }
