@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T00:47:04+00:00",
+  "updated_at": "2026-11-07T03:17:16+00:00",
   "states": [
     {
       "code": "AL",
@@ -617,8 +617,8 @@
       ],
       "analysis": "Удобный перелёт, но дешёвые лоты часто непростые: размер, wetlands, отсутствие разрешённого использования.",
       "total": 8,
-      "photo_candidates": 7,
-      "shortfall": 3,
+      "photo_candidates": 6,
+      "shortfall": 4,
       "coverage": "Недостаточно проверенных кандидатов",
       "sources": [
         "https://www.landsearch.com/properties/new-jersey/search/under-15000",

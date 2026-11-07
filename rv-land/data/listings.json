@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-07T00:47:04+00:00",
+  "updated_at": "2026-11-07T03:17:09+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -52807,7 +52807,9 @@
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "07.11.2026: индекс официального Vernon §330-193: RV должен принадлежать/быть арендован жителем premises, иметь действующую NJMVC registration на его имя и быть исправным; действуют setbacks. Chrome показал security verification, обхода не было; актуальные исключения/поправки и применение к parcel не проверены. Поэтому добавлен review hold, а не установлен полный запрет ремонта. Свежесть и статус самого объявления не изменены. Новый соседний 5 Splitrock — отдельный лот, не дубль 7 Splitrock; его карта даёт те же округлённые координаты."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ls-5407420",
       "source_id": "5407420",
@@ -52841,7 +52843,7 @@
       "road_note": "Юридический подъезд не проверен",
       "utility_note": "Состояние подключений требует проверки",
       "garage_note": "Размеры и состояние не подтверждены",
-      "rv_storage": "unknown",
+      "rv_storage": "restriction_risk",
       "rv_occupancy": "unknown",
       "existing_garage": false,
       "garage_size": null,
@@ -52850,7 +52852,9 @@
       "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "unknown",
-      "flags": [],
+      "flags": [
+        "Правила хранения в жилой зоне требуют жителя premises и исправного зарегистрированного RV; отдельная база на пустом лоте требует проверки."
+      ],
       "evidence_quote": null,
       "price_history": [
         {
@@ -52865,7 +52869,7 @@
         "https://www.landsearch.com/properties/7-splitrock-ln-vernon-township-nj-07461/5407420"
       ],
       "region": "Северо-восток",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Удобный перелёт, но дешёвые лоты часто непростые: размер, wetlands, отсутствие разрешённого использования. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -52908,7 +52912,7 @@
         "Сезон /10": 5,
         "Дорога /10": 8
       },
-      "score": 26,
+      "score": 20,
       "image_remote_url": "https://cdn.landsearch.com/listings/4VkfW/large/vernon-township-nj-174530350.jpg",
       "photo_preserved_at": "2026-09-13T23:05:59+00:00",
       "photo_history": [
@@ -52917,6 +52921,23 @@
           "source": "https://www.landsearch.com/properties/7-splitrock-ln-vernon-township-nj-07461/5407420",
           "remote_url": "https://cdn.landsearch.com/listings/4VkfW/large/vernon-township-nj-174530350.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "legal_source": "https://ecode360.com/11390005",
+      "legal_basis": "indexed_official_code",
+      "legal_checked_at": "2026-11-07T03:17:09+00:00",
+      "review_hold": {
+        "date": "2026-11-07T03:17:09+00:00",
+        "source": "https://ecode360.com/11390005",
+        "reason": "Vernon §330-193 связывает хранение RV с жителем premises, регистрацией NJMVC и исправным состоянием. Пригодность пустого PLC-лота для отдельной базы приезжающего владельца не подтверждена.",
+        "release_condition": "Проверить актуальный кодекс, parcel-specific zoning и правила Lake Panorama; подтвердить право хранения и личного ремонта, отдельный въезд и границы."
+      },
+      "verification_history": [
+        {
+          "date": "2026-11-07T03:17:09+00:00",
+          "basis": "indexed_official_code",
+          "source": "https://ecode360.com/11390005",
+          "finding": "Indexed official Vernon330-193 supports storage-risk hold. Browser security check stopped; current amendments and parcel-specific applicability unknown. Listing availability not reverified."
         }
       ]
     },
@@ -77064,19 +77085,20 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:28+00:00",
-      "last_seen": "2026-10-31T03:22:45+00:00",
-      "last_verified": "2026-10-31T03:22:45+00:00",
+      "last_seen": "2026-11-07T03:17:09+00:00",
+      "last_verified": "2026-11-07T03:17:09+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
       "notes": [
-        "31.10.2026: повторно выставлен через Regency Real Estate, MLS 24217749, с ценой $8,500 вместо прежних $9,400. Совпадают адрес, площадь и угол Cloran / Alice. Сохранены исходные ID, координаты и фото старого объявления; новые фото за регистрационной формой не запрашивались. Заявлен суммарный дорожный фронт более 95 ft. Застройка, подключения, стоянка и личный ремонт не подтверждены."
+        "31.10.2026: повторно выставлен через Regency Real Estate, MLS 24217749, с ценой $8,500 вместо прежних $9,400. Совпадают адрес, площадь и угол Cloran / Alice. Сохранены исходные ID, координаты и фото старого объявления; новые фото за регистрационной формой не запрашивались. Заявлен суммарный дорожный фронт более 95 ft. Застройка, подключения, стоянка и личный ремонт не подтверждены.",
+        "07.11.2026: Coldwell Banker / SmartMLS24217749, обновлено 03.11: Active $8,500 за 0.17 acre; прежние ID, цена, координаты и фото сохранены. MLS указывает well/septic required и отсутствие improvements. Cable/electric перечислены без подтверждения подключения. Buildability, самостоятельное хранение и личный ремонт остаются неизвестны. Property ID2290250 не принят за кадастровый номер."
       ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ls-5154444",
       "source_id": "24217749",
-      "source": "SmartMLS / Higgins Group",
-      "url": "https://www.fairfieldcounty-properties.com/homedetails/ct/windham/ctsmart-5eef1837dafb70cde0631a01100a2fdc-ctsmartrets/28-cloran-st-windham-ct-06226",
+      "source": "Coldwell Banker / SmartMLS",
+      "url": "https://www.coldwellbankerhomes.com/ct/windham/28-cloran-st/pid_74489591/",
       "title": "28 Cloran St",
       "address": "28 Cloran St",
       "city": "Windham",
@@ -77100,9 +77122,9 @@
       "image_credit": "Listing broker / LandSearch",
       "parcel": null,
       "mls": "SmartMLS 24217749",
-      "zoning": "R2",
+      "zoning": "R2, по MLS",
       "taxes_note": "2026 $77",
-      "road_note": "По объявлению: угловой участок Cloran St / Alice St, выход к двум улицам. Юридический подъезд и заезд высокого RV не проверены.",
+      "road_note": "Муниципальная асфальтовая улица; по MLS суммарный фронт 95 ft. Сам въезд и разворот RV не проверены.",
       "utility_note": "Состояние подключений требует проверки",
       "garage_note": "Размеры и состояние не подтверждены",
       "rv_storage": "unknown",
@@ -77110,8 +77132,8 @@
       "existing_garage": false,
       "garage_size": null,
       "electricity": "unknown",
-      "water": "unknown",
-      "sewer": "unknown",
+      "water": "none",
+      "sewer": "none",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [],
@@ -77132,6 +77154,7 @@
       "status_history": [],
       "legacy": false,
       "alternate_urls": [
+        "https://www.coldwellbankerhomes.com/ct/windham/28-cloran-st/pid_74489591/",
         "https://www.fairfieldcounty-properties.com/homedetails/ct/windham/ctsmart-5eef1837dafb70cde0631a01100a2fdc-ctsmartrets/28-cloran-st-windham-ct-06226",
         "https://www.landsearch.com/properties/28-cloran-st-windham-ct-06226/5154444"
       ],
@@ -77190,7 +77213,7 @@
           "date": "2026-09-13T23:05:59+00:00"
         }
       ],
-      "source_updated": null,
+      "source_updated": "2026-11-03",
       "verification_history": [
         {
           "date": "2026-09-13T23:00:23+00:00",
@@ -77209,10 +77232,17 @@
           "basis": "live_public_page",
           "source": "https://www.fairfieldcounty-properties.com/homedetails/ct/windham/ctsmart-5eef1837dafb70cde0631a01100a2fdc-ctsmartrets/28-cloran-st-windham-ct-06226",
           "finding": "Public broker preview: Active $8,500, 0.17 acre, exact address and MLS24217749. Registration overlay stopped further interaction. Original listing image retained with original provenance."
+        },
+        {
+          "date": "2026-11-07T03:17:09+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.coldwellbankerhomes.com/ct/windham/28-cloran-st/pid_74489591/",
+          "finding": "Live sameMLS24217749 Active$8,500/0.17ac updatedNov3. No improvements,well/septic required. Preserved old coordinates and image; no duplicate import."
         }
       ],
       "source_published": "2026-10-28",
-      "previous_price": 9400.0
+      "previous_price": 9400.0,
+      "source_property_id": "2290250"
     },
     {
       "price_currency": "USD",
@@ -134499,12 +134529,15 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-07T00:47:04+00:00",
-      "last_seen": "2026-11-07T00:49:36Z",
-      "last_verified": "2026-11-07T00:49:36Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-07T03:17:09+00:00",
+      "last_verified": "2026-11-07T03:17:09+00:00",
+      "photo_kind": "Пейзаж из объявления: пустынная растительность и плато; границы parcel на снимке не показаны.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "07.11.2026: живая карточка, cash price, parcel, координаты и сохранённое изображение проверены. Фактический въезд и разворот высокого RV длиной около 7 м, постоянное хранение и личный ремонт не подтверждены. Closing и подготовка площадки дополнительно, конечная смета неизвестна.",
+        "Cash $11,995; отдельный обязательный разовый fee не установлен. $249 down / $229 × 60 — рассрочка. По продавцу нет подключений, нужны well/cistern, septic и электричество. RV-проживание свыше 30 дней требует septic; camping указан до 14 дней, условия между 14 и 30 днями неясны. Это слова продавца, не разрешение округа. На фото нет строения или размеченной площадки."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27062",
       "source_id": "27062",
@@ -134533,7 +134566,7 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/2-2-acres-for-sale-in-saint-johns-arizona-27062",
       "image_credit": "Seller / LandCentury",
       "parcel": "206-12-001",
-      "zoning": "Agricultural",
+      "zoning": "Agricultural General, по продавцу",
       "road_note": "Dirt Road",
       "utility_note": "No utilities",
       "taxes_note": "8",
@@ -134542,7 +134575,7 @@
         "owner-finance-deals",
         "recreational-and-hunting-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
@@ -134619,18 +134652,33 @@
         "Сезон /10": 6,
         "Дорога /10": 5
       },
-      "score": 21
+      "score": 21,
+      "verification_history": [
+        {
+          "date": "2026-11-07T03:17:09+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/2-2-acres-for-sale-in-saint-johns-arizona-27062",
+          "finding": "Fresh public cash price, parcel and coordinates match the nightly import; original listing image visually reviewed. No existing workshop or personal-repair permission established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/2-2-acres-for-sale-in-saint-johns-arizona-27062"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-07T00:47:04+00:00",
-      "last_seen": "2026-11-07T00:49:37Z",
-      "last_verified": "2026-11-07T00:49:37Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-07T03:17:09+00:00",
+      "last_verified": "2026-11-07T03:17:09+00:00",
+      "photo_kind": "Аэрофото из объявления с красным контуром среди деревьев рядом с дорогой; не survey.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "07.11.2026: живая карточка, cash price, parcel, координаты и сохранённое изображение проверены. Фактический въезд и разворот высокого RV длиной около 7 м, постоянное хранение и личный ремонт не подтверждены. Closing и подготовка площадки дополнительно, конечная смета неизвестна.",
+        "Cash $9,499 + $199 documentation fee = $9,698 до прочих closing. Ежемесячные $12 servicing и $9 taxes относятся к рассрочке. По продавцу camping на пустой земле запрещён; RV временно допускается при clearing/building с permit. No HOA не подтверждает хранение/ремонт. Заявление outside FEMA flood zone независимо не проверено; упоминание flood само по себе не доказывает затопление. Well/septic и подключение электричества отсутствуют."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27054",
       "source_id": "27054",
@@ -134659,7 +134707,7 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/florida/0-23-acres-for-sale-in-interlachen-florida-27054",
       "image_credit": "Seller / LandCentury",
       "parcel": "19-10-24-4074-0520-0280",
-      "zoning": "Residential",
+      "zoning": "R2, по продавцу",
       "road_note": "Dirt Road",
       "utility_note": "No utilities",
       "taxes_note": "99",
@@ -134668,7 +134716,7 @@
         "owner-finance-deals",
         "mobile-home-and-rv-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
@@ -134680,7 +134728,8 @@
       "road_access": "seller_claim",
       "flags": [
         "Источник упоминает flood zone/flood risk; контекст и фактический риск требуют проверки FEMA и отметки площадки.",
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "По продавцу camping на пустом участке запрещён; временный RV только по permit при подготовке/строительстве."
       ],
       "evidence_quote": "On terms, each monthly payment also includes a $12 note servicing fee and $9 in prorated property taxes.",
       "price_history": [
@@ -134746,18 +134795,35 @@
         "Сезон /10": 7,
         "Дорога /10": 8
       },
-      "score": 29
+      "score": 29,
+      "verification_history": [
+        {
+          "date": "2026-11-07T03:17:09+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/florida/0-23-acres-for-sale-in-interlachen-florida-27054",
+          "finding": "Fresh public cash price, parcel and coordinates match the nightly import; original listing image visually reviewed. No existing workshop or personal-repair permission established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/florida/0-23-acres-for-sale-in-interlachen-florida-27054"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-07T00:47:04+00:00",
-      "last_seen": "2026-11-07T00:49:38Z",
-      "last_verified": "2026-11-07T00:49:38Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-07T03:17:09+00:00",
+      "last_verified": "2026-11-07T03:17:09+00:00",
+      "photo_kind": "Спутниковая схема с меткой APN 3026221 из объявления; не наземное фото.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "07.11.2026: живая карточка, cash price, parcel, координаты и сохранённое изображение проверены. Фактический въезд и разворот высокого RV длиной около 7 м, постоянное хранение и личный ремонт не подтверждены. Closing и подготовка площадки дополнительно, конечная смета неизвестна.",
+        "Cash $8,000 + $249 doc fee = $8,249 до прочих closing; взнос и ежемесячные платежи не являются ценой покупки.",
+        "07.11.2026: официальный Nye Code §17.04.925 допускает сезонное RV-проживание в жилых зонах до 120 дней в году без temporary use permit; свыше 7 дней подряд нужны утверждённые постоянные вода и wastewater system. Это условие проживания, а не разрешение самостоятельной площадки хранения или ремонта. Точная зона и соответствие конкретного parcel не подтверждены.",
+        "Nye County поясняет, что Assessor land-use classification не заменяет zoning. Формулировка Vacant–Single Family Residential и реклама approved to build не подтверждают разрешение на строительство или RV-базу."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27052",
       "source_id": "27052",
@@ -134786,7 +134852,7 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/nevada/0-18-acres-for-sale-in-pahrump-nevada-27052",
       "image_credit": "Seller / LandCentury",
       "parcel": "3026221",
-      "zoning": "Residential",
+      "zoning": "Источник: Vacant–Single Family Residential; фактический zoning округа не установлен",
       "road_note": "Dirt Road",
       "utility_note": "Не подтверждены",
       "taxes_note": null,
@@ -134795,9 +134861,9 @@
         "owner-finance-deals",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
-      "rv_occupancy": "seller_claim",
+      "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "unknown",
@@ -134805,7 +134871,9 @@
       "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
-      "flags": [],
+      "flags": [
+        "Сезонное RV-проживание требует соблюдения условий округа; постоянное хранение и ремонт неизвестны."
+      ],
       "evidence_quote": "Camping and RV Recreation: Camping and RV use are allowed for short-term recreational purposes, giving you another way to enjoy your property.",
       "price_history": [
         {
@@ -134870,18 +134938,44 @@
         "Сезон /10": 5,
         "Дорога /10": 9
       },
-      "score": 30
+      "score": 30,
+      "verification_history": [
+        {
+          "date": "2026-11-07T03:17:09+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/nevada/0-18-acres-for-sale-in-pahrump-nevada-27052",
+          "finding": "Fresh public cash price, parcel and coordinates match the nightly import; original listing image visually reviewed. No existing workshop or personal-repair permission established."
+        },
+        {
+          "date": "2026-11-07T03:17:09+00:00",
+          "basis": "live_official_code",
+          "source": "https://nyecounty.municipalcodeonline.com/book?type=ordinances#name=17.04.925:_Temporary_Use_Permits",
+          "finding": "Live county code confirms conditional seasonal occupancy only:120days/year; stays over7consecutive days require approved permanent water/wastewater. Parcel zoning, storage and repair remain unverified."
+        }
+      ],
+      "legal_source": "https://nyecounty.municipalcodeonline.com/book?type=ordinances#name=17.04.925:_Temporary_Use_Permits",
+      "legal_basis": "live_official_code",
+      "legal_checked_at": "2026-11-07T03:17:09+00:00",
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/nevada/0-18-acres-for-sale-in-pahrump-nevada-27052"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-07T00:47:04+00:00",
-      "last_seen": "2026-11-07T00:49:40Z",
-      "last_verified": "2026-11-07T00:49:40Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-07T03:17:09+00:00",
+      "last_verified": "2026-11-07T03:17:09+00:00",
+      "photo_kind": "Спутниковая схема с меткой APN 4319303 из объявления; не наземное фото.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "07.11.2026: живая карточка, cash price, parcel, координаты и сохранённое изображение проверены. Фактический въезд и разворот высокого RV длиной около 7 м, постоянное хранение и личный ремонт не подтверждены. Closing и подготовка площадки дополнительно, конечная смета неизвестна.",
+        "Cash $8,800 + $249 doc fee = $9,049 до прочих closing; взнос и ежемесячные платежи не являются ценой покупки.",
+        "07.11.2026: официальный Nye Code §17.04.925 допускает сезонное RV-проживание в жилых зонах до 120 дней в году без temporary use permit; свыше 7 дней подряд нужны утверждённые постоянные вода и wastewater system. Это условие проживания, а не разрешение самостоятельной площадки хранения или ремонта. Точная зона и соответствие конкретного parcel не подтверждены.",
+        "Nye County поясняет, что Assessor land-use classification не заменяет zoning. Формулировка Vacant–Single Family Residential и реклама approved to build не подтверждают разрешение на строительство или RV-базу."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27051",
       "source_id": "27051",
@@ -134910,7 +135004,7 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/nevada/0-27-acres-for-sale-in-pahrump-nevada-27051",
       "image_credit": "Seller / LandCentury",
       "parcel": "4319303",
-      "zoning": "Residential",
+      "zoning": "Источник: Vacant–Single Family Residential; фактический zoning округа не установлен",
       "road_note": "Dirt Road",
       "utility_note": "Не подтверждены",
       "taxes_note": null,
@@ -134919,7 +135013,7 @@
         "owner-finance-deals",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -134929,7 +135023,9 @@
       "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
-      "flags": [],
+      "flags": [
+        "Сезонное RV-проживание требует соблюдения условий округа; постоянное хранение и ремонт неизвестны."
+      ],
       "evidence_quote": null,
       "price_history": [
         {
@@ -134994,18 +135090,43 @@
         "Сезон /10": 5,
         "Дорога /10": 9
       },
-      "score": 29
+      "score": 29,
+      "verification_history": [
+        {
+          "date": "2026-11-07T03:17:09+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/nevada/0-27-acres-for-sale-in-pahrump-nevada-27051",
+          "finding": "Fresh public cash price, parcel and coordinates match the nightly import; original listing image visually reviewed. No existing workshop or personal-repair permission established."
+        },
+        {
+          "date": "2026-11-07T03:17:09+00:00",
+          "basis": "live_official_code",
+          "source": "https://nyecounty.municipalcodeonline.com/book?type=ordinances#name=17.04.925:_Temporary_Use_Permits",
+          "finding": "Live county code confirms conditional seasonal occupancy only:120days/year; stays over7consecutive days require approved permanent water/wastewater. Parcel zoning, storage and repair remain unverified."
+        }
+      ],
+      "legal_source": "https://nyecounty.municipalcodeonline.com/book?type=ordinances#name=17.04.925:_Temporary_Use_Permits",
+      "legal_basis": "live_official_code",
+      "legal_checked_at": "2026-11-07T03:17:09+00:00",
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/nevada/0-27-acres-for-sale-in-pahrump-nevada-27051"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-07T00:47:04+00:00",
-      "last_seen": "2026-11-07T00:49:41Z",
-      "last_verified": "2026-11-07T00:49:41Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-07T03:17:09+00:00",
+      "last_verified": "2026-11-07T03:17:09+00:00",
+      "photo_kind": "Уличная панорама Quince Lane из объявления; видны грунт, кустарник и линии электропередачи, подключение parcel не доказано.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "07.11.2026: живая карточка, cash price, parcel, координаты и сохранённое изображение проверены. Фактический въезд и разворот высокого RV длиной около 7 м, постоянное хранение и личный ремонт не подтверждены. Closing и подготовка площадки дополнительно, конечная смета неизвестна.",
+        "Cash $9,216 + $249 doc fee = $9,465 до прочих closing; взнос и ежемесячные платежи не являются ценой покупки.",
+        "07.11.2026: официальный Nye Code §17.04.925 допускает сезонное RV-проживание в жилых зонах до 120 дней в году без temporary use permit; свыше 7 дней подряд нужны утверждённые постоянные вода и wastewater system. Это условие проживания, а не разрешение самостоятельной площадки хранения или ремонта. Точная зона и соответствие конкретного parcel не подтверждены."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27050",
       "source_id": "27050",
@@ -135034,7 +135155,7 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/nevada/0-165-acres-for-sale-in-pahrump-nevada-27050",
       "image_credit": "Seller / LandCentury",
       "parcel": "3031230",
-      "zoning": "Residential",
+      "zoning": "Village Residential, по продавцу; официально не сверено",
       "road_note": "Dirt Road",
       "utility_note": "Не подтверждены",
       "taxes_note": "85.27",
@@ -135043,9 +135164,9 @@
         "owner-finance-deals",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
-      "rv_occupancy": "seller_claim",
+      "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "unknown",
@@ -135053,7 +135174,9 @@
       "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
-      "flags": [],
+      "flags": [
+        "Сезонное RV-проживание требует соблюдения условий округа; постоянное хранение и ремонт неизвестны."
+      ],
       "evidence_quote": "165 Acres in Nye County Village Residential Zoning • Approved to Build a Home • Camping and RV Use Allowed for Short-Term",
       "price_history": [
         {
@@ -135118,7 +135241,28 @@
         "Сезон /10": 5,
         "Дорога /10": 9
       },
-      "score": 28
+      "score": 28,
+      "verification_history": [
+        {
+          "date": "2026-11-07T03:17:09+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/nevada/0-165-acres-for-sale-in-pahrump-nevada-27050",
+          "finding": "Fresh public cash price, parcel and coordinates match the nightly import; original listing image visually reviewed. No existing workshop or personal-repair permission established."
+        },
+        {
+          "date": "2026-11-07T03:17:09+00:00",
+          "basis": "live_official_code",
+          "source": "https://nyecounty.municipalcodeonline.com/book?type=ordinances#name=17.04.925:_Temporary_Use_Permits",
+          "finding": "Live county code confirms conditional seasonal occupancy only:120days/year; stays over7consecutive days require approved permanent water/wastewater. Parcel zoning, storage and repair remain unverified."
+        }
+      ],
+      "legal_source": "https://nyecounty.municipalcodeonline.com/book?type=ordinances#name=17.04.925:_Temporary_Use_Permits",
+      "legal_basis": "live_official_code",
+      "legal_checked_at": "2026-11-07T03:17:09+00:00",
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/nevada/0-165-acres-for-sale-in-pahrump-nevada-27050"
+      ]
     }
   ]
 }

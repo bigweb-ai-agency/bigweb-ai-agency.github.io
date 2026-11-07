@@ -5168,7 +5168,119 @@
       "rotation_reason": "Continue low-coverage Northeast rotation; automated catalogs cover all50.",
       "preservation": "1036records retained; no manual new imports. AllIDs,first_seen,photos,prices and histories preserved; two explicit status changes appended. Flights/Sicily unchanged.",
       "validation": "Focused parser/data tests, validator, preservation assertions and public deployment/map/photo verification."
+    },
+    {
+      "date": "2026-11-07T03:17:09+00:00",
+      "states": [
+        "MA",
+        "CT",
+        "NJ"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [],
+      "updated_ids": [
+        "lc-27062",
+        "lc-27054",
+        "lc-27052",
+        "lc-27051",
+        "lc-27050",
+        "ls-5154444",
+        "ls-5407420"
+      ],
+      "automatic_added_ids": [
+        "lc-27062",
+        "lc-27054",
+        "lc-27052",
+        "lc-27051",
+        "lc-27050"
+      ],
+      "automatic_updated_ids": [],
+      "workflow": {
+        "run_id": 42320282895,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/42320282895",
+        "conclusion": "success",
+        "created_at": "2026-11-07T00:46:43Z",
+        "data_commit": "12a99505969e225f71db9eca6c1bec742aed8605"
+      },
+      "monitor": {
+        "date": "2026-11-07T00:47:04+00:00",
+        "status": "partial",
+        "scanned_pages": 116,
+        "read_details": 68,
+        "added": 5,
+        "changed": 0,
+        "errors": 52
+      },
+      "source_errors": "Nightly and Pages42320850704 succeeded; duplicate Pages cancelled.116catalogpages,68details,5new,0materialchanges,52errors. All20retained samples HTTP404; no inference about remaining32 or sales. No fallback needed.",
+      "findings": [
+        {
+          "id": "lc-27062",
+          "finding": "Cash11995; no improvements,plain landscape photo,conditional seller RV/camping claims."
+        },
+        {
+          "id": "lc-27054",
+          "finding": "Cash9499+199doc=9698; seller excludes camping on vacantlot,temporary RV only for clearing/building permit; no utilities."
+        },
+        {
+          "ids": [
+            "lc-27052",
+            "lc-27051",
+            "lc-27050"
+          ],
+          "finding": "Cash plus249doc totals8249/9049/9465. Original two parcel maps and Quince street-view retained. Live Nye17.04.925 establishes seasonal occupancy conditions, not storage/repair rights."
+        },
+        {
+          "id": "ls-5154444",
+          "finding": "Same CT MLS24217749 confirmed live active8500,.17ac,updatedNov3. OriginalID/photo retained; no duplicate."
+        },
+        {
+          "id": "ls-5407420",
+          "finding": "Vernon official-code indexed resident/NJMVC/operable-storage conditions justify reviewhold; old listing freshness/status retained."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://exitrealty.com/listing/kzQX4Rpu6-XlwuVy7rawU/3-lots-on-mill-street-lot-284-285-62-templeton-ma-01436",
+          "finding": "MA1.6ac15000 is existing ls-4318024 parcel package. Index still assigns tax lien to buyer,past papermill,no soiltest. Chrome response unreadable. Previous quantified tax-debt hold preserved; no stale snapshot replaces fresh facts."
+        },
+        {
+          "url": "https://www.weichert.com/138731622/",
+          "finding": "NJ5Splitrock live active10000,.32ac,MLS4058187,PLC/LakePanorama,lot17,no existing workshop. Neighbor7 separately listed; bundle discount unspecified. LandSearch5616257 coordinates41.2469,-74.5184 exactly match retained7 roundedlocation: parcel distinction not resolved. Deferred due resident/registration storage conditions,unverified HOA/repair and exactparcelposition."
+        },
+        {
+          "url": "https://www.coldwellbankerhomes.com/ct/groton/0-route-12/pid_71140667/",
+          "finding": "Indexed commercial-land workshop lead15000 explicitly soldJuly10,2026; not active purchasecandidate."
+        },
+        {
+          "url": "https://www.homes.com/new-jersey/land-for-sale/under-10k/",
+          "finding": "NJcatalog apparent commercial-storage bargain309Route33 at8850 is landlease. Voorhees0UnitNJCD2128886 is auction with5%premium,not5000fixedcash. Existing-Seaview garage wording concerns future building,not an existinggarage."
+        }
+      ],
+      "official_sources": [
+        {
+          "url": "https://nyecounty.municipalcodeonline.com/book?type=ordinances#name=17.04.925:_Temporary_Use_Permits",
+          "finding": "Chrome live county code17.04.925:120days/year temporaryseasonal use in residentialdistricts,over7consecutivedays requires approved permanentwater/wastewater. No parcel-level storage/repair confirmation."
+        },
+        {
+          "url": "https://www.nyecountynv.gov/m/faq?cat=16",
+          "finding": "Live county FAQ reiterates seasonal conditions and distinguishes zoning from taxland-use codes."
+        },
+        {
+          "url": "https://ecode360.com/11390005",
+          "finding": "Indexed official Vernon330-193:resident ownership/lease,NJMVC registration,operablecondition,setbacks. Chrome securityverification stopped; applicability/exceptions/currentamendments unverified."
+        }
+      ],
+      "access": "Public search,Chrome and5bounded freshLCpages via robots-awareReader. No login,CAPTCHA/403bypass,sellercontact,booking,purchases or infrastructure. Weichert/ColdwellBanker/Nye readable; Homesinitialtabtimeout,EXITunreadable,ecode360securitycheck.",
+      "flight_review": "November2review retained; nextNovember9. No stale fare relabelled.",
+      "next_states": [
+        "ID",
+        "MT",
+        "WY"
+      ],
+      "rotation_reason": "Continue lowcoverage rotation; automated catalogs cover all50.",
+      "preservation": "1041records retained; no manual newimports. AllIDs,first_seen,coordinates,prices,statuses,photos and their histories preserved. Flights/Sicily unchanged.",
+      "validation": "Focused data tests,validator,preservation assertions,scoped publication and public map/photo checks."
     }
   ],
-  "updated_at": "2026-11-06T03:19:39+00:00"
+  "updated_at": "2026-11-07T03:17:09+00:00"
 }
