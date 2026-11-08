@@ -175,7 +175,9 @@ def landcentury_records():
         description=BeautifulSoup(p.get('description') or '', 'html.parser').get_text(' ',strip=True)
         price=(number(p.get('cashPrice')) or 0)/100 # Source stores monetary values in cents.
         fee=(number(p.get('processingFee')) or 0)/100
-        declared=matchvalue(description,r'cash\s+price\s*[:\-]?\s*\$([\d,]+(?:\.\d{2})?)')
+        # Sellers sometimes put the monthly installment in cashPrice; an explicit
+        # cash deal/sale/discount price in the offer is the purchase amount.
+        declared=matchvalue(description,r'\bcash\s+(?:(?:discount\s+)?price|deal|sale)\s*[:\-]?\s*\$([\d,]+(?:\.\d{2})?)(?![\d,.]|\s*(?:/|per\s+)(?:mo(?:nth)?|acre)\b)')
         if declared is not None:
             price=number(declared)
         fee=max(fee,purchase_document_fee(description))

@@ -5280,7 +5280,116 @@
       "rotation_reason": "Continue lowcoverage rotation; automated catalogs cover all50.",
       "preservation": "1041records retained; no manual newimports. AllIDs,first_seen,coordinates,prices,statuses,photos and their histories preserved. Flights/Sicily unchanged.",
       "validation": "Focused data tests,validator,preservation assertions,scoped publication and public map/photo checks."
+    },
+    {
+      "date": "2026-11-08T03:15:05+00:00",
+      "states": [
+        "ID",
+        "MT",
+        "WY"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [],
+      "updated_ids": [
+        "lc-27065",
+        "lc-27064",
+        "lc-26162",
+        "lc-26367"
+      ],
+      "automatic_added_ids": [
+        "lc-27065",
+        "lc-27064"
+      ],
+      "automatic_updated_ids": [
+        "lc-26162",
+        "lc-26367"
+      ],
+      "workflow": {
+        "run_id": 42431586351,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/42431586351",
+        "conclusion": "success",
+        "created_at": "2026-11-08T00:50:25Z",
+        "data_commit": "9255ce875a6305b9153b1cc21c342c0ed2fda766"
+      },
+      "monitor": {
+        "date": "2026-11-08T00:50:48+00:00",
+        "status": "partial",
+        "scanned_pages": 116,
+        "read_details": 68,
+        "added": 2,
+        "changed": 1,
+        "errors": 52
+      },
+      "source_errors": "Nightly and Pages42432046099 succeeded; duplicate Pages42432045167 cancelled.116 catalog pages,68 details,2 new,1 material change,52 errors. All20 retained error samples HTTP404; remaining32 not characterized, no sale inference. No fallback needed.",
+      "findings": [
+        {
+          "id": "lc-27065",
+          "finding": "Cash4300+250doc=4550. Original aerial image retained. Power/water available for connection,not installed; seller excludes occupancy before construction,storage/repair unknown."
+        },
+        {
+          "id": "lc-27064",
+          "finding": "Cash14499 plus mandatory unspecified document fee; full total unconfirmed. Seller slopes12–50%,no perc/survey,no established flat RV pad. Review hold added; source dirt-road narrative conflicts with Paved Road field."
+        },
+        {
+          "id": "lc-26162",
+          "finding": "Cash10650 unchanged;199document fee expressly financing-only,not proven cash fee. Temporary camping claim does not confirm storage/repair."
+        },
+        {
+          "id": "lc-26367",
+          "finding": "Corrected structured monthly189 to explicit Cash Deal8250+249=8499. Preserved and annotated erroneous observation and correction in history. Parser now recognizes Cash Deal/Sale/Discount Price and rejects monthly/per-acre cash labels."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.laramierealestate.com/properties/listing/Laramie/260766/Other/Yellow-Creek-Road",
+          "finding": "WY Yellow Creek Rd Evanston live10000/2.16ac MLS260766,commercial vacant land,utilities nearby claim. Redfin and Compass corroborate current price. Parcel coordinates unresolved; Redfin86990sqft and old mobilehome public facts conflict with land listing,Compass schools~24.6miles away suggest possible misgeocode. Original broker image observed but no reliable parcel point; deferred,not imported. Neighborhood Business/Open labels do not prove RV storage or repair."
+        },
+        {
+          "url": "https://www.redfin.com/WY/Evanston/Yellow-Creek-Rd-82930/home/109408143",
+          "finding": "Same MLS260766; active10000 updatedNov1. Publicfacts1969mobilehome576sqft/APN015284 not accepted as verified parcel/building identity."
+        },
+        {
+          "url": "https://www.compass.com/homedetails/Yellow-Creek-Rd-Evanston-WY-82930/LMQ77_pid/",
+          "finding": "Same MLS active10000/2.16ac updatedNov1; historical549999 expired2025 not treated as current. Precise parcel geography unresolved."
+        },
+        {
+          "url": "https://realmo.com/listing/717-wagon-trl-w-billings-mt-59106/21014048",
+          "finding": "MT 717WagonTrailW warehouse11025sqft/MLS362498 is12400/month lease,new construction; not12400 property purchase."
+        },
+        {
+          "url": "https://acrefinder.us/?listing=8b73e9cf-1872-426b-a596-8d30ffa3b2a1",
+          "finding": "MT catalog badge conflicts with live title Hot Springs AR,.32ac13500/APN400-17700-050-000. No photographs and approximate unmapped area. Rejected geographic conflict/missing evidence; no contact."
+        },
+        {
+          "url": "https://www.homes.com/idaho/land-for-sale/under-20k/",
+          "finding": "Indexed Idaho3950 options NationalForest312/CrookedGold3,RabbitCreek/Steamboat2,BoiseRiver1,ConantCreek4 are mining claims,not confirmed fee-simple RV sites. MountainHome TBDW8thS$1 isNov18auction+5%premium. Fernwood20k/ElkBend19900/Quail16000 exceed cash budget; Ash14500 and Gilmore5000 already retained."
+        },
+        {
+          "url": "https://www.buywyobraska.com/property_listing/20263885/mlsname/WYMLS/ltype/res/1610-12th-Street-Wheatland-WY-82201",
+          "finding": "WY15000 mobilehome without land; excluded from owned RV-base search."
+        },
+        {
+          "url": "https://www.land.com/property/Road-82-Lingle-Wyoming-82223/14050201/",
+          "finding": "WY15000 plus approximately1000 closing exceeds15000 purchase budget."
+        }
+      ],
+      "official_sources": [
+        {
+          "url": "https://ecode360.com/9852170",
+          "finding": "Official Evanston WY Chapter24 indexed code defines Neighborhood Business as convenience-retail district and separates open-space districts.24-15 excludes uses not expressly permitted and routes classification questions to Planning. Exact parcel district and private RV storage/repair permission remain unknown."
+        }
+      ],
+      "access": "Public search,Chrome and4 bounded fresh LandCentury pages via robots-aware Reader. No CAPTCHA/403/robots/login bypass,seller contact,booking,purchases or infrastructure. Live Redfin,LaramieLandCo,Compass,AcreFinder reviewed; PureWest web open timed out.",
+      "flight_review": "November2 review retained; nextNovember9. No stale fare relabelled.",
+      "next_states": [
+        "WA",
+        "HI",
+        "ND"
+      ],
+      "rotation_reason": "Continue low-coverage rotation; automated catalogs cover all50.",
+      "preservation": "1043 records retained,no manual new imports. IDs,first_seen,photos and prior history entries retained; monthly-price mistake explicitly annotated. Flights/Sicily unchanged.",
+      "validation": "Focused data tests,validator,preservation assertions,scoped publication and public map/photo checks."
     }
   ],
-  "updated_at": "2026-11-07T03:17:09+00:00"
+  "updated_at": "2026-11-08T03:15:05+00:00"
 }

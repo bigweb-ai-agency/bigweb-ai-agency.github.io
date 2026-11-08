@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-08T00:50:48+00:00",
+  "updated_at": "2026-11-08T03:15:05+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -11358,12 +11358,15 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-11-08T00:56:18Z",
-      "last_verified": "2026-11-08T00:56:18Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-08T03:15:05+00:00",
+      "last_verified": "2026-11-08T03:15:05+00:00",
+      "photo_kind": "Аэрофото из объявления: незастроенная земля с красным контуром и горы; не survey.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "08.11.2026: живая карточка, parcel, координаты и сохранённое исходное изображение проверены. Въезд и разворот высокого RV длиной около 7 м, постоянное хранение и личный ремонт не подтверждены. Дополнительные closing и подготовка площадки требуют отдельной сметы.",
+        "Cash $10,650. Указанные $199 document fee, $10/mo servicing и $17/mo taxes прямо отнесены к покупке в рассрочку; $199 не доказан обязательным cash fee. Прочие cash closing неизвестны. По продавцу RV/camping до 14 дней за три месяца, дольше — permit при строительстве дома. Это условие проживания, не подтверждение отдельного хранения или ремонта. Высота около 8,094 ft; круглогодичный проезд заявлен продавцом, не проверен."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26162",
       "source_id": "26162",
@@ -11376,9 +11379,9 @@
       "county": "Costilla",
       "zip": "81123",
       "kind": "land",
-      "price": 10650.0,
-      "known_fees": 0.0,
-      "total_known": 10650.0,
+      "price": 10650,
+      "known_fees": 0,
+      "total_known": 10650,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 5.06,
       "lat": 37.505389,
@@ -11392,7 +11395,7 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/colorado/506-acres-for-sale-in-blanca-colorado-26162",
       "image_credit": "Seller / LandCentury",
       "parcel": "70358370",
-      "zoning": "Residential",
+      "zoning": "Estate Residential, по продавцу",
       "road_note": "Dirt Road",
       "utility_note": "No utilities",
       "taxes_note": "$204",
@@ -11404,8 +11407,8 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
-      "rv_storage": "seller_claim",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
+      "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
@@ -11483,6 +11486,14 @@
           "source": "https://www.landcentury.com/land-for-sale/colorado/506-acres-for-sale-in-blanca-colorado-26162",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/06/6a9da93009f24-1788717360.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-11-08T03:15:05+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/506-acres-for-sale-in-blanca-colorado-26162",
+          "finding": "Fresh public parcel and coordinates match retained record; original image visually reviewed. Cash purchase and financing distinguished. No existing workshop or personal-repair permission established."
         }
       ]
     },
@@ -96528,12 +96539,15 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-29T01:16:11+00:00",
-      "last_seen": "2026-11-08T00:56:23Z",
-      "last_verified": "2026-11-08T00:56:23Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-08T03:15:05+00:00",
+      "last_verified": "2026-11-08T03:15:05+00:00",
+      "photo_kind": "Наземная фотография из объявления: лес вдоль грунтовой дороги; гараж или подготовленная площадка не показаны.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "08.11.2026: живая карточка, parcel, координаты и сохранённое исходное изображение проверены. Въезд и разворот высокого RV длиной около 7 м, постоянное хранение и личный ремонт не подтверждены. Дополнительные closing и подготовка площадки требуют отдельной сметы.",
+        "08.11.2026: исправлена ошибка импорта, не изменение цены продавцом. Полная cash price $8,250 + $249 one-time closing = $8,499 до прочих расходов. $189 — месячный платёж на 60 месяцев, $199 — первоначальный взнос. Ошибочная запись $189 сохранена и помечена исправлением в истории. По продавцу primitive camping нельзя, camper/RV допускается на 14 дней; постоянное хранение и личный ремонт неизвестны. Нужны well/cistern и septic, электричество не подтверждено."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26367",
       "source_id": "26367",
@@ -96546,10 +96560,10 @@
       "county": "Putnam",
       "zip": "32189",
       "kind": "land",
-      "price": 189.0,
-      "known_fees": 249.0,
-      "total_known": 438.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price": 8250,
+      "known_fees": 249,
+      "total_known": 8499,
+      "price_evidence": "08.11.2026: описание прямо указывает Cash Deal $8,250 и one-time closing $249. Поле cashPrice=$189 ошибочно содержит ежемесячный платёж.",
       "acres": 0.2,
       "lat": 29.560858,
       "lng": -81.638352,
@@ -96562,7 +96576,7 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/florida/020-acres-for-sale-in-satsuma-florida-26367",
       "image_credit": "Seller / LandCentury",
       "parcel": "12-11-26-8240-0040-0300.",
-      "zoning": "Residential",
+      "zoning": "Residential One Family; R-2 назван property use code, по продавцу",
       "road_note": "Dirt Road",
       "utility_note": "Please, contract county",
       "taxes_note": "36",
@@ -96571,14 +96585,14 @@
         "owner-finance-deals",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "unknown",
-      "water": "unknown",
-      "sewer": "unknown",
+      "water": "none",
+      "sewer": "none",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
@@ -96595,7 +96609,17 @@
           "date": "2026-11-08T00:50:48+00:00",
           "price": 189.0,
           "price_basis": "asking_cash",
-          "source": "https://www.landcentury.com/land-for-sale/florida/020-acres-for-sale-in-satsuma-florida-26367"
+          "source": "https://www.landcentury.com/land-for-sale/florida/020-acres-for-sale-in-satsuma-florida-26367",
+          "correction": true,
+          "correction_reason": "Monthly installment $189 was misread as cash price; explicit Cash Deal is $8,250. This is a data correction, not a seller price change."
+        },
+        {
+          "date": "2026-11-08T03:15:05+00:00",
+          "price": 8250,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/florida/020-acres-for-sale-in-satsuma-florida-26367",
+          "correction": true,
+          "correction_reason": "Monthly installment $189 was misread as cash price; explicit Cash Deal is $8,250. This is a data correction, not a seller price change."
         }
       ],
       "status_history": [],
@@ -96610,7 +96634,7 @@
         }
       ],
       "region": "Юг",
-      "screening_issue": "outside_cash_budget",
+      "screening_issue": null,
       "climate_note": "Дешёвый перелёт и мягкая зима. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -96646,19 +96670,27 @@
       ],
       "msp_straight_km": 1984,
       "score_parts": {
-        "Цена /25": 25,
+        "Цена /25": 16,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 0,
         "Сезон /10": 7,
         "Дорога /10": 8
       },
-      "score": 40,
+      "score": 31,
       "legacy": false,
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/florida/020-acres-for-sale-in-satsuma-florida-26367"
       ],
-      "previous_price": 8250.0
+      "previous_price": 189.0,
+      "verification_history": [
+        {
+          "date": "2026-11-08T03:15:05+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/florida/020-acres-for-sale-in-satsuma-florida-26367",
+          "finding": "Fresh public parcel and coordinates match retained record; original image visually reviewed. Cash purchase and financing distinguished. No existing workshop or personal-repair permission established."
+        }
+      ]
     },
     {
       "price_currency": "USD",
@@ -135290,12 +135322,15 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-08T00:50:48+00:00",
-      "last_seen": "2026-11-08T00:53:30Z",
-      "last_verified": "2026-11-08T00:53:30Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-08T03:15:05+00:00",
+      "last_verified": "2026-11-08T03:15:05+00:00",
+      "photo_kind": "Аэрофото из объявления: лесной участок с зелёным контуром и рекламой рассрочки; не survey.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "08.11.2026: живая карточка, parcel, координаты и сохранённое исходное изображение проверены. Въезд и разворот высокого RV длиной около 7 м, постоянное хранение и личный ремонт не подтверждены. Дополнительные closing и подготовка площадки требуют отдельной сметы.",
+        "Cash $4,300 + $250 doc fee = $4,550 до прочих closing. $100 down / $100 × 42 — рассрочка. Ben’s Creek Lot 366; электричество и вода заявлены как доступные для подключения, установленного подключения нет. Нужен septic. По продавцу минимум дома 1,000 sqft (850 heated), manufactured/mobile homes запрещены, camping и проживание нельзя до начала строительства. Эти слова не подтверждают самостоятельное RV-хранение или ремонт."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27065",
       "source_id": "27065",
@@ -135308,9 +135343,9 @@
       "county": "Izard",
       "zip": "72512",
       "kind": "land",
-      "price": 4300.0,
-      "known_fees": 250.0,
-      "total_known": 4550.0,
+      "price": 4300,
+      "known_fees": 250,
+      "total_known": 4550,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 0.41,
       "lat": 36.22891,
@@ -135324,7 +135359,7 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/arkansas/0-41-acres-for-sale-in-horseshoe-bend-arkansas-27065",
       "image_credit": "Seller / LandCentury",
       "parcel": "800-00996-000",
-      "zoning": "Residential",
+      "zoning": "R-1 single family residential, по продавцу",
       "road_note": "Dirt Road",
       "utility_note": "Water and Power ready to hook up",
       "taxes_note": "9.74",
@@ -135333,18 +135368,19 @@
         "owner-finance-deals",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
-      "rv_occupancy": "unknown",
+      "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
-      "electricity": "unknown",
-      "water": "unknown",
-      "sewer": "unknown",
+      "electricity": "available",
+      "water": "available",
+      "sewer": "none",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "По продавцу camping и проживание запрещены до начала строительства; отдельное RV-хранение и ремонт неизвестны."
       ],
       "evidence_quote": null,
       "price_history": [
@@ -135406,23 +135442,38 @@
         "Цена /25": 22,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 0,
+        "Коммуникации /10": 2,
         "Сезон /10": 8,
         "Дорога /10": 5
       },
-      "score": 35
+      "score": 37,
+      "verification_history": [
+        {
+          "date": "2026-11-08T03:15:05+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arkansas/0-41-acres-for-sale-in-horseshoe-bend-arkansas-27065",
+          "finding": "Fresh public parcel and coordinates match retained record; original image visually reviewed. Cash purchase and financing distinguished. No existing workshop or personal-repair permission established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arkansas/0-41-acres-for-sale-in-horseshoe-bend-arkansas-27065"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-08T00:50:48+00:00",
-      "last_seen": "2026-11-08T00:53:32Z",
-      "last_verified": "2026-11-08T00:53:32Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-08T03:15:05+00:00",
+      "last_verified": "2026-11-08T03:15:05+00:00",
+      "photo_kind": "Аэрофото из объявления с красным контуром и жёлтым рекламным баннером; соседние строения не доказаны частью parcel.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
-      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "notes": [
+        "08.11.2026: живая карточка, parcel, координаты и сохранённое исходное изображение проверены. Въезд и разворот высокого RV длиной около 7 м, постоянное хранение и личный ремонт не подтверждены. Дополнительные closing и подготовка площадки требуют отдельной сметы.",
+        "Cash $14,499; обязательный document preparation fee уплачивается при closing, но размер отсутствует. Поэтому итог в пределах $15,000 не установлен. $50 hold не цена покупки. Продавец оценивает уклоны 12–50%; ровная площадка для RV не доказана. Электричество не подтверждено, нужны well и septic, нет perc test и survey. No HOA/no county zoning и слова про RV — заявления продавца, не разрешение ремонта."
+      ],
+      "closing_costs": "Дополнительный обязательный document preparation fee не указан; $14,499 — только известная сумма, не итог покупки. Title/escrow, обследования и подготовка отдельно.",
       "id": "lc-27064",
       "source_id": "27064",
       "source": "LandCentury",
@@ -135434,9 +135485,9 @@
       "county": "Bledsoe",
       "zip": "37367",
       "kind": "land",
-      "price": 14499.0,
-      "known_fees": 0.0,
-      "total_known": 14499.0,
+      "price": 14499,
+      "known_fees": 0,
+      "total_known": 14499,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 1.5,
       "lat": 35.6195,
@@ -135450,27 +135501,28 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/tennessee/1-5-acres-for-sale-in-pikeville-tennessee-27064",
       "image_credit": "Seller / LandCentury",
       "parcel": "064-9.02",
-      "zoning": "None",
-      "road_note": "Paved Road",
+      "zoning": "Нет county zoning, по продавцу; официально не подтверждено",
+      "road_note": "В описании — общественная грунтовая дорога; поле источника Paved Road противоречит описанию. Право проезда и фактический въезд не проверены.",
       "utility_note": "Contact the county",
       "taxes_note": "61.00",
       "source_categories": [
         "residential-buildable-land",
         "owner-finance-deals"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "unknown",
-      "water": "unknown",
-      "sewer": "unknown",
+      "water": "none",
+      "sewer": "none",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
         "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
-        "Оценить уклон, разворот и стоимость ровной площадки."
+        "Оценить уклон, разворот и стоимость ровной площадки.",
+        "Обязательный fee неизвестен; уклоны 12–50%, площадка для 7-метрового RV и итоговый бюджет не подтверждены."
       ],
       "evidence_quote": "You should independently verify electrical service availability, water options, septic suitability, installation costs, and permit requirements before making plans.",
       "price_history": [
@@ -135493,7 +135545,7 @@
         }
       ],
       "region": "Юг",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Один из первых регионов для поиска базы. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -135536,7 +135588,25 @@
         "Сезон /10": 8,
         "Дорога /10": 8
       },
-      "score": 22
+      "score": 20,
+      "verification_history": [
+        {
+          "date": "2026-11-08T03:15:05+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/tennessee/1-5-acres-for-sale-in-pikeville-tennessee-27064",
+          "finding": "Fresh public parcel and coordinates match retained record; original image visually reviewed. Cash purchase and financing distinguished. No existing workshop or personal-repair permission established."
+        }
+      ],
+      "review_hold": {
+        "date": "2026-11-08T03:15:05+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/tennessee/1-5-acres-for-sale-in-pikeville-tennessee-27064",
+        "reason": "Полная цена не установлена из-за обязательного fee неизвестного размера; на участке с уклонами 12–50% не подтверждены ровная площадка и въезд для высокого RV.",
+        "release_condition": "Установить полный cash total и подтвердить пригодную площадку, доступ, стоимость подготовки и разрешённое хранение/ремонт."
+      },
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/tennessee/1-5-acres-for-sale-in-pikeville-tennessee-27064"
+      ]
     }
   ]
 }

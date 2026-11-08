@@ -67,6 +67,19 @@ class ResearchDataTests(unittest.TestCase):
         self.assertEqual(b.purchase_document_fee('Cash price: $3,895 Doc fee: waived'),0)
         self.assertEqual(b.purchase_document_fee('$300 non-refundable document fee.'),300)
 
+    def test_explicit_cash_deal_overrides_structured_monthly_payment(self):
+        base={'id':26367,'cashPrice':18900,'processingFee':0,'stateRegion':'Florida',
+              'type':'land','isPublished':True,'_source_url':'https://www.landcentury.com/example',
+              '_fetched_at':'2026-11-08','info':{},'categories':[]}
+        for label in ['Cash Deal','Cash Sale','Cash Discount Price','Discount Cash Price']:
+            description=f'$189/month for 60 months. $199 Down Payment. $249 Document Fee (One-Time). {label}: $8,250'
+            with self.subTest(label=label),patch.object(b,'read',return_value={'26367':dict(base,description=description)}):
+                x=b.landcentury_records()[0]
+                self.assertEqual((x['price'],x['known_fees'],x['total_known']),(8250,249,8499))
+        for description in ['Cash Deal: $189/month','Cash Price: $189 per acre']:
+            with self.subTest(description=description),patch.object(b,'read',return_value={'26367':dict(base,cashPrice=825000,description=description)}):
+                self.assertEqual(b.landcentury_records()[0]['price'],8250)
+
     def test_transaction_fee_is_separate_from_credited_earnest_money(self):
         description=('Cash Discount Price: $8,000. A $1,000 earnest money deposit is required '
                      'at signing. $500 is a non-refundable transaction fee and the remaining '
