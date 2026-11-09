@@ -5389,7 +5389,136 @@
       "rotation_reason": "Continue low-coverage rotation; automated catalogs cover all50.",
       "preservation": "1043 records retained,no manual new imports. IDs,first_seen,photos and prior history entries retained; monthly-price mistake explicitly annotated. Flights/Sicily unchanged.",
       "validation": "Focused data tests,validator,preservation assertions,scoped publication and public map/photo checks."
+    },
+    {
+      "date": "2026-11-09T03:22:55+00:00",
+      "states": [
+        "WA",
+        "HI",
+        "ND"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [
+        "mls-nd-4028334"
+      ],
+      "updated_ids": [
+        "lc-27071",
+        "lc-27070",
+        "lc-27069",
+        "lc-27067",
+        "lc-24441"
+      ],
+      "automatic_added_ids": [
+        "lc-27071",
+        "lc-27070",
+        "lc-27069",
+        "lc-27067"
+      ],
+      "automatic_updated_ids": [
+        "lc-24441"
+      ],
+      "workflow": {
+        "run_id": 42542396973,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/42542396973",
+        "conclusion": "success",
+        "created_at": "2026-11-09T00:50:59Z",
+        "data_commit": "ad911d732c3a0d088f1d532ffaf1ea3c35192a2c"
+      },
+      "monitor": {
+        "date": "2026-11-09T00:51:17+00:00",
+        "status": "partial",
+        "scanned_pages": 116,
+        "read_details": 67,
+        "added": 4,
+        "changed": 1,
+        "errors": 53
+      },
+      "source_errors": "Nightly and Pages42542903927 succeeded; duplicate Pages42542901036 cancelled.116 catalog pages,67 details,4 new,1 material change,53 errors. All20 retained samples HTTP404; other33 uncharacterized,no availability inference. No automatic-collection fallback needed.",
+      "findings": [
+        {
+          "id": "mls-nd-4028334",
+          "finding": "New live Weichert9900 owned .32ac house with claimed one-stall detached garage. Live Pending overrides stale indexed Active. Original photo copied byte-for-byte from visible listing image,listing map point46.6582,-99.3575. Garage dimensions,RV fit,working utilities and municipal repair/storage permission unknown."
+        },
+        {
+          "id": "lc-27071",
+          "finding": "Cash8900 unchanged.199doc+10/month servicing+11.10/month tax expressly purchase-on-terms,not verified cash fee. Power300ftaway,temporary camping not standalone storage/repair permission."
+        },
+        {
+          "id": "lc-27070",
+          "finding": "Cash9999.504structuredaddress conflicts519description; quitclaim title. Review hold,originalparcel/coordinates retained. Power available; well/septic needed."
+        },
+        {
+          "id": "lc-27069",
+          "finding": "Cash12000+minimum299in-house closing=12299. Seller prohibits RVs. Two-parcel package .56+.49ac conflicts1.06ac/22216sqft;186.60taxarrears payoff unknown. Review hold; originalparcel retained."
+        },
+        {
+          "id": "lc-27067",
+          "finding": "Cash14900+249in-house closing=15149 abovebudget.5th/6thStreetpaperstreets need ROWopeningpermit; RVminimum.5ac condition not met by.48ac without buildingpermit exception. Review hold.8369.77impactfee relatesfuturepermit,notpurchase."
+        },
+        {
+          "id": "lc-24441",
+          "finding": "Fresh cash reduction9000→8499 +289doc=8788 confirmed. New photo and prior photo history retained. TemporaryRV14days/3months; standalone storage/repair unknown."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.homes.com/washington/land-for-sale/under-15k/",
+          "finding": "WA catalog: Pasco0Road68andRodeoDrive10000 is monthlylease,notpurchase. RimrockMeadows CaballoCtLot17Ephrata10800/1.03ac remains bareland with association restrictions.6000SeattleAvePortOrchard lead lacks verified parcel/photo details; not imported."
+        },
+        {
+          "url": "https://northpacificproperties.com/area/ephrata-WA/rimrock-meadows/listings",
+          "finding": "WA Caballo10800 corroborated as cataloglead,not existing workshop; no import without full parcel and use verification."
+        },
+        {
+          "url": "https://www.ezhomesearch.com/propertydetails/us/hi/ocean-view/92-2232-palm-parkway-96737/732742/",
+          "finding": "HI92-2232PalmPkwyOceanView MLS732742: newer indexed9900 vs older12000. Browser security verification encountered,stopped. No confirmed coordinates/photo capture; deferred,not imported."
+        },
+        {
+          "url": "https://www.realtor.com/realestateandhomes-detail/307-County-Road-14_Underwood_ND_58576_M83363-39888",
+          "finding": "ND old15000house/garage lead soldJune26,2026for12000 per displayed history; not added as active."
+        },
+        {
+          "url": "https://www.globalauctionguide.com/north-dakota-auctions/garrison/ron-waliser-estate-8842.html",
+          "finding": "ND RonWaliserestate10000 is auctiondownpayment,not full cash purchase price; excluded."
+        }
+      ],
+      "official_sources": [
+        {
+          "url": "https://www.stutsmancounty.gov/files/zoning-ordinance.pdf",
+          "finding": "Adopted county ordinanceFeb24,2026 section1.4 covers unincorporated territory with municipal-jurisdiction exception. No automatic county zoning permission for Streetercity parcel; municipalstorage/personalrepair unknown."
+        },
+        {
+          "url": "https://www.rimrockmeadows.com/developing-property",
+          "finding": "Association source,not county law: RV must be working/codecompliant,not salvage; private lots not for vehicle/boat/machinery storage; approval for site/buildingchanges. Do not equate seasonalRV permission with repairbase."
+        }
+      ],
+      "access": "Public search and Chrome;5 bounded fresh LandCentury pages through robots-aware Reader. Original seller photos visually reviewed. Stopped HI securityverification. No CAPTCHA/403/robots/login bypass,sellercontact,purchases,bookings,infrastructure or passengerdata.",
+      "flight_review": {
+        "date": "2026-11-09T03:22:55+00:00",
+        "new_observations": 100,
+        "usable_observations": 85,
+        "excluded_long_outbound": 14,
+        "excluded_airport_change": 1,
+        "archived_observations": 734,
+        "current_control_cards": 5,
+        "prior_control_cards": 41,
+        "origins": [
+          "VNO",
+          "LON",
+          "WAW",
+          "CPH"
+        ],
+        "finding": "1adult economy,dated13–17day searches. Carrier verified FinnairVNOJFKNov26Dec9 Classic646.25EUR with23kg/8kg; IcelandairLHRJFKApr10Apr26 Standard511.34GBP with23kg/10kg. GoogleCPHJFKJan11Jan24 selected400EUR,checked/checkout unknown. Matched positioningVNO-LHRApr9Apr28=226EUR;VNO-CPHJan10Jan26=148EUR,bothcheckedextraunknown. Separate tickets,two nights each,groundcostsunknown. Excluded334EURCPHMCO dueLHR-LGW3h30. Existing observations/controls retained with original dates; nextreviewNov16."
+      },
+      "next_states": [
+        "DE",
+        "RI",
+        "NH"
+      ],
+      "rotation_reason": "Continue low-coverage rotation; automatic catalogs rotate through all50 states nightly.",
+      "preservation": "All1047 priorrecords,IDs,first_seen,price/status/photo histories and photos retained.1newpendinggarage record with1originalphoto. All734oldflightobservations and41priorcontrolcards preserved. Sicily unchanged.",
+      "validation": "Focused fee/data tests,validator,oldrecord/photo preservation assertions,scoped publication and live map/photo/flight verification."
     }
   ],
-  "updated_at": "2026-11-08T03:15:05+00:00"
+  "updated_at": "2026-11-09T03:22:55+00:00"
 }

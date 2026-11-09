@@ -67,6 +67,12 @@ class ResearchDataTests(unittest.TestCase):
         self.assertEqual(b.purchase_document_fee('Cash price: $3,895 Doc fee: waived'),0)
         self.assertEqual(b.purchase_document_fee('$300 non-refundable document fee.'),300)
 
+    def test_in_house_closing_alternative_is_known_minimum_purchase_fee(self):
+        for fee in (249,299):
+            description=f'Buyer pays closing: title company $800-$1,200 or in-house closing for ${fee}.'
+            self.assertEqual(b.purchase_document_fee(description),fee)
+        self.assertEqual(b.purchase_document_fee('Estimated title company closing $800-$1,200.'),0)
+
     def test_explicit_cash_deal_overrides_structured_monthly_payment(self):
         base={'id':26367,'cashPrice':18900,'processingFee':0,'stateRegion':'Florida',
               'type':'land','isPublished':True,'_source_url':'https://www.landcentury.com/example',

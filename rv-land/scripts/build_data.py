@@ -70,7 +70,10 @@ def purchase_document_fee(description):
             value=preceding[1]
             if re.match(r'\s*(?:(?:per|a|/)\s*(?:month|year|mo\b)|monthly|annually)',after,re.I):continue
         fee=max(fee,number(value) or 0)
-    return fee
+    # Some sellers offer a fixed in-house closing charge as an alternative to
+    # a more expensive title company. Keep that stated minimum purchase fee.
+    in_house=matchvalue(text,r'\bin[- ]house\s+closing\s+for\s+\$([\d,]+(?:\.\d{2})?)')
+    return max(fee,number(in_house) or 0)
 
 def flags_from_text(description,kind='land',road=None,utilities=None):
     t=compact(description).lower()

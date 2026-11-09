@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T00:51:17+00:00",
+  "updated_at": "2026-11-09T03:22:55+00:00",
   "states": [
     {
       "code": "AL",
@@ -179,7 +179,7 @@
       ],
       "analysis": "Дешёвый перелёт и мягкая зима. Многие лоты без подъезда/коммуникаций, wetland, HOA или ураганный риск; летняя работа жаркая.",
       "total": 52,
-      "photo_candidates": 51,
+      "photo_candidates": 50,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -199,7 +199,7 @@
       ],
       "analysis": "Хороший компромисс сезона и международного аэропорта. Искать сельские участки с реальной дорогой; covenants и ремонт проверять по округу.",
       "total": 25,
-      "photo_candidates": 25,
+      "photo_candidates": 24,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -261,7 +261,7 @@
       ],
       "analysis": "Полезный рынок небольших зданий, гаражей и городских лотов. ORD удобен из Европы; зима, налоги, обязанности по аварийным домам.",
       "total": 22,
-      "photo_candidates": 21,
+      "photo_candidates": 20,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -701,9 +701,9 @@
         "MSP"
       ],
       "analysis": "Небольшая выборка, суровая зима и большое расстояние. Имеет смысл только с уже существующим пригодным помещением.",
-      "total": 9,
-      "photo_candidates": 8,
-      "shortfall": 2,
+      "total": 10,
+      "photo_candidates": 9,
+      "shortfall": 1,
       "coverage": "Недостаточно проверенных кандидатов",
       "sources": [
         "https://www.landsearch.com/properties/north-dakota/search/under-15000",
