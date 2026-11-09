@@ -136359,7 +136359,9 @@
         "Сезон /10": 1,
         "Дорога /10": 1
       },
-      "score": 40
+      "score": 40,
+      "mls": "4028334",
+      "legal_source": "https://www.stutsmancounty.gov/files/zoning-ordinance.pdf"
     }
   ]
 }
