@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-08T03:15:05+00:00",
+  "updated_at": "2026-11-09T00:51:17+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -3876,8 +3876,8 @@
           "straight_km": 488,
           "drive_km_estimate": 609,
           "drive_hours_estimate": 8.1,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -4035,8 +4035,8 @@
           "straight_km": 487,
           "drive_km_estimate": 609,
           "drive_hours_estimate": 8.1,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -4178,8 +4178,8 @@
           "straight_km": 118,
           "drive_km_estimate": 148,
           "drive_hours_estimate": 2.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -4312,8 +4312,8 @@
           "straight_km": 115,
           "drive_km_estimate": 143,
           "drive_hours_estimate": 1.9,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -4442,8 +4442,8 @@
           "straight_km": 141,
           "drive_km_estimate": 176,
           "drive_hours_estimate": 2.4,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -4575,8 +4575,8 @@
           "straight_km": 117,
           "drive_km_estimate": 146,
           "drive_hours_estimate": 1.9,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -4718,8 +4718,8 @@
           "straight_km": 539,
           "drive_km_estimate": 674,
           "drive_hours_estimate": 9.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -4848,8 +4848,8 @@
           "straight_km": 109,
           "drive_km_estimate": 136,
           "drive_hours_estimate": 1.8,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -4982,8 +4982,8 @@
           "straight_km": 112,
           "drive_km_estimate": 140,
           "drive_hours_estimate": 1.9,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -5125,8 +5125,8 @@
           "straight_km": 538,
           "drive_km_estimate": 672,
           "drive_hours_estimate": 9.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -5255,8 +5255,8 @@
           "straight_km": 539,
           "drive_km_estimate": 674,
           "drive_hours_estimate": 9.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -5397,8 +5397,8 @@
           "straight_km": 546,
           "drive_km_estimate": 683,
           "drive_hours_estimate": 9.1,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -5553,8 +5553,8 @@
           "straight_km": 539,
           "drive_km_estimate": 674,
           "drive_hours_estimate": 9.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -5676,8 +5676,8 @@
           "straight_km": 93,
           "drive_km_estimate": 116,
           "drive_hours_estimate": 1.5,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -5820,8 +5820,8 @@
           "straight_km": 488,
           "drive_km_estimate": 609,
           "drive_hours_estimate": 8.1,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -5963,8 +5963,8 @@
           "straight_km": 488,
           "drive_km_estimate": 609,
           "drive_hours_estimate": 8.1,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -6108,8 +6108,8 @@
           "straight_km": 482,
           "drive_km_estimate": 602,
           "drive_hours_estimate": 8.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -6239,8 +6239,8 @@
           "straight_km": 521,
           "drive_km_estimate": 651,
           "drive_hours_estimate": 8.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -6370,8 +6370,8 @@
           "straight_km": 495,
           "drive_km_estimate": 619,
           "drive_hours_estimate": 8.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -9297,8 +9297,8 @@
           "straight_km": 317,
           "drive_km_estimate": 396,
           "drive_hours_estimate": 5.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -9557,8 +9557,8 @@
           "straight_km": 248,
           "drive_km_estimate": 310,
           "drive_hours_estimate": 4.1,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -9679,8 +9679,8 @@
           "straight_km": 212,
           "drive_km_estimate": 265,
           "drive_hours_estimate": 3.5,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -9847,8 +9847,8 @@
           "straight_km": 282,
           "drive_km_estimate": 353,
           "drive_hours_estimate": 4.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -9963,8 +9963,8 @@
           "straight_km": 262,
           "drive_km_estimate": 328,
           "drive_hours_estimate": 4.4,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -10089,8 +10089,8 @@
           "straight_km": 265,
           "drive_km_estimate": 331,
           "drive_hours_estimate": 4.4,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -10217,8 +10217,8 @@
           "straight_km": 261,
           "drive_km_estimate": 326,
           "drive_hours_estimate": 4.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -10358,8 +10358,8 @@
           "straight_km": 247,
           "drive_km_estimate": 308,
           "drive_hours_estimate": 4.1,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -10488,8 +10488,8 @@
           "straight_km": 195,
           "drive_km_estimate": 244,
           "drive_hours_estimate": 3.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -10765,8 +10765,8 @@
           "straight_km": 255,
           "drive_km_estimate": 319,
           "drive_hours_estimate": 4.2,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -11501,8 +11501,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-16T02:23:27Z",
-      "last_verified": "2026-10-16T02:23:27Z",
+      "last_seen": "2026-11-09T00:56:30Z",
+      "last_verified": "2026-11-09T00:56:30Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -11529,7 +11529,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-09-29T00:00:33.000000Z",
+      "source_updated": "2026-11-07T06:00:42.000000Z",
       "source_published": "2026-09-03T19:20:38.000000Z",
       "image_url": "assets/listings/ce9e970c28fc871eb182.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/colorado/504-acres-for-sale-in-blanca-colorado-26138",
@@ -11616,7 +11616,7 @@
       },
       "score": 22,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/03/6a99c8e55cd4e-1788463333.jpg",
-      "photo_preserved_at": "2026-10-16T02:17:47+00:00",
+      "photo_preserved_at": "2026-11-09T00:51:17+00:00",
       "photo_history": [
         {
           "path": "assets/listings/ce9e970c28fc871eb182.jpg",
@@ -11630,8 +11630,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-16T02:23:29Z",
-      "last_verified": "2026-10-16T02:23:29Z",
+      "last_seen": "2026-11-09T00:56:32Z",
+      "last_verified": "2026-11-09T00:56:32Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -11754,7 +11754,7 @@
       },
       "score": 20,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/02/6a98261d0c7a2-1788356125.jpg",
-      "photo_preserved_at": "2026-10-16T02:17:47+00:00",
+      "photo_preserved_at": "2026-11-09T00:51:17+00:00",
       "photo_history": [
         {
           "path": "assets/listings/1cc9721b61ad3ca83e15.jpg",
@@ -11768,8 +11768,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-16T02:23:30Z",
-      "last_verified": "2026-10-16T02:23:30Z",
+      "last_seen": "2026-11-09T00:56:33Z",
+      "last_verified": "2026-11-09T00:56:33Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -11796,7 +11796,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-09-29T00:00:33.000000Z",
+      "source_updated": "2026-11-07T06:29:28.000000Z",
       "source_published": "2026-09-01T12:56:30.000000Z",
       "image_url": "assets/listings/4a3d50fbd8303bf1dd09.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/colorado/493-acres-for-sale-in-san-acacio-colorado-26097",
@@ -11884,7 +11884,7 @@
       },
       "score": 25,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/01/6a96cc2968e8e-1788267561.jpg",
-      "photo_preserved_at": "2026-10-16T02:17:47+00:00",
+      "photo_preserved_at": "2026-11-09T00:51:17+00:00",
       "photo_history": [
         {
           "path": "assets/listings/4a3d50fbd8303bf1dd09.jpg",
@@ -11898,8 +11898,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-16T02:23:32Z",
-      "last_verified": "2026-10-16T02:23:32Z",
+      "last_seen": "2026-11-09T00:56:34Z",
+      "last_verified": "2026-11-09T00:56:34Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -11916,9 +11916,9 @@
       "county": "Costilla",
       "zip": "81152",
       "kind": "land",
-      "price": 9000.0,
-      "known_fees": 0.0,
-      "total_known": 9000.0,
+      "price": 8499.0,
+      "known_fees": 289.0,
+      "total_known": 8788.0,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 4.92,
       "lat": 37.27845,
@@ -11926,9 +11926,9 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-09-28T03:34:54.000000Z",
+      "source_updated": "2026-11-03T00:00:47.000000Z",
       "source_published": "2026-04-09T23:09:29.000000Z",
-      "image_url": "assets/listings/1d6400c8eee0dda5914b.jpg",
+      "image_url": "assets/listings/455538c08443f5f31849.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/colorado/492-acres-for-sale-in-san-luis-colorado-24441",
       "image_credit": "Seller / LandCentury",
       "parcel": "70703810",
@@ -11944,7 +11944,7 @@
       ],
       "garage_note": "Размеры и состояние не подтверждены",
       "rv_storage": "unknown",
-      "rv_occupancy": "unknown",
+      "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "available",
@@ -11953,13 +11953,20 @@
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
+        "Источник упоминает flood zone/flood risk; контекст и фактический риск требуют проверки FEMA и отметки площадки.",
         "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
       ],
-      "evidence_quote": "Property Details Lot size: 5 acres Zoning: Estate Residential Access: Direct via Highway 159 + dirt road Utilities: Power nearby, good cell/GPS",
+      "evidence_quote": "Reserve it today for $468: the $179 down payment plus the $289 doc fee.",
       "price_history": [
         {
           "date": "2026-09-13T22:25:02+00:00",
           "price": 9000.0,
+          "source": "https://www.landcentury.com/land-for-sale/colorado/492-acres-for-sale-in-san-luis-colorado-24441"
+        },
+        {
+          "date": "2026-11-09T00:51:17+00:00",
+          "price": 8499.0,
+          "price_basis": "asking_cash",
           "source": "https://www.landcentury.com/land-for-sale/colorado/492-acres-for-sale-in-san-luis-colorado-24441"
         }
       ],
@@ -12013,16 +12020,23 @@
         "Дорога /10": 5
       },
       "score": 24,
-      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/27/6a9057e8e8701-1787844584.jpg",
-      "photo_preserved_at": "2026-10-16T02:17:47+00:00",
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/05/25/6a14d893afff9-1779751059.jpg",
+      "photo_preserved_at": "2026-11-09T00:51:17+00:00",
       "photo_history": [
         {
           "path": "assets/listings/1d6400c8eee0dda5914b.jpg",
           "source": "https://www.landcentury.com/land-for-sale/colorado/492-acres-for-sale-in-san-luis-colorado-24441",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/27/6a9057e8e8701-1787844584.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        },
+        {
+          "path": "assets/listings/455538c08443f5f31849.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/492-acres-for-sale-in-san-luis-colorado-24441",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/05/25/6a14d893afff9-1779751059.jpg",
+          "date": "2026-11-09T00:51:17+00:00"
         }
-      ]
+      ],
+      "previous_price": 9000.0
     },
     {
       "price_currency": "USD",
@@ -22339,8 +22353,8 @@
           "straight_km": 559,
           "drive_km_estimate": 699,
           "drive_hours_estimate": 9.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -22463,8 +22477,8 @@
           "straight_km": 86,
           "drive_km_estimate": 107,
           "drive_hours_estimate": 1.4,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -22607,8 +22621,8 @@
           "straight_km": 582,
           "drive_km_estimate": 727,
           "drive_hours_estimate": 9.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -22735,8 +22749,8 @@
           "straight_km": 577,
           "drive_km_estimate": 722,
           "drive_hours_estimate": 9.6,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -22879,8 +22893,8 @@
           "straight_km": 547,
           "drive_km_estimate": 684,
           "drive_hours_estimate": 9.1,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -23012,8 +23026,8 @@
           "straight_km": 580,
           "drive_km_estimate": 725,
           "drive_hours_estimate": 9.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -23140,8 +23154,8 @@
           "straight_km": 580,
           "drive_km_estimate": 724,
           "drive_hours_estimate": 9.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -23269,8 +23283,8 @@
           "straight_km": 575,
           "drive_km_estimate": 718,
           "drive_hours_estimate": 9.6,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -23398,8 +23412,8 @@
           "straight_km": 547,
           "drive_km_estimate": 684,
           "drive_hours_estimate": 9.1,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -23527,8 +23541,8 @@
           "straight_km": 578,
           "drive_km_estimate": 723,
           "drive_hours_estimate": 9.6,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -23658,8 +23672,8 @@
           "straight_km": 564,
           "drive_km_estimate": 705,
           "drive_hours_estimate": 9.4,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -23793,8 +23807,8 @@
           "straight_km": 564,
           "drive_km_estimate": 705,
           "drive_hours_estimate": 9.4,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -23929,8 +23943,8 @@
           "straight_km": 545,
           "drive_km_estimate": 681,
           "drive_hours_estimate": 9.1,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -24060,8 +24074,8 @@
           "straight_km": 575,
           "drive_km_estimate": 719,
           "drive_hours_estimate": 9.6,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -24186,8 +24200,8 @@
           "straight_km": 546,
           "drive_km_estimate": 683,
           "drive_hours_estimate": 9.1,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -24318,8 +24332,8 @@
           "straight_km": 531,
           "drive_km_estimate": 663,
           "drive_hours_estimate": 8.8,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -24449,8 +24463,8 @@
           "straight_km": 531,
           "drive_km_estimate": 663,
           "drive_hours_estimate": 8.8,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -24575,8 +24589,8 @@
           "straight_km": 523,
           "drive_km_estimate": 654,
           "drive_hours_estimate": 8.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -24707,8 +24721,8 @@
           "straight_km": 546,
           "drive_km_estimate": 682,
           "drive_hours_estimate": 9.1,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -24850,8 +24864,8 @@
           "straight_km": 592,
           "drive_km_estimate": 741,
           "drive_hours_estimate": 9.9,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -26031,8 +26045,8 @@
           "straight_km": 796,
           "drive_km_estimate": 994,
           "drive_hours_estimate": 13.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -26161,8 +26175,8 @@
           "straight_km": 789,
           "drive_km_estimate": 987,
           "drive_hours_estimate": 13.2,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -26292,8 +26306,8 @@
           "straight_km": 801,
           "drive_km_estimate": 1001,
           "drive_hours_estimate": 13.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -26413,8 +26427,8 @@
           "straight_km": 617,
           "drive_km_estimate": 771,
           "drive_hours_estimate": 10.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -26543,8 +26557,8 @@
           "straight_km": 617,
           "drive_km_estimate": 771,
           "drive_hours_estimate": 10.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -26674,8 +26688,8 @@
           "straight_km": 835,
           "drive_km_estimate": 1044,
           "drive_hours_estimate": 13.9,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -26812,8 +26826,8 @@
           "straight_km": 788,
           "drive_km_estimate": 985,
           "drive_hours_estimate": 13.1,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -26940,8 +26954,8 @@
           "straight_km": 785,
           "drive_km_estimate": 982,
           "drive_hours_estimate": 13.1,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -27070,8 +27084,8 @@
           "straight_km": 791,
           "drive_km_estimate": 988,
           "drive_hours_estimate": 13.2,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -33033,8 +33047,8 @@
           "straight_km": 498,
           "drive_km_estimate": 622,
           "drive_hours_estimate": 8.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -35351,8 +35365,8 @@
           "straight_km": 583,
           "drive_km_estimate": 729,
           "drive_hours_estimate": 9.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -35479,8 +35493,8 @@
           "straight_km": 583,
           "drive_km_estimate": 729,
           "drive_hours_estimate": 9.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -35600,8 +35614,8 @@
           "straight_km": 224,
           "drive_km_estimate": 280,
           "drive_hours_estimate": 3.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -35738,8 +35752,8 @@
           "straight_km": 583,
           "drive_km_estimate": 729,
           "drive_hours_estimate": 9.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -35866,8 +35880,8 @@
           "straight_km": 583,
           "drive_km_estimate": 729,
           "drive_hours_estimate": 9.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -35994,8 +36008,8 @@
           "straight_km": 583,
           "drive_km_estimate": 729,
           "drive_hours_estimate": 9.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -36129,8 +36143,8 @@
           "straight_km": 590,
           "drive_km_estimate": 738,
           "drive_hours_estimate": 9.8,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -36246,8 +36260,8 @@
           "straight_km": 236,
           "drive_km_estimate": 295,
           "drive_hours_estimate": 3.9,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -36374,8 +36388,8 @@
           "straight_km": 227,
           "drive_km_estimate": 284,
           "drive_hours_estimate": 3.8,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -39126,8 +39140,8 @@
           "straight_km": 227,
           "drive_km_estimate": 283,
           "drive_hours_estimate": 3.8,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -39251,8 +39265,8 @@
           "straight_km": 224,
           "drive_km_estimate": 280,
           "drive_hours_estimate": 3.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -51678,8 +51692,8 @@
           "straight_km": 579,
           "drive_km_estimate": 724,
           "drive_hours_estimate": 9.6,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -51802,8 +51816,8 @@
           "straight_km": 532,
           "drive_km_estimate": 665,
           "drive_hours_estimate": 8.9,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -51926,8 +51940,8 @@
           "straight_km": 546,
           "drive_km_estimate": 683,
           "drive_hours_estimate": 9.1,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -68096,8 +68110,8 @@
           "straight_km": 277,
           "drive_km_estimate": 346,
           "drive_hours_estimate": 4.6,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -70175,8 +70189,8 @@
           "straight_km": 816,
           "drive_km_estimate": 1019,
           "drive_hours_estimate": 13.6,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -73585,8 +73599,8 @@
           "straight_km": 223,
           "drive_km_estimate": 279,
           "drive_hours_estimate": 3.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -73709,8 +73723,8 @@
           "straight_km": 224,
           "drive_km_estimate": 280,
           "drive_hours_estimate": 3.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -73854,8 +73868,8 @@
           "straight_km": 617,
           "drive_km_estimate": 771,
           "drive_hours_estimate": 10.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -76050,8 +76064,8 @@
           "straight_km": 117,
           "drive_km_estimate": 146,
           "drive_hours_estimate": 1.9,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -76176,8 +76190,8 @@
           "straight_km": 93,
           "drive_km_estimate": 116,
           "drive_hours_estimate": 1.5,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -76309,8 +76323,8 @@
           "straight_km": 476,
           "drive_km_estimate": 595,
           "drive_hours_estimate": 7.9,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -82826,8 +82840,8 @@
           "straight_km": 524,
           "drive_km_estimate": 655,
           "drive_hours_estimate": 8.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -82957,8 +82971,8 @@
           "straight_km": 549,
           "drive_km_estimate": 686,
           "drive_hours_estimate": 9.1,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -83088,8 +83102,8 @@
           "straight_km": 548,
           "drive_km_estimate": 685,
           "drive_hours_estimate": 9.1,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -83217,8 +83231,8 @@
           "straight_km": 544,
           "drive_km_estimate": 680,
           "drive_hours_estimate": 9.1,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -83479,8 +83493,8 @@
           "straight_km": 634,
           "drive_km_estimate": 792,
           "drive_hours_estimate": 10.6,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -83608,8 +83622,8 @@
           "straight_km": 551,
           "drive_km_estimate": 689,
           "drive_hours_estimate": 9.2,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -83737,8 +83751,8 @@
           "straight_km": 578,
           "drive_km_estimate": 722,
           "drive_hours_estimate": 9.6,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -83996,8 +84010,8 @@
           "straight_km": 575,
           "drive_km_estimate": 718,
           "drive_hours_estimate": 9.6,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -84127,8 +84141,8 @@
           "straight_km": 281,
           "drive_km_estimate": 351,
           "drive_hours_estimate": 4.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -84385,8 +84399,8 @@
           "straight_km": 481,
           "drive_km_estimate": 601,
           "drive_hours_estimate": 8.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -85046,8 +85060,8 @@
           "straight_km": 813,
           "drive_km_estimate": 1017,
           "drive_hours_estimate": 13.6,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -85179,8 +85193,8 @@
           "straight_km": 803,
           "drive_km_estimate": 1003,
           "drive_hours_estimate": 13.4,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -85565,8 +85579,8 @@
           "straight_km": 539,
           "drive_km_estimate": 674,
           "drive_hours_estimate": 9.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -85693,8 +85707,8 @@
           "straight_km": 539,
           "drive_km_estimate": 674,
           "drive_hours_estimate": 9.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -86487,8 +86501,8 @@
           "straight_km": 538,
           "drive_km_estimate": 673,
           "drive_hours_estimate": 9.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -86618,8 +86632,8 @@
           "straight_km": 540,
           "drive_km_estimate": 675,
           "drive_hours_estimate": 9.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -88532,8 +88546,8 @@
           "straight_km": 334,
           "drive_km_estimate": 417,
           "drive_hours_estimate": 5.6,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -89439,8 +89453,8 @@
           "straight_km": 813,
           "drive_km_estimate": 1016,
           "drive_hours_estimate": 13.5,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -89585,8 +89599,8 @@
           "straight_km": 933,
           "drive_km_estimate": 1166,
           "drive_hours_estimate": 15.6,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -90101,8 +90115,8 @@
           "straight_km": 538,
           "drive_km_estimate": 672,
           "drive_hours_estimate": 9.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -90632,8 +90646,8 @@
           "straight_km": 498,
           "drive_km_estimate": 622,
           "drive_hours_estimate": 8.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -92497,8 +92511,8 @@
           "straight_km": 101,
           "drive_km_estimate": 126,
           "drive_hours_estimate": 1.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -94052,8 +94066,8 @@
           "straight_km": 600,
           "drive_km_estimate": 750,
           "drive_hours_estimate": 10.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -94779,8 +94793,8 @@
           "straight_km": 532,
           "drive_km_estimate": 666,
           "drive_hours_estimate": 8.9,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -94908,8 +94922,8 @@
           "straight_km": 577,
           "drive_km_estimate": 721,
           "drive_hours_estimate": 9.6,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -96952,8 +96966,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-29T01:16:11+00:00",
-      "last_seen": "2026-10-16T02:23:24Z",
-      "last_verified": "2026-10-16T02:23:24Z",
+      "last_seen": "2026-11-09T00:56:27Z",
+      "last_verified": "2026-11-09T00:56:27Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -96980,7 +96994,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-14T17:58:05.000000Z",
+      "source_updated": "2026-10-22T00:00:37.000000Z",
       "source_published": "2026-03-14T20:46:18.000000Z",
       "image_url": "assets/listings/8767923bef766b112920.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/colorado/470-acres-for-sale-in-san-luis-colorado-24150",
@@ -97019,7 +97033,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/03/14/69b5d01f03836-1773522975.jpg",
-      "photo_preserved_at": "2026-10-16T02:17:47+00:00",
+      "photo_preserved_at": "2026-11-09T00:51:17+00:00",
       "photo_history": [
         {
           "path": "assets/listings/8767923bef766b112920.jpg",
@@ -97082,8 +97096,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-29T01:16:11+00:00",
-      "last_seen": "2026-10-16T02:23:26Z",
-      "last_verified": "2026-10-16T02:23:26Z",
+      "last_seen": "2026-11-09T00:56:29Z",
+      "last_verified": "2026-11-09T00:56:29Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -97110,7 +97124,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-14T17:55:52.000000Z",
+      "source_updated": "2026-10-22T00:00:37.000000Z",
       "source_published": "2025-08-12T21:57:02.000000Z",
       "image_url": "assets/listings/8bafc9597c1d372fa49c.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/colorado/482-acres-for-sale-in-blanca-colorado-21980",
@@ -97148,7 +97162,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2025/08/12/689bbd18aa30f-1755036952.jpg",
-      "photo_preserved_at": "2026-10-16T02:17:47+00:00",
+      "photo_preserved_at": "2026-11-09T00:51:17+00:00",
       "photo_history": [
         {
           "path": "assets/listings/8bafc9597c1d372fa49c.jpg",
@@ -97565,8 +97579,8 @@
           "straight_km": 256,
           "drive_km_estimate": 320,
           "drive_hours_estimate": 4.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -97960,8 +97974,8 @@
           "straight_km": 226,
           "drive_km_estimate": 283,
           "drive_hours_estimate": 3.8,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -98087,8 +98101,8 @@
           "straight_km": 228,
           "drive_km_estimate": 285,
           "drive_hours_estimate": 3.8,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -98214,8 +98228,8 @@
           "straight_km": 227,
           "drive_km_estimate": 284,
           "drive_hours_estimate": 3.8,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -98351,8 +98365,8 @@
           "straight_km": 593,
           "drive_km_estimate": 741,
           "drive_hours_estimate": 9.9,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -98478,8 +98492,8 @@
           "straight_km": 574,
           "drive_km_estimate": 718,
           "drive_hours_estimate": 9.6,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -99671,8 +99685,8 @@
           "straight_km": 735,
           "drive_km_estimate": 919,
           "drive_hours_estimate": 12.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -100053,8 +100067,8 @@
           "straight_km": 655,
           "drive_km_estimate": 819,
           "drive_hours_estimate": 10.9,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -100181,8 +100195,8 @@
           "straight_km": 655,
           "drive_km_estimate": 819,
           "drive_hours_estimate": 10.9,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -100311,8 +100325,8 @@
           "straight_km": 519,
           "drive_km_estimate": 649,
           "drive_hours_estimate": 8.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -100441,8 +100455,8 @@
           "straight_km": 526,
           "drive_km_estimate": 658,
           "drive_hours_estimate": 8.8,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -100570,8 +100584,8 @@
           "straight_km": 527,
           "drive_km_estimate": 658,
           "drive_hours_estimate": 8.8,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -100698,8 +100712,8 @@
           "straight_km": 500,
           "drive_km_estimate": 625,
           "drive_hours_estimate": 8.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -100826,8 +100840,8 @@
           "straight_km": 534,
           "drive_km_estimate": 667,
           "drive_hours_estimate": 8.9,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -101074,8 +101088,8 @@
           "straight_km": 97,
           "drive_km_estimate": 121,
           "drive_hours_estimate": 1.6,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -101214,8 +101228,8 @@
           "straight_km": 736,
           "drive_km_estimate": 920,
           "drive_hours_estimate": 12.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -101344,8 +101358,8 @@
           "straight_km": 735,
           "drive_km_estimate": 919,
           "drive_hours_estimate": 12.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -101474,8 +101488,8 @@
           "straight_km": 735,
           "drive_km_estimate": 919,
           "drive_hours_estimate": 12.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -101604,8 +101618,8 @@
           "straight_km": 737,
           "drive_km_estimate": 921,
           "drive_hours_estimate": 12.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -101896,8 +101910,8 @@
           "straight_km": 584,
           "drive_km_estimate": 730,
           "drive_hours_estimate": 9.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -101924,7 +101938,7 @@
         "price": 119995.0,
         "image_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/14/6acfe4ad084cf-1792009389.jpg",
         "source_updated": "2026-11-07T05:58:35.000000Z",
-        "date": "2026-11-08T00:50:48+00:00"
+        "date": "2026-11-09T00:51:17+00:00"
       },
       "source_identity_history": [
         {
@@ -102185,8 +102199,8 @@
           "straight_km": 536,
           "drive_km_estimate": 670,
           "drive_hours_estimate": 8.9,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -103382,8 +103396,8 @@
           "straight_km": 228,
           "drive_km_estimate": 286,
           "drive_hours_estimate": 3.8,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -103521,8 +103535,8 @@
           "straight_km": 261,
           "drive_km_estimate": 326,
           "drive_hours_estimate": 4.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -103660,8 +103674,8 @@
           "straight_km": 300,
           "drive_km_estimate": 374,
           "drive_hours_estimate": 5.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -103779,8 +103793,8 @@
           "straight_km": 248,
           "drive_km_estimate": 310,
           "drive_hours_estimate": 4.1,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -104172,8 +104186,8 @@
           "straight_km": 130,
           "drive_km_estimate": 162,
           "drive_hours_estimate": 2.2,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -104309,8 +104323,8 @@
           "straight_km": 586,
           "drive_km_estimate": 733,
           "drive_hours_estimate": 9.8,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -104438,8 +104452,8 @@
           "straight_km": 521,
           "drive_km_estimate": 651,
           "drive_hours_estimate": 8.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -104573,8 +104587,8 @@
           "straight_km": 487,
           "drive_km_estimate": 609,
           "drive_hours_estimate": 8.1,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -105602,8 +105616,8 @@
           "straight_km": 257,
           "drive_km_estimate": 322,
           "drive_hours_estimate": 4.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -105849,8 +105863,8 @@
           "straight_km": 206,
           "drive_km_estimate": 257,
           "drive_hours_estimate": 3.4,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -105998,8 +106012,8 @@
           "straight_km": 279,
           "drive_km_estimate": 349,
           "drive_hours_estimate": 4.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -106116,8 +106130,8 @@
           "straight_km": 79,
           "drive_km_estimate": 98,
           "drive_hours_estimate": 1.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -106401,8 +106415,8 @@
           "straight_km": 228,
           "drive_km_estimate": 285,
           "drive_hours_estimate": 3.8,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -106536,8 +106550,8 @@
           "straight_km": 537,
           "drive_km_estimate": 671,
           "drive_hours_estimate": 8.9,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -106804,8 +106818,8 @@
           "straight_km": 531,
           "drive_km_estimate": 664,
           "drive_hours_estimate": 8.9,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -107064,8 +107078,8 @@
           "straight_km": 582,
           "drive_km_estimate": 728,
           "drive_hours_estimate": 9.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -108021,8 +108035,8 @@
           "straight_km": 587,
           "drive_km_estimate": 734,
           "drive_hours_estimate": 9.8,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -108148,8 +108162,8 @@
           "straight_km": 549,
           "drive_km_estimate": 687,
           "drive_hours_estimate": 9.2,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -108285,8 +108299,8 @@
           "straight_km": 556,
           "drive_km_estimate": 695,
           "drive_hours_estimate": 9.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -108412,8 +108426,8 @@
           "straight_km": 585,
           "drive_km_estimate": 731,
           "drive_hours_estimate": 9.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -108528,8 +108542,8 @@
           "straight_km": 563,
           "drive_km_estimate": 703,
           "drive_hours_estimate": 9.4,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -108787,8 +108801,8 @@
           "straight_km": 81,
           "drive_km_estimate": 101,
           "drive_hours_estimate": 1.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -108913,8 +108927,8 @@
           "straight_km": 84,
           "drive_km_estimate": 105,
           "drive_hours_estimate": 1.4,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -109059,8 +109073,8 @@
           "straight_km": 333,
           "drive_km_estimate": 417,
           "drive_hours_estimate": 5.6,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -109187,8 +109201,8 @@
           "straight_km": 334,
           "drive_km_estimate": 417,
           "drive_hours_estimate": 5.6,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -109313,8 +109327,8 @@
           "straight_km": 280,
           "drive_km_estimate": 350,
           "drive_hours_estimate": 4.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -109441,8 +109455,8 @@
           "straight_km": 334,
           "drive_km_estimate": 417,
           "drive_hours_estimate": 5.6,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -109556,8 +109570,8 @@
           "straight_km": 539,
           "drive_km_estimate": 674,
           "drive_hours_estimate": 9.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -109684,8 +109698,8 @@
           "straight_km": 467,
           "drive_km_estimate": 584,
           "drive_hours_estimate": 7.8,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -109803,8 +109817,8 @@
           "straight_km": 208,
           "drive_km_estimate": 260,
           "drive_hours_estimate": 3.5,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -109950,8 +109964,8 @@
           "straight_km": 232,
           "drive_km_estimate": 290,
           "drive_hours_estimate": 3.9,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -110077,8 +110091,8 @@
           "straight_km": 274,
           "drive_km_estimate": 343,
           "drive_hours_estimate": 4.6,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -110206,8 +110220,8 @@
           "straight_km": 707,
           "drive_km_estimate": 884,
           "drive_hours_estimate": 11.8,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -110335,8 +110349,8 @@
           "straight_km": 707,
           "drive_km_estimate": 883,
           "drive_hours_estimate": 11.8,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -110442,8 +110456,8 @@
           "straight_km": 77,
           "drive_km_estimate": 96,
           "drive_hours_estimate": 1.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -110577,8 +110591,8 @@
           "straight_km": 538,
           "drive_km_estimate": 672,
           "drive_hours_estimate": 9.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -110831,8 +110845,8 @@
           "straight_km": 539,
           "drive_km_estimate": 673,
           "drive_hours_estimate": 9.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -111481,8 +111495,8 @@
           "straight_km": 984,
           "drive_km_estimate": 1230,
           "drive_hours_estimate": 16.4,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -111727,8 +111741,8 @@
           "straight_km": 524,
           "drive_km_estimate": 655,
           "drive_hours_estimate": 8.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -111967,8 +111981,8 @@
           "straight_km": 240,
           "drive_km_estimate": 300,
           "drive_hours_estimate": 4.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -112718,8 +112732,8 @@
           "straight_km": 225,
           "drive_km_estimate": 281,
           "drive_hours_estimate": 3.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -112842,8 +112856,8 @@
           "straight_km": 224,
           "drive_km_estimate": 280,
           "drive_hours_estimate": 3.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -112966,8 +112980,8 @@
           "straight_km": 224,
           "drive_km_estimate": 280,
           "drive_hours_estimate": 3.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -113348,8 +113362,8 @@
           "straight_km": 476,
           "drive_km_estimate": 595,
           "drive_hours_estimate": 7.9,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -113472,8 +113486,8 @@
           "straight_km": 480,
           "drive_km_estimate": 600,
           "drive_hours_estimate": 8.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -113596,8 +113610,8 @@
           "straight_km": 478,
           "drive_km_estimate": 597,
           "drive_hours_estimate": 8.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -113722,8 +113736,8 @@
           "straight_km": 539,
           "drive_km_estimate": 674,
           "drive_hours_estimate": 9.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -115369,8 +115383,8 @@
           "straight_km": 574,
           "drive_km_estimate": 717,
           "drive_hours_estimate": 9.6,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -115495,8 +115509,8 @@
           "straight_km": 575,
           "drive_km_estimate": 718,
           "drive_hours_estimate": 9.6,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -115746,8 +115760,8 @@
           "straight_km": 496,
           "drive_km_estimate": 620,
           "drive_hours_estimate": 8.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -115873,8 +115887,8 @@
           "straight_km": 496,
           "drive_km_estimate": 620,
           "drive_hours_estimate": 8.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -116127,8 +116141,8 @@
           "straight_km": 549,
           "drive_km_estimate": 686,
           "drive_hours_estimate": 9.1,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -116642,8 +116656,8 @@
           "straight_km": 554,
           "drive_km_estimate": 693,
           "drive_hours_estimate": 9.2,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -116769,8 +116783,8 @@
           "straight_km": 534,
           "drive_km_estimate": 667,
           "drive_hours_estimate": 8.9,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -116897,8 +116911,8 @@
           "straight_km": 438,
           "drive_km_estimate": 548,
           "drive_hours_estimate": 7.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -117023,8 +117037,8 @@
           "straight_km": 496,
           "drive_km_estimate": 620,
           "drive_hours_estimate": 8.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -118169,8 +118183,8 @@
           "straight_km": 173,
           "drive_km_estimate": 216,
           "drive_hours_estimate": 2.9,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -118303,8 +118317,8 @@
           "straight_km": 539,
           "drive_km_estimate": 674,
           "drive_hours_estimate": 9.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -118551,8 +118565,8 @@
           "straight_km": 537,
           "drive_km_estimate": 671,
           "drive_hours_estimate": 9.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -119194,8 +119208,8 @@
           "straight_km": 825,
           "drive_km_estimate": 1032,
           "drive_hours_estimate": 13.8,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -119433,8 +119447,8 @@
           "straight_km": 226,
           "drive_km_estimate": 283,
           "drive_hours_estimate": 3.8,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -119557,8 +119571,8 @@
           "straight_km": 225,
           "drive_km_estimate": 281,
           "drive_hours_estimate": 3.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -120811,8 +120825,8 @@
           "straight_km": 833,
           "drive_km_estimate": 1042,
           "drive_hours_estimate": 13.9,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -120935,8 +120949,8 @@
           "straight_km": 825,
           "drive_km_estimate": 1031,
           "drive_hours_estimate": 13.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -121311,8 +121325,8 @@
           "straight_km": 733,
           "drive_km_estimate": 916,
           "drive_hours_estimate": 12.2,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -122050,8 +122064,8 @@
           "straight_km": 224,
           "drive_km_estimate": 280,
           "drive_hours_estimate": 3.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -122680,8 +122694,8 @@
           "straight_km": 477,
           "drive_km_estimate": 597,
           "drive_hours_estimate": 8.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -122804,8 +122818,8 @@
           "straight_km": 477,
           "drive_km_estimate": 596,
           "drive_hours_estimate": 8.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -122928,8 +122942,8 @@
           "straight_km": 477,
           "drive_km_estimate": 597,
           "drive_hours_estimate": 8.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -123548,8 +123562,8 @@
           "straight_km": 228,
           "drive_km_estimate": 285,
           "drive_hours_estimate": 3.8,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -123957,8 +123971,8 @@
           "straight_km": 809,
           "drive_km_estimate": 1011,
           "drive_hours_estimate": 13.5,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -124234,8 +124248,8 @@
           "straight_km": 1007,
           "drive_km_estimate": 1259,
           "drive_hours_estimate": 16.8,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -124612,8 +124626,8 @@
           "straight_km": 539,
           "drive_km_estimate": 674,
           "drive_hours_estimate": 9.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -124748,8 +124762,8 @@
           "straight_km": 539,
           "drive_km_estimate": 674,
           "drive_hours_estimate": 9.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -124879,8 +124893,8 @@
           "straight_km": 539,
           "drive_km_estimate": 674,
           "drive_hours_estimate": 9.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -125015,8 +125029,8 @@
           "straight_km": 539,
           "drive_km_estimate": 674,
           "drive_hours_estimate": 9.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -125904,8 +125918,8 @@
           "straight_km": 226,
           "drive_km_estimate": 283,
           "drive_hours_estimate": 3.8,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -126038,8 +126052,8 @@
           "straight_km": 840,
           "drive_km_estimate": 1050,
           "drive_hours_estimate": 14.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -126162,8 +126176,8 @@
           "straight_km": 833,
           "drive_km_estimate": 1042,
           "drive_hours_estimate": 13.9,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -126286,8 +126300,8 @@
           "straight_km": 840,
           "drive_km_estimate": 1050,
           "drive_hours_estimate": 14.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -126420,8 +126434,8 @@
           "straight_km": 786,
           "drive_km_estimate": 983,
           "drive_hours_estimate": 13.1,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -126544,8 +126558,8 @@
           "straight_km": 785,
           "drive_km_estimate": 982,
           "drive_hours_estimate": 13.1,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -126668,8 +126682,8 @@
           "straight_km": 783,
           "drive_km_estimate": 979,
           "drive_hours_estimate": 13.1,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -126772,8 +126786,8 @@
           "straight_km": 226,
           "drive_km_estimate": 283,
           "drive_hours_estimate": 3.8,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -127030,8 +127044,8 @@
           "straight_km": 449,
           "drive_km_estimate": 561,
           "drive_hours_estimate": 7.5,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -127154,8 +127168,8 @@
           "straight_km": 840,
           "drive_km_estimate": 1051,
           "drive_hours_estimate": 14.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -127399,8 +127413,8 @@
           "straight_km": 158,
           "drive_km_estimate": 198,
           "drive_hours_estimate": 2.6,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -128098,8 +128112,8 @@
           "straight_km": 540,
           "drive_km_estimate": 675,
           "drive_hours_estimate": 9.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -128360,8 +128374,8 @@
           "straight_km": 229,
           "drive_km_estimate": 287,
           "drive_hours_estimate": 3.8,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -128511,8 +128525,8 @@
           "straight_km": 521,
           "drive_km_estimate": 652,
           "drive_hours_estimate": 8.7,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -128938,8 +128952,8 @@
           "straight_km": 478,
           "drive_km_estimate": 597,
           "drive_hours_estimate": 8.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -129082,8 +129096,8 @@
           "straight_km": 480,
           "drive_km_estimate": 600,
           "drive_hours_estimate": 8.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -129230,8 +129244,8 @@
           "straight_km": 480,
           "drive_km_estimate": 600,
           "drive_hours_estimate": 8.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -129378,8 +129392,8 @@
           "straight_km": 480,
           "drive_km_estimate": 600,
           "drive_hours_estimate": 8.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -129526,8 +129540,8 @@
           "straight_km": 480,
           "drive_km_estimate": 600,
           "drive_hours_estimate": 8.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -129664,8 +129678,8 @@
           "straight_km": 99,
           "drive_km_estimate": 124,
           "drive_hours_estimate": 1.6,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -129806,8 +129820,8 @@
           "straight_km": 173,
           "drive_km_estimate": 217,
           "drive_hours_estimate": 2.9,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -129950,8 +129964,8 @@
           "straight_km": 173,
           "drive_km_estimate": 216,
           "drive_hours_estimate": 2.9,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -130092,8 +130106,8 @@
           "straight_km": 142,
           "drive_km_estimate": 178,
           "drive_hours_estimate": 2.4,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -130234,8 +130248,8 @@
           "straight_km": 153,
           "drive_km_estimate": 191,
           "drive_hours_estimate": 2.5,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -130387,8 +130401,8 @@
           "straight_km": 480,
           "drive_km_estimate": 600,
           "drive_hours_estimate": 8.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -130533,8 +130547,8 @@
           "straight_km": 480,
           "drive_km_estimate": 600,
           "drive_hours_estimate": 8.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -130680,8 +130694,8 @@
           "straight_km": 480,
           "drive_km_estimate": 600,
           "drive_hours_estimate": 8.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -130826,8 +130840,8 @@
           "straight_km": 480,
           "drive_km_estimate": 600,
           "drive_hours_estimate": 8.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -130972,8 +130986,8 @@
           "straight_km": 480,
           "drive_km_estimate": 600,
           "drive_hours_estimate": 8.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -131118,8 +131132,8 @@
           "straight_km": 480,
           "drive_km_estimate": 600,
           "drive_hours_estimate": 8.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -131264,8 +131278,8 @@
           "straight_km": 476,
           "drive_km_estimate": 595,
           "drive_hours_estimate": 7.9,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -131406,8 +131420,8 @@
           "straight_km": 478,
           "drive_km_estimate": 598,
           "drive_hours_estimate": 8.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -131549,8 +131563,8 @@
           "straight_km": 479,
           "drive_km_estimate": 599,
           "drive_hours_estimate": 8.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -131691,8 +131705,8 @@
           "straight_km": 478,
           "drive_km_estimate": 598,
           "drive_hours_estimate": 8.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -131833,8 +131847,8 @@
           "straight_km": 478,
           "drive_km_estimate": 597,
           "drive_hours_estimate": 8.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -131973,8 +131987,8 @@
           "straight_km": 477,
           "drive_km_estimate": 596,
           "drive_hours_estimate": 8.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -132276,8 +132290,8 @@
           "straight_km": 799,
           "drive_km_estimate": 999,
           "drive_hours_estimate": 13.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -132535,8 +132549,8 @@
           "straight_km": 539,
           "drive_km_estimate": 674,
           "drive_hours_estimate": 9.0,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -133259,8 +133273,8 @@
           "straight_km": 527,
           "drive_km_estimate": 658,
           "drive_hours_estimate": 8.8,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -133977,8 +133991,8 @@
           "straight_km": 535,
           "drive_km_estimate": 669,
           "drive_hours_estimate": 8.9,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -134398,8 +134412,8 @@
           "straight_km": 496,
           "drive_km_estimate": 620,
           "drive_hours_estimate": 8.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -134541,8 +134555,8 @@
           "straight_km": 257,
           "drive_km_estimate": 321,
           "drive_hours_estimate": 4.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -134682,8 +134696,8 @@
           "straight_km": 536,
           "drive_km_estimate": 670,
           "drive_hours_estimate": 8.9,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -134958,8 +134972,8 @@
           "straight_km": 82,
           "drive_km_estimate": 102,
           "drive_hours_estimate": 1.4,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -135110,8 +135124,8 @@
           "straight_km": 79,
           "drive_km_estimate": 98,
           "drive_hours_estimate": 1.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -135261,8 +135275,8 @@
           "straight_km": 81,
           "drive_km_estimate": 101,
           "drive_hours_estimate": 1.3,
-          "flight_min_eur": 576,
-          "flight_origin": "LON",
+          "flight_min_eur": 758,
+          "flight_origin": "CPH",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -135607,6 +135621,513 @@
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/tennessee/1-5-acres-for-sale-in-pikeville-tennessee-27064"
       ]
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-09T00:51:17+00:00",
+      "last_seen": "2026-11-09T00:53:52Z",
+      "last_verified": "2026-11-09T00:53:52Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27071",
+      "source_id": "27071",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/colorado/4-6-acres-for-sale-in-san-luis-colorado-27071",
+      "title": "Tivoli Rd.",
+      "address": "Tivoli Rd.",
+      "city": "San Luis",
+      "state": "CO",
+      "county": "Costilla",
+      "zip": "81152",
+      "kind": "land",
+      "price": 8900.0,
+      "known_fees": 0.0,
+      "total_known": 8900.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 4.6,
+      "lat": 37.340167,
+      "lng": -105.388917,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-08T17:17:18.000000Z",
+      "source_published": "2026-11-08T16:58:02.000000Z",
+      "image_url": "assets/listings/e2baa5262c71d3d42fa1.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/colorado/4-6-acres-for-sale-in-san-luis-colorado-27071",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "70602340",
+      "zoning": "Residential",
+      "road_note": "Dirt Road",
+      "utility_note": "Electricity available, septic and well required",
+      "taxes_note": "$133",
+      "source_categories": [
+        "residential-buildable-land",
+        "agricultural-and-farm-land",
+        "owner-finance-deals",
+        "recreational-and-hunting-land",
+        "mobile-home-and-rv-land",
+        "vacant-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "seller_claim",
+      "rv_occupancy": "seller_conditional",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "available",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "flags": [
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
+      "evidence_quote": "Great Sand Dunes National Park and Preserve offers hiking and sandboarding, while the Fort Garland Museum and Cultural Center is a good",
+      "price_history": [
+        {
+          "date": "2026-11-09T00:51:17+00:00",
+          "price": 8900.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/4-6-acres-for-sale-in-san-luis-colorado-27071"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/08/6af0abcff1296-1794157519.jpg",
+      "photo_preserved_at": "2026-11-09T00:51:17+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/e2baa5262c71d3d42fa1.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/4-6-acres-for-sale-in-san-luis-colorado-27071",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/08/6af0abcff1296-1794157519.jpg",
+          "date": "2026-11-09T00:51:17+00:00"
+        }
+      ],
+      "region": "Горный",
+      "screening_issue": null,
+      "climate_note": "San Luis Valley даёт много дешёвых лотов, но это высокогорье с морозом, ветром и дорогими коммуникациями. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "DEN",
+          "name": "Denver International Airport",
+          "straight_km": 287,
+          "drive_km_estimate": 359,
+          "drive_hours_estimate": 4.8,
+          "flight_min_eur": 629,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "SLC",
+          "name": "Salt Lake City International Airport",
+          "straight_km": 686,
+          "drive_km_estimate": 857,
+          "drive_hours_estimate": 11.4,
+          "flight_min_eur": 751,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "PHX",
+          "name": "Phoenix Sky Harbor International Airport",
+          "straight_km": 740,
+          "drive_km_estimate": 925,
+          "drive_hours_estimate": 12.3,
+          "flight_min_eur": 731,
+          "flight_origin": "WAW",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1317,
+      "score_parts": {
+        "Цена /25": 15,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 1,
+        "Сезон /10": 3,
+        "Дорога /10": 5
+      },
+      "score": 24
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-09T00:51:17+00:00",
+      "last_seen": "2026-11-09T00:53:54Z",
+      "last_verified": "2026-11-09T00:53:54Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27070",
+      "source_id": "27070",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/illinois/1-23-acres-for-sale-in-vermont-illinois-27070",
+      "title": "504 West 3rd Street",
+      "address": "504 West 3rd Street",
+      "city": "Vermont",
+      "state": "IL",
+      "county": "Fulton",
+      "zip": "61484",
+      "kind": "land",
+      "price": 9999.0,
+      "known_fees": 0.0,
+      "total_known": 9999.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 1.23,
+      "lat": 40.295535,
+      "lng": -90.432505,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-08T15:31:20.000000Z",
+      "source_published": "2026-11-08T15:29:38.000000Z",
+      "image_url": "assets/listings/6fa44510a351553e16ff.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/illinois/1-23-acres-for-sale-in-vermont-illinois-27070",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "20-22-304-020-05",
+      "zoning": "Residential",
+      "road_note": "Paved Road",
+      "utility_note": "Electricity available, septic and well required",
+      "taxes_note": "250",
+      "source_categories": [
+        "residential-buildable-land",
+        "owner-finance-deals"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "seller_claim",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "available",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "flags": [],
+      "evidence_quote": "The community's agricultural heritage and traditional Midwestern charm make it appealing to individuals who appreciate a quieter lifestyle while maintaining connections to",
+      "price_history": [
+        {
+          "date": "2026-11-09T00:51:17+00:00",
+          "price": 9999.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/illinois/1-23-acres-for-sale-in-vermont-illinois-27070"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/08/6af0958c24f4f-1794151820.jpg",
+      "photo_preserved_at": "2026-11-09T00:51:17+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/6fa44510a351553e16ff.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/illinois/1-23-acres-for-sale-in-vermont-illinois-27070",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/08/6af0958c24f4f-1794151820.jpg",
+          "date": "2026-11-09T00:51:17+00:00"
+        }
+      ],
+      "region": "Средний Запад",
+      "screening_issue": null,
+      "climate_note": "Полезный рынок небольших зданий, гаражей и городских лотов. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "STL",
+          "name": "St. Louis Lambert International Airport",
+          "straight_km": 172,
+          "drive_km_estimate": 215,
+          "drive_hours_estimate": 2.9,
+          "flight_min_eur": 823,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "ORD",
+          "name": "Chicago O'Hare International Airport",
+          "straight_km": 283,
+          "drive_km_estimate": 353,
+          "drive_hours_estimate": 4.7,
+          "flight_min_eur": 464,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "MSP",
+          "name": "Minneapolis–Saint Paul International Airport / Wold–Chamberlain Field",
+          "straight_km": 558,
+          "drive_km_estimate": 698,
+          "drive_hours_estimate": 9.3,
+          "flight_min_eur": 646,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 559,
+      "score_parts": {
+        "Цена /25": 13,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 1,
+        "Сезон /10": 4,
+        "Дорога /10": 7
+      },
+      "score": 25
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-09T00:51:17+00:00",
+      "last_seen": "2026-11-09T00:53:55Z",
+      "last_verified": "2026-11-09T00:53:55Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27069",
+      "source_id": "27069",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/georgia/d745evp456rogress6af080480ff406af080480ff41",
+      "title": "Brandywine Run",
+      "address": "Brandywine Run",
+      "city": "Sparta",
+      "state": "GA",
+      "county": "Hancock",
+      "zip": "31087",
+      "kind": "land",
+      "price": 12000.0,
+      "known_fees": 0.0,
+      "total_known": 12000.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 1.06,
+      "lat": 33.2115719,
+      "lng": -83.2481519,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-08T13:59:36.000000Z",
+      "source_published": "2026-11-08T13:59:36.000000Z",
+      "image_url": "assets/listings/a61fd59790d46ee9e90a.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/georgia/d745evp456rogress6af080480ff406af080480ff41",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "005c 052",
+      "zoning": "Residentia",
+      "road_note": "Dirt Road",
+      "utility_note": "Septic Needed, Well Needed",
+      "taxes_note": "35.00",
+      "source_categories": [
+        "residential-buildable-land",
+        "owner-finance-deals",
+        "recreational-and-hunting-land",
+        "mobile-home-and-rv-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "flags": [
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
+      "evidence_quote": "Prohibited Uses: Mobile Homes, Tiny Homes, RVs, and RV Living (explicitly marked as Prohibited).",
+      "price_history": [
+        {
+          "date": "2026-11-09T00:51:17+00:00",
+          "price": 12000.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/georgia/d745evp456rogress6af080480ff406af080480ff41"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/08/6af0820835669-1794146824.jpg",
+      "photo_preserved_at": "2026-11-09T00:51:17+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/a61fd59790d46ee9e90a.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/georgia/d745evp456rogress6af080480ff406af080480ff41",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/08/6af0820835669-1794146824.jpg",
+          "date": "2026-11-09T00:51:17+00:00"
+        }
+      ],
+      "region": "Юг",
+      "screening_issue": null,
+      "climate_note": "Хороший компромисс сезона и международного аэропорта. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "ATL",
+          "name": "Hartsfield Jackson Atlanta International Airport",
+          "straight_km": 119,
+          "drive_km_estimate": 149,
+          "drive_hours_estimate": 2.0,
+          "flight_min_eur": 564,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "CLT",
+          "name": "Charlotte Douglas International Airport",
+          "straight_km": 307,
+          "drive_km_estimate": 384,
+          "drive_hours_estimate": 5.1,
+          "flight_min_eur": 691,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "BNA",
+          "name": "Nashville International Airport",
+          "straight_km": 451,
+          "drive_km_estimate": 564,
+          "drive_hours_estimate": 7.5,
+          "flight_min_eur": 604,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1555,
+      "score_parts": {
+        "Цена /25": 10,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 8,
+        "Дорога /10": 8
+      },
+      "score": 26
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-09T00:51:17+00:00",
+      "last_seen": "2026-11-09T00:53:58Z",
+      "last_verified": "2026-11-09T00:53:58Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27067",
+      "source_id": "27067",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/florida/d745evp456rogress6af07ded4fd576af07ded4fd59",
+      "title": "Spring Lake Dr",
+      "address": "Spring Lake Dr",
+      "city": "DeFuniak Springs",
+      "state": "FL",
+      "county": "Walton",
+      "zip": "32433",
+      "kind": "land",
+      "price": 14900.0,
+      "known_fees": 0.0,
+      "total_known": 14900.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 0.48,
+      "lat": 30.759285,
+      "lng": -86.064093,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-08T13:49:33.000000Z",
+      "source_published": "2026-11-08T13:49:33.000000Z",
+      "image_url": "assets/listings/0af4bf5ab133a6928710.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/florida/d745evp456rogress6af07ded4fd576af07ded4fd59",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "17-3n-18-10022-007-001a",
+      "zoning": "Agricultural General (AG) - Unincorporated Walton County",
+      "road_note": "Dirt Road",
+      "utility_note": "Septic Needed, Well Needed",
+      "taxes_note": "39.00",
+      "source_categories": [
+        "residential-buildable-land",
+        "owner-finance-deals",
+        "recreational-and-hunting-land",
+        "mobile-home-and-rv-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "seller_no",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "flags": [
+        "Продавец указывает ограничение на RV; хранение и ремонт проверить отдельно.",
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
+      "evidence_quote": "RV living: Temporary/recreational use only.",
+      "price_history": [
+        {
+          "date": "2026-11-09T00:51:17+00:00",
+          "price": 14900.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/florida/d745evp456rogress6af07ded4fd576af07ded4fd59"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/08/6af07f7f4360f-1794146175.jpg",
+      "photo_preserved_at": "2026-11-09T00:51:17+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/0af4bf5ab133a6928710.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/florida/d745evp456rogress6af07ded4fd576af07ded4fd59",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/08/6af07f7f4360f-1794146175.jpg",
+          "date": "2026-11-09T00:51:17+00:00"
+        }
+      ],
+      "region": "Юг",
+      "screening_issue": null,
+      "climate_note": "Дешёвый перелёт и мягкая зима. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "ATL",
+          "name": "Hartsfield Jackson Atlanta International Airport",
+          "straight_km": 355,
+          "drive_km_estimate": 444,
+          "drive_hours_estimate": 5.9,
+          "flight_min_eur": 564,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "MCO",
+          "name": "Orlando International Airport",
+          "straight_km": 528,
+          "drive_km_estimate": 660,
+          "drive_hours_estimate": 8.8,
+          "flight_min_eur": 484,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "BNA",
+          "name": "Nashville International Airport",
+          "straight_km": 599,
+          "drive_km_estimate": 749,
+          "drive_hours_estimate": 10.0,
+          "flight_min_eur": 604,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1690,
+      "score_parts": {
+        "Цена /25": 5,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 7,
+        "Дорога /10": 4
+      },
+      "score": 16
     }
   ]
 }
