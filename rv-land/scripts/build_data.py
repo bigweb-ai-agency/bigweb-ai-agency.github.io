@@ -133,7 +133,9 @@ def flags_from_text(description,kind='land',road=None,utilities=None):
     # In "electricity available, septic and well required", the nearby word
     # "available" must not transfer to either of the required utilities.
     utility_word=r'(?:septic(?: system)?|well|water|sewer|electricity|power)'
-    required_pattern=rf'\b{utility_word}(?:\s*(?:and|&|/)\s*{utility_word})*\s+(?:(?:is|are)\s+)?(?:required|needed)\b'
+    required_pattern=(rf'\b{utility_word}(?:\s*(?:and|&|/)\s*{utility_word})*\s+'
+                      rf'(?:(?:is|are|would be|will be)\s+)?(?:required|needed)\b'
+                      rf'|\b(?:you|buyer|owner)\s+will\s+need\s+(?:a |an )?{utility_word}\b')
     for required in re.finditer(required_pattern,t+' '+compact(utilities).lower()):
         clause=required.group()
         for tag,pat in [('electricity',r'\b(?:electricity|power)\b'),('water',r'\b(?:well|water)\b'),('sewer',r'\b(?:septic|sewer)\b')]:

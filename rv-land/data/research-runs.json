@@ -5518,7 +5518,172 @@
       "rotation_reason": "Continue low-coverage rotation; automatic catalogs rotate through all50 states nightly.",
       "preservation": "All1047 priorrecords,IDs,first_seen,price/status/photo histories and photos retained.1newpendinggarage record with1originalphoto. All734oldflightobservations and41priorcontrolcards preserved. Sicily unchanged.",
       "validation": "Focused fee/data tests,validator,oldrecord/photo preservation assertions,scoped publication and live map/photo/flight verification."
+    },
+    {
+      "date": "2026-11-10T03:19:52+00:00",
+      "states": [
+        "DE",
+        "RI",
+        "NH"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [],
+      "updated_ids": [
+        "lc-27076",
+        "lc-27074",
+        "lc-27059",
+        "lc-27058",
+        "lc-26960",
+        "lc-24469",
+        "lc-24407",
+        "lc-24367",
+        "lc-24149",
+        "lc-24094",
+        "lc-23379",
+        "lc-25936"
+      ],
+      "automatic_added_ids": [
+        "lc-27076",
+        "lc-27074",
+        "lc-27059",
+        "lc-27058",
+        "lc-26960",
+        "lc-24469",
+        "lc-24407",
+        "lc-24367",
+        "lc-24149",
+        "lc-24094",
+        "lc-23379"
+      ],
+      "automatic_updated_ids": [
+        "lc-25936"
+      ],
+      "workflow": {
+        "run_id": 42730974272,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/42730974272",
+        "conclusion": "success",
+        "created_at": "2026-11-10T00:47:25Z",
+        "data_commit": "5a1add6f045d4fb066b30ece8439e4eb99df0492"
+      },
+      "monitor": {
+        "date": "2026-11-10T00:47:47+00:00",
+        "status": "partial",
+        "scanned_pages": 116,
+        "read_details": 65,
+        "added": 11,
+        "changed": 0,
+        "errors": 55
+      },
+      "source_errors": "Nightly and Pages42731689944 succeeded; duplicate Pages42731689245 cancelled.116 catalog pages,65 details,11 new,0 counted price/status/photo changes,55 errors. All20 retained samples HTTP404; other35 uncharacterized. No status inference and no automatic-collection fallback needed. Fee-only change lc-25936 is outside the current monitor changed counter.",
+      "findings": [
+        {
+          "id": "lc-27076",
+          "finding": "8000/.12ac Pahrump, satellite listing image. Recreational RV claim only, no confirmed storage or repair permission."
+        },
+        {
+          "id": "lc-27074",
+          "finding": "9525/15ac Concho. Fresh source says 30ft easement shall be established, not proof of recorded access. Off-grid utilities,61.30annualtax seller claim. Camping permit wording unresolved, personal repair unknown."
+        },
+        {
+          "id": "lc-27059",
+          "finding": "11995/2.5ac Apache. Text has invalid334.831589latitude; independently valid structured map34.831589 retained.249closing under financing not asserted as cash fee. ParkyourRV phrase not evidence of permanent storage."
+        },
+        {
+          "id": "lc-27058",
+          "finding": "Explicit cash9750 versus structured9790;7.76ac structured versus7.79ac description. Both discrepancies disclosed; no guessed correction.249closing cash applicability unknown; unrestricted RV claim not accepted as county permission."
+        },
+        {
+          "id": "lc-26960",
+          "finding": "6999cash+249doc explicitly for both options=7248. Original image advertises199/month,kept distinct from purchase. No utilities; camping/building conditions and preparation costs disclosed."
+        },
+        {
+          "id": "lc-24469",
+          "finding": "13900/10ac Culberson, bare land not an existing commercial facility.249closing duewithdownpayment does not establish cash fee. Well/septic needed; provider name is not installed power."
+        },
+        {
+          "id": "lc-24149",
+          "finding": "13900/10ac Culberson, commercial portal tag not official zoning.249closing in financing context; cash applicability unknown. RV while building not independent repairbase approval."
+        },
+        {
+          "id": "lc-24407",
+          "finding": "6000/.16ac Shadybrook. Public water nearby must not make future septic available; corrected sewer to unknown and added parser regression.60x125description versus60x120legal discrepancy retained."
+        },
+        {
+          "id": "lc-24367",
+          "finding": "6000HorizonCityEstates Unit76Block19Lot35. Probable duplicate lc-24094 with same image/coordinates and differently formatted APN; both preserved and held pending parcel/price resolution."
+        },
+        {
+          "id": "lc-24094",
+          "finding": "6500/APNH784-076-0190-0350; probable same lot as lc-24367 at6000. No silent merge, deletion or invented sold status; both held out of candidate totals."
+        },
+        {
+          "id": "lc-23379",
+          "finding": "9999/.12ac Quinlan. Description says buyer verify utilities and road access; generic lake aerial does not prove access or parcel boundaries."
+        },
+        {
+          "id": "lc-25936",
+          "finding": "7500cash confirmed;199doc expressly purchase-on-terms. Automatic removal from known cash fees is appropriate, other closing unknown. Tax96/year seller claim and temporary camping limitations recorded."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.craigslist.org/view/d/warwick-garage-for-sale-lower-price/eAhipVcky2BbjBK2AuhRVZ",
+          "finding": "RI live Chrome Nov10: garage7620, postedOct30 updatedNov8, advertised10x20ft withdelivery included after seller soldCamaro. Land ownership not advertised and20ft shorter than7m RV; portable structure not imported as owned workshop property. Three duplicate catalogposts not three parcels."
+        },
+        {
+          "url": "https://www.redfin.com/DE/Newark/1-Iris-Ct-19713/unit-258/home/206892269",
+          "finding": "DE fresh11999 manufacturedhome withcarport,MLS DENC2114404,landlease1021/month. Excluded: no owned land included."
+        },
+        {
+          "url": "https://www.activeadultsdelaware.com/listing/DEKT2051890/60-kentwood-drive-dover-de-19901/",
+          "finding": "DE live15000 supersedes indexed11500 for60KentwoodUnit60,MLSDEKT2051890;lotrent494/month. Excluded as leasedland mobilehome,not owned repairbase."
+        },
+        {
+          "url": "https://owlsnestrealestate.com/listing/conway-nh/127-c-road-5116867",
+          "finding": "NH live15000/.09ac 127CRoad,RA,floodzone,unbuildablecampinglot,powerstreet.128/129adjacent each15000catalogleads. Already deferredNov6 for zoning conflict; no new parcel exception or repairpermission. Not imported just to fill NH count."
+        },
+        {
+          "url": "https://www.homes.com/new-hampshire/land-for-sale/under-15k/",
+          "finding": "NH catalog rotation: Webster9000 paperroad;Berlin10000 priorbrownfield record;ConwayThompson10000 landlockedabutteraddon;Richmond10900 priorwetlandlead;AltonFrohock15000 unmaintainedroads. No new verified garage/repair candidate."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/delaware/search/under-15000",
+          "finding": "DE indexed catalog includes monthly rentals,not qualifying purchaseprices; no suitable new owned parcel established."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/rhode-island/search/under-15000",
+          "finding": "RI catalog rental results and existing Narragansett15000hold do not supply new verified owned workshop."
+        }
+      ],
+      "official_sources": [
+        {
+          "url": "https://ecode360.com/29477474",
+          "finding": "Conway code initial page opened; targeted followup returned403. Stopped,no bypass. PriorNov6zoning caution retained,not relabelled freshly parcel-confirmed."
+        },
+        {
+          "url": "https://www.apachecountyaz.gov/Community-Development",
+          "finding": "Officialpage timedout. January2022planningbackup searchresult is meetingmaterial,not evidence of adopted current RV rules. Apache permissions remain unknown."
+        },
+        {
+          "url": "https://www.costillacounty.gov/media/2011",
+          "finding": "OfficialCostilla landuse PDF returned403. Stopped,no bypass. Indexed14days/3months language does not establish parcel-specific permanentstorage/repairpermission."
+        }
+      ],
+      "access": "Public search, live listing pages and Chrome.12 bounded fresh LandCentury pages through robots-aware Reader, all successful. Original listing photo references matched and12 images visually reviewed. No CAPTCHA/403/robots/login bypass,sellercontact,purchase,booking or infrastructure changes.",
+      "flight_review": {
+        "last_review": "2026-11-09",
+        "next_review": "2026-11-16",
+        "finding": "Weekly datedVNO/UK/EU fares and positioning comparison refreshed yesterday; retained byte-for-byte today."
+      },
+      "next_states": [
+        "CT",
+        "MA",
+        "NJ"
+      ],
+      "rotation_reason": "Continue low-photo-coverage states; public nightly catalogs rotate all50states. No quota filler.",
+      "preservation": "All1059 postnightlyrecords,IDs,first_seen,price/status/photo histories and existing1090protectedassets/datafiles retained. No newmanualrecord. Two probableduplicate records held,not erased. Flights,Sicily and monitor unchanged.",
+      "validation": "32 focuseddata/parsingtests; data validator,protectedfileandhistoryassertions,scoped publication,live mapandlistingphotos verification."
     }
   ],
-  "updated_at": "2026-11-09T03:22:55+00:00"
+  "updated_at": "2026-11-10T03:19:52+00:00"
 }

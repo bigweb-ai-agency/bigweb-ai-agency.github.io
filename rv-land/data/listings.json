@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-10T00:47:47+00:00",
+  "updated_at": "2026-11-10T03:18:42+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -12333,12 +12333,15 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-11-10T00:52:54Z",
-      "last_verified": "2026-11-10T00:52:54Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-10T03:18:42+00:00",
+      "last_verified": "2026-11-10T03:18:42+00:00",
+      "photo_kind": "Фото грунтовой дороги, кустарника и гор из объявления; прежнее изображение сохранено.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "10.11.2026: свежая публичная карточка и исходное сохранённое изображение проверены. Координаты — ориентир объявления, не survey. Размеры въезда и разворот высокого 7-метрового RV, постоянное хранение и личный ремонт не подтверждены; closing и подготовка площадки требуют отдельной сметы.",
+        "Cash $7,500. Прежний $199 doc fee теперь прямо указан только для purchase on terms вместе с $10/mo note servicing и $8/mo taxes; nightly корректно убрал его из known cash fees. Это не подтверждение отсутствия иных closing costs. RV/camping 14 дней за три месяца по продавцу, длительный permit при строительстве дома; постоянное хранение/ремонт unknown."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-25936",
       "source_id": "25936",
@@ -12367,7 +12370,7 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/colorado/463-acres-for-sale-in-san-luis-colorado-25936",
       "image_credit": "Seller / LandCentury",
       "parcel": "70710650",
-      "zoning": "Residential",
+      "zoning": "Estate Residential, по продавцу",
       "road_note": "Dirt Road",
       "utility_note": "No utilities",
       "taxes_note": "$96",
@@ -12379,7 +12382,7 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
@@ -12459,7 +12462,16 @@
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/20/6a87335f79e6b-1787245407.jpg",
           "date": "2026-09-13T23:05:59+00:00"
         }
-      ]
+      ],
+      "verification_history": [
+        {
+          "date": "2026-11-10T03:18:42+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/463-acres-for-sale-in-san-luis-colorado-25936",
+          "finding": "Fresh public page, parcel, map point and original listing image reviewed. Cash and finance terms separated; storage and personal repair remain unknown. All previous photos and history retained."
+        }
+      ],
+      "tax_annual": 96
     },
     {
       "price_currency": "USD",
@@ -136371,12 +136383,15 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-10T00:47:47+00:00",
-      "last_seen": "2026-11-10T00:50:18Z",
-      "last_verified": "2026-11-10T00:50:18Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-10T03:18:42+00:00",
+      "last_verified": "2026-11-10T03:18:42+00:00",
+      "photo_kind": "Снимок спутниковой карты из объявления с жёлтой границей; не кадастровый survey.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "10.11.2026: свежая публичная карточка и исходное сохранённое изображение проверены. Координаты — ориентир объявления, не survey. Размеры въезда и разворот высокого 7-метрового RV, постоянное хранение и личный ремонт не подтверждены; closing и подготовка площадки требуют отдельной сметы.",
+        "Cash $8,000 за .12 ac; $299 down + $222×40 — отдельная рассрочка. Реклама допускает лишь recreational RV/camping, не постоянную ремонтную базу. Dirt road заявлена продавцом; подключения и точная применимость правил Nye/Pahrump не проверены."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27076",
       "source_id": "27076",
@@ -136414,9 +136429,9 @@
         "owner-finance-deals",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
-      "rv_occupancy": "seller_claim",
+      "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "unknown",
@@ -136489,18 +136504,33 @@
         "Сезон /10": 5,
         "Дорога /10": 9
       },
-      "score": 31
+      "score": 31,
+      "verification_history": [
+        {
+          "date": "2026-11-10T03:18:42+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/nevada/0-12-acres-for-sale-in-pahrump-nevada-27076",
+          "finding": "Fresh public page, parcel, map point and original listing image reviewed. Cash and finance terms separated; storage and personal repair remain unknown. All previous photos and history retained."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/nevada/0-12-acres-for-sale-in-pahrump-nevada-27076"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-10T00:47:47+00:00",
-      "last_seen": "2026-11-10T00:50:20Z",
-      "last_verified": "2026-11-10T00:50:20Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-10T03:18:42+00:00",
+      "last_verified": "2026-11-10T03:18:42+00:00",
+      "photo_kind": "Наземный вид кустарниковой равнины из объявления, без обозначенных границ parcel.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "10.11.2026: свежая публичная карточка и исходное сохранённое изображение проверены. Координаты — ориентир объявления, не survey. Размеры въезда и разворот высокого 7-метрового RV, постоянное хранение и личный ремонт не подтверждены; closing и подготовка площадки требуют отдельной сметы.",
+        "Cash $9,525 за 15 ac; no HOA по продавцу. Электроснабжение предполагается solar/wind/generator, water — будущая скважина, sewer — будущий septic/alternative. Формулировка shall be established не доказывает существующий easement. Продавец описывает RV до 30 последовательных дней в год без dwelling permit, а camping отдельно — с бесплатным 30-day permit; точная процедура не подтверждена. Официальная страница Apache Community Development при проверке не загрузилась; материалы заседания 2022 года не приняты за действующий ordinance."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27074",
       "source_id": "27074",
@@ -136529,8 +136559,8 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/15-acres-for-sale-in-concho-arizona-27074",
       "image_credit": "Seller / LandCentury",
       "parcel": "212-06-004H",
-      "zoning": "Agricultural",
-      "road_note": "Dirt Road",
+      "zoning": "Agricultural AG, по продавцу",
+      "road_note": "В карточке Dirt Road, но описание говорит, что 30-ft easement вдоль южной и западной границ ещё должен быть установлен. Зарегистрированный доступ и физический въезд неизвестны.",
       "utility_note": "Не подтверждены",
       "taxes_note": "61.3",
       "source_categories": [
@@ -136538,16 +136568,16 @@
         "owner-finance-deals",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
-      "electricity": "unknown",
-      "water": "unknown",
-      "sewer": "unknown",
+      "electricity": "none",
+      "water": "none",
+      "sewer": "none",
       "no_hoa": "seller_claim",
-      "road_access": "seller_claim",
+      "road_access": "unknown",
       "flags": [
         "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
       ],
@@ -136615,18 +136645,34 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 26
+      "score": 26,
+      "verification_history": [
+        {
+          "date": "2026-11-10T03:18:42+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/15-acres-for-sale-in-concho-arizona-27074",
+          "finding": "Fresh public page, parcel, map point and original listing image reviewed. Cash and finance terms separated; storage and personal repair remain unknown. All previous photos and history retained."
+        }
+      ],
+      "tax_annual": 61.3,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/15-acres-for-sale-in-concho-arizona-27074"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-10T00:47:47+00:00",
-      "last_seen": "2026-11-10T00:50:22Z",
-      "last_verified": "2026-11-10T00:50:22Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-10T03:18:42+00:00",
+      "last_verified": "2026-11-10T03:18:42+00:00",
+      "photo_kind": "Наземное фото грунтовой дороги из объявления; точные границы и съезд на parcel не показаны.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "10.11.2026: свежая публичная карточка и исходное сохранённое изображение проверены. Координаты — ориентир объявления, не survey. Размеры въезда и разворот высокого 7-метрового RV, постоянное хранение и личный ремонт не подтверждены; closing и подготовка площадки требуют отдельной сметы.",
+        "Cash $11,995. $249 down, $249 closing и $229×60 перечислены под отдельным вариантом OWNER FINANCING; closing для cash отдельно неизвестен. Текст GPS содержит 334.831589 (недопустимая широта); сохранена отдельная валидная точка карты источника 34.831589,-109.449369, без самостоятельного перемещения. Общая фраза Park your RV не устанавливает срок или право отдельного постоянного хранения/ремонта."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27059",
       "source_id": "27059",
@@ -136664,8 +136710,8 @@
         "owner-finance-deals",
         "recreational-and-hunting-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
-      "rv_storage": "seller_claim",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
+      "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
       "garage_size": null,
@@ -136741,18 +136787,33 @@
         "Сезон /10": 6,
         "Дорога /10": 5
       },
-      "score": 21
+      "score": 21,
+      "verification_history": [
+        {
+          "date": "2026-11-10T03:18:42+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/2-5-acres-for-sale-in-saint-johns-arizona-27059",
+          "finding": "Fresh public page, parcel, map point and original listing image reviewed. Cash and finance terms separated; storage and personal repair remain unknown. All previous photos and history retained."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/2-5-acres-for-sale-in-saint-johns-arizona-27059"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-10T00:47:47+00:00",
-      "last_seen": "2026-11-10T00:50:24Z",
-      "last_verified": "2026-11-10T00:50:24Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-10T03:18:42+00:00",
+      "last_verified": "2026-11-10T03:18:42+00:00",
+      "photo_kind": "Фото полевой колеи и открытой земли из объявления; проходимость высокого RV не проверена.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "10.11.2026: свежая публичная карточка и исходное сохранённое изображение проверены. Координаты — ориентир объявления, не survey. Размеры въезда и разворот высокого 7-метрового RV, постоянное хранение и личный ремонт не подтверждены; closing и подготовка площадки требуют отдельной сметы.",
+        "В тексте Cash $9,750, в структурированной карточке $9,790; сохранена явно обозначенная cash price, окончательная цена требует подтверждения. Площадь в карточке 7.76 ac, в описании 7.79 ac — площадь не исправлялась догадкой. $249 closing следует после условий $249 down/$189×66; применимость к cash неясна. Реклама no restrictions on RVs не является разрешением округа. Официальный Costilla land-use документ при открытии вернул 403; обход не выполнялся, постоянное хранение и ремонт unknown."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27058",
       "source_id": "27058",
@@ -136791,7 +136852,7 @@
         "owner-finance-deals",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_claim",
       "existing_garage": false,
@@ -136868,18 +136929,34 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 22
+      "score": 22,
+      "verification_history": [
+        {
+          "date": "2026-11-10T03:18:42+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/7-76-acres-for-sale-in-blanca-colorado-27058",
+          "finding": "Fresh public page, parcel, map point and original listing image reviewed. Cash and finance terms separated; storage and personal repair remain unknown. All previous photos and history retained."
+        }
+      ],
+      "tax_annual": 117.88,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/7-76-acres-for-sale-in-blanca-colorado-27058"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-10T00:47:47+00:00",
-      "last_seen": "2026-11-10T00:50:29Z",
-      "last_verified": "2026-11-10T00:50:29Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-10T03:18:42+00:00",
+      "last_verified": "2026-11-10T03:18:42+00:00",
+      "photo_kind": "Исходный вид пустынной земли с рекламной надписью $199/month; эта сумма не является ценой покупки.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "10.11.2026: свежая публичная карточка и исходное сохранённое изображение проверены. Координаты — ориентир объявления, не survey. Размеры въезда и разворот высокого 7-метрового RV, постоянное хранение и личный ремонт не подтверждены; closing и подготовка площадки требуют отдельной сметы.",
+        "Cash $6,999 + обязательный $249 doc fee для обоих способов покупки = $7,248. $299 down/$199×48 — финансирование, $10/mo servicing и prorated taxes только для него. Коммуникаций нет. По продавцу временный camping 14 дней за три месяца; более длительный RV требует полной оплаты, septic, воды, ongoing construction и permit. Это не самостоятельная площадка хранения/ремонта."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26960",
       "source_id": "26960",
@@ -136908,7 +136985,7 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-mesita-colorado-26960",
       "image_credit": "Seller / LandCentury",
       "parcel": "71506515",
-      "zoning": "Residential",
+      "zoning": "Estate Residential, по продавцу",
       "road_note": "Dirt Road",
       "utility_note": "No utilities",
       "taxes_note": "74",
@@ -136919,14 +136996,14 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "none",
       "water": "none",
-      "sewer": "unknown",
+      "sewer": "none",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
@@ -136996,18 +137073,34 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 26
+      "score": 26,
+      "verification_history": [
+        {
+          "date": "2026-11-10T03:18:42+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-mesita-colorado-26960",
+          "finding": "Fresh public page, parcel, map point and original listing image reviewed. Cash and finance terms separated; storage and personal repair remain unknown. All previous photos and history retained."
+        }
+      ],
+      "tax_annual": 74.04,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-mesita-colorado-26960"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-10T00:47:47+00:00",
-      "last_seen": "2026-11-10T00:50:47Z",
-      "last_verified": "2026-11-10T00:50:47Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-10T03:18:42+00:00",
+      "last_verified": "2026-11-10T03:18:42+00:00",
+      "photo_kind": "Наземный снимок пустынной растительности из объявления, без существующего гаража.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "10.11.2026: свежая публичная карточка и исходное сохранённое изображение проверены. Координаты — ориентир объявления, не survey. Размеры въезда и разворот высокого 7-метрового RV, постоянное хранение и личный ремонт не подтверждены; closing и подготовка площадки требуют отдельной сметы.",
+        "Cash $13,900 за 10 ac. Категория Commercial Land — метка портала, не подтверждённая commercial zoning и не готовое помещение. $329 down/$329×46 — рассрочка; $249 closing описан как due with down payment, поэтому не подтверждён как обязательный cash fee. Нужны well и septic; название electric provider не означает подключение. RV/camping и RV while building — заявления продавца, личный ремонт unknown."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-24469",
       "source_id": "24469",
@@ -137019,7 +137112,7 @@
       "state": "TX",
       "county": "Culberson",
       "zip": "79855",
-      "kind": "commercial_lot",
+      "kind": "land",
       "price": 13900.0,
       "known_fees": 0.0,
       "total_known": 13900.0,
@@ -137036,7 +137129,7 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/texas/1000-acres-for-sale-in-texas-texas-24469",
       "image_credit": "Seller / LandCentury",
       "parcel": "14323 | 01465-00500-00170-000000",
-      "zoning": "Не указано",
+      "zoning": "No zoning по продавцу; официально не подтверждено",
       "road_note": "Dirt Road",
       "utility_note": "Не подтверждены",
       "taxes_note": "75.56",
@@ -137049,15 +137142,15 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "unknown",
-      "water": "unknown",
-      "sewer": "unknown",
-      "no_hoa": "unknown",
+      "water": "none",
+      "sewer": "none",
+      "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
         "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
@@ -137126,18 +137219,34 @@
         "Сезон /10": 7,
         "Дорога /10": 0
       },
-      "score": 14
+      "score": 14,
+      "verification_history": [
+        {
+          "date": "2026-11-10T03:18:42+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/texas/1000-acres-for-sale-in-texas-texas-24469",
+          "finding": "Fresh public page, parcel, map point and original listing image reviewed. Cash and finance terms separated; storage and personal repair remain unknown. All previous photos and history retained."
+        }
+      ],
+      "tax_annual": 75.56,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/texas/1000-acres-for-sale-in-texas-texas-24469"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-10T00:47:47+00:00",
-      "last_seen": "2026-11-10T00:50:48Z",
-      "last_verified": "2026-11-10T00:50:48Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-10T03:18:42+00:00",
+      "last_verified": "2026-11-10T03:18:42+00:00",
+      "photo_kind": "Снимок улицы с красными стрелками из объявления; соседние дома не входят в продаваемый участок.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "10.11.2026: свежая публичная карточка и исходное сохранённое изображение проверены. Координаты — ориентир объявления, не survey. Размеры въезда и разворот высокого 7-метрового RV, постоянное хранение и личный ремонт не подтверждены; closing и подготовка площадки требуют отдельной сметы.",
+        "Cash $6,000 за .16 ac в gated Shadybrook/Lake Palestine. Продавец заявляет доступность электричества и public water, но septic system ещё нужен: прежняя отметка sewer available исправлена на unknown. Нет свидетельства установленного septic. Размеры 60×125 ft в описании и 60×120 BSD в legal description различаются; HOA/deed restrictions, возможность septic и въезд RV не подтверждены."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-24407",
       "source_id": "24407",
@@ -137174,14 +137283,14 @@
         "residential-buildable-land",
         "mobile-home-and-rv-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
       "garage_size": null,
-      "electricity": "unknown",
-      "water": "unknown",
-      "sewer": "available",
+      "electricity": "available",
+      "water": "available",
+      "sewer": "unknown",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [
@@ -137247,22 +137356,37 @@
         "Цена /25": 20,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 1,
+        "Коммуникации /10": 2,
         "Сезон /10": 7,
         "Дорога /10": 7
       },
-      "score": 35
+      "score": 36,
+      "verification_history": [
+        {
+          "date": "2026-11-10T03:18:42+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/texas/016-acres-for-sale-in-bullard-texas-24407",
+          "finding": "Fresh public page, parcel, map point and original listing image reviewed. Cash and finance terms separated; storage and personal repair remain unknown. All previous photos and history retained."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/texas/016-acres-for-sale-in-bullard-texas-24407"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-10T00:47:47+00:00",
-      "last_seen": "2026-11-10T00:50:50Z",
-      "last_verified": "2026-11-10T00:50:50Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-10T03:18:42+00:00",
+      "last_verified": "2026-11-10T03:18:42+00:00",
+      "photo_kind": "Один и тот же спутниковый снимок с границами lots из двух объявлений; точный parcel требует сверки.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "10.11.2026: свежая публичная карточка и исходное сохранённое изображение проверены. Координаты — ориентир объявления, не survey. Размеры въезда и разворот высокого 7-метрового RV, постоянное хранение и личный ремонт не подтверждены; closing и подготовка площадки требуют отдельной сметы.",
+        "Две карточки lc-24367 ($6,000) и lc-24094 ($6,500) имеют одинаковые координаты и изображение. Первая legal description: Horizon City Estates Unit 76 Block 19 Lot 35; вторая APN H784-076-0190-0350. Вероятный дубль одной земли с разными ценами, независимость участков не установлена. Оба ID и цена сохранены; до county/parcel сверки не считать двумя доступными объектами. Dirt/gravel road — только заявление источника."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-24367",
       "source_id": "24367",
@@ -137299,7 +137423,7 @@
         "owner-finance-deals",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -137331,7 +137455,7 @@
         }
       ],
       "region": "Юг",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Много дешёвой земли на западе, обычно далеко от DFW/IAH. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -137374,18 +137498,39 @@
         "Сезон /10": 7,
         "Дорога /10": 0
       },
-      "score": 27
+      "score": 20,
+      "verification_history": [
+        {
+          "date": "2026-11-10T03:18:42+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/texas/031-acres-for-sale-in-el-paso-texas-24367",
+          "finding": "Fresh public page, parcel, map point and original listing image reviewed. Cash and finance terms separated; storage and personal repair remain unknown. All previous photos and history retained."
+        }
+      ],
+      "review_hold": {
+        "date": "2026-11-10T03:18:42+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/texas/031-acres-for-sale-in-el-paso-texas-24367",
+        "reason": "Вероятный дубль одной земли с конфликтующими $6,000/$6,500; совпадают map point, изображение и обозначение Unit 76 Block 19 Lot 35.",
+        "release_condition": "Подтвердить county parcel identity, актуальное предложение и единственную cash price, сохранив альтернативную карточку и историю."
+      },
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/texas/031-acres-for-sale-in-el-paso-texas-24367"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-10T00:47:47+00:00",
-      "last_seen": "2026-11-10T00:50:51Z",
-      "last_verified": "2026-11-10T00:50:51Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-10T03:18:42+00:00",
+      "last_verified": "2026-11-10T03:18:42+00:00",
+      "photo_kind": "Наземный снимок пустынной растительности из объявления, без существующего гаража.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "10.11.2026: свежая публичная карточка и исходное сохранённое изображение проверены. Координаты — ориентир объявления, не survey. Размеры въезда и разворот высокого 7-метрового RV, постоянное хранение и личный ремонт не подтверждены; closing и подготовка площадки требуют отдельной сметы.",
+        "Cash $13,900 за 10 ac. Категория Commercial Land — метка портала, не подтверждённая commercial zoning и не готовое помещение. $329 down/$329×46 — рассрочка; $249 closing описан как due with down payment, поэтому не подтверждён как обязательный cash fee. Нужны well и septic; название electric provider не означает подключение. RV/camping и RV while building — заявления продавца, личный ремонт unknown."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-24149",
       "source_id": "24149",
@@ -137397,7 +137542,7 @@
       "state": "TX",
       "county": "Culberson",
       "zip": "79855",
-      "kind": "commercial_lot",
+      "kind": "land",
       "price": 13900.0,
       "known_fees": 0.0,
       "total_known": 13900.0,
@@ -137414,7 +137559,7 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/texas/1000-acres-for-sale-in-plateau-texas-24149",
       "image_credit": "Seller / LandCentury",
       "parcel": "14112",
-      "zoning": "Не указано",
+      "zoning": "No zoning по продавцу; официально не подтверждено",
       "road_note": "Dirt Road",
       "utility_note": "Не подтверждены",
       "taxes_note": "18.75",
@@ -137426,14 +137571,14 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "unknown",
-      "water": "unknown",
-      "sewer": "unknown",
+      "water": "none",
+      "sewer": "none",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
@@ -137505,18 +137650,34 @@
         "Сезон /10": 7,
         "Дорога /10": 0
       },
-      "score": 14
+      "score": 14,
+      "verification_history": [
+        {
+          "date": "2026-11-10T03:18:42+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/texas/1000-acres-for-sale-in-plateau-texas-24149",
+          "finding": "Fresh public page, parcel, map point and original listing image reviewed. Cash and finance terms separated; storage and personal repair remain unknown. All previous photos and history retained."
+        }
+      ],
+      "tax_annual": 18.75,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/texas/1000-acres-for-sale-in-plateau-texas-24149"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-10T00:47:47+00:00",
-      "last_seen": "2026-11-10T00:50:52Z",
-      "last_verified": "2026-11-10T00:50:52Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-10T03:18:42+00:00",
+      "last_verified": "2026-11-10T03:18:42+00:00",
+      "photo_kind": "Один и тот же спутниковый снимок с границами lots из двух объявлений; точный parcel требует сверки.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "10.11.2026: свежая публичная карточка и исходное сохранённое изображение проверены. Координаты — ориентир объявления, не survey. Размеры въезда и разворот высокого 7-метрового RV, постоянное хранение и личный ремонт не подтверждены; closing и подготовка площадки требуют отдельной сметы.",
+        "Две карточки lc-24367 ($6,000) и lc-24094 ($6,500) имеют одинаковые координаты и изображение. Первая legal description: Horizon City Estates Unit 76 Block 19 Lot 35; вторая APN H784-076-0190-0350. Вероятный дубль одной земли с разными ценами, независимость участков не установлена. Оба ID и цена сохранены; до county/parcel сверки не считать двумя доступными объектами. Dirt/gravel road — только заявление источника."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-24094",
       "source_id": "24094",
@@ -137552,7 +137713,7 @@
       "source_categories": [
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -137584,7 +137745,7 @@
         }
       ],
       "region": "Юг",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Много дешёвой земли на западе, обычно далеко от DFW/IAH. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -137627,18 +137788,39 @@
         "Сезон /10": 7,
         "Дорога /10": 0
       },
-      "score": 26
+      "score": 20,
+      "verification_history": [
+        {
+          "date": "2026-11-10T03:18:42+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/texas/031-acres-for-sale-in-el-paso-texas-24094",
+          "finding": "Fresh public page, parcel, map point and original listing image reviewed. Cash and finance terms separated; storage and personal repair remain unknown. All previous photos and history retained."
+        }
+      ],
+      "review_hold": {
+        "date": "2026-11-10T03:18:42+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/texas/031-acres-for-sale-in-el-paso-texas-24094",
+        "reason": "Вероятный дубль одной земли с конфликтующими $6,000/$6,500; совпадают map point, изображение и обозначение Unit 76 Block 19 Lot 35.",
+        "release_condition": "Подтвердить county parcel identity, актуальное предложение и единственную cash price, сохранив альтернативную карточку и историю."
+      },
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/texas/031-acres-for-sale-in-el-paso-texas-24094"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-10T00:47:47+00:00",
-      "last_seen": "2026-11-10T00:50:58Z",
-      "last_verified": "2026-11-10T00:50:58Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-10T03:18:42+00:00",
+      "last_verified": "2026-11-10T03:18:42+00:00",
+      "photo_kind": "Общий аэровид озера и соседних участков из объявления, без выделенной границы продаваемого lot.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "10.11.2026: свежая публичная карточка и исходное сохранённое изображение проверены. Координаты — ориентир объявления, не survey. Размеры въезда и разворот высокого 7-метрового RV, постоянное хранение и личный ремонт не подтверждены; closing и подготовка площадки требуют отдельной сметы.",
+        "Cash $9,999 за .12 ac/5,249 sqft, Waco Bay Estates Ph 1. Все utilities и road access прямо требуют buyer verification. Общий вид озера не доказывает frontage, cleared pad или физический доступ; mobile homes allowed не означает разрешение RV-хранения или ремонта."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-23379",
       "source_id": "23379",
@@ -137668,7 +137850,7 @@
       "image_credit": "Seller / LandCentury",
       "parcel": "84050",
       "zoning": "Residential",
-      "road_note": "Paved Road",
+      "road_note": "Описание требует buyer to verify road access; доступ к конкретному участку не подтверждён.",
       "utility_note": "Please, contract county",
       "taxes_note": null,
       "source_categories": [
@@ -137677,7 +137859,7 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -137686,7 +137868,7 @@
       "water": "unknown",
       "sewer": "unknown",
       "no_hoa": "unknown",
-      "road_access": "seller_claim",
+      "road_access": "unknown",
       "flags": [
         "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
       ],
@@ -137754,7 +137936,19 @@
         "Сезон /10": 7,
         "Дорога /10": 8
       },
-      "score": 28
+      "score": 28,
+      "verification_history": [
+        {
+          "date": "2026-11-10T03:18:42+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/texas/012-acres-for-sale-in-wills-point-texas-23379",
+          "finding": "Fresh public page, parcel, map point and original listing image reviewed. Cash and finance terms separated; storage and personal repair remain unknown. All previous photos and history retained."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/texas/012-acres-for-sale-in-wills-point-texas-23379"
+      ]
     }
   ]
 }

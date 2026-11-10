@@ -180,6 +180,17 @@ class ResearchDataTests(unittest.TestCase):
         self.assertEqual(mixed['water'],'available')
         self.assertEqual(mixed['sewer'],'unknown')
 
+    def test_future_septic_requirement_overrides_nearby_public_water(self):
+        flags=b.flags_from_text(
+            'There is easy access to electric and internet through Cherokee Electric Co-op '
+            'and public water through Southern Utilities, but you will need a septic system.',
+            utilities='City utilities available')
+        self.assertEqual(flags['sewer'],'unknown')
+        required=b.flags_from_text('Water available nearby. A private well would be needed.')
+        self.assertEqual(required['water'],'unknown')
+        installed=b.flags_from_text('Existing working septic system. Water available nearby.')
+        self.assertEqual(installed['sewer'],'on_site_claim')
+
     def test_island_and_alaska_gateways_do_not_offer_unverified_drive_estimates(self):
         rows=[{'id':state,'state':state,'lat':lat,'lng':lng,'price':9000,
                'total_known':9000,'status':'active','price_basis':'asking_cash'}
