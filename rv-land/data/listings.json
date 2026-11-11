@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-10T03:18:42+00:00",
+  "updated_at": "2026-11-11T00:48:48+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -101961,7 +101961,7 @@
         "price": 119995.0,
         "image_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/14/6acfe4ad084cf-1792009389.jpg",
         "source_updated": "2026-11-07T05:58:35.000000Z",
-        "date": "2026-11-10T00:47:47+00:00"
+        "date": "2026-11-11T00:48:48+00:00"
       },
       "source_identity_history": [
         {
@@ -107965,8 +107965,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-17T01:06:42+00:00",
-      "last_seen": "2026-10-17T01:09:34Z",
-      "last_verified": "2026-10-17T01:09:34Z",
+      "last_seen": "2026-11-11T00:53:58Z",
+      "last_verified": "2026-11-11T00:53:58Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -107993,7 +107993,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-16T14:01:06.000000Z",
+      "source_updated": "2026-11-05T16:45:08.000000Z",
       "source_published": "2026-10-16T13:12:24.000000Z",
       "image_url": "assets/listings/aad4ff27828dd5a2fd4c.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/nevada/10-acres-for-sale-in-montello-nevada-26604",
@@ -108033,7 +108033,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/16/6ad22a7c169bc-1792158332.jpg",
-      "photo_preserved_at": "2026-10-17T01:06:42+00:00",
+      "photo_preserved_at": "2026-11-11T00:48:48+00:00",
       "photo_history": [
         {
           "path": "assets/listings/aad4ff27828dd5a2fd4c.jpg",
@@ -108086,14 +108086,18 @@
         "Сезон /10": 5,
         "Дорога /10": 7
       },
-      "score": 19
+      "score": 19,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/nevada/10-acres-for-sale-in-montello-nevada-26604"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-17T01:06:42+00:00",
-      "last_seen": "2026-10-17T01:09:36Z",
-      "last_verified": "2026-10-17T01:09:36Z",
+      "last_seen": "2026-11-11T00:54:00Z",
+      "last_verified": "2026-11-11T00:54:00Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -108120,7 +108124,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-16T14:02:17.000000Z",
+      "source_updated": "2026-11-05T16:45:46.000000Z",
       "source_published": "2026-10-16T13:07:15.000000Z",
       "image_url": "assets/listings/1142eab5425003692f30.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/nevada/227-acres-for-sale-in-osino-nevada-26602",
@@ -108160,7 +108164,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/16/6ad22aa0d0012-1792158368.jpg",
-      "photo_preserved_at": "2026-10-17T01:06:42+00:00",
+      "photo_preserved_at": "2026-11-11T00:48:48+00:00",
       "photo_history": [
         {
           "path": "assets/listings/1142eab5425003692f30.jpg",
@@ -108213,14 +108217,18 @@
         "Сезон /10": 5,
         "Дорога /10": 5
       },
-      "score": 27
+      "score": 27,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/nevada/227-acres-for-sale-in-osino-nevada-26602"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-17T01:06:42+00:00",
-      "last_seen": "2026-10-17T01:09:38Z",
-      "last_verified": "2026-10-17T01:09:38Z",
+      "last_seen": "2026-11-11T00:54:01Z",
+      "last_verified": "2026-11-11T00:54:01Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -108247,7 +108255,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-16T12:54:44.000000Z",
+      "source_updated": "2026-11-05T16:47:29.000000Z",
       "source_published": "2026-10-16T11:56:40.000000Z",
       "image_url": "assets/listings/1c18d9200749d4b9587f.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/nevada/25-acres-for-sale-in-lovelock-nevada-26598",
@@ -108287,7 +108295,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/16/6ad21a3d7f972-1792154173.jpg",
-      "photo_preserved_at": "2026-10-17T01:06:42+00:00",
+      "photo_preserved_at": "2026-11-11T00:48:48+00:00",
       "photo_history": [
         {
           "path": "assets/listings/1c18d9200749d4b9587f.jpg",
@@ -108340,14 +108348,18 @@
         "Сезон /10": 5,
         "Дорога /10": 2
       },
-      "score": 18
+      "score": 18,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/nevada/25-acres-for-sale-in-lovelock-nevada-26598"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-17T01:06:42+00:00",
-      "last_seen": "2026-10-17T01:09:39Z",
-      "last_verified": "2026-10-17T01:09:39Z",
+      "last_seen": "2026-11-11T00:54:02Z",
+      "last_verified": "2026-11-11T00:54:02Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -108414,7 +108426,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/16/6ad219f74989c-1792154103.jpg",
-      "photo_preserved_at": "2026-10-17T01:06:42+00:00",
+      "photo_preserved_at": "2026-11-11T00:48:48+00:00",
       "photo_history": [
         {
           "path": "assets/listings/961eef2dd4e40a6e0188.jpg",
@@ -108467,7 +108479,11 @@
         "Сезон /10": 5,
         "Дорога /10": 2
       },
-      "score": 15
+      "score": 15,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/nevada/835-acres-for-sale-in-winnemucca-nevada-26594"
+      ]
     },
     {
       "price_currency": "USD",
