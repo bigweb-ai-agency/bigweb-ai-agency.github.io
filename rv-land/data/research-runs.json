@@ -5683,7 +5683,104 @@
       "rotation_reason": "Continue low-photo-coverage states; public nightly catalogs rotate all50states. No quota filler.",
       "preservation": "All1059 postnightlyrecords,IDs,first_seen,price/status/photo histories and existing1090protectedassets/datafiles retained. No newmanualrecord. Two probableduplicate records held,not erased. Flights,Sicily and monitor unchanged.",
       "validation": "32 focuseddata/parsingtests; data validator,protectedfileandhistoryassertions,scoped publication,live mapandlistingphotos verification."
+    },
+    {
+      "date": "2026-11-11T03:15:02+00:00",
+      "states": [
+        "CT",
+        "MA",
+        "NJ"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [],
+      "updated_ids": [],
+      "automatic_added_ids": [],
+      "automatic_updated_ids": [],
+      "workflow": {
+        "run_id": 42934213788,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/42934213788",
+        "conclusion": "success",
+        "created_at": "2026-11-11T00:48:22Z",
+        "data_commit": "539e5867d9cacf80a8d5621081f38c2aaa82a5f4"
+      },
+      "monitor": {
+        "date": "2026-11-11T00:48:48+00:00",
+        "status": "partial",
+        "scanned_pages": 116,
+        "read_details": 65,
+        "added": 0,
+        "changed": 0,
+        "errors": 55
+      },
+      "source_errors": "Discovery and Pages 42934955084 succeeded; duplicate Pages 42934954390 was cancelled. Collection is partial: 116 catalog pages, 65 details, 0 new, 0 counted price/status/photo changes, 55 errors. All 20 retained error samples are HTTP 404; the other 35 are uncharacterized. No sold inference. Automatic collection was available, so no fallback run was needed.",
+      "findings": [],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.homes.com/property/692-e-washington-st-north-attleboro-ma/m3x405yl10k79/",
+          "finding": "MA live Chrome: $9,800 asking price, about 5,200 sq ft / 0.12 acre, vacant wooded corner lot, R10 per seller, APN M:0006 B:0081 L:0000 / 2868537. Electricity at street is not installed service. No existing garage advertised. Deferred: standalone storage/repair use and a legal 7 m RV entrance are unconfirmed. Current municipal schedule treats private garages and trailer storage as accessory uses; it does not establish permission for an independent vacant-lot repair base. Indexed Realtor MLS 73581658 corroborates the price, but the live Homes page is the observation basis. No map record or substitute photo was created."
+        },
+        {
+          "url": "https://www.homes.com/massachusetts/land-for-sale/under-15k/",
+          "finding": "Live Chrome catalog showed 18 results; a bounded subset was inspected, not all 18 parcels. 58 Summer St Unit 60 Adams $12,000 is the previously deferred small B1 lot, not an existing workshop. Lot 273 King Richard Dr Becket $7,500 is raw Sherwood Forest land without verified independent storage/repair rights. Mill St Templeton $15,000 is an existing held record; its tax/environmental concerns were not cleared. 543 Pearl Rear Brockton $3,000, 70 Southampton Boston $1 and 19 Arch Westfield $2 are expressly leases. Revere Augusta $1 is a call-for-offers placeholder, not a cash purchase price. No quota-filling imports."
+        },
+        {
+          "url": "https://www.trulia.com/home/359-east-st-stafford-springs-ct-06076-207175054",
+          "finding": "CT live public page: $14,900, MLS 24200350, parcel 1641765, active listing. Description says 0.62 acre versus structured 0.64 acre; wooded, 100 ft state-road frontage, sewer in road and utilities available rather than installed. Listing expressly requires a zoning variance to build. A neighbor obtaining a variance is not this parcel approval. Deferred pending parcel-specific storage/repair suitability and RV access; no garage advertised and no permission inferred."
+        },
+        {
+          "url": "https://www.trulia.com/home/0-n-water-st-east-windsor-ct-06088-448734685",
+          "finding": "CT $14,925, MLS 24138494: live description is a boat docking slip. Excluded from RV land purchases despite appearing in a land catalog."
+        },
+        {
+          "url": "https://www.trulia.com/CT/land-for-sale-under-20000/",
+          "finding": "CT current catalog: eight results, including existing 28 Cloran St, previously deferred 1 Nutmeg Passway membership lot, the Stafford variance lot and East Windsor boat slip. Remaining inspected $19,900-$20,000 listings exceed the purchase budget. No new verified existing garage/workshop found."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/maple-rd-absecon-nj-08201/5572407",
+          "finding": "NJ detail URL redirected to the general Absecon catalog. This is not sold evidence. Old indexed MLS 612076 $10,000 / 0.11 acre remains entangled with separate MLS 612077 $100,000 / 0.69 acre across portals; the previously deferred parcel/photo identity issue is unresolved. No stale facts imported."
+        },
+        {
+          "url": "https://www.acrevalue.com/land-for-sale-near-me/0-watson-lane-fairfield-nj-08302/fb90f6f8-d2e4-4067-b0cf-5701c9b9db0a/",
+          "finding": "NJ previously deferred MLS NJCB2032050, indexed $10,000 / 0.9 acre, needs a variance and confirmed vehicle access. Direct page timed out. Some indexed portals mislabel Essex County; Fairfield/Bridgeton 08302 context points to Cumberland, but no record was relocated or added from the conflicting snapshot."
+        },
+        {
+          "url": "https://www.homes.com/new-jersey/land-for-sale/under-10k/",
+          "finding": "NJ public catalogs produced previously researched raw lots, auctions and rentals rather than a new verified garage. Future pole-barn language on Seaview is not an existing building. Route 33 $8,850 is a lease. A Bridgeton municipal auction search result advertised a garage with $50,000 minimum bid, above budget and not a fixed purchase total."
+        }
+      ],
+      "official_sources": [
+        {
+          "url": "https://www.northattleborough.gov/",
+          "finding": "Official municipality links Town Charter and By-Laws to eCode360 NO6556. That code reports legislation through May 11, 2026. This is North Attleborough, not the separate City of Attleboro."
+        },
+        {
+          "url": "https://ecode360.com/attachment/336231/NO6556-290b%20Use%20Schedule%20B.pdf",
+          "finding": "Opened current Use Schedule B, amended March 23, 2026, May 2026 supplement. Pages 9-10 list noncommercial garages and trailer storage as accessory uses, with location and occupancy conditions. The retail/service automotive-repair row is forbidden in R10, but this does not by itself decide private personal maintenance. Standalone storage and repair for the vacant 692 E Washington parcel remain unconfirmed."
+        },
+        {
+          "url": "https://ecode360.com/39065741",
+          "finding": "Supplementary-regulations and definitions initial requests opened; targeted follow-up reads returned HTTP 403, including https://ecode360.com/39066471. Stopped without bypass. No claim that the full private-garage or accessory-use definitions were verified."
+        },
+        {
+          "url": "https://nattleboro.com/DocumentCenter/View/1230/Current-Zoning-By-Laws-PDF",
+          "finding": "Older official PDF title says Current but its amendment list ends January 2018. Used only as a lead; the newer municipal-linked May 2026 schedule supersedes it for this research. No old PDF presented as current parcel permission."
+        }
+      ],
+      "access": "Bounded public search and detail reads plus connected Chrome. Homes MA detail/catalog loaded in Chrome after a web-reader timeout; no access-denial bypass. eCode targeted follow-ups stopped on 403. No CAPTCHA, login, seller contact, purchase, booking or infrastructure change.",
+      "flight_review": {
+        "last_review": "2026-11-09",
+        "next_review": "2026-11-16",
+        "finding": "Weekly VNO/UK/EU dated fares, baggage uncertainty and separate positioning costs remain unchanged."
+      },
+      "next_states": [
+        "ID",
+        "MT",
+        "WY"
+      ],
+      "rotation_reason": "Continue three low-photo-coverage states after CT/MA/NJ. Automatic catalogs cover all 50 states; manual research favors existing structures and excludes misleading prices.",
+      "preservation": "All 1059 listings, IDs, first_seen, price/status/photo histories and existing photos unchanged byte-for-byte from the postnightly baseline. Flights, Sicily, monitor and derived state analysis unchanged. Only this research journal was amended.",
+      "validation": "JSON parsing, append-only journal check, listing-baseline equality, data validator and scoped Git diff; publication followed by public map/data and sampled original-photo verification. No parser or application code changed."
     }
   ],
-  "updated_at": "2026-11-10T03:19:52+00:00"
+  "updated_at": "2026-11-11T03:15:02+00:00"
 }
