@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-11T00:48:48+00:00",
+  "updated_at": "2026-11-12T00:49:37+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -12733,8 +12733,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-17T01:11:57Z",
-      "last_verified": "2026-10-17T01:11:57Z",
+      "last_seen": "2026-11-12T00:54:44Z",
+      "last_verified": "2026-11-12T00:54:44Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -12761,7 +12761,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-09-11T18:48:48.000000Z",
+      "source_updated": "2026-11-07T04:47:28.000000Z",
       "source_published": "2026-09-11T18:44:49.000000Z",
       "image_url": "assets/listings/22f164b18b53bb444257.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/colorado/026-acres-for-sale-in-mosca-colorado-26214",
@@ -12848,7 +12848,7 @@
       },
       "score": 29,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/11/6aa44c5c3d46f-1789152348.jpg",
-      "photo_preserved_at": "2026-10-17T01:06:42+00:00",
+      "photo_preserved_at": "2026-11-12T00:49:37+00:00",
       "photo_history": [
         {
           "path": "assets/listings/22f164b18b53bb444257.jpg",
@@ -12862,8 +12862,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-17T01:11:58Z",
-      "last_verified": "2026-10-17T01:11:58Z",
+      "last_seen": "2026-11-12T00:54:45Z",
+      "last_verified": "2026-11-12T00:54:45Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -12890,7 +12890,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-16T21:14:13.000000Z",
+      "source_updated": "2026-11-10T00:00:09.000000Z",
       "source_published": "2026-09-10T13:08:08.000000Z",
       "image_url": "assets/listings/e9a28ecdf83d8dce83e1.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-alamosoa-colorado-26193",
@@ -12978,7 +12978,7 @@
       },
       "score": 25,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/10/6aa2ac6987d19-1789045865.jpg",
-      "photo_preserved_at": "2026-10-17T01:06:42+00:00",
+      "photo_preserved_at": "2026-11-12T00:49:37+00:00",
       "photo_history": [
         {
           "path": "assets/listings/e9a28ecdf83d8dce83e1.jpg",
@@ -12992,8 +12992,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-17T01:12:00Z",
-      "last_verified": "2026-10-17T01:12:00Z",
+      "last_seen": "2026-11-12T00:54:47Z",
+      "last_verified": "2026-11-12T00:54:47Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -13115,7 +13115,7 @@
       },
       "score": 20,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/10/6aa2ae8584841-1789046405.jpg",
-      "photo_preserved_at": "2026-10-17T01:06:42+00:00",
+      "photo_preserved_at": "2026-11-12T00:49:37+00:00",
       "photo_history": [
         {
           "path": "assets/listings/524f1ada18242be0fbdc.jpg",
@@ -101961,7 +101961,7 @@
         "price": 119995.0,
         "image_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/14/6acfe4ad084cf-1792009389.jpg",
         "source_updated": "2026-11-07T05:58:35.000000Z",
-        "date": "2026-11-11T00:48:48+00:00"
+        "date": "2026-11-12T00:49:37+00:00"
       },
       "source_identity_history": [
         {
@@ -108489,8 +108489,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-17T01:06:42+00:00",
-      "last_seen": "2026-10-17T01:09:41Z",
-      "last_verified": "2026-10-17T01:09:41Z",
+      "last_seen": "2026-11-12T00:54:43Z",
+      "last_verified": "2026-11-12T00:54:43Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -108517,7 +108517,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-16T12:01:20.000000Z",
+      "source_updated": "2026-11-05T17:09:06.000000Z",
       "source_published": "2026-10-16T06:11:14.000000Z",
       "image_url": "assets/listings/15f64ef9db841575830c.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/nevada/206-acres-for-sale-in-montello-nevada-26593",
@@ -108556,7 +108556,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/16/6ad1c2e9de88a-1792131817.jpg",
-      "photo_preserved_at": "2026-10-17T01:06:42+00:00",
+      "photo_preserved_at": "2026-11-12T00:49:37+00:00",
       "photo_history": [
         {
           "path": "assets/listings/15f64ef9db841575830c.jpg",
@@ -108609,7 +108609,11 @@
         "Сезон /10": 5,
         "Дорога /10": 7
       },
-      "score": 30
+      "score": 30,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/nevada/206-acres-for-sale-in-montello-nevada-26593"
+      ]
     },
     {
       "price_currency": "USD",
@@ -137965,6 +137969,532 @@
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/texas/012-acres-for-sale-in-wills-point-texas-23379"
       ]
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-12T00:49:37+00:00",
+      "last_seen": "2026-11-12T00:52:09Z",
+      "last_verified": "2026-11-12T00:52:09Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "restriction_risk",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27103",
+      "source_id": "27103",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/arizona/1-25-acres-for-sale-in-meadview-arizona-27103",
+      "title": "27261 Rainbow",
+      "address": "27261 Rainbow",
+      "city": "Meadview",
+      "state": "AZ",
+      "county": "Mohave",
+      "zip": "86444",
+      "kind": "commercial_lot",
+      "price": 5210.0,
+      "known_fees": 0.0,
+      "total_known": 5210.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 1.25,
+      "lat": 35.916542,
+      "lng": -114.08232,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-12T00:13:57.000000Z",
+      "source_published": "2026-11-12T00:07:34.000000Z",
+      "image_url": "assets/listings/0579ade80a3dd7194a18.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/1-25-acres-for-sale-in-meadview-arizona-27103",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "336-06-4000",
+      "zoning": "Residential",
+      "road_note": "Dirt Road",
+      "utility_note": "City utilities available",
+      "taxes_note": "$48.00",
+      "source_categories": [
+        "residential-buildable-land",
+        "owner-finance-deals",
+        "commercial-and-industrial-land",
+        "recreational-and-hunting-land",
+        "mobile-home-and-rv-land",
+        "vacant-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "seller_conditional",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "available",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "flags": [
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Mohave IPMC 302.8 ограничивает неходовые машины и крупную разборку; проверить zoning-исключения и точную юрисдикцию."
+      ],
+      "evidence_quote": ") Short-Term Camping: RV camping is allowed for up to 2 weeks at a time, not to exceed 30 days per calendar",
+      "price_history": [
+        {
+          "date": "2026-11-12T00:49:37+00:00",
+          "price": 5210.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-25-acres-for-sale-in-meadview-arizona-27103"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/12/6af503b74c7b1-1794442167.jpg",
+      "photo_preserved_at": "2026-11-12T00:49:37+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/0579ade80a3dd7194a18.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-25-acres-for-sale-in-meadview-arizona-27103",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/12/6af503b74c7b1-1794442167.jpg",
+          "date": "2026-11-12T00:49:37+00:00"
+        }
+      ],
+      "legal_source": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
+      "region": "Юго-запад",
+      "screening_issue": null,
+      "climate_note": "Много дешёвой земли. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 98,
+          "drive_km_estimate": 122,
+          "drive_hours_estimate": 1.6,
+          "flight_min_eur": 581,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "PHX",
+          "name": "Phoenix Sky Harbor International Airport",
+          "straight_km": 335,
+          "drive_km_estimate": 419,
+          "drive_hours_estimate": 5.6,
+          "flight_min_eur": 740,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "LAX",
+          "name": "Los Angeles International Airport",
+          "straight_km": 451,
+          "drive_km_estimate": 564,
+          "drive_hours_estimate": 7.5,
+          "flight_min_eur": 623,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 2020,
+      "score_parts": {
+        "Цена /25": 21,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 1,
+        "Сезон /10": 6,
+        "Дорога /10": 8
+      },
+      "score": 36
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-12T00:49:37+00:00",
+      "last_seen": "2026-11-12T00:52:10Z",
+      "last_verified": "2026-11-12T00:52:10Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "restriction_risk",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27102",
+      "source_id": "27102",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/arizona/6-4-acres-for-sale-in-kingman-arizona-27102",
+      "title": "Copperville Road",
+      "address": "Copperville Road",
+      "city": "Kingman",
+      "state": "AZ",
+      "county": "Mohave",
+      "zip": "86413",
+      "kind": "land",
+      "price": 12999.0,
+      "known_fees": 249.0,
+      "total_known": 13248.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 6.4,
+      "lat": 35.039957,
+      "lng": -114.230281,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-11T18:13:43.000000Z",
+      "source_published": "2026-11-11T18:07:17.000000Z",
+      "image_url": "assets/listings/db29c8a20cf7b36c2b2d.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/6-4-acres-for-sale-in-kingman-arizona-27102",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "209-07-042-043-044",
+      "zoning": "Agricultural-Residential",
+      "road_note": "Dirt Road",
+      "utility_note": "No utilities",
+      "taxes_note": "81",
+      "source_categories": [
+        "residential-buildable-land",
+        "agricultural-and-farm-land",
+        "owner-finance-deals",
+        "recreational-and-hunting-land",
+        "mobile-home-and-rv-land",
+        "vacant-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "none",
+      "water": "none",
+      "sewer": "unknown",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "flags": [
+        "Источник упоминает flood zone/flood risk; контекст и фактический риск требуют проверки FEMA и отметки площадки.",
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Mohave IPMC 302.8 ограничивает неходовые машины и крупную разборку; проверить zoning-исключения и точную юрисдикцию."
+      ],
+      "evidence_quote": "Additional $10/month service charge and prorated estimated property taxes for financed purchases.",
+      "price_history": [
+        {
+          "date": "2026-11-12T00:49:37+00:00",
+          "price": 12999.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/6-4-acres-for-sale-in-kingman-arizona-27102"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/11/6af4afb082338-1794420656.jpg",
+      "photo_preserved_at": "2026-11-12T00:49:37+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/db29c8a20cf7b36c2b2d.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/6-4-acres-for-sale-in-kingman-arizona-27102",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/11/6af4afb082338-1794420656.jpg",
+          "date": "2026-11-12T00:49:37+00:00"
+        }
+      ],
+      "legal_source": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
+      "region": "Юго-запад",
+      "screening_issue": null,
+      "climate_note": "Много дешёвой земли. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 143,
+          "drive_km_estimate": 179,
+          "drive_hours_estimate": 2.4,
+          "flight_min_eur": 581,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "PHX",
+          "name": "Phoenix Sky Harbor International Airport",
+          "straight_km": 271,
+          "drive_km_estimate": 339,
+          "drive_hours_estimate": 4.5,
+          "flight_min_eur": 740,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "SAN",
+          "name": "San Diego International Airport",
+          "straight_km": 375,
+          "drive_km_estimate": 468,
+          "drive_hours_estimate": 6.2,
+          "flight_min_eur": 741,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 2089,
+      "score_parts": {
+        "Цена /25": 8,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 6,
+        "Дорога /10": 8
+      },
+      "score": 22
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-12T00:49:37+00:00",
+      "last_seen": "2026-11-12T00:52:11Z",
+      "last_verified": "2026-11-12T00:52:11Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "restriction_risk",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27101",
+      "source_id": "27101",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/arizona/2-08-acres-for-sale-in-golden-valley-arizona-27101",
+      "title": "2.08 Acres for Sale in Golden Valley, Arizona",
+      "address": "",
+      "city": "Golden Valley",
+      "state": "AZ",
+      "county": "Mohave",
+      "zip": "86413",
+      "kind": "land",
+      "price": 5999.0,
+      "known_fees": 249.0,
+      "total_known": 6248.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 2.08,
+      "lat": 35.040361,
+      "lng": -114.231972,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-11T18:05:09.000000Z",
+      "source_published": "2026-11-11T18:00:07.000000Z",
+      "image_url": "assets/listings/f26129f139d29d0ba996.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/2-08-acres-for-sale-in-golden-valley-arizona-27101",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "209-07-088",
+      "zoning": "Agricultural-Residential",
+      "road_note": "Dirt Road",
+      "utility_note": "No utilities",
+      "taxes_note": "27",
+      "source_categories": [
+        "residential-buildable-land",
+        "agricultural-and-farm-land",
+        "owner-finance-deals",
+        "recreational-and-hunting-land",
+        "mobile-home-and-rv-land",
+        "vacant-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "none",
+      "water": "none",
+      "sewer": "unknown",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "flags": [
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Mohave IPMC 302.8 ограничивает неходовые машины и крупную разборку; проверить zoning-исключения и точную юрисдикцию."
+      ],
+      "evidence_quote": "Start small with a camper, add a shed or a shipping container, and grow from there.",
+      "price_history": [
+        {
+          "date": "2026-11-12T00:49:37+00:00",
+          "price": 5999.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/2-08-acres-for-sale-in-golden-valley-arizona-27101"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/11/6af4ade5a91d7-1794420197.jpg",
+      "photo_preserved_at": "2026-11-12T00:49:37+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/f26129f139d29d0ba996.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/2-08-acres-for-sale-in-golden-valley-arizona-27101",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/11/6af4ade5a91d7-1794420197.jpg",
+          "date": "2026-11-12T00:49:37+00:00"
+        }
+      ],
+      "legal_source": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
+      "region": "Юго-запад",
+      "screening_issue": null,
+      "climate_note": "Много дешёвой земли. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 143,
+          "drive_km_estimate": 178,
+          "drive_hours_estimate": 2.4,
+          "flight_min_eur": 581,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "PHX",
+          "name": "Phoenix Sky Harbor International Airport",
+          "straight_km": 272,
+          "drive_km_estimate": 339,
+          "drive_hours_estimate": 4.5,
+          "flight_min_eur": 740,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "SAN",
+          "name": "San Diego International Airport",
+          "straight_km": 375,
+          "drive_km_estimate": 468,
+          "drive_hours_estimate": 6.2,
+          "flight_min_eur": 741,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 2089,
+      "score_parts": {
+        "Цена /25": 20,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 6,
+        "Дорога /10": 8
+      },
+      "score": 34
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-12T00:49:37+00:00",
+      "last_seen": "2026-11-12T00:52:13Z",
+      "last_verified": "2026-11-12T00:52:13Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "restriction_risk",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27087",
+      "source_id": "27087",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/arizona/2-35-acres-for-sale-in-golden-valley-arizona-27087",
+      "title": "2.35 Acres for Sale in Golden Valley, Arizona",
+      "address": "",
+      "city": "Golden Valley",
+      "state": "AZ",
+      "county": "Mohave",
+      "zip": "86413",
+      "kind": "land",
+      "price": 4499.0,
+      "known_fees": 249.0,
+      "total_known": 4748.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 2.35,
+      "lat": 35.041222,
+      "lng": -114.22975,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-11T02:21:39.000000Z",
+      "source_published": "2026-11-10T18:22:04.000000Z",
+      "image_url": "assets/listings/447e4cdc8907b74ac0df.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/2-35-acres-for-sale-in-golden-valley-arizona-27087",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "209-07-042",
+      "zoning": "Rural",
+      "road_note": "Dirt Road",
+      "utility_note": "No utilities",
+      "taxes_note": "29",
+      "source_categories": [
+        "residential-buildable-land",
+        "agricultural-and-farm-land",
+        "owner-finance-deals",
+        "recreational-and-hunting-land",
+        "mobile-home-and-rv-land",
+        "vacant-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "none",
+      "water": "none",
+      "sewer": "unknown",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "flags": [
+        "Источник упоминает flood zone/flood risk; контекст и фактический риск требуют проверки FEMA и отметки площадки.",
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Mohave IPMC 302.8 ограничивает неходовые машины и крупную разборку; проверить zoning-исключения и точную юрисдикцию."
+      ],
+      "evidence_quote": "That's two football fields of open desert, with plenty of room for a camper, a quiet campsite, a garden, or a small",
+      "price_history": [
+        {
+          "date": "2026-11-12T00:49:37+00:00",
+          "price": 4499.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/2-35-acres-for-sale-in-golden-valley-arizona-27087"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/11/6af3d0c7af896-1794363591.jpg",
+      "photo_preserved_at": "2026-11-12T00:49:37+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/447e4cdc8907b74ac0df.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/2-35-acres-for-sale-in-golden-valley-arizona-27087",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/11/6af3d0c7af896-1794363591.jpg",
+          "date": "2026-11-12T00:49:37+00:00"
+        }
+      ],
+      "legal_source": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
+      "region": "Юго-запад",
+      "screening_issue": null,
+      "climate_note": "Много дешёвой земли. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 143,
+          "drive_km_estimate": 178,
+          "drive_hours_estimate": 2.4,
+          "flight_min_eur": 581,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "PHX",
+          "name": "Phoenix Sky Harbor International Airport",
+          "straight_km": 271,
+          "drive_km_estimate": 339,
+          "drive_hours_estimate": 4.5,
+          "flight_min_eur": 740,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "SAN",
+          "name": "San Diego International Airport",
+          "straight_km": 375,
+          "drive_km_estimate": 469,
+          "drive_hours_estimate": 6.2,
+          "flight_min_eur": 741,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 2089,
+      "score_parts": {
+        "Цена /25": 22,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 6,
+        "Дорога /10": 8
+      },
+      "score": 36
     }
   ]
 }
