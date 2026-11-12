@@ -5780,7 +5780,130 @@
       "rotation_reason": "Continue three low-photo-coverage states after CT/MA/NJ. Automatic catalogs cover all 50 states; manual research favors existing structures and excludes misleading prices.",
       "preservation": "All 1059 listings, IDs, first_seen, price/status/photo histories and existing photos unchanged byte-for-byte from the postnightly baseline. Flights, Sicily, monitor and derived state analysis unchanged. Only this research journal was amended.",
       "validation": "JSON parsing, append-only journal check, listing-baseline equality, data validator and scoped Git diff; publication followed by public map/data and sampled original-photo verification. No parser or application code changed."
+    },
+    {
+      "date": "2026-11-12T03:24:19+00:00",
+      "states": [
+        "ID",
+        "MT",
+        "WY"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [
+        "mls-mt-331510"
+      ],
+      "updated_ids": [
+        "lc-27103",
+        "lc-27102",
+        "lc-27101",
+        "lc-27087"
+      ],
+      "automatic_added_ids": [
+        "lc-27103",
+        "lc-27102",
+        "lc-27101",
+        "lc-27087"
+      ],
+      "automatic_updated_ids": [],
+      "workflow": {
+        "run_id": 43130088832,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/43130088832",
+        "conclusion": "success",
+        "created_at": "2026-11-12T00:49:18Z",
+        "data_commit": "2270e583605bdecee4994a996d2581a0c3a10c9c"
+      },
+      "monitor": {
+        "date": "2026-11-12T00:49:37+00:00",
+        "status": "partial",
+        "scanned_pages": 116,
+        "read_details": 65,
+        "added": 4,
+        "changed": 0,
+        "errors": 55
+      },
+      "source_errors": "Discovery and Pages 43130777552 succeeded; duplicate Pages 43130776713 cancelled. Monitor partial: 116 catalog pages, 65 details, 4 new, 0 counted changes, 55 errors. All 20 retained samples are HTTP 404; other 35 uncharacterized. No sold inference. Automatic collection available, so no fallback collection needed.",
+      "findings": [
+        {
+          "id": "mls-mt-331510",
+          "url": "https://www.realestateinglendive.com/home/detail-520_10136966-S-Rosser---Riverview-Ave-Glendive-MT-59330",
+          "finding": "New MT raw residential lot, Active $8000, .16 acre, S Rosser / Riverview Ave Glendive. Broker live Chrome and Homes corroborate MLS 331510; broker map 47.0922469,-104.7133338 matches Homes. Original broker JPEG preserved byte-for-byte after visual review. Future city water/sewer connections, power unknown. No existing garage, no RV/storage/repair permission established. 7050 versus 6970 sqft discrepancy retained. Scenic source photo does not prove a prepared pad or boundaries. A further candidate, not a ready workshop or materially better EU-access base."
+        },
+        {
+          "id": "lc-27103",
+          "finding": "Fresh AZ cash $5210 retained; corrected portal commercial-lot category to raw land. Seller slope/wash, dirt road, future well/haul and septic recorded. Camping conditions are not independent storage/repair permission."
+        },
+        {
+          "id": "lc-27102",
+          "finding": "Fresh $12999+$249=$13248 three-parcel bundle retained. Seller explicitly needs 4x4 on final 3/4 mile and states Flood Zone A. HOLD added for RV access/preparation uncertainty. Parcel 209-07-042 overlaps separate offer lc-27087; both records retained."
+        },
+        {
+          "id": "lc-27101",
+          "finding": "Fresh $5999+$249=$6248 retained. Seller explicitly requires 4x4 on final half-mile; HOLD added. No flood-zone assertion copied from neighboring offers. No existing garage or utilities."
+        },
+        {
+          "id": "lc-27087",
+          "finding": "Fresh $4499+$249=$4748 retained. Seller 4x4 approach, last 300 ft bushwhacking and Flood Zone A; HOLD added. Same parcel is part of lc-27102 bundle, not independent additional acreage."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.landsearch.com/properties/idaho/search/under-15000",
+          "finding": "ID bounded public catalog: Hailey $13500/mo, Blackfoot $5500/mo and Twin Falls $1800/mo are leases. Salmon Ash $14500 and pending Gilmore $5000 are already researched lots, not new workshops. No new verified owned garage in budget."
+        },
+        {
+          "url": "https://www.craigslist.org/view/d/cheyenne-22w-25l-9h-garagecommercial/fZ4mt9NB2NXFmjQzTxQG64",
+          "finding": "$10960 22x25x9 metal garage is delivered/erected on buyer-provided level site; no owned land included. Excluded from property purchases."
+        },
+        {
+          "url": "https://navxrealty.com/listing-detail/1191937030/3100-Conestoga-Dr-Gillette-WY",
+          "finding": "WY former RV-business building advertised at $9500 under a For Sale heading is actually $9500/month NNN, 3-5 year lease in full description. Large shop and 16-ft doors do not make it a $9500 purchase."
+        },
+        {
+          "url": "https://www.homes.com/property/346-e-8th-st-lovell-wy/6e6kl64fnyp1d/",
+          "finding": "WY metal shop with power and uninhabitable mobile home: $51000 listing Jan 15, sold Jan 30 2026 per source, above budget and not current. Not imported."
+        },
+        {
+          "url": "https://www.homes.com/wyoming/land-for-sale/under-15k/",
+          "finding": "Bounded WY search produced raw city lots rather than verified existing garages. Previously deferred 0 Yellow Creek $10000 / 2.16 acre identity/map concern remains unresolved; stale result not imported. $10000 / 99.4 acre Sioux catalog lead has unclear price basis and was not accepted without a detail-page cash total."
+        },
+        {
+          "url": "https://www.homes.com/montana/land-for-sale/under-15k/",
+          "finding": "MT live Chrome catalog showed 14 results; bounded subset reviewed, not all parcels. Shelby NHN 4th $15000 is already researched. W Fork Madison $3950 is a mining claim. Wilson Lode $12284 explicitly fractional, Emperor Lode previously fractional. Compromise Gulch Neihart $9950 is only .023 acre and advertises adjacent platted-street parking, not owned RV working space. No quota-fill imports."
+        },
+        {
+          "url": "https://www.craigslist.org/view/d/billings-steel-building-garage-workshop/69FH5Pco7msZuAWsTqYg7x",
+          "finding": "20x20 garage $11500 is a starting building-only offer, no land; length also less than 7 m. Excluded."
+        },
+        {
+          "url": "https://www.qualitycustomsheds.com/for-sale",
+          "finding": "12x28 Ryegate $13319 and 14x28 Lewistown $14761 are portable delivered buildings without owned land; Lewistown lists 9x7 door. Not complete RV-property purchases."
+        }
+      ],
+      "official_sources": [
+        {
+          "url": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
+          "finding": "Rechecked published Building Ordinance 2021-03, IPMC 302.8, revisions listed through July 15 2024. Inoperative/unlicensed vehicles and major disassembly restrictions with exceptions under other regulations. Retained restriction_risk; no blanket personal-maintenance prohibition or parcel approval inferred."
+        },
+        {
+          "url": "https://codelibrary.amlegal.com/codes/glendivemt/latest/glendive_mt/0-0-0-4031",
+          "finding": "Glendive published 2025 code §155.016: residential accessory buildings and uses incidental to permitted uses. §155.003 defines subordinate relationship to principal use. R-1 §155.060 checked as context only; exact zone of new lot unknown. Public code warns it may not include latest legislation. No municipal approval inferred for standalone RV storage/repair."
+        }
+      ],
+      "access": "Bounded public search/detail reads and connected Chrome. Original Glendive photo downloaded directly from observed public broker image URL after robots allowed it; bytes unmodified. Homes screenshot and browser media-download technical timeouts did not change listing status. No CAPTCHA/403/robots/login bypass, seller contact, booking, purchase or infrastructure change.",
+      "flight_review": {
+        "last_review": "2026-11-09",
+        "next_review": "2026-11-16",
+        "finding": "Weekly VNO/UK/EU comparison not due; dated fares, baggage uncertainty and separate positioning costs unchanged."
+      },
+      "next_states": [
+        "WA",
+        "HI",
+        "ND"
+      ],
+      "rotation_reason": "Continue low-photo-coverage rotation after ID/MT/WY. Automatic catalog discovery spans all 50; manual research prioritizes owned existing garages and honest whole-purchase prices.",
+      "preservation": "All 1063 prior IDs, first_seen, parcel/map points, prices/fees, sale statuses, photographs and price/status/photo histories retained. Four fresh AZ records annotated and three held; one manual MT record/photo added. Existing assets, flights, Sicily and monitor unchanged by manual pass. Prior journal entries preserved.",
+      "validation": "Focused data tests and data validator, append-only journal/preservation checks and scoped Git diff. State analysis regenerated. Public map, new listing/photo and retained HOLD photo checked after scoped publication; no application/parser changes."
     }
   ],
-  "updated_at": "2026-11-11T03:15:02+00:00"
+  "updated_at": "2026-11-12T03:24:19+00:00"
 }

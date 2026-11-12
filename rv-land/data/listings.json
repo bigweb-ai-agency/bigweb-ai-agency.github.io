@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-12T00:49:37+00:00",
+  "updated_at": "2026-11-12T03:23:20+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -137974,12 +137974,15 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-12T00:49:37+00:00",
-      "last_seen": "2026-11-12T00:52:09Z",
-      "last_verified": "2026-11-12T00:52:09Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-12T03:23:20+00:00",
+      "last_verified": "2026-11-12T03:23:20+00:00",
+      "photo_kind": "Исходное фото пустынной дороги и линий электропередачи; границы parcel и готовая площадка не показаны.",
       "personal_repair": "restriction_risk",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "12.11.2026: свежая публичная карточка, parcel, точка карты и исходное фото проверены. Camping/RV по продавцу не подтверждает отдельное постоянное хранение или личный ремонт. Mohave IPMC 302.8 ограничивает неходовые машины и крупную разборку с оговоркой об исключениях других правил; применимость к parcel не установлена. Это не вывод о запрете любого личного обслуживания.",
+        "Cash $5,210 за 1.25 ac. $125/mo — рассрочка; Commercial Land — категория портала, не установленное коммерческое назначение. Продавец указывает уклон и wash, county-maintained dirt road; ровная площадка, drainage и въезд RV не проверены. Camping до 14 дней за раз/30 в год; для более длительного размещения продавец описывает septic и ежегодный temporary residence permit. Closing для cash неизвестен."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27103",
       "source_id": "27103",
@@ -137991,7 +137994,7 @@
       "state": "AZ",
       "county": "Mohave",
       "zip": "86444",
-      "kind": "commercial_lot",
+      "kind": "land",
       "price": 5210.0,
       "known_fees": 0.0,
       "total_known": 5210.0,
@@ -138008,9 +138011,9 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/1-25-acres-for-sale-in-meadview-arizona-27103",
       "image_credit": "Seller / LandCentury",
       "parcel": "336-06-4000",
-      "zoning": "Residential",
+      "zoning": "Residential Recreation, по продавцу",
       "road_note": "Dirt Road",
-      "utility_note": "City utilities available",
+      "utility_note": "Power at lot по продавцу; well/haul water и septic ещё нужны. Поле City utilities available не доказывает подключения.",
       "taxes_note": "$48.00",
       "source_categories": [
         "residential-buildable-land",
@@ -138020,14 +138023,14 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "available",
-      "water": "unknown",
-      "sewer": "unknown",
+      "water": "none",
+      "sewer": "none",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
@@ -138099,18 +138102,41 @@
         "Сезон /10": 6,
         "Дорога /10": 8
       },
-      "score": 36
+      "score": 36,
+      "official_sources": [
+        {
+          "url": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
+          "checked_at": "2026-11-12T03:23:20+00:00",
+          "finding": "Official published Building Ordinance 2021-03, IPMC 302.8 rechecked. Restrictions on inoperative/unlicensed vehicles and major disassembly have exceptions under other regulations; parcel-specific storage and personal maintenance approval remains unknown."
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-11-12T03:23:20+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-25-acres-for-sale-in-meadview-arizona-27103",
+          "finding": "Fresh cash offer, parcel, listing point and retained source photo reviewed; road suitability and personal repair permission not established. Existing sale status, price and photo histories retained."
+        }
+      ],
+      "tax_annual": 48,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/1-25-acres-for-sale-in-meadview-arizona-27103"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-12T00:49:37+00:00",
-      "last_seen": "2026-11-12T00:52:10Z",
-      "last_verified": "2026-11-12T00:52:10Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-12T03:23:20+00:00",
+      "last_verified": "2026-11-12T03:23:20+00:00",
+      "photo_kind": "Наземный снимок пустынной растительности и гор из объявления; въезд RV не показан.",
       "personal_repair": "restriction_risk",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "12.11.2026: свежая публичная карточка, parcel, точка карты и исходное фото проверены. Camping/RV по продавцу не подтверждает отдельное постоянное хранение или личный ремонт. Mohave IPMC 302.8 ограничивает неходовые машины и крупную разборку с оговоркой об исключениях других правил; применимость к parcel не установлена. Это не вывод о запрете любого личного обслуживания.",
+        "Cash $12,999 + обязательный $249 doc fee = $13,248. Пакет трёх parcels 209-07-042/043/044, Lots 990/991/992; $399 down/$399×48 — отдельная рассрочка. Seller Flood Zone A и 4x4-подъезд: затраты на въезд и безопасную площадку неизвестны. Коммуникаций нет, power примерно в 3/4 мили, well/cistern и septic будущие. Parcel 209-07-042 одновременно предлагается отдельно в lc-27087; это перекрывающиеся варианты покупки, не четыре независимых участка."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27102",
       "source_id": "27102",
@@ -138139,8 +138165,8 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/6-4-acres-for-sale-in-kingman-arizona-27102",
       "image_credit": "Seller / LandCentury",
       "parcel": "209-07-042-043-044",
-      "zoning": "Agricultural-Residential",
-      "road_note": "Dirt Road",
+      "zoning": "Agricultural Residential, по продавцу",
+      "road_note": "По продавцу последние 3/4 мили — необслуживаемая грунтовая дорога, сейчас требуется 4x4.",
       "utility_note": "No utilities",
       "taxes_note": "81",
       "source_categories": [
@@ -138151,20 +138177,21 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
-      "rv_occupancy": "unknown",
+      "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "none",
       "water": "none",
-      "sewer": "unknown",
+      "sewer": "none",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
         "Источник упоминает flood zone/flood risk; контекст и фактический риск требуют проверки FEMA и отметки площадки.",
         "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
-        "Mohave IPMC 302.8 ограничивает неходовые машины и крупную разборку; проверить zoning-исключения и точную юрисдикцию."
+        "Mohave IPMC 302.8 ограничивает неходовые машины и крупную разборку; проверить zoning-исключения и точную юрисдикцию.",
+        "Продавец прямо требует 4x4 на последнем участке пути; безопасный проезд высокого 7-метрового RV не установлен."
       ],
       "evidence_quote": "Additional $10/month service charge and prorated estimated property taxes for financed purchases.",
       "price_history": [
@@ -138188,7 +138215,7 @@
       ],
       "legal_source": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
       "region": "Юго-запад",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Много дешёвой земли. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -138231,18 +138258,47 @@
         "Сезон /10": 6,
         "Дорога /10": 8
       },
-      "score": 22
+      "score": 20,
+      "official_sources": [
+        {
+          "url": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
+          "checked_at": "2026-11-12T03:23:20+00:00",
+          "finding": "Official published Building Ordinance 2021-03, IPMC 302.8 rechecked. Restrictions on inoperative/unlicensed vehicles and major disassembly have exceptions under other regulations; parcel-specific storage and personal maintenance approval remains unknown."
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-11-12T03:23:20+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/6-4-acres-for-sale-in-kingman-arizona-27102",
+          "finding": "Fresh cash offer, parcel, listing point and retained source photo reviewed; road suitability and personal repair permission not established. Existing sale status, price and photo histories retained."
+        }
+      ],
+      "tax_annual": 81,
+      "review_hold": {
+        "date": "2026-11-12T03:23:20+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/arizona/6-4-acres-for-sale-in-kingman-arizona-27102",
+        "reason": "По продавцу необходим 4x4 на необслуживаемом подъезде; пригодность для высокого 7-метрового RV и стоимость подготовки не установлены. Также заявлена Flood Zone A.",
+        "release_condition": "Подтвердить юридический и физический въезд RV, безопасную площадку, стоимость дороги/дренажа и допустимость отдельного хранения/ремонта; для пакета сверить состав parcels."
+      },
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/6-4-acres-for-sale-in-kingman-arizona-27102"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-12T00:49:37+00:00",
-      "last_seen": "2026-11-12T00:52:11Z",
-      "last_verified": "2026-11-12T00:52:11Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-12T03:23:20+00:00",
+      "last_verified": "2026-11-12T03:23:20+00:00",
+      "photo_kind": "Исходное фото каменистой грунтовой колеи с pickup; проходимость высокого кемпервана не подтверждена.",
       "personal_repair": "restriction_risk",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "12.11.2026: свежая публичная карточка, parcel, точка карты и исходное фото проверены. Camping/RV по продавцу не подтверждает отдельное постоянное хранение или личный ремонт. Mohave IPMC 302.8 ограничивает неходовые машины и крупную разборку с оговоркой об исключениях других правил; применимость к parcel не установлена. Это не вывод о запрете любого личного обслуживания.",
+        "Cash $5,999 + обязательный $249 doc fee = $6,248; $179 down/$179×48 — отдельная рассрочка. Lot 1023 / APN 209-07-088, 2.08 ac. Нет коммуникаций; power примерно в 3/4 мили, well/cistern и septic будущие. Flat corner lot и future workshop по продавцу не доказывают подготовленную базу. Flood Zone A соседних карточек не перенесена на этот parcel."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27101",
       "source_id": "27101",
@@ -138271,8 +138327,8 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/2-08-acres-for-sale-in-golden-valley-arizona-27101",
       "image_credit": "Seller / LandCentury",
       "parcel": "209-07-088",
-      "zoning": "Agricultural-Residential",
-      "road_note": "Dirt Road",
+      "zoning": "Agricultural Residential, по продавцу",
+      "road_note": "По продавцу последние 1/2 мили — необслуживаемая грунтовая дорога, сейчас требуется 4x4.",
       "utility_note": "No utilities",
       "taxes_note": "27",
       "source_categories": [
@@ -138283,19 +138339,20 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
-      "rv_occupancy": "unknown",
+      "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "none",
       "water": "none",
-      "sewer": "unknown",
+      "sewer": "none",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
         "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
-        "Mohave IPMC 302.8 ограничивает неходовые машины и крупную разборку; проверить zoning-исключения и точную юрисдикцию."
+        "Mohave IPMC 302.8 ограничивает неходовые машины и крупную разборку; проверить zoning-исключения и точную юрисдикцию.",
+        "Продавец прямо требует 4x4 на последнем участке пути; безопасный проезд высокого 7-метрового RV не установлен."
       ],
       "evidence_quote": "Start small with a camper, add a shed or a shipping container, and grow from there.",
       "price_history": [
@@ -138319,7 +138376,7 @@
       ],
       "legal_source": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
       "region": "Юго-запад",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Много дешёвой земли. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -138362,18 +138419,47 @@
         "Сезон /10": 6,
         "Дорога /10": 8
       },
-      "score": 34
+      "score": 20,
+      "official_sources": [
+        {
+          "url": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
+          "checked_at": "2026-11-12T03:23:20+00:00",
+          "finding": "Official published Building Ordinance 2021-03, IPMC 302.8 rechecked. Restrictions on inoperative/unlicensed vehicles and major disassembly have exceptions under other regulations; parcel-specific storage and personal maintenance approval remains unknown."
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-11-12T03:23:20+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/2-08-acres-for-sale-in-golden-valley-arizona-27101",
+          "finding": "Fresh cash offer, parcel, listing point and retained source photo reviewed; road suitability and personal repair permission not established. Existing sale status, price and photo histories retained."
+        }
+      ],
+      "tax_annual": 27,
+      "review_hold": {
+        "date": "2026-11-12T03:23:20+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/arizona/2-08-acres-for-sale-in-golden-valley-arizona-27101",
+        "reason": "По продавцу необходим 4x4 на необслуживаемом подъезде; пригодность для высокого 7-метрового RV и стоимость подготовки не установлены.",
+        "release_condition": "Подтвердить юридический и физический въезд RV, безопасную площадку, стоимость дороги/дренажа и допустимость отдельного хранения/ремонта; для пакета сверить состав parcels."
+      },
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/2-08-acres-for-sale-in-golden-valley-arizona-27101"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-12T00:49:37+00:00",
-      "last_seen": "2026-11-12T00:52:13Z",
-      "last_verified": "2026-11-12T00:52:13Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-12T03:23:20+00:00",
+      "last_verified": "2026-11-12T03:23:20+00:00",
+      "photo_kind": "Фото пустынной растительности на закате из объявления; границы и проезжий въезд не показаны.",
       "personal_repair": "restriction_risk",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "12.11.2026: свежая публичная карточка, parcel, точка карты и исходное фото проверены. Camping/RV по продавцу не подтверждает отдельное постоянное хранение или личный ремонт. Mohave IPMC 302.8 ограничивает неходовые машины и крупную разборку с оговоркой об исключениях других правил; применимость к parcel не установлена. Это не вывод о запрете любого личного обслуживания.",
+        "Cash $4,499 + обязательный $249 doc fee = $4,748; $149 down/$149×48 — отдельная рассрочка. Lot 990 / APN 209-07-042, 2.35 ac, seller Flood Zone A. Нет коммуникаций, будущие well/cistern и septic. Этот parcel входит в пакет lc-27102: не считать два предложения независимой землёй. Готовность дороги для высокого 7-метрового RV и стоимость расчистки/дренажа неизвестны."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27087",
       "source_id": "27087",
@@ -138402,8 +138488,8 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/2-35-acres-for-sale-in-golden-valley-arizona-27087",
       "image_credit": "Seller / LandCentury",
       "parcel": "209-07-042",
-      "zoning": "Rural",
-      "road_note": "Dirt Road",
+      "zoning": "Agricultural Residential, по продавцу",
+      "road_note": "По продавцу последние 3/4 мили требуют 4x4; последние 300 ft Copperville Road почти не расчищены (bushwhacking).",
       "utility_note": "No utilities",
       "taxes_note": "29",
       "source_categories": [
@@ -138414,20 +138500,21 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
-      "rv_occupancy": "unknown",
+      "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "none",
       "water": "none",
-      "sewer": "unknown",
+      "sewer": "none",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
         "Источник упоминает flood zone/flood risk; контекст и фактический риск требуют проверки FEMA и отметки площадки.",
         "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
-        "Mohave IPMC 302.8 ограничивает неходовые машины и крупную разборку; проверить zoning-исключения и точную юрисдикцию."
+        "Mohave IPMC 302.8 ограничивает неходовые машины и крупную разборку; проверить zoning-исключения и точную юрисдикцию.",
+        "Продавец прямо требует 4x4 на последнем участке пути; безопасный проезд высокого 7-метрового RV не установлен."
       ],
       "evidence_quote": "That's two football fields of open desert, with plenty of room for a camper, a quiet campsite, a garden, or a small",
       "price_history": [
@@ -138451,7 +138538,7 @@
       ],
       "legal_source": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
       "region": "Юго-запад",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Много дешёвой земли. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -138494,7 +138581,181 @@
         "Сезон /10": 6,
         "Дорога /10": 8
       },
-      "score": 36
+      "score": 20,
+      "official_sources": [
+        {
+          "url": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
+          "checked_at": "2026-11-12T03:23:20+00:00",
+          "finding": "Official published Building Ordinance 2021-03, IPMC 302.8 rechecked. Restrictions on inoperative/unlicensed vehicles and major disassembly have exceptions under other regulations; parcel-specific storage and personal maintenance approval remains unknown."
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-11-12T03:23:20+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/2-35-acres-for-sale-in-golden-valley-arizona-27087",
+          "finding": "Fresh cash offer, parcel, listing point and retained source photo reviewed; road suitability and personal repair permission not established. Existing sale status, price and photo histories retained."
+        }
+      ],
+      "tax_annual": 29,
+      "review_hold": {
+        "date": "2026-11-12T03:23:20+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/arizona/2-35-acres-for-sale-in-golden-valley-arizona-27087",
+        "reason": "По продавцу необходим 4x4 на необслуживаемом подъезде; пригодность для высокого 7-метрового RV и стоимость подготовки не установлены. Также заявлена Flood Zone A.",
+        "release_condition": "Подтвердить юридический и физический въезд RV, безопасную площадку, стоимость дороги/дренажа и допустимость отдельного хранения/ремонта; для пакета сверить состав parcels."
+      },
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/2-35-acres-for-sale-in-golden-valley-arizona-27087"
+      ]
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-12T03:23:20+00:00",
+      "last_seen": "2026-11-12T03:23:20+00:00",
+      "last_verified": "2026-11-12T03:23:20+00:00",
+      "photo_kind": "Оригинальное пейзажное фото из карточки брокера: растительность и холмы; границы parcel и подготовленный подъезд не показаны.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [
+        "12.11.2026: брокер и Homes показывают Active $8,000 за землю. Riverview Park Subdivision, .16 ac; в описании 7,050 sqft, в Homes 6,970 sqft — различие сохранено без догадки. Водопровод и sewer доступны для будущего подвода; название Power MDU не подтверждает установленное питание. Closing, подключения и земляные работы неизвестны.",
+        "Точка 47.0922469,-104.7133338 взята из ссылки карты брокера и совпадает с точкой Homes; это ориентир объявления, не кадастровая граница. APN и дата 04.11.2026 — из Homes. Сохранено исходное фото брокера без преобразования; красивый вид не доказывает ровную рабочую площадку.",
+        "Glendive §155.016 допускает accessory buildings/uses как дополнение к разрешённому использованию; §155.003 определяет их подчинённую связь с основным использованием. Точная зона этого lot не установлена. Это не разрешение отдельного RV-склада или личной мастерской; все четыре вида RV/repair остаются unknown. Городской участок нельзя автоматически оценивать по общим county-разрешениям.",
+        "Удалённость от международного аэропорта и холодный сезон снижают практическую ценность. Автоматические расстояния в карточке — геометрическая модель, не проверенный дорожный маршрут или цена внутреннего рейса."
+      ],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "mls-mt-331510",
+      "source": "Montana East Realty / Glendive MLS",
+      "source_id": "331510",
+      "url": "https://www.realestateinglendive.com/home/detail-520_10136966-S-Rosser---Riverview-Ave-Glendive-MT-59330",
+      "alternate_urls": [
+        "https://www.homes.com/property/0-rosser-riverview-glendive-mt-unit-331510/e2hgqw9p32r8z/"
+      ],
+      "title": "S Rosser / Riverview Ave — жилой участок",
+      "address": "S Rosser / Riverview Ave",
+      "city": "Glendive",
+      "state": "MT",
+      "county": "Dawson",
+      "zip": "59330",
+      "kind": "land",
+      "price": 8000,
+      "known_fees": 0,
+      "total_known": 8000,
+      "price_evidence": "Active $8,000 за весь участок на живой карточке брокера и Homes; closing отдельно неизвестен.",
+      "acres": 0.16,
+      "lat": 47.0922469,
+      "lng": -104.7133338,
+      "coord_precision": "listing",
+      "parcel": "16-2505-02-1-20-07-0",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-04",
+      "source_published": "2026-11-04",
+      "existing_garage": false,
+      "garage_size": null,
+      "garage_note": "Пустой жилой lot; существующий гараж или мастерская не заявлены.",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "electricity": "unknown",
+      "water": "available",
+      "sewer": "available",
+      "no_hoa": "unknown",
+      "road_access": "unknown",
+      "road_note": "Угол S Rosser / Riverview; конкретный съезд, уклон и разворот RV не измерены.",
+      "zoning": "Residential по MLS; точный городской district не установлен",
+      "tax_annual": 87,
+      "image_source_url": "https://www.realestateinglendive.com/home/detail-520_10136966-S-Rosser---Riverview-Ave-Glendive-MT-59330",
+      "image_credit": "Montana East Realty / Glendive MLS",
+      "image_url": "assets/listings/7042a1e386b122b23d6d.jpg",
+      "flags": [
+        "Городской жилой lot: самостоятельная база хранения/ремонта и гараж без дома не подтверждены.",
+        "Нет готовой площадки или подтверждённого въезда для высокого 7-метрового RV."
+      ],
+      "official_sources": [
+        {
+          "url": "https://codelibrary.amlegal.com/codes/glendivemt/latest/glendive_mt/0-0-0-4031",
+          "checked_at": "2026-11-12T03:23:20+00:00",
+          "finding": "Section 155.016 residential accessory uses are incidental to permitted uses; exact district and independent RV storage/repair approval unknown."
+        },
+        {
+          "url": "https://codelibrary.amlegal.com/codes/glendivemt/latest/glendive_mt/0-0-0-3914",
+          "checked_at": "2026-11-12T03:23:20+00:00",
+          "finding": "Section 155.003 accessory-use definition; not parcel-specific permission. Published 2025 code may not include later amendments."
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-11-12T03:23:20+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.realestateinglendive.com/home/detail-520_10136966-S-Rosser---Riverview-Ave-Glendive-MT-59330",
+          "finding": "Active $8000 whole residential lot, original broker image and listing map point verified. Homes corroborates MLS 331510 and APN. No existing garage or RV repair approval established."
+        }
+      ],
+      "image_remote_url": "https://photos.x2.realtypromls.com/media_files/listing_photos/GL/8/1691529_lg.jpg",
+      "photo_preserved_at": "2026-11-12T03:23:20+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/7042a1e386b122b23d6d.jpg",
+          "source": "https://www.realestateinglendive.com/home/detail-520_10136966-S-Rosser---Riverview-Ave-Glendive-MT-59330",
+          "remote_url": "https://photos.x2.realtypromls.com/media_files/listing_photos/GL/8/1691529_lg.jpg",
+          "date": "2026-11-12T03:23:20+00:00"
+        }
+      ],
+      "price_history": [
+        {
+          "date": "2026-11-12T03:23:20+00:00",
+          "price": 8000,
+          "price_basis": "asking_cash",
+          "source": "https://www.realestateinglendive.com/home/detail-520_10136966-S-Rosser---Riverview-Ave-Glendive-MT-59330"
+        }
+      ],
+      "status_history": [],
+      "region": "Горный",
+      "screening_issue": null,
+      "climate_note": "Небольшая выборка; холод, расстояния и сезонные дороги. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "DEN",
+          "name": "Denver International Airport",
+          "straight_km": 804,
+          "drive_km_estimate": 1005,
+          "drive_hours_estimate": 13.4,
+          "flight_min_eur": 533,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "SLC",
+          "name": "Salt Lake City International Airport",
+          "straight_km": 910,
+          "drive_km_estimate": 1138,
+          "drive_hours_estimate": 15.2,
+          "flight_min_eur": 739,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "MSP",
+          "name": "Minneapolis–Saint Paul International Airport / Wold–Chamberlain Field",
+          "straight_km": 920,
+          "drive_km_estimate": 1150,
+          "drive_hours_estimate": 15.3,
+          "flight_min_eur": 627,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 920,
+      "score_parts": {
+        "Цена /25": 17,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 2,
+        "Сезон /10": 2,
+        "Дорога /10": 0
+      },
+      "score": 21
     }
   ]
 }
