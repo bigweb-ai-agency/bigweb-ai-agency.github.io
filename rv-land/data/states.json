@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T00:49:35+00:00",
+  "updated_at": "2026-11-13T03:15:11+00:00",
   "states": [
     {
       "code": "AL",
@@ -701,10 +701,10 @@
         "MSP"
       ],
       "analysis": "Небольшая выборка, суровая зима и большое расстояние. Имеет смысл только с уже существующим пригодным помещением.",
-      "total": 10,
-      "photo_candidates": 9,
-      "shortfall": 1,
-      "coverage": "Недостаточно проверенных кандидатов",
+      "total": 11,
+      "photo_candidates": 10,
+      "shortfall": 0,
+      "coverage": "10+ кандидатов",
       "sources": [
         "https://www.landsearch.com/properties/north-dakota/search/under-15000",
         "https://www.landcentury.com/land-for-sale/north-dakota",

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-13T00:49:35+00:00",
+  "updated_at": "2026-11-13T03:15:07+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -86691,9 +86691,9 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T23:25:47+00:00",
-      "last_seen": "2026-11-13T00:52:15Z",
-      "last_verified": "2026-11-13T00:52:15Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-13T03:15:07+00:00",
+      "last_verified": "2026-11-13T03:15:07+00:00",
+      "photo_kind": "Новое исходное фото кустарника на фоне гор из карточки; границы и въезд не показаны.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
       "notes": [],
@@ -86823,6 +86823,14 @@
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/colorado/1-27-acres-for-sale-in-alamosa-colorado-27106",
         "https://www.landcentury.com/land-for-sale/colorado/127-acres-for-sale-in-alamosa-colorado-25848"
+      ],
+      "verification_history": [
+        {
+          "date": "2026-11-13T03:15:07+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/1-27-acres-for-sale-in-alamosa-colorado-27106",
+          "finding": "New nightly photo visually reviewed and matched fresh listing main image. Same parcel, coordinates and cash price. Prior photo file and history preserved; no new permission inferred."
+        }
       ]
     },
     {
@@ -138779,12 +138787,15 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-13T00:49:35+00:00",
-      "last_seen": "2026-11-13T00:52:08Z",
-      "last_verified": "2026-11-13T00:52:08Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-13T03:15:07+00:00",
+      "last_verified": "2026-11-13T03:15:07+00:00",
+      "photo_kind": "Исходное наземное фото грунтовой колеи и открытого ландшафта; границы parcel не обозначены.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "13.11.2026: живая публичная карточка, parcel, координаты объявления и исходное фото проверены. Въезд/разворот высокого кемпервана длиной около 7 м, постоянное отдельное хранение и личный ремонт не подтверждены. Финансирование не выдано за cash price; closing и подготовка площадки требуют отдельной сметы.",
+        "Cash $7,500. $199 document fee и ежемесячные servicing/taxes прямо относятся к покупке на условиях рассрочки; cash closing не установлен. По продавцу camping/RV до 14 дней за три месяца; дольше — permit при строительстве дома. Это не разрешение самостоятельной ремонтной базы. Минимум дома 600 sqft, круглогодичный dirt-road access — утверждения продавца, не проверка участка."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27127",
       "source_id": "27127",
@@ -138813,10 +138824,10 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-san-luis-colorado-27127",
       "image_credit": "Seller / LandCentury",
       "parcel": "70807080",
-      "zoning": "Residential",
-      "road_note": "Dirt Road",
+      "zoning": "Estate Residential, по продавцу",
+      "road_note": "По продавцу грунтовый подъезд по Co Rd X; состояние для высокого RV не измерено.",
       "utility_note": "No utilities",
-      "taxes_note": null,
+      "taxes_note": "USD 84/год, по продавцу; не проверенный налоговый счёт.",
       "source_categories": [
         "residential-buildable-land",
         "agricultural-and-farm-land",
@@ -138825,8 +138836,8 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
-      "rv_storage": "seller_claim",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
+      "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
@@ -138902,18 +138913,34 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 26
+      "score": 26,
+      "verification_history": [
+        {
+          "date": "2026-11-13T03:15:07+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-san-luis-colorado-27127",
+          "finding": "Fresh public cash offer, parcel, listing coordinates and original photo reviewed. No existing workshop or personal repair permission established; historical facts and photos retained."
+        }
+      ],
+      "tax_annual": 84,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-san-luis-colorado-27127"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-13T00:49:35+00:00",
-      "last_seen": "2026-11-13T00:52:10Z",
-      "last_verified": "2026-11-13T00:52:10Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-13T03:15:07+00:00",
+      "last_verified": "2026-11-13T03:15:07+00:00",
+      "photo_kind": "Исходное рекламное фото открытой пустыни с надписью $259/month; это рассрочка, не полная цена.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "13.11.2026: живая публичная карточка, parcel, координаты объявления и исходное фото проверены. Въезд/разворот высокого кемпервана длиной около 7 м, постоянное отдельное хранение и личный ремонт не подтверждены. Финансирование не выдано за cash price; closing и подготовка площадки требуют отдельной сметы.",
+        "Cash $11,999 за 10 ac. $259 down + $259×60 и $199 doc fee приведены в блоке финансирования; применимость $199 к cash неизвестна. Коммуникаций нет; well/septic/solar — будущие работы. RV до 28 дней и перемещение каждые 28 дней без septic — только утверждение продавца, официальное разрешение не установлено. BLM рядом не доказывает юридический подъезд или использование соседней земли."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27123",
       "source_id": "27123",
@@ -138942,10 +138969,10 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/nevada/10-acres-for-sale-in-montello-nevada-27123",
       "image_credit": "Seller / LandCentury",
       "parcel": "010-58E-002",
-      "zoning": "AR, Agricultural-Residential",
-      "road_note": "Paved to Dirt Road",
+      "zoning": "Agricultural Residential, по продавцу",
+      "road_note": "Paved/gravel, затем dirt trail; продавец рекомендует 4WD в плохую погоду.",
       "utility_note": "No utilities",
-      "taxes_note": "33.79",
+      "taxes_note": "Около USD 33.79/год, по продавцу.",
       "source_categories": [
         "residential-buildable-land",
         "agricultural-and-farm-land",
@@ -138953,9 +138980,9 @@
         "recreational-and-hunting-land",
         "mobile-home-and-rv-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
-      "rv_occupancy": "unknown",
+      "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "none",
@@ -138964,7 +138991,8 @@
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Последний участок — dirt trail, в плохую погоду продавец рекомендует 4WD; круглогодичный проезд высокого RV не подтверждён."
       ],
       "evidence_quote": "Bring the camper and the side-by-side, set up camp, and come back as often as you like.",
       "price_history": [
@@ -139030,18 +139058,34 @@
         "Сезон /10": 5,
         "Дорога /10": 7
       },
-      "score": 22
+      "score": 22,
+      "verification_history": [
+        {
+          "date": "2026-11-13T03:15:07+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/nevada/10-acres-for-sale-in-montello-nevada-27123",
+          "finding": "Fresh public cash offer, parcel, listing coordinates and original photo reviewed. No existing workshop or personal repair permission established; historical facts and photos retained."
+        }
+      ],
+      "tax_annual": 33.79,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/nevada/10-acres-for-sale-in-montello-nevada-27123"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-13T00:49:35+00:00",
-      "last_seen": "2026-11-13T00:52:11Z",
-      "last_verified": "2026-11-13T00:52:11Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-13T03:15:07+00:00",
+      "last_verified": "2026-11-13T03:15:07+00:00",
+      "photo_kind": "Исходное фото пустынной растительности и гор; подготовленная площадка и габариты подъезда не показаны.",
       "personal_repair": "restriction_risk",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "13.11.2026: живая публичная карточка, parcel, координаты объявления и исходное фото проверены. Въезд/разворот высокого кемпервана длиной около 7 м, постоянное отдельное хранение и личный ремонт не подтверждены. Финансирование не выдано за cash price; closing и подготовка площадки требуют отдельной сметы.",
+        "Cash $5,500 + $249 = $5,749. Продавец прямо применяет $249 doc fee к обеим формам покупки. No HOA/no flood/clear title — непроверенные seller claims. Camping до 14 дней подряд/30 дней в год; более длительное пребывание продавец связывает с полной оплатой, septic и ежегодным permit. Будущий workshop/container не означает существующий гараж или разрешение ремонта. Mohave IPMC 302.8 ограничивает неходовые машины и крупную разборку с исключениями других правил; применимость к parcel и обычному личному обслуживанию не установлена."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27115",
       "source_id": "27115",
@@ -139070,10 +139114,10 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/1-15-acres-for-sale-in-yucca-arizona-27115",
       "image_credit": "Seller / LandCentury",
       "parcel": "245-18-171",
-      "zoning": "Agricultural-Residential",
-      "road_note": "Dirt Road",
-      "utility_note": "No utilities",
-      "taxes_note": "19",
+      "zoning": "Agricultural Residential, по продавцу",
+      "road_note": "По продавцу county-maintained dirt Hansen Rd и подъезд toy hauler; ширина/разворот/дренаж независимо не проверены.",
+      "utility_note": "Коммуникаций нет; solar/generator, well/haul water и septic — будущие работы.",
+      "taxes_note": "USD 18.56/год, по продавцу.",
       "source_categories": [
         "residential-buildable-land",
         "agricultural-and-farm-land",
@@ -139082,14 +139126,14 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
-      "rv_storage": "seller_claim",
-      "rv_occupancy": "unknown",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
+      "rv_storage": "unknown",
+      "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "none",
       "water": "none",
-      "sewer": "unknown",
+      "sewer": "none",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
@@ -139162,18 +139206,41 @@
         "Сезон /10": 6,
         "Дорога /10": 7
       },
-      "score": 33
+      "score": 33,
+      "verification_history": [
+        {
+          "date": "2026-11-13T03:15:07+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-15-acres-for-sale-in-yucca-arizona-27115",
+          "finding": "Fresh public cash offer, parcel, listing coordinates and original photo reviewed. No existing workshop or personal repair permission established; historical facts and photos retained."
+        }
+      ],
+      "tax_annual": 18.56,
+      "official_sources": [
+        {
+          "url": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
+          "checked_at": "2026-11-13T03:15:07+00:00",
+          "finding": "Official published IPMC 302.8 reviewed: restrictions on inoperative/unlicensed vehicles and major disassembly, subject to exceptions under other regulations. Not parcel-specific permission or a blanket conclusion about all personal maintenance."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/1-15-acres-for-sale-in-yucca-arizona-27115"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-13T00:49:35+00:00",
-      "last_seen": "2026-11-13T00:52:13Z",
-      "last_verified": "2026-11-13T00:52:13Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-13T03:15:07+00:00",
+      "last_verified": "2026-11-13T03:15:07+00:00",
+      "photo_kind": "Изображение из объявления с отметкой Google: вид растительности с дороги, не свежая натурная проверка.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "13.11.2026: живая публичная карточка, parcel, координаты объявления и исходное фото проверены. Въезд/разворот высокого кемпервана длиной около 7 м, постоянное отдельное хранение и личный ремонт не подтверждены. Финансирование не выдано за cash price; closing и подготовка площадки требуют отдельной сметы.",
+        "Cash $6,840 + указанный doc fee $150 = $6,990; $90 down/$90×76 — отдельная рассрочка. Рекламные very few restrictions/usually allowed не являются parcel-specific разрешением RV-хранения, проживания или ремонта. Существующие коммуникации и круглогодичный проезд не подтверждены."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27112",
       "source_id": "27112",
@@ -139213,7 +139280,7 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_claim",
       "existing_garage": false,
@@ -139290,18 +139357,34 @@
         "Сезон /10": 6,
         "Дорога /10": 5
       },
-      "score": 30
+      "score": 30,
+      "verification_history": [
+        {
+          "date": "2026-11-13T03:15:07+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-06-acres-for-sale-in-sanders-arizona-27112",
+          "finding": "Fresh public cash offer, parcel, listing coordinates and original photo reviewed. No existing workshop or personal repair permission established; historical facts and photos retained."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/1-06-acres-for-sale-in-sanders-arizona-27112"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-13T00:49:35+00:00",
-      "last_seen": "2026-11-13T00:52:14Z",
-      "last_verified": "2026-11-13T00:52:14Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-13T03:15:07+00:00",
+      "last_verified": "2026-11-13T03:15:07+00:00",
+      "photo_kind": "Исходное фото пустынной растительности и гор; подготовленная площадка и габариты подъезда не показаны.",
       "personal_repair": "restriction_risk",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "13.11.2026: живая публичная карточка, parcel, координаты объявления и исходное фото проверены. Въезд/разворот высокого кемпервана длиной около 7 м, постоянное отдельное хранение и личный ремонт не подтверждены. Финансирование не выдано за cash price; closing и подготовка площадки требуют отдельной сметы.",
+        "Cash $9,900 + $249 = $10,149. Продавец прямо применяет $249 doc fee к обеим формам покупки. No HOA/no flood/clear title — непроверенные seller claims. Camping до 14 дней подряд/30 дней в год; более длительное пребывание продавец связывает с полной оплатой, septic и ежегодным permit. Будущий workshop/container не означает существующий гараж или разрешение ремонта. Mohave IPMC 302.8 ограничивает неходовые машины и крупную разборку с исключениями других правил; применимость к parcel и обычному личному обслуживанию не установлена.",
+        "Структурированный APN 245-03-224 (1) сохранён; в описании 245-03-224, Block P Lot 9. Это не доказательство дополнительного parcel."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27111",
       "source_id": "27111",
@@ -139330,10 +139413,10 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/2-06-acres-for-sale-in-yucca-arizona-27111",
       "image_credit": "Seller / LandCentury",
       "parcel": "245-03-224 (1)",
-      "zoning": "Agricultural-Residential",
-      "road_note": "Dirt Road",
-      "utility_note": "No utilities",
-      "taxes_note": "27",
+      "zoning": "Agricultural Residential, по продавцу",
+      "road_note": "По продавцу грунтовый подъезд; county-maintained roads ведут в район, обслуживание последнего отрезка не доказано.",
+      "utility_note": "Коммуникаций нет; solar/generator, well/haul water и septic — будущие работы.",
+      "taxes_note": "USD 26.24/год, по продавцу.",
       "source_categories": [
         "residential-buildable-land",
         "agricultural-and-farm-land",
@@ -139342,14 +139425,14 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
-      "rv_storage": "seller_claim",
-      "rv_occupancy": "unknown",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
+      "rv_storage": "unknown",
+      "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "none",
       "water": "none",
-      "sewer": "unknown",
+      "sewer": "none",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
@@ -139422,18 +139505,41 @@
         "Сезон /10": 6,
         "Дорога /10": 7
       },
-      "score": 26
+      "score": 26,
+      "verification_history": [
+        {
+          "date": "2026-11-13T03:15:07+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/2-06-acres-for-sale-in-yucca-arizona-27111",
+          "finding": "Fresh public cash offer, parcel, listing coordinates and original photo reviewed. No existing workshop or personal repair permission established; historical facts and photos retained."
+        }
+      ],
+      "tax_annual": 26.24,
+      "official_sources": [
+        {
+          "url": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
+          "checked_at": "2026-11-13T03:15:07+00:00",
+          "finding": "Official published IPMC 302.8 reviewed: restrictions on inoperative/unlicensed vehicles and major disassembly, subject to exceptions under other regulations. Not parcel-specific permission or a blanket conclusion about all personal maintenance."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/2-06-acres-for-sale-in-yucca-arizona-27111"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-13T00:49:35+00:00",
-      "last_seen": "2026-11-13T00:52:18Z",
-      "last_verified": "2026-11-13T00:52:18Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-13T03:15:07+00:00",
+      "last_verified": "2026-11-13T03:15:07+00:00",
+      "photo_kind": "Исходное фото грунтовой дороги с лужей; границы parcel и готовая площадка не показаны.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "13.11.2026: живая публичная карточка, parcel, координаты объявления и исходное фото проверены. Въезд/разворот высокого кемпервана длиной около 7 м, постоянное отдельное хранение и личный ремонт не подтверждены. Финансирование не выдано за cash price; closing и подготовка площадки требуют отдельной сметы.",
+        "Cash $7,000 за 4.69 ac. Автоматически добавленный $100 doc fee относится к блоку owner financing ($350 down); обязательность при cash не доказана. Из known_fees убран, total_known $7,000 — известный минимум, не all-in. Power/water/sewer/gas Buyer Responsible; готовых подключений нет. Caption 5 acres округляет 4.69 ac. Перепутанные SW/SE подписи углов не использованы для построения границ; сохранена центральная точка объявления."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27104",
       "source_id": "27104",
@@ -139447,8 +139553,8 @@
       "zip": "85936",
       "kind": "land",
       "price": 7000.0,
-      "known_fees": 100.0,
-      "total_known": 7100.0,
+      "known_fees": 0,
+      "total_known": 7000,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 4.69,
       "lat": 34.9378,
@@ -139463,16 +139569,16 @@
       "image_credit": "Seller / LandCentury",
       "parcel": "206-10-463",
       "zoning": "Vacant",
-      "road_note": "Paved Road",
+      "road_note": "По продавцу dirt/paved access; на исходном фото грунтовая дорога с лужей. Последний подъезд RV не проверен.",
       "utility_note": "No utilities",
-      "taxes_note": "$18.24",
+      "taxes_note": "USD 1.52/месяц = 18.24/год по продавцу, без проверки налогового счёта.",
       "source_categories": [
         "residential-buildable-land",
         "agricultural-and-farm-land",
         "owner-finance-deals",
         "mobile-home-and-rv-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -139549,18 +139655,34 @@
         "Сезон /10": 6,
         "Дорога /10": 5
       },
-      "score": 29
+      "score": 29,
+      "verification_history": [
+        {
+          "date": "2026-11-13T03:15:07+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/4-69-acres-for-sale-in-chambers-arizona-27104",
+          "finding": "Fresh public cash offer, parcel, listing coordinates and original photo reviewed. No existing workshop or personal repair permission established; historical facts and photos retained."
+        }
+      ],
+      "tax_annual": 18.24,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/4-69-acres-for-sale-in-chambers-arizona-27104"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-13T00:49:35+00:00",
-      "last_seen": "2026-11-13T00:52:19Z",
-      "last_verified": "2026-11-13T00:52:19Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-13T03:15:07+00:00",
+      "last_verified": "2026-11-13T03:15:07+00:00",
+      "photo_kind": "Исходное аэрофото холмов, растительности и грунтовой дороги; границы parcel не показаны.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "13.11.2026: живая публичная карточка, parcel, координаты объявления и исходное фото проверены. Въезд/разворот высокого кемпервана длиной около 7 м, постоянное отдельное хранение и личный ремонт не подтверждены. Финансирование не выдано за cash price; closing и подготовка площадки требуют отдельной сметы.",
+        "Cash $14,950. $199 document fee и ежемесячные servicing/taxes прямо относятся к покупке на условиях рассрочки; cash closing не установлен. По продавцу camping/RV до 14 дней за три месяца; дольше — permit при строительстве дома. Это не разрешение самостоятельной ремонтной базы. Минимум дома 600 sqft, круглогодичный dirt-road access — утверждения продавца, не проверка участка."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27083",
       "source_id": "27083",
@@ -139589,10 +139711,10 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/colorado/5-26-acres-for-sale-in-fort-garland-colorado-27083",
       "image_credit": "Seller / LandCentury",
       "parcel": "70220510",
-      "zoning": "Residential",
-      "road_note": "Dirt Road",
+      "zoning": "Estate Residential, по продавцу",
+      "road_note": "По продавцу грунтовая Pfotenhauer Rd; уклон и проезд высокого RV не измерены.",
       "utility_note": "No utilities",
-      "taxes_note": "$288",
+      "taxes_note": "USD 288/год, по продавцу; не проверенный налоговый счёт.",
       "source_categories": [
         "residential-buildable-land",
         "agricultural-and-farm-land",
@@ -139601,8 +139723,8 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
-      "rv_storage": "seller_claim",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
+      "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
@@ -139678,7 +139800,164 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 13
+      "score": 13,
+      "verification_history": [
+        {
+          "date": "2026-11-13T03:15:07+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/5-26-acres-for-sale-in-fort-garland-colorado-27083",
+          "finding": "Fresh public cash offer, parcel, listing coordinates and original photo reviewed. No existing workshop or personal repair permission established; historical facts and photos retained."
+        }
+      ],
+      "tax_annual": 288,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/5-26-acres-for-sale-in-fort-garland-colorado-27083"
+      ]
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-13T03:15:07+00:00",
+      "last_seen": "2026-11-13T03:15:07+00:00",
+      "last_verified": "2026-11-13T03:15:07+00:00",
+      "photo_kind": "Оригинальное фото интерьера гаража из объявления; бетонный пол, балки и хранящиеся вещи. Размеры и несущая способность не установлены.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [
+        "13.11.2026: живая Redfin-карточка и полный MLS показывают $12,900, Pending с 28.10.2026, а не старый поисковый Active. Дом 1925 года, 1,656 sqft, 5 спален/1 санузел, .24 ac / 10,499 sqft, lot 75×140 ft. Полная цена дома с землёй; closing и работы не включены.",
+        "Точка 46.6585531,-99.3584284 взята из открытой карты объявления (Google map attribution совпадает с weather link). Это ориентир карточки, не границы survey. Исходное фото гаража сохранено без изменения байтов.",
+        "Для городского Streeter нельзя автоматически применять разрешения всего Stutsman County. Официальный county PDF проверялся 09.11.2026: §1.4 отделяет муниципальную юрисдикцию. Повторное открытие 13.11 завершилось timeout; новых юридических выводов нет. Городская зона и все четыре RV/repair разрешения остаются unknown.",
+        "Международный шлюз MSP далеко; автоматическая дорожная оценка геометрическая. Региональные аэропорты, стыковки, зимний проезд и стоимость поездки требуют отдельной проверки. Объект добавлен для наблюдения за гаражом, не как готовая пригодная RV-мастерская."
+      ],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "mls-nd-4028333",
+      "source": "Redfin / Great North MLS",
+      "source_id": "4028333",
+      "mls": "4028333",
+      "url": "https://www.redfin.com/ND/Streeter/200-1st-Ave-NE-58483/home/109971483",
+      "title": "200 1st Ave NE — дом с гаражом на 2 машины, Pending",
+      "address": "200 1st Ave NE",
+      "city": "Streeter",
+      "state": "ND",
+      "county": "Stutsman",
+      "zip": "58483",
+      "parcel": "861000260",
+      "kind": "house",
+      "price": 12900,
+      "known_fees": 0,
+      "total_known": 12900,
+      "price_evidence": "Живая карточка MLS: $12,900 за дом с землёй; Pending, closing и ремонт отдельно неизвестны.",
+      "acres": 0.24,
+      "lat": 46.6585531,
+      "lng": -99.3584284,
+      "coord_precision": "listing",
+      "status": "pending",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-10-28",
+      "source_published": "2026-10-20",
+      "existing_garage": true,
+      "garage_size": null,
+      "garage_note": "По MLS attached garage на 2 машины; исходное фото показывает интерьер гаража с бетонным полом и хранящимися вещами. Высота ворот, длина и пригодность для высокого 7-метрового RV не измерены.",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "electricity": "on_site_claim",
+      "water": "on_site_claim",
+      "sewer": "on_site_claim",
+      "utility_note": "MLS: electricity connected, public water/sewer; работоспособность не проверена. Heating None, Cooling None.",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "road_note": "По MLS paved public-maintained city street, concrete parking; фактический въезд и разворот RV не измерены.",
+      "zoning": "Муниципальная зона Streeter и допустимость отдельной RV-базы не установлены",
+      "tax_annual": 212.75,
+      "taxes_note": "USD 212.75/год по MLS; публичная tax-history таблица за 2025 показывает $202. Требуется счёт округа.",
+      "image_source_url": "https://www.redfin.com/ND/Streeter/200-1st-Ave-NE-58483/home/109971483",
+      "image_credit": "Seller / Redfin / Great North MLS",
+      "image_url": "assets/listings/87a502b0904b1b8ef55a.jpg",
+      "flags": [
+        "Pending с 28.10.2026: продавец уже принял предложение; не считать свободным активным объектом.",
+        "Гараж на две легковые машины не доказывает вместимость высокого кемпервана длиной 7 м.",
+        "Дом требует ремонта, отопление отсутствует по MLS; бюджет восстановления неизвестен."
+      ],
+      "official_sources": [
+        {
+          "url": "https://www.stutsmancounty.gov/files/zoning-ordinance.pdf",
+          "checked_at": "2026-11-09T03:18:24+00:00",
+          "finding": "Section 1.4 jurisdiction: do not assume county permissions govern a Streeter city parcel; municipal jurisdiction unresolved."
+        }
+      ],
+      "verification_history": [
+        {
+          "date": "2026-11-13T03:15:07+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.redfin.com/ND/Streeter/200-1st-Ave-NE-58483/home/109971483",
+          "finding": "Live Pending $12900 whole house and .24-acre lot; two-stall attached garage, original interior photo, APN and listing map coordinates reviewed. Garage dimensions and RV repair approval remain unknown."
+        }
+      ],
+      "image_remote_url": "https://ssl.cdn-redfin.com/photo/594/mbphotov3/333/genMid.4028333_4_0.jpg",
+      "photo_preserved_at": "2026-11-13T03:15:07+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/87a502b0904b1b8ef55a.jpg",
+          "source": "https://www.redfin.com/ND/Streeter/200-1st-Ave-NE-58483/home/109971483",
+          "remote_url": "https://ssl.cdn-redfin.com/photo/594/mbphotov3/333/genMid.4028333_4_0.jpg",
+          "date": "2026-11-13T03:15:07+00:00"
+        }
+      ],
+      "price_history": [
+        {
+          "date": "2026-11-13T03:15:07+00:00",
+          "price": 12900,
+          "price_basis": "asking_cash",
+          "source": "https://www.redfin.com/ND/Streeter/200-1st-Ave-NE-58483/home/109971483"
+        }
+      ],
+      "status_history": [],
+      "region": "Равнины",
+      "screening_issue": null,
+      "climate_note": "Небольшая выборка, суровая зима и большое расстояние. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "MSP",
+          "name": "Minneapolis–Saint Paul International Airport / Wold–Chamberlain Field",
+          "straight_km": 515,
+          "drive_km_estimate": 644,
+          "drive_hours_estimate": 8.6,
+          "flight_min_eur": 627,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "DEN",
+          "name": "Denver International Airport",
+          "straight_km": 869,
+          "drive_km_estimate": 1087,
+          "drive_hours_estimate": 14.5,
+          "flight_min_eur": 533,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "ORD",
+          "name": "Chicago O'Hare International Airport",
+          "straight_km": 1048,
+          "drive_km_estimate": 1310,
+          "drive_hours_estimate": 17.5,
+          "flight_min_eur": 383,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 515,
+      "score_parts": {
+        "Цена /25": 8,
+        "Помещение /25": 22,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 9,
+        "Сезон /10": 1,
+        "Дорога /10": 1
+      },
+      "score": 41
     }
   ]
 }

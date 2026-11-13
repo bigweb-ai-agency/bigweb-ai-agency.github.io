@@ -5903,7 +5903,148 @@
       "rotation_reason": "Continue low-photo-coverage rotation after ID/MT/WY. Automatic catalog discovery spans all 50; manual research prioritizes owned existing garages and honest whole-purchase prices.",
       "preservation": "All 1063 prior IDs, first_seen, parcel/map points, prices/fees, sale statuses, photographs and price/status/photo histories retained. Four fresh AZ records annotated and three held; one manual MT record/photo added. Existing assets, flights, Sicily and monitor unchanged by manual pass. Prior journal entries preserved.",
       "validation": "Focused data tests and data validator, append-only journal/preservation checks and scoped Git diff. State analysis regenerated. Public map, new listing/photo and retained HOLD photo checked after scoped publication; no application/parser changes."
+    },
+    {
+      "date": "2026-11-13T03:16:14+00:00",
+      "states": [
+        "WA",
+        "HI",
+        "ND"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [
+        "mls-nd-4028333"
+      ],
+      "updated_ids": [
+        "lc-27127",
+        "lc-27123",
+        "lc-27115",
+        "lc-27112",
+        "lc-27111",
+        "lc-27104",
+        "lc-27083",
+        "lc-25848"
+      ],
+      "automatic_added_ids": [
+        "lc-27127",
+        "lc-27123",
+        "lc-27115",
+        "lc-27112",
+        "lc-27111",
+        "lc-27104",
+        "lc-27083"
+      ],
+      "automatic_updated_ids": [
+        "lc-25842",
+        "lc-25848"
+      ],
+      "workflow": {
+        "run_id": 43340098635,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/43340098635",
+        "conclusion": "success",
+        "created_at": "2026-11-13T00:49:18Z",
+        "data_commit": "a2b178b66534b4455799930f009288a46b5d364b"
+      },
+      "monitor": {
+        "date": "2026-11-13T00:49:35+00:00",
+        "status": "partial",
+        "scanned_pages": 116,
+        "read_details": 64,
+        "added": 7,
+        "changed": 1,
+        "errors": 56
+      },
+      "source_errors": "Discovery and Pages 43340842042 succeeded; duplicate Pages 43340840211 cancelled. Monitor partial: 116 catalog pages, 64 details, 7 new, 1 counted change, 56 errors. All 20 retained samples HTTP 404; other 36 uncharacterized. No sold inference. Automatic collection available; fallback not needed. Stutsman official ordinance PDF timed out in web reader; 09-Nov checked legal context retained with original timestamp, not stamped fresh.",
+      "findings": [
+        {
+          "id": "mls-nd-4028333",
+          "url": "https://www.redfin.com/ND/Streeter/200-1st-Ave-NE-58483/home/109971483",
+          "finding": "New ND whole house with 2-stall attached garage, $12900, .24 acre, Streeter. Live Chrome Pending since Oct 28; stale Active search snapshot rejected. MLS full details, APN and map point verified. Actual garage interior JPEG preserved unchanged. High 7-m RV fit, structural condition, independent storage and repair approval unknown. No heating per MLS; distant international gateway. Added for monitoring, not a ready available workshop. ND reaches 10 photo candidates including pending offers; not 10 available approved RV bases."
+        },
+        {
+          "id": "lc-27127",
+          "finding": "Fresh CO $7500, 5 acres; $199 fee specifically under financed terms, cash closing unknown. Seller camping 14 days/3 months is not independent storage or repair permission. Original ground photo inspected."
+        },
+        {
+          "id": "lc-27123",
+          "finding": "Fresh NV $11999, 10 acres; $259 on original advertising photo is monthly financing, not purchase price. No utilities. Last dirt trail and recommended 4WD in bad weather recorded; seller 28-day RV claim unverified."
+        },
+        {
+          "id": "lc-27115",
+          "finding": "Fresh AZ $5500+$249=$5749; seller claims county-maintained Hansen Road/toy-hauler access. No utilities or existing shop. Seller camping conditions kept separate from official Mohave IPMC 302.8 restriction risk."
+        },
+        {
+          "id": "lc-27112",
+          "finding": "Fresh AZ $6840+$150=$6990. Source photo has Google mark, not a new field inspection. Broad seller low-restriction marketing is not authority confirmation."
+        },
+        {
+          "id": "lc-27111",
+          "finding": "Fresh AZ $9900+$249=$10149. Future workshop mentioned but none exists. Structured APN suffix (1) retained alongside base APN in description, no extra parcel inferred. No utilities; last road suitability unresolved."
+        },
+        {
+          "id": "lc-27104",
+          "finding": "Fresh AZ $7000 cash, 4.69 acres. Corrected known fees from $100 to $0 because $100 is explicitly in financing block; cash closing remains unknown, not zero cost. Photo shows dirt road/puddle. Conflicting SW/SE corner labels not used as survey boundaries."
+        },
+        {
+          "id": "lc-27083",
+          "finding": "Fresh CO $14950, 5.26 acres, near budget ceiling before unknown cash closing. $199 fee applies to financed terms. Original landscape aerial image does not establish boundaries or prepared work pad."
+        },
+        {
+          "id": "lc-25848",
+          "finding": "Nightly replacement photo matched fresh source and visually reviewed. Same Alamosa parcel/point/cash price. Previous photo file and history preserved. lc-25842 change is only tiny coordinate rounding, not a meaningful parcel move."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.coldwellbankerhomes.com/wa/hoquiam/0-cosgrove-st/pid_66238426/",
+          "finding": "WA MLS 2403284 active $12500; no structure. .11 acre/4792 sqft conflicts with description .21 acre; rear property with access easement, no proven 7-m RV entry. Future street water/sewer/electric only. Deferred identity/access and buildability checks, not imported to fill quota."
+        },
+        {
+          "url": "https://www.homes.com/washington/land-for-sale/under-15k/",
+          "finding": "Bounded WA catalog leads: Grand Coulee Loma Lane explicitly lacks direct road access and needs easements; .03-acre Aberdeen Duffy lot too small for screening; Anderson Island needs ferry/HOA review. No new verified owned workshop. Yakima ground lease quoted per sqft/year is not a purchase."
+        },
+        {
+          "url": "https://offerup.com/item/detail/90738640-e86f-3b4f-891f-b4a5c4f9d8f6",
+          "finding": "WA search lead: $15000 portable 14x40 garage is building-only, no owned land established; not imported."
+        },
+        {
+          "url": "https://www.trulia.com/home/15-2777-manini-st-pahoa-hi-96778-248424373",
+          "finding": "HI MLS725300, 15-2777 Manini St, $14990 live; .28 acre, slab/cesspool, $36/mo HOA. Seller explicitly tax-deed acquisition, title-insurability uncertainty, two unmaintained potentially incomplete structures of unknown safety. Power only available; waterline claim not independent working-service proof. Deferred title, structures, HOA and RV-use checks; near-budget price not treated as ready safe workshop."
+        },
+        {
+          "url": "https://www.homes.com/hawaii/land-for-sale/under-15k/",
+          "finding": "Bounded HI leads mostly raw lots. Koa $14000 each for four adjoining parcels is not $14000 for all; Heno tax-sale lead says no insurable title; Pua limited access. No improved ready RV base verified."
+        },
+        {
+          "url": "https://www.redfin.com/HI/Pahoa/13-1037-Kamaili-Rd-96778/home/144334184",
+          "finding": "HI search price $13195 is per acre; whole-property $185000 exceeds budget. Not imported."
+        }
+      ],
+      "official_rules": [
+        {
+          "url": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
+          "finding": "Published official IPMC302.8 reread: inoperative/unlicensed vehicles and major disassembly restricted with exceptions under other regulations. Parcel-specific permission and ordinary personal maintenance remain unresolved."
+        },
+        {
+          "url": "https://www.stutsmancounty.gov/files/zoning-ordinance.pdf",
+          "finding": "Fresh request timed out. Existing Nov9 evidence of section1.4 municipal jurisdiction retained with original date. Streeter city permissions remain unknown; no county-wide repair approval applied."
+        }
+      ],
+      "access": "Bounded public search/detail reads and connected Chrome; actual garage image downloaded via observed DOM image URL, unmodified. No CAPTCHA/403/robots/login bypass, seller contact, booking, purchase or infrastructure change.",
+      "flight_review": {
+        "last_review": "2026-11-09",
+        "next_review": "2026-11-16",
+        "finding": "Weekly VNO/UK/EU comparison not due; dated fares, baggage uncertainty and separate positioning unchanged."
+      },
+      "next_states": [
+        "DE",
+        "RI",
+        "VT"
+      ],
+      "rotation_reason": "Continue under-ten-state rotation; VT was last manually researched Nov6. Automatic catalogs span all50; manual focus remains owned garages and whole purchase prices.",
+      "preservation": "All1071 prior IDs, first_seen, parcel/map points, prices, statuses, photos and price/status/photo histories retained. Financing-only $100 removed from lc-27104 known cash fees with explicit explanation. Eight existing records annotated; one pending ND house/photo added. Existing assets, flights, Sicily and monitor unchanged by manual pass; journal append-only.",
+      "validation": "State analysis regenerated; focused data tests, data validator, preservation assertions and scoped diff. After scoped publication verify Pages, public data/photos and actual Chrome map/card. No application/parser changes."
     }
   ],
-  "updated_at": "2026-11-12T03:24:19+00:00"
+  "updated_at": "2026-11-13T03:16:14+00:00"
 }
