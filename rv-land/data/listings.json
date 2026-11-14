@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-14T00:47:09+00:00",
+  "updated_at": "2026-11-14T03:16:17+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -139963,12 +139963,15 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-14T00:47:09+00:00",
-      "last_seen": "2026-11-14T00:49:39Z",
-      "last_verified": "2026-11-14T00:49:39Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-14T03:16:17+00:00",
+      "last_verified": "2026-11-14T03:16:17+00:00",
+      "photo_kind": "Исходное аэрофото с красной разметкой продавца рядом с грунтовой дорогой; это не survey.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "14.11.2026: живая публичная карточка, APN, точка объявления и исходное фото проверены. Въезд/разворот высокого кемпервана около 7 м, отдельное длительное хранение и личный ремонт не подтверждены. Известная сумма не включает неустановленные closing, подключения и подготовку площадки.",
+        "Cash $13,999 за 1.2 ac. В карточке указан Quit Claim Deed; чистота, страхуемость и объём передаваемого права не проверены. Сам по себе тип deed не доказательство дефекта титула. Продавец требует самостоятельной проверки доступа, utilities, flood/environmental и residential zoning в Jackson County. Существующей мастерской нет."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27136",
       "source_id": "27136",
@@ -139998,24 +140001,25 @@
       "image_credit": "Seller / LandCentury",
       "parcel": "10-6N-11-0000-0110-0000",
       "zoning": "Residential",
-      "road_note": "Dirt Road",
-      "utility_note": "Electricity available, septic and well required",
-      "taxes_note": "123",
+      "road_note": "Dirt Road в карточке; реальный въезд, ширина и состояние для высокого RV не проверены.",
+      "utility_note": "По карточке electricity available; well и septic required. Подключения на участке не доказаны.",
+      "taxes_note": "USD 123/год по структурированной карточке продавца, без проверки налогового счёта.",
       "source_categories": [
         "residential-buildable-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "available",
-      "water": "unknown",
-      "sewer": "unknown",
+      "water": "none",
+      "sewer": "none",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Quit Claim Deed по продавцу; титул и страхуемость требуют отдельной проверки."
       ],
       "evidence_quote": "The surrounding area provides a quiet environment where you can enjoy the natural beauty of Northwest Florida while remaining connected to nearby",
       "price_history": [
@@ -140081,18 +140085,34 @@
         "Сезон /10": 7,
         "Дорога /10": 5
       },
-      "score": 20
+      "score": 20,
+      "verification_history": [
+        {
+          "date": "2026-11-14T03:16:17+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/florida/1-2-acres-for-sale-in-campbellton-florida-27136",
+          "finding": "Fresh public cash offer, parcel, listing coordinates and original photo reviewed. No existing workshop or personal repair permission established. Historical identity, facts and photo files retained."
+        }
+      ],
+      "tax_annual": 123,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/florida/1-2-acres-for-sale-in-campbellton-florida-27136"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-14T00:47:09+00:00",
-      "last_seen": "2026-11-14T00:49:40Z",
-      "last_verified": "2026-11-14T00:49:40Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-14T03:16:17+00:00",
+      "last_verified": "2026-11-14T03:16:17+00:00",
+      "photo_kind": "Рекламное фото из объявления: грунтовая дорога и надписи $225/mo, $349 to start. Это рассрочка, не cash price.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "14.11.2026: живая публичная карточка, APN, точка объявления и исходное фото проверены. Въезд/разворот высокого кемпервана около 7 м, отдельное длительное хранение и личный ремонт не подтверждены. Известная сумма не включает неустановленные closing, подключения и подготовку площадки.",
+        "Исправлен пропуск обязательного сбора: cash $7,799 + $250 processing = $8,049. $500 down/$750 due today и $99 down/$349 today — первоначальные платежи; $775.28×12 и $225.21×60 — альтернативная рассрочка. Высота 7,897 ft, flat/no HOA/legal access — seller claims. Well и solar предлагаются как будущие работы; действующих подключений нет в доказательствах. Разрешение кемпинга не устанавливает хранение или ремонт RV."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27135",
       "source_id": "27135",
@@ -140106,9 +140126,9 @@
       "zip": "81123",
       "kind": "land",
       "price": 7799.0,
-      "known_fees": 0.0,
-      "total_known": 7799.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "known_fees": 250,
+      "total_known": 8049,
+      "price_evidence": "Cash $7,799 плюс $250 processing прямо в cash-блоке; известный минимум $8,049. $750 due today не полная цена.",
       "acres": 5.0,
       "lat": 37.478128,
       "lng": -105.508105,
@@ -140121,16 +140141,16 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-blanca-colorado-27135",
       "image_credit": "Seller / LandCentury",
       "parcel": "70345660",
-      "zoning": "Residential",
-      "road_note": "Dirt Road",
+      "zoning": "Estate Residential по описанию продавца",
+      "road_note": "По продавцу legal dirt-road access; документ easement и проезд высокого RV не проверены.",
       "utility_note": "Contact the county",
-      "taxes_note": "148.72",
+      "taxes_note": "USD 148.72/год по продавцу.",
       "source_categories": [
         "residential-buildable-land",
         "owner-finance-deals",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -140207,18 +140227,35 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 25
+      "score": 25,
+      "verification_history": [
+        {
+          "date": "2026-11-14T03:16:17+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-blanca-colorado-27135",
+          "finding": "Fresh public cash offer, parcel, listing coordinates and original photo reviewed. No existing workshop or personal repair permission established. Historical identity, facts and photo files retained."
+        }
+      ],
+      "tax_annual": 148.72,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-blanca-colorado-27135"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-14T00:47:09+00:00",
-      "last_seen": "2026-11-14T00:50:04Z",
-      "last_verified": "2026-11-14T00:50:04Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-14T03:16:17+00:00",
+      "last_verified": "2026-11-14T03:16:17+00:00",
+      "photo_kind": "Исходное рекламное аэрофото с красной разметкой границ продавца и баннером; не survey.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "14.11.2026: живая публичная карточка, APN, точка объявления и исходное фото проверены. Въезд/разворот высокого кемпервана около 7 м, отдельное длительное хранение и личный ремонт не подтверждены. Известная сумма не включает неустановленные closing, подключения и подготовку площадки.",
+        "HOA $3140/год по продавцу. Обязательный one-time document preparation fee уплачивается при closing, но сумма не указана: known_fees=0 означает отсутствие известного числа, не отсутствие сбора. $50 hold не цена покупки. Seller RV restriction сохранён отдельно от неподтверждённых правил хранения/ремонта.",
+        "Old North State / Uwharrie Point, gated HOA, 2–6% slope. Cash $14,623 оставляет $377 до потолка $15,000 без неизвестного обязательного сбора. Продавец имеет plat, но survey не заказывал. На основной выборке HOLD из-за заявленного ограничения RV."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-23701",
       "source_id": "23701",
@@ -140247,14 +140284,14 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/north-carolina/049-acres-for-sale-in-new-london-north-carolina-23701",
       "image_credit": "Seller / LandCentury",
       "parcel": "667317109133",
-      "zoning": "Residential",
-      "road_note": "Gravel Road",
-      "utility_note": "Please, contract county",
-      "taxes_note": "94.15",
+      "zoning": "Residential 1, по продавцу",
+      "road_note": "По продавцу improved road; фактический проезд и разворот RV не проверены.",
+      "utility_note": "Power/public water/public sewer доступны для будущего подключения по продавцу; работающих подключений на parcel не доказано.",
+      "taxes_note": "USD 94.15/год по продавцу; налоговый счёт не проверен.",
       "source_categories": [
         "owner-finance-deals"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_no",
       "existing_garage": false,
@@ -140267,7 +140304,8 @@
       "flags": [
         "Продавец указывает ограничение на RV; хранение и ремонт проверить отдельно.",
         "Источник упоминает flood zone/flood risk; контекст и фактический риск требуют проверки FEMA и отметки площадки.",
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "HOA около $3140/год и запрет RV по продавцу; не считать готовой площадкой для RV."
       ],
       "evidence_quote": "The community is located on a peninsula bordered by Badin Lake and protected woodland, with a significant portion of the surrounding land",
       "price_history": [
@@ -140290,7 +140328,7 @@
         }
       ],
       "region": "Юг",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Мягкий сезон и несколько шлюзов. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -140333,18 +140371,40 @@
         "Сезон /10": 8,
         "Дорога /10": 9
       },
-      "score": 26
+      "score": 20,
+      "verification_history": [
+        {
+          "date": "2026-11-14T03:16:17+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/north-carolina/049-acres-for-sale-in-new-london-north-carolina-23701",
+          "finding": "Fresh public cash offer, parcel, listing coordinates and original photo reviewed. No existing workshop or personal repair permission established. Historical identity, facts and photo files retained."
+        }
+      ],
+      "tax_annual": 94.15,
+      "review_hold": {
+        "date": "2026-11-14T03:16:17+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/north-carolina/049-acres-for-sale-in-new-london-north-carolina-23701",
+        "reason": "Продавец прямо указывает RVs not allowed и HOA около $3140/год; обязательный document preparation fee не раскрыт.",
+        "release_condition": "Проверить актуальные правила HOA/точной юрисдикции для отдельного хранения и личного ремонта, полную сумму покупки и идентичность parcel."
+      },
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/north-carolina/049-acres-for-sale-in-new-london-north-carolina-23701"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-14T00:47:09+00:00",
-      "last_seen": "2026-11-14T00:50:06Z",
-      "last_verified": "2026-11-14T00:50:06Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-14T03:16:17+00:00",
+      "last_verified": "2026-11-14T03:16:17+00:00",
+      "photo_kind": "Исходное фото водонапорной башни Brownwood и окружающего района; сам parcel не обозначен.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "14.11.2026: живая публичная карточка, APN, точка объявления и исходное фото проверены. Въезд/разворот высокого кемпервана около 7 м, отдельное длительное хранение и личный ремонт не подтверждены. Известная сумма не включает неустановленные closing, подключения и подготовку площадки.",
+        "Cash $4,499; legal description King’s Point Cove Unit 1 Lot 417, .23 ac. Рекламное RV spot не является разрешением отдельной ремонтной базы. Фото относится к району, не доказывает состояние parcel. Опубликованная копия HOA Construction Policy, документ 2306208 от 14.11.2023, включает Unit 1: для подпадающих под неё buildable lots после приобретения требуется начать жилое строительство в пределах 24 месяцев и завершить за следующие 12 месяцев. Актуальность поправок, применимость к Lot 417 и возможные исключения не проверены. Общий RV park сообщества не даёт права хранить/ремонтировать RV на этом lot."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-23240",
       "source_id": "23240",
@@ -140374,14 +140434,14 @@
       "image_credit": "Seller / LandCentury",
       "parcel": "20039401",
       "zoning": "Residential",
-      "road_note": "Paved Road",
-      "utility_note": "Power line, public water and sewer line nearby",
+      "road_note": "По продавцу paved S Beacon Ln; фактический въезд/разворот RV не измерены.",
+      "utility_note": "По продавцу power/public water/sewer nearby; подключения на самом участке отсутствуют. Nearby не означает on-site.",
       "taxes_note": null,
       "source_categories": [
         "residential-buildable-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -140415,7 +140475,7 @@
         }
       ],
       "region": "Юг",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Много дешёвой земли на западе, обычно далеко от DFW/IAH. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -140458,18 +140518,47 @@
         "Сезон /10": 7,
         "Дорога /10": 6
       },
-      "score": 39
+      "score": 20,
+      "verification_history": [
+        {
+          "date": "2026-11-14T03:16:17+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/texas/023-acres-for-sale-in-brownwood-texas-23240",
+          "finding": "Fresh public cash offer, parcel, listing coordinates and original photo reviewed. No existing workshop or personal repair permission established. Historical identity, facts and photo files retained."
+        }
+      ],
+      "official_sources": [
+        {
+          "url": "https://media.unitedcountry.com/uc-media/listings/documents/1102044/fbd262f0-2822-43cd-af67-a39cb315796b.pdf",
+          "checked_at": "2026-11-14T03:16:17+00:00",
+          "finding": "Recorded association Construction Policy copy linked by local broker, sections1–2: covers Unit1 and qualifying buildable lots, with residential construction deadlines. Not county zoning or parcel-specific legal clearance; amendments/applicability to Lot417 unverified."
+        }
+      ],
+      "review_hold": {
+        "date": "2026-11-14T03:16:17+00:00",
+        "source": "https://media.unitedcountry.com/uc-media/listings/documents/1102044/fbd262f0-2822-43cd-af67-a39cb315796b.pdf",
+        "reason": "Риск несовместимости отдельной RV-базы с обязательным жилым строительством по опубликованной политике HOA; точная применимость к Lot 417 не подтверждена.",
+        "release_condition": "Подтвердить действующие CC&Rs, применимость construction policy, HOA dues и отдельное хранение/личный ремонт RV на Lot 417."
+      },
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/texas/023-acres-for-sale-in-brownwood-texas-23240"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-14T00:47:09+00:00",
-      "last_seen": "2026-11-14T00:50:14Z",
-      "last_verified": "2026-11-14T00:50:14Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-14T03:16:17+00:00",
+      "last_verified": "2026-11-14T03:16:17+00:00",
+      "photo_kind": "Исходное рекламное аэрофото с красной разметкой границ продавца и баннером; не survey.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "14.11.2026: живая публичная карточка, APN, точка объявления и исходное фото проверены. Въезд/разворот высокого кемпервана около 7 м, отдельное длительное хранение и личный ремонт не подтверждены. Известная сумма не включает неустановленные closing, подключения и подготовку площадки.",
+        "HOA $835/год по продавцу. Обязательный one-time document preparation fee уплачивается при closing, но сумма не указана: known_fees=0 означает отсутствие известного числа, не отсутствие сбора. $50 hold не цена покупки. Seller RV restriction сохранён отдельно от неподтверждённых правил хранения/ремонта.",
+        "Harbor Landing: по продавцу site-built homes only. Cash $14,955 — всего $45 до потолка без обязательного сбора неизвестной суммы. Структурированный APN I2A150 сохранён; в описании I2a15 — расхождение требует сверки. .72 ac из карточки/описания сохранено; 1.00 ac в URL не использовано. Границы рекламного фото не приняты за survey."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-21252",
       "source_id": "21252",
@@ -140499,25 +140588,26 @@
       "image_credit": "Seller / LandCentury",
       "parcel": "I2A150",
       "zoning": "Residential",
-      "road_note": "Paved Road",
-      "utility_note": "Electricity availability to be confirmed with Warren County; well required; prior septic permit on file.",
-      "taxes_note": "$256.50",
+      "road_note": "По продавцу improved road; фактический проезд и разворот RV не проверены.",
+      "utility_note": "Well и septic необходимо установить. Power nearby упомянуто, но доступность должна быть подтверждена с Warren County. Perc test/старый septic permit заявлены, документы не просмотрены.",
+      "taxes_note": "USD 256.5/год по продавцу; налоговый счёт не проверен.",
       "source_categories": [
         "owner-finance-deals"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_no",
       "existing_garage": false,
       "garage_size": null,
-      "electricity": "available",
-      "water": "unknown",
-      "sewer": "unknown",
+      "electricity": "unknown",
+      "water": "none",
+      "sewer": "none",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [
         "Продавец указывает ограничение на RV; хранение и ремонт проверить отдельно.",
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "HOA около $835/год и запрет RV по продавцу; не считать готовой площадкой для RV."
       ],
       "evidence_quote": "The neighborhood has no rules-so they end up next to junk cars, trailers, or permanent RV setups 3.",
       "price_history": [
@@ -140540,7 +140630,7 @@
         }
       ],
       "region": "Юг",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Мягкий сезон и несколько шлюзов. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -140579,11 +140669,30 @@
         "Цена /25": 5,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 1,
+        "Коммуникации /10": 0,
         "Сезон /10": 8,
         "Дорога /10": 6
       },
-      "score": 20
+      "score": 19,
+      "verification_history": [
+        {
+          "date": "2026-11-14T03:16:17+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/north-carolina/100-acres-for-sale-in-macon-north-carolina-21252",
+          "finding": "Fresh public cash offer, parcel, listing coordinates and original photo reviewed. No existing workshop or personal repair permission established. Historical identity, facts and photo files retained."
+        }
+      ],
+      "tax_annual": 256.5,
+      "review_hold": {
+        "date": "2026-11-14T03:16:17+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/north-carolina/100-acres-for-sale-in-macon-north-carolina-21252",
+        "reason": "Продавец прямо указывает RVs not allowed и HOA около $835/год; обязательный document preparation fee не раскрыт.",
+        "release_condition": "Проверить актуальные правила HOA/точной юрисдикции для отдельного хранения и личного ремонта, полную сумму покупки и идентичность parcel."
+      },
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/north-carolina/100-acres-for-sale-in-macon-north-carolina-21252"
+      ]
     }
   ]
 }

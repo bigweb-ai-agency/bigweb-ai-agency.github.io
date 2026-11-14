@@ -73,7 +73,11 @@ def purchase_document_fee(description):
     # Some sellers offer a fixed in-house closing charge as an alternative to
     # a more expensive title company. Keep that stated minimum purchase fee.
     in_house=matchvalue(text,r'\bin[- ]house\s+closing\s+for\s+\$([\d,]+(?:\.\d{2})?)')
-    return max(fee,number(in_house) or 0)
+    # "Cash: $7,799 (plus $250 processing)" explicitly ties this charge to
+    # the cash purchase; bare processing amounts elsewhere may be financing.
+    cash_processing=matchvalue(text,r'\bcash(?:\s+(?:price|deal|sale))?\s*:\s*\$[\d,]+(?:\.\d{2})?\s*'
+                                   r'\(\s*plus\s+\$([\d,]+(?:\.\d{2})?)\s+processing(?:\s+fee)?\s*\)')
+    return max(fee,number(in_house) or 0,number(cash_processing) or 0)
 
 def flags_from_text(description,kind='land',road=None,utilities=None):
     t=compact(description).lower()

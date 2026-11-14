@@ -67,6 +67,21 @@ class ResearchDataTests(unittest.TestCase):
         self.assertEqual(b.purchase_document_fee('Cash price: $3,895 Doc fee: waived'),0)
         self.assertEqual(b.purchase_document_fee('$300 non-refundable document fee.'),300)
 
+    def test_cash_parenthetical_processing_charge_is_not_a_down_payment(self):
+        description=('Cash: $7,799 (plus $250 processing) — $500 down, $750 total due today. '
+                     'Financing: $99 down + $250 processing = $349 today; $225.21/month.')
+        base={'id':27135,'cashPrice':779900,'processingFee':0,'stateRegion':'Colorado',
+              'type':'land','isPublished':True,'_source_url':'https://www.landcentury.com/example',
+              '_fetched_at':'2026-11-14','info':{},'categories':[],'description':description}
+        with patch.object(b,'read',return_value={'27135':base}):
+            row=b.landcentury_records()[0]
+        self.assertEqual((row['price'],row['known_fees'],row['total_known']),(7799,250,8049))
+        for text in ('Financing: $7,799 (plus $250 processing)',
+                     'Cash: $7,799. Financing: $99 down + $250 processing.',
+                     'Cash: $7,799 (plus $9 processing per month)',
+                     'Cash: $7,799 per acre (plus $250 processing)'):
+            with self.subTest(text=text):self.assertEqual(b.purchase_document_fee(text),0)
+
     def test_in_house_closing_alternative_is_known_minimum_purchase_fee(self):
         for fee in (249,299):
             description=f'Buyer pays closing: title company $800-$1,200 or in-house closing for ${fee}.'

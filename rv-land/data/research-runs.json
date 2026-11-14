@@ -6044,7 +6044,117 @@
       "rotation_reason": "Continue under-ten-state rotation; VT was last manually researched Nov6. Automatic catalogs span all50; manual focus remains owned garages and whole purchase prices.",
       "preservation": "All1071 prior IDs, first_seen, parcel/map points, prices, statuses, photos and price/status/photo histories retained. Financing-only $100 removed from lc-27104 known cash fees with explicit explanation. Eight existing records annotated; one pending ND house/photo added. Existing assets, flights, Sicily and monitor unchanged by manual pass; journal append-only.",
       "validation": "State analysis regenerated; focused data tests, data validator, preservation assertions and scoped diff. After scoped publication verify Pages, public data/photos and actual Chrome map/card. No application/parser changes."
+    },
+    {
+      "date": "2026-11-14T03:17:00+00:00",
+      "states": [
+        "DE",
+        "RI",
+        "VT"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [],
+      "updated_ids": [
+        "lc-27136",
+        "lc-27135",
+        "lc-23701",
+        "lc-23240",
+        "lc-21252"
+      ],
+      "automatic_added_ids": [
+        "lc-27136",
+        "lc-27135",
+        "lc-23701",
+        "lc-23240",
+        "lc-21252"
+      ],
+      "automatic_updated_ids": [],
+      "workflow": {
+        "run_id": 43536444360,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/43536444360",
+        "conclusion": "success",
+        "created_at": "2026-11-14T00:46:52Z",
+        "data_commit": "49f9ec64e68b994e801960313af20b86aad62b6a"
+      },
+      "monitor": {
+        "date": "2026-11-14T00:47:09+00:00",
+        "status": "partial",
+        "scanned_pages": 116,
+        "read_details": 64,
+        "added": 5,
+        "changed": 0,
+        "errors": 56
+      },
+      "source_errors": "Discovery and Pages43537021089 succeeded; duplicate Pages43537022454 cancelled. Monitor partial:116 catalogs/64 details/5 new/0 counted changes/56 errors. All20 retained error samples404; remaining36 uncharacterized. No sold inference. Automatic collection available; fallback not needed. Land.com Vermont catalog returned Access Denied in Chrome and was not bypassed. Unit1 HOA scanned restrictions PDF screenshot timed out; no unseen clauses inferred.",
+      "findings": [
+        {
+          "id": "lc-27136",
+          "finding": "FL $13999,1.2 acres; fresh public parcel/point/photo. Quit Claim Deed disclosed, title/insurability unresolved. Electricity available per structured seller data; well/septic future work. Dirt road, no garage. Original aerial image with seller boundary overlay inspected."
+        },
+        {
+          "id": "lc-27135",
+          "finding": "CO cash $7799 plus mandatory $250 processing=$8049. Parser now recognizes this explicitly cash-linked parenthetical, with regression excluding financing/down payments/recurring charges. Source image $225/mo and $349 to start retained and clearly labeled financing. No existing workshop or independent RV-use approval."
+        },
+        {
+          "id": "lc-23701",
+          "finding": "NC $14623 plus unspecified mandatory closing document fee, HOA$3140/year, seller RV prohibition. HOLD; future utility connections not installed services. Source aerial/marketing image inspected."
+        },
+        {
+          "id": "lc-23240",
+          "finding": "TX $4499,Unit1 Lot417,.23 acre. Utilities only nearby. Original photo is a Brownwood area/water-tower image, not a marked parcel. Published recorded HOA construction policy creates a potential residential-building obligation; HOLD pending applicability/current rules. Community RV amenities do not establish parcel repair permission."
+        },
+        {
+          "id": "lc-21252",
+          "finding": "NC $14955 plus unspecified mandatory fee, HOA$835/year, seller RV prohibition/site-built-only. HOLD. Structured APN I2A150 differs from description I2a15; identity retained pending resolution. .72 acre retained despite1-acre URL. Electricity unconfirmed; well/septic future work. Source marketing aerial inspected."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.homes.com/delaware/land-for-sale/under-15k/",
+          "finding": "Live Chrome catalog explicitly no matching properties. Bounded DE garage/land searches produced no new verified owned workshop. Nearby Newark search results were Maryland parcels, not Delaware. This is not proof of no DE opportunities across the market."
+        },
+        {
+          "url": "https://corcoranchr.com/listing/RI/Narragansett/0-Rhode-Island-Avenue-02882/231519435",
+          "finding": "RI 0 Rhode Island Avenue search snapshot reports sold Nov3 at$14000; existing ri-1419851 already sold. No fresh fact overwritten from search snapshot. No new qualifying RI garage confirmed; other cheap-catalog leads above budget."
+        },
+        {
+          "url": "https://themarcelinoteam.com/real-estate/sold-search/?r=41-60",
+          "finding": "VT 50FarrarSt Richford MLS5006026,$12500 house/shed/garage appears in sold catalog, not available purchase. No import."
+        },
+        {
+          "url": "https://www.hickokandboardman.com/real-estate/poultney/413-upper-road/5080276.html",
+          "finding": "VT 413UpperRd Poultney MLS5080276 garage lead:30x25 insulated with200Amp/heat, but search asking$65000 exceeds budget. Search evidence only, not a current verified offer."
+        },
+        {
+          "url": "https://www.landresellers.com/properties/cavendish-parcel-along-twenty-mile-stream-perfect-for-recreation-and-rela/flyer",
+          "finding": "VT Cavendish0DavisRd5ac brochure: cash$23999+$299fee; $12000 is financing down payment. Landlocked. Excluded on whole-price/access grounds despite RV marketing. No import."
+        },
+        {
+          "url": "https://www.land.com/Vermont/all-land/under-20000/",
+          "finding": "Chrome Access Denied; stopped. Other Vermont catalog leads at$19000+, or rental/sold ambiguity, did not yield a verified new owned garage in budget. Existing two VT pending records retained."
+        }
+      ],
+      "official_rules": [
+        {
+          "url": "https://media.unitedcountry.com/uc-media/listings/documents/1102044/fbd262f0-2822-43cd-af67-a39cb315796b.pdf",
+          "finding": "Primary recorded HOA policy copy via broker: document2306208,Nov14,2023; Unit1 included, qualifying buildable lots subject to dwelling-construction deadlines. Exact applicability/amendments toLot417 remain unverified; not county zoning permission."
+        }
+      ],
+      "access": "Bounded public web/catalog/detail reads and connected Chrome; five fresh original listing photos visually inspected. No CAPTCHA/403/robots/login bypass, contact, booking, purchase or infrastructure change.",
+      "flight_review": {
+        "last_review": "2026-11-09",
+        "next_review": "2026-11-16",
+        "finding": "Weekly VNO/UK/EU comparison not due. Dates,baggage uncertainty and separate positioning preserved."
+      },
+      "next_states": [
+        "CT",
+        "MA",
+        "NJ"
+      ],
+      "rotation_reason": "Continue states with fewer than10 photo candidates. Current automatic catalogs cover all50 states; manual research prioritizes existing workshops and full purchase price.",
+      "preservation": "All1077 existing IDs,first_seen,parcel/map points,prices,statuses,photos and price/status/photo histories retained. Five automatically added records annotated; no manual additions. One cash processing fee corrected; three review holds added. Existing asset bytes,flights,Sicily and monitor preserved. Journal append-only.",
+      "validation": "33 focused data tests,validator,preservation assertions and scoped diff; state analysis regenerated. Verify exact-head Actions/Pages,public data/photo bytes and rendered Chrome map after scoped publication."
     }
   ],
-  "updated_at": "2026-11-13T03:16:14+00:00"
+  "updated_at": "2026-11-14T03:17:00+00:00"
 }
