@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-13T03:15:07+00:00",
+  "updated_at": "2026-11-14T00:47:09+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -13945,8 +13945,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-17T01:12:09Z",
-      "last_verified": "2026-10-17T01:12:09Z",
+      "last_seen": "2026-11-14T00:52:10Z",
+      "last_verified": "2026-11-14T00:52:10Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -13973,7 +13973,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-02T01:17:01.000000Z",
+      "source_updated": "2026-11-09T19:02:30.000000Z",
       "source_published": "2026-08-26T01:07:06.000000Z",
       "image_url": "assets/listings/40f68b3d9784a06bc9bd.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/florida/050-acres-for-sale-in-interlachen-florida-26028",
@@ -13981,7 +13981,7 @@
       "parcel": "05-10-24-4930-0030-0150",
       "zoning": "Residential",
       "road_note": "Dirt Road",
-      "utility_note": "Please, contract county",
+      "utility_note": "We recommend that you contact Putnam County to confirm, but according to our research, electricity is available for connection ~200 meters from the property. A well and septic system would need to be installed.",
       "taxes_note": "145.12",
       "source_categories": [
         "owner-finance-deals"
@@ -13997,7 +13997,7 @@
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
-        "В источнике есть указание на затопление: проверить FEMA и отметку площадки.",
+        "Источник упоминает flood zone/flood risk; контекст и фактический риск требуют проверки FEMA и отметки площадки.",
         "Упоминаются заболоченные земли; пригодность площадки требует проверки.",
         "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
         "Оценить уклон, разворот и стоимость ровной площадки."
@@ -14061,7 +14061,7 @@
       },
       "score": 22,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/26/6a8e3e64dff71-1787706980.jpg",
-      "photo_preserved_at": "2026-10-17T01:06:42+00:00",
+      "photo_preserved_at": "2026-11-14T00:47:09+00:00",
       "photo_history": [
         {
           "path": "assets/listings/40f68b3d9784a06bc9bd.jpg",
@@ -14075,8 +14075,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-17T01:12:11Z",
-      "last_verified": "2026-10-17T01:12:11Z",
+      "last_seen": "2026-11-14T00:52:12Z",
+      "last_verified": "2026-11-14T00:52:12Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -14094,8 +14094,8 @@
       "zip": "32696",
       "kind": "land",
       "price": 13900.0,
-      "known_fees": 0.0,
-      "total_known": 13900.0,
+      "known_fees": 349.0,
+      "total_known": 14249.0,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 0.5,
       "lat": 29.4349965,
@@ -14103,7 +14103,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-09-30T19:47:34.000000Z",
+      "source_updated": "2026-11-08T03:21:36.000000Z",
       "source_published": "2026-08-25T12:15:41.000000Z",
       "image_url": "assets/listings/4731545a3b3d5dcefc9b.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/florida/05-acres-for-sale-in-bronson-fl-26019",
@@ -14181,16 +14181,16 @@
       ],
       "msp_straight_km": 1956,
       "score_parts": {
-        "Цена /25": 7,
+        "Цена /25": 6,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 0,
         "Сезон /10": 7,
         "Дорога /10": 7
       },
-      "score": 21,
+      "score": 20,
       "image_remote_url": "https://storage.portalstation.com/uploads/2026/08/25/6a8d83e3f0563-1787659235.jpg",
-      "photo_preserved_at": "2026-10-17T01:06:42+00:00",
+      "photo_preserved_at": "2026-11-14T00:47:09+00:00",
       "photo_history": [
         {
           "path": "assets/listings/4731545a3b3d5dcefc9b.jpg",
@@ -14331,8 +14331,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-17T01:12:12Z",
-      "last_verified": "2026-10-17T01:12:12Z",
+      "last_seen": "2026-11-14T00:52:13Z",
+      "last_verified": "2026-11-14T00:52:13Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -14359,7 +14359,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-15T15:48:05.000000Z",
+      "source_updated": "2026-11-13T00:00:07.000000Z",
       "source_published": "2025-08-22T18:29:53.000000Z",
       "image_url": "assets/listings/929c23175b513fe16ce7.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/florida/036-acres-for-sale-in-interlachen-florida-22126",
@@ -14446,7 +14446,7 @@
       },
       "score": 25,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2025/11/11/69136b286bd2b-1762880296.jpg",
-      "photo_preserved_at": "2026-10-17T01:06:42+00:00",
+      "photo_preserved_at": "2026-11-14T00:47:09+00:00",
       "photo_history": [
         {
           "path": "assets/listings/929c23175b513fe16ce7.jpg",
@@ -101979,7 +101979,7 @@
         "price": 119995.0,
         "image_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/14/6acfe4ad084cf-1792009389.jpg",
         "source_updated": "2026-11-07T05:58:35.000000Z",
-        "date": "2026-11-13T00:49:35+00:00"
+        "date": "2026-11-14T00:47:09+00:00"
       },
       "source_identity_history": [
         {
@@ -139958,6 +139958,632 @@
         "Дорога /10": 1
       },
       "score": 41
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-14T00:47:09+00:00",
+      "last_seen": "2026-11-14T00:49:39Z",
+      "last_verified": "2026-11-14T00:49:39Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27136",
+      "source_id": "27136",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/florida/1-2-acres-for-sale-in-campbellton-florida-27136",
+      "title": "3438 Saint Phillips Road",
+      "address": "3438 Saint Phillips Road",
+      "city": "Campbellton",
+      "state": "FL",
+      "county": "Jackson",
+      "zip": "32426",
+      "kind": "land",
+      "price": 13999.0,
+      "known_fees": 0.0,
+      "total_known": 13999.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 1.2,
+      "lat": 30.93085,
+      "lng": -85.312,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-13T15:05:11.000000Z",
+      "source_published": "2026-11-13T15:03:54.000000Z",
+      "image_url": "assets/listings/149d2522384be1193757.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/florida/1-2-acres-for-sale-in-campbellton-florida-27136",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "10-6N-11-0000-0110-0000",
+      "zoning": "Residential",
+      "road_note": "Dirt Road",
+      "utility_note": "Electricity available, septic and well required",
+      "taxes_note": "123",
+      "source_categories": [
+        "residential-buildable-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "available",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "flags": [
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
+      "evidence_quote": "The surrounding area provides a quiet environment where you can enjoy the natural beauty of Northwest Florida while remaining connected to nearby",
+      "price_history": [
+        {
+          "date": "2026-11-14T00:47:09+00:00",
+          "price": 13999.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/florida/1-2-acres-for-sale-in-campbellton-florida-27136"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/13/6af726f9d64e3-1794582265.jpg",
+      "photo_preserved_at": "2026-11-14T00:47:09+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/149d2522384be1193757.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/florida/1-2-acres-for-sale-in-campbellton-florida-27136",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/13/6af726f9d64e3-1794582265.jpg",
+          "date": "2026-11-14T00:47:09+00:00"
+        }
+      ],
+      "region": "Юг",
+      "screening_issue": null,
+      "climate_note": "Дешёвый перелёт и мягкая зима. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "ATL",
+          "name": "Hartsfield Jackson Atlanta International Airport",
+          "straight_km": 312,
+          "drive_km_estimate": 390,
+          "drive_hours_estimate": 5.2,
+          "flight_min_eur": 557,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "MCO",
+          "name": "Orlando International Airport",
+          "straight_km": 476,
+          "drive_km_estimate": 595,
+          "drive_hours_estimate": 7.9,
+          "flight_min_eur": 931,
+          "flight_origin": "VNO",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "BNA",
+          "name": "Nashville International Airport",
+          "straight_km": 591,
+          "drive_km_estimate": 739,
+          "drive_hours_estimate": 9.9,
+          "flight_min_eur": 583,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1697,
+      "score_parts": {
+        "Цена /25": 7,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 1,
+        "Сезон /10": 7,
+        "Дорога /10": 5
+      },
+      "score": 20
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-14T00:47:09+00:00",
+      "last_seen": "2026-11-14T00:49:40Z",
+      "last_verified": "2026-11-14T00:49:40Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27135",
+      "source_id": "27135",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-blanca-colorado-27135",
+      "title": "Ll 9th Street",
+      "address": "Ll 9th Street",
+      "city": "Blanca",
+      "state": "CO",
+      "county": "Costilla",
+      "zip": "81123",
+      "kind": "land",
+      "price": 7799.0,
+      "known_fees": 0.0,
+      "total_known": 7799.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 5.0,
+      "lat": 37.478128,
+      "lng": -105.508105,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-13T11:41:51.000000Z",
+      "source_published": "2026-11-13T11:35:22.000000Z",
+      "image_url": "assets/listings/9c8be0edcbf05ce4d4d8.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-blanca-colorado-27135",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "70345660",
+      "zoning": "Residential",
+      "road_note": "Dirt Road",
+      "utility_note": "Contact the county",
+      "taxes_note": "148.72",
+      "source_categories": [
+        "residential-buildable-land",
+        "owner-finance-deals",
+        "vacant-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "flags": [
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
+      "evidence_quote": null,
+      "price_history": [
+        {
+          "date": "2026-11-14T00:47:09+00:00",
+          "price": 7799.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-blanca-colorado-27135"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/13/6af6f680873cb-1794569856.jpg",
+      "photo_preserved_at": "2026-11-14T00:47:09+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/9c8be0edcbf05ce4d4d8.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-blanca-colorado-27135",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/13/6af6f680873cb-1794569856.jpg",
+          "date": "2026-11-14T00:47:09+00:00"
+        }
+      ],
+      "region": "Горный",
+      "screening_issue": null,
+      "climate_note": "San Luis Valley даёт много дешёвых лотов, но это высокогорье с морозом, ветром и дорогими коммуникациями. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "DEN",
+          "name": "Denver International Airport",
+          "straight_km": 275,
+          "drive_km_estimate": 343,
+          "drive_hours_estimate": 4.6,
+          "flight_min_eur": 533,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "SLC",
+          "name": "Salt Lake City International Airport",
+          "straight_km": 668,
+          "drive_km_estimate": 835,
+          "drive_hours_estimate": 11.1,
+          "flight_min_eur": 739,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "PHX",
+          "name": "Phoenix Sky Harbor International Airport",
+          "straight_km": 740,
+          "drive_km_estimate": 925,
+          "drive_hours_estimate": 12.3,
+          "flight_min_eur": 740,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1315,
+      "score_parts": {
+        "Цена /25": 17,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 3,
+        "Дорога /10": 5
+      },
+      "score": 25
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-14T00:47:09+00:00",
+      "last_seen": "2026-11-14T00:50:04Z",
+      "last_verified": "2026-11-14T00:50:04Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-23701",
+      "source_id": "23701",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/north-carolina/049-acres-for-sale-in-new-london-north-carolina-23701",
+      "title": "114 Candor Oaks Drive",
+      "address": "114 Candor Oaks Drive",
+      "city": "New London",
+      "state": "NC",
+      "county": "Montgomery",
+      "zip": "28127",
+      "kind": "land",
+      "price": 14623.0,
+      "known_fees": 0.0,
+      "total_known": 14623.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 0.49,
+      "lat": 35.47657,
+      "lng": -80.10165,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-14T00:01:49.000000Z",
+      "source_published": "2026-01-14T19:21:39.000000Z",
+      "image_url": "assets/listings/44a006c1fb44a649c2a0.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/north-carolina/049-acres-for-sale-in-new-london-north-carolina-23701",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "667317109133",
+      "zoning": "Residential",
+      "road_note": "Gravel Road",
+      "utility_note": "Please, contract county",
+      "taxes_note": "94.15",
+      "source_categories": [
+        "owner-finance-deals"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "seller_no",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "available",
+      "water": "available",
+      "sewer": "available",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "flags": [
+        "Продавец указывает ограничение на RV; хранение и ремонт проверить отдельно.",
+        "Источник упоминает flood zone/flood risk; контекст и фактический риск требуют проверки FEMA и отметки площадки.",
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
+      "evidence_quote": "The community is located on a peninsula bordered by Badin Lake and protected woodland, with a significant portion of the surrounding land",
+      "price_history": [
+        {
+          "date": "2026-11-14T00:47:09+00:00",
+          "price": 14623.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/north-carolina/049-acres-for-sale-in-new-london-north-carolina-23701"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/03/12/69b315a8603ad-1773344168.jpg",
+      "photo_preserved_at": "2026-11-14T00:47:09+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/44a006c1fb44a649c2a0.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/north-carolina/049-acres-for-sale-in-new-london-north-carolina-23701",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/03/12/69b315a8603ad-1773344168.jpg",
+          "date": "2026-11-14T00:47:09+00:00"
+        }
+      ],
+      "region": "Юг",
+      "screening_issue": null,
+      "climate_note": "Мягкий сезон и несколько шлюзов. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "CLT",
+          "name": "Charlotte Douglas International Airport",
+          "straight_km": 82,
+          "drive_km_estimate": 102,
+          "drive_hours_estimate": 1.4,
+          "flight_min_eur": 690,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "ATL",
+          "name": "Hartsfield Jackson Atlanta International Airport",
+          "straight_km": 446,
+          "drive_km_estimate": 557,
+          "drive_hours_estimate": 7.4,
+          "flight_min_eur": 557,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "IAD",
+          "name": "Washington Dulles International Airport",
+          "straight_km": 451,
+          "drive_km_estimate": 564,
+          "drive_hours_estimate": 7.5,
+          "flight_min_eur": 380,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1525,
+      "score_parts": {
+        "Цена /25": 6,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 3,
+        "Сезон /10": 8,
+        "Дорога /10": 9
+      },
+      "score": 26
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-14T00:47:09+00:00",
+      "last_seen": "2026-11-14T00:50:06Z",
+      "last_verified": "2026-11-14T00:50:06Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-23240",
+      "source_id": "23240",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/texas/023-acres-for-sale-in-brownwood-texas-23240",
+      "title": "0 S Beacon Ln",
+      "address": "0 S Beacon Ln",
+      "city": "Brownwood",
+      "state": "TX",
+      "county": "Brown",
+      "zip": "76801",
+      "kind": "land",
+      "price": 4499.0,
+      "known_fees": 0.0,
+      "total_known": 4499.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 0.23,
+      "lat": 31.80085,
+      "lng": -99.03679,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-02-27T13:20:40.000000Z",
+      "source_published": "2025-11-18T20:35:09.000000Z",
+      "image_url": "assets/listings/856ecf42669bc6244a3b.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/texas/023-acres-for-sale-in-brownwood-texas-23240",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "20039401",
+      "zoning": "Residential",
+      "road_note": "Paved Road",
+      "utility_note": "Power line, public water and sewer line nearby",
+      "taxes_note": null,
+      "source_categories": [
+        "residential-buildable-land",
+        "vacant-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "available",
+      "water": "available",
+      "sewer": "available",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "flags": [
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
+      "evidence_quote": "Its manageable size makes it ideal for a weekend retreat, RV spot, or a compact home nestled in a quiet, scenic community.",
+      "price_history": [
+        {
+          "date": "2026-11-14T00:47:09+00:00",
+          "price": 4499.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/texas/023-acres-for-sale-in-brownwood-texas-23240"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2025/11/18/691cde6eefcb1-1763499630.jpg",
+      "photo_preserved_at": "2026-11-14T00:47:09+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/856ecf42669bc6244a3b.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/texas/023-acres-for-sale-in-brownwood-texas-23240",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2025/11/18/691cde6eefcb1-1763499630.jpg",
+          "date": "2026-11-14T00:47:09+00:00"
+        }
+      ],
+      "region": "Юг",
+      "screening_issue": null,
+      "climate_note": "Много дешёвой земли на западе, обычно далеко от DFW/IAH. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "DFW",
+          "name": "Dallas Fort Worth International Airport",
+          "straight_km": 224,
+          "drive_km_estimate": 280,
+          "drive_hours_estimate": 3.7,
+          "flight_min_eur": 717,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "IAH",
+          "name": "George Bush Intercontinental Airport",
+          "straight_km": 406,
+          "drive_km_estimate": 508,
+          "drive_hours_estimate": 6.8,
+          "flight_min_eur": 716,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "DEN",
+          "name": "Denver International Airport",
+          "straight_km": 1030,
+          "drive_km_estimate": 1287,
+          "drive_hours_estimate": 17.2,
+          "flight_min_eur": 533,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1539,
+      "score_parts": {
+        "Цена /25": 23,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 3,
+        "Сезон /10": 7,
+        "Дорога /10": 6
+      },
+      "score": 39
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-14T00:47:09+00:00",
+      "last_seen": "2026-11-14T00:50:14Z",
+      "last_verified": "2026-11-14T00:50:14Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-21252",
+      "source_id": "21252",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/north-carolina/100-acres-for-sale-in-macon-north-carolina-21252",
+      "title": "314 Harbor Drive",
+      "address": "314 Harbor Drive",
+      "city": "Macon",
+      "state": "NC",
+      "county": "Warren",
+      "zip": "27551",
+      "kind": "land",
+      "price": 14955.0,
+      "known_fees": 0.0,
+      "total_known": 14955.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 0.72,
+      "lat": 36.53423,
+      "lng": -78.02294,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-14T00:35:58.000000Z",
+      "source_published": "2025-06-24T19:16:41.000000Z",
+      "image_url": "assets/listings/623d6aad9b281240d6de.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/north-carolina/100-acres-for-sale-in-macon-north-carolina-21252",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "I2A150",
+      "zoning": "Residential",
+      "road_note": "Paved Road",
+      "utility_note": "Electricity availability to be confirmed with Warren County; well required; prior septic permit on file.",
+      "taxes_note": "$256.50",
+      "source_categories": [
+        "owner-finance-deals"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "seller_no",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "available",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "flags": [
+        "Продавец указывает ограничение на RV; хранение и ремонт проверить отдельно.",
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
+      "evidence_quote": "The neighborhood has no rules-so they end up next to junk cars, trailers, or permanent RV setups 3.",
+      "price_history": [
+        {
+          "date": "2026-11-14T00:47:09+00:00",
+          "price": 14955.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/north-carolina/100-acres-for-sale-in-macon-north-carolina-21252"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/04/29/69f15fb071d94-1777426352.jpg",
+      "photo_preserved_at": "2026-11-14T00:47:09+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/623d6aad9b281240d6de.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/north-carolina/100-acres-for-sale-in-macon-north-carolina-21252",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/04/29/69f15fb071d94-1777426352.jpg",
+          "date": "2026-11-14T00:47:09+00:00"
+        }
+      ],
+      "region": "Юг",
+      "screening_issue": null,
+      "climate_note": "Мягкий сезон и несколько шлюзов. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "IAD",
+          "name": "Washington Dulles International Airport",
+          "straight_km": 273,
+          "drive_km_estimate": 341,
+          "drive_hours_estimate": 4.5,
+          "flight_min_eur": 380,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "CLT",
+          "name": "Charlotte Douglas International Airport",
+          "straight_km": 301,
+          "drive_km_estimate": 377,
+          "drive_hours_estimate": 5.0,
+          "flight_min_eur": 690,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "PHL",
+          "name": "Philadelphia International Airport",
+          "straight_km": 444,
+          "drive_km_estimate": 554,
+          "drive_hours_estimate": 7.4,
+          "flight_min_eur": 613,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1578,
+      "score_parts": {
+        "Цена /25": 5,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 1,
+        "Сезон /10": 8,
+        "Дорога /10": 6
+      },
+      "score": 20
     }
   ]
 }
