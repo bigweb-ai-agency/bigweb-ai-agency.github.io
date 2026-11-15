@@ -151,6 +151,10 @@ def flags_from_text(description,kind='land',road=None,utilities=None):
                    rf'|\b{pat}\s+availability\s+has\s+not\s+been\s+confirmed\b'
                    rf'|\b(?:verify|confirm|check)\s+whether\s+{pat}\s+can\s+be\s+connected\b')
         if re.search(uncertain,t+' '+compact(utilities).lower()):result[tag]='unknown'
+    # Nearby surface water can be mentioned as scenery or runoff. An explicit
+    # disclaimer of a dependable water source overrides the keyword heuristic.
+    if re.search(r"\b(?:isn't|is not|isn’t) (?:a )?(?:reliable |dependable )?water source(?: you can (?:count|rely) on)?\b",t):
+        result['water']='none' if re.search(r'no utilities|utilities\s*:\s*none',u+' '+t) else 'unknown'
     risk_patterns=[
         (r'tax deed|quit.?claim','Налоговый/quitclaim deed: проверить право собственности, обременения и страхование титула.'),
         (r'flood (?:zone|plain|risk)|floodplain|floodway','Источник упоминает flood zone/flood risk; контекст и фактический риск требуют проверки FEMA и отметки площадки.'),

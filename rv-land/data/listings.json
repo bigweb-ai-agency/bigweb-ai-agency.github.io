@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-15T00:51:32+00:00",
+  "updated_at": "2026-11-15T03:15:30+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -140698,12 +140698,15 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-15T00:51:32+00:00",
-      "last_seen": "2026-11-15T00:54:12Z",
-      "last_verified": "2026-11-15T00:54:12Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-15T03:15:30+00:00",
+      "last_verified": "2026-11-15T03:15:30+00:00",
+      "photo_kind": "Исходное рекламное фото грунтовой дороги и открытого ландшафта; $209/mo и $450 down относятся к рассрочке. Границы parcel не обозначены.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "15.11.2026: живая публичная карточка, APN, точка объявления и исходное фото проверены. Въезд/разворот высокого кемпервана около 7 м, отдельное длительное хранение и личный ремонт не подтверждены. Известная сумма не включает неустановленные closing, подключения и подготовку площадки.",
+        "По продавцу RV/camping до 14 дней за 3 месяца; permit $350 до 90 дней только при строительстве с действующим building permit. Это seller claims, не проверенное разрешение хранения или личного ремонта. Минимум дома 600 sqft и setbacks 25 ft также по продавцу. No HOA не отменяет zoning/covenants. Рассрочка: $450 down + $209 x 48 месяцев, отдельно от cash."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27146",
       "source_id": "27146",
@@ -140719,7 +140722,7 @@
       "price": 7590.0,
       "known_fees": 249.0,
       "total_known": 7839.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "Cash $7,590 плюс явно указанный разовый document fee $249 = $7,839. $450 down и ежемесячные платежи не полная цена.",
       "acres": 5.126,
       "lat": 37.4380633,
       "lng": -105.515846,
@@ -140732,22 +140735,22 @@
       "image_source_url": "https://www.landcentury.com/land-for-sale/colorado/5-126-acres-for-sale-in-blanca-colorado-27146",
       "image_credit": "Seller / LandCentury",
       "parcel": "70378490",
-      "zoning": "Residential",
-      "road_note": "Dirt Road",
-      "utility_note": "No utilities",
-      "taxes_note": "123.48",
+      "zoning": "Estate Residential по продавцу; точное зонирование parcel не проверено",
+      "road_note": "По продавцу county-maintained dirt Cedarwood Road; фактический проезд высокого RV не проверен.",
+      "utility_note": "Коммуникаций нет по карточке. Well/cistern, septic, solar/propane — будущие работы.",
+      "taxes_note": "USD 123.48/год по продавцу, налоговый счёт не проверен.",
       "source_categories": [
         "residential-buildable-land",
         "owner-finance-deals"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "none",
       "water": "none",
-      "sewer": "unknown",
+      "sewer": "none",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
@@ -140817,18 +140820,35 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 25
+      "score": 25,
+      "verification_history": [
+        {
+          "date": "2026-11-15T03:15:30+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/5-126-acres-for-sale-in-blanca-colorado-27146",
+          "finding": "Fresh public cash offer, parcel, listing coordinates and original photo reviewed. No existing workshop or personal repair permission established. Historical identity, facts and photo files retained."
+        }
+      ],
+      "tax_annual": 123.48,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/5-126-acres-for-sale-in-blanca-colorado-27146"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-15T00:51:32+00:00",
-      "last_seen": "2026-11-15T00:54:14Z",
-      "last_verified": "2026-11-15T00:54:14Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-15T03:15:30+00:00",
+      "last_verified": "2026-11-15T03:15:30+00:00",
+      "photo_kind": "Исходное рекламное фото грунтовой дороги и открытого ландшафта; $219/mo и $450 down относятся к рассрочке. Границы parcel не обозначены.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "15.11.2026: живая публичная карточка, APN, точка объявления и исходное фото проверены. Въезд/разворот высокого кемпервана около 7 м, отдельное длительное хранение и личный ремонт не подтверждены. Известная сумма не включает неустановленные closing, подключения и подготовку площадки.",
+        "По продавцу RV/camping до 14 дней за 3 месяца; permit $350 до 90 дней только при строительстве с действующим building permit. Это seller claims, не проверенное разрешение хранения или личного ремонта. Минимум дома 600 sqft и setbacks 25 ft также по продавцу. No HOA не отменяет zoning/covenants. Рассрочка: $450 down + $219 x 48 месяцев, отдельно от cash.",
+        "Сохранено 5.36 ac из структурированной карточки; описание указывает 5.355 ac, рекламное фото 5.35 ac. Это различное округление, границы не измерены. Коммуникации и налоги не раскрыты."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27145",
       "source_id": "27145",
@@ -140844,7 +140864,7 @@
       "price": 7900.0,
       "known_fees": 249.0,
       "total_known": 8149.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "Cash $7,900 плюс явно указанный разовый document fee $249 = $8,149. $450 down и ежемесячные платежи не полная цена.",
       "acres": 5.36,
       "lat": 37.3558,
       "lng": -105.541,
@@ -140858,14 +140878,14 @@
       "image_credit": "Seller / LandCentury",
       "parcel": "70303461",
       "zoning": "Не указано",
-      "road_note": "Не подтверждён",
+      "road_note": "На исходном фото грунтовая колея. Юридический доступ, обслуживание и проезд высокого RV не подтверждены.",
       "utility_note": "Не подтверждены",
       "taxes_note": null,
       "source_categories": [
         "residential-buildable-land",
         "owner-finance-deals"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
@@ -140942,18 +140962,33 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 24
+      "score": 24,
+      "verification_history": [
+        {
+          "date": "2026-11-15T03:15:30+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/5-36-acres-for-sale-in-blanca-colorado-27145",
+          "finding": "Fresh public cash offer, parcel, listing coordinates and original photo reviewed. No existing workshop or personal repair permission established. Historical identity, facts and photo files retained."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/5-36-acres-for-sale-in-blanca-colorado-27145"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-15T00:51:32+00:00",
-      "last_seen": "2026-11-15T00:54:15Z",
-      "last_verified": "2026-11-15T00:54:15Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-15T03:15:30+00:00",
+      "last_verified": "2026-11-15T03:15:30+00:00",
+      "photo_kind": "Исходное рекламное аэрофото лесистого участка рядом с дорогой; $159/mo — рассрочка, не cash price.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "15.11.2026: живая публичная карточка, APN, точка объявления и исходное фото проверены. Въезд/разворот высокого кемпервана около 7 м, отдельное длительное хранение и личный ремонт не подтверждены. Известная сумма не включает неустановленные closing, подключения и подготовку площадки.",
+        "Sunny Hills Unit 11 Lot 12, .23 ac. По продавцу pines/oaks, paved frontage и no HOA. Требуется расчистка/площадка; разрешение отдельного хранения и личного ремонта RV не подтверждено."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27144",
       "source_id": "27144",
@@ -140969,7 +141004,7 @@
       "price": 5000.0,
       "known_fees": 249.0,
       "total_known": 5249.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "Cash $5,000 плюс разовый document fee $249 = $5,249. $499 down + $159 x 48 — отдельная рассрочка.",
       "acres": 0.23,
       "lat": 30.536145,
       "lng": -85.5122629,
@@ -140983,14 +141018,14 @@
       "image_credit": "Seller / LandCentury",
       "parcel": "00000000-11-0781-0012",
       "zoning": "Не указано",
-      "road_note": "Paved Road",
-      "utility_note": "City utilities available",
+      "road_note": "Paved Garland Avenue по продавцу и карточке; существующий въезд/разворот RV не доказаны.",
+      "utility_note": "Community water available по продавцу; действующее подключение на участке не подтверждено. City utilities available в карточке не доказывает готовые подключения.",
       "taxes_note": null,
       "source_categories": [
         "residential-buildable-land",
         "owner-finance-deals"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -141067,18 +141102,33 @@
         "Сезон /10": 7,
         "Дорога /10": 4
       },
-      "score": 33
+      "score": 33,
+      "verification_history": [
+        {
+          "date": "2026-11-15T03:15:30+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/florida/0-23-acres-for-sale-in-chipley-florida-27144",
+          "finding": "Fresh public cash offer, parcel, listing coordinates and original photo reviewed. No existing workshop or personal repair permission established. Historical identity, facts and photo files retained."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/florida/0-23-acres-for-sale-in-chipley-florida-27144"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-15T00:51:32+00:00",
-      "last_seen": "2026-11-15T00:54:17Z",
-      "last_verified": "2026-11-15T00:54:17Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-15T03:15:30+00:00",
+      "last_verified": "2026-11-15T03:15:30+00:00",
+      "photo_kind": "Исходное аэрофото с красной разметкой продавца и пунктирной границей; это не survey.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "15.11.2026: живая публичная карточка, APN, точка объявления и исходное фото проверены. Въезд/разворот высокого кемпервана около 7 м, отдельное длительное хранение и личный ремонт не подтверждены. Известная сумма не включает неустановленные closing, подключения и подготовку площадки.",
+        "Cash $13,999 за .23 ac, 2608 Polk Street, Inverness Acres Unit 2 Lot 9 Block 2. Special Warranty Deed указан продавцом; title/обременения не проверены. Residential zoning и идея future homesite не подтверждают возможность отдельной RV-базы."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27142",
       "source_id": "27142",
@@ -141108,20 +141158,20 @@
       "image_credit": "Seller / LandCentury",
       "parcel": "19E-19S-12-0120-00020-0090",
       "zoning": "Residential",
-      "road_note": "Dirt Road",
-      "utility_note": "Electricity available, septic and well required",
-      "taxes_note": "123",
+      "road_note": "Dirt Road в карточке; въезд и состояние дороги для RV не проверены.",
+      "utility_note": "Electricity available по карточке; well и septic required. Подключения на участке не доказаны.",
+      "taxes_note": "USD 123/год по продавцу; счёт не проверен.",
       "source_categories": [
         "residential-buildable-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "available",
-      "water": "unknown",
-      "sewer": "unknown",
+      "water": "none",
+      "sewer": "none",
       "no_hoa": "unknown",
       "road_access": "seller_claim",
       "flags": [],
@@ -141189,18 +141239,34 @@
         "Сезон /10": 7,
         "Дорога /10": 8
       },
-      "score": 23
+      "score": 23,
+      "verification_history": [
+        {
+          "date": "2026-11-15T03:15:30+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/florida/0-23-acres-for-sale-in-inverness-florida-27142",
+          "finding": "Fresh public cash offer, parcel, listing coordinates and original photo reviewed. No existing workshop or personal repair permission established. Historical identity, facts and photo files retained."
+        }
+      ],
+      "tax_annual": 123,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/florida/0-23-acres-for-sale-in-inverness-florida-27142"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-15T00:51:32+00:00",
-      "last_seen": "2026-11-15T00:54:18Z",
-      "last_verified": "2026-11-15T00:54:18Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-15T03:15:30+00:00",
+      "last_verified": "2026-11-15T03:15:30+00:00",
+      "photo_kind": "Исходное рекламное фото травянистого ландшафта и гор; $259 a month — рассрочка. Границы parcel не обозначены.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "15.11.2026: живая публичная карточка, APN, точка объявления и исходное фото проверены. Въезд/разворот высокого кемпервана около 7 м, отдельное длительное хранение и личный ремонт не подтверждены. Известная сумма не включает неустановленные closing, подключения и подготовку площадки.",
+        "Cash $13,999. $199 doc fee указан в блоке owner financing ($259 down + $259 x 72); применимость к cash неизвестна, known_fees=0 не означает отсутствие closing costs. Продавец прямо предупреждает: вода из соседнего stock pond ненадёжна и не принадлежит этому parcel; при переливе сток иногда пересекает участок. Исправлено автоматическое water available, ошибочно выведенное из About the Water Nearby. Это также повод проверить дренаж, не доказательство конкретной FEMA-зоны. OS Open Space/no HOA/BLM west boundary — seller claims; права доступа к соседней земле не установлены."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27141",
       "source_id": "27141",
@@ -141230,25 +141296,26 @@
       "image_credit": "Seller / LandCentury",
       "parcel": "010-57G-018",
       "zoning": "OS, Open Space",
-      "road_note": "Dirt Road",
-      "utility_note": "No utilities",
-      "taxes_note": "36.62",
+      "road_note": "По продавцу dirt section-line roads. Юридический подъезд, дренаж и круглогодичный проезд высокого RV не проверены.",
+      "utility_note": "Коммуникаций нет по продавцу. Соседний пруд и его сток не являются подтверждённым источником водоснабжения участка.",
+      "taxes_note": "Около USD 36.62/год по продавцу.",
       "source_categories": [
         "owner-finance-deals",
         "recreational-and-hunting-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующий гараж или мастерская не заявлены.",
       "rv_storage": "unknown",
-      "rv_occupancy": "unknown",
+      "rv_occupancy": "seller_claim",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "none",
-      "water": "available",
+      "water": "none",
       "sewer": "none",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "По продавцу перелив соседнего пруда иногда течёт через участок; требуется проверка дренажа и сухой площадки."
       ],
       "evidence_quote": "Set up the camper now, and build a small off-grid place when you're ready.",
       "price_history": [
@@ -141310,11 +141377,24 @@
         "Цена /25": 7,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 1,
+        "Коммуникации /10": 0,
         "Сезон /10": 5,
         "Дорога /10": 7
       },
-      "score": 20
+      "score": 19,
+      "verification_history": [
+        {
+          "date": "2026-11-15T03:15:30+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/nevada/10-acres-for-sale-in-montello-nevada-27141",
+          "finding": "Fresh public cash offer, parcel, listing coordinates and original photo reviewed. No existing workshop or personal repair permission established. Historical identity, facts and photo files retained."
+        }
+      ],
+      "tax_annual": 36.62,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/nevada/10-acres-for-sale-in-montello-nevada-27141"
+      ]
     }
   ]
 }

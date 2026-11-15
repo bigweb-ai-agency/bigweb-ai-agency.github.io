@@ -206,6 +206,15 @@ class ResearchDataTests(unittest.TestCase):
         installed=b.flags_from_text('Existing working septic system. Water available nearby.')
         self.assertEqual(installed['sewer'],'on_site_claim')
 
+    def test_neighbor_pond_is_not_a_water_utility(self):
+        description=("About the Water Nearby. A neighboring ranch's stock pond overflows across the land. "
+                     "It's the neighbor's water, so it isn't a water source you can count on.")
+        flags=b.flags_from_text(description,utilities='No utilities')
+        self.assertEqual(flags['water'],'none')
+        self.assertEqual(b.flags_from_text(description)['water'],'unknown')
+        self.assertEqual(b.flags_from_text('The pond is not a reliable water source.')['water'],'unknown')
+        self.assertEqual(b.flags_from_text('A pond is nearby. Public water available at street.')['water'],'available')
+
     def test_island_and_alaska_gateways_do_not_offer_unverified_drive_estimates(self):
         rows=[{'id':state,'state':state,'lat':lat,'lng':lng,'price':9000,
                'total_known':9000,'status':'active','price_basis':'asking_cash'}

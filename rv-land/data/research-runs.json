@@ -6154,7 +6154,119 @@
       "rotation_reason": "Continue states with fewer than10 photo candidates. Current automatic catalogs cover all50 states; manual research prioritizes existing workshops and full purchase price.",
       "preservation": "All1077 existing IDs,first_seen,parcel/map points,prices,statuses,photos and price/status/photo histories retained. Five automatically added records annotated; no manual additions. One cash processing fee corrected; three review holds added. Existing asset bytes,flights,Sicily and monitor preserved. Journal append-only.",
       "validation": "33 focused data tests,validator,preservation assertions and scoped diff; state analysis regenerated. Verify exact-head Actions/Pages,public data/photo bytes and rendered Chrome map after scoped publication."
+    },
+    {
+      "date": "2026-11-15T03:16:27+00:00",
+      "states": [
+        "CT",
+        "MA",
+        "NJ"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [],
+      "updated_ids": [
+        "lc-27146",
+        "lc-27145",
+        "lc-27144",
+        "lc-27142",
+        "lc-27141"
+      ],
+      "automatic_added_ids": [
+        "lc-27146",
+        "lc-27145",
+        "lc-27144",
+        "lc-27142",
+        "lc-27141"
+      ],
+      "automatic_updated_ids": [],
+      "workflow": {
+        "run_id": 43660243237,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/43660243237",
+        "conclusion": "success",
+        "created_at": "2026-11-15T00:51:17Z",
+        "data_commit": "b1e878e5e6df844658ac50e1bbf951fe8f234110"
+      },
+      "monitor": {
+        "date": "2026-11-15T00:51:32+00:00",
+        "status": "partial",
+        "scanned_pages": 115,
+        "read_details": 63,
+        "added": 5,
+        "changed": 0,
+        "errors": 57
+      },
+      "source_errors": "Discovery and Pages43660728625 succeeded; duplicate Pages43660727644 cancelled. Monitor partial:115 catalogs/63 details/5 new/0 counted changes/57 errors. All20 retained error samples404; remaining37 uncharacterized. No sold inference. Automatic collection available; fallback not needed.",
+      "findings": [
+        {
+          "id": "lc-27146",
+          "finding": "CO5.126ac cash$7590+$249doc=$7839. Fresh APN/point/photo verified. No utilities or garage. Seller RV14days/3months and permit while building do not establish independent storage/repair permission. Source promotional dirt-road photo includes financing$209/mo,$450down separately labeled."
+        },
+        {
+          "id": "lc-27145",
+          "finding": "CO5.36ac cash$7900+$249doc=$8149. Description5.355ac and photo5.35ac are rounded values; retained structured area. Same conditional seller camping claim; road/utility availability unconfirmed. Source photo shows dirt track and financing$219/mo."
+        },
+        {
+          "id": "lc-27144",
+          "finding": "FL.23ac Sunny Hills GarlandAve cash$5000+$249doc=$5249. Seller paved frontage/noHOA/community water available; connection not proven. Original wooded aerial with$159/mo financing inspected. No existing building or RV-use approval."
+        },
+        {
+          "id": "lc-27142",
+          "finding": "FL.23ac Inverness2608PolkSt cash$13999. Special Warranty Deed, residential zoning, electricity available; well/septic required per seller. Dirt access unverified. Original aerial with seller boundary overlay inspected; no survey inference."
+        },
+        {
+          "id": "lc-27141",
+          "finding": "NV10ac Montello cash$13999. $199fee appears only in owner-financing block; cash applicability unknown. Corrected water=available to none: source explicitly says neighboring pond/runoff is not a dependable or owned water source, and no utilities. Added parser regression so this disclaimer overrides nearby-water keyword. Runoff/drainage needs review, not a FEMA-zone conclusion. Source promotional mountain/grassland photo inspected; no garage."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.makingcthome.com/property-search/detail/192/24187915/12-albert-st-norwich-ct-06360/",
+          "finding": "CT$15000,.42ac,MLS24187915 garage-on-property lead rejected as available: public detail explicitly Date Sold9/15/2026 (updatedOct22). No new active import. Paved frontage and garage wording do not establish current availability."
+        },
+        {
+          "url": "https://www.homes.com/massachusetts/land-for-sale/under-15k/",
+          "finding": "Live Chrome MA catalog reviewed. $1Boston/Southampton, $3000PearlRearBrockton, $2ArchRdWestfield and $3499HixvilleDartmouth are leases; Revere$1call-for-offers not fixed purchase. Brookfield$10000 landlocked/nonbuildable and Lancaster$13999 gardening/no-trailers fail intended use. Existing Templeton/Hardwick held records not refreshed from stale catalog text."
+        },
+        {
+          "url": "https://www.homes.com/property/58-summer-st-adams-ma-unit-60/nlv3ttf40k58k/",
+          "finding": "MA active MLS250331,full asking$12000,.08ac/3485sqft,APN ADAM-000116-000000-000090; live Chrome MLS and listing map42.62228,-73.114708. B-1 seller zoning, tax$722.24for2026 fromMLS. Original photo visually shows sloped grassy land behind metal rail and adjacent street/houses, no existing garage or vehicle entrance proven. Deferred as weak RV fit pending usable level area, legal entry, storage/repair rules and preparation cost; not added merely to reach quota. $81/month is estimated payment;$150000/acre is unit rate.",
+          "image_url": "https://images.homes.com/listings/102/6265120305-610552132/58-summer-st-adams-ma-unit-60-primaryphoto.jpg",
+          "coordinates": [
+            42.62228,
+            -73.114708
+          ]
+        },
+        {
+          "url": "https://www.homes.com/new-jersey/land-for-sale/under-15k/",
+          "finding": "Bounded NJ catalog/search review:103FrontStWVoorhees$5000 is auction Oct15-Nov5 plus5%premium, not fixed cash.309StateRoute33Manalapan$8850 is lease.1625EStateTrenton/Hamilton$14999 only.04ac/tiny urban lot, vehicle fit unverified.2757FireRdEggHarbor$15000 parcel package deferred for exact access/environment/zoning and source verification. No speculative import."
+        },
+        {
+          "url": "https://www.blauberg.com/flyers/flyer_1721HurffvilleSALE.pdf",
+          "finding": "NJ1721HurffvilleRoadSewell garage facility broker asking$487000, outside budget. Existing Millville Seaview future-pole-barn marketing is not an existing garage."
+        }
+      ],
+      "official_rules": [
+        {
+          "url": "https://ecode360.com/8902090",
+          "finding": "Adams published zoning125-17 restricts more than one unregistered vehicle or major part visible from public way/abutters beyond30days, subject to stated exceptions.125-13 has parking/access requirements and B-1 qualifications. Neither establishes parcel-specific independent RV storage or personal repair approval. No conclusion that all personal maintenance is prohibited."
+        }
+      ],
+      "access": "Bounded public web/catalog/detail reads and connected Chrome. Five fresh automatic listing photos plus Adams source photo visually inspected. No CAPTCHA/403/robots/login bypass, seller contact, booking, purchase or infrastructure change.",
+      "flight_review": {
+        "last_review": "2026-11-09",
+        "next_review": "2026-11-16",
+        "finding": "Weekly VNO/UK/EU comparison not due; dates,baggage uncertainty and separate positioning preserved."
+      },
+      "next_states": [
+        "ID",
+        "MT",
+        "WY",
+        "NH"
+      ],
+      "rotation_reason": "Continue states below10 photo candidates; NH lastmanualNov10. Automatic catalog plan covers all50 states, with source errors retained. Manual work prioritizes existing workshops and whole purchase price.",
+      "preservation": "All1082 existing IDs,first_seen,parcel/map points,cash prices,fees,statuses,photos and price/status/photo histories retained. Five automatic additions annotated; no manual additions. Existing asset bytes,flights,Sicily and monitor preserved. Journal append-only.",
+      "validation": "34 focused data tests,validator,preservation assertions and scoped diff; state analysis regenerated. Exact-head Actions/Pages,public data/photo bytes and rendered Chrome map checked after scoped publication."
     }
   ],
-  "updated_at": "2026-11-14T03:17:00+00:00"
+  "updated_at": "2026-11-15T03:16:27+00:00"
 }
