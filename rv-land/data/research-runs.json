@@ -6266,7 +6266,100 @@
       "rotation_reason": "Continue states below10 photo candidates; NH lastmanualNov10. Automatic catalog plan covers all50 states, with source errors retained. Manual work prioritizes existing workshops and whole purchase price.",
       "preservation": "All1082 existing IDs,first_seen,parcel/map points,cash prices,fees,statuses,photos and price/status/photo histories retained. Five automatic additions annotated; no manual additions. Existing asset bytes,flights,Sicily and monitor preserved. Journal append-only.",
       "validation": "34 focused data tests,validator,preservation assertions and scoped diff; state analysis regenerated. Exact-head Actions/Pages,public data/photo bytes and rendered Chrome map checked after scoped publication."
+    },
+    {
+      "date": "2026-11-16T03:26:59+00:00",
+      "states": [
+        "ID",
+        "MT",
+        "WY",
+        "NH"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [
+        "mls-wy-20256606"
+      ],
+      "updated_ids": [
+        "lc-27152"
+      ],
+      "automatic_added_ids": [
+        "lc-27152"
+      ],
+      "automatic_updated_ids": [],
+      "workflow": {
+        "run_id": 43783246498,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/43783246498",
+        "conclusion": "success",
+        "created_at": "2026-11-16T00:55:49Z",
+        "data_commit": "42583450fb140015deb177f5be1b6543f6029277"
+      },
+      "monitor": {
+        "date": "2026-11-16T00:56:12+00:00",
+        "status": "partial",
+        "scanned_pages": 114,
+        "read_details": 63,
+        "added": 1,
+        "changed": 0,
+        "errors": 57
+      },
+      "source_errors": "Discovery43783246498 and Pages43783785701 succeeded; duplicate Pages43783780966 cancelled. Monitor partial:114 catalogs/63details/1new/0countedchanges/57errors. All20 retained error samples404; remaining37 uncharacterized. No status change inferred. Automatic collection available, fallback unnecessary. RDesk robots.txt403 stopped further HTTP collection; Redfin map-image403 not retried. Previously available live Chrome detail/photo and indexed map-link coordinate provenance retained.",
+      "findings": [
+        {
+          "id": "lc-27152",
+          "finding": "SaltonCity CA1188RedSeaAve .31ac/13487sqft cash$3999,APN008-392-009-000,33.333944/-115.961993 verified on fresh public LandCentury. Source aerial parcel diagram inspected. Seller R-1,paved frontage~90ft,depth150ft,tax$150/year; utility connections, RV storage/repair and fees not established. No existing garage."
+        },
+        {
+          "id": "mls-wy-20256606",
+          "finding": "Hanna WY2205SecondSt .11ac/4800sqft full asking$10000 current live RDesk; PineRock MLS confirms taps available, not connected utilities. Genuine winter listing photo preserved; neighboring buildings/RV not treated as part of sale. Listing-map point41.877763/-106.53765 from historical Redfin link disclosed as indexed~5months, not survey. No workshop or parcel-specific repair approval. New record added cautiously, not a stronger ready-to-use base."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.land.com/property/25792-river-rd--grand-view-idaho-83624/26495055/",
+          "finding": "ID garage-house lead: $15000 is landscaping credit, not full purchase price. No import."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/idaho/search/under-15000",
+          "finding": "ID public catalog/search review: W8thS MountainHome$1 auction Nov18/5%premium, not cash purchase. Existing BlueAshSalmon$14500 and SilverStGilmore$5000 pending retained, not overwritten. WChukar/Quail$16000 exceed budget. No verified new workshop."
+        },
+        {
+          "url": "https://www.realtor.com/realestateandhomes-search/Montana/price-na-10000",
+          "finding": "MT public catalog review: NHNWilcoxAdditionGreatFalls$5000/6490sqft and NnnCompromiseGulchNeihart$9950/1002sqft deferred for exact full-price detail, location, access and source photo; not assumed ready RV bases. Billings3772CresentLakeSte4$2600 ambiguous rent/purchase. Polson34597MtHwy35#17$89000 exceeds budget. No fabricated workshop import."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/129-c-rd-conway-nh-03860/5665018",
+          "finding": "NH new active$15000,.09ac,MLS5116870,APN02047-251-114.101,44.0063/-71.1222. Explicitly unbuildable campground lot in flood zone; street power and RV marketing do not establish repair/storage. Deferred as weak fit, not counted to fill quota."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/128-c-rd-conway-nh-03860/5664989",
+          "finding": "NH neighboring active$15000,.09ac,MLS5116869,APN02047-251-114.102,44.0062/-71.1221, likewise unbuildable/flood-zone camping lot; no independent repair proof. Deferred. Existing Brookside not changed from lower indexed price; 203Rockingham$3 is lease."
+        }
+      ],
+      "official_rules": [
+        {
+          "url": "https://codelibrary.amlegal.com/codes/hannawy/latest/hanna_wy/0-0-0-2800",
+          "finding": "Published Hanna2026Code91.040(H): nuisance restrictions for unlicensed/inoperative/dismantled vehicles; stated garage/screening and other exceptions. Own-vehicle noncommercial disassembly subject to specific conditions, not blanket parcel approval. Index crawl about1month."
+        },
+        {
+          "url": "https://codelibrary.amlegal.com/codes/hannawy/latest/hanna_wy/0-0-0-5133",
+          "finding": "Published Hanna153.216 addresses RV occupancy with narrow temporary exceptions; not independent personal-repair permission. Index crawl about3months. All use approvals remain unknown pending current parcel-specific determination."
+        }
+      ],
+      "access": "Bounded public sources and connected Chrome; original CA aerial and WY winter photo visually inspected. No CAPTCHA,403,robots or login bypass. No seller contact,booking,purchase or infrastructure change.",
+      "flight_review": {
+        "last_review": "2026-11-16",
+        "next_review": "2026-11-23",
+        "finding": "41 dated Explore observations/11gateways/fourorigins;35usable after5outbound>24h and LON-SEA424return32h55 excluded. Finnair VNO-JFKJan8-21Classic623.01EUR with23kg checked verified directly; other4controls Google-only. UK549+position226=775EUR; CPH389+150=539EUR indicative equivalents before bags/two nights/transport, not complete costs or like-for-like destinations. Prior834observations and46controlcards retained."
+      },
+      "next_states": [
+        "WA",
+        "HI",
+        "ND"
+      ],
+      "rotation_reason": "Continue below10 photo candidates. Follow with DE,RI,VT; automatic catalog plan covers all50 with access errors retained. Prioritize genuine workshops and full cash purchase.",
+      "preservation": "All1083 prior IDs,first_seen,parcel,points,prices,fees,statuses and price/status/photo histories preserved. OneCA annotation and oneWYmanual addition. Existing asset bytes,monitor and Sicily unchanged; research journal append-only. Derived airport fares/scores refreshed from weekly flight observations.",
+      "validation": "34 focused data tests and data validator passed:1084records/1083photos/50states/20legacyIDs. Preservation assertions and scoped diff reviewed. Exact-head publication and rendered map/photo checks follow the publish gate."
     }
   ],
-  "updated_at": "2026-11-15T03:16:27+00:00"
+  "updated_at": "2026-11-16T03:26:59+00:00"
 }

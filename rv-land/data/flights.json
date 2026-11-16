@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-09T03:21:47+00:00",
+  "updated_at": "2026-11-16T03:26:04+00:00",
   "trip": "Туда-обратно, 1 взрослый, economy; гибкий поиск около двух недель в ближайшие 6 месяцев.",
-  "caveat": "Снимок 9 ноября 2026: один взрослый, economy, туда-обратно около двух недель. Даты различаются, это не сравнение одной поездки. Цены Explore ориентировочные; багаж и подлёт из Вильнюса отдельно. Вылеты сегодня/в прошлом и недатированные маркеры не включены; путь дольше 24 часов исключён из основного сравнения. Обратные рейсы и тарифы проверены только в контрольных карточках. Старые наблюдения и карточки сохранены с исходными датами в истории. Дополнительно исключён CPH–MCO €334 со сменой LHR–LGW за3ч30. Только две контрольные карточки подтверждены непосредственно перевозчиками; остальные отмечены как Google. Полные бюджеты через отдельные подлёты не подтверждены.",
+  "caveat": "Снимок 16 ноября 2026: 41 датированный ориентир по 11 крупным шлюзам из VNO, London, WAW и CPH; один взрослый, economy, туда-обратно на 13–17 дней. Пять исходящих путей дольше 24 часов исключены. Три VNO-маркера с вылетом сегодня не добавлены. Даты различаются, поэтому это не сравнение одной поездки. Explore не подтверждает окончательный тариф, обратные сегменты или багаж; проверенные детали вынесены в контрольные карточки. Подлёт из Вильнюса, его багаж, ночёвки и наземный транспорт считаются отдельно. Все прежние наблюдения и карточки сохранены в истории. Дополнительно исключён London–Seattle €424 с обратным путём 32ч55; осталось 35 ориентиров в основной выборке. Только VNO–JFK Classic €623.01 с checked23кг подтверждён у перевозчика; остальные контрольные суммы — Google, с указанными пробелами. Полные бюджеты через отдельный подлёт не подтверждены.",
   "origins": [
     {
       "code": "VNO",
@@ -14052,10 +14052,12 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAhIIL20vMDdfa3FyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAISCC9tLzA3X2txQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
       "return": "2026-12-09",
-      "note": "Explore €492 сохранён как наблюдение; выбранный Finnair Light у перевозчика €496,25, Classic с 23 кг €646,25. Подробности в контрольной карточке."
+      "note": "Explore €492 сохранён как наблюдение; выбранный Finnair Light у перевозчика €496,25, Classic с 23 кг €646,25. Подробности в контрольной карточке.",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "VNO",
@@ -14070,9 +14072,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAhIIL20vMDdfa3FyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAISCC9tLzA3X2txQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-05-02"
+      "return": "2027-05-02",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "VNO",
@@ -14090,7 +14094,9 @@
       "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
       "return": "2026-12-06",
-      "exclusion_reason": "Исходящий путь дольше 24 часов."
+      "exclusion_reason": "Исходящий путь дольше 24 часов.",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "VNO",
@@ -14105,9 +14111,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAhIIL20vMDdfa3FyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAISCC9tLzA3X2txQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-04-11"
+      "return": "2027-04-11",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "VNO",
@@ -14125,7 +14133,9 @@
       "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
       "return": "2027-02-08",
-      "exclusion_reason": "Исходящий путь дольше 24 часов."
+      "exclusion_reason": "Исходящий путь дольше 24 часов.",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "VNO",
@@ -14140,9 +14150,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAhIIL20vMDdfa3FyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAISCC9tLzA3X2txQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-01-20"
+      "return": "2027-01-20",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "VNO",
@@ -14160,7 +14172,9 @@
       "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
       "return": "2027-01-28",
-      "exclusion_reason": "Исходящий путь дольше 24 часов."
+      "exclusion_reason": "Исходящий путь дольше 24 часов.",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "VNO",
@@ -14175,9 +14189,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAhIIL20vMDdfa3FyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAISCC9tLzA3X2txQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-03-28"
+      "return": "2027-03-28",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "VNO",
@@ -14192,9 +14208,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAhIIL20vMDdfa3FyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAISCC9tLzA3X2txQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2026-12-05"
+      "return": "2026-12-05",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "VNO",
@@ -14212,7 +14230,9 @@
       "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
       "return": "2027-04-29",
-      "exclusion_reason": "Исходящий путь дольше 24 часов."
+      "exclusion_reason": "Исходящий путь дольше 24 часов.",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "VNO",
@@ -14227,9 +14247,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAhIIL20vMDdfa3FyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAISCC9tLzA3X2txQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2026-12-09"
+      "return": "2026-12-09",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "VNO",
@@ -14244,9 +14266,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAhIIL20vMDdfa3FyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAISCC9tLzA3X2txQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-01-01"
+      "return": "2027-01-01",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "VNO",
@@ -14264,7 +14288,9 @@
       "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
       "return": "2027-05-06",
-      "exclusion_reason": "Исходящий путь дольше 24 часов."
+      "exclusion_reason": "Исходящий путь дольше 24 часов.",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "VNO",
@@ -14279,9 +14305,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAhIIL20vMDdfa3FyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAISCC9tLzA3X2txQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-01-03"
+      "return": "2027-01-03",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "VNO",
@@ -14299,7 +14327,9 @@
       "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
       "return": "2027-01-03",
-      "exclusion_reason": "Исходящий путь дольше 24 часов."
+      "exclusion_reason": "Исходящий путь дольше 24 часов.",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "VNO",
@@ -14317,7 +14347,9 @@
       "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
       "return": "2027-01-05",
-      "exclusion_reason": "Исходящий путь дольше 24 часов."
+      "exclusion_reason": "Исходящий путь дольше 24 часов.",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "VNO",
@@ -14332,9 +14364,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAhIIL20vMDdfa3FyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAISCC9tLzA3X2txQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-01-02"
+      "return": "2027-01-02",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14349,9 +14383,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-04-16"
+      "return": "2027-04-16",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14366,10 +14402,12 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
       "return": "2027-04-26",
-      "note": "Explore использует вылет из Gatwick. Контрольная карточка относится к отдельной комбинации Heathrow с коротким обратным путём; суммы не взаимозаменяемы."
+      "note": "Explore использует вылет из Gatwick. Контрольная карточка относится к отдельной комбинации Heathrow с коротким обратным путём; суммы не взаимозаменяемы.",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14387,7 +14425,9 @@
       "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
       "return": "2026-12-01",
-      "exclusion_reason": "Исходящий путь дольше 24 часов."
+      "exclusion_reason": "Исходящий путь дольше 24 часов.",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14402,9 +14442,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2026-12-01"
+      "return": "2026-12-01",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14419,9 +14461,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2026-12-01"
+      "return": "2026-12-01",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14436,9 +14480,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-04-18"
+      "return": "2027-04-18",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14453,9 +14499,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-03-21"
+      "return": "2027-03-21",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14470,9 +14518,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2026-12-04"
+      "return": "2026-12-04",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14487,9 +14537,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2026-12-24"
+      "return": "2026-12-24",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14504,9 +14556,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-02-01"
+      "return": "2027-02-01",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14521,9 +14575,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-02-14"
+      "return": "2027-02-14",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14538,9 +14594,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2026-12-21"
+      "return": "2026-12-21",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14558,7 +14616,9 @@
       "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
       "return": "2027-04-15",
-      "exclusion_reason": "Исходящий путь дольше 24 часов."
+      "exclusion_reason": "Исходящий путь дольше 24 часов.",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14573,9 +14633,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-02-07"
+      "return": "2027-02-07",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14590,9 +14652,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-03-21"
+      "return": "2027-03-21",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14607,9 +14671,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-04-25"
+      "return": "2027-04-25",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14624,9 +14690,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-01-06"
+      "return": "2027-01-06",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14641,9 +14709,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-03-29"
+      "return": "2027-03-29",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14658,9 +14728,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-01-20"
+      "return": "2027-01-20",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14675,9 +14747,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-02-07"
+      "return": "2027-02-07",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14692,9 +14766,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2026-12-22"
+      "return": "2026-12-22",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14709,9 +14785,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-03-25"
+      "return": "2027-03-25",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14726,9 +14804,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-01-20"
+      "return": "2027-01-20",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14743,9 +14823,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2026-12-24"
+      "return": "2026-12-24",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14760,9 +14842,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-02-07"
+      "return": "2027-02-07",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14777,9 +14861,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-01-31"
+      "return": "2027-01-31",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14794,9 +14880,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-02-28"
+      "return": "2027-02-28",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14811,9 +14899,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-01-06"
+      "return": "2027-01-06",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14828,9 +14918,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2026-12-23"
+      "return": "2026-12-23",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14845,9 +14937,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-01-06"
+      "return": "2027-01-06",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14862,9 +14956,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-02-17"
+      "return": "2027-02-17",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "LON",
@@ -14879,9 +14975,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2026-12-10"
+      "return": "2026-12-10",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "WAW",
@@ -14896,9 +14994,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-01-27"
+      "return": "2027-01-27",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "WAW",
@@ -14913,9 +15013,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-05-11"
+      "return": "2027-05-11",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "WAW",
@@ -14933,7 +15035,9 @@
       "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
       "return": "2027-04-26",
-      "exclusion_reason": "Исходящий путь дольше 24 часов."
+      "exclusion_reason": "Исходящий путь дольше 24 часов.",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "WAW",
@@ -14948,9 +15052,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-04-26"
+      "return": "2027-04-26",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "WAW",
@@ -14965,9 +15071,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2026-12-02"
+      "return": "2026-12-02",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "WAW",
@@ -14982,9 +15090,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-05-11"
+      "return": "2027-05-11",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "WAW",
@@ -14999,9 +15109,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-04-19"
+      "return": "2027-04-19",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "WAW",
@@ -15016,9 +15128,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-01-20"
+      "return": "2027-01-20",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "WAW",
@@ -15033,9 +15147,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-02-07"
+      "return": "2027-02-07",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "WAW",
@@ -15050,9 +15166,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-02-14"
+      "return": "2027-02-14",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "WAW",
@@ -15070,7 +15188,9 @@
       "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
       "return": "2027-03-18",
-      "exclusion_reason": "Исходящий путь дольше 24 часов."
+      "exclusion_reason": "Исходящий путь дольше 24 часов.",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "WAW",
@@ -15085,9 +15205,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-02-07"
+      "return": "2027-02-07",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "WAW",
@@ -15102,9 +15224,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2026-12-02"
+      "return": "2026-12-02",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "WAW",
@@ -15119,9 +15243,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-04-26"
+      "return": "2027-04-26",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "WAW",
@@ -15136,9 +15262,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-02-14"
+      "return": "2027-02-14",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "WAW",
@@ -15156,7 +15284,9 @@
       "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
       "return": "2026-11-30",
-      "exclusion_reason": "Исходящий путь дольше 24 часов."
+      "exclusion_reason": "Исходящий путь дольше 24 часов.",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "WAW",
@@ -15171,9 +15301,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-02-28"
+      "return": "2027-02-28",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "WAW",
@@ -15188,9 +15320,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-02-08"
+      "return": "2027-02-08",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "WAW",
@@ -15205,9 +15339,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-03-04"
+      "return": "2027-03-04",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "WAW",
@@ -15225,7 +15361,9 @@
       "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
       "return": "2027-02-07",
-      "exclusion_reason": "Исходящий путь дольше 24 часов."
+      "exclusion_reason": "Исходящий путь дольше 24 часов.",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "WAW",
@@ -15240,9 +15378,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-02-09"
+      "return": "2027-02-09",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "WAW",
@@ -15257,9 +15397,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-04-26"
+      "return": "2027-04-26",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "WAW",
@@ -15274,9 +15416,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-02-18"
+      "return": "2027-02-18",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "WAW",
@@ -15294,7 +15438,9 @@
       "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
       "return": "2027-02-08",
-      "exclusion_reason": "Исходящий путь дольше 24 часов."
+      "exclusion_reason": "Исходящий путь дольше 24 часов.",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "CPH",
@@ -15309,10 +15455,12 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
       "return": "2027-01-24",
-      "note": "Контрольная карточка: более короткие выбранные Finnair в обе стороны €400 в Google; багаж/checkout неизвестны. Explore €383 относится к иной комбинации."
+      "note": "Контрольная карточка: более короткие выбранные Finnair в обе стороны €400 в Google; багаж/checkout неизвестны. Explore €383 относится к иной комбинации.",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "CPH",
@@ -15327,9 +15475,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-02-05"
+      "return": "2027-02-05",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "CPH",
@@ -15344,9 +15494,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-02-04"
+      "return": "2027-02-04",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "CPH",
@@ -15361,9 +15513,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-04-14"
+      "return": "2027-04-14",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "CPH",
@@ -15378,9 +15532,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-01-06"
+      "return": "2027-01-06",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "CPH",
@@ -15395,9 +15551,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-02-06"
+      "return": "2027-02-06",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "CPH",
@@ -15412,9 +15570,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-04-05"
+      "return": "2027-04-05",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "CPH",
@@ -15429,9 +15589,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-01-27"
+      "return": "2027-01-27",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "CPH",
@@ -15446,9 +15608,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-02-14"
+      "return": "2027-02-14",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "CPH",
@@ -15463,9 +15627,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-04-24"
+      "return": "2027-04-24",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "CPH",
@@ -15484,7 +15650,9 @@
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
       "return": "2027-01-20",
       "exclusion_reason": "Показанный исходящий BA требует LHR → LGW за 3ч30; стоимость и практичность переезда не подтверждены.",
-      "note": "В подробной выдаче CPH 7 января 06:30 → MCO 16:10, всего 15ч40, смена лондонских аэропортов. Это не обычная пересадка в одном аэропорту. Обратный маршрут, багаж и итог перевозчика не проверены."
+      "note": "В подробной выдаче CPH 7 января 06:30 → MCO 16:10, всего 15ч40, смена лондонских аэропортов. Это не обычная пересадка в одном аэропорту. Обратный маршрут, багаж и итог перевозчика не проверены.",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "CPH",
@@ -15499,9 +15667,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-02-07"
+      "return": "2027-02-07",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "CPH",
@@ -15516,9 +15686,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2026-12-23"
+      "return": "2026-12-23",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "CPH",
@@ -15533,9 +15705,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-03-28"
+      "return": "2027-03-28",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "CPH",
@@ -15550,9 +15724,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-02-22"
+      "return": "2027-02-22",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "CPH",
@@ -15567,9 +15743,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-01-27"
+      "return": "2027-01-27",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "CPH",
@@ -15584,9 +15762,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-01-06"
+      "return": "2027-01-06",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "CPH",
@@ -15601,9 +15781,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2026-11-30"
+      "return": "2026-11-30",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "CPH",
@@ -15618,9 +15800,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-02-08"
+      "return": "2027-02-08",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "CPH",
@@ -15635,9 +15819,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-02-08"
+      "return": "2027-02-08",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "CPH",
@@ -15652,9 +15838,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-02-26"
+      "return": "2027-02-26",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "CPH",
@@ -15669,9 +15857,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-01-25"
+      "return": "2027-01-25",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "CPH",
@@ -15686,9 +15876,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-03-12"
+      "return": "2027-03-12",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "CPH",
@@ -15703,9 +15895,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-02-08"
+      "return": "2027-02-08",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "CPH",
@@ -15720,9 +15914,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2026-12-07"
+      "return": "2026-12-07",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "CPH",
@@ -15737,9 +15933,11 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2026-12-24"
+      "return": "2026-12-24",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
     },
     {
       "origin": "CPH",
@@ -15754,54 +15952,760 @@
       "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
       "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
       "baggage": "Багаж, конкретный тариф и обратные сегменты не проверены; подробности выбранных маршрутов в контрольных карточках.",
-      "usable": true,
+      "usable": false,
       "gateway_precision": "Поиск по городу; аэропорт конкретного тарифа необходимо уточнить.",
-      "return": "2027-02-16"
+      "return": "2027-02-16",
+      "superseded_at": "2026-11-16T03:18:53+00:00",
+      "archive_reason": "Сохранён прошлый снимок; недельная проверка 16 ноября 2026."
+    },
+    {
+      "origin": "VNO",
+      "gateway": "NYC",
+      "eur": 474,
+      "departure": "2027-01-08",
+      "duration": "12:40",
+      "duration_hours": 12.666666666666666,
+      "stops": 1,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAhIIL20vMDdfa3FyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAISCC9tLzA3X2txQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-01-21",
+      "note": "Оба рейса и тариф у Finnair: Light €473.01, Classic с 23 кг €623.01. Explore €474 сохранён отдельно."
+    },
+    {
+      "origin": "VNO",
+      "gateway": "SFO",
+      "eur": 851,
+      "departure": "2027-04-16",
+      "duration": "20:29",
+      "duration_hours": 20.483333333333334,
+      "stops": 2,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAhIIL20vMDdfa3FyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAISCC9tLzA3X2txQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-05-02"
+    },
+    {
+      "origin": "VNO",
+      "gateway": "LAX",
+      "eur": 550,
+      "departure": "2027-02-12",
+      "duration": "17:15",
+      "duration_hours": 17.25,
+      "stops": 1,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAhIIL20vMDdfa3FyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAISCC9tLzA3X2txQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-02-26"
+    },
+    {
+      "origin": "VNO",
+      "gateway": "ORD",
+      "eur": 491,
+      "departure": "2027-03-29",
+      "duration": "16:00",
+      "duration_hours": 16.0,
+      "stops": 1,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAhIIL20vMDdfa3FyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAISCC9tLzA3X2txQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-04-11"
+    },
+    {
+      "origin": "VNO",
+      "gateway": "LAS",
+      "eur": 871,
+      "departure": "2027-01-24",
+      "duration": "47:43",
+      "duration_hours": 47.71666666666667,
+      "stops": 2,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAhIIL20vMDdfa3FyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAISCC9tLzA3X2txQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": false,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-02-08",
+      "exclusion_reason": "Исходящий путь дольше 24 часов."
+    },
+    {
+      "origin": "VNO",
+      "gateway": "MIA",
+      "eur": 491,
+      "departure": "2027-01-15",
+      "duration": "26:55",
+      "duration_hours": 26.916666666666668,
+      "stops": 2,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAhIIL20vMDdfa3FyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAISCC9tLzA3X2txQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": false,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-01-28",
+      "exclusion_reason": "Исходящий путь дольше 24 часов."
+    },
+    {
+      "origin": "VNO",
+      "gateway": "SEA",
+      "eur": 822,
+      "departure": "2027-02-13",
+      "duration": "22:42",
+      "duration_hours": 22.7,
+      "stops": 2,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAhIIL20vMDdfa3FyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAISCC9tLzA3X2txQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-03-01"
+    },
+    {
+      "origin": "VNO",
+      "gateway": "DEN",
+      "eur": 795,
+      "departure": "2027-04-15",
+      "duration": "34:31",
+      "duration_hours": 34.516666666666666,
+      "stops": 2,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAhIIL20vMDdfa3FyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAISCC9tLzA3X2txQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": false,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-04-29",
+      "exclusion_reason": "Исходящий путь дольше 24 часов."
+    },
+    {
+      "origin": "LON",
+      "gateway": "SEA",
+      "eur": 424,
+      "departure": "2027-04-03",
+      "duration": "12:50",
+      "duration_hours": 12.833333333333334,
+      "stops": 1,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": false,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-04-16",
+      "exclusion_reason": "Обратный путь 32ч55, включая 22ч15 в KEF.",
+      "note": "Google detailed search: €424 returns SEA16Apr19:00 → LHR18Apr11:55. Control card selects shorter return and different price."
+    },
+    {
+      "origin": "LON",
+      "gateway": "NYC",
+      "eur": 486,
+      "departure": "2027-04-03",
+      "duration": "11:25",
+      "duration_hours": 11.416666666666666,
+      "stops": 1,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-04-18"
+    },
+    {
+      "origin": "LON",
+      "gateway": "LAX",
+      "eur": 524,
+      "departure": "2026-11-22",
+      "duration": "15:04",
+      "duration_hours": 15.066666666666666,
+      "stops": 1,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2026-12-05"
+    },
+    {
+      "origin": "LON",
+      "gateway": "LAS",
+      "eur": 580,
+      "departure": "2026-11-22",
+      "duration": "14:15",
+      "duration_hours": 14.25,
+      "stops": 1,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2026-12-08"
+    },
+    {
+      "origin": "LON",
+      "gateway": "SFO",
+      "eur": 524,
+      "departure": "2026-11-22",
+      "duration": "14:24",
+      "duration_hours": 14.4,
+      "stops": 1,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2026-12-05"
+    },
+    {
+      "origin": "LON",
+      "gateway": "IAD",
+      "eur": 432,
+      "departure": "2027-03-06",
+      "duration": "11:15",
+      "duration_hours": 11.25,
+      "stops": 1,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-03-21"
+    },
+    {
+      "origin": "LON",
+      "gateway": "ORD",
+      "eur": 643,
+      "departure": "2026-11-22",
+      "duration": "15:30",
+      "duration_hours": 15.5,
+      "stops": 1,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2026-12-06"
+    },
+    {
+      "origin": "LON",
+      "gateway": "MIA",
+      "eur": 503,
+      "departure": "2027-03-04",
+      "duration": "13:35",
+      "duration_hours": 13.583333333333334,
+      "stops": 1,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-03-17"
+    },
+    {
+      "origin": "LON",
+      "gateway": "DEN",
+      "eur": 681,
+      "departure": "2027-03-06",
+      "duration": "12:45",
+      "duration_hours": 12.75,
+      "stops": 1,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-03-21"
+    },
+    {
+      "origin": "LON",
+      "gateway": "PHX",
+      "eur": 842,
+      "departure": "2027-01-07",
+      "duration": "17:29",
+      "duration_hours": 17.483333333333334,
+      "stops": 1,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-01-20"
+    },
+    {
+      "origin": "LON",
+      "gateway": "SLC",
+      "eur": 816,
+      "departure": "2026-12-07",
+      "duration": "16:50",
+      "duration_hours": 16.833333333333332,
+      "stops": 2,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAxIIL20vMDRqcGxyDQgEEgkvbS8wOWM3dzAaHWoNCAQSCS9tLzA5Yzd3MHIMCAMSCC9tLzA0anBsQAFIAXACggENCP___________wEQA5gBAbIBBBgBIAE&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2026-12-23"
+    },
+    {
+      "origin": "WAW",
+      "gateway": "NYC",
+      "eur": 485,
+      "departure": "2027-01-14",
+      "duration": "15:10",
+      "duration_hours": 15.166666666666666,
+      "stops": 1,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-01-27"
+    },
+    {
+      "origin": "WAW",
+      "gateway": "SFO",
+      "eur": 721,
+      "departure": "2027-04-25",
+      "duration": "16:05",
+      "duration_hours": 16.083333333333332,
+      "stops": 1,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-05-11"
+    },
+    {
+      "origin": "WAW",
+      "gateway": "LAX",
+      "eur": 753,
+      "departure": "2027-04-11",
+      "duration": "24:05",
+      "duration_hours": 24.083333333333332,
+      "stops": 1,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": false,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-04-26",
+      "exclusion_reason": "Исходящий путь дольше 24 часов."
+    },
+    {
+      "origin": "WAW",
+      "gateway": "ORD",
+      "eur": 617,
+      "departure": "2027-02-05",
+      "duration": "10:15",
+      "duration_hours": 10.25,
+      "stops": 0,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-02-20"
+    },
+    {
+      "origin": "WAW",
+      "gateway": "IAD",
+      "eur": 808,
+      "departure": "2026-12-07",
+      "duration": "15:50",
+      "duration_hours": 15.833333333333334,
+      "stops": 1,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2026-12-23"
+    },
+    {
+      "origin": "WAW",
+      "gateway": "LAS",
+      "eur": 760,
+      "departure": "2027-04-25",
+      "duration": "22:00",
+      "duration_hours": 22.0,
+      "stops": 2,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-05-11"
+    },
+    {
+      "origin": "WAW",
+      "gateway": "MIA",
+      "eur": 641,
+      "departure": "2027-01-21",
+      "duration": "14:40",
+      "duration_hours": 14.666666666666666,
+      "stops": 1,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-02-06"
+    },
+    {
+      "origin": "WAW",
+      "gateway": "SEA",
+      "eur": 660,
+      "departure": "2027-02-28",
+      "duration": "14:25",
+      "duration_hours": 14.416666666666666,
+      "stops": 1,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-03-14"
+    },
+    {
+      "origin": "WAW",
+      "gateway": "DEN",
+      "eur": 752,
+      "departure": "2027-02-08",
+      "duration": "23:59",
+      "duration_hours": 23.983333333333334,
+      "stops": 2,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-02-21"
+    },
+    {
+      "origin": "WAW",
+      "gateway": "PHX",
+      "eur": 800,
+      "departure": "2027-02-15",
+      "duration": "22:12",
+      "duration_hours": 22.2,
+      "stops": 2,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-02-28"
+    },
+    {
+      "origin": "WAW",
+      "gateway": "SLC",
+      "eur": 957,
+      "departure": "2027-02-06",
+      "duration": "17:59",
+      "duration_hours": 17.983333333333334,
+      "stops": 2,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDV0FXcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNXQVdAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-02-21"
+    },
+    {
+      "origin": "CPH",
+      "gateway": "NYC",
+      "eur": 384,
+      "departure": "2027-01-17",
+      "duration": "16:10",
+      "duration_hours": 16.166666666666668,
+      "stops": 1,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-01-30"
+    },
+    {
+      "origin": "CPH",
+      "gateway": "SFO",
+      "eur": 646,
+      "departure": "2027-01-23",
+      "duration": "17:45",
+      "duration_hours": 17.75,
+      "stops": 1,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-02-05"
+    },
+    {
+      "origin": "CPH",
+      "gateway": "LAX",
+      "eur": 624,
+      "departure": "2027-01-21",
+      "duration": "18:15",
+      "duration_hours": 18.25,
+      "stops": 1,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-02-04"
+    },
+    {
+      "origin": "CPH",
+      "gateway": "ORD",
+      "eur": 384,
+      "departure": "2027-04-01",
+      "duration": "16:05",
+      "duration_hours": 16.083333333333332,
+      "stops": 1,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-04-14",
+      "note": "Контрольная карточка использует более короткие Finnair в обе стороны: €389 Google/Iberia (DKK2904), checked и checkout неизвестны. Explore €384 другая комбинация."
+    },
+    {
+      "origin": "CPH",
+      "gateway": "IAD",
+      "eur": 381,
+      "departure": "2026-12-24",
+      "duration": "16:35",
+      "duration_hours": 16.583333333333332,
+      "stops": 1,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-01-06"
+    },
+    {
+      "origin": "CPH",
+      "gateway": "LAS",
+      "eur": 753,
+      "departure": "2027-02-07",
+      "duration": "21:18",
+      "duration_hours": 21.3,
+      "stops": 2,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-02-20"
+    },
+    {
+      "origin": "CPH",
+      "gateway": "MIA",
+      "eur": 494,
+      "departure": "2027-04-15",
+      "duration": "13:55",
+      "duration_hours": 13.916666666666666,
+      "stops": 1,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-04-28"
+    },
+    {
+      "origin": "CPH",
+      "gateway": "SEA",
+      "eur": 437,
+      "departure": "2027-04-11",
+      "duration": "16:15",
+      "duration_hours": 16.25,
+      "stops": 1,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-04-24"
+    },
+    {
+      "origin": "CPH",
+      "gateway": "DEN",
+      "eur": 534,
+      "departure": "2027-01-14",
+      "duration": "32:55",
+      "duration_hours": 32.916666666666664,
+      "stops": 1,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": false,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-01-30",
+      "exclusion_reason": "Исходящий путь дольше 24 часов."
+    },
+    {
+      "origin": "CPH",
+      "gateway": "PHX",
+      "eur": 753,
+      "departure": "2027-01-31",
+      "duration": "18:20",
+      "duration_hours": 18.333333333333332,
+      "stops": 2,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-02-13"
+    },
+    {
+      "origin": "CPH",
+      "gateway": "SLC",
+      "eur": 741,
+      "departure": "2027-01-18",
+      "duration": "20:53",
+      "duration_hours": 20.883333333333333,
+      "stops": 2,
+      "airlines": "Не показаны в сохранённой карточке Explore; проверить конкретные сегменты",
+      "observed_at": "2026-11-16T03:18:53+00:00",
+      "verification": "Google Flights Explore, Chrome; показанный ориентир, не checkout",
+      "source_url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR",
+      "baggage": "Не проверен для Explore; выбранные маршруты и отдельные подлёты разобраны в контрольных карточках.",
+      "usable": true,
+      "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
+      "return": "2027-02-01"
     }
   ],
   "provider_checks": [
     {
       "route": "Вильнюс → JFK: Finnair через Helsinki, с чемоданом",
-      "price": "€646,25 return, Economy Classic на Finnair",
-      "dates": "26 ноября – 9 декабря 2026; дома 10 декабря",
-      "url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20Vilnius%20to%20New%20York%20on%202026-11-26%20returning%202026-12-09",
-      "note": "У перевозчика выбраны оба Classic: Total €646,25 за 1 взрослого. VNO 26 ноября 13:25 → JFK 19:05, HEL 1ч40, всего 12ч40; JFK 9 декабря 22:45 → VNO 10 декабря 18:05, HEL 2ч30, всего 12ч20. AY1104/AY15 и AY16/AY1105. В каждом направлении cabin + small bag общим весом 8 кг и checked 23 кг. Light тех же рейсов €496,25 без checked; Google €497, Explore €492 — не цена Classic. Подлёт и дополнительные ночёвки перед рейсом не нужны. До ввода пассажира, не бронь.",
-      "observed_at": "2026-11-09T03:21:47+00:00",
-      "provider_url": "https://www.finnair.com/lt-en"
+      "price": "€623,01 return, оба Economy Classic у Finnair",
+      "dates": "8–21 января 2027; дома 22 января",
+      "url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20Vilnius%20to%20New%20York%20on%202027-01-08%20returning%202027-01-21",
+      "note": "Перевозчик после выбора обоих Classic показал Total price €623.01 за 1 взрослого. Туда VNO 8 января 13:25 → JFK 19:05, HEL 1ч40, всего 12ч40; обратно JFK 21 января 22:45 → VNO 22 января 18:05, HEL 2ч30, всего 12ч20. AY1104/AY015 и AY016/AY1105. В обе стороны checked 23 кг и cabin + small bag общим весом 8 кг. Classic non-refundable/changeable по карточке; возможная разница тарифа не оценена. Light тех же рейсов у Finnair €473.01 без checked; Explore/Google €474 не цена Classic. Отдельный подлёт не нужен. Проверено до ввода пассажира; не бронь.",
+      "observed_at": "2026-11-16T03:26:04+00:00",
+      "provider_url": "https://www.finnair.com/lt-en/booking/passenger-details"
     },
     {
-      "route": "London Heathrow → JFK: Icelandair через Keflavík, с чемоданом",
-      "price": "£511,34 return, Economy Standard на Icelandair",
-      "dates": "10–26 апреля 2027; Heathrow 27 апреля",
-      "url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20London%20to%20New%20York%20on%202027-04-10%20returning%202027-04-26",
-      "note": "Trip summary перевозчика: оба Economy Standard, Total GBP511.34 за 1 взрослого, без миль. LHR 10 апреля 13:05 → JFK 19:20, KEF 1ч45, всего 11ч15, FI451/FI615; JFK 26 апреля 20:30 → LHR 27 апреля 11:55, KEF 1ч20, всего 10ч25, FI614/FI450. Тариф включает checked 23 кг, cabin 10 кг и personal item по текущим правилам Icelandair. Google Standard €613 — справочный эквивалент, фактическая валюта GBP. Light €494 без checked; самый дешёвый первоначальный €470 возвращается 31ч45 и не выбран. Подлёт VNO–LHR отдельно €226; известная комбинация £511,34 + €226, ещё багаж подлёта, две ночёвки и транспорт неизвестной цены. Билеты раздельные, не бронь.",
-      "observed_at": "2026-11-09T03:21:47+00:00",
-      "provider_url": "https://booking.icelandair.com/tripsummary",
-      "baggage_source": "https://www.icelandair.com/en-gb/support/on-board/classes-of-service/"
+      "route": "London Heathrow → Seattle: Icelandair через Keflavík",
+      "price": "€549 return в Google через tickets; checked bag отдельно",
+      "dates": "3–16 апреля 2027; Heathrow 17 апреля",
+      "url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20London%20to%20Seattle%20on%202027-04-03%20returning%202027-04-16",
+      "note": "Выбраны оба рейса Google: LHR 3 апреля 13:05 → SEA 17:55, KEF 1ч35, всего 12ч50; SEA 16 апреля 19:00 → LHR 17 апреля 20:20, KEF 6ч45, всего 17ч20. При выборе показывалось €581, итоговая панель €549 у tickets; у перевозчика этот итог не подтверждён. Cabin включён по Google, checked доступен за неизвестную доплату. Explore €424 исключён: возврат 32ч55 с 22ч15 в KEF. Подлёт VNO–LHR отдельно €226; €549+€226=€775 — только показанные билеты, без checked bags, двух ночёвок и транспорта. Раздельные билеты, незащищённые стыковки; это другая поездка, не доказательство экономии против VNO.",
+      "observed_at": "2026-11-16T03:26:04+00:00"
     },
     {
-      "route": "Копенгаген → JFK: Finnair через Helsinki",
-      "price": "€400 return в Google; багаж и итог перевозчика не подтверждены",
-      "dates": "11–24 января 2027; CPH 25 января",
-      "url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20Copenhagen%20to%20New%20York%20on%202027-01-11%20returning%202027-01-24",
-      "note": "Оба рейса выбраны в Google: CPH 11 января 13:00 → JFK 19:05, HEL 1ч15, всего 12ч05; JFK 24 января 22:45 → CPH 25 января 16:30, HEL 1ч55, всего 11ч45. Google показывает €400 при покупке через American; Finnair предложен за 3 048 DKK (около €408). Checkout перевозчика для этой комбинации не проверен. Cabin включён по Google; диапазон первой checked bag €0–151 зависит от тарифа/продавца, точная доплата неизвестна, к цене не прибавлена. Отдельный подлёт €148: €400+€148=€548 за показанные билеты до checked baggage, двух ночёвок и транспорта. Это неполный бюджет другой поездки, не доказательство экономии против VNO. Не бронь.",
-      "observed_at": "2026-11-09T03:21:47+00:00"
+      "route": "Копенгаген → Chicago O’Hare: Finnair через Helsinki",
+      "price": "€389 return в Google/Iberia, эквивалент DKK 2 904; checked отдельно",
+      "dates": "1–14 апреля 2027; CPH 15 апреля",
+      "url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20Copenhagen%20to%20Chicago%20on%202027-04-01%20returning%202027-04-14",
+      "note": "Оба выбранных рейса: CPH 1 апреля 12:20 → ORD 17:50, HEL 1ч30, всего 12ч30; ORD 14 апреля 21:30 → CPH 15 апреля 16:15, HEL 1ч25, всего 11ч45. Google/Iberia €389 — справочный эквивалент 2904 DKK. Finnair предложен за 3054 DKK/около €409; итог перевозчика не проверен. Cabin включён по Google, checked за неизвестную доплату. Explore €384 относится к более длинному исходящему пути 16ч05. Подлёт €150: известная сумма в справочных EUR €389+€150=€539, без checked bags, двух ночёвок, транспорта и возможных валютных издержек. Это не полный бюджет и не обещание экономии.",
+      "observed_at": "2026-11-16T03:26:04+00:00"
     },
     {
       "route": "Подлёт Вильнюс → Heathrow: LOT через Warsaw",
-      "price": "€226 return в Google, отдельно; checked за доплату",
-      "dates": "9–28 апреля 2027",
-      "url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20Vilnius%20to%20London%20Heathrow%20on%202027-04-09%20returning%202027-04-28",
-      "note": "Выбраны оба рейса Google: VNO 9 апреля 06:20 → LHR 09:20, WAW 1ч, всего 5ч; LHR 28 апреля 06:30 → VNO 13:50, WAW 1ч50, всего 5ч20. После выбора Google изменил €220 на €226; используется последняя сумма. Cabin включён, checked доступен за неизвестную доплату. До Icelandair 10 апреля 13:05 запас 27ч45; после прилёта 27 апреля 11:55 до вылета домой 18ч35. Две ночёвки 9/27 апреля и наземный транспорт отдельно, цены неизвестны. Один и тот же Heathrow, но билеты раздельные и стыковка не защищена. Не checkout LOT.",
-      "observed_at": "2026-11-09T03:21:47+00:00"
+      "price": "€226 return в Google; checked за доплату",
+      "dates": "2–18 апреля 2027",
+      "url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20Vilnius%20to%20London%20Heathrow%20on%202027-04-02%20returning%202027-04-18",
+      "note": "Оба рейса выбраны: VNO 2 апреля 14:30 → LHR 17:10, WAW 45мин, всего 4ч40; LHR 18 апреля 06:30 → VNO 16:20, WAW 4ч20, всего 7ч50. После выбора цена изменилась с €220 на €226. Cabin включён, checked за неизвестную доплату; checkout LOT не проверен. До Icelandair 3 апреля 13:05 запас 19ч55, после прилёта 17 апреля 20:20 до вылета домой 10ч10. Две ночёвки 2/17 апреля и транспорт не оценены; ранний выезд утром. Один аэропорт Heathrow, но билеты раздельные и пересадка не защищена.",
+      "observed_at": "2026-11-16T03:26:04+00:00"
     },
     {
       "route": "Подлёт Вильнюс → Копенгаген: airBaltic через Riga",
-      "price": "€148 return в Google, отдельно, без checked bag",
-      "dates": "10–26 января 2027; дома 27 января 00:30",
-      "url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20Vilnius%20to%20Copenhagen%20on%202027-01-10%20returning%202027-01-26",
-      "note": "Оба рейса выбраны Google: VNO 10 января 15:25 → CPH 19:30, RIX 2ч45, всего 5ч05; CPH 26 января 20:10 → VNO 27 января 00:30, RIX 1ч05, всего 3ч20. Cabin включён, checked не включён, доплата неизвестна. До Finnair 11 января 13:00 запас 17ч30; после прилёта 25 января 16:30 до вылета домой 27ч40. Две ночёвки 10/25 января и транспорт не оценены. Раздельные билеты, незащищённые стыковки. Не checkout airBaltic.",
-      "observed_at": "2026-11-09T03:21:47+00:00"
+      "price": "€150 return в Google, без checked bag",
+      "dates": "31 марта – 16 апреля 2027",
+      "url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20Vilnius%20to%20Copenhagen%20on%202027-03-31%20returning%202027-04-16",
+      "note": "Оба рейса выбраны: VNO 31 марта 15:25 → CPH 19:50, RIX 3ч10, всего 5ч25; CPH 16 апреля 08:15 → VNO 14:45, RIX 3ч15, всего 5ч30. Google показывает €150 у airBaltic, cabin включён, checked не включён и его доплата неизвестна. До Finnair 1 апреля 12:20 запас 16ч30; после прилёта 15 апреля 16:15 до вылета домой 16ч. Две ночёвки 31 марта/15 апреля и транспорт отдельно, цены неизвестны. Раздельные билеты, незащищённые стыковки. Итог перевозчика не проверен.",
+      "observed_at": "2026-11-16T03:26:04+00:00"
     }
   ],
   "provider_check_history": [
@@ -16159,6 +17063,49 @@
       "url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20Vilnius%20to%20Copenhagen%20on%202026-11-19%20returning%202026-12-06",
       "note": "Выбраны оба рейса Google: VNO 19 ноября 15:25 → CPH 19:30 через RIX 2ч45, всего 5ч05; CPH 6 декабря 20:10 → VNO 7 декабря 00:30 через RIX 1ч05, всего 3ч20. Cabin включён, checked нет; доплата неизвестна. До TAP 20 ноября 06:00 запас 10ч30. После TAP 5 декабря 23:45 до вылета домой 20ч25. Две ночёвки 19 ноября/5 декабря и транспорт отдельно, цены неизвестны. Более дешёвый €208 имел дополнительную ночную пересадку 9ч05 в Риге и не выбран. Раздельные билеты, незащищённые стыковки. Google, не checkout airBaltic.",
       "observed_at": "2026-11-02T03:18:20+00:00"
+    },
+    {
+      "route": "Вильнюс → JFK: Finnair через Helsinki, с чемоданом",
+      "price": "€646,25 return, Economy Classic на Finnair",
+      "dates": "26 ноября – 9 декабря 2026; дома 10 декабря",
+      "url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20Vilnius%20to%20New%20York%20on%202026-11-26%20returning%202026-12-09",
+      "note": "У перевозчика выбраны оба Classic: Total €646,25 за 1 взрослого. VNO 26 ноября 13:25 → JFK 19:05, HEL 1ч40, всего 12ч40; JFK 9 декабря 22:45 → VNO 10 декабря 18:05, HEL 2ч30, всего 12ч20. AY1104/AY15 и AY16/AY1105. В каждом направлении cabin + small bag общим весом 8 кг и checked 23 кг. Light тех же рейсов €496,25 без checked; Google €497, Explore €492 — не цена Classic. Подлёт и дополнительные ночёвки перед рейсом не нужны. До ввода пассажира, не бронь.",
+      "observed_at": "2026-11-09T03:21:47+00:00",
+      "provider_url": "https://www.finnair.com/lt-en"
+    },
+    {
+      "route": "London Heathrow → JFK: Icelandair через Keflavík, с чемоданом",
+      "price": "£511,34 return, Economy Standard на Icelandair",
+      "dates": "10–26 апреля 2027; Heathrow 27 апреля",
+      "url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20London%20to%20New%20York%20on%202027-04-10%20returning%202027-04-26",
+      "note": "Trip summary перевозчика: оба Economy Standard, Total GBP511.34 за 1 взрослого, без миль. LHR 10 апреля 13:05 → JFK 19:20, KEF 1ч45, всего 11ч15, FI451/FI615; JFK 26 апреля 20:30 → LHR 27 апреля 11:55, KEF 1ч20, всего 10ч25, FI614/FI450. Тариф включает checked 23 кг, cabin 10 кг и personal item по текущим правилам Icelandair. Google Standard €613 — справочный эквивалент, фактическая валюта GBP. Light €494 без checked; самый дешёвый первоначальный €470 возвращается 31ч45 и не выбран. Подлёт VNO–LHR отдельно €226; известная комбинация £511,34 + €226, ещё багаж подлёта, две ночёвки и транспорт неизвестной цены. Билеты раздельные, не бронь.",
+      "observed_at": "2026-11-09T03:21:47+00:00",
+      "provider_url": "https://booking.icelandair.com/tripsummary",
+      "baggage_source": "https://www.icelandair.com/en-gb/support/on-board/classes-of-service/"
+    },
+    {
+      "route": "Копенгаген → JFK: Finnair через Helsinki",
+      "price": "€400 return в Google; багаж и итог перевозчика не подтверждены",
+      "dates": "11–24 января 2027; CPH 25 января",
+      "url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20Copenhagen%20to%20New%20York%20on%202027-01-11%20returning%202027-01-24",
+      "note": "Оба рейса выбраны в Google: CPH 11 января 13:00 → JFK 19:05, HEL 1ч15, всего 12ч05; JFK 24 января 22:45 → CPH 25 января 16:30, HEL 1ч55, всего 11ч45. Google показывает €400 при покупке через American; Finnair предложен за 3 048 DKK (около €408). Checkout перевозчика для этой комбинации не проверен. Cabin включён по Google; диапазон первой checked bag €0–151 зависит от тарифа/продавца, точная доплата неизвестна, к цене не прибавлена. Отдельный подлёт €148: €400+€148=€548 за показанные билеты до checked baggage, двух ночёвок и транспорта. Это неполный бюджет другой поездки, не доказательство экономии против VNO. Не бронь.",
+      "observed_at": "2026-11-09T03:21:47+00:00"
+    },
+    {
+      "route": "Подлёт Вильнюс → Heathrow: LOT через Warsaw",
+      "price": "€226 return в Google, отдельно; checked за доплату",
+      "dates": "9–28 апреля 2027",
+      "url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20Vilnius%20to%20London%20Heathrow%20on%202027-04-09%20returning%202027-04-28",
+      "note": "Выбраны оба рейса Google: VNO 9 апреля 06:20 → LHR 09:20, WAW 1ч, всего 5ч; LHR 28 апреля 06:30 → VNO 13:50, WAW 1ч50, всего 5ч20. После выбора Google изменил €220 на €226; используется последняя сумма. Cabin включён, checked доступен за неизвестную доплату. До Icelandair 10 апреля 13:05 запас 27ч45; после прилёта 27 апреля 11:55 до вылета домой 18ч35. Две ночёвки 9/27 апреля и наземный транспорт отдельно, цены неизвестны. Один и тот же Heathrow, но билеты раздельные и стыковка не защищена. Не checkout LOT.",
+      "observed_at": "2026-11-09T03:21:47+00:00"
+    },
+    {
+      "route": "Подлёт Вильнюс → Копенгаген: airBaltic через Riga",
+      "price": "€148 return в Google, отдельно, без checked bag",
+      "dates": "10–26 января 2027; дома 27 января 00:30",
+      "url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20Vilnius%20to%20Copenhagen%20on%202027-01-10%20returning%202027-01-26",
+      "note": "Оба рейса выбраны Google: VNO 10 января 15:25 → CPH 19:30, RIX 2ч45, всего 5ч05; CPH 26 января 20:10 → VNO 27 января 00:30, RIX 1ч05, всего 3ч20. Cabin включён, checked не включён, доплата неизвестна. До Finnair 11 января 13:00 запас 17ч30; после прилёта 25 января 16:30 до вылета домой 27ч40. Две ночёвки 10/25 января и транспорт не оценены. Раздельные билеты, незащищённые стыковки. Не checkout airBaltic.",
+      "observed_at": "2026-11-09T03:21:47+00:00"
     }
   ],
   "rejected_price_observations": [
@@ -16219,6 +17166,16 @@
       "observed_at": "2026-11-09T03:21:47+00:00",
       "url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20Copenhagen%20to%20Orlando%20on%202027-01-07%20returning%202027-01-20",
       "reason": "Исходящий рейс требует смены аэропортов LHR–LGW за3ч30. Скрытая логистическая стоимость и практичность не установлены; исключён из основного сравнения, не объявлен несуществующим."
+    },
+    {
+      "origin": "LON",
+      "gateway": "SEA",
+      "eur": 424,
+      "departure": "2027-04-03",
+      "return_date": "2027-04-16",
+      "observed_at": "2026-11-16T03:26:04+00:00",
+      "url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20London%20to%20Seattle%20on%202027-04-03%20returning%202027-04-16",
+      "reason": "Возврат 32ч55 с 22ч15 в KEF. Сохранён как реальная неудобная комбинация; исключён из основного сравнения."
     }
   ]
 }

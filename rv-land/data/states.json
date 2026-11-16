@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T00:56:12+00:00",
+  "updated_at": "2026-11-16T03:26:04+00:00",
   "states": [
     {
       "code": "AL",
@@ -1037,9 +1037,9 @@
         "DEN"
       ],
       "analysis": "Недостаточно хороших результатов; ветер, мороз и удалённость. Приоритет ниже рынков с существующими гаражами.",
-      "total": 5,
-      "photo_candidates": 5,
-      "shortfall": 5,
+      "total": 6,
+      "photo_candidates": 6,
+      "shortfall": 4,
       "coverage": "Недостаточно проверенных кандидатов",
       "sources": [
         "https://www.landsearch.com/properties/wyoming/search/under-15000",
