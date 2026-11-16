@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-15T03:15:30+00:00",
+  "updated_at": "2026-11-16T00:56:12+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -14882,8 +14882,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-17T01:12:18Z",
-      "last_verified": "2026-10-17T01:12:18Z",
+      "last_seen": "2026-11-16T01:01:15Z",
+      "last_verified": "2026-11-16T01:01:15Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -14910,7 +14910,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-15T14:15:40.000000Z",
+      "source_updated": "2026-11-07T06:33:31.000000Z",
       "source_published": "2026-08-31T18:53:43.000000Z",
       "image_url": "assets/listings/9efdecdc9f8b2da96689.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/florida/023-acres-for-sale-in-satsuma-florida-26087",
@@ -14998,7 +14998,7 @@
       },
       "score": 29,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/31/6a95d06d398b8-1788203117.jpg",
-      "photo_preserved_at": "2026-10-17T01:06:42+00:00",
+      "photo_preserved_at": "2026-11-16T00:56:12+00:00",
       "photo_history": [
         {
           "path": "assets/listings/9efdecdc9f8b2da96689.jpg",
@@ -15012,8 +15012,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-17T01:12:20Z",
-      "last_verified": "2026-10-17T01:12:20Z",
+      "last_seen": "2026-11-16T01:01:17Z",
+      "last_verified": "2026-11-16T01:01:17Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -15040,7 +15040,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-09-05T17:51:24.000000Z",
+      "source_updated": "2026-11-07T06:10:24.000000Z",
       "source_published": "2026-09-02T19:30:39.000000Z",
       "image_url": "assets/listings/bbade2f33c0f466d8b74.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/florida/022-acres-for-sale-in-trenton-florida-26126",
@@ -15123,7 +15123,7 @@
       },
       "score": 22,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/02/6a987984b82c8-1788377476.jpg",
-      "photo_preserved_at": "2026-10-17T01:06:42+00:00",
+      "photo_preserved_at": "2026-11-16T00:56:12+00:00",
       "photo_history": [
         {
           "path": "assets/listings/bbade2f33c0f466d8b74.jpg",
@@ -15148,8 +15148,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-17T01:12:21Z",
-      "last_verified": "2026-10-17T01:12:21Z",
+      "last_seen": "2026-11-16T01:01:18Z",
+      "last_verified": "2026-11-16T01:01:18Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -15176,7 +15176,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-09-02T18:45:59.000000Z",
+      "source_updated": "2026-11-07T06:10:55.000000Z",
       "source_published": "2026-09-02T18:40:05.000000Z",
       "image_url": "assets/listings/6598e8d6b873a34cfcf8.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/florida/022-acres-for-sale-in-interlachen-florida-26125",
@@ -15261,7 +15261,7 @@
       },
       "score": 31,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/02/6a986ebe030d1-1788374718.jpg",
-      "photo_preserved_at": "2026-10-17T01:06:42+00:00",
+      "photo_preserved_at": "2026-11-16T00:56:12+00:00",
       "photo_history": [
         {
           "path": "assets/listings/6598e8d6b873a34cfcf8.jpg",
@@ -141395,6 +141395,130 @@
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/nevada/10-acres-for-sale-in-montello-nevada-27141"
       ]
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-16T00:56:12+00:00",
+      "last_seen": "2026-11-16T00:58:41Z",
+      "last_verified": "2026-11-16T00:58:41Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27152",
+      "source_id": "27152",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/california/31001-23-acres-for-sale-in-salton-city-california-27152",
+      "title": "1188 Red Sea Avenue",
+      "address": "1188 Red Sea Avenue",
+      "city": "Salton City",
+      "state": "CA",
+      "county": "Imperial",
+      "zip": "92274",
+      "kind": "land",
+      "price": 3999.0,
+      "known_fees": 0.0,
+      "total_known": 3999.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 0.31,
+      "lat": 33.333944,
+      "lng": -115.961993,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-15T19:17:54.000000Z",
+      "source_published": "2026-11-15T19:08:14.000000Z",
+      "image_url": "assets/listings/af3cb8f7e5be3c434c5e.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/california/31001-23-acres-for-sale-in-salton-city-california-27152",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "008-392-009-000",
+      "zoning": "Не указано",
+      "road_note": "Не подтверждён",
+      "utility_note": "Не подтверждены",
+      "taxes_note": "150",
+      "source_categories": [
+        "residential-buildable-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "flags": [
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
+      "evidence_quote": "App boundaries are a locating aid and do not replace a survey.",
+      "price_history": [
+        {
+          "date": "2026-11-16T00:56:12+00:00",
+          "price": 3999.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/california/31001-23-acres-for-sale-in-salton-city-california-27152"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/15/6afa04f5a0fb9-1794770165.jpg",
+      "photo_preserved_at": "2026-11-16T00:56:12+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/af3cb8f7e5be3c434c5e.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/california/31001-23-acres-for-sale-in-salton-city-california-27152",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/15/6afa04f5a0fb9-1794770165.jpg",
+          "date": "2026-11-16T00:56:12+00:00"
+        }
+      ],
+      "region": "Тихоокеанский",
+      "screening_issue": null,
+      "climate_note": "Недорогие предложения сосредоточены в пустыне и глубине штата. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "SAN",
+          "name": "San Diego International Airport",
+          "straight_km": 133,
+          "drive_km_estimate": 166,
+          "drive_hours_estimate": 2.2,
+          "flight_min_eur": 741,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "LAX",
+          "name": "Los Angeles International Airport",
+          "straight_km": 236,
+          "drive_km_estimate": 295,
+          "drive_hours_estimate": 3.9,
+          "flight_min_eur": 623,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 315,
+          "drive_km_estimate": 393,
+          "drive_hours_estimate": 5.2,
+          "flight_min_eur": 581,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 2332,
+      "score_parts": {
+        "Цена /25": 23,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 6,
+        "Дорога /10": 8
+      },
+      "score": 37
     }
   ]
 }
