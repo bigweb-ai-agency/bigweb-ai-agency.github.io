@@ -49,9 +49,10 @@ def purchase_document_fee(description):
     text=compact(description)
     amount=r'\$([\d,]+(?:\.\d{2})?)'
     fee=0
-    for label in re.finditer(r'\b(?:doc(?:ument)?(?:ation)?|processing|transaction)\s*fee\b',text,re.I):
+    for label in re.finditer(r'\b(?:doc(?:ument)?(?:ation)?|processing|transaction|closing)\s*fee\b',text,re.I):
         before,after=text[:label.start()],text[label.end():]
         if re.search(r'\b(?:loan|financing|monthly|annual)\s+$',before,re.I):continue
+        if label[0].lower().startswith('closing') and re.search(r'\b(?:estimated|estimated title company)\s+$',before,re.I):continue
         # A trailing qualifier can apply to the document fee and the recurring
         # charges in the same sentence. It does not establish a cash-sale fee.
         sentence_end=re.search(r'[.!?](?:\s|$)',after)

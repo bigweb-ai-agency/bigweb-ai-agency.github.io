@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-17T00:49:51+00:00",
+  "updated_at": "2026-11-17T03:16:22+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -141680,12 +141680,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-17T00:49:51+00:00",
-      "last_seen": "2026-11-17T00:52:18Z",
-      "last_verified": "2026-11-17T00:52:18Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-17T03:09:37Z",
+      "last_verified": "2026-11-17T03:09:37Z",
+      "photo_kind": "Исходное фото из объявления: сухая травянистая местность, кустарник и горы; границы parcel и готовая площадка не видны.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "17.11.2026: Spring Creek, APN 031-020-002, 1.03 ac. Исправлен пропуск Closing Fee $250: cash $6,199 + $250 = $6,449 до других нераскрытых расходов. Это уточнение известной суммы, не изменение asking price продавцом. $199 down + $177 x 48 — отдельная рассрочка. No HOA и recreational zoning — заявления продавца; самостоятельное хранение RV и личный ремонт остаются unknown. На исходном фото нет доказанного гаража или подготовленного въезда."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27157",
       "source_id": "27157",
@@ -141699,9 +141701,9 @@
       "zip": "89815",
       "kind": "land",
       "price": 6199.0,
-      "known_fees": 0.0,
-      "total_known": 6199.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "known_fees": 250,
+      "total_known": 6449,
+      "price_evidence": "Cash Price $6,199 и отдельный Closing Fee $250 в живом описании; известный минимум $6,449. Рассрочка $199 down + $177 x 48 не является cash price.",
       "acres": 1.03,
       "lat": 40.84198,
       "lng": -115.630404,
@@ -141715,16 +141717,16 @@
       "image_credit": "Seller / LandCentury",
       "parcel": "031-020-002",
       "zoning": "Recreational",
-      "road_note": "Dirt Road",
-      "utility_note": "Contact the county",
-      "taxes_note": "10",
+      "road_note": "По продавцу грунтовый подъезд off Boyd Kennedy Road; въезд, разворот и зимняя проходимость высокого RV не проверены.",
+      "utility_note": "Power nearby по продавцу; well и septic требуются для будущего использования. Действующие подключения не установлены.",
+      "taxes_note": "Около $10/год по продавцу; налоговый счёт не проверен.",
       "source_categories": [
         "residential-buildable-land",
         "owner-finance-deals",
         "recreational-and-hunting-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -141794,25 +141796,52 @@
       ],
       "msp_straight_km": 1874,
       "score_parts": {
-        "Цена /25": 20,
+        "Цена /25": 19,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 1,
         "Сезон /10": 5,
         "Дорога /10": 5
       },
-      "score": 31
+      "score": 30,
+      "verification_history": [
+        {
+          "date": "2026-11-17T03:16:22+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/nevada/1-03-acres-for-sale-in-spring-creek-nevada-27157",
+          "finding": "Fresh public cash offer, parcel and listing point verified; original saved listing image visually inspected. No ready workshop or parcel-specific RV storage/repair permission established."
+        }
+      ],
+      "tax_annual": 10,
+      "cost_corrections": [
+        {
+          "date": "2026-11-17T03:16:22+00:00",
+          "source": "https://www.landcentury.com/land-for-sale/nevada/1-03-acres-for-sale-in-spring-creek-nevada-27157",
+          "previous_known_fees": 0,
+          "known_fees": 250,
+          "previous_total_known": 6199,
+          "total_known": 6449,
+          "reason": "Previously omitted explicit fixed Closing Fee; asking cash price unchanged."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/nevada/1-03-acres-for-sale-in-spring-creek-nevada-27157"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-17T00:49:51+00:00",
-      "last_seen": "2026-11-17T00:52:21Z",
-      "last_verified": "2026-11-17T00:52:21Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-17T03:09:38Z",
+      "last_verified": "2026-11-17T03:09:38Z",
+      "photo_kind": "Исходное фото из объявления: кактус и каменистый грунт; это не схема границ, не доказательство дороги или пригодной RV-площадки.",
       "personal_repair": "restriction_risk",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "17.11.2026: APN 209-07-044, Lot 992 Unit 5 Sacramento Ranchos, 1.96 ac. Свежая цена cash $3,499 + $249 fee = $3,748. Исходное фото проверено. По продавцу дорога заканчивается примерно за 250 ft до parcel, последние 3/4 мили требуют 4x4; далее пеший проход через кустарник. Flood Zone A — заявление продавца, независимая FEMA-проверка не выполнена. Поэтому HOLD до доказательства проезда и пригодной площадки; active сохранён как статус продажи.",
+        "A-R, no HOA, 14 дней camping и будущая возможность workshop/container — seller claims. Camping/occupancy не разрешение хранения или ремонта; существующая мастерская не заявлена. Правила Mohave IPMC 302.8 остаются отдельным риском для разборки автомобиля. Финансирование $0 down + $129 x 48 с дополнительными платежами не подменяет cash total."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27100",
       "source_id": "27100",
@@ -141828,7 +141857,7 @@
       "price": 3499.0,
       "known_fees": 249.0,
       "total_known": 3748.0,
-      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "price_evidence": "Cash $3,499 плюс $249 document fee для cash и financing = $3,748. $0 down / $129 x 48 — отдельная рассрочка.",
       "acres": 1.96,
       "lat": 35.040361,
       "lng": -114.22875,
@@ -141842,9 +141871,9 @@
       "image_credit": "Seller / LandCentury",
       "parcel": "209-07-044",
       "zoning": "Agricultural-Residential",
-      "road_note": "Dirt Road",
-      "utility_note": "No utilities",
-      "taxes_note": "26",
+      "road_note": "Продавец: последние ~3/4 мили rough/unmaintained dirt требуют 4x4; дорога заканчивается примерно за 250 ft до границы, дальше bushwhack. Проезд обычного высокого RV не подтверждён.",
+      "utility_note": "No utilities по продавцу; электрическая линия примерно в 3/4 мили не означает подключение. Вода, sewer/septic и подготовка площадки требуют отдельного проекта.",
+      "taxes_note": "Около $26/год по продавцу; счёт не проверен.",
       "source_categories": [
         "residential-buildable-land",
         "agricultural-and-farm-land",
@@ -141853,7 +141882,7 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -141862,11 +141891,12 @@
       "water": "none",
       "sewer": "unknown",
       "no_hoa": "seller_claim",
-      "road_access": "seller_claim",
+      "road_access": "unknown",
       "flags": [
         "Источник упоминает flood zone/flood risk; контекст и фактический риск требуют проверки FEMA и отметки площадки.",
         "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
-        "Mohave IPMC 302.8 ограничивает неходовые машины и крупную разборку; проверить zoning-исключения и точную юрисдикцию."
+        "Mohave IPMC 302.8 ограничивает неходовые машины и крупную разборку; проверить zoning-исключения и точную юрисдикцию.",
+        "Продавец прямо указывает 4x4-подъезд, окончание дороги до участка и Flood Zone A; готовой базы для высокого RV нет в доказательствах."
       ],
       "evidence_quote": "If you've got a capable 4x4 rig, a rooftop tent, or a truck camper and you're tired of paying for crowded campgrounds,",
       "price_history": [
@@ -141890,7 +141920,7 @@
       ],
       "legal_source": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
       "region": "Юго-запад",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Много дешёвой земли. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -141933,7 +141963,26 @@
         "Сезон /10": 6,
         "Дорога /10": 8
       },
-      "score": 38
+      "score": 20,
+      "verification_history": [
+        {
+          "date": "2026-11-17T03:16:22+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-96-acres-for-sale-in-kingman-arizona-27100",
+          "finding": "Fresh public cash offer, parcel and listing point verified; original saved listing image visually inspected. No ready workshop or parcel-specific RV storage/repair permission established."
+        }
+      ],
+      "tax_annual": 26,
+      "review_hold": {
+        "date": "2026-11-17T03:16:22+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/arizona/1-96-acres-for-sale-in-kingman-arizona-27100",
+        "reason": "Нет подтверждённого автомобильного подъезда к parcel: по продавцу 4x4-дорога обрывается за ~250 ft до границы; также заявлена Flood Zone A.",
+        "release_condition": "Документально подтвердить юридический и физический въезд высокого 7-метрового RV, безопасную площадку с проверкой flood risk и право отдельного хранения/личного ремонта."
+      },
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/1-96-acres-for-sale-in-kingman-arizona-27100"
+      ]
     }
   ]
 }

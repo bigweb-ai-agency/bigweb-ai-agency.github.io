@@ -82,6 +82,19 @@ class ResearchDataTests(unittest.TestCase):
                      'Cash: $7,799 per acre (plus $250 processing)'):
             with self.subTest(text=text):self.assertEqual(b.purchase_document_fee(text),0)
 
+    def test_fixed_closing_fee_is_included_but_financing_and_estimates_are_not(self):
+        base={'id':27157,'cashPrice':619900,'processingFee':0,'stateRegion':'Nevada',
+              'type':'land','isPublished':True,'_source_url':'https://www.landcentury.com/example',
+              '_fetched_at':'2026-11-17','info':{},'categories':[],
+              'description':'Cash Price $6,199 Owner Financing $199 down then $177 for 48 months Closing Fee $250'}
+        with patch.object(b,'read',return_value={'27157':base}):
+            row=b.landcentury_records()[0]
+        self.assertEqual((row['price'],row['known_fees'],row['total_known']),(6199,250,6449))
+        for text in ('Loan closing fee $250','Closing fee $250 for purchase on terms.',
+                     'Estimated closing fee $800-$1,200','Estimated title company closing fee $800',
+                     'Closing fee: included','Closing fee $9/month'):
+            with self.subTest(text=text):self.assertEqual(b.purchase_document_fee(text),0)
+
     def test_in_house_closing_alternative_is_known_minimum_purchase_fee(self):
         for fee in (249,299):
             description=f'Buyer pays closing: title company $800-$1,200 or in-house closing for ${fee}.'

@@ -6359,7 +6359,114 @@
       "rotation_reason": "Continue below10 photo candidates. Follow with DE,RI,VT; automatic catalog plan covers all50 with access errors retained. Prioritize genuine workshops and full cash purchase.",
       "preservation": "All1083 prior IDs,first_seen,parcel,points,prices,fees,statuses and price/status/photo histories preserved. OneCA annotation and oneWYmanual addition. Existing asset bytes,monitor and Sicily unchanged; research journal append-only. Derived airport fares/scores refreshed from weekly flight observations.",
       "validation": "34 focused data tests and data validator passed:1084records/1083photos/50states/20legacyIDs. Preservation assertions and scoped diff reviewed. Exact-head publication and rendered map/photo checks follow the publish gate."
+    },
+    {
+      "date": "2026-11-17T03:17:25+00:00",
+      "states": [
+        "WA",
+        "HI",
+        "ND"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [],
+      "updated_ids": [
+        "lc-27157",
+        "lc-27100"
+      ],
+      "automatic_added_ids": [
+        "lc-27157",
+        "lc-27100"
+      ],
+      "automatic_updated_ids": [],
+      "workflow": {
+        "run_id": 43990744969,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/43990744969",
+        "conclusion": "success",
+        "created_at": "2026-11-17T00:49:34Z",
+        "data_commit": "c078f24033705c5fc90448721da2707b8506f305"
+      },
+      "monitor": {
+        "date": "2026-11-17T00:49:51+00:00",
+        "status": "partial",
+        "scanned_pages": 114,
+        "read_details": 62,
+        "added": 2,
+        "changed": 0,
+        "errors": 58
+      },
+      "source_errors": "Discovery43990744969 and Pages43991480657 succeeded; duplicate Pages43991478933 cancelled. Monitor partial:114 catalogs/62details/2new/0countedchanges/58errors. All20 retained error samples404; remaining38 uncharacterized. No availability change inferred. Automatic collection available, fallback unnecessary. Homes ND and Realtor ND catalog requests returned tool access errors, not property-status evidence.",
+      "findings": [
+        {
+          "id": "lc-27157",
+          "finding": "NV Spring Creek1.03ac/APN031-020-002, cash$6199 plus explicit Closing Fee$250=$6449. Corrected omitted fee and parser with cash/loan/estimated/recurring regression cases. Original scrubland/mountain photo inspected. Dirt road off BoydKennedy, power nearby, well+septic needed; garage absent, storage/repair unknown."
+        },
+        {
+          "id": "lc-27100",
+          "finding": "AZ Mohave1.96ac/APN209-07-044, cash$3499+$249=$3748 retained. Seller last3/4mile rough4x4 road ends250ft before boundary, then bushwhack; seller FloodZoneA. HOLD added for missing usable RV access/flood risk. Sale active and all histories preserved. Original cactus/rock photo is not proof of road, boundaries or ready pad. No existing workshop."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.bizben.com/business-for-sale/-a-mechanics-dream-property-engine-repair-center--tw:79172",
+          "finding": "WA Hoquiam existing engine-repair property: total asking$375000, outside budget. Not a$15000 garage."
+        },
+        {
+          "url": "https://www.homes.com/property/nka-roza-hill-dr-yakima-wa/5kne8t2bmmvmx/?l=1753kbmt826sx",
+          "alternative_url": "https://wbradchandler.com/home-search/listings/613647856428426500-NKA-Roza-Hill-Dr",
+          "image_url": "https://images.homes.com/listings/102/7033424194-555492222/nka-roza-hill-dr-yakima-wa-primaryphoto.jpg",
+          "finding": "WA MLS26-1407/APN191311-31423: live Chrome cash$13350/5.64ac, vacant RS land, power available, no water/sewer; seller tax$345. Genuine photo inspected: outlined hillside with pronounced slope, no ready RV pad/garage. Deferred for usable access/leveling costs and exact parcel-map correspondence. Homes map center46.6062/-120.39336 not independently tied to APN; broker public listing latitude/longitude null; same unnumbered address aggregators mix other MLS histories. Do not import as precise parcel coordinate. Source no restrictions is not legal repair approval."
+        },
+        {
+          "url": "https://www.homes.com/property/1-xx-w-hamma-dr-elma-wa/34v0z1l978rlk/",
+          "finding": "WA MLS2593862/APN519175300050:$15000/.2ac LakeArrowhead. Part-cleared lot, no structure, HOA$14/month and CC&R, sewer unavailable; utility availability not connections. Deferred pending standalone storage/repair and access, no quota import."
+        },
+        {
+          "url": "https://www.homes.com/washington/land-for-sale/under-15k/",
+          "finding": "WA catalog alternative0LomaLn$15000 explicitly lacks direct road access and needs easements; LakeFlorence$9900 includes lake/shoreline. Not usable RV workshop evidence. RimrockMeadows recreational/HOA lots and AndersonIsland ferry/HOA lots need separate scrutiny."
+        },
+        {
+          "url": "https://www.redfin.com/HI/Pahoa/15-2777-Manini-St-96778/home/88442639",
+          "alternative_url": "https://www.trulia.com/home/15-2777-manini-st-pahoa-hi-96778-248424373",
+          "finding": "HI MLS725300/15-2777ManiniSt: freshest indexed history says ContingentNov15, asking$14990 sinceOct6. Older opened Redfin snapshot$16900/Jul30 not treated as current. Seller concrete slab, cesspool, two unmaintained potentially incomplete structures, TaxDeed/as-is/no survey; HawaiianShoresRec HOA. Deferred, not an active ready workshop or clear title. Preserve newer evidence over older snapshot."
+        },
+        {
+          "url": "https://www.homes.com/hawaii/land-for-sale/under-15k/",
+          "finding": "HI alternatives:0Road9$9500 each must be bought as pair=$19000 outside budget; MarlinMLS718526$13500 describes collapsed lava tube; cheap Nanawale and OceanView lots have no verified repair building. No new qualifying manual photo candidate."
+        },
+        {
+          "url": "https://www.trulia.com/home/7-po-box-drake-nd-58736-246112250",
+          "finding": "ND Drake900sqft house with one-car detached garage: current public page OFF MARKET. Historical description$10000 and2022$15000 are not a current cash offer; no import."
+        },
+        {
+          "url": "https://www.realtor.com/realestateandhomes-search/North-Dakota/price-na-25000",
+          "finding": "ND catalog/search alternatives1152ndStEWesthope$18000 and174MainStNRegan$17500 exceed budget. Additional garage-focused public searches did not establish new full-price under$15000 offering; existing pending Streeter listings not overwritten from absent/older evidence."
+        }
+      ],
+      "official_rules": [
+        {
+          "url": "https://ecode360.com/46817608",
+          "finding": "Published YakimaCounty13.11.030 amendedIPMC402.8 restricts inoperative/unlicensed vehicles and major disassembly, with exceptions and major-overhaul enclosure designed/approved for that purpose. Official-code snapshot crawl10months; not current parcel-specific approval. Vacant land and no-restrictions MLS claim do not establish repair permission."
+        },
+        {
+          "url": "https://ecode360.com/46818816",
+          "finding": "Published YakimaCounty definitions distinguish storage as independent use vs subordinate parking, with licensed/operational-vehicle conditions. No land-use authorization inferred for MLS26-1407."
+        }
+      ],
+      "access": "Bounded public sources and connected Chrome. No CAPTCHA/403/robots/login bypass, seller contact, booking, purchase or infrastructure change. Broker robots and page200; map coordinates null there. Source image tool timeout followed by normal Chrome image download, not access-control evasion.",
+      "flight_review": {
+        "last_review": "2026-11-16",
+        "next_review": "2026-11-23",
+        "finding": "Weekly comparison fresh from previous run; flights.json preserved byte-for-byte, no new price claims today."
+      },
+      "next_states": [
+        "DE",
+        "RI",
+        "VT"
+      ],
+      "rotation_reason": "Continue below10 photo candidates; next consider AK,MD,CT. Automatic catalog plan covers all50 with source failures retained. Favor usable existing workshops over recreational subdivisions.",
+      "preservation": "All1086 IDs,first_seen,parcels,points,asking prices,statuses,price/status/photo histories and old asset bytes retained. Only NV known closing fee/total corrected with cost_corrections; AZ review_hold added. Monitor,flights and Sicily unchanged; journal append-only.",
+      "validation": "35 focused data tests passed, including new closing-fee regression. Data validator and preservation checks required before scoped publication; exact-head Pages and live map/photos verified after publish."
     }
   ],
-  "updated_at": "2026-11-16T03:26:59+00:00"
+  "updated_at": "2026-11-17T03:17:25+00:00"
 }
