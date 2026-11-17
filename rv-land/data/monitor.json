@@ -1,9 +1,9 @@
 {
   "schedule": "Ежедневно 00:37 UTC: 03:37 летом / 02:37 зимой по Вильнюсу. GitHub Actions может запускаться с задержкой.",
-  "last_run": "2026-11-16T00:56:12+00:00",
+  "last_run": "2026-11-17T00:49:51+00:00",
   "status": "partial",
-  "run_url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/43783246498",
-  "summary": "1 новых; 0 изменений цены/статуса/фото; 63 страниц проверено; ошибок 57.",
+  "run_url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/43990744969",
+  "summary": "2 новых; 0 изменений цены/статуса/фото; 62 страниц проверено; ошибок 58.",
   "scope": "LandCentury: новые страницы всех 50 штатов и ротация старых записей. LandSearch и старые MLS — отдельная исследовательская проверка, не автоматический live-статус.",
   "events": [
     {
@@ -680,6 +680,15 @@
       "added": 1,
       "changed": 0,
       "errors": 57
+    },
+    {
+      "date": "2026-11-17T00:49:51+00:00",
+      "status": "partial",
+      "scanned_pages": 114,
+      "read_details": 62,
+      "added": 2,
+      "changed": 0,
+      "errors": 58
     }
   ],
   "source_errors": [
@@ -766,7 +775,7 @@
   ],
   "rejected": [
     {
-      "url": "https://www.landcentury.com/land-for-sale/georgia/d745evp456rogress6af9a33e4492c6af9a33e4492e",
+      "url": "https://www.landcentury.com/land-for-sale/georgia/0-66-acres-for-sale-in-sparta-georgia-27149",
       "reason": "vehicle_access_problem",
       "price": 6000.0,
       "state": "GA"
@@ -776,6 +785,12 @@
       "reason": "coordinates_outside_us",
       "price": 4500.0,
       "state": "CA"
+    },
+    {
+      "url": "https://www.landcentury.com/land-for-sale/florida/0-48-acres-for-sale-in-defuniak-springs-florida-27067",
+      "reason": "known_fees_exceed_budget",
+      "price": 14900.0,
+      "state": "FL"
     },
     {
       "url": "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-concho-arizona-27035",
@@ -926,12 +941,6 @@
       "reason": "availability_not_confirmed_by_source",
       "price": 4330.0,
       "state": "UT"
-    },
-    {
-      "url": "https://www.landcentury.com/houses-and-buildings/illinois/2500-sq-ft-for-sale-in-riverdale-illinois-20138",
-      "reason": "lot_too_small_for_screening",
-      "price": 9500.0,
-      "state": "IL"
     },
     {
       "url": "https://www.landcentury.com/land-for-sale/pennsylvania/034-acres-for-sale-in-east-pittsburgh-pennsylvania-18685",
@@ -1112,17 +1121,11 @@
       "reason": "availability_not_confirmed_by_source",
       "price": 8900.0,
       "state": "GA"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/north-carolina/097-acres-for-sale-in-murphy-nc-12479",
-      "reason": "availability_not_confirmed_by_source",
-      "price": 10000.0,
-      "state": "NC"
     }
   ],
   "photo_preservation": {
-    "saved": 4,
-    "cached": 1078,
-    "missing": 1
+    "cached": 1081,
+    "missing": 1,
+    "saved": 4
   }
 }

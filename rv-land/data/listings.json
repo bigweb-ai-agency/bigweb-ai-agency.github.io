@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-16T03:20:40+00:00",
+  "updated_at": "2026-11-17T00:49:51+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -15417,8 +15417,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-17T01:12:24Z",
-      "last_verified": "2026-10-17T01:12:24Z",
+      "last_seen": "2026-11-17T00:54:54Z",
+      "last_verified": "2026-11-17T00:54:54Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -15445,7 +15445,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-09-18T14:23:57.000000Z",
+      "source_updated": "2026-11-07T06:15:53.000000Z",
       "source_published": "2026-09-02T13:59:30.000000Z",
       "image_url": "assets/listings/0e25a2493b62c6f06582.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/florida/013-acres-for-sale-in-defuniak-springs-florida-26118",
@@ -15471,7 +15471,7 @@
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
-        "В источнике есть указание на затопление: проверить FEMA и отметку площадки.",
+        "Источник упоминает flood zone/flood risk; контекст и фактический риск требуют проверки FEMA и отметки площадки.",
         "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
       ],
       "evidence_quote": "Under the Rural Low Density zoning, allowed uses include: A detached single-family home A detached short-term vacation rental, well placed for the",
@@ -15533,7 +15533,7 @@
       },
       "score": 34,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/11/6aa412d14428a-1789137617.jpg",
-      "photo_preserved_at": "2026-10-17T01:06:42+00:00",
+      "photo_preserved_at": "2026-11-17T00:49:51+00:00",
       "photo_history": [
         {
           "path": "assets/listings/0e25a2493b62c6f06582.jpg",
@@ -15558,8 +15558,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-17T01:12:26Z",
-      "last_verified": "2026-10-17T01:12:26Z",
+      "last_seen": "2026-11-17T00:54:55Z",
+      "last_verified": "2026-11-17T00:54:55Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -15586,7 +15586,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-09-14T14:47:13.000000Z",
+      "source_updated": "2026-11-07T06:19:47.000000Z",
       "source_published": "2026-09-02T12:28:41.000000Z",
       "image_url": "assets/listings/b0e31b10dbbd1132ef81.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/florida/011-acres-for-sale-in-defuniak-springs-florida-26112",
@@ -15613,7 +15613,7 @@
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
-        "В источнике есть указание на затопление: проверить FEMA и отметку площадки.",
+        "Источник упоминает flood zone/flood risk; контекст и фактический риск требуют проверки FEMA и отметки площадки.",
         "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
       ],
       "evidence_quote": "Under the Rural Low Density zoning, allowed uses include: A detached single-family home A detached short-term vacation rental, well placed for the",
@@ -15675,7 +15675,7 @@
       },
       "score": 34,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/11/6aa416be739b1-1789138622.jpg",
-      "photo_preserved_at": "2026-10-17T01:06:42+00:00",
+      "photo_preserved_at": "2026-11-17T00:49:51+00:00",
       "photo_history": [
         {
           "path": "assets/listings/b0e31b10dbbd1132ef81.jpg",
@@ -141675,6 +141675,265 @@
         "Дорога /10": 5
       },
       "score": 22
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-17T00:49:51+00:00",
+      "last_seen": "2026-11-17T00:52:18Z",
+      "last_verified": "2026-11-17T00:52:18Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27157",
+      "source_id": "27157",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/nevada/1-03-acres-for-sale-in-spring-creek-nevada-27157",
+      "title": "Boyd Kennedy Road",
+      "address": "Boyd Kennedy Road",
+      "city": "Spring Creek",
+      "state": "NV",
+      "county": "Elko",
+      "zip": "89815",
+      "kind": "land",
+      "price": 6199.0,
+      "known_fees": 0.0,
+      "total_known": 6199.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 1.03,
+      "lat": 40.84198,
+      "lng": -115.630404,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-16T21:03:07.000000Z",
+      "source_published": "2026-11-16T20:59:02.000000Z",
+      "image_url": "assets/listings/701643ee1de7378ae393.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/nevada/1-03-acres-for-sale-in-spring-creek-nevada-27157",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "031-020-002",
+      "zoning": "Recreational",
+      "road_note": "Dirt Road",
+      "utility_note": "Contact the county",
+      "taxes_note": "10",
+      "source_categories": [
+        "residential-buildable-land",
+        "owner-finance-deals",
+        "recreational-and-hunting-land",
+        "vacant-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "available",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "flags": [
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
+      "evidence_quote": null,
+      "price_history": [
+        {
+          "date": "2026-11-17T00:49:51+00:00",
+          "price": 6199.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/nevada/1-03-acres-for-sale-in-spring-creek-nevada-27157"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/16/6afb6f62081ba-1794862946.jpg",
+      "photo_preserved_at": "2026-11-17T00:49:51+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/701643ee1de7378ae393.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/nevada/1-03-acres-for-sale-in-spring-creek-nevada-27157",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/16/6afb6f62081ba-1794862946.jpg",
+          "date": "2026-11-17T00:49:51+00:00"
+        }
+      ],
+      "region": "Юго-запад",
+      "screening_issue": null,
+      "climate_note": "Много удалённых лотов. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "SLC",
+          "name": "Salt Lake City International Airport",
+          "straight_km": 307,
+          "drive_km_estimate": 384,
+          "drive_hours_estimate": 5.1,
+          "flight_min_eur": 741,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 531,
+          "drive_km_estimate": 663,
+          "drive_hours_estimate": 8.8,
+          "flight_min_eur": 580,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "SFO",
+          "name": "San Francisco International Airport",
+          "straight_km": 682,
+          "drive_km_estimate": 853,
+          "drive_hours_estimate": 11.4,
+          "flight_min_eur": 524,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1874,
+      "score_parts": {
+        "Цена /25": 20,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 1,
+        "Сезон /10": 5,
+        "Дорога /10": 5
+      },
+      "score": 31
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-17T00:49:51+00:00",
+      "last_seen": "2026-11-17T00:52:21Z",
+      "last_verified": "2026-11-17T00:52:21Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "restriction_risk",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27100",
+      "source_id": "27100",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/arizona/1-96-acres-for-sale-in-kingman-arizona-27100",
+      "title": "1.96 Acres for Sale in Kingman, Arizona",
+      "address": "",
+      "city": "Kingman",
+      "state": "AZ",
+      "county": "Mohave",
+      "zip": "86413",
+      "kind": "land",
+      "price": 3499.0,
+      "known_fees": 249.0,
+      "total_known": 3748.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 1.96,
+      "lat": 35.040361,
+      "lng": -114.22875,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-16T16:12:13.000000Z",
+      "source_published": "2026-11-11T17:51:38.000000Z",
+      "image_url": "assets/listings/5beda03779d832fbbb3e.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/1-96-acres-for-sale-in-kingman-arizona-27100",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "209-07-044",
+      "zoning": "Agricultural-Residential",
+      "road_note": "Dirt Road",
+      "utility_note": "No utilities",
+      "taxes_note": "26",
+      "source_categories": [
+        "residential-buildable-land",
+        "agricultural-and-farm-land",
+        "owner-finance-deals",
+        "recreational-and-hunting-land",
+        "mobile-home-and-rv-land",
+        "vacant-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "none",
+      "water": "none",
+      "sewer": "unknown",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "flags": [
+        "Источник упоминает flood zone/flood risk; контекст и фактический риск требуют проверки FEMA и отметки площадки.",
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Mohave IPMC 302.8 ограничивает неходовые машины и крупную разборку; проверить zoning-исключения и точную юрисдикцию."
+      ],
+      "evidence_quote": "If you've got a capable 4x4 rig, a rooftop tent, or a truck camper and you're tired of paying for crowded campgrounds,",
+      "price_history": [
+        {
+          "date": "2026-11-17T00:49:51+00:00",
+          "price": 3499.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-96-acres-for-sale-in-kingman-arizona-27100"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/11/6af4abab41239-1794419627.jpg",
+      "photo_preserved_at": "2026-11-17T00:49:51+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/5beda03779d832fbbb3e.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-96-acres-for-sale-in-kingman-arizona-27100",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/11/6af4abab41239-1794419627.jpg",
+          "date": "2026-11-17T00:49:51+00:00"
+        }
+      ],
+      "legal_source": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
+      "region": "Юго-запад",
+      "screening_issue": null,
+      "climate_note": "Много дешёвой земли. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 143,
+          "drive_km_estimate": 179,
+          "drive_hours_estimate": 2.4,
+          "flight_min_eur": 580,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "PHX",
+          "name": "Phoenix Sky Harbor International Airport",
+          "straight_km": 271,
+          "drive_km_estimate": 339,
+          "drive_hours_estimate": 4.5,
+          "flight_min_eur": 753,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "SAN",
+          "name": "San Diego International Airport",
+          "straight_km": 375,
+          "drive_km_estimate": 469,
+          "drive_hours_estimate": 6.2,
+          "flight_min_eur": null,
+          "flight_origin": null,
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 2089,
+      "score_parts": {
+        "Цена /25": 24,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 6,
+        "Дорога /10": 8
+      },
+      "score": 38
     }
   ]
 }
