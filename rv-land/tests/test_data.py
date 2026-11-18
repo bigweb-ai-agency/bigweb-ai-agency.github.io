@@ -34,6 +34,19 @@ class ResearchDataTests(unittest.TestCase):
             with self.subTest(description=description):
                 self.assertEqual(b.flags_from_text(description)['electricity'],expected)
 
+    def test_grouped_utility_uncertainty_preserves_separate_power_evidence(self):
+        for group in ('Water and sewer', 'Water & sewer', 'Sewer/water'):
+            with self.subTest(group=group):
+                flags=b.flags_from_text('Electricity is available for connection. '+group+
+                                       ' availability still need to be confirmed.')
+                self.assertEqual(flags['electricity'],'available')
+                self.assertEqual(flags['water'],'unknown')
+                self.assertEqual(flags['sewer'],'unknown')
+        flags=b.flags_from_text('Water available at street. Power and sewer availability has not been confirmed.')
+        self.assertEqual(flags['water'],'available')
+        self.assertEqual(flags['electricity'],'unknown')
+        self.assertEqual(flags['sewer'],'unknown')
+
     def test_auction_start_is_not_cash_purchase_with_or_without_structured_flag(self):
         base={'id':25642,'cashPrice':500000,'processingFee':0,'stateRegion':'Illinois',
               'type':'land','isPublished':True,'_source_url':'https://www.landcentury.com/example',

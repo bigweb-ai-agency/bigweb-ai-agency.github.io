@@ -147,9 +147,12 @@ def flags_from_text(description,kind='land',road=None,utilities=None):
             if re.search(pat,clause):result[tag]='unknown'
     # A request to verify whether a connection is possible is not an installed
     # connection. Explicit uncertainty must override nearby positive keywords.
+    utility_group=r'(?:electricity|power|water|sewer|septic)'
     for tag,pat in [('electricity',r'(?:electricity|power)'),('water',r'water'),('sewer',r'(?:sewer|septic)')]:
-        uncertain=(rf'\b{pat}\s+availability\s+(?:still\s+)?needs?\s+to\s+be\s+confirmed\b'
-                   rf'|\b{pat}\s+availability\s+has\s+not\s+been\s+confirmed\b'
+        subject=(rf'\b(?:{utility_group}\s*(?:and|&|/)\s*)*{pat}'
+                 rf'(?:\s*(?:and|&|/)\s*{utility_group})*')
+        uncertain=(rf'{subject}\s+availability\s+(?:still\s+)?needs?\s+to\s+be\s+confirmed\b'
+                   rf'|{subject}\s+availability\s+has\s+not\s+been\s+confirmed\b'
                    rf'|\b(?:verify|confirm|check)\s+whether\s+{pat}\s+can\s+be\s+connected\b')
         if re.search(uncertain,t+' '+compact(utilities).lower()):result[tag]='unknown'
     # Nearby surface water can be mentioned as scenery or runoff. An explicit

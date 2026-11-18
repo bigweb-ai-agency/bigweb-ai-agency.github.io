@@ -6466,7 +6466,177 @@
       "rotation_reason": "Continue below10 photo candidates; next consider AK,MD,CT. Automatic catalog plan covers all50 with source failures retained. Favor usable existing workshops over recreational subdivisions.",
       "preservation": "All1086 IDs,first_seen,parcels,points,asking prices,statuses,price/status/photo histories and old asset bytes retained. Only NV known closing fee/total corrected with cost_corrections; AZ review_hold added. Monitor,flights and Sicily unchanged; journal append-only.",
       "validation": "35 focused data tests passed, including new closing-fee regression. Data validator and preservation checks required before scoped publication; exact-head Pages and live map/photos verified after publish."
+    },
+    {
+      "date": "2026-11-18T03:19:58+00:00",
+      "states": [
+        "DE",
+        "RI",
+        "VT"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [],
+      "updated_ids": [
+        "lc-27180",
+        "lc-27178",
+        "lc-27172",
+        "lc-27171",
+        "lc-27170",
+        "lc-27162",
+        "lc-27161",
+        "lc-27159",
+        "lc-26851",
+        "lc-24853",
+        "lc-26554"
+      ],
+      "automatic_added_ids": [
+        "lc-27180",
+        "lc-27178",
+        "lc-27172",
+        "lc-27171",
+        "lc-27170",
+        "lc-27162",
+        "lc-27161",
+        "lc-27159",
+        "lc-26851"
+      ],
+      "automatic_updated_ids": [
+        "lc-24853",
+        "lc-26554"
+      ],
+      "workflow": {
+        "run_id": 44211077569,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/44211077569",
+        "conclusion": "success",
+        "created_at": "2026-11-18T00:50:20Z",
+        "data_commit": "a3585202d10d78710775fc68c7b5dc89bf52e786"
+      },
+      "monitor": {
+        "date": "2026-11-18T00:50:36+00:00",
+        "status": "partial",
+        "scanned_pages": 114,
+        "read_details": 62,
+        "added": 9,
+        "changed": 2,
+        "errors": 58
+      },
+      "source_errors": "Discovery44211077569 and Pages44211878835 succeeded; duplicate Pages44211876465 cancelled. Monitor partial:114 catalogs/62 details/9 new/2 changed/58 errors. All20 retained error samples404; remaining38 uncharacterized. Automatic collection available, no fallback needed. Homes Delaware under15k tool open error is not listing-status evidence.",
+      "findings": [
+        {
+          "id": "lc-27180",
+          "finding": "CA MorongoValley5ac cash14997. Additional mandatory doc-preparation fee unquantified, only$3 budget margin: HOLD pending total. Corrected water available to unknown from explicit grouped water/sewer uncertainty; narrow parser regression added. Original aerial outline inspected, not survey; no workshop."
+        },
+        {
+          "id": "lc-27178",
+          "finding": "AZ Adamana1.16ac cash4999; no utilities/improvements. Original grassland photo inspected. No repair permission or ready RV pad."
+        },
+        {
+          "id": "lc-27172",
+          "finding": "AZ Concho APN107-33-255 cash6250+249closing=6499. Body and structured acreage1.01; URL1.06 not treated as survey. Original ATV/grassland photo inspected; access for tall RV unknown."
+        },
+        {
+          "id": "lc-27171",
+          "finding": "AZ Concho1ac cash6499+249=6748. Original photo explicitly NearbyAttraction/PetrifiedForestNationalPark, now labelled as not parcel photo. Seller RV/camping claims do not authorize repair."
+        },
+        {
+          "id": "lc-27170",
+          "finding": "FL Interlachen.23ac cash8250+249=8499; wooded/sloped residential lot. Original photo is MikeRoessGoldHeadBranchStatePark attraction, labelled accurately."
+        },
+        {
+          "id": "lc-27162",
+          "finding": "AZ Yucca2.35ac cash5900;250reservation in financing terms only, cash applicability unknown. DirtAripineRoad, no water/power connected; original StreetView dirt-road photo inspected. Garage absent; Mohave repair cautions retained."
+        },
+        {
+          "id": "lc-27161",
+          "finding": "FL Interlachen.21ac cash8600;249docfee in financing block conservatively retained,total8849 pending cash applicability. Photo is CaravelleRanchWildlifeManagementArea attraction, not parcel. No workshop."
+        },
+        {
+          "id": "lc-27159",
+          "finding": "FL SunnyHills.23ac cash7500+299inhouse=7799; seller site-built deed restrictions and long-term RV/camping prohibition, temporary construction exception. HOLD pending independent rules and standalone RV use. Original intersection photo inspected; unknown storage/repair not converted to legal prohibition."
+        },
+        {
+          "id": "lc-26851",
+          "finding": "CO Blanca5.03ac cash6500+249=6749. Old photo banner175/month differs from current financing169x60; both separate from cash. RoadX recommended, rough high-clearance approach, power2mi. Source camping claims not repair permission."
+        },
+        {
+          "id": "lc-24853",
+          "finding": "GA Sparta.52ac current cash20000 confirmed, prior14500 history retained;399inhouse closing now included,total20399,outside budget. Source active unchanged."
+        },
+        {
+          "id": "lc-26554",
+          "finding": "AZ Eloy.29ac fixed cash9900+100doc=10000 restored; live isAuctionfalse/noauctionLink. Prior500auction_start history retained, not misreported as cash increase. Photo caveat and unknownrepair remain."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.landsearch.com/properties/delaware/search/under-15000",
+          "finding": "DE indexed catalog14 entries mostly/monthly rents, not full purchase offers. No import from under15000 filter alone."
+        },
+        {
+          "url": "https://www.zillow.com/de/land/",
+          "finding": "DE search snapshot cheapest visible0DundeeRdDover23000; outside budget. No whole-state absence claim."
+        },
+        {
+          "url": "https://www.loopnet.com/Listing/104-Pine-Tree-Rd-Townsend-DE/23982081/",
+          "finding": "DE existing commercial site7.34ac:15000 refers to potential storage square feet, not proven asking cash. Reject."
+        },
+        {
+          "url": "https://www.compass.com/homedetails/26770-Deep-Branch-Rd-Milton-DE-19968/1LXG98_pid/",
+          "finding": "DE15000 is concrete workshop-pad credit, not full property price. Reject."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/20773-atlanta-rd-seaford-de-19973/5048238",
+          "finding": "DE detached garage/farmhouse current385000;10000 is price drop. Outside budget."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/rhode-island/search/under-15000",
+          "finding": "RI opened indexed catalog8 entries all monthly leases2300-14500/mo; none a full purchase offer. Crawl lastweek, not live inventory guarantee."
+        },
+        {
+          "url": "https://www.homes.com/rhode-island/land-for-sale/under-20k/",
+          "finding": "RI opened indexed catalog says no matching properties; crawl3weeks. Existing soldri1419851 preserved; no stale relisting inferred."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/22-burgess-rd-foster-ri-02825/5437873",
+          "finding": "RI garage/horse-property search hit15000 is generator wattage, not cash price. No qualifying full-price offer established."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/vermont/search/under-15000",
+          "finding": "VT opened catalog3 entries all monthly leases3200/4750/7000. Existing pendingWalkerPit/TwoBrook records not overwritten from absent/older snapshots."
+        },
+        {
+          "url": "https://winhallrealestate.com/stratton_land/",
+          "finding": "VT catalog explicitly mixes Land and Rentals. TwinBrook15000 and other seasonal-looking prices not imported as ownership offers."
+        },
+        {
+          "url": "https://www.redfin.com/VT/Springfield/700-Spencer-Hollow-Rd-05156/home/91308053",
+          "finding": "VT workshop/garage search lead OFFMARKET;177500 saleJan19,2024.15000 is historicalSep30,2009 sale, not current purchase. Fresh indexed find confirmed history; no import."
+        },
+        {
+          "url": "https://www.zillow.com/homedetails/113-Waterford-Ln-North-Springfield-VT-05150/2077904412_zpid/",
+          "finding": "VT12500 shown as sold in indexed snapshot, not new active land."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/572-roberts-rd-weathersfield-town-vt-05156/5442140",
+          "finding": "VT workshop/1.9ac home264900;15000 is price reduction. Outside budget."
+        }
+      ],
+      "official_rules": [],
+      "access": "Bounded public searches and cached permitted LandCentury detail reads; nine original saved images visually inspected. No bypass, seller contact, bookings or infrastructure changes. No materially stronger workshop candidate warranted new parcel-level ordinance review; seller restrictions kept distinct from legal approval.",
+      "flight_review": {
+        "last_review": "2026-11-16",
+        "next_review": "2026-11-23",
+        "finding": "Weekly refresh not due; flights.json unchanged."
+      },
+      "next_states": [
+        "AK",
+        "MD",
+        "CT"
+      ],
+      "rotation_reason": "Continue below10 photo-candidate states while automatic plan samples all50; next consider NH,NJ,MA. No fabricated quota fills.",
+      "preservation": "All1095 retained IDs,first_seen,parcels,points,source prices,bases,statuses,price/status/photo histories and asset bytes preserved relative to nightly a358520. Eleven evidence annotations, two holds, one utility correction, GA closing-cost correction. Monitor,flights,Sicily unchanged; journal append-only.",
+      "validation": "36 focused tests and validator passed;1095 retained/1094 photos/50states/38states with10+. Scoped diff/preservation checks before publish; exact-head Pages/public bytes/map/photos checked after publish."
     }
   ],
-  "updated_at": "2026-11-17T03:17:25+00:00"
+  "updated_at": "2026-11-18T03:19:58+00:00"
 }

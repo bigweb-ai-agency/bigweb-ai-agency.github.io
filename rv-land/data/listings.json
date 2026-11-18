@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-18T00:50:36+00:00",
+  "updated_at": "2026-11-18T03:18:56+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -15829,12 +15829,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-11-18T00:56:08Z",
-      "last_verified": "2026-11-18T00:56:08Z",
+      "last_seen": "2026-11-18T03:13:02Z",
+      "last_verified": "2026-11-18T03:13:02Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "18.11.2026: 269 Gardenia Road/APN 013B 070: текущая cash price $20,000 подтверждена в публичной карточке, против прежних $14,500; история сохранена. In-house closing $399 даёт известный минимум $20,399. Объект вне бюджета, статус active сохранён; обещание одного RV не разрешение ремонта."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-24853",
       "source_id": "24853",
@@ -15848,8 +15850,8 @@
       "zip": "31087",
       "kind": "land",
       "price": 20000.0,
-      "known_fees": 0.0,
-      "total_known": 20000.0,
+      "known_fees": 399,
+      "total_known": 20399,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 0.52,
       "lat": 33.1974762,
@@ -15872,7 +15874,7 @@
         "mobile-home-and-rv-land",
         "waterfront-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_claim",
       "existing_garage": false,
@@ -15968,9 +15970,26 @@
             "sewer": "available"
           },
           "finding": "Stored utility note explicitly requires installation: Electricity available, septic and well required. Corrected only the named required utilities to unknown. No new source observation; original verification dates, price, availability and images preserved."
+        },
+        {
+          "date": "2026-11-18T03:18:56+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/georgia/052-acres-for-sale-in-sparta-georgia-24853",
+          "finding": "Fresh public parcel, coordinates and cash offer checked. No existing workshop or parcel-specific storage/repair approval established."
         }
       ],
-      "previous_price": 14500.0
+      "previous_price": 14500.0,
+      "cost_corrections": [
+        {
+          "date": "2026-11-18T03:18:56+00:00",
+          "source": "https://www.landcentury.com/land-for-sale/georgia/052-acres-for-sale-in-sparta-georgia-24853",
+          "previous_known_fees": 0,
+          "known_fees": 399,
+          "previous_total_known": 20000,
+          "total_known": 20399,
+          "reason": "Explicit in-house closing option $399; alternative attorney/title closing estimated $1000-$1200."
+        }
+      ]
     },
     {
       "price_currency": "USD",
@@ -104534,13 +104553,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-14T01:08:42+00:00",
-      "last_seen": "2026-11-18T00:53:23Z",
-      "last_verified": "2026-11-18T00:53:23Z",
+      "last_seen": "2026-11-18T03:13:04Z",
+      "last_verified": "2026-11-18T03:13:04Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
       "notes": [
-        "27.10.2026: живая карточка прямо указывает начальную ставку аукциона $500; заголовок Cash price не означает фиксированную покупку. Прежняя запрашиваемая цена $9,900 сохранена в истории. Итоговая цена покупки неизвестна, поэтому объект исключён из основной выборки. Продавец предупреждает, что фото могут не показывать именно продаваемый участок."
+        "27.10.2026: живая карточка прямо указывает начальную ставку аукциона $500; заголовок Cash price не означает фиксированную покупку. Прежняя запрашиваемая цена $9,900 сохранена в истории. Итоговая цена покупки неизвестна, поэтому объект исключён из основной выборки. Продавец предупреждает, что фото могут не показывать именно продаваемый участок.",
+        "18.11.2026: 4725 N Arlington Rd/APN 403-18-3350: живая карточка снова фиксированная Cash Discount Price $9,900, isAuction=false, auctionLink=null; $100 document fee даёт $10,000. Прежняя начальная ставка $500 от 27.10 сохранена в истории как auction_start, не выдана за рост cash price. $495 down/$183.87 x72 — отдельное финансирование. Продавец предупреждает, что фото могут не показывать именно parcel; no utilities established, storage/repair unknown."
       ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26554",
@@ -104578,7 +104598,7 @@
         "residential-buildable-land",
         "owner-finance-deals"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -104673,7 +104693,15 @@
         "https://www.landcentury.com/land-for-sale/arizona/0-29-acres-for-sale-in-eloy-arizona-27163",
         "https://www.landcentury.com/land-for-sale/arizona/029-acres-for-sale-in-eloy-arizona-26554"
       ],
-      "source_crawled": "Live public Chrome page inspected 2026-10-27"
+      "source_crawled": "Live public Chrome page inspected 2026-10-27",
+      "verification_history": [
+        {
+          "date": "2026-11-18T03:18:56+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/0-29-acres-for-sale-in-eloy-arizona-27163",
+          "finding": "Fresh public parcel, coordinates and cash offer checked. No existing workshop or parcel-specific storage/repair approval established."
+        }
+      ]
     },
     {
       "price_currency": "USD",
@@ -142003,12 +142031,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-18T00:50:36+00:00",
-      "last_seen": "2026-11-18T00:53:15Z",
-      "last_verified": "2026-11-18T00:53:15Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-18T03:12:52Z",
+      "last_verified": "2026-11-18T03:12:52Z",
+      "photo_kind": "Исходное изображение из объявления: вид сверху с красной разметкой 5 acres и рекламным баннером; схема продавца, не кадастровый survey.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "18.11.2026: APN 0581-131-09-0000, 5 ac, cash $14,997. В описании есть обязательный document preparation fee без суммы; known_fees=0 означает отсутствие известной суммы, а не бесплатное оформление. HOLD до полного расчёта. Исправлено water=available на unknown: прямо сказано Water and sewer availability still need to be confirmed. Zone D — неопределённый flood risk по продавцу. Rural Living/no HOA и RV с permits не разрешают автоматически ремонт."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27180",
       "source_id": "27180",
@@ -142039,7 +142069,7 @@
       "parcel": "0581-131-09-0000",
       "zoning": "Residential",
       "road_note": "Dirt Road",
-      "utility_note": "We recommend that you contact San Bernardino County to confirm, but according to our research, electricity is available for connection to the property. A well and septic system would need to be installed",
+      "utility_note": "По продавцу electricity available for connection; вода и sewer не подтверждены, well и septic нужно устанавливать. Подключения и их стоимость не установлены.",
       "taxes_note": "340.34",
       "source_categories": [
         "residential-buildable-land",
@@ -142047,13 +142077,13 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
       "garage_size": null,
       "electricity": "available",
-      "water": "available",
+      "water": "unknown",
       "sewer": "unknown",
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
@@ -142082,7 +142112,7 @@
         }
       ],
       "region": "Тихоокеанский",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Недорогие предложения сосредоточены в пустыне и глубине штата. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -142121,22 +142151,42 @@
         "Цена /25": 5,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 2,
+        "Коммуникации /10": 1,
         "Сезон /10": 6,
         "Дорога /10": 7
       },
-      "score": 20
+      "score": 19,
+      "verification_history": [
+        {
+          "date": "2026-11-18T03:18:56+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/california/5-acres-for-sale-in-morongo-valley-california-27180",
+          "finding": "Fresh public parcel, coordinates and cash offer checked. No existing workshop or parcel-specific storage/repair approval established."
+        }
+      ],
+      "review_hold": {
+        "date": "2026-11-18T03:18:56+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/california/5-acres-for-sale-in-morongo-valley-california-27180",
+        "reason": "Cash $14,997 оставляет только $3 до потолка; продавец отдельно требует document preparation fee, но сумму не раскрывает. Полный бюджет покупки не подтверждён.",
+        "release_condition": "Подтвердить письменный полный cash closing total не более $15,000, доступ RV и допустимость отдельного хранения/личного ремонта."
+      },
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/california/5-acres-for-sale-in-morongo-valley-california-27180"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-18T00:50:36+00:00",
-      "last_seen": "2026-11-18T00:53:17Z",
-      "last_verified": "2026-11-18T00:53:17Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-18T03:12:53Z",
+      "last_verified": "2026-11-18T03:12:53Z",
+      "photo_kind": "Исходное изображение из объявления: сухая травянистая равнина; без доказанных границ или готового RV-въезда.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "18.11.2026: Adamana APN 211-34-163, cash $4,999; $249 down + $249 x 22 — рассрочка. По продавцу no improvements, off-grid, dirt road, well/haul water, no HOA. Готовой мастерской, подключения и разрешения ремонта нет в доказательствах."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27178",
       "source_id": "27178",
@@ -142174,7 +142224,7 @@
         "agricultural-and-farm-land",
         "owner-finance-deals"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -142251,18 +142301,32 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 34
+      "score": 34,
+      "verification_history": [
+        {
+          "date": "2026-11-18T03:18:56+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-16-acres-for-sale-in-adamana-arizona-27178",
+          "finding": "Fresh public parcel, coordinates and cash offer checked. No existing workshop or parcel-specific storage/repair approval established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/1-16-acres-for-sale-in-adamana-arizona-27178"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-18T00:50:36+00:00",
-      "last_seen": "2026-11-18T00:53:18Z",
-      "last_verified": "2026-11-18T00:53:18Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-18T03:12:54Z",
+      "last_verified": "2026-11-18T03:12:54Z",
+      "photo_kind": "Исходное изображение из объявления: человек на квадроцикле на травянистом рельефе; не доказательство границ или въезда высокого кемпервана.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "18.11.2026: APN 107-33-255: cash $6,250 + Closing Fee $249 = $6,499. В тексте и структурных данных 1.01 ac, несмотря на 1.06 в URL; площадь 1.01 сохранена, survey не проверен. N3512 указан как подъезд; пригодность для 7-метрового RV неизвестна. Существующего здания не заявлено."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27172",
       "source_id": "27172",
@@ -142300,7 +142364,7 @@
         "owner-finance-deals",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -142377,18 +142441,32 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 31
+      "score": 31,
+      "verification_history": [
+        {
+          "date": "2026-11-18T03:18:56+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-06-acres-for-sale-in-concho-arizona-27172",
+          "finding": "Fresh public parcel, coordinates and cash offer checked. No existing workshop or parcel-specific storage/repair approval established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/1-06-acres-for-sale-in-concho-arizona-27172"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-18T00:50:36+00:00",
-      "last_seen": "2026-11-18T00:53:20Z",
-      "last_verified": "2026-11-18T00:53:20Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-18T03:12:56Z",
+      "last_verified": "2026-11-18T03:12:56Z",
+      "photo_kind": "Исходное изображение из объявления: подписанная достопримечательность Petrified Forest National Park; это НЕ фотография продаваемого участка.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "18.11.2026: APN 107-31-203, cash $6,499 + $249 closing fee = $6,748. Сохранённая картинка показывает Nearby Attraction, не участок. County-maintained dirt road, RV use, tiny homes — заявления продавца; разрешение ремонта и реальный проезд не подтверждены. Well/cistern и septic — будущие работы."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27171",
       "source_id": "27171",
@@ -142429,7 +142507,7 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -142504,18 +142582,32 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 31
+      "score": 31,
+      "verification_history": [
+        {
+          "date": "2026-11-18T03:18:56+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-acres-for-sale-in-concho-arizona-27171",
+          "finding": "Fresh public parcel, coordinates and cash offer checked. No existing workshop or parcel-specific storage/repair approval established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/1-acres-for-sale-in-concho-arizona-27171"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-18T00:50:36+00:00",
-      "last_seen": "2026-11-18T00:53:21Z",
-      "last_verified": "2026-11-18T00:53:21Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-18T03:12:57Z",
+      "last_verified": "2026-11-18T03:12:57Z",
+      "photo_kind": "Исходное изображение из объявления: подписанная достопримечательность Mike Roess Gold Head Branch State Park; это НЕ фотография продаваемого участка.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "18.11.2026: 325 Nova Scotia St, APN 19-10-24-4074-0700-0040: cash $8,250 + $249 documentation fee = $8,499. Изображение из карточки относится к соседней достопримечательности. Wooded/sloped Single-Family Residential lot: расчистка, въезд, отдельное хранение RV и ремонт не подтверждены."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27170",
       "source_id": "27170",
@@ -142556,7 +142648,7 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -142633,18 +142725,32 @@
         "Сезон /10": 7,
         "Дорога /10": 8
       },
-      "score": 31
+      "score": 31,
+      "verification_history": [
+        {
+          "date": "2026-11-18T03:18:56+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/florida/0-23-acres-for-sale-in-interlachen-florida-27170",
+          "finding": "Fresh public parcel, coordinates and cash offer checked. No existing workshop or parcel-specific storage/repair approval established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/florida/0-23-acres-for-sale-in-interlachen-florida-27170"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-18T00:50:36+00:00",
-      "last_seen": "2026-11-18T00:53:24Z",
-      "last_verified": "2026-11-18T00:53:24Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-18T03:12:58Z",
+      "last_verified": "2026-11-18T03:12:58Z",
+      "photo_kind": "Исходное изображение из объявления: Street View грунтовой дороги среди пустынного кустарника; состояние въезда и границы parcel этим не подтверждаются.",
       "personal_repair": "restriction_risk",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "18.11.2026: Yucca APN 208-21-089, 2.35 ac, cash $5,900. $250 reservation fee указан внутри owner-financing условий; применение к cash не подтверждено и в cash total не добавлено. Вода и электричество не подключены, nearby power не подключение. County dirt road Aripine и ровный рельеф — заявления продавца. Правила Mohave о ремонте остаются отдельным вопросом; гаража нет."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27162",
       "source_id": "27162",
@@ -142680,7 +142786,7 @@
       "source_categories": [
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -142758,18 +142864,32 @@
         "Сезон /10": 6,
         "Дорога /10": 7
       },
-      "score": 33
+      "score": 33,
+      "verification_history": [
+        {
+          "date": "2026-11-18T03:18:56+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/2-35-acres-for-sale-in-yucca-arizona-27162",
+          "finding": "Fresh public parcel, coordinates and cash offer checked. No existing workshop or parcel-specific storage/repair approval established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/2-35-acres-for-sale-in-yucca-arizona-27162"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-18T00:50:36+00:00",
-      "last_seen": "2026-11-18T00:53:25Z",
-      "last_verified": "2026-11-18T00:53:25Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-18T03:12:59Z",
+      "last_verified": "2026-11-18T03:12:59Z",
+      "photo_kind": "Исходное изображение из объявления: подписанная достопримечательность Caravelle Ranch Wildlife Management Area; это НЕ фотография продаваемого участка.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "18.11.2026: APN 24-09-24-4075-0410-0090, 0.21 ac: cash $8,600. $249 document fee сохранён в известном минимуме $8,849; он указан в financing block, применение к cash нужно уточнить. На главном фото Nearby Attraction. По продавцу жилое зонирование, electricity nearby, well/cistern и septic требуются. Самостоятельная RV-база и ремонт unknown."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27161",
       "source_id": "27161",
@@ -142809,7 +142929,7 @@
         "recreational-and-hunting-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -142887,18 +143007,32 @@
         "Сезон /10": 7,
         "Дорога /10": 8
       },
-      "score": 31
+      "score": 31,
+      "verification_history": [
+        {
+          "date": "2026-11-18T03:18:56+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/florida/0-21-acres-for-sale-in-interlachen-florida-27161",
+          "finding": "Fresh public parcel, coordinates and cash offer checked. No existing workshop or parcel-specific storage/repair approval established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/florida/0-21-acres-for-sale-in-interlachen-florida-27161"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-18T00:50:36+00:00",
-      "last_seen": "2026-11-18T00:53:27Z",
-      "last_verified": "2026-11-18T00:53:27Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-18T03:13:00Z",
+      "last_verified": "2026-11-18T03:13:00Z",
+      "photo_kind": "Исходное изображение из объявления: перекрёсток дорог с линиями электропередачи; точные границы и подключение участка не подтверждены.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "18.11.2026: Sunny Hills Unit 13/APN 00000000-13-1128-0007: cash $7,500 + in-house closing $299 = $7,799; альтернативный title closing оценён продавцом в $800–$1,200. Deed restrictions требуют site-built home; seller запрещает долгосрочное RV living/camping, допуская временное проживание при стройке. No active HOA не отменяет deed restrictions. Это seller claim, не самостоятельно проверенное правило; storage/repair unknown. Impact fee $1,153.57 относится к будущему жилому строительству, не цене покупки."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27159",
       "source_id": "27159",
@@ -142935,7 +143069,7 @@
         "residential-buildable-land",
         "owner-finance-deals"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
@@ -142969,7 +143103,7 @@
         }
       ],
       "region": "Юг",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Дешёвый перелёт и мягкая зима. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -143012,18 +143146,38 @@
         "Сезон /10": 7,
         "Дорога /10": 4
       },
-      "score": 28
+      "score": 20,
+      "verification_history": [
+        {
+          "date": "2026-11-18T03:18:56+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/florida/d745evp456rogress6afc56c6483b86afc56c6483b9",
+          "finding": "Fresh public parcel, coordinates and cash offer checked. No existing workshop or parcel-specific storage/repair approval established."
+        }
+      ],
+      "review_hold": {
+        "date": "2026-11-18T03:18:56+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/florida/d745evp456rogress6afc56c6483b86afc56c6483b9",
+        "reason": "Продавец указывает ограничения Sunny Hills/Deltona и site-built home; отдельная RV-база без дома не подтверждена.",
+        "release_condition": "Проверить действующие deed restrictions и county land-use rules для отдельного хранения и личного ремонта RV; подтвердить доступную площадку."
+      },
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/florida/d745evp456rogress6afc56c6483b86afc56c6483b9"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-18T00:50:36+00:00",
-      "last_seen": "2026-11-18T00:53:36Z",
-      "last_verified": "2026-11-18T00:53:36Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-18T03:13:01Z",
+      "last_verified": "2026-11-18T03:13:01Z",
+      "photo_kind": "Исходное изображение из объявления: открытая земля и горы с рекламой старых $175/month; актуальные денежные условия взяты из текста, не баннера.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "18.11.2026: Blanca APN 70312700, 5.03 ac: live cash $6,500 + $249 doc fee для обеих схем = $6,749. Изображение рекламирует $175/month, текст теперь $169 x 60; ни одно не cash price. По продавцу rough roads, рекомендуется truck/SUV с клиренсом и въезд через Road X; электричество примерно в 2 mi. 14 дней camping/3 месяца и временный RV permit при стройке — seller claims, не разрешение хранения или ремонта. Готовой мастерской нет."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26851",
       "source_id": "26851",
@@ -143063,7 +143217,7 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
@@ -143140,7 +143294,19 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 27
+      "score": 27,
+      "verification_history": [
+        {
+          "date": "2026-11-18T03:18:56+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/503-acres-for-sale-in-blanca-colorado-26851",
+          "finding": "Fresh public parcel, coordinates and cash offer checked. No existing workshop or parcel-specific storage/repair approval established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/503-acres-for-sale-in-blanca-colorado-26851"
+      ]
     }
   ]
 }
