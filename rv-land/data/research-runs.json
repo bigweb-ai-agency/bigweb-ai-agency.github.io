@@ -6636,7 +6636,206 @@
       "rotation_reason": "Continue below10 photo-candidate states while automatic plan samples all50; next consider NH,NJ,MA. No fabricated quota fills.",
       "preservation": "All1095 retained IDs,first_seen,parcels,points,source prices,bases,statuses,price/status/photo histories and asset bytes preserved relative to nightly a358520. Eleven evidence annotations, two holds, one utility correction, GA closing-cost correction. Monitor,flights,Sicily unchanged; journal append-only.",
       "validation": "36 focused tests and validator passed;1095 retained/1094 photos/50states/38states with10+. Scoped diff/preservation checks before publish; exact-head Pages/public bytes/map/photos checked after publish."
+    },
+    {
+      "date": "2026-11-19T03:14:07+00:00",
+      "states": [
+        "AK",
+        "MD",
+        "CT"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [],
+      "updated_ids": [
+        "lc-27198",
+        "lc-27195",
+        "lc-27194",
+        "lc-27193",
+        "lc-27192",
+        "lc-27191",
+        "lc-27190",
+        "lc-27187",
+        "lc-27186",
+        "lc-27185",
+        "lc-27182",
+        "lc-27181",
+        "lc-27098",
+        "lc-27088",
+        "lc-25193"
+      ],
+      "automatic_added_ids": [
+        "lc-27198",
+        "lc-27195",
+        "lc-27194",
+        "lc-27193",
+        "lc-27192",
+        "lc-27191",
+        "lc-27190",
+        "lc-27187",
+        "lc-27186",
+        "lc-27185",
+        "lc-27182",
+        "lc-27181",
+        "lc-27098",
+        "lc-27088"
+      ],
+      "automatic_updated_ids": [
+        "lc-25193"
+      ],
+      "workflow": {
+        "run_id": 44432087104,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/44432087104",
+        "conclusion": "success",
+        "created_at": "2026-11-19T00:49:24Z",
+        "data_commit": "681375d89276becbe9e4b85033ee01824ea78a44"
+      },
+      "monitor": {
+        "date": "2026-11-19T00:49:41+00:00",
+        "status": "partial",
+        "scanned_pages": 113,
+        "read_details": 62,
+        "added": 14,
+        "changed": 1,
+        "errors": 58
+      },
+      "source_errors": "Scheduled discovery44432087104 and Pages44432867084 succeeded; duplicate Pages44432863413 cancelled. Monitor partial:113 catalogs/62 details/14 new/1 changed/58 errors. All20 retained errors404, remaining38 uncharacterized. Automatic collection available, fallback not required. Access errors did not change listing statuses.",
+      "findings": [
+        {
+          "id": "lc-27198",
+          "finding": "19.11.2026: APN 800-07903-000: cash $4,625 + $250 document fee = $4,875. Структурная точка 36.2402438,-91.7711634 расходится с GPS center в описании 36.23945,-91.76625 примерно на 450 м; обе сохранены, HOLD до проверки parcel. По продавцу R-1, минимум дома 1,000 sq ft, camping/living только после начала строительства. Это не подтверждение отдельного хранения RV или ремонта. Water/electric nearby не подключения."
+        },
+        {
+          "id": "lc-27195",
+          "finding": "19.11.2026: Carrow Road: cash $8,899 + $249 doc fee = $9,148 за пакет двух APN 245-18-114 и 245-18-115. Это те же участки, что lc-27193 и lc-27194, НЕ третий независимый объект; пакет сохранён в архиве/HOLD против двойного счёта. По продавцу ровный рельеф, county-maintained dirt road, прямой въезд, без подключений. Workshop только возможная будущая постройка; seller RV/camping claims не разрешают ремонт. 19.11.2026: Проверена официальная поправка Mohave IPMC 302.8: ограничения для неисправных/незарегистрированных машин и серьёзной разборки, с исключениями по другим нормам. Применимость к личному ремонту на этом parcel не установлена; RV/camping permission недостаточно. Источник: https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/"
+        },
+        {
+          "id": "lc-27194",
+          "finding": "19.11.2026: APN 245-18-115, 1.15 ac: cash $4,499 + $249 doc fee = $4,748. Этот же участок включён в пакет lc-27195 вместе с соседним лотом; не складывать предложения как три разных объекта. County-maintained Carrow Road, ровный рельеф и въезд — слова продавца. Коммуникаций и существующего гаража нет; camping не разрешение ремонта. 19.11.2026: Проверена официальная поправка Mohave IPMC 302.8: ограничения для неисправных/незарегистрированных машин и серьёзной разборки, с исключениями по другим нормам. Применимость к личному ремонту на этом parcel не установлена; RV/camping permission недостаточно. Источник: https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/"
+        },
+        {
+          "id": "lc-27193",
+          "finding": "19.11.2026: APN 245-18-114, 1.15 ac: cash $4,499 + $249 doc fee = $4,748. Этот же участок включён в пакет lc-27195 вместе с соседним лотом; не складывать предложения как три разных объекта. County-maintained Carrow Road, ровный рельеф и въезд — слова продавца. Коммуникаций и существующего гаража нет; camping не разрешение ремонта. 19.11.2026: Проверена официальная поправка Mohave IPMC 302.8: ограничения для неисправных/незарегистрированных машин и серьёзной разборки, с исключениями по другим нормам. Применимость к личному ремонту на этом parcel не установлена; RV/camping permission недостаточно. Источник: https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/"
+        },
+        {
+          "id": "lc-27192",
+          "finding": "19.11.2026: APN 12207111, 1.25 ac: cash $4,000 + $249 doc fee = $4,249. Название HWY 113 не доказывает прямой выезд на шоссе. Agricultural Residential, RV/camping allowed — только заявление продавца; доступ 7-метрового RV и личный ремонт unknown."
+        },
+        {
+          "id": "lc-27191",
+          "finding": "19.11.2026: APN 80004440000, 0.41 ac: cash $3,000 + $249 doc fee = $3,249. Лесной участок; расчистка, заезд, площадка для RV, подключения и разрешение ремонта не установлены. $99 down и $101.12 x30 относятся к рассрочке."
+        },
+        {
+          "id": "lc-27190",
+          "finding": "19.11.2026: White Hills: два APN 329-05-012 и 329-05-028, 2.02 ac, cash $14,999. Сумма иных расходов не опубликована, запас до $15,000 всего $1; полный closing total неизвестен. Структурная точка 35.749212,-114.320083 соответствует NE corner, не центру. По продавцу no improvements, off-grid, dirt road W El Segundo Dr, well/haul water, R1-1A. Существующего гаража нет."
+        },
+        {
+          "id": "lc-27187",
+          "finding": "19.11.2026: Perry Street/APN 98189, 0.71 ac: cash $3,000. $300 doc fee указан в блоке owner finance, в известном минимуме сохранены $3,300 до уточнения применения к cash. По продавцу ровный участок, dirt road, коммуникаций нет. Доступ, хранение RV и ремонт независимо не проверены."
+        },
+        {
+          "id": "lc-27186",
+          "finding": "19.11.2026: Sanders APN 211-25-079, 1.09 ac: cash $3,999; $249 down/$249 x20 — финансирование. No improvements, dirt road, well/haul water; power poles near area не подключение. Структурная точка — SE corner из описания, не центр."
+        },
+        {
+          "id": "lc-27185",
+          "finding": "19.11.2026: Ash Lane/APN 201-29-221B, 1.04 ac: cash $4,499, без существующих улучшений и подключений. Dirt road, well/haul water и future solar — слова продавца. Точка 34.398848,-109.634658 совпадает с SE corner, не центром. Хранение и ремонт unknown."
+        },
+        {
+          "id": "lc-27182",
+          "finding": "19.11.2026: 10 Charlene Drive/APN 107-06-607, 1.16 ac: cash $9,200; $200 doc fee внутри financing block, известный минимум $9,400 сохранён до уточнения cash applicability. Treed/canyon overlook, dirt road и nearby power не гарантируют площадку или подключение. Гаража не заявлено, ремонт unknown. 19.11.2026: Структурное поле cashPrice содержит $8,000, но описание прямо указывает Cash Price $9,200. Сохранена более высокая явная cash price из описания; расхождение требует уточнения, скидка $1,200 не объявлена подтверждённой."
+        },
+        {
+          "id": "lc-27181",
+          "finding": "19.11.2026: 39 N3528/APN 107-31-357, 1 ac: cash $8,500; $200 doc fee в financing block, известный минимум $8,700 сохранён до уточнения cash applicability. По продавцу flat/dirt road passable by standard vehicle; коммуникации не подключены. RV use не разрешение личного ремонта."
+        },
+        {
+          "id": "lc-27098",
+          "finding": "19.11.2026: Jaroso/APN 71523930: cash $6,700 по структурным данным, $143/month в заголовке — рассрочка. Описание и размеры около 4.71 ac, legal description содержит 5.00 ac; survey не проверен. County dirt road/no utilities. Фото реки не доказывает waterfront; seller пишет лишь walking distance to Rio Grande. Camping 14 дней/3 месяца не разрешает ремонт."
+        },
+        {
+          "id": "lc-27088",
+          "finding": "19.11.2026: APN 209-07-043: cash $4,299 + $249 doc fee = $4,548. В собственном тексте прямо сказано: последние 3/4 mi по необслуживаемой грунтовке требуют 4x4; небольшой wash и Flood Zone A. Road to property line не делает подъезд пригодным для 7-метрового высокого RV. Без коммуникаций, power примерно 3/4 mi. HOLD; claims о workshop относятся к будущему строительству."
+        },
+        {
+          "id": "lc-25193",
+          "finding": "19.11.2026: APN 70403790 переопубликован как source 27096; прежний ID/first_seen и история сохранены. Новая cash $6,900 подтверждена; прежние $7,470+$250 относятся к старому предложению, нынешние дополнительные расходы неизвестны. Новая точка 37.239066,-105.541242 совпадает с описанием, но отличается примерно на 3.5 км от прежней 37.2139025,-105.5644584 при том же APN. Обе точки сохранены; HOLD до parcel GIS, ни одна не объявлена правильной без проверки. Размер 5 ac/юридическое описание 5.02 ac тоже требует сверки."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.homes.com/connecticut/land-for-sale/under-15k/",
+          "finding": "CT 1 Nutmeg Passway/Dr Harwinton $6,000: explicitly unbuildable and no boat/camper storage; lake-association membership lot. Reject. Existing 28 Cloran St $8,500 is ls-5154444, not a new parcel."
+        },
+        {
+          "url": "https://www.redfin.com/CT/East-Windsor/0-N-Water-St-06088/home/198257842",
+          "finding": "CT 0 N Water St $14,925 is a boat docking slip, not a vehicle-storage parcel. Reject."
+        },
+        {
+          "url": "https://www.redfin.com/CT/Stafford/359-East-St-06076/home/175006862",
+          "finding": "CT 359 East St $14,900, MLS24200350: treed/sloping .62-.64ac, zoning variance needed. Redfin October relisting conflicts with newer Realtor statewide contingent label; defer pending current status and RV use, no import as active."
+        },
+        {
+          "url": "https://www.realtor.com/realestateandhomes-search/Connecticut/type-land/price-na-20000",
+          "finding": "CT contingent label for 359 East St recorded as screening evidence only; no existing status overwritten from a catalog."
+        },
+        {
+          "url": "https://soniaadams.northroprealty.com/listing/mdpg2225990-3200-rhode-island-ave-mount-rainier-md-20712/",
+          "finding": "MD 3200 Rhode Island Ave: apparent $9,500 lot for fleet/contractor storage is actually $9,500 PER MONTH plus NNN, broker listing Nov16. Reject despite sale-catalog classification."
+        },
+        {
+          "url": "https://www.homes.com/maryland/land-for-sale/under-15k/",
+          "finding": "MD public catalog screened alongside Trulia/Realtor; low prices include auction minima and the Rhode Island Ave lease. No verified garage/workshop ownership at full $3k-$15k found in this bounded pass."
+        },
+        {
+          "url": "https://mobile.somersetcountyedc.org/files/page_content_pdf/McCormick_Swamp_Road.pdf",
+          "finding": "MD 14.37 acres: $10,000 PER ACRE, not total purchase price; reject."
+        },
+        {
+          "url": "https://www.homes.com/alaska/land-for-sale/under-15k/",
+          "finding": "AK 1110/1114 Third St Kenai $15k each: road easement but road construction required; Nenana townsite $8,900 lots sold separately (pair $17,800), access unknown; Deadman Lake $14k is 20 miles off highway; Yentna $12k is a cabin SITE. No ready workshop or verified RV road."
+        },
+        {
+          "url": "https://www.trulia.com/home/22900-shady-dr-ninilchik-ak-99639-90673913",
+          "finding": "AK 22900 Shady Dr has a real 1,000sqft garage but asking $399,000 after a $15,000 price reduction; reject as outside budget."
+        },
+        {
+          "url": "https://www.redfin.com/AK/Willow/47530-S-Barehook-St-99688/home/134980577",
+          "finding": "AK 47530 S Barehook St, APN6070000L0982, MLS26-13918: $14,997/.55ac wooded vacant land, seller maintained gravel access. Some debris/uncertain boundary; only $3 price margin and closing total unknown. No garage, no verified repair permission; deferred until coordinates/total established."
+        },
+        {
+          "url": "https://alaskaland.info/listing/20261107181248256355000000",
+          "finding": "AK same Barehook parcel, 18 listing photos and APN found. Opened indexed page last updated Nov11 versus fresher search snapshot; not counted as a live Nov19 parcel verification. No source-reuse/status overwrite."
+        },
+        {
+          "url": "https://www.907properties.net/property-search/results/?city=Willow&listtype=4&mlsregion=52&subdivision=Caswell+Lakes",
+          "finding": "AK 20055 E Fishinfun Ave $12k seen in catalog search; opening returns stale July1 shell without properties, other indexed pages $12,500 datedOct22. Current price/status/point not sufficiently established for import. No fabrication of fresh verification."
+        },
+        {
+          "url": "https://matsugov.us/articles/zoning",
+          "finding": "AK official borough search warns zoning/land-use/building regulations exist; detailed content retrieval timed out. No unzoned-equals-unrestricted inference or parcel-specific repair approval."
+        }
+      ],
+      "official_rules": [
+        {
+          "url": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
+          "finding": "Official current public page reviewed, IPMC302.8 amendment restricts inoperative/unlicensed vehicles and major disassembly subject to other regulations. Carrow Road seller camping/building claims not personal-repair approval; parcel exceptions unverified."
+        }
+      ],
+      "access": "Bounded AK/MD/CT public research plus15 permitted fresh LandCentury reads. Fourteen new original images and updatedCO photo visually inspected. No bypass, seller contact, bookings or infrastructure changes.",
+      "flight_review": {
+        "last_review": "2026-11-16",
+        "next_review": "2026-11-23",
+        "finding": "Weekly refresh not due; flights.json unchanged."
+      },
+      "next_states": [
+        "NH",
+        "NJ",
+        "MA"
+      ],
+      "rotation_reason": "Continue low-count states by rotation; all50 covered in automatic catalog plan. No quota fillers.",
+      "preservation": "All1109 IDs,first_seen,parcels,current points,source prices,bases,statuses and all price/status/photo histories retained against nightly681375d. Four research holds: two coordinate discrepancies, one overlapping bundle, one4x4/flood access concern. Monitor/flights/Sicily/allexistingasset bytes unchanged; journal append-only.",
+      "validation": "36 focused tests passed. Data/preservation/diff checks required before publish; exact-head Pages and live map/photos verified separately after publication."
     }
   ],
-  "updated_at": "2026-11-18T03:19:58+00:00"
+  "updated_at": "2026-11-19T03:14:07+00:00"
 }
