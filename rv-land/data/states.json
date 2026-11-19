@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T03:18:58+00:00",
+  "updated_at": "2026-11-19T00:49:41+00:00",
   "states": [
     {
       "code": "AL",
@@ -53,8 +53,8 @@
         "PHX"
       ],
       "analysis": "Много дешёвой земли. Пустынная жара, отсутствие воды и электричества; север штата холодный. Ремонт в Mohave требует отдельной проверки правил.",
-      "total": 126,
-      "photo_candidates": 117,
+      "total": 136,
+      "photo_candidates": 127,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -74,8 +74,8 @@
         "STL"
       ],
       "analysis": "Один из полезных рынков земли в бюджете. Осторожно с курортными subdivision, POA, оврагами и обещанием RV без документов.",
-      "total": 67,
-      "photo_candidates": 62,
+      "total": 69,
+      "photo_candidates": 64,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -115,8 +115,8 @@
         "DEN"
       ],
       "analysis": "San Luis Valley даёт много дешёвых лотов, но это высокогорье с морозом, ветром и дорогими коммуникациями.",
-      "total": 89,
-      "photo_candidates": 83,
+      "total": 90,
+      "photo_candidates": 84,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -890,8 +890,8 @@
         "IAH"
       ],
       "analysis": "Много дешёвой земли на западе, обычно далеко от DFW/IAH. Жара, вода, электричество и подъезд определяют полную стоимость.",
-      "total": 56,
-      "photo_candidates": 53,
+      "total": 57,
+      "photo_candidates": 54,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
