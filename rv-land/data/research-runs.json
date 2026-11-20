@@ -6835,7 +6835,194 @@
       "rotation_reason": "Continue low-count states by rotation; all50 covered in automatic catalog plan. No quota fillers.",
       "preservation": "All1109 IDs,first_seen,parcels,current points,source prices,bases,statuses and all price/status/photo histories retained against nightly681375d. Four research holds: two coordinate discrepancies, one overlapping bundle, one4x4/flood access concern. Monitor/flights/Sicily/allexistingasset bytes unchanged; journal append-only.",
       "validation": "36 focused tests passed. Data/preservation/diff checks required before publish; exact-head Pages and live map/photos verified separately after publication."
+    },
+    {
+      "date": "2026-11-20T03:19:14+00:00",
+      "states": [
+        "NH",
+        "NJ",
+        "MA"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [],
+      "updated_ids": [
+        "lc-27219",
+        "lc-27218",
+        "lc-27216",
+        "lc-27206",
+        "lc-27205",
+        "lc-27200",
+        "lc-27129",
+        "lc-27122",
+        "lc-27121",
+        "lc-27120",
+        "lc-27119",
+        "lc-27117",
+        "lc-25325"
+      ],
+      "automatic_added_ids": [
+        "lc-27219",
+        "lc-27218",
+        "lc-27216",
+        "lc-27206",
+        "lc-27205",
+        "lc-27200",
+        "lc-27129",
+        "lc-27122",
+        "lc-27121",
+        "lc-27120",
+        "lc-27119",
+        "lc-27117"
+      ],
+      "automatic_updated_ids": [
+        "lc-25325"
+      ],
+      "workflow": {
+        "run_id": 44648877984,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/44648877984",
+        "conclusion": "success",
+        "created_at": "2026-11-20T00:49:16Z",
+        "data_commit": "499655a1536659b80fb9f48d67ff2ea8f6b1b84f"
+      },
+      "monitor": {
+        "date": "2026-11-20T00:49:35+00:00",
+        "status": "partial",
+        "scanned_pages": 113,
+        "read_details": 62,
+        "added": 12,
+        "changed": 1,
+        "errors": 58
+      },
+      "source_errors": "Nightly44648877984 and Pages44649610013 succeeded; duplicate Pages44649608176 cancelled. Monitor partial:113 catalogs/62 details/12 new/1 changed/58 errors. All20 retained error samples404; remaining38 uncharacterized. Automatic collector available, fallback not required. SmartHub429; Conway code403; Charlotte FAQ initially readable indexed PDF, later find returned403. Stopped restricted requests; statuses preserved.",
+      "findings": [
+        {
+          "id": "lc-27219",
+          "finding": "20.11.2026: N3511, Concho: cash $12,348 за два APN 107-33-359 и 107-33-360, вместе 2.0 ac по описанию; 1 acre в URL не площадь всего пакета. Дополнительные расходы неизвестны. County-maintained road и отсутствие найденных HOA restrictions — слова продавца. $398 down/$314 x48 — рассрочка. Хранение и ремонт unknown."
+        },
+        {
+          "id": "lc-27218",
+          "finding": "20.11.2026: David Ave/APN 24-09-24-4075-0340-0250: cash $8,250 + $249 doc fee = $8,499. Продавец указывает R2 и временный RV только при расчистке/строительстве с разрешениями; хранение после постоянного дома. HOLD для отдельной RV-базы до проверки правил. Nearby power не подключение; нужны вода/септик."
+        },
+        {
+          "id": "lc-27216",
+          "finding": "20.11.2026: 519 Kitty Ave/APN 35-09-24-4075-1550-0090: cash $8,600 + $249 doc fee = $8,849. Single-family residential, county-maintained road и Flood X — данные продавца. Разрешения на RV и ремонт независимо не установлены; требуются расчистка/площадка и проверка коммуникаций."
+        },
+        {
+          "id": "lc-27206",
+          "finding": "20.11.2026: TBD Prairie Dog Rd/APN 106-05-009P, 4.69 ac: cash $9,900 + $100 doc fee = $10,000. По продавцу Navajo A-General. Survey и фактический всепогодный подъезд высокого RV не проверены. Продавец не гарантирует, что фотографии показывают именно parcel; обводка не survey. $495 down и платежи — финансирование."
+        },
+        {
+          "id": "lc-27205",
+          "finding": "20.11.2026: TBD Railroad St/APN 105-09-209B, 5 ac: cash $11,900 + $100 doc fee = $12,000. По продавцу A-General, lots106–109 Arizona Rancheros Rancho13. Название улицы/линия на фото не доказывают юридический или пригодный RV-подъезд. Продавец допускает фотографии не самого участка. Хранение и ремонт unknown."
+        },
+        {
+          "id": "lc-27200",
+          "finding": "20.11.2026: 36 N7912/APN 211-34-117, 1.16 ac: cash $4,725; $200 doc fee указан в financing block, известный минимум $4,925 до уточнения применения к cash. Продавец прямо пишет о частых washouts и непригодности для RV setup/обычного camping, предлагает ATV/dirt bikes. Easement access, без коммуникаций. HOLD; название населённого пункта не подтверждает нахождение внутри национального парка."
+        },
+        {
+          "id": "lc-27129",
+          "finding": "20.11.2026: Gallup Trail Lot12/APN 71533115: cash $7,200; дополнительные расходы не опубликованы. Структурное поле 5 ac, описание 5.146 ac — survey не проверен. ER, dirt road, без подключений; нужны вода/септик/электричество. Seller camping 14 дней за 3 месяца не разрешение хранения или ремонта."
+        },
+        {
+          "id": "lc-27122",
+          "finding": "20.11.2026: 14720 Rothschild Ave: cash $7,500, 0.23 ac; дополнительные расходы не опубликованы. Residential и no HOA по продавцу не разрешают самостоятельную RV-базу. Лот лесной, подключения и пригодный въезд не подтверждены. 20.11.2026: Соседний Rothschild lot продаётся отдельно за $7,500: вместе $15,000 до closing costs, подтверждённой полной цены пакета нет. 20.11.2026: Charlotte FAQ Q2.16 ограничивает хранение на пустой жилой земле до основного здания. HOLD до проверки юрисдикции/исключений: https://www.charlottecountyfl.gov/core/fileparse.php/363/urlt/FAQ.pdf"
+        },
+        {
+          "id": "lc-27121",
+          "finding": "20.11.2026: 14712 Rothschild Ave: cash $7,500, 0.23 ac; дополнительные расходы не опубликованы. Residential и no HOA по продавцу не разрешают самостоятельную RV-базу. Лот лесной, подключения и пригодный въезд не подтверждены. 20.11.2026: Соседний Rothschild lot продаётся отдельно за $7,500: вместе $15,000 до closing costs, подтверждённой полной цены пакета нет. 20.11.2026: Charlotte FAQ Q2.16 ограничивает хранение на пустой жилой земле до основного здания. HOLD до проверки юрисдикции/исключений: https://www.charlottecountyfl.gov/core/fileparse.php/363/urlt/FAQ.pdf"
+        },
+        {
+          "id": "lc-27120",
+          "finding": "20.11.2026: 5914 David Blvd: cash $14,000, 0.23 ac; дополнительные расходы не опубликованы. Residential и no HOA по продавцу не разрешают самостоятельную RV-базу. Лот лесной, подключения и пригодный въезд не подтверждены. 20.11.2026: Charlotte FAQ Q2.16 ограничивает хранение на пустой жилой земле до основного здания. HOLD до проверки юрисдикции/исключений: https://www.charlottecountyfl.gov/core/fileparse.php/363/urlt/FAQ.pdf"
+        },
+        {
+          "id": "lc-27119",
+          "finding": "20.11.2026: 715 Snapper Ln: cash $5,000, 0.23 ac; дополнительные расходы не опубликованы. Residential и no HOA по продавцу не разрешают самостоятельную RV-базу. Лот лесной, подключения и пригодный въезд не подтверждены. 20.11.2026: Charlotte FAQ Q2.16 ограничивает хранение на пустой жилой земле до основного здания. HOLD до проверки юрисдикции/исключений: https://www.charlottecountyfl.gov/core/fileparse.php/363/urlt/FAQ.pdf"
+        },
+        {
+          "id": "lc-27117",
+          "finding": "20.11.2026: 33394 Oil Well Rd/APN 422415326016: cash $8,000, 2.5 ac; дополнительные расходы неизвестны. В описании прямо Flat/Wetlands, zoning Agricultural. HOLD: сухая площадка, пригодный RV-подъезд и разрешённое использование не подтверждены. Residential FAQ Q2.16 сюда автоматически не переносится; no HOA не подтверждает ремонт."
+        },
+        {
+          "id": "lc-25325",
+          "finding": "20.11.2026: APN 02160109026, 4414 Caseyville Ave: свежая fixed cash price $5,900 подтверждена; прежние $7,900 и $100 fee сохранены в истории. Теперь fee не опубликован, это не обещание бесплатного closing. Перепубликация source27210 сохранила прежний ID/first_seen/parcel/точку. Продавец прямо пишет о недавней tax sale, возможной сложности title insurance, quitclaim/special-warranty deed и отсутствии survey. HOLD до проверки чистоты титула. R1, вода/канализация доступны, не подключены; гаража нет."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.smarthubboston.com/property/5-otis-street-fitchburg-73603004",
+          "finding": "MA 5 Otis St, MLS73603004: indexed $7,500/.11ac, explicitly nonbuildable, easements, possible parking/yard for abutters. Independent-parcel RV use and exact coordinates not established. Direct public request returned429 after robots allowed; stopped without retry/bypass. Not imported."
+        },
+        {
+          "url": "https://www.jpar.com/property/3-73603000-12-Park-Street-Fitchburg-MA-01420/",
+          "finding": "MA 12 Park St, MLS73603000: indexed $15,000/.13ac, city-owned RB lot, building needs planning approval. Possible abutter parking/yard not a verified standalone RV base; no garage, no closing-cost margin. Deferred."
+        },
+        {
+          "url": "https://www.homes.com/property/0-seaview-ave-lawrence-township-nj-unit-605600/9jwf6mjsy9c9r/",
+          "finding": "NJ Seaview Ave $8,000/.25ac, MLS605600: already ls-5106526. Seller future pole barn/garage language is not an existing building or repair approval; no duplicate or indexed freshness overwrite."
+        },
+        {
+          "url": "https://www.howardhanna.com/property/brooklyn-avenue-spotswood-nj-08884-340000565956",
+          "finding": "NJ LOT18 Brooklyn Ave, MLS22530590: older $10,000 active leads conflict with brokerage sold2026-10-16 updatedNov12. Excluded from new import; no existing availability overwritten."
+        },
+        {
+          "url": "https://www.realty.com/commercial-listings/381310251/560-Jersey-Avenue-New-Brunswick-NJ-08901",
+          "finding": "NJ 560 Jersey Ave garage with14ft door is $4,000/month lease, not a $4,000 purchase. Reject."
+        },
+        {
+          "url": "https://njqueensrealtybelleville.com/property/5421413/",
+          "finding": "NJ Frankford469-473US206: 10,000 in search result describes property size, not cash price. Reject from budget shortlist."
+        },
+        {
+          "url": "https://www.homes.com/property/127-c-rd-conway-nh/2jcgdzvbb3j2b/",
+          "finding": "NH 127/128/129 C Rd: $15,000 each, .09ac each, unbuildable RA lots in flood zone, no water/sewer. Seller RV-campsite wording not authority approval. Exact point and parcel exception not established; deferred, no combined-price inference."
+        },
+        {
+          "url": "https://ecode360.com/29477474",
+          "finding": "NH Conway ordinance fresh read returned403; stopped. Prior research restriction is historical context, not a newly verified legal determination. No RV approval inferred."
+        },
+        {
+          "url": "https://www.homes.com/property/48-activity-r-richmond-nh/g1k1d2v1cwcvk/",
+          "finding": "NH 48 Activity R remains $10,900/.38ac wooded irregular wetland lot in opened public index, MLS73512981. No verified dry RV pad/access, no garage; prior deferred lead not imported."
+        },
+        {
+          "url": "https://www.homes.com/property/lot-201-202-frohock-brook-rd-alton-nh/ll49g0djef82q/",
+          "finding": "NH Frohock Brook201/202, MLS5111866: $15,000/.64ac, unmaintained roads, directions park and walk, no electricity, association prohibits camping. Rechecked public listing text; no verified high-RV access or repair permission. Remains deferred."
+        },
+        {
+          "url": "https://www.homes.com/new-hampshire/land-for-sale/under-15k/",
+          "finding": "NH catalog: Thompson Rd $10,000 abutter/landlocked lead, Rockingham Rd $3 ground lease, prior Berlin environmental/tax-debt record, prior Conway Brookside pending record. No status or price overwritten from stale catalog."
+        },
+        {
+          "url": "https://www.homes.com/new-jersey/land-for-sale/under-15k/",
+          "finding": "NJ bounded catalog/garage searches found no additional verified ownership of a ready workshop within full cash budget. No quota fillers."
+        }
+      ],
+      "official_rules": [
+        {
+          "url": "https://www.charlottecountyfl.gov/core/fileparse.php/363/urlt/FAQ.pdf",
+          "finding": "Official FAQ updated09/2025, public PDF text read Nov20. Q2.16 restricts storage on vacant residential land before primary building. Four new residential lots held pending exact jurisdiction/exceptions; Agricultural Oil Well lot not classified under this rule. Later repeat retrieval403, no bypass."
+        },
+        {
+          "url": "https://ecode360.com/41979349",
+          "finding": "Fitchburg official code reviewed: accessory uses require a lawful principal use; RV habitation restriction is not proof of standalone storage or repair permission. No parcel entitlement established for Otis/Park leads."
+        }
+      ],
+      "access": "Bounded NH/NJ/MA research beyond LandCentury and13 successful fresh public LandCentury reads; all13 original listing images inspected. No source access bypass, contacts, purchases, bookings or infrastructure changes.",
+      "flight_review": {
+        "last_review": "2026-11-16",
+        "next_review": "2026-11-23",
+        "finding": "Weekly flight refresh not due; flights.json unchanged."
+      },
+      "next_states": [
+        "ID",
+        "MT",
+        "WY"
+      ],
+      "rotation_reason": "Continue rotation through low-count mountain states; automatic catalog plan covers all50. Prioritize actual workshops and usable airport access, no quota fillers.",
+      "preservation": "All1121 IDs,first_seen,parcels,coordinates,areas,prices,fees,bases,statuses and price/status/photo histories preserved against nightly499655a. Eight research holds added, no availability changed. Monitor/flights/Sicily/all existing asset bytes unchanged; journal append-only.",
+      "validation": "36 focused tests passed;1121 retained records/1120 photos/50 states validated. Preservation/diff checks before scoped publication; exact-head Pages and live map/photos postflight separately recorded."
     }
   ],
-  "updated_at": "2026-11-19T03:14:07+00:00"
+  "updated_at": "2026-11-20T03:19:14+00:00"
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-20T00:49:35+00:00",
+  "updated_at": "2026-11-20T03:18:22+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -18635,12 +18635,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-11-20T00:52:06Z",
-      "last_verified": "2026-11-20T00:52:06Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-20T03:13:01Z",
+      "last_verified": "2026-11-20T03:13:01Z",
+      "photo_kind": "Исходное изображение из объявления: вид сверху с красной обводкой; продавец допускает иллюстрации не самого участка.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "20.11.2026: APN 02160109026, 4414 Caseyville Ave: свежая fixed cash price $5,900 подтверждена; прежние $7,900 и $100 fee сохранены в истории. Теперь fee не опубликован, это не обещание бесплатного closing. Перепубликация source27210 сохранила прежний ID/first_seen/parcel/точку. Продавец прямо пишет о недавней tax sale, возможной сложности title insurance, quitclaim/special-warranty deed и отсутствии survey. HOLD до проверки чистоты титула. R1, вода/канализация доступны, не подключены; гаража нет."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-25325",
       "source_id": "27210",
@@ -18677,7 +18679,7 @@
         "residential-buildable-land",
         "owner-finance-deals"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -18712,7 +18714,7 @@
         "https://www.landcentury.com/land-for-sale/illinois/027-acres-for-sale-in-east-saint-louis-illinois-25325"
       ],
       "region": "Средний Запад",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Полезный рынок небольших зданий, гаражей и городских лотов. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -18755,7 +18757,7 @@
         "Сезон /10": 4,
         "Дорога /10": 10
       },
-      "score": 37,
+      "score": 20,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/19/6aff2db6e0a8f-1795108278.jpg",
       "photo_preserved_at": "2026-11-20T00:49:35+00:00",
       "photo_history": [
@@ -18772,7 +18774,21 @@
           "date": "2026-11-20T00:49:35+00:00"
         }
       ],
-      "previous_price": 7900.0
+      "previous_price": 7900.0,
+      "verification_history": [
+        {
+          "date": "2026-11-20T03:18:22+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/illinois/0-27-acres-for-sale-in-east-st-louis-illinois-27210",
+          "finding": "Fresh public fixed-cash offer, parcel and source coordinates checked. Original listing image inspected; no existing workshop or parcel-specific repair approval established."
+        }
+      ],
+      "review_hold": {
+        "date": "2026-11-20T03:18:22+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/illinois/0-27-acres-for-sale-in-east-st-louis-illinois-27210",
+        "reason": "Недавняя tax sale; продавец предупреждает о возможной недоступности title insurance и ограниченном deed. Полная стоимость получения чистого титула неизвестна.",
+        "release_condition": "Проверить титул/обременения/страхуемость и полную стоимость оформления, допустимость отдельного хранения и личного ремонта RV."
+      }
     },
     {
       "price_currency": "USD",
@@ -145428,12 +145444,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-20T00:49:35+00:00",
-      "last_seen": "2026-11-20T00:52:02Z",
-      "last_verified": "2026-11-20T00:52:02Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-20T03:12:48Z",
+      "last_verified": "2026-11-20T03:12:48Z",
+      "photo_kind": "Исходное изображение из объявления: земля с деревьями по краю; подготовленная площадка и границы не подтверждены.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "20.11.2026: N3511, Concho: cash $12,348 за два APN 107-33-359 и 107-33-360, вместе 2.0 ac по описанию; 1 acre в URL не площадь всего пакета. Дополнительные расходы неизвестны. County-maintained road и отсутствие найденных HOA restrictions — слова продавца. $398 down/$314 x48 — рассрочка. Хранение и ремонт unknown."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27219",
       "source_id": "27219",
@@ -145474,7 +145492,7 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -145551,18 +145569,32 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 21
+      "score": 21,
+      "verification_history": [
+        {
+          "date": "2026-11-20T03:18:22+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-acres-for-sale-in-concho-arizona-27219",
+          "finding": "Fresh public fixed-cash offer, parcel and source coordinates checked. Original listing image inspected; no existing workshop or parcel-specific repair approval established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/1-acres-for-sale-in-concho-arizona-27219"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-20T00:49:35+00:00",
-      "last_seen": "2026-11-20T00:52:03Z",
-      "last_verified": "2026-11-20T00:52:03Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-20T03:12:49Z",
+      "last_verified": "2026-11-20T03:12:49Z",
+      "photo_kind": "Исходное изображение из объявления: грунтовая дорога среди леса; заезд и площадка внутри участка не показаны.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "20.11.2026: David Ave/APN 24-09-24-4075-0340-0250: cash $8,250 + $249 doc fee = $8,499. Продавец указывает R2 и временный RV только при расчистке/строительстве с разрешениями; хранение после постоянного дома. HOLD для отдельной RV-базы до проверки правил. Nearby power не подключение; нужны вода/септик."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27218",
       "source_id": "27218",
@@ -145603,7 +145635,7 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
@@ -145637,7 +145669,7 @@
         }
       ],
       "region": "Юг",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Дешёвый перелёт и мягкая зима. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -145680,18 +145712,38 @@
         "Сезон /10": 7,
         "Дорога /10": 8
       },
-      "score": 32
+      "score": 20,
+      "verification_history": [
+        {
+          "date": "2026-11-20T03:18:22+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/florida/0-21-acres-for-sale-in-interlachen-florida-27218",
+          "finding": "Fresh public fixed-cash offer, parcel and source coordinates checked. Original listing image inspected; no existing workshop or parcel-specific repair approval established."
+        }
+      ],
+      "review_hold": {
+        "date": "2026-11-20T03:18:22+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/florida/0-21-acres-for-sale-in-interlachen-florida-27218",
+        "reason": "Продавец связывает RV с разрешённым строительством и существующим постоянным жильём; самостоятельная база на пустом участке не подтверждена.",
+        "release_condition": "Проверить точное zoning, самостоятельное хранение высокого RV и личный ремонт без жилого дома у округа."
+      },
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/florida/0-21-acres-for-sale-in-interlachen-florida-27218"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-20T00:49:35+00:00",
-      "last_seen": "2026-11-20T00:52:04Z",
-      "last_verified": "2026-11-20T00:52:04Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-20T03:12:50Z",
+      "last_verified": "2026-11-20T03:12:50Z",
+      "photo_kind": "Исходное изображение из объявления: лесной участок у дороги; готовый въезд для RV не подтверждён.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "20.11.2026: 519 Kitty Ave/APN 35-09-24-4075-1550-0090: cash $8,600 + $249 doc fee = $8,849. Single-family residential, county-maintained road и Flood X — данные продавца. Разрешения на RV и ремонт независимо не установлены; требуются расчистка/площадка и проверка коммуникаций."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27216",
       "source_id": "27216",
@@ -145732,7 +145784,7 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -145810,18 +145862,32 @@
         "Сезон /10": 7,
         "Дорога /10": 8
       },
-      "score": 30
+      "score": 30,
+      "verification_history": [
+        {
+          "date": "2026-11-20T03:18:22+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/florida/0-21-acres-for-sale-in-interlachen-florida-27216",
+          "finding": "Fresh public fixed-cash offer, parcel and source coordinates checked. Original listing image inspected; no existing workshop or parcel-specific repair approval established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/florida/0-21-acres-for-sale-in-interlachen-florida-27216"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-20T00:49:35+00:00",
-      "last_seen": "2026-11-20T00:52:08Z",
-      "last_verified": "2026-11-20T00:52:08Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-20T03:12:51Z",
+      "last_verified": "2026-11-20T03:12:51Z",
+      "photo_kind": "Исходное изображение из объявления: вид сверху с красной обводкой; продавец предупреждает, что изображения могут не показывать сам участок.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "20.11.2026: TBD Prairie Dog Rd/APN 106-05-009P, 4.69 ac: cash $9,900 + $100 doc fee = $10,000. По продавцу Navajo A-General. Survey и фактический всепогодный подъезд высокого RV не проверены. Продавец не гарантирует, что фотографии показывают именно parcel; обводка не survey. $495 down и платежи — финансирование."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27206",
       "source_id": "27206",
@@ -145858,7 +145924,7 @@
         "owner-finance-deals",
         "recreational-and-hunting-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -145935,18 +146001,32 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 25
+      "score": 25,
+      "verification_history": [
+        {
+          "date": "2026-11-20T03:18:22+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/4-69-acres-for-sale-in-holbrook-arizona-27206",
+          "finding": "Fresh public fixed-cash offer, parcel and source coordinates checked. Original listing image inspected; no existing workshop or parcel-specific repair approval established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/4-69-acres-for-sale-in-holbrook-arizona-27206"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-20T00:49:35+00:00",
-      "last_seen": "2026-11-20T00:52:10Z",
-      "last_verified": "2026-11-20T00:52:10Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-20T03:12:52Z",
+      "last_verified": "2026-11-20T03:12:52Z",
+      "photo_kind": "Исходное изображение из объявления: вид сверху с красной обводкой и линейной инфраструктурой рядом; точность изображения продавцом не гарантирована.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "20.11.2026: TBD Railroad St/APN 105-09-209B, 5 ac: cash $11,900 + $100 doc fee = $12,000. По продавцу A-General, lots106–109 Arizona Rancheros Rancho13. Название улицы/линия на фото не доказывают юридический или пригодный RV-подъезд. Продавец допускает фотографии не самого участка. Хранение и ремонт unknown."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27205",
       "source_id": "27205",
@@ -145983,7 +146063,7 @@
         "owner-finance-deals",
         "recreational-and-hunting-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -146060,18 +146140,32 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 22
+      "score": 22,
+      "verification_history": [
+        {
+          "date": "2026-11-20T03:18:22+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/5-acres-for-sale-in-holbrook-arizona-27205",
+          "finding": "Fresh public fixed-cash offer, parcel and source coordinates checked. Original listing image inspected; no existing workshop or parcel-specific repair approval established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/5-acres-for-sale-in-holbrook-arizona-27205"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-20T00:49:35+00:00",
-      "last_seen": "2026-11-20T00:52:11Z",
-      "last_verified": "2026-11-20T00:52:11Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-20T03:12:54Z",
+      "last_verified": "2026-11-20T03:12:54Z",
+      "photo_kind": "Исходное изображение из объявления: пустынная местность с промоинами; готовой RV-площадки не видно.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "20.11.2026: 36 N7912/APN 211-34-117, 1.16 ac: cash $4,725; $200 doc fee указан в financing block, известный минимум $4,925 до уточнения применения к cash. Продавец прямо пишет о частых washouts и непригодности для RV setup/обычного camping, предлагает ATV/dirt bikes. Easement access, без коммуникаций. HOLD; название населённого пункта не подтверждает нахождение внутри национального парка."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27200",
       "source_id": "27200",
@@ -146112,7 +146206,7 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -146144,7 +146238,7 @@
         }
       ],
       "region": "Юго-запад",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Много дешёвой земли. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -146187,18 +146281,38 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 34
+      "score": 20,
+      "verification_history": [
+        {
+          "date": "2026-11-20T03:18:22+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-16-acres-for-sale-in-petrified-forest-national-park-arizona-27200",
+          "finding": "Fresh public fixed-cash offer, parcel and source coordinates checked. Original listing image inspected; no existing workshop or parcel-specific repair approval established."
+        }
+      ],
+      "review_hold": {
+        "date": "2026-11-20T03:18:22+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/arizona/1-16-acres-for-sale-in-petrified-forest-national-park-arizona-27200",
+        "reason": "Сам продавец указывает частые промоины и непригодность для размещения RV; подъезд/сухая площадка для высокого кемпервана не подтверждены.",
+        "release_condition": "Независимо подтвердить безопасный всепогодный проезд и сухую площадку, разрешённое хранение и личный ремонт."
+      },
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/1-16-acres-for-sale-in-petrified-forest-national-park-arizona-27200"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-20T00:49:35+00:00",
-      "last_seen": "2026-11-20T00:52:15Z",
-      "last_verified": "2026-11-20T00:52:15Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-20T03:12:55Z",
+      "last_verified": "2026-11-20T03:12:55Z",
+      "photo_kind": "Исходное изображение из объявления: травянистая равнина и горы; границы и состояние подъезда не доказаны.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "20.11.2026: Gallup Trail Lot12/APN 71533115: cash $7,200; дополнительные расходы не опубликованы. Структурное поле 5 ac, описание 5.146 ac — survey не проверен. ER, dirt road, без подключений; нужны вода/септик/электричество. Seller camping 14 дней за 3 месяца не разрешение хранения или ремонта."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27129",
       "source_id": "27129",
@@ -146236,7 +146350,7 @@
         "owner-finance-deals",
         "mobile-home-and-rv-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
@@ -146311,18 +146425,34 @@
         "Сезон /10": 3,
         "Дорога /10": 5
       },
-      "score": 26
+      "score": 26,
+      "verification_history": [
+        {
+          "date": "2026-11-20T03:18:22+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-mesita-colorado-27129",
+          "finding": "Fresh public fixed-cash offer, parcel and source coordinates checked. Original listing image inspected; no existing workshop or parcel-specific repair approval established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/5-acres-for-sale-in-mesita-colorado-27129"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-20T00:49:35+00:00",
-      "last_seen": "2026-11-20T00:52:16Z",
-      "last_verified": "2026-11-20T00:52:16Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-20T03:12:56Z",
+      "last_verified": "2026-11-20T03:12:56Z",
+      "photo_kind": "Исходное изображение из объявления: лесной лот у дороги/колеи; расчищенной площадки для RV нет.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "20.11.2026: 14720 Rothschild Ave: cash $7,500, 0.23 ac; дополнительные расходы не опубликованы. Residential и no HOA по продавцу не разрешают самостоятельную RV-базу. Лот лесной, подключения и пригодный въезд не подтверждены.",
+        "20.11.2026: Соседний Rothschild lot продаётся отдельно за $7,500: вместе $15,000 до closing costs, подтверждённой полной цены пакета нет.",
+        "20.11.2026: Charlotte FAQ Q2.16 ограничивает хранение на пустой жилой земле до основного здания. HOLD до проверки юрисдикции/исключений: https://www.charlottecountyfl.gov/core/fileparse.php/363/urlt/FAQ.pdf"
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27122",
       "source_id": "27122",
@@ -146360,7 +146490,7 @@
         "owner-finance-deals",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -146394,7 +146524,7 @@
         }
       ],
       "region": "Юг",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Дешёвый перелёт и мягкая зима. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -146437,18 +146567,51 @@
         "Сезон /10": 7,
         "Дорога /10": 7
       },
-      "score": 32
+      "score": 20,
+      "verification_history": [
+        {
+          "date": "2026-11-20T03:18:22+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/florida/0-23-acres-for-sale-in-port-charlotte-florida-27122",
+          "finding": "Fresh public fixed-cash offer, parcel and source coordinates checked. Original listing image inspected; no existing workshop or parcel-specific repair approval established."
+        }
+      ],
+      "review_hold": {
+        "date": "2026-11-20T03:18:22+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/florida/0-23-acres-for-sale-in-port-charlotte-florida-27122",
+        "reason": "Жилой пустой лот: county FAQ ограничивает хранение до основного здания; применимость и исключения для этого parcel не проверены.",
+        "release_condition": "Подтвердить юрисдикцию, zoning и исключения, самостоятельное хранение и личный ремонт RV до покупки."
+      },
+      "related_offer_ids": [
+        "lc-27121"
+      ],
+      "official_rules": [
+        {
+          "date": "2026-11-20T03:18:22+00:00",
+          "url": "https://www.charlottecountyfl.gov/core/fileparse.php/363/urlt/FAQ.pdf",
+          "section": "FAQ Q2.16, document updated 09/2025",
+          "finding": "Vacant residential land storage restriction before a principal structure; parcel jurisdiction and exceptions unverified. Research hold only; repair permission remains unknown."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/florida/0-23-acres-for-sale-in-port-charlotte-florida-27122"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-20T00:49:35+00:00",
-      "last_seen": "2026-11-20T00:52:18Z",
-      "last_verified": "2026-11-20T00:52:18Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-20T03:12:57Z",
+      "last_verified": "2026-11-20T03:12:57Z",
+      "photo_kind": "Исходное изображение из объявления: лесной лот у дороги/колеи; расчищенной площадки для RV нет.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "20.11.2026: 14712 Rothschild Ave: cash $7,500, 0.23 ac; дополнительные расходы не опубликованы. Residential и no HOA по продавцу не разрешают самостоятельную RV-базу. Лот лесной, подключения и пригодный въезд не подтверждены.",
+        "20.11.2026: Соседний Rothschild lot продаётся отдельно за $7,500: вместе $15,000 до closing costs, подтверждённой полной цены пакета нет.",
+        "20.11.2026: Charlotte FAQ Q2.16 ограничивает хранение на пустой жилой земле до основного здания. HOLD до проверки юрисдикции/исключений: https://www.charlottecountyfl.gov/core/fileparse.php/363/urlt/FAQ.pdf"
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27121",
       "source_id": "27121",
@@ -146486,7 +146649,7 @@
         "owner-finance-deals",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -146520,7 +146683,7 @@
         }
       ],
       "region": "Юг",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Дешёвый перелёт и мягкая зима. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -146563,18 +146726,50 @@
         "Сезон /10": 7,
         "Дорога /10": 7
       },
-      "score": 32
+      "score": 20,
+      "verification_history": [
+        {
+          "date": "2026-11-20T03:18:22+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/florida/0-23-acres-for-sale-in-port-charlotte-florida-27121",
+          "finding": "Fresh public fixed-cash offer, parcel and source coordinates checked. Original listing image inspected; no existing workshop or parcel-specific repair approval established."
+        }
+      ],
+      "review_hold": {
+        "date": "2026-11-20T03:18:22+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/florida/0-23-acres-for-sale-in-port-charlotte-florida-27121",
+        "reason": "Жилой пустой лот: county FAQ ограничивает хранение до основного здания; применимость и исключения для этого parcel не проверены.",
+        "release_condition": "Подтвердить юрисдикцию, zoning и исключения, самостоятельное хранение и личный ремонт RV до покупки."
+      },
+      "related_offer_ids": [
+        "lc-27122"
+      ],
+      "official_rules": [
+        {
+          "date": "2026-11-20T03:18:22+00:00",
+          "url": "https://www.charlottecountyfl.gov/core/fileparse.php/363/urlt/FAQ.pdf",
+          "section": "FAQ Q2.16, document updated 09/2025",
+          "finding": "Vacant residential land storage restriction before a principal structure; parcel jurisdiction and exceptions unverified. Research hold only; repair permission remains unknown."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/florida/0-23-acres-for-sale-in-port-charlotte-florida-27121"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-20T00:49:35+00:00",
-      "last_seen": "2026-11-20T00:52:19Z",
-      "last_verified": "2026-11-20T00:52:19Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-20T03:12:58Z",
+      "last_verified": "2026-11-20T03:12:58Z",
+      "photo_kind": "Исходное изображение из объявления: лесной лот у дороги/колеи; расчищенной площадки для RV нет.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "20.11.2026: 5914 David Blvd: cash $14,000, 0.23 ac; дополнительные расходы не опубликованы. Residential и no HOA по продавцу не разрешают самостоятельную RV-базу. Лот лесной, подключения и пригодный въезд не подтверждены.",
+        "20.11.2026: Charlotte FAQ Q2.16 ограничивает хранение на пустой жилой земле до основного здания. HOLD до проверки юрисдикции/исключений: https://www.charlottecountyfl.gov/core/fileparse.php/363/urlt/FAQ.pdf"
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27120",
       "source_id": "27120",
@@ -146612,7 +146807,7 @@
         "owner-finance-deals",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -146646,7 +146841,7 @@
         }
       ],
       "region": "Юг",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Дешёвый перелёт и мягкая зима. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -146689,18 +146884,47 @@
         "Сезон /10": 7,
         "Дорога /10": 7
       },
-      "score": 21
+      "score": 20,
+      "verification_history": [
+        {
+          "date": "2026-11-20T03:18:22+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/florida/0-23-acres-for-sale-in-port-charlotte-florida-27120",
+          "finding": "Fresh public fixed-cash offer, parcel and source coordinates checked. Original listing image inspected; no existing workshop or parcel-specific repair approval established."
+        }
+      ],
+      "review_hold": {
+        "date": "2026-11-20T03:18:22+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/florida/0-23-acres-for-sale-in-port-charlotte-florida-27120",
+        "reason": "Жилой пустой лот: county FAQ ограничивает хранение до основного здания; применимость и исключения для этого parcel не проверены.",
+        "release_condition": "Подтвердить юрисдикцию, zoning и исключения, самостоятельное хранение и личный ремонт RV до покупки."
+      },
+      "official_rules": [
+        {
+          "date": "2026-11-20T03:18:22+00:00",
+          "url": "https://www.charlottecountyfl.gov/core/fileparse.php/363/urlt/FAQ.pdf",
+          "section": "FAQ Q2.16, document updated 09/2025",
+          "finding": "Vacant residential land storage restriction before a principal structure; parcel jurisdiction and exceptions unverified. Research hold only; repair permission remains unknown."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/florida/0-23-acres-for-sale-in-port-charlotte-florida-27120"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-20T00:49:35+00:00",
-      "last_seen": "2026-11-20T00:52:20Z",
-      "last_verified": "2026-11-20T00:52:20Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-20T03:12:59Z",
+      "last_verified": "2026-11-20T03:12:59Z",
+      "photo_kind": "Исходное изображение из объявления: лесной лот у дороги/колеи; расчищенной площадки для RV нет.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "20.11.2026: 715 Snapper Ln: cash $5,000, 0.23 ac; дополнительные расходы не опубликованы. Residential и no HOA по продавцу не разрешают самостоятельную RV-базу. Лот лесной, подключения и пригодный въезд не подтверждены.",
+        "20.11.2026: Charlotte FAQ Q2.16 ограничивает хранение на пустой жилой земле до основного здания. HOLD до проверки юрисдикции/исключений: https://www.charlottecountyfl.gov/core/fileparse.php/363/urlt/FAQ.pdf"
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27119",
       "source_id": "27119",
@@ -146738,7 +146962,7 @@
         "owner-finance-deals",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -146772,7 +146996,7 @@
         }
       ],
       "region": "Юг",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Дешёвый перелёт и мягкая зима. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -146815,18 +147039,46 @@
         "Сезон /10": 7,
         "Дорога /10": 7
       },
-      "score": 36
+      "score": 20,
+      "verification_history": [
+        {
+          "date": "2026-11-20T03:18:22+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/florida/0-23-acres-for-sale-in-punta-gorda-florida-27119",
+          "finding": "Fresh public fixed-cash offer, parcel and source coordinates checked. Original listing image inspected; no existing workshop or parcel-specific repair approval established."
+        }
+      ],
+      "review_hold": {
+        "date": "2026-11-20T03:18:22+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/florida/0-23-acres-for-sale-in-punta-gorda-florida-27119",
+        "reason": "Жилой пустой лот: county FAQ ограничивает хранение до основного здания; применимость и исключения для этого parcel не проверены.",
+        "release_condition": "Подтвердить юрисдикцию, zoning и исключения, самостоятельное хранение и личный ремонт RV до покупки."
+      },
+      "official_rules": [
+        {
+          "date": "2026-11-20T03:18:22+00:00",
+          "url": "https://www.charlottecountyfl.gov/core/fileparse.php/363/urlt/FAQ.pdf",
+          "section": "FAQ Q2.16, document updated 09/2025",
+          "finding": "Vacant residential land storage restriction before a principal structure; parcel jurisdiction and exceptions unverified. Research hold only; repair permission remains unknown."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/florida/0-23-acres-for-sale-in-punta-gorda-florida-27119"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-20T00:49:35+00:00",
-      "last_seen": "2026-11-20T00:52:22Z",
-      "last_verified": "2026-11-20T00:52:22Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-20T03:13:00Z",
+      "last_verified": "2026-11-20T03:13:00Z",
+      "photo_kind": "Исходное изображение из объявления: спутниковый вид с синей обводкой заросшей территории; сухой въезд и RV-площадка не показаны.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "20.11.2026: 33394 Oil Well Rd/APN 422415326016: cash $8,000, 2.5 ac; дополнительные расходы неизвестны. В описании прямо Flat/Wetlands, zoning Agricultural. HOLD: сухая площадка, пригодный RV-подъезд и разрешённое использование не подтверждены. Residential FAQ Q2.16 сюда автоматически не переносится; no HOA не подтверждает ремонт."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27117",
       "source_id": "27117",
@@ -146864,7 +147116,7 @@
         "recreational-and-hunting-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -146899,7 +147151,7 @@
         }
       ],
       "region": "Юг",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Дешёвый перелёт и мягкая зима. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -146942,7 +147194,25 @@
         "Сезон /10": 7,
         "Дорога /10": 7
       },
-      "score": 31
+      "score": 20,
+      "verification_history": [
+        {
+          "date": "2026-11-20T03:18:22+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/florida/2-5-acres-for-sale-in-punta-gorda-florida-27117",
+          "finding": "Fresh public fixed-cash offer, parcel and source coordinates checked. Original listing image inspected; no existing workshop or parcel-specific repair approval established."
+        }
+      ],
+      "review_hold": {
+        "date": "2026-11-20T03:18:22+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/florida/2-5-acres-for-sale-in-punta-gorda-florida-27117",
+        "reason": "Продавец прямо указывает wetlands; сухая площадка и фактический подъезд для высокого 7-метрового кемпервана неизвестны.",
+        "release_condition": "Проверить wetland/flood границы, юридический и фактический доступ, применимые agricultural zoning и допустимость хранения/ремонта."
+      },
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/florida/2-5-acres-for-sale-in-punta-gorda-florida-27117"
+      ]
     }
   ]
 }
