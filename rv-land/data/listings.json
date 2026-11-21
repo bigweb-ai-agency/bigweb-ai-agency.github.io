@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-21T00:49:10+00:00",
+  "updated_at": "2026-11-21T03:12:08+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -5301,14 +5301,15 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-11-21T00:51:48Z",
-      "last_verified": "2026-11-21T00:51:48Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-21T03:06:29Z",
+      "last_verified": "2026-11-21T03:06:29Z",
+      "photo_kind": "Исходное изображение из объявления: пустынная земля с ограждением/столбами; наличие жилого RV или готовой мастерской не доказано.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
       "notes": [
         "03.11.2026: новое объявление LC26959 относится к тому же APN 203-49-455, Lot 455 San Juan Meadows, 1.04 acre, GPS 34.5018,-109.4507. Старый ID lc-26117, first_seen, альтернативные URL и фотографии сохранены. Это повторная публикация того же parcel, а не новый объект.",
-        "Рекламный коллаж с кемпером и обещанием Long-Term RV Living Approved не доказывает фактическое состояние участка или разрешение округа. Для карточки выбран исходный второй снимок грунтовой дороги из галереи; коллаж и предыдущие изображения сохранены. Заявления продавца о camping, длительном проживании с septic и 200 sq ft minimum не приняты за официальное разрешение ремонта."
+        "Рекламный коллаж с кемпером и обещанием Long-Term RV Living Approved не доказывает фактическое состояние участка или разрешение округа. Для карточки выбран исходный второй снимок грунтовой дороги из галереи; коллаж и предыдущие изображения сохранены. Заявления продавца о camping, длительном проживании с septic и 200 sq ft minimum не приняты за официальное разрешение ремонта.",
+        "21.11.2026: Перепубликация source27221 — тот же APN 203-49-455, Lot455 San Juan Meadows, 1.04 ac, GPS34.5018,-109.4507. Cash по-прежнему $7,990 + $249 = $8,239; старый ID/first_seen и история сохранены. Новая текущая галерея отличается от проверки 03.11: выбран второй снимок земли с ограждением/столбами. Рекламный коллаж с RV/$349 start/$200 month и прежний снимок дороги сохранены в истории. Long-term RV с septic и 200 sqft minimum — заявления продавца, не разрешение хранения/ремонта. Электричество доступно, подключение не подтверждено; нужны вода и septic."
       ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26117",
@@ -5334,7 +5335,7 @@
       "status_basis": "live_public_page",
       "source_updated": "2026-11-20T03:10:19.000000Z",
       "source_published": "2026-11-20T03:02:49.000000Z",
-      "image_url": "assets/listings/9092c4cef8eb0abf7115.jpg",
+      "image_url": "assets/listings/e2d67d017c364e2b7f98.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/1-04-acres-for-sale-in-saint-johns-arizona-27221",
       "image_credit": "Seller / LandCentury",
       "parcel": "203-49-455",
@@ -5348,7 +5349,7 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "seller_claim",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
@@ -5422,8 +5423,8 @@
         "Дорога /10": 6
       },
       "score": 29,
-      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/20/6affb8ba6fba4-1795143866.jpg",
-      "photo_preserved_at": "2026-11-21T00:49:10+00:00",
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/20/6affb8c12c3b7-1795143873.jpg",
+      "photo_preserved_at": "2026-11-21T03:08:19+00:00",
       "photo_history": [
         {
           "path": "assets/listings/9092c4cef8eb0abf7115.jpg",
@@ -5459,6 +5460,12 @@
           "basis": "live_public_page",
           "source": "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-saint-johns-arizona-26959",
           "finding": "Relisted source26959 matches existing lc-26117 parcel/GPS/acreage, cash unchanged. Replaced display of promotional montage with original gallery photo2 of the dirt road, preserving all previous files and photo history. Storage/occupancy seller claims only; personal repair unknown."
+        },
+        {
+          "date": "2026-11-21T03:12:08+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-04-acres-for-sale-in-saint-johns-arizona-27221",
+          "finding": "Fresh public fixed-cash price, parcel and source coordinates checked. Display image selected from current listing gallery and visually inspected; original image files/history retained. No parcel-specific storage or repair approval established."
         }
       ]
     },
@@ -7837,12 +7844,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-11-21T00:51:50Z",
-      "last_verified": "2026-11-21T00:51:50Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-21T03:06:30Z",
+      "last_verified": "2026-11-21T03:06:30Z",
+      "photo_kind": "Исходное изображение из объявления: дорога с деревьями и частью автомобиля; готовая RV-площадка внутри участка не подтверждена.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "21.11.2026: Перепубликация source27220 — тот же APN 800-08893-000, 1004 Indianapolis Ave, 0.34 ac. Cash $4,548 + $249 = $4,797; рекламный коллаж с $4,815 сохранён как историческое изображение и не заменяет проверенную цену. Для карточки выбран второй снимок дороги из галереи. Продавец допускает RV лишь до 6 месяцев во время строительства дома; HOLD для самостоятельной базы. Residential, paved road, electricity/municipal water available не подтверждают подключения, отдельное хранение или ремонт."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-25984",
       "source_id": "27220",
@@ -7867,7 +7876,7 @@
       "status_basis": "live_public_page",
       "source_updated": "2026-11-20T02:59:08.000000Z",
       "source_published": "2026-11-20T02:51:32.000000Z",
-      "image_url": "assets/listings/4622d08f732b3b4a4587.jpg",
+      "image_url": "assets/listings/fafa13ead4fd49ead4e5.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/arkansas/0-34-acres-for-sale-in-horseshoe-bend-arkansas-27220",
       "image_credit": "Seller / LandCentury",
       "parcel": "800-08893-000",
@@ -7880,7 +7889,7 @@
         "owner-finance-deals",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
@@ -7908,7 +7917,7 @@
         "https://www.landcentury.com/land-for-sale/arkansas/034-acres-for-sale-in-horseshoe-bend-arkansas-25984"
       ],
       "region": "Юг",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Один из полезных рынков земли в бюджете. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -7951,17 +7960,37 @@
         "Сезон /10": 8,
         "Дорога /10": 5
       },
-      "score": 37,
-      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/20/6affb6260f824-1795143206.jpg",
-      "photo_preserved_at": "2026-11-21T00:49:10+00:00",
+      "score": 20,
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/20/6affb62ece0eb-1795143214.jpg",
+      "photo_preserved_at": "2026-11-21T03:08:19+00:00",
       "photo_history": [
         {
           "path": "assets/listings/4622d08f732b3b4a4587.jpg",
           "source": "https://www.landcentury.com/land-for-sale/arkansas/034-acres-for-sale-in-horseshoe-bend-arkansas-25984",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/22/6a89b0aec8c76-1787408558.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        },
+        {
+          "path": "assets/listings/fafa13ead4fd49ead4e5.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/arkansas/0-34-acres-for-sale-in-horseshoe-bend-arkansas-27220",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/20/6affb62ece0eb-1795143214.jpg",
+          "date": "2026-11-21T03:08:19+00:00"
         }
-      ]
+      ],
+      "verification_history": [
+        {
+          "date": "2026-11-21T03:12:08+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arkansas/0-34-acres-for-sale-in-horseshoe-bend-arkansas-27220",
+          "finding": "Fresh public fixed-cash price, parcel and source coordinates checked. Display image selected from current listing gallery and visually inspected; original image files/history retained. No parcel-specific storage or repair approval established."
+        }
+      ],
+      "review_hold": {
+        "date": "2026-11-21T03:12:08+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/arkansas/0-34-acres-for-sale-in-horseshoe-bend-arkansas-27220",
+        "reason": "В объявлении RV допускается только временно во время строительства дома; самостоятельная база на пустом жилом участке не подтверждена.",
+        "release_condition": "Проверить официальные правила Horseshoe Bend, точное zoning и допустимость отдельного хранения высокого RV и личного ремонта без строительства дома."
+      }
     },
     {
       "price_currency": "USD",
@@ -109023,12 +109052,14 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-18T01:12:05+00:00",
-      "last_seen": "2026-11-21T00:54:34Z",
-      "last_verified": "2026-11-21T00:54:34Z",
+      "last_seen": "2026-11-21T03:06:31Z",
+      "last_verified": "2026-11-21T03:06:31Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "21.11.2026: 1611 Colina Ln/APN 31-163-01: свежая публичная страница явно возвращает isSold=true при isPublished=true. Ночной статус sold подтверждён; цена $8,500, старые фотографии и история не изменены. Это явное подтверждение источника, не вывод из ошибки доступа."
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26619",
       "source_id": "26619",
@@ -109069,7 +109100,7 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "unknown",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -109154,6 +109185,14 @@
       "legacy": false,
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/nevada/023-acres-for-sale-in-pahrump-nevada-26619"
+      ],
+      "verification_history": [
+        {
+          "date": "2026-11-21T03:12:08+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/nevada/023-acres-for-sale-in-pahrump-nevada-26619",
+          "finding": "Fresh public page explicitly confirms sold (isSold=true); existing sold status and history retained."
+        }
       ]
     },
     {
@@ -147234,12 +147273,15 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-21T00:49:10+00:00",
-      "last_seen": "2026-11-21T00:51:45Z",
-      "last_verified": "2026-11-21T00:51:45Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-21T03:06:27Z",
+      "last_verified": "2026-11-21T03:06:27Z",
+      "photo_kind": "Исходное изображение из объявления: вид сверху на пустынную землю с промоинами; готовая сухая площадка не подтверждена.",
       "personal_repair": "restriction_risk",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "21.11.2026: APN 245-22-179, Yucca: cash $3,500 + $249 doc fee = $3,749. По продавцу большая часть лота — sandy wash/FEMA Zone A, лишь узкая полоса выше; для заезда на сам участок нужен 4x4 из-за глубокого песка. Коммуникаций нет на участке и рядом. HOLD: высокий 7-метровый кемперван и ремонтная площадка здесь не подтверждены. Рекламный первый коллаж с $149/month сохранён; для карточки выбран второй снимок земли из галереи. Рассрочка не цена покупки.",
+        "21.11.2026: Официальный Mohave IPMC 302.8 ограничивает неходовые/незарегистрированные машины и крупную разборку; применимые исключения и точная юрисдикция участка неизвестны. Существующий restriction_risk сохранён: https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/"
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27226",
       "source_id": "27226",
@@ -147264,7 +147306,7 @@
       "status_basis": "live_public_page",
       "source_updated": "2026-11-20T18:32:01.000000Z",
       "source_published": "2026-11-20T18:00:42.000000Z",
-      "image_url": "assets/listings/e80a0fa587b994ec5d9b.jpg",
+      "image_url": "assets/listings/20310ae70651e22987c5.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/1-1-acres-for-sale-in-yucca-arizona-27226",
       "image_credit": "Seller / LandCentury",
       "parcel": "245-22-179",
@@ -147278,7 +147320,7 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "seller_claim",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
@@ -147303,19 +147345,25 @@
         }
       ],
       "status_history": [],
-      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/20/6b008b1a20024-1795197722.jpg",
-      "photo_preserved_at": "2026-11-21T00:49:10+00:00",
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/20/6b008b1a4072c-1795197722.jpg",
+      "photo_preserved_at": "2026-11-21T03:08:19+00:00",
       "photo_history": [
         {
           "path": "assets/listings/e80a0fa587b994ec5d9b.jpg",
           "source": "https://www.landcentury.com/land-for-sale/arizona/1-1-acres-for-sale-in-yucca-arizona-27226",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/20/6b008b1a20024-1795197722.jpg",
           "date": "2026-11-21T00:49:10+00:00"
+        },
+        {
+          "path": "assets/listings/20310ae70651e22987c5.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-1-acres-for-sale-in-yucca-arizona-27226",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/20/6b008b1a4072c-1795197722.jpg",
+          "date": "2026-11-21T03:08:19+00:00"
         }
       ],
       "legal_source": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
       "region": "Юго-запад",
-      "screening_issue": null,
+      "screening_issue": "research_hold",
       "climate_note": "Много дешёвой земли. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -147358,18 +147406,47 @@
         "Сезон /10": 6,
         "Дорога /10": 7
       },
-      "score": 37
+      "score": 20,
+      "verification_history": [
+        {
+          "date": "2026-11-21T03:12:08+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-1-acres-for-sale-in-yucca-arizona-27226",
+          "finding": "Fresh public fixed-cash price, parcel and source coordinates checked. Display image selected from current listing gallery and visually inspected; original image files/history retained. No parcel-specific storage or repair approval established."
+        }
+      ],
+      "review_hold": {
+        "date": "2026-11-21T03:12:08+00:00",
+        "source": "https://www.landcentury.com/land-for-sale/arizona/1-1-acres-for-sale-in-yucca-arizona-27226",
+        "reason": "Большая часть участка в sandy wash/Zone A; продавец требует 4x4 для глубокого песка. Пригодный въезд и сухая площадка для высокого 7-метрового RV неизвестны.",
+        "release_condition": "Независимо подтвердить всепогодный проезд, безопасную площадку вне промоин/затопления и разрешённое хранение/личный ремонт."
+      },
+      "official_rules": [
+        {
+          "date": "2026-11-21T03:12:08+00:00",
+          "url": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
+          "section": "IPMC 302.8",
+          "finding": "Official county ordinance page reviewed. Restrictions concern inoperative/unlicensed vehicles and major disassembly/disrepair; zoning or other regulatory exceptions require parcel-specific verification. No personal-repair permission established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/1-1-acres-for-sale-in-yucca-arizona-27226"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-11-21T00:49:10+00:00",
-      "last_seen": "2026-11-21T00:51:47Z",
-      "last_verified": "2026-11-21T00:51:47Z",
-      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "last_seen": "2026-11-21T03:06:28Z",
+      "last_verified": "2026-11-21T03:06:28Z",
+      "photo_kind": "Исходное изображение из объявления: пустынная земля с растительностью и горами; подготовленного заезда и мастерской не видно.",
       "personal_repair": "restriction_risk",
       "commercial_repair": "unknown",
-      "notes": [],
+      "notes": [
+        "21.11.2026: Ruby Road/APN 245-24-030B: cash $4,500 + $249 doc fee = $4,749. 1.17 ac; county-maintained dirt road, ровность, отсутствие flood zone и HOA — сведения продавца. Коммуникаций нет; solar/generator, вода из скважины или привозная, septic — будущие затраты. Camping/Temporary Residence Permit не разрешение ремонта. Первый рекламный коллаж с $129/month сохранён; карточка показывает второй исходный снимок земли.",
+        "21.11.2026: Официальный Mohave IPMC 302.8 ограничивает неходовые/незарегистрированные машины и крупную разборку; применимые исключения и точная юрисдикция участка неизвестны. Существующий restriction_risk сохранён: https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/"
+      ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-27225",
       "source_id": "27225",
@@ -147394,7 +147471,7 @@
       "status_basis": "live_public_page",
       "source_updated": "2026-11-20T17:59:52.000000Z",
       "source_published": "2026-11-20T17:56:29.000000Z",
-      "image_url": "assets/listings/858241f6e14b22881997.jpg",
+      "image_url": "assets/listings/00ff4e2308cf70c5d44e.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/1-17-acres-for-sale-in-yucca-arizona-27225",
       "image_credit": "Seller / LandCentury",
       "parcel": "245-24-030B",
@@ -147410,7 +147487,7 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Размеры и состояние не подтверждены",
+      "garage_note": "Незастроенная земля; существующего гаража или мастерской в продаже не заявлено.",
       "rv_storage": "seller_claim",
       "rv_occupancy": "unknown",
       "existing_garage": false,
@@ -147435,14 +147512,20 @@
         }
       ],
       "status_history": [],
-      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/20/6b008a3bd1ba5-1795197499.jpg",
-      "photo_preserved_at": "2026-11-21T00:49:10+00:00",
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/20/6b008a3b5ff5b-1795197499.jpg",
+      "photo_preserved_at": "2026-11-21T03:08:19+00:00",
       "photo_history": [
         {
           "path": "assets/listings/858241f6e14b22881997.jpg",
           "source": "https://www.landcentury.com/land-for-sale/arizona/1-17-acres-for-sale-in-yucca-arizona-27225",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/20/6b008a3bd1ba5-1795197499.jpg",
           "date": "2026-11-21T00:49:10+00:00"
+        },
+        {
+          "path": "assets/listings/00ff4e2308cf70c5d44e.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-17-acres-for-sale-in-yucca-arizona-27225",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/20/6b008a3b5ff5b-1795197499.jpg",
+          "date": "2026-11-21T03:08:19+00:00"
         }
       ],
       "legal_source": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
@@ -147490,7 +147573,27 @@
         "Сезон /10": 6,
         "Дорога /10": 7
       },
-      "score": 35
+      "score": 35,
+      "verification_history": [
+        {
+          "date": "2026-11-21T03:12:08+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-17-acres-for-sale-in-yucca-arizona-27225",
+          "finding": "Fresh public fixed-cash price, parcel and source coordinates checked. Display image selected from current listing gallery and visually inspected; original image files/history retained. No parcel-specific storage or repair approval established."
+        }
+      ],
+      "official_rules": [
+        {
+          "date": "2026-11-21T03:12:08+00:00",
+          "url": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
+          "section": "IPMC 302.8",
+          "finding": "Official county ordinance page reviewed. Restrictions concern inoperative/unlicensed vehicles and major disassembly/disrepair; zoning or other regulatory exceptions require parcel-specific verification. No personal-repair permission established."
+        }
+      ],
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/1-17-acres-for-sale-in-yucca-arizona-27225"
+      ]
     }
   ]
 }

@@ -7022,7 +7022,144 @@
       "rotation_reason": "Continue rotation through low-count mountain states; automatic catalog plan covers all50. Prioritize actual workshops and usable airport access, no quota fillers.",
       "preservation": "All1121 IDs,first_seen,parcels,coordinates,areas,prices,fees,bases,statuses and price/status/photo histories preserved against nightly499655a. Eight research holds added, no availability changed. Monitor/flights/Sicily/all existing asset bytes unchanged; journal append-only.",
       "validation": "36 focused tests passed;1121 retained records/1120 photos/50 states validated. Preservation/diff checks before scoped publication; exact-head Pages and live map/photos postflight separately recorded."
+    },
+    {
+      "date": "2026-11-21T03:12:56+00:00",
+      "states": [
+        "ID",
+        "MT",
+        "WY"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [],
+      "updated_ids": [
+        "lc-27226",
+        "lc-27225",
+        "lc-26117",
+        "lc-25984",
+        "lc-26619"
+      ],
+      "automatic_added_ids": [
+        "lc-27226",
+        "lc-27225"
+      ],
+      "automatic_updated_ids": [
+        "lc-26117",
+        "lc-26619"
+      ],
+      "automatic_url_only_ids": [
+        "lc-25984"
+      ],
+      "workflow": {
+        "run_id": 44846280703,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/44846280703",
+        "conclusion": "success",
+        "created_at": "2026-11-21T00:48:48Z",
+        "data_commit": "58fb35ca52463e7949dc44eca7704b9a7c12bb0e"
+      },
+      "monitor": {
+        "date": "2026-11-21T00:49:10+00:00",
+        "status": "partial",
+        "scanned_pages": 113,
+        "read_details": 62,
+        "added": 2,
+        "changed": 2,
+        "errors": 58
+      },
+      "source_errors": "Nightly44846280703 and Pages44846905320 succeeded; duplicate Pages44846903245 cancelled. Monitor partial:113 catalogs/62 details/2 new/2 changed/58 errors. All20 retained error samples404; remaining38 uncharacterized. Automatic collector available, fallback not required. PureWest robots403: stopped. Homes listing image preservation unavailable; cause not retained, no new record imported.",
+      "findings": [
+        {
+          "id": "lc-27226",
+          "finding": "21.11.2026: APN 245-22-179, Yucca: cash $3,500 + $249 doc fee = $3,749. По продавцу большая часть лота — sandy wash/FEMA Zone A, лишь узкая полоса выше; для заезда на сам участок нужен 4x4 из-за глубокого песка. Коммуникаций нет на участке и рядом. HOLD: высокий 7-метровый кемперван и ремонтная площадка здесь не подтверждены. Рекламный первый коллаж с $149/month сохранён; для карточки выбран второй снимок земли из галереи. Рассрочка не цена покупки. 21.11.2026: Официальный Mohave IPMC 302.8 ограничивает неходовые/незарегистрированные машины и крупную разборку; применимые исключения и точная юрисдикция участка неизвестны. Существующий restriction_risk сохранён: https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/"
+        },
+        {
+          "id": "lc-27225",
+          "finding": "21.11.2026: Ruby Road/APN 245-24-030B: cash $4,500 + $249 doc fee = $4,749. 1.17 ac; county-maintained dirt road, ровность, отсутствие flood zone и HOA — сведения продавца. Коммуникаций нет; solar/generator, вода из скважины или привозная, septic — будущие затраты. Camping/Temporary Residence Permit не разрешение ремонта. Первый рекламный коллаж с $129/month сохранён; карточка показывает второй исходный снимок земли. 21.11.2026: Официальный Mohave IPMC 302.8 ограничивает неходовые/незарегистрированные машины и крупную разборку; применимые исключения и точная юрисдикция участка неизвестны. Существующий restriction_risk сохранён: https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/"
+        },
+        {
+          "id": "lc-26117",
+          "finding": "21.11.2026: Перепубликация source27221 — тот же APN 203-49-455, Lot455 San Juan Meadows, 1.04 ac, GPS34.5018,-109.4507. Cash по-прежнему $7,990 + $249 = $8,239; старый ID/first_seen и история сохранены. Новая текущая галерея отличается от проверки 03.11: выбран второй снимок земли с ограждением/столбами. Рекламный коллаж с RV/$349 start/$200 month и прежний снимок дороги сохранены в истории. Long-term RV с septic и 200 sqft minimum — заявления продавца, не разрешение хранения/ремонта. Электричество доступно, подключение не подтверждено; нужны вода и septic."
+        },
+        {
+          "id": "lc-25984",
+          "finding": "21.11.2026: Перепубликация source27220 — тот же APN 800-08893-000, 1004 Indianapolis Ave, 0.34 ac. Cash $4,548 + $249 = $4,797; рекламный коллаж с $4,815 сохранён как историческое изображение и не заменяет проверенную цену. Для карточки выбран второй снимок дороги из галереи. Продавец допускает RV лишь до 6 месяцев во время строительства дома; HOLD для самостоятельной базы. Residential, paved road, electricity/municipal water available не подтверждают подключения, отдельное хранение или ремонт."
+        },
+        {
+          "id": "lc-26619",
+          "finding": "21.11.2026: 1611 Colina Ln/APN 31-163-01: свежая публичная страница явно возвращает isSold=true при isPublished=true. Ночной статус sold подтверждён; цена $8,500, старые фотографии и история не изменены. Это явное подтверждение источника, не вывод из ошибки доступа."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.homes.com/property/tbd-alpine-ave-cut-bank-mt/clqv9338kwfdn/?l=xp7bcd5dgf70j",
+          "finding": "MT Alpine Ave, Lot7 BlockC Vogt, MLS30081003: indexed $14,500,0.258ac,APN38452912125070000; broker index supplies48.638414,-112.321732. Raw residential land, no utilities or existing garage, no verified RV/repair entitlement. Genuine primary listing photo URL found but byte preservation failed (unavailable, HTTP cause not retained). Deferred: no new photoless record. Do not import mixed generic-address price history from other Alpine tracts; closing costs unknown."
+        },
+        {
+          "url": "https://purewestrealestate.com/property/tbd-alpine-avenue-cut-bank-mt-59427/111890815/",
+          "finding": "MT Alpine broker indexed listing corroborates MLS30081003,$14,500 and parcel point; indexed content is not a fresh direct observation. Direct robots request403; stopped without requesting listing or bypassing origin."
+        },
+        {
+          "url": "https://www.homes.com/property/3069-s-3200-rexburg-id/4w124krzbr5e7/",
+          "finding": "ID Rexburg $15,000:1978 manufactured home980sqft, explicitly land not included and must be moved. No garage or owned RV base; reject."
+        },
+        {
+          "url": "https://www.land.com/property/25792-river-rd--grand-view-idaho-83624/26495055/",
+          "finding": "ID Grand View property with14ft garage doors: $15,000 describes landscaping concession, not purchase price. Reject budget interpretation."
+        },
+        {
+          "url": "https://www.homes.com/idaho/land-for-sale/under-15k/",
+          "finding": "ID bounded catalog and garage searches: Blue Ash Dr Salmon $14,500/APN000790130210 already ls-5400888; Silver St$5,000 pending already ls-5493524. Council property with28x44 workshop costs$635,000; $15,000 is reduction. Mining claims and per-acre prices not fee-simple purchase totals. No duplicates or freshness overwrite."
+        },
+        {
+          "url": "https://www.northwestranchland.com/recently-sold",
+          "finding": "MT NHN Rd Harlem listing25008-04996 has24x32 heated shop but broker page explicitly lists it as sold; no new active import."
+        },
+        {
+          "url": "https://www.qualitycustomsheds.com/for-sale",
+          "finding": "MT $14,76114x28 A-frame garage is a delivered building without land, with9x7ft door. Not a purchased high-campervan property; excluded."
+        },
+        {
+          "url": "https://www.homes.com/montana/land-for-sale/under-15k/",
+          "finding": "MT bounded rotation: Shelby4thSt$15,000 already ls-4462332; Rosser Riverview Glendive$8,000 already mls-mt331510. Fractional mining-lode interests not treated as full ownership. No duplicate records or indexed overwrites."
+        },
+        {
+          "url": "https://www.landandfarm.com/property/1-5-acre-building-base-42867666/",
+          "finding": "WY430PineStOsage:1.5ac and20x20garage/utilities,$94,000, above budget.20ft building dimension also shorter than7m; no suitable-budget import."
+        },
+        {
+          "url": "https://www.homes.com/property/0-sioux-dr-evanston-wy/vylpt7cjwb2rt/",
+          "finding": "WY0SiouxDr Evanston/BearRiver,MLS260767: portals display$10,000 for99.4ac, but full-cash price basis, exact parcel identity and coordinates not independently established. No explicit per-acre or auction proof found; do not label it as either. Deferred instead of importing an unverified bargain."
+        },
+        {
+          "url": "https://www.homes.com/wyoming/land-for-sale/under-15k/",
+          "finding": "WY bounded rotation:1126ElkRockSprings$12,500 and2305/2205SecondHanna$15,000/$10,000 already retained. Mining claims and monthly offers excluded as ownership substitutes. No verified new workshop in budget."
+        }
+      ],
+      "official_rules": [
+        {
+          "url": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
+          "finding": "Official public ordinance page reviewed Nov21, IPMC302.8 restricts inoperative/unlicensed vehicles and major disassembly/disrepair, subject to other rules/zoning exceptions. Existing restriction_risk retained for both Yucca lots; no parcel-specific permission established."
+        },
+        {
+          "url": "https://codelibrary.amlegal.com/codes/cutbankmt/latest/cutbank_mt/0-0-0-3026",
+          "finding": "Cut Bank11-5-1 requires land use to match district; publication2023S1 may not include newest rules. Alpine parcel exact zoning and standalone RV/repair permissions unverified. Not converted into approval."
+        }
+      ],
+      "access": "Bounded ID/MT/WY research beyond LandCentury;5 successful fresh public LandCentury reads and original photographs visually inspected. Four current-gallery display selections preserve original bytes/history, three new photo assets saved. No source restriction bypass, seller contacts, purchases, bookings or infrastructure changes.",
+      "flight_review": {
+        "last_review": "2026-11-16",
+        "next_review": "2026-11-23",
+        "finding": "Weekly flight refresh not due; flights.json unchanged."
+      },
+      "next_states": [
+        "WA",
+        "HI",
+        "VT"
+      ],
+      "rotation_reason": "Rotate next through other low-count states; automated catalog plan continues all50. Prefer existing workshops and usable airport access; no quota fillers.",
+      "preservation": "All1123 IDs,first_seen,parcels,coordinates,areas,prices,fees,bases,statuses and price/status histories preserved against nightly58fb35c. Two research holds added; sold lc-26619 independently confirmed, no manual availability changes. All earlier photo history entries and asset bytes preserved; monitor/flights/Sicily unchanged. Journal append-only.",
+      "validation": "Targeted data tests,50-state validation,preservation/diff checks and exact-head Pages/public-map/photo verification recorded separately in local postflight evidence."
     }
   ],
-  "updated_at": "2026-11-20T03:19:14+00:00"
+  "updated_at": "2026-11-21T03:12:56+00:00"
 }
