@@ -1,9 +1,9 @@
 {
   "schedule": "Ежедневно 00:37 UTC: 03:37 летом / 02:37 зимой по Вильнюсу. GitHub Actions может запускаться с задержкой.",
-  "last_run": "2026-11-20T00:49:35+00:00",
+  "last_run": "2026-11-21T00:49:10+00:00",
   "status": "partial",
-  "run_url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/44648877984",
-  "summary": "12 новых; 1 изменений цены/статуса/фото; 62 страниц проверено; ошибок 58.",
+  "run_url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/44846280703",
+  "summary": "2 новых; 2 изменений цены/статуса/фото; 62 страниц проверено; ошибок 58.",
   "scope": "LandCentury: новые страницы всех 50 штатов и ротация старых записей. LandSearch и старые MLS — отдельная исследовательская проверка, не автоматический live-статус.",
   "events": [
     {
@@ -716,6 +716,15 @@
       "added": 12,
       "changed": 1,
       "errors": 58
+    },
+    {
+      "date": "2026-11-21T00:49:10+00:00",
+      "status": "partial",
+      "scanned_pages": 113,
+      "read_details": 62,
+      "added": 2,
+      "changed": 2,
+      "errors": 58
     }
   ],
   "source_errors": [
@@ -862,12 +871,6 @@
       "state": "UT"
     },
     {
-      "url": "https://www.landcentury.com/land-for-sale/california/518-acres-for-sale-in-lancaster-california-26626",
-      "reason": "vehicle_access_problem",
-      "price": 10500.0,
-      "state": "CA"
-    },
-    {
       "url": "https://www.landcentury.com/land-for-sale/louisiana/20-acres-for-sale-in-st-bernard-louisiana-26519",
       "reason": "vehicle_access_problem",
       "price": 10000.0,
@@ -896,12 +899,6 @@
       "reason": "outside_cash_budget",
       "price": 18250.0,
       "state": "NM"
-    },
-    {
-      "url": "https://www.landcentury.com/land-for-sale/california/006-acres-for-sale-in-taft-california-25738",
-      "reason": "lot_too_small_for_screening",
-      "price": 9000.0,
-      "state": "CA"
     },
     {
       "url": "https://www.landcentury.com/land-for-sale/utah/111-acres-for-sale-in-beryl-utah-25317",
@@ -1082,11 +1079,77 @@
       "reason": "availability_not_confirmed_by_source",
       "price": 8000.0,
       "state": "PA"
+    },
+    {
+      "url": "https://www.landcentury.com/land-for-sale/north-carolina/046-acres-for-sale-in-woodleaf-nc-12951",
+      "reason": "availability_not_confirmed_by_source",
+      "price": 11950.0,
+      "state": "NC"
+    },
+    {
+      "url": "https://www.landcentury.com/land-for-sale/georgia/021-acres-for-sale-in-rome-ga-12672",
+      "reason": "availability_not_confirmed_by_source",
+      "price": 8000.0,
+      "state": "GA"
+    },
+    {
+      "url": "https://www.landcentury.com/land-for-sale/georgia/05-acres-for-sale-in-sparta-ga-12664",
+      "reason": "availability_not_confirmed_by_source",
+      "price": 7500.0,
+      "state": "GA"
+    },
+    {
+      "url": "https://www.landcentury.com/land-for-sale/georgia/149-acres-for-sale-in-decatur-ga-12613",
+      "reason": "availability_not_confirmed_by_source",
+      "price": 11900.0,
+      "state": "GA"
+    },
+    {
+      "url": "https://www.landcentury.com/land-for-sale/georgia/11-acres-for-sale-in-ellijay-ga-12591",
+      "reason": "availability_not_confirmed_by_source",
+      "price": 8000.0,
+      "state": "GA"
+    },
+    {
+      "url": "https://www.landcentury.com/land-for-sale/georgia/069-acres-for-sale-in-waverly-hall-ga-12582",
+      "reason": "availability_not_confirmed_by_source",
+      "price": 9900.0,
+      "state": "GA"
+    },
+    {
+      "url": "https://www.landcentury.com/land-for-sale/tennessee/025-acres-for-sale-in-crossville-tn-12575",
+      "reason": "availability_not_confirmed_by_source",
+      "price": 5990.0,
+      "state": "TN"
+    },
+    {
+      "url": "https://www.landcentury.com/land-for-sale/georgia/055-acres-for-sale-in-sparta-ga-12550",
+      "reason": "availability_not_confirmed_by_source",
+      "price": 9900.0,
+      "state": "GA"
+    },
+    {
+      "url": "https://www.landcentury.com/land-for-sale/tennessee/017-acres-for-sale-in-memphis-tn-12545",
+      "reason": "availability_not_confirmed_by_source",
+      "price": 8000.0,
+      "state": "TN"
+    },
+    {
+      "url": "https://www.landcentury.com/land-for-sale/georgia/037-acres-for-sale-in-rome-ga-12529",
+      "reason": "availability_not_confirmed_by_source",
+      "price": 8500.0,
+      "state": "GA"
+    },
+    {
+      "url": "https://www.landcentury.com/land-for-sale/tennessee/12-acres-for-sale-in-dyersburg-tn-12526",
+      "reason": "availability_not_confirmed_by_source",
+      "price": 14500.0,
+      "state": "TN"
     }
   ],
   "photo_preservation": {
-    "cached": 1105,
-    "saved": 15,
+    "saved": 6,
+    "cached": 1116,
     "missing": 1
   }
 }

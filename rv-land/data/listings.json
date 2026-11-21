@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-20T03:18:22+00:00",
+  "updated_at": "2026-11-21T00:49:10+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -5301,9 +5301,9 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-11-03T03:19:20+00:00",
-      "last_verified": "2026-11-03T03:19:20+00:00",
-      "photo_kind": "Второе фото из текущего объявления: пикап на грунтовой дороге среди открытой местности. Границы parcel и готовая площадка не показаны.",
+      "last_seen": "2026-11-21T00:51:48Z",
+      "last_verified": "2026-11-21T00:51:48Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
       "notes": [
@@ -5312,9 +5312,9 @@
       ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26117",
-      "source_id": "26959",
+      "source_id": "27221",
       "source": "LandCentury",
-      "url": "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-saint-johns-arizona-26959",
+      "url": "https://www.landcentury.com/land-for-sale/arizona/1-04-acres-for-sale-in-saint-johns-arizona-27221",
       "title": "14 County Road 6031",
       "address": "14 County Road 6031",
       "city": "Saint Johns",
@@ -5325,20 +5325,20 @@
       "price": 7990.0,
       "known_fees": 249.0,
       "total_known": 8239.0,
-      "price_evidence": "03.11.2026: cash $7,990 плюс $249 doc fee = $8,239. $349 to start и $200/month относятся к рассрочке, не полной цене.",
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 1.04,
       "lat": 34.5018,
       "lng": -109.4507,
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-11-02T22:14:39.000000Z",
-      "source_published": "2026-11-02T22:10:09.000000Z",
-      "image_url": "assets/listings/98f46fcf3cb5b3e3ba74.jpg",
-      "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-saint-johns-arizona-26959",
+      "source_updated": "2026-11-20T03:10:19.000000Z",
+      "source_published": "2026-11-20T03:02:49.000000Z",
+      "image_url": "assets/listings/9092c4cef8eb0abf7115.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/1-04-acres-for-sale-in-saint-johns-arizona-27221",
       "image_credit": "Seller / LandCentury",
       "parcel": "203-49-455",
-      "zoning": "Agricultural General, по продавцу; parcel zoning не проверен",
+      "zoning": "Agricultural",
       "road_note": "Dirt Road",
       "utility_note": "Electricity available, septic and well required",
       "taxes_note": "25.88/year",
@@ -5348,7 +5348,7 @@
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
-      "garage_note": "Пустой участок; workshop в описании — возможное будущее использование, существующего гаража нет.",
+      "garage_note": "Размеры и состояние не подтверждены",
       "rv_storage": "seller_claim",
       "rv_occupancy": "seller_conditional",
       "existing_garage": false,
@@ -5359,10 +5359,9 @@
       "no_hoa": "seller_claim",
       "road_access": "seller_claim",
       "flags": [
-        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
-        "Нет существующей мастерской; личный ремонт неизвестен. Электричество лишь available, well и septic ещё требуются."
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
       ],
-      "evidence_quote": "Electricity available, septic and well required",
+      "evidence_quote": "04-Acre Property in Saint Johns with RV Living Approved Discover freedom and flexibility on this full 1.",
       "price_history": [
         {
           "date": "2026-09-13T22:25:02+00:00",
@@ -5373,6 +5372,7 @@
       "status_history": [],
       "legacy": false,
       "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/1-04-acres-for-sale-in-saint-johns-arizona-27221",
         "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-saint-johns-arizona-26117",
         "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-saint-johns-arizona-26476",
         "https://www.landcentury.com/land-for-sale/arizona/104-acres-for-sale-in-saint-johns-arizona-26959"
@@ -5422,8 +5422,8 @@
         "Дорога /10": 6
       },
       "score": 29,
-      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/02/6ae90a97a672d-1793657495.jpg",
-      "photo_preserved_at": "2026-11-03T03:19:20+00:00",
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/20/6affb8ba6fba4-1795143866.jpg",
+      "photo_preserved_at": "2026-11-21T00:49:10+00:00",
       "photo_history": [
         {
           "path": "assets/listings/9092c4cef8eb0abf7115.jpg",
@@ -7837,17 +7837,17 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-11-04T00:53:48Z",
-      "last_verified": "2026-11-04T00:53:48Z",
+      "last_seen": "2026-11-21T00:51:50Z",
+      "last_verified": "2026-11-21T00:51:50Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
       "notes": [],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-25984",
-      "source_id": "25984",
+      "source_id": "27220",
       "source": "LandCentury",
-      "url": "https://www.landcentury.com/land-for-sale/arkansas/034-acres-for-sale-in-horseshoe-bend-arkansas-25984",
+      "url": "https://www.landcentury.com/land-for-sale/arkansas/0-34-acres-for-sale-in-horseshoe-bend-arkansas-27220",
       "title": "1004 Indianapolis Avenue",
       "address": "1004 Indianapolis Avenue",
       "city": "Horseshoe Bend",
@@ -7865,10 +7865,10 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-08-22T14:25:18.000000Z",
-      "source_published": "2026-08-22T14:21:47.000000Z",
+      "source_updated": "2026-11-20T02:59:08.000000Z",
+      "source_published": "2026-11-20T02:51:32.000000Z",
       "image_url": "assets/listings/4622d08f732b3b4a4587.jpg",
-      "image_source_url": "https://www.landcentury.com/land-for-sale/arkansas/034-acres-for-sale-in-horseshoe-bend-arkansas-25984",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/arkansas/0-34-acres-for-sale-in-horseshoe-bend-arkansas-27220",
       "image_credit": "Seller / LandCentury",
       "parcel": "800-08893-000",
       "zoning": "Residential",
@@ -7904,6 +7904,7 @@
       "status_history": [],
       "legacy": false,
       "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arkansas/0-34-acres-for-sale-in-horseshoe-bend-arkansas-27220",
         "https://www.landcentury.com/land-for-sale/arkansas/034-acres-for-sale-in-horseshoe-bend-arkansas-25984"
       ],
       "region": "Юг",
@@ -7951,8 +7952,8 @@
         "Дорога /10": 5
       },
       "score": 37,
-      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/22/6a89b0aec8c76-1787408558.jpg",
-      "photo_preserved_at": "2026-11-04T00:48:24+00:00",
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/20/6affb6260f824-1795143206.jpg",
+      "photo_preserved_at": "2026-11-21T00:49:10+00:00",
       "photo_history": [
         {
           "path": "assets/listings/4622d08f732b3b4a4587.jpg",
@@ -108892,8 +108893,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-18T01:12:05+00:00",
-      "last_seen": "2026-10-18T01:14:43Z",
-      "last_verified": "2026-10-18T01:14:43Z",
+      "last_seen": "2026-11-21T00:54:33Z",
+      "last_verified": "2026-11-21T00:54:33Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -108920,7 +108921,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-17T23:14:02.000000Z",
+      "source_updated": "2026-11-05T16:39:42.000000Z",
       "source_published": "2026-10-17T23:05:01.000000Z",
       "image_url": "assets/listings/8f7019565e51c3c3bd74.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/nevada/012-acres-for-sale-in-pahrump-nevada-26620",
@@ -108943,7 +108944,7 @@
       "rv_occupancy": "unknown",
       "existing_garage": false,
       "garage_size": null,
-      "electricity": "on_site_claim",
+      "electricity": "available",
       "water": "unknown",
       "sewer": "unknown",
       "no_hoa": "unknown",
@@ -108959,7 +108960,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/17/6ad4006b52570-1792278635.jpg",
-      "photo_preserved_at": "2026-10-18T01:12:05+00:00",
+      "photo_preserved_at": "2026-11-21T00:49:10+00:00",
       "photo_history": [
         {
           "path": "assets/listings/8f7019565e51c3c3bd74.jpg",
@@ -109008,18 +109009,22 @@
         "Цена /25": 18,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
-        "Коммуникации /10": 3,
+        "Коммуникации /10": 1,
         "Сезон /10": 5,
         "Дорога /10": 9
       },
-      "score": 35
+      "score": 33,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/nevada/012-acres-for-sale-in-pahrump-nevada-26620"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-18T01:12:05+00:00",
-      "last_seen": "2026-10-18T01:14:45Z",
-      "last_verified": "2026-10-18T01:14:45Z",
+      "last_seen": "2026-11-21T00:54:34Z",
+      "last_verified": "2026-11-21T00:54:34Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -109044,9 +109049,9 @@
       "lat": 36.30825,
       "lng": -116.04345,
       "coord_precision": "listing",
-      "status": "active",
+      "status": "sold",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-17T23:00:58.000000Z",
+      "source_updated": "2026-11-19T07:31:53.000000Z",
       "source_published": "2026-10-17T22:53:19.000000Z",
       "image_url": "assets/listings/1129cec2b5c6db6be336.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/nevada/023-acres-for-sale-in-pahrump-nevada-26619",
@@ -109083,9 +109088,16 @@
           "source": "https://www.landcentury.com/land-for-sale/nevada/023-acres-for-sale-in-pahrump-nevada-26619"
         }
       ],
-      "status_history": [],
+      "status_history": [
+        {
+          "date": "2026-11-21T00:49:10+00:00",
+          "from": "active",
+          "to": "sold",
+          "source": "https://www.landcentury.com/land-for-sale/nevada/023-acres-for-sale-in-pahrump-nevada-26619"
+        }
+      ],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/17/6ad3fd6426169-1792277860.jpg",
-      "photo_preserved_at": "2026-10-18T01:12:05+00:00",
+      "photo_preserved_at": "2026-11-21T00:49:10+00:00",
       "photo_history": [
         {
           "path": "assets/listings/1129cec2b5c6db6be336.jpg",
@@ -109095,7 +109107,7 @@
         }
       ],
       "region": "Юго-запад",
-      "screening_issue": null,
+      "screening_issue": "availability_not_confirmed_by_source",
       "climate_note": "Много удалённых лотов. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -109138,7 +109150,11 @@
         "Сезон /10": 5,
         "Дорога /10": 9
       },
-      "score": 31
+      "score": 20,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/nevada/023-acres-for-sale-in-pahrump-nevada-26619"
+      ]
     },
     {
       "price_currency": "USD",
@@ -147213,6 +147229,268 @@
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/florida/2-5-acres-for-sale-in-punta-gorda-florida-27117"
       ]
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-21T00:49:10+00:00",
+      "last_seen": "2026-11-21T00:51:45Z",
+      "last_verified": "2026-11-21T00:51:45Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "restriction_risk",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27226",
+      "source_id": "27226",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/arizona/1-1-acres-for-sale-in-yucca-arizona-27226",
+      "title": "1.1 Acres for Sale in Yucca, Arizona",
+      "address": "",
+      "city": "Yucca",
+      "state": "AZ",
+      "county": "Mohave",
+      "zip": "86438",
+      "kind": "land",
+      "price": 3500.0,
+      "known_fees": 249.0,
+      "total_known": 3749.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 1.1,
+      "lat": 34.812267,
+      "lng": -114.135941,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-20T18:32:01.000000Z",
+      "source_published": "2026-11-20T18:00:42.000000Z",
+      "image_url": "assets/listings/e80a0fa587b994ec5d9b.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/1-1-acres-for-sale-in-yucca-arizona-27226",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "245-22-179",
+      "zoning": "Agricultural",
+      "road_note": "Dirt Road",
+      "utility_note": "No utilities",
+      "taxes_note": "27.52",
+      "source_categories": [
+        "owner-finance-deals",
+        "recreational-and-hunting-land",
+        "mobile-home-and-rv-land",
+        "vacant-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "seller_claim",
+      "rv_occupancy": "seller_conditional",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "none",
+      "water": "none",
+      "sewer": "none",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "flags": [
+        "Источник упоминает flood zone/flood risk; контекст и фактический риск требуют проверки FEMA и отметки площадки.",
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Mohave IPMC 302.8 ограничивает неходовые машины и крупную разборку; проверить zoning-исключения и точную юрисдикцию."
+      ],
+      "evidence_quote": "Maybe you're tired of crowded campgrounds, reservation fees, and neighbors parked ten feet away.",
+      "price_history": [
+        {
+          "date": "2026-11-21T00:49:10+00:00",
+          "price": 3500.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-1-acres-for-sale-in-yucca-arizona-27226"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/20/6b008b1a20024-1795197722.jpg",
+      "photo_preserved_at": "2026-11-21T00:49:10+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/e80a0fa587b994ec5d9b.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-1-acres-for-sale-in-yucca-arizona-27226",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/20/6b008b1a20024-1795197722.jpg",
+          "date": "2026-11-21T00:49:10+00:00"
+        }
+      ],
+      "legal_source": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
+      "region": "Юго-запад",
+      "screening_issue": null,
+      "climate_note": "Много дешёвой земли. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 169,
+          "drive_km_estimate": 211,
+          "drive_hours_estimate": 2.8,
+          "flight_min_eur": 580,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "PHX",
+          "name": "Phoenix Sky Harbor International Airport",
+          "straight_km": 249,
+          "drive_km_estimate": 311,
+          "drive_hours_estimate": 4.1,
+          "flight_min_eur": 753,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "SAN",
+          "name": "San Diego International Airport",
+          "straight_km": 365,
+          "drive_km_estimate": 456,
+          "drive_hours_estimate": 6.1,
+          "flight_min_eur": null,
+          "flight_origin": null,
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 2098,
+      "score_parts": {
+        "Цена /25": 24,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 6,
+        "Дорога /10": 7
+      },
+      "score": 37
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-21T00:49:10+00:00",
+      "last_seen": "2026-11-21T00:51:47Z",
+      "last_verified": "2026-11-21T00:51:47Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "restriction_risk",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27225",
+      "source_id": "27225",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/arizona/1-17-acres-for-sale-in-yucca-arizona-27225",
+      "title": "Ruby Road",
+      "address": "Ruby Road",
+      "city": "Yucca",
+      "state": "AZ",
+      "county": "Mohave",
+      "zip": "86438",
+      "kind": "land",
+      "price": 4500.0,
+      "known_fees": 249.0,
+      "total_known": 4749.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 1.17,
+      "lat": 34.817249,
+      "lng": -114.077614,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-20T17:59:52.000000Z",
+      "source_published": "2026-11-20T17:56:29.000000Z",
+      "image_url": "assets/listings/858241f6e14b22881997.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/1-17-acres-for-sale-in-yucca-arizona-27225",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "245-24-030B",
+      "zoning": "Agricultural",
+      "road_note": "Dirt Road",
+      "utility_note": "No utilities",
+      "taxes_note": "18.96",
+      "source_categories": [
+        "residential-buildable-land",
+        "agricultural-and-farm-land",
+        "owner-finance-deals",
+        "recreational-and-hunting-land",
+        "mobile-home-and-rv-land",
+        "vacant-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "seller_claim",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "none",
+      "water": "none",
+      "sewer": "unknown",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "flags": [
+        "Источник упоминает flood zone/flood risk; контекст и фактический риск требуют проверки FEMA и отметки площадки.",
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Mohave IPMC 302.8 ограничивает неходовые машины и крупную разборку; проверить zoning-исключения и точную юрисдикцию."
+      ],
+      "evidence_quote": "That's about the size of a football field, with room for your home, a solar setup, a water tank, a garden, a",
+      "price_history": [
+        {
+          "date": "2026-11-21T00:49:10+00:00",
+          "price": 4500.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-17-acres-for-sale-in-yucca-arizona-27225"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/20/6b008a3bd1ba5-1795197499.jpg",
+      "photo_preserved_at": "2026-11-21T00:49:10+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/858241f6e14b22881997.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-17-acres-for-sale-in-yucca-arizona-27225",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/20/6b008a3bd1ba5-1795197499.jpg",
+          "date": "2026-11-21T00:49:10+00:00"
+        }
+      ],
+      "legal_source": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
+      "region": "Юго-запад",
+      "screening_issue": null,
+      "climate_note": "Много дешёвой земли. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 171,
+          "drive_km_estimate": 214,
+          "drive_hours_estimate": 2.9,
+          "flight_min_eur": 580,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "PHX",
+          "name": "Phoenix Sky Harbor International Airport",
+          "straight_km": 245,
+          "drive_km_estimate": 306,
+          "drive_hours_estimate": 4.1,
+          "flight_min_eur": 753,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "SAN",
+          "name": "San Diego International Airport",
+          "straight_km": 369,
+          "drive_km_estimate": 462,
+          "drive_hours_estimate": 6.2,
+          "flight_min_eur": null,
+          "flight_origin": null,
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 2093,
+      "score_parts": {
+        "Цена /25": 22,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 6,
+        "Дорога /10": 7
+      },
+      "score": 35
     }
   ]
 }
