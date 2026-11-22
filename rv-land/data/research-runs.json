@@ -7159,7 +7159,102 @@
       "rotation_reason": "Rotate next through other low-count states; automated catalog plan continues all50. Prefer existing workshops and usable airport access; no quota fillers.",
       "preservation": "All1123 IDs,first_seen,parcels,coordinates,areas,prices,fees,bases,statuses and price/status histories preserved against nightly58fb35c. Two research holds added; sold lc-26619 independently confirmed, no manual availability changes. All earlier photo history entries and asset bytes preserved; monitor/flights/Sicily unchanged. Journal append-only.",
       "validation": "Targeted data tests,50-state validation,preservation/diff checks and exact-head Pages/public-map/photo verification recorded separately in local postflight evidence."
+    },
+    {
+      "date": "2026-11-22T03:14:23+00:00",
+      "states": [
+        "WA",
+        "HI",
+        "VT"
+      ],
+      "type": "manual_public_research",
+      "added_ids": [
+        "mls-hi-726495",
+        "mls-hi-732660"
+      ],
+      "updated_ids": [],
+      "automatic_added_ids": [],
+      "automatic_updated_ids": [],
+      "workflow": {
+        "run_id": 44968633290,
+        "url": "https://github.com/bigweb-ai-agency/bigweb-ai-agency.github.io/actions/runs/44968633290",
+        "conclusion": "success",
+        "created_at": "2026-11-22T00:51:11Z",
+        "data_commit": "dc5a8406bf0933ec922d70bb577ac2ec244724d6"
+      },
+      "monitor": {
+        "date": "2026-11-22T00:51:33+00:00",
+        "status": "partial",
+        "scanned_pages": 113,
+        "read_details": 62,
+        "added": 0,
+        "changed": 0,
+        "errors": 58
+      },
+      "source_errors": "Nightly44968633290 and Pages44969114199 succeeded; duplicate Pages44969111744 cancelled. Monitor partial:113 catalogs/62 details/0new/0changed/58 errors. All20 retained error samples404; remaining38 uncharacterized. Collector available, fallback not required. HawaiiCounty PDF/index direct403 and Google static-map403: stopped without bypass. Map point instead read from successful broker listing HTML and corroborated independently; no map API request repeated. Public image-host robots404 means absent file, then two listing photos saved normally. HomesVT inaccessible and oldWA brokerPDF timeout did not alter listing statuses.",
+      "findings": [
+        {
+          "id": "mls-hi-726495",
+          "url": "https://www.hawaiirealestatesearch.com/listing/726495-pineapple-pkwy-kau-hi-96737/",
+          "finding": "22.11.2026: цена, статус Active, MLS, площадь 1 acre и точка карты прочитаны на публичной странице брокера. Координаты — точка объявления, не проверенные границы. 22.11.2026: индекс официального Hawaii County Chapter 25, §25-4-13 содержит оговорку о ремонте машин членов домохозяйства в правилах home occupation. Это не разрешение отдельной ремонтной базы на пустом участке. Прямой доступ к county PDF вернул 403; ограничение не обходилось, parcel-specific разрешение неизвестно. 22.11.2026: APN 3920530540000, Fee Simple, Cash и paved private road — дополнительный поисковый снимок Trulia (crawl около 4 дней), а не новая прямая проверка. Основная цена и наличие подтверждены брокером. Не переносить историю других участков Pineapple Pkwy. Цена $15,000 уже равна верхней границе бюджета до closing и подготовки лавовой площадки. Возможность готового использования не установлена."
+        },
+        {
+          "id": "mls-hi-732660",
+          "url": "https://www.hawaiirealestatesearch.com/listing/732660-92-2377-ohia-dr-kau-hi-96737/",
+          "finding": "22.11.2026: цена, статус Active, MLS, площадь 1 acre и точка карты прочитаны на публичной странице брокера. Координаты — точка объявления, не проверенные границы. 22.11.2026: индекс официального Hawaii County Chapter 25, §25-4-13 содержит оговорку о ремонте машин членов домохозяйства в правилах home occupation. Это не разрешение отдельной ремонтной базы на пустом участке. Прямой доступ к county PDF вернул 403; ограничение не обходилось, parcel-specific разрешение неизвестно. 22.11.2026: APN 3921630430000, Fee Simple, paved private road, отсутствие воды/канализации и Lava Zone 2 — дополнительный снимок Compass (crawl около 5 дней). Точка совпадает с текущей страницей брокера. Отсутствие CCRs заявлено продавцом; документы не проверены. 22.11.2026: брокер сообщает существующий driveway, мусор на участке и высоту примерно 3,800 ft. На аэрофото видны въезд и предметы/мусор, но не доказана готовая площадка или законное помещение. $12,000 покупка + $4,525 опциональное электричество = $16,525 ещё до closing, уборки и площадки. Для варианта с сетевым электричеством бюджет $15,000 превышен; стоимость автономной системы неизвестна."
+        }
+      ],
+      "rejected_or_deferred": [
+        {
+          "url": "https://www.nwmls.com/home-details/9124-cornucopia-drive-ephrata-wa-98823/8Q9HlLMmaKo",
+          "finding": "WA9124CornucopiaDr,Ephrata,MLS2583574: indexed$10,000,1.17ac,privategravel/no utilities,HOA$18/month. Rimrock Meadows private-lot vehicle-storage rules conflict with standalone storage-base purpose; no verified repair entitlement. Deferred, not a workshop."
+        },
+        {
+          "url": "https://www.trulia.com/home/0-mill-st-okanogan-wa-98840-444261770",
+          "finding": "WA0MillSt,MLS1846864: old$15,000 broker PDF is not a current listing; indexed history records soldApril22,2022 for$10,000. Excluded stale lead; no existing-row status changed."
+        },
+        {
+          "url": "https://www.land.com/Washington/all-land/under-20000/",
+          "finding": "WA bounded catalog/garage rotation:11809LakeFlorence already retained lc-26430 with water-lot hold. AndersonIsland offers require ferry and restriction checks; 0DuffyAberdeen is tiny0.02ac. CosgroveHoquiam acreage/access unresolved in prior research. No verified owned garage in budget; no duplicates or old-snapshot freshness overwrite."
+        },
+        {
+          "url": "https://www.compass.com/homedetails/399-Lot-Pahoa-HI-96778/2KY8KX_pid/",
+          "finding": "HI KalapanaLot399 MLS734985,APN3120120410000,indexed$15,000 and7500sqft: description mentions adjacent parcel, but separate MLS734985/734986 appear each$15,000. Package scope not established; never interpret both parcels for$15,000. No new record; no verified repair/7m access."
+        },
+        {
+          "url": "https://www.trulia.com/home/78-heartwellville-view-rd-readsboro-vt-05350-2084869476",
+          "finding": "VT78HeartwellvilleViewRd,Readsboro,MLS4989888: stale broker$10,000/1.1ac lead still displays older under-contract content. Indexed history records soldDec13,2024 for$8,000. Excluded, not a new active listing."
+        },
+        {
+          "url": "https://www.landsearch.com/properties/vermont/search/under-15000",
+          "finding": "VT current indexed under$15,000 category results include monthly$3,200/$4,750/$7,000 offers, not purchase totals. Winhall mixed rental/sale catalogs do not establish owned budget properties. No verified new workshop; earlier retained VT records untouched."
+        }
+      ],
+      "official_rules": [
+        {
+          "url": "https://www.rimrockmeadows.com/developing-property",
+          "finding": "Association rule, not county law: private lots may not be used for vehicle/boat/machinery storage; structures require committee approval. Rules reviewed in public indexed/live-tool page. Cornucopia not treated as standalone RV storage/repair base."
+        },
+        {
+          "url": "https://www.hawaiicounty.gov/home/showdocument?id=302520",
+          "finding": "Official Chapter25 indexed text §25-4-13(e)(2) includes household-owned vehicle exception in home-occupation rules. It does not establish standalone storage/repair entitlement on vacant agricultural parcels. Direct PDF and county-code index requests403; stopped. Both new records keep personal repair, storage and occupancy unknown."
+        }
+      ],
+      "access": "Bounded WA/HI/VT research beyond LandCentury, prioritizing garages/workshops and low photo counts. Two live public broker pages supply price/status/MLS/map points and two genuine original photos. Indexed auxiliary APN/tenure/road fields clearly dated, no guessed coordinates. No seller contacts, purchases, bookings, restriction bypass or infrastructure changes.",
+      "flight_review": {
+        "last_review": "2026-11-16",
+        "next_review": "2026-11-23",
+        "finding": "Weekly flight refresh not due; flights.json unchanged."
+      },
+      "next_states": [
+        "DE",
+        "RI",
+        "AK"
+      ],
+      "rotation_reason": "Rotate to other low-count states while automatic catalog plan covers all50. Prefer usable existing workshops and airport access; retain failed and excluded leads to avoid repetition.",
+      "preservation": "All1123 preexisting rows retained without fact/history/ID/first_seen changes; all earlier assets and other regions/flight/monitor data preserved. Two new photo assets; no fabricated permission or closing-cost certainty. Journal append-only.",
+      "validation": "Targeted data tests,50-state validation,preservation/diff checks and exact-head Pages/public-map/photo verification recorded separately in local postflight evidence."
     }
   ],
-  "updated_at": "2026-11-21T03:12:56+00:00"
+  "updated_at": "2026-11-22T03:14:23+00:00"
 }

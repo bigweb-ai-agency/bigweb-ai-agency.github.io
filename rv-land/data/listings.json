@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-22T00:51:33+00:00",
+  "updated_at": "2026-11-22T03:14:12+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -147602,6 +147602,303 @@
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/arizona/1-17-acres-for-sale-in-yucca-arizona-27225"
       ]
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-22T03:14:12+00:00",
+      "last_seen": "2026-11-22T03:14:12+00:00",
+      "last_verified": "2026-11-22T03:14:12+00:00",
+      "photo_kind": "Оригинальное фото из объявления: молодые деревья и каменистая лавовая земля у асфальтированной дороги.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [
+        "22.11.2026: цена, статус Active, MLS, площадь 1 acre и точка карты прочитаны на публичной странице брокера. Координаты — точка объявления, не проверенные границы.",
+        "22.11.2026: индекс официального Hawaii County Chapter 25, §25-4-13 содержит оговорку о ремонте машин членов домохозяйства в правилах home occupation. Это не разрешение отдельной ремонтной базы на пустом участке. Прямой доступ к county PDF вернул 403; ограничение не обходилось, parcel-specific разрешение неизвестно.",
+        "22.11.2026: APN 3920530540000, Fee Simple, Cash и paved private road — дополнительный поисковый снимок Trulia (crawl около 4 дней), а не новая прямая проверка. Основная цена и наличие подтверждены брокером. Не переносить историю других участков Pineapple Pkwy.",
+        "Цена $15,000 уже равна верхней границе бюджета до closing и подготовки лавовой площадки. Возможность готового использования не установлена."
+      ],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "mls-hi-726495",
+      "url": "https://www.hawaiirealestatesearch.com/listing/726495-pineapple-pkwy-kau-hi-96737/",
+      "image_url": "assets/listings/939269ea76b9bebf3133.jpg",
+      "image_source_url": "https://www.hawaiirealestatesearch.com/listing/726495-pineapple-pkwy-kau-hi-96737/",
+      "image_remote_url": "https://feed-images.rewhosting.com/his_acortez/Photo/Property/726495/0-8e4ffc3099d65d25aa3f767095bac047-o.jpg",
+      "photo_preserved_at": "2026-11-22T03:11:52+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/939269ea76b9bebf3133.jpg",
+          "source": "https://www.hawaiirealestatesearch.com/listing/726495-pineapple-pkwy-kau-hi-96737/",
+          "remote_url": "https://feed-images.rewhosting.com/his_acortez/Photo/Property/726495/0-8e4ffc3099d65d25aa3f767095bac047-o.jpg",
+          "date": "2026-11-22T03:11:52+00:00"
+        }
+      ],
+      "source": "Hawaii Real Estate Search / Hawaii Information Service",
+      "source_id": "726495",
+      "mls": "HIS 726495",
+      "title": "Pineapple Pkwy — 1 acre",
+      "address": "Pineapple Pkwy",
+      "city": "Ocean View",
+      "state": "HI",
+      "county": "Hawaii",
+      "zip": "96737",
+      "kind": "land",
+      "price": 15000,
+      "known_fees": 0,
+      "total_known": 15000,
+      "acres": 1,
+      "lat": 19.14112483,
+      "lng": -155.74690369,
+      "coord_precision": "listing",
+      "parcel": "3920530540000",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": null,
+      "source_published": "2025-12-15",
+      "zoning": "A-1A по MLS; независимо не проверен",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "garage_note": "Объявление о пустой земле; существующий гараж или мастерская не заявлены.",
+      "price_evidence": "22.11.2026: действующая страница MLS показывает полную запрашиваемую цену $15,000 за участок, не взнос, аренду, ставку или цену за акр. Fee Simple по дополнительному MLS-источнику. Обязательные сборы покупки не опубликованы; 0 известных сборов не означает их отсутствие.",
+      "taxes_note": "Налоги, дорожные взносы и обременения независимо не проверены.",
+      "image_credit": "South Hawaii Realty, LLC / HIS via Hawaii Real Estate Search",
+      "legal_source": "https://www.hawaiicounty.gov/home/showdocument?id=302520",
+      "flags": [
+        "Хранение, проживание, личный ремонт и въезд высокого 7-метрового RV не подтверждены.",
+        "Доставка кемпервана на Big Island и расходы дороги/межостровного перелёта не включены.",
+        "Каменистая лавовая земля; цена покупки не оставляет запаса до $15,000 на closing и подготовку."
+      ],
+      "road_note": "Частная асфальтированная дорога по дополнительному MLS-источнику; на фото каменистая обочина. Готовый съезд, площадка и разворот RV не доказаны.",
+      "utility_note": "Электричество, вода и канализация не подтверждены; стоимость подключения неизвестна.",
+      "alternate_urls": [
+        "https://www.hawaiirealestatesearch.com/listing/726495-pineapple-pkwy-kau-hi-96737/",
+        "https://www.trulia.com/home/pineapple-pkwy-15-captain-cook-hi-96704-459036781"
+      ],
+      "verification_history": [
+        {
+          "date": "2026-11-22T03:14:12+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.hawaiirealestatesearch.com/listing/726495-pineapple-pkwy-kau-hi-96737/",
+          "finding": "Active asking price, MLS identity, 1 acre and listing-map coordinates checked; original listing photo preserved and viewed. No established garage or RV/repair permission."
+        },
+        {
+          "date": "2026-11-22T03:14:12+00:00",
+          "basis": "indexed_public_page",
+          "source": "https://www.trulia.com/home/pineapple-pkwy-15-captain-cook-hi-96704-459036781",
+          "finding": "Auxiliary parcel, tenure and road/utility fields from indexed MLS content; crawl age recorded in notes. Not treated as live availability confirmation."
+        }
+      ],
+      "price_history": [
+        {
+          "date": "2026-11-22T03:14:12+00:00",
+          "price": 15000,
+          "price_basis": "asking_cash",
+          "source": "https://www.hawaiirealestatesearch.com/listing/726495-pineapple-pkwy-kau-hi-96737/"
+        }
+      ],
+      "status_history": [],
+      "region": "Гавайи",
+      "screening_issue": null,
+      "climate_note": "Дешёвая земля обычно на Big Island, а международный рейс часто до Honolulu. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "KOA",
+          "name": "Ellison Onizuka Kona International Airport at Keāhole",
+          "straight_km": 73,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
+          "flight_min_eur": null,
+          "flight_origin": null,
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
+        },
+        {
+          "code": "ITO",
+          "name": "Hilo International Airport",
+          "straight_km": 98,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
+          "flight_min_eur": null,
+          "flight_origin": null,
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
+        },
+        {
+          "code": "HNL",
+          "name": "Daniel K. Inouye International Airport",
+          "straight_km": 332,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
+          "flight_min_eur": null,
+          "flight_origin": null,
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
+        }
+      ],
+      "msp_straight_km": 6372,
+      "score_parts": {
+        "Цена /25": 5,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 7,
+        "Дорога /10": 0
+      },
+      "score": 12
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-22T03:14:12+00:00",
+      "last_seen": "2026-11-22T03:14:12+00:00",
+      "last_verified": "2026-11-22T03:14:12+00:00",
+      "photo_kind": "Оригинальное аэрофото из объявления с контуром продавца: заросшая земля, въезд и видимый мусор. Контур не является межеванием.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [
+        "22.11.2026: цена, статус Active, MLS, площадь 1 acre и точка карты прочитаны на публичной странице брокера. Координаты — точка объявления, не проверенные границы.",
+        "22.11.2026: индекс официального Hawaii County Chapter 25, §25-4-13 содержит оговорку о ремонте машин членов домохозяйства в правилах home occupation. Это не разрешение отдельной ремонтной базы на пустом участке. Прямой доступ к county PDF вернул 403; ограничение не обходилось, parcel-specific разрешение неизвестно.",
+        "22.11.2026: APN 3921630430000, Fee Simple, paved private road, отсутствие воды/канализации и Lava Zone 2 — дополнительный снимок Compass (crawl около 5 дней). Точка совпадает с текущей страницей брокера. Отсутствие CCRs заявлено продавцом; документы не проверены.",
+        "22.11.2026: брокер сообщает существующий driveway, мусор на участке и высоту примерно 3,800 ft. На аэрофото видны въезд и предметы/мусор, но не доказана готовая площадка или законное помещение.",
+        "$12,000 покупка + $4,525 опциональное электричество = $16,525 ещё до closing, уборки и площадки. Для варианта с сетевым электричеством бюджет $15,000 превышен; стоимость автономной системы неизвестна."
+      ],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "mls-hi-732660",
+      "url": "https://www.hawaiirealestatesearch.com/listing/732660-92-2377-ohia-dr-kau-hi-96737/",
+      "image_url": "assets/listings/211dc4c1841b6f9c50f6.jpg",
+      "image_source_url": "https://www.hawaiirealestatesearch.com/listing/732660-92-2377-ohia-dr-kau-hi-96737/",
+      "image_remote_url": "https://feed-images.rewhosting.com/his_acortez/Photo/Property/732660/0-d36b41d133b0ead1285ab73a243ff7b8-o.jpg",
+      "photo_preserved_at": "2026-11-22T03:11:52+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/211dc4c1841b6f9c50f6.jpg",
+          "source": "https://www.hawaiirealestatesearch.com/listing/732660-92-2377-ohia-dr-kau-hi-96737/",
+          "remote_url": "https://feed-images.rewhosting.com/his_acortez/Photo/Property/732660/0-d36b41d133b0ead1285ab73a243ff7b8-o.jpg",
+          "date": "2026-11-22T03:11:52+00:00"
+        }
+      ],
+      "source": "Hawaii Real Estate Search / Hawaii Information Service",
+      "source_id": "732660",
+      "mls": "HIS 732660",
+      "title": "92-2377 Ohia Dr — 1 acre",
+      "address": "92-2377 Ohia Dr",
+      "city": "Ocean View",
+      "state": "HI",
+      "county": "Hawaii",
+      "zip": "96737",
+      "kind": "land",
+      "price": 12000,
+      "known_fees": 0,
+      "total_known": 12000,
+      "acres": 1,
+      "lat": 19.13548943,
+      "lng": -155.77148737,
+      "coord_precision": "listing",
+      "parcel": "3921630430000",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": null,
+      "source_published": "2026-11-16",
+      "zoning": "A-20A по MLS; независимо не проверен",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "electricity": "available",
+      "water": "none",
+      "sewer": "none",
+      "garage_note": "Объявление о пустой земле; существующий гараж или мастерская не заявлены.",
+      "price_evidence": "22.11.2026: действующая страница MLS показывает полную запрашиваемую цену $12,000 за участок, не взнос, аренду, ставку или цену за акр. Fee Simple по дополнительному MLS-источнику. Обязательные сборы покупки не опубликованы; 0 известных сборов не означает их отсутствие.",
+      "taxes_note": "Налоги, дорожные взносы и обременения независимо не проверены.",
+      "image_credit": "eXp Realty / HIS via Hawaii Real Estate Search",
+      "legal_source": "https://www.hawaiicounty.gov/home/showdocument?id=302520",
+      "flags": [
+        "Хранение, проживание, личный ремонт и въезд высокого 7-метрового RV не подтверждены.",
+        "Доставка кемпервана на Big Island и расходы дороги/межостровного перелёта не включены.",
+        "На участке мусор; расходы уборки неизвестны.",
+        "Подключение электричества по выбору +$4,525: покупка с подключением превышает $15,000 до прочих затрат.",
+        "Lava Zone 2 по MLS; риск и страхование проверить отдельно."
+      ],
+      "road_note": "По продавцу есть driveway. MLS указывает частную асфальтированную дорогу; ширина, уклон, расчистка и разворот высокого RV неизвестны.",
+      "utility_note": "По продавцу электричество доступно через SSPP Unit 874, но подключение не оплачено: дополнительно $4,525 при выборе сетевого подключения. Это не обязательный сбор покупки. Вода и канализация отсутствуют по дополнительному MLS-источнику.",
+      "alternate_urls": [
+        "https://www.hawaiirealestatesearch.com/listing/732660-92-2377-ohia-dr-kau-hi-96737/",
+        "https://www.compass.com/homedetails/92-2377-Lot-33-Ohia-Dr-Ocean-View-HI-96704/2KWTWY_pid/"
+      ],
+      "verification_history": [
+        {
+          "date": "2026-11-22T03:14:12+00:00",
+          "basis": "live_public_page",
+          "source": "https://www.hawaiirealestatesearch.com/listing/732660-92-2377-ohia-dr-kau-hi-96737/",
+          "finding": "Active asking price, MLS identity, 1 acre and listing-map coordinates checked; original listing photo preserved and viewed. No established garage or RV/repair permission."
+        },
+        {
+          "date": "2026-11-22T03:14:12+00:00",
+          "basis": "indexed_public_page",
+          "source": "https://www.compass.com/homedetails/92-2377-Lot-33-Ohia-Dr-Ocean-View-HI-96704/2KWTWY_pid/",
+          "finding": "Auxiliary parcel, tenure and road/utility fields from indexed MLS content; crawl age recorded in notes. Not treated as live availability confirmation."
+        }
+      ],
+      "price_history": [
+        {
+          "date": "2026-11-22T03:14:12+00:00",
+          "price": 12000,
+          "price_basis": "asking_cash",
+          "source": "https://www.hawaiirealestatesearch.com/listing/732660-92-2377-ohia-dr-kau-hi-96737/"
+        }
+      ],
+      "status_history": [],
+      "region": "Гавайи",
+      "screening_issue": null,
+      "climate_note": "Дешёвая земля обычно на Big Island, а международный рейс часто до Honolulu. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "KOA",
+          "name": "Ellison Onizuka Kona International Airport at Keāhole",
+          "straight_km": 73,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
+          "flight_min_eur": null,
+          "flight_origin": null,
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
+        },
+        {
+          "code": "ITO",
+          "name": "Hilo International Airport",
+          "straight_km": 100,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
+          "flight_min_eur": null,
+          "flight_origin": null,
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
+        },
+        {
+          "code": "HNL",
+          "name": "Daniel K. Inouye International Airport",
+          "straight_km": 331,
+          "drive_km_estimate": null,
+          "drive_hours_estimate": null,
+          "flight_min_eur": null,
+          "flight_origin": null,
+          "route_basis": "Автомаршрут не рассчитан: для Hawaii и Alaska отдельно проверить остров, дороги и перевозку RV."
+        }
+      ],
+      "msp_straight_km": 6374,
+      "score_parts": {
+        "Цена /25": 10,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 1,
+        "Сезон /10": 7,
+        "Дорога /10": 0
+      },
+      "score": 18
     }
   ]
 }
