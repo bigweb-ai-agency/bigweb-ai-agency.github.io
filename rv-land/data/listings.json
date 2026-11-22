@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-21T03:12:08+00:00",
+  "updated_at": "2026-11-22T00:51:33+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -109199,8 +109199,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-18T01:12:05+00:00",
-      "last_seen": "2026-10-18T01:14:46Z",
-      "last_verified": "2026-10-18T01:14:46Z",
+      "last_seen": "2026-11-22T00:57:01Z",
+      "last_verified": "2026-11-22T00:57:01Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -109227,7 +109227,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-17T22:41:32.000000Z",
+      "source_updated": "2026-11-20T00:43:29.000000Z",
       "source_published": "2026-10-17T22:05:02.000000Z",
       "image_url": "assets/listings/e4fe5f0938d6f665f1dc.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/california/018-acres-for-sale-in-lake-hughes-california-26617",
@@ -109266,7 +109266,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/17/6ad3f625092cd-1792276005.jpg",
-      "photo_preserved_at": "2026-10-18T01:12:05+00:00",
+      "photo_preserved_at": "2026-11-22T00:51:33+00:00",
       "photo_history": [
         {
           "path": "assets/listings/e4fe5f0938d6f665f1dc.jpg",
@@ -109319,14 +109319,18 @@
         "Сезон /10": 6,
         "Дорога /10": 9
       },
-      "score": 25
+      "score": 25,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/california/018-acres-for-sale-in-lake-hughes-california-26617"
+      ]
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-18T01:12:05+00:00",
-      "last_seen": "2026-10-18T01:14:48Z",
-      "last_verified": "2026-10-18T01:14:48Z",
+      "last_seen": "2026-11-22T00:57:02Z",
+      "last_verified": "2026-11-22T00:57:02Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -109353,7 +109357,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-17T21:42:24.000000Z",
+      "source_updated": "2026-11-05T16:41:43.000000Z",
       "source_published": "2026-10-17T21:28:59.000000Z",
       "image_url": "assets/listings/12b6d1aba98a9418b92e.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/california/015-acres-for-sale-in-lake-elsinore-california-26615",
@@ -109394,7 +109398,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/17/6ad3e9fc4d5c4-1792272892.jpg",
-      "photo_preserved_at": "2026-10-18T01:12:05+00:00",
+      "photo_preserved_at": "2026-11-22T00:51:33+00:00",
       "photo_history": [
         {
           "path": "assets/listings/12b6d1aba98a9418b92e.jpg",
@@ -109447,7 +109451,11 @@
         "Сезон /10": 6,
         "Дорога /10": 8
       },
-      "score": 30
+      "score": 30,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/california/015-acres-for-sale-in-lake-elsinore-california-26615"
+      ]
     },
     {
       "price_currency": "USD",
