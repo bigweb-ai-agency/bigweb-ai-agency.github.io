@@ -43,23 +43,27 @@ document.addEventListener('error',event=>{
 function tag(text,cls=''){return '<span class="tag '+cls+'">'+esc(text)+'</span>';}
 function labels(x){
  if(x.country==='IT')return (x.price_conflict?tag('HOLD · конфликт цены','danger'):'')+tag(kindNames[x.kind])+(x.garage_included_claim===true?tag('Гараж включён — по объявлению','good'):'')+tag('Ремонт не подтверждён','warn')+tag(x.coord_precision==='seller_supplied_pin'?'Точка продавца':'Точка города ≈','warn')+(x.id==='sicily-oikia-2940485'?tag('Автопроезда сейчас нет','danger'):'')+(x.group_id?tag('Общее фото 3 лотов','warn'):'')+(!x.image_url?tag('Без фото','warn'):'');
- return (x.review_hold?tag('Исключён до проверки','warn'):'')+tag(x.existing_garage?'Гараж указан':kindNames[x.kind]||x.kind,x.existing_garage?'good':'')+
+ const group=MapGroups.classify(x);
+ return tag(MapGroups.groups[group].label,'group-tag group-'+group)+(x.airport_shortlist?tag('Ручная подборка до $20k','warn'):'')+(x.review_hold?tag('Исключён до проверки','warn'):'')+tag(x.existing_garage?'Гараж указан':kindNames[x.kind]||x.kind,x.existing_garage?'good':'')+
  tag(x.personal_repair==='authority_confirmed'?'Ремонт подтверждён':'Ремонт не подтверждён',x.personal_repair==='authority_confirmed'?'good':'warn')+
  (x.status!=='active'?tag(statusNames[x.status]||x.status,'warn'):'');
 }
 function airportLine(x){
  if(x.country==='IT')return Sicily.position(x);
+ if(x.airport_shortlist){const r=x.airport_record.road;return r?.endpoint_verified?'PIT · '+Math.round(r.distance_miles*1.609344)+' км / '+r.duration_minutes+' мин · платная дорога':'PIT · точку въезда требуется уточнить';}
  const a=x.gateways?.[0];if(!a)return 'Аэропорт не рассчитан';
  if(x.requires_ferry)return a.code+' · нужен паром, время пути не проверено';
  if(['HI','AK'].includes(x.state))return 'Отдельная логистика '+x.state+' · рейс и перевозку RV проверить';
  if(a.drive_hours_estimate==null)return a.code+' · время пути не проверено';
  return a.code+' · ~'+a.drive_hours_estimate+' ч по модели дороги';
 }
+function driveHours(x){return x.airport_shortlist?(x.airport_record.road?.endpoint_verified?x.airport_record.road.duration_minutes/60:999):(x.gateways?.[0]?.drive_hours_estimate??999);}
 function card(x){
- return '<article class="property-card'+(selected===x.id?' selected':'')+'" data-id="'+esc(x.id)+'">'+photo(x)+
+ const group=MapGroups.classify(x);
+ return '<article class="property-card'+(group?' group-'+group:'')+(selected===x.id?' selected':'')+'" data-id="'+esc(x.id)+'">'+photo(x)+
  '<button class="favorite" data-favorite="'+esc(x.id)+'" aria-label="'+(favorites.has(x.id)?'Убрать из избранного':'В избранное')+'" aria-pressed="'+favorites.has(x.id)+'">'+(favorites.has(x.id)?'★':'☆')+'</button>'+
  '<div class="card-info"><span class="card-price">'+listingPrice(x)+'</span><button class="card-title" data-detail="'+esc(x.id)+'">'+esc(x.title)+'</button>'+
- '<div class="card-location">'+esc(locationText(x))+' · '+(x.country==='IT'?esc(Sicily.area(x)):esc(x.acres??'?')+' ac · '+esc(x.score)+' / 100')+'</div>'+
+ '<div class="card-location">'+esc(locationText(x))+' · '+(x.country==='IT'?esc(Sicily.area(x)):esc(x.acres??'?')+' ac · '+(x.score==null?'без оценки':esc(x.score)+' / 100'))+'</div>'+
  '<div class="card-labels">'+labels(x)+'</div>'+(x.country==='IT'?'<p class="card-risk">'+esc(x.risk_ru)+'</p><div class="card-source">'+esc(x.seller||'Продавец не указан')+' · '+link(x.url,'Источник ↗')+'</div>':'')+'<div class="card-bottom">'+esc(airportLine(x))+'</div></div></article>';
 }
 function renderCards(){
@@ -69,13 +73,14 @@ function renderCards(){
  $('loadMore').textContent='Показать ещё '+Math.min(24,filtered.length-visibleCount);
 }
 function applyFilters(fit=true){
- const sicily=isSicily(),query=$('search').value.toLowerCase().trim(), budget=+$('budget').value||(sicily?10000:15000);
+ const sicily=isSicily(),query=$('search').value.toLowerCase().trim(), budget=+$('budget').value||(sicily?10000:20000);
  filtered=listings.filter(x=>{
   if((x.country==='IT')!==sicily)return false;
   if(sicily){if(!Sicily.eligible(x,budget,$('archive').checked)||!Sicily.matchesResidential(x,$('residentialType').value,$('garageIncluded').checked))return false;}
   else{
    if((x.price??Infinity)>budget || x.price<3000)return false;
    if(!$('archive').checked && (x.screening_issue || !x.image_url || x.price_conflict || !['active','pending'].includes(x.status)))return false;
+   if($('mapGroup').value&&MapGroups.classify(x)!==$('mapGroup').value)return false;
   }
   if($('state').value && x.state!==$('state').value)return false;
   if($('region').value && x.region!==$('region').value)return false;
@@ -94,28 +99,33 @@ function applyFilters(fit=true){
   if(use==='rv'&&![x.rv_storage,x.rv_occupancy].some(y=>['seller_claim','seller_conditional','authority_confirmed'].includes(y)))return false;
   if(use==='repair'&&!['seller_claim','authority_confirmed'].includes(x.personal_repair))return false;
   if(use==='verified'&&x.personal_repair!=='authority_confirmed')return false;
-  if($('drive').value&&(['HI','AK'].includes(x.state)||(x.gateways?.[0]?.drive_hours_estimate??999)>+$('drive').value))return false;
+  if($('drive').value&&(['HI','AK'].includes(x.state)||driveHours(x)>+$('drive').value))return false;
   if($('climate').value&&(x.score_parts?.['Сезон /10']??0)<+$('climate').value)return false;
   if($('nohoa').checked&&x.no_hoa!=='seller_claim')return false;
   if($('favoritesOnly').checked&&!favorites.has(x.id))return false;
   return true;
  });
  const sort=$('sort').value;
- filtered.sort((a,b)=>sort==='price'?a.price-b.price:sort==='new'?(b.first_seen||'').localeCompare(a.first_seen||''):sort==='drive'?(a.gateways?.[0]?.drive_hours_estimate??999)-(b.gateways?.[0]?.drive_hours_estimate??999):b.score-a.score||a.price-b.price);
+ filtered.sort((a,b)=>sort==='price'?a.price-b.price:sort==='new'?(b.first_seen||'').localeCompare(a.first_seen||''):sort==='drive'?driveHours(a)-driveHours(b):Number(!!b.airport_shortlist)-Number(!!a.airport_shortlist)||(b.score??0)-(a.score??0)||a.price-b.price);
  visibleCount=24;renderCards();renderMarkers(fit);
  if(sicily){$('sicilyFilterLink').href=sicilyHash();if(!location.hash.startsWith('#property='))history.replaceState(null,'',sicilyHash());}
+ else if(!location.hash.startsWith('#property='))history.replaceState(null,'',location.pathname+location.search+usGroupHash());
 }
+function usGroupHash(){return $('mapGroup').value?'#group='+$('mapGroup').value:'';}
+function restoreGroup(hash){const value=hash.startsWith('#group=')?hash.slice(7):'';if(MapGroups.groups[value])$('mapGroup').value=value;}
 function configureMarket(reset=true){
  const sicily=isSicily();
  if(reset)$('filters').reset();
- $('budget').value=sicily?10000:15000;$('budget').defaultValue=$('budget').value;$('budget').min=sicily?1000:3000;
+ $('budget').value=sicily?10000:20000;$('budget').defaultValue=$('budget').value;$('budget').min=sicily?1000:3000;
  $('budgetLabel').textContent='Цена до, '+(sicily?'EUR':'USD');$('stateLabel').textContent=sicily?'Провинция':'Штат';
  $('state').innerHTML='<option value="">'+(sicily?'Все провинции':'Все штаты')+'</option>'+(sicily?[...new Set(sicilyData.listings.map(x=>x.province))].sort().map(p=>'<option>'+esc(p)+'</option>').join(''):states.slice().sort((a,b)=>a.name.localeCompare(b.name)).map(s=>'<option value="'+s.code+'">'+esc(s.name)+' ('+s.photo_candidates+')</option>').join(''));
  ['region','drive','climate','nohoa'].forEach(id=>{$(id).closest('label').hidden=sicily;});
  $('sicilyFilters').hidden=!sicily;
+ $('mapGroupLabel').hidden=sicily;$('mapGroupNote').hidden=sicily;
+ $('mapLegendItems').innerHTML=sicily?'<span><i class="dot green"></i>Гараж указан</span><span><i class="dot ochre"></i>Здание</span><span><i class="dot blue"></i>Земля</span>':Object.entries(MapGroups.groups).map(([key,g])=>'<span><i class="dot" style="background:'+g.color+'"></i>'+esc(g.label)+'</span>').join('');
  $('kind').querySelector('[value="garage"]').textContent=sicily?'Гараж включён по объявлению':'Указан существующий гараж';
  $('sort').querySelector('[value="drive"]').disabled=sicily;if(sicily&&$('sort').value==='drive')$('sort').value='score';
- $('sicilyNote').hidden=!sicily;$('marketEyebrow').textContent=sicily?'€1,000–€10,000 · СИЦИЛИЯ · ПОКУПКА':'$3,000–$15,000 · США · ПОКУПКА';
+ $('sicilyNote').hidden=!sicily;$('marketEyebrow').textContent=sicily?'€1,000–€10,000 · СИЦИЛИЯ · ПОКУПКА':'$3,000–$20,000 · США · ПОКУПКА';
  $('updated').textContent=sicily?'Сицилия: проверено '+date(sicilyData.latest_observed_on||sicilyData.observed_on):'США: база обновлена '+date(usUpdated);
  if(sicily)$('stats').innerHTML='<div><b>'+sicilyData.listings.filter(x=>x.budget_fit===true).length+'</b><span>цен в бюджете</span></div><div><b>'+sicilyData.listings.filter(x=>x.image_url).length+'</b><span>записей с фото</span></div><div><b>'+sicilyData.listings.filter(x=>x.price_status==='conflict').length+'</b><span>HOLD · конфликт цены</span></div>';
  else {const us=listings.filter(x=>x.country!=='IT'),eligible=us.filter(x=>!x.screening_issue&&x.image_url&&['active','pending'].includes(x.status));$('stats').innerHTML='<div><b>'+eligible.length+'</b><span>фото-кандидатов</span></div><div><b>'+states.filter(s=>s.photo_candidates>=10).length+'</b><span>штатов с 10+ объектами</span></div><div><b>'+us.filter(x=>x.existing_garage).length+'</b><span>гаражей по описанию</span></div>';}
@@ -123,28 +133,35 @@ function configureMarket(reset=true){
 }
 function initMap(){
  if(!window.L){$('map').innerHTML='<p class="empty">Библиотека карты недоступна. Список и ссылки на Google Maps продолжают работать.</p>';return;}
- map=L.map('map',{scrollWheelZoom:false}).setView([38.5,-97],4);
+ map=L.map('map',{scrollWheelZoom:true}).setView([38.5,-97],4);
  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);
  layer=L.layerGroup().addTo(map);
 }
 function renderMarkers(fit){
  if(!map)return;layer.clearLayers();markers.clear();
+ if(!isSicily()){
+  const point=[MapGroups.origin.lat,MapGroups.origin.lng];
+  L.circleMarker(point,{radius:5,color:'#fff',weight:2,fillColor:MapGroups.groups.point.color,fillOpacity:1}).addTo(layer).bindTooltip('Точка поиска Minnetonka');
+  if($('mapGroup').value==='point')L.circle(point,{radius:MapGroups.radiusKm*1000,color:MapGroups.groups.point.color,weight:1,dashArray:'6 6',fillOpacity:.04}).addTo(layer);
+ }
  const plotted=new Set();filtered.forEach(x=>{
   if(!Number.isFinite(x.lat)||!Number.isFinite(x.lng))return;
   const sicily=x.country==='IT',key=x.lat+','+x.lng;
   if(sicily&&plotted.has(key))return;plotted.add(key);
   const group=sicily?filtered.filter(y=>y.lat===x.lat&&y.lng===x.lng):[x];
-  const approx=sicily&&x.coord_precision==='municipality_approximate';
-  const color=x.existing_garage?'#276858':(sicily?Sicily.hasStructure(x):['house','building','commercial','workshop'].includes(x.kind))?'#b27b31':'#53768c';
+  const approx=(sicily&&x.coord_precision==='municipality_approximate')||x.airport_shortlist;
+  const category=MapGroups.classify(x),g=category?MapGroups.groups[category]:null;
+  const color=g?g.color:x.existing_garage?'#276858':Sicily.hasStructure(x)?'#b27b31':'#53768c';
   const marker=L.circleMarker([x.lat,x.lng],{radius:sicily?9:x.existing_garage?8:5,weight:approx?2:1.5,color:approx?color:'#fff',dashArray:approx?'3 3':null,fillColor:color,fillOpacity:approx?.25:.85});
-  marker.bindTooltip(esc(locationText(x))+' · '+(sicily?esc(Sicily.position(x)):listingPrice(x)));
-  marker.bindPopup('<div class="popup">'+photo(x,'popup-image')+(sicily?'<p><b>'+esc(Sicily.position(x))+'</b></p>':'')+group.map(y=>'<strong>'+listingPrice(y)+'</strong><p>'+esc(y.title)+'</p><button data-detail="'+esc(y.id)+'">Открыть карточку'+(y.lot?' · лот '+esc(y.lot):'')+'</button>').join('')+'<p>Ремонт и размеры въезда требуют проверки</p></div>',{maxWidth:280});
+  marker.bindTooltip((g?esc(g.label)+' · ':'')+esc(locationText(x))+' · '+(sicily?esc(Sicily.position(x)):listingPrice(x)));
+  marker.bindPopup('<div class="popup">'+photo(x,'popup-image')+(sicily?'<p><b>'+esc(Sicily.position(x))+'</b></p>':g?'<p><b>'+esc(g.label)+'</b></p>':'')+(x.airport_shortlist?'<p>Пунктир ≈ точка объявления; границы и въезд не подтверждены.</p>':'')+group.map(y=>'<strong>'+listingPrice(y)+'</strong><p>'+esc(y.title)+'</p><button data-detail="'+esc(y.id)+'">Открыть карточку'+(y.lot?' · лот '+esc(y.lot):'')+'</button>').join('')+'<p>Ремонт и размеры въезда требуют проверки</p></div>',{maxWidth:280});
   marker.addTo(layer);group.forEach(y=>markers.set(y.id,marker));
  });
  if(fit)fitMap();
 }
 function fitMap(){
  if(!map)return;
+ if(!isSicily()&&$('mapGroup').value==='point'){map.fitBounds(L.latLng(MapGroups.origin.lat,MapGroups.origin.lng).toBounds(MapGroups.radiusKm*2000),{padding:[25,25]});return;}
  const rows=filtered.filter(x=>Number.isFinite(x.lat)&&Number.isFinite(x.lng));
  const continental=rows.filter(x=>!['AK','HI'].includes(x.state));
  const use=$('state').value?rows:continental;
@@ -158,6 +175,11 @@ function showTab(id){
 function showDetail(id){
  const x=byId.get(id);if(!x)return;selected=id;
  if((x.country==='IT')!==isSicily()){$('market').value=x.country==='IT'?'sicily':'us';configureMarket();applyFilters();}
+ if(x.airport_shortlist){
+  const r=x.airport_record,locationNote=x.anchor==='dunbar'?'Только ориентир портала возле Juniata. Точный участок и въезд не подтверждены; адрес 417 Main St из инструкции продавца не найден в Google Maps.':'Точка объявления соответствует адресу в Google Maps; границы и въезд в гараж не проверены.';
+  $('detailBody').innerHTML=photo(x,'detail-photo')+'<div class="detail-content"><span class="eyebrow">'+esc(locationText(x))+'</span><p class="detail-price">'+listingPrice(x)+'</p><h2>'+esc(x.title)+'</h2><div class="card-labels">'+labels(x)+'</div><p>Ручная подборка до $20,000. Расходы сделки неизвестны. Готовность для высокого 7-метрового RV и право личного ремонта не подтверждены.</p><p><b>Помещение:</b> '+(x.anchor==='dunbar'?'Существующий отдельный гараж и гравийная площадка. На фото обычные низкие ворота; размеры неизвестны.':'Дом требует обновления. Отдельный гараж на три автомобиля заявлен продавцом; его состояние, размеры и подъезд для RV неизвестны.')+'</p><p class="location-warning">'+esc(locationNote)+'</p><p>'+esc(airportLine(x))+'</p><p>Хранение RV, проживание, личный и коммерческий ремонт: не подтверждены. Цвет означает группу поиска, не разрешение.</p><p>Проверено '+date(r.checked_at)+'. Впервые сохранено '+date(x.first_seen)+'. ID: '+esc(x.id)+'.</p><div class="detail-links">'+link(x.url,'Объявление ↗','button-link')+'<a class="button-link" href="airports.html#'+esc(x.anchor)+'">Полная проверка и перелёты →</a></div></div>';
+  $('detail').showModal();$('detail').scrollTop=0;history.replaceState(null,'','#property='+encodeURIComponent(id));if(markers.has(id)){markers.get(id).openPopup();map.panTo([x.lat,x.lng]);}renderCards();return;
+ }
  if(x.country==='IT'){
   $('detailBody').innerHTML=Sicily.detail(x,{esc,photo,link,date,money,labels,useNames});$('detail').showModal();$('detail').scrollTop=0;
   history.replaceState(null,'','#property='+encodeURIComponent(id));if(markers.has(id)){markers.get(id).openPopup();map.panTo([x.lat,x.lng]);}renderCards();return;
@@ -246,7 +268,7 @@ document.addEventListener('click',event=>{
  if(b.dataset.costfare){$('costFare').value=b.dataset.costfare;cost();$('fareDetail').close();$('costForm').scrollIntoView({block:'center'});}
  if(b.classList.contains('close'))b.closest('dialog').close();
 });
-$('detail').addEventListener('close',()=>{if(location.hash.startsWith('#property='))history.replaceState(null,'',location.pathname+location.search+(isSicily()?sicilyHash():''));});
+$('detail').addEventListener('close',()=>{if(location.hash.startsWith('#property='))history.replaceState(null,'',location.pathname+location.search+(isSicily()?sicilyHash():usGroupHash()));});
 document.querySelectorAll('dialog').forEach(d=>d.addEventListener('click',e=>{if(e.target===d && (e.clientX<d.getBoundingClientRect().left||e.clientX>d.getBoundingClientRect().right||e.clientY<d.getBoundingClientRect().top||e.clientY>d.getBoundingClientRect().bottom))d.close();}));
 $('moreFilters').addEventListener('click',()=>{const hidden=!$('extraFilters').hidden;$('extraFilters').hidden=hidden;$('moreFilters').setAttribute('aria-expanded',String(!hidden));if(map)requestAnimationFrame(()=>map.invalidateSize());});
 $('filters').addEventListener('submit',e=>e.preventDefault());
@@ -264,13 +286,17 @@ window.addEventListener('hashchange',()=>{
  if(/^#sicily(?:\?|$)/.test(hash)){
   $('detail').close();$('market').value='sicily';configureMarket();restoreSicilyFilters(hash);showTab('explore');applyFilters();
  }else if(hash.startsWith('#property='))showDetail(decodeURIComponent(hash.slice(10)));
+ else if(hash.startsWith('#group=')){$('detail').close();$('market').value='us';configureMarket();restoreGroup(hash);showTab('explore');applyFilters();}
  else if(!hash){$('detail').close();$('market').value='us';configureMarket();showTab('explore');applyFilters();}
 });
 async function init(){
  try{
-  const files=await Promise.all(['listings','states','flights','gateways','sicily'].map(async name=>{const r=await fetch('data/'+name+'.json',{cache:'no-cache'});if(!r.ok)throw Error(name+' '+r.status);return r.json();}));
-  sicilyData=files[4];listings=[...files[0].listings,...sicilyData.listings.map(Sicily.normalize)];states=files[1].states;flightData=files[2];gateways=files[3].airports;usUpdated=files[0].updated_at;byId=new Map(listings.map(x=>[x.id,x]));
-  $('market').value=/^#sicily(?:\?|$)/.test(location.hash)||location.hash.startsWith('#property=sicily-')?'sicily':'us';configureMarket(false);restoreSicilyFilters(location.hash);
+  const [files,airportData]=await Promise.all([Promise.all(['listings','states','flights','gateways','sicily'].map(async name=>{const r=await fetch('data/'+name+'.json',{cache:'no-cache'});if(!r.ok)throw Error(name+' '+r.status);return r.json();})),fetch('data/airport-shortlist-2026-11-23.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null)]);
+  sicilyData=files[4];states=files[1].states;flightData=files[2];gateways=files[3].airports;usUpdated=files[0].updated_at;
+  const extra=MapGroups.normalizeShortlist(airportData).map(x=>({...x,region:states.find(s=>s.code===x.state)?.region}));
+  listings=[...files[0].listings,...extra,...sicilyData.listings.map(Sicily.normalize)];byId=new Map(listings.map(x=>[x.id,x]));
+  if(!airportData)$('mapGroupNote').append(' Ручная подборка аэропортов временно не загрузилась; основная база доступна.');
+  $('market').value=/^#sicily(?:\?|$)/.test(location.hash)||location.hash.startsWith('#property=sicily-')?'sicily':'us';configureMarket(false);restoreSicilyFilters(location.hash);restoreGroup(location.hash);
   $('region').insertAdjacentHTML('beforeend',[...new Set(states.map(s=>s.region))].sort().map(r=>'<option>'+esc(r)+'</option>').join(''));
   initMap();applyFilters();renderStates();renderFlights();renderGuide();cost();
   if(location.hash.startsWith('#property='))showDetail(decodeURIComponent(location.hash.slice(10)));
