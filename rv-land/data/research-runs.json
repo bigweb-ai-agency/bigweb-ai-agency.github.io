@@ -7254,7 +7254,72 @@
       "rotation_reason": "Rotate to other low-count states while automatic catalog plan covers all50. Prefer usable existing workshops and airport access; retain failed and excluded leads to avoid repetition.",
       "preservation": "All1123 preexisting rows retained without fact/history/ID/first_seen changes; all earlier assets and other regions/flight/monitor data preserved. Two new photo assets; no fabricated permission or closing-cost certainty. Journal append-only.",
       "validation": "Targeted data tests,50-state validation,preservation/diff checks and exact-head Pages/public-map/photo verification recorded separately in local postflight evidence."
+    },
+    {
+      "date": "2026-11-23T00:54:33+00:00",
+      "type": "targeted_user_search",
+      "states": [
+        "MN",
+        "WI"
+      ],
+      "added_ids": [],
+      "updated_ids": [],
+      "budget_usd": 20000,
+      "scope": "Ready existing RV storage property within150km of Minnetonka; no construction, apartments, rentals or down payments. User subsequently broadened research to Europe-nonstop US gateways in this conversation.",
+      "findings": [
+        {
+          "url": "research/minnetonka-2026-11-23.md",
+          "finding": "No verified full match among reviewed public sources.13 leads and exclusions recorded; Craigslist live17 garage results and3 RV results reviewed, mostly rentals/down payments/farther geography."
+        }
+      ],
+      "next_states": [
+        "DE",
+        "RI",
+        "AK"
+      ],
+      "preservation": "No existing listings, statuses, images, IDs, first_seen, histories or flight data changed by Minnetonka search. No quota fillers.",
+      "source_errors": "No new availability status inferred from access problems. Search snapshots identified as indexed, no old snapshots replayed as live facts."
+    },
+    {
+      "date": "2026-11-23T00:54:33+00:00",
+      "type": "targeted_airport_shortlist",
+      "states": [
+        "PA",
+        "OH",
+        "IN",
+        "IL",
+        "FL",
+        "TX"
+      ],
+      "budget_usd": 20000,
+      "added_ids": [],
+      "updated_ids": [],
+      "shortlist_ids": [
+        "pa-dunbar-main-1733004",
+        "pa-newcastle-ray-1783220"
+      ],
+      "scope": "Existing buildings and prepared areas near US airports with Europe nonstop service. Separate manual shortlist; neither candidate a confirmed full RV fit.",
+      "findings": [
+        {
+          "url": "airports.html",
+          "finding": "Two current PA asking-price candidates, two original listing photos. Dunbar low doors and unresolved entrance; New Castle seller-claimed3-car garage,68km/48min fromPIT, RV access unknown. Other cheap leads sold/fire-damaged/bare land/lease excluded."
+        }
+      ],
+      "flight_review": {
+        "finding": "Narrow user-requested direct-route snapshot: LHR-PIT804EUR and LHR-ORD744EUR both selected RT, FRA-STL749EUR outbound/route-level only. Checked bags/provider final total/positioning uncertainties retained. Existing flights.json untouched."
+      },
+      "source_errors": [
+        "Trulia photo/map inspected and image downloaded before subsequent new-property CAPTCHA; stopped Trulia after challenge.",
+        "Howard Hanna and ByOwner robots403; ThePreferredRealty and Movoto page403; ezhomesearch robots403; Sothebys robots403; AllPittsburghHomes blocked; Compass202 challenge; Realmo verification. No bypass or availability inference.",
+        "Independent public Stessa robots/page200 supplied New Castle current price/status/coordinates and genuine photograph."
+      ],
+      "next_states": [
+        "DE",
+        "RI",
+        "AK"
+      ],
+      "preservation": "Nationwide1125 listings and all preexisting assets, IDs, first_seen, histories and other regions unchanged. Two original photo assets retained in separate shortlist. No sellers contacted, no bookings or infrastructure changes."
     }
   ],
-  "updated_at": "2026-11-22T03:14:23+00:00"
+  "updated_at": "2026-11-23T00:54:33+00:00"
 }

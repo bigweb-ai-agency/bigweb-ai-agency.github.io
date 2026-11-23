@@ -1,0 +1,263 @@
+{
+  "checked_at": "2026-11-23T00:54:33+00:00",
+  "scope": "User-requested existing property shortlist up to USD20000 near Europe-nonstop US airports; separate from nationwide USD3000-15000 discovery. No confirmed full RV fit.",
+  "airport": {
+    "code": "PIT",
+    "name": "Pittsburgh International",
+    "lat": 40.4928544,
+    "lon": -80.2372942,
+    "coordinate_source": "Google Maps resolved Pittsburgh International Airport"
+  },
+  "candidates": [
+    {
+      "checked_at": "2026-11-23T00:54:33+00:00",
+      "first_seen": "2026-11-23T00:54:33+00:00",
+      "price": 20000,
+      "currency": "USD",
+      "price_basis": "advertised_cash_asking_price",
+      "closing_costs_known": false,
+      "status": "active",
+      "state": "PA",
+      "rv_inside_fit": "unknown",
+      "rv_outside_storage_permission": "unknown",
+      "personal_repair_permission": "unknown",
+      "commercial_repair_permission": "unknown",
+      "occupancy_permission": "unknown",
+      "verified_full_match": false,
+      "id": "pa-dunbar-main-1733004",
+      "anchor": "dunbar",
+      "title": "Main St, Dunbar / Juniata",
+      "county": "Fayette",
+      "mls": "1733004",
+      "url": "https://www.trulia.com/home/main-st-dunbar-pa-15431-53274040",
+      "acres": 0.248,
+      "existing_garage": true,
+      "existing_pad_photo_observed": true,
+      "garage_dimensions": null,
+      "door_height_m": null,
+      "door_width_m": null,
+      "utilities": "unknown",
+      "location": {
+        "lat": null,
+        "lon": null,
+        "reference": {
+          "lat": 39.981358,
+          "lon": -79.714867,
+          "source": "https://www.trulia.com/home/main-st-dunbar-pa-15431-53274040",
+          "kind": "portal_map_reference_unverified"
+        },
+        "note_ru": "Juniata: только ориентир карты объявления. Участок и въезд не подтверждены; GPS-адрес продавца не найден."
+      },
+      "image_url": "assets/listings/4202cedf250c56291586.webp",
+      "image_remote_url": "https://www.trulia.com/pictures/thumbs_5/zillowstatic/fp/40ce15f0671b96663eef709441beb1d7-full.jpg",
+      "photo_history": [
+        {
+          "path": "assets/listings/4202cedf250c56291586.webp",
+          "source": "https://www.trulia.com/home/main-st-dunbar-pa-15431-53274040",
+          "remote_url": "https://www.trulia.com/pictures/thumbs_5/zillowstatic/fp/40ce15f0671b96663eef709441beb1d7-full.jpg",
+          "date": "2026-11-23T00:54:33+00:00",
+          "method": "Browser download of the rendered listing photograph; original WebP bytes retained."
+        }
+      ],
+      "status_history": [
+        {
+          "date": "2026-11-23T00:54:33+00:00",
+          "status": "active",
+          "source": "https://www.trulia.com/home/main-st-dunbar-pa-15431-53274040"
+        }
+      ],
+      "price_history": [
+        {
+          "date": "2026-11-23T00:54:33+00:00",
+          "price": 20000,
+          "source": "https://www.trulia.com/home/main-st-dunbar-pa-15431-53274040"
+        }
+      ],
+      "road": {
+        "distance_miles": 74.7,
+        "duration_minutes": 77,
+        "tolls": true,
+        "endpoint_verified": false,
+        "scope": "Only to the portal map reference, not verified property entrance",
+        "source": "https://www.google.com/maps/dir/?api=1&origin=Pittsburgh+International+Airport&destination=39.981358,-79.714867&travelmode=driving",
+        "checked_at": "2026-11-23T00:54:33+00:00"
+      }
+    },
+    {
+      "checked_at": "2026-11-23T00:54:33+00:00",
+      "first_seen": "2026-11-23T00:54:33+00:00",
+      "price": 20000,
+      "currency": "USD",
+      "price_basis": "advertised_cash_asking_price",
+      "closing_costs_known": false,
+      "status": "active",
+      "state": "PA",
+      "rv_inside_fit": "unknown",
+      "rv_outside_storage_permission": "unknown",
+      "personal_repair_permission": "unknown",
+      "commercial_repair_permission": "unknown",
+      "occupancy_permission": "unknown",
+      "verified_full_match": false,
+      "id": "pa-newcastle-ray-1783220",
+      "anchor": "newcastle",
+      "title": "607 S Ray St, New Castle",
+      "county": "Lawrence",
+      "mls": "1783220",
+      "url": "https://www.stessa.com/investment-properties/607-s-ray-st-new-castle-pa-16101/details/2uptdXdTbTyi",
+      "alternative_urls": [
+        "https://www.thepreferredrealty.com/real-estate/1783220/",
+        "https://www.compass.com/homedetails/607-S-Ray-St-New-Castle-PA-16101/16V2R8_pid/"
+      ],
+      "acres": 0.11,
+      "existing_garage": true,
+      "garage_evidence": "Seller describes oversized three-car detached garage; portal shows three spaces. Garage condition and RV access unverified.",
+      "existing_pad_photo_observed": false,
+      "garage_dimensions": null,
+      "door_height_m": null,
+      "door_width_m": null,
+      "utilities": "Seller reports public water/sewer and gas heat at house; garage services unknown",
+      "location": {
+        "lat": 40.996,
+        "lon": -80.33108,
+        "reference": {
+          "lat": 40.996,
+          "lon": -80.33108,
+          "source": "https://www.stessa.com/investment-properties/607-s-ray-st-new-castle-pa-16101/details/2uptdXdTbTyi",
+          "kind": "listing_map_point_parcel_unverified"
+        },
+        "note_ru": "607 S Ray St: точка объявления. Границы участка и въезд в гараж не проверены."
+      },
+      "image_url": "assets/listings/024f65785d196a551f2b.jpg",
+      "image_remote_url": "https://photos.prod.cirrussystem.net/538/29f7d36e7e7985eb069485ea6f49f109/2470567427.jpeg?d=890",
+      "photo_history": [
+        {
+          "path": "assets/listings/024f65785d196a551f2b.jpg",
+          "source": "https://www.stessa.com/investment-properties/607-s-ray-st-new-castle-pa-16101/details/2uptdXdTbTyi",
+          "remote_url": "https://photos.prod.cirrussystem.net/538/29f7d36e7e7985eb069485ea6f49f109/2470567427.jpeg?d=890",
+          "date": "2026-11-23T00:48:06+00:00"
+        }
+      ],
+      "status_history": [
+        {
+          "date": "2026-11-23T00:54:33+00:00",
+          "status": "active",
+          "source": "https://www.stessa.com/investment-properties/607-s-ray-st-new-castle-pa-16101/details/2uptdXdTbTyi"
+        }
+      ],
+      "price_history": [
+        {
+          "date": "2026-11-23T00:54:33+00:00",
+          "price": 20000,
+          "source": "https://www.stessa.com/investment-properties/607-s-ray-st-new-castle-pa-16101/details/2uptdXdTbTyi"
+        }
+      ],
+      "road": {
+        "distance_miles": 42.1,
+        "duration_minutes": 48,
+        "tolls": true,
+        "endpoint_verified": true,
+        "scope": "Google Maps resolved exact street address; driveway/RV turning clearance unverified",
+        "source": "https://www.google.com/maps/dir/?api=1&origin=Pittsburgh+International+Airport&destination=607+S+Ray+St,+New+Castle,+PA&travelmode=driving",
+        "checked_at": "2026-11-23T00:54:33+00:00"
+      }
+    }
+  ],
+  "flight_observations": [
+    {
+      "id": "20261123-lhr-pit-20270201",
+      "checked_at": "2026-11-23T00:54:33+00:00",
+      "origin": "LHR",
+      "destination": "PIT",
+      "depart_date": "2027-02-01",
+      "return_depart_date": "2027-02-15",
+      "return_arrive_date": "2027-02-16",
+      "adults": 1,
+      "cabin": "Economy",
+      "nonstop_both_legs": true,
+      "carrier": "British Airways",
+      "outbound": "15:55-19:20,8h25",
+      "return": "21:15-09:40+1,7h25",
+      "currency": "EUR",
+      "rt_price": 804,
+      "seller_shown": "Iberia in Google Flights",
+      "alternative_ba_price": 875,
+      "carry_on": "Google says 1 free carry-on",
+      "checked_baggage": "Fee applies; full round-trip fee unknown. Google return-section EUR78 not treated as complete or BA-specific quote.",
+      "provider_final_price_verified": false,
+      "positioning_price": null,
+      "source": "https://www.google.com/travel/flights?q=Flights%20from%20LHR%20to%20PIT%20February%201%202027%20returning%20February%2015%202027%20nonstop",
+      "evidence": "Both legs selected and booking-option summary read in connected Chrome"
+    },
+    {
+      "id": "20261123-lhr-ord-20270118",
+      "checked_at": "2026-11-23T00:54:33+00:00",
+      "origin": "LHR",
+      "destination": "ORD",
+      "depart_date": "2027-01-18",
+      "return_depart_date": "2027-02-01",
+      "return_arrive_date": "2027-02-02",
+      "adults": 1,
+      "cabin": "Economy",
+      "nonstop_both_legs": true,
+      "carrier": "American",
+      "outbound": "12:35-15:20,8h45",
+      "return": "19:20-09:15+1,7h55",
+      "currency": "EUR",
+      "rt_price": 744,
+      "seller_shown": "Iberia in Google Flights",
+      "american_basic_price": 815,
+      "american_main_price": 971,
+      "checked_baggage": "EUR744 allowance unknown; Google AA Basic fee EUR168 displayed and Main includes first checked bag. Not verified at airline checkout.",
+      "provider_final_price_verified": false,
+      "positioning_price": null,
+      "source": "https://www.google.com/travel/flights?q=Flights%20from%20LHR%20to%20ORD%20January%2018%202027%20returning%20February%201%202027%20nonstop",
+      "evidence": "Both legs selected and booking-option summary read in connected Chrome"
+    },
+    {
+      "id": "20261123-fra-stl-20270115",
+      "checked_at": "2026-11-23T00:54:33+00:00",
+      "origin": "FRA",
+      "destination": "STL",
+      "depart_date": "2027-01-15",
+      "return_depart_date": "2027-01-29",
+      "adults": 1,
+      "cabin": "Economy",
+      "nonstop_both_legs": null,
+      "nonstop_label_observed": true,
+      "carrier": "Lufthansa",
+      "outbound": "10:45-13:45,10h",
+      "currency": "EUR",
+      "rt_price": 749,
+      "seller_shown": "Google Flights route summary and outbound search result",
+      "checked_baggage": "unknown",
+      "provider_final_price_verified": false,
+      "positioning_price": null,
+      "source": "https://www.google.com/travel/flights/flights-from-frankfurt-am-main-to-st-louis.html",
+      "evidence": "Route summary says cheapest nonstop RT; outbound detail confirmed; return and provider fare not selected"
+    }
+  ],
+  "official_rules": [
+    {
+      "url": "https://www.fayettecountypa.org/259/Zoning-Planning",
+      "finding": "County zoning authority and adopted ordinance located; exact parcel/zoning/use for Dunbar garage not resolved."
+    },
+    {
+      "url": "https://www.fayettecountypa.org/DocumentCenter/View/1391/Zoning-Ordinance-Adopted-11-1-06-PDF",
+      "finding": "Private accessory garages and automotive repair/service are distinct uses. No personal-repair entitlement inferred."
+    },
+    {
+      "url": "https://ecode360.com/37268815",
+      "finding": "New Castle sections513.01 and513.10 regulate street repair and motorhome street/alley parking. These do not establish private-lot permission."
+    },
+    {
+      "url": "https://www.newcastlepa.org/wp-content/uploads/2025/01/ARTICLE-1322-Zoning-Ordinance-Definitions.pdf",
+      "finding": "Private garage and repair/service garage definitions differ; hobby repair and exact zoning remain unknown."
+    }
+  ],
+  "access_notes": [
+    "Trulia photo/map inspected and image downloaded before subsequent new-property CAPTCHA; stopped Trulia after challenge.",
+    "Howard Hanna and ByOwner robots403; ThePreferredRealty and Movoto page403; ezhomesearch robots403; Sothebys robots403; AllPittsburghHomes blocked; Compass202 challenge; Realmo verification. No bypass or availability inference.",
+    "Independent public Stessa robots/page200 supplied New Castle current price/status/coordinates and genuine photograph.",
+    "All1125 national listing records, images and histories preserved; shortlist is separate and does not raise nightly budget."
+  ]
+}
