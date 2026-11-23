@@ -1,0 +1,2193 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-23T02:36:07+00:00",
+  "scope_ru": "Расширенный поиск до $20,000: дома с гаражами и без, гаражи/мастерские, существующие RV-площадки; вокруг Minnetonka, MSP и ORD. Готовность и разрешения оцениваются отдельно, без исключения реальных домов только из-за неизвестного RV-fit.",
+  "freshness_days": 14,
+  "full_matches_confirmed": 0,
+  "candidates": [
+    {
+      "id": "il-woodhaven-12809498",
+      "title": "Woodhaven 15/101",
+      "price": 14900,
+      "currency": "USD",
+      "price_basis": "advertised_cash_asking_price",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "last_verified": "2026-11-23T02:36:07+00:00",
+      "checked_at": "2026-11-23T02:36:07+00:00",
+      "first_seen": "2026-11-23T02:36:07+00:00",
+      "state": "IL",
+      "city": "Sublette / Woodhaven",
+      "category": "utilities_only",
+      "summary_ru": "Угловой участок с подключениями. Сквозной проезд только предлагается сделать; существующая готовая RV-площадка не подтверждена.",
+      "url": "https://www.coldwellbanker.com/il/sublette/15-101-woodhaven/lid-P00800000HKYPZLluenyjobAmaR02kQbku9DfZ3K",
+      "image_remote_url": "https://images-listings.coldwellbanker.com/MLSNI/12/80/94/98/_P/12809498_P00.jpg",
+      "closing_costs_known": false,
+      "known_fees": null,
+      "rv_inside_fit": "unknown",
+      "rv_outside_fit": "unknown",
+      "rv_outside_storage_permission": "unknown",
+      "personal_repair_permission": "unknown",
+      "occupancy_permission": "unknown",
+      "commercial_repair_permission": "unknown",
+      "verified_full_match": false,
+      "annual_dues_usd": 1710,
+      "annual_tax_usd": null,
+      "garage_dimensions": null,
+      "door_height_m": null,
+      "door_width_m": null,
+      "price_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "price": 14900,
+          "source": "https://www.coldwellbanker.com/il/sublette/15-101-woodhaven/lid-P00800000HKYPZLluenyjobAmaR02kQbku9DfZ3K"
+        }
+      ],
+      "status_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "status": "active",
+          "source": "https://www.coldwellbanker.com/il/sublette/15-101-woodhaven/lid-P00800000HKYPZLluenyjobAmaR02kQbku9DfZ3K"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.coldwellbanker.com/il/sublette/15-101-woodhaven/lid-P00800000HKYPZLluenyjobAmaR02kQbku9DfZ3K"
+        }
+      ],
+      "photo_history": [
+        {
+          "path": "assets/listings/2ee7c4f732c309e9ef42.jpg",
+          "source": "https://www.coldwellbanker.com/il/sublette/15-101-woodhaven/lid-P00800000HKYPZLluenyjobAmaR02kQbku9DfZ3K",
+          "remote_url": "https://images-listings.coldwellbanker.com/MLSNI/12/80/94/98/_P/12809498_P00.jpg",
+          "date": "2026-11-23T02:36:07+00:00",
+          "sha256": "2ee7c4f732c309e9ef42d36ecf992e43899d9bf557b70b6b3fb11e9e2bfa170e",
+          "method": "Original photograph downloaded from rendered listing in Chrome; bytes unchanged"
+        }
+      ],
+      "mls": "12809498",
+      "county": "Lee",
+      "kind": "land",
+      "existing_garage": null,
+      "acres": null,
+      "ownership": "fee_simple_lot_claim",
+      "association": "Woodhaven Association",
+      "official_rules_url": "https://sfvklr.infiniteuploads.cloud/2026/05/Rules-Regs-Amended-04282026.pdf",
+      "official_fees_url": "https://woodhavenassociation.com/membership/",
+      "rv_storage": "seller_conditional",
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "seller_no",
+      "road_access": "unknown",
+      "location": {
+        "lat": null,
+        "lon": null,
+        "reference": {
+          "lat": 41.656913,
+          "lon": -89.284351,
+          "kind": "community_approximate",
+          "source": "https://www.coldwellbanker.com/il/sublette/8-36-woodhaven/lid-P00800000GzfZ4XYrGlJd86aFR9mG81SwwegOmes"
+        },
+        "note_ru": "Общий ориентир Woodhaven по карте объявления 8/36; точка этого лота и въезд не подтверждены."
+      },
+      "annual_dues_note_ru": "Действующие взносы 2026–27: $1,580 без канализации / $1,710 с канализацией. Подключение конкретного лота и сумму при сделке сверить; налог и электричество отдельно.",
+      "airport_code": "ORD",
+      "airport_reference": {
+        "lat": 41.9742,
+        "lon": -87.9073
+      },
+      "image_url": "assets/listings/2ee7c4f732c309e9ef42.jpg",
+      "image_source_url": "https://www.coldwellbanker.com/il/sublette/15-101-woodhaven/lid-P00800000HKYPZLluenyjobAmaR02kQbku9DfZ3K",
+      "airport_straight_km": 119.4,
+      "inspection_order": 12
+    },
+    {
+      "id": "il-woodhaven-12702743",
+      "title": "Woodhaven 5/493",
+      "price": 15000,
+      "currency": "USD",
+      "price_basis": "advertised_cash_asking_price",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "last_verified": "2026-11-23T02:36:07+00:00",
+      "checked_at": "2026-11-23T02:36:07+00:00",
+      "first_seen": "2026-11-23T02:36:07+00:00",
+      "state": "IL",
+      "city": "Sublette / Woodhaven",
+      "category": "occupied_rv",
+      "summary_ru": "Включён travel trailer Marathon 1988 года. Без канализации. Место для своего большого RV и условия удаления старого трейлера неизвестны.",
+      "url": "https://www.coldwellbanker.com/il/sublette/5493-woodhaven-drive-east/lid-P00800000HDzXhrqDNasqE7xP3Y3hBh7sN7eB1AY",
+      "image_remote_url": "https://images-listings.coldwellbanker.com/MLSNI/12/70/27/43/_P/12702743_P00.jpg",
+      "closing_costs_known": false,
+      "known_fees": null,
+      "rv_inside_fit": "unknown",
+      "rv_outside_fit": "unknown",
+      "rv_outside_storage_permission": "unknown",
+      "personal_repair_permission": "unknown",
+      "occupancy_permission": "unknown",
+      "commercial_repair_permission": "unknown",
+      "verified_full_match": false,
+      "annual_dues_usd": 1580,
+      "annual_tax_usd": null,
+      "garage_dimensions": null,
+      "door_height_m": null,
+      "door_width_m": null,
+      "price_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "price": 15000,
+          "source": "https://www.coldwellbanker.com/il/sublette/5493-woodhaven-drive-east/lid-P00800000HDzXhrqDNasqE7xP3Y3hBh7sN7eB1AY"
+        }
+      ],
+      "status_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "status": "active",
+          "source": "https://www.coldwellbanker.com/il/sublette/5493-woodhaven-drive-east/lid-P00800000HDzXhrqDNasqE7xP3Y3hBh7sN7eB1AY"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.coldwellbanker.com/il/sublette/5493-woodhaven-drive-east/lid-P00800000HDzXhrqDNasqE7xP3Y3hBh7sN7eB1AY"
+        }
+      ],
+      "photo_history": [
+        {
+          "path": "assets/listings/e6f75b7cc1787aabca3a.jpg",
+          "source": "https://www.coldwellbanker.com/il/sublette/5493-woodhaven-drive-east/lid-P00800000HDzXhrqDNasqE7xP3Y3hBh7sN7eB1AY",
+          "remote_url": "https://images-listings.coldwellbanker.com/MLSNI/12/70/27/43/_P/12702743_P00.jpg",
+          "date": "2026-11-23T02:36:07+00:00",
+          "sha256": "e6f75b7cc1787aabca3a4f3771a1dff11dc2d1ceb2f36974e09d3c802719e2b2",
+          "method": "Public rendered listing image URL; unchanged bytes, image magic verified (MIME can be octet-stream)"
+        }
+      ],
+      "mls": "12702743",
+      "county": "Lee",
+      "kind": "land",
+      "existing_garage": null,
+      "acres": null,
+      "ownership": "fee_simple_lot_claim",
+      "association": "Woodhaven Association",
+      "official_rules_url": "https://sfvklr.infiniteuploads.cloud/2026/05/Rules-Regs-Amended-04282026.pdf",
+      "official_fees_url": "https://woodhavenassociation.com/membership/",
+      "rv_storage": "seller_conditional",
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "seller_no",
+      "road_access": "unknown",
+      "location": {
+        "lat": null,
+        "lon": null,
+        "reference": {
+          "lat": 41.656913,
+          "lon": -89.284351,
+          "kind": "community_approximate",
+          "source": "https://www.coldwellbanker.com/il/sublette/8-36-woodhaven/lid-P00800000GzfZ4XYrGlJd86aFR9mG81SwwegOmes"
+        },
+        "note_ru": "Общий ориентир Woodhaven по карте объявления 8/36; точка этого лота и въезд не подтверждены."
+      },
+      "physical_source_url": "https://www.coldwellbankertoday.com/landlots-for-sale/5493-Woodhaven-Sublette-IL-61367-435554588",
+      "annual_dues_note_ru": "Действующие взносы 2026–27: $1,580 без канализации / $1,710 с канализацией. Подключение конкретного лота и сумму при сделке сверить; налог и электричество отдельно.",
+      "airport_code": "ORD",
+      "airport_reference": {
+        "lat": 41.9742,
+        "lon": -87.9073
+      },
+      "image_url": "assets/listings/e6f75b7cc1787aabca3a.jpg",
+      "image_source_url": "https://www.coldwellbanker.com/il/sublette/5493-woodhaven-drive-east/lid-P00800000HDzXhrqDNasqE7xP3Y3hBh7sN7eB1AY",
+      "airport_straight_km": 119.4,
+      "inspection_order": 15
+    },
+    {
+      "id": "il-woodhaven-12757927",
+      "title": "Woodhaven 15/172",
+      "price": 15900,
+      "currency": "USD",
+      "price_basis": "advertised_cash_asking_price",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "last_verified": "2026-11-23T02:36:07+00:00",
+      "checked_at": "2026-11-23T02:36:07+00:00",
+      "first_seen": "2026-11-23T02:36:07+00:00",
+      "state": "IL",
+      "city": "Sublette / Woodhaven",
+      "category": "utilities_only",
+      "summary_ru": "В источниках указаны электричество, общая вода и подключённая канализация. Готовая площадка и постройки не подтверждены; публичное описание CB отсутствует.",
+      "url": "https://www.coldwellbanker.com/il/sublette/15-172-woodhaven/lid-P00800000HHBhy2KZ9XCE2ic0nhtBFkvQWP9vx8S",
+      "image_remote_url": "https://images-listings.coldwellbanker.com/MLSNI/12/75/79/27/_P/12757927_P00.jpg",
+      "closing_costs_known": false,
+      "known_fees": null,
+      "rv_inside_fit": "unknown",
+      "rv_outside_fit": "unknown",
+      "rv_outside_storage_permission": "unknown",
+      "personal_repair_permission": "unknown",
+      "occupancy_permission": "unknown",
+      "commercial_repair_permission": "unknown",
+      "verified_full_match": false,
+      "annual_dues_usd": 1710,
+      "annual_tax_usd": null,
+      "garage_dimensions": null,
+      "door_height_m": null,
+      "door_width_m": null,
+      "price_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "price": 15900,
+          "source": "https://www.coldwellbanker.com/il/sublette/15-172-woodhaven/lid-P00800000HHBhy2KZ9XCE2ic0nhtBFkvQWP9vx8S"
+        }
+      ],
+      "status_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "status": "active",
+          "source": "https://www.coldwellbanker.com/il/sublette/15-172-woodhaven/lid-P00800000HHBhy2KZ9XCE2ic0nhtBFkvQWP9vx8S"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.coldwellbanker.com/il/sublette/15-172-woodhaven/lid-P00800000HHBhy2KZ9XCE2ic0nhtBFkvQWP9vx8S"
+        }
+      ],
+      "photo_history": [
+        {
+          "path": "assets/listings/16bfb496778ba71a5639.jpg",
+          "source": "https://www.coldwellbanker.com/il/sublette/15-172-woodhaven/lid-P00800000HHBhy2KZ9XCE2ic0nhtBFkvQWP9vx8S",
+          "remote_url": "https://images-listings.coldwellbanker.com/MLSNI/12/75/79/27/_P/12757927_P00.jpg",
+          "date": "2026-11-23T02:36:07+00:00",
+          "sha256": "16bfb496778ba71a5639be1a698e885484e43f5852ca3ad66dfd1ecbd043bc15",
+          "method": "Public rendered listing image URL; unchanged bytes, image magic verified (MIME can be octet-stream)"
+        }
+      ],
+      "mls": "12757927",
+      "county": "Lee",
+      "kind": "land",
+      "existing_garage": null,
+      "acres": null,
+      "ownership": "fee_simple_lot_claim",
+      "association": "Woodhaven Association",
+      "official_rules_url": "https://sfvklr.infiniteuploads.cloud/2026/05/Rules-Regs-Amended-04282026.pdf",
+      "official_fees_url": "https://woodhavenassociation.com/membership/",
+      "rv_storage": "seller_conditional",
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "seller_no",
+      "road_access": "unknown",
+      "location": {
+        "lat": null,
+        "lon": null,
+        "reference": {
+          "lat": 41.656913,
+          "lon": -89.284351,
+          "kind": "community_approximate",
+          "source": "https://www.coldwellbanker.com/il/sublette/8-36-woodhaven/lid-P00800000GzfZ4XYrGlJd86aFR9mG81SwwegOmes"
+        },
+        "note_ru": "Общий ориентир Woodhaven по карте объявления 8/36; точка этого лота и въезд не подтверждены."
+      },
+      "annual_dues_note_ru": "Действующие взносы 2026–27: $1,580 без канализации / $1,710 с канализацией. Подключение конкретного лота и сумму при сделке сверить; налог и электричество отдельно.",
+      "airport_code": "ORD",
+      "airport_reference": {
+        "lat": 41.9742,
+        "lon": -87.9073
+      },
+      "image_url": "assets/listings/16bfb496778ba71a5639.jpg",
+      "image_source_url": "https://www.coldwellbanker.com/il/sublette/15-172-woodhaven/lid-P00800000HHBhy2KZ9XCE2ic0nhtBFkvQWP9vx8S",
+      "airport_straight_km": 119.4,
+      "inspection_order": 13
+    },
+    {
+      "id": "il-woodhaven-12148107",
+      "title": "Woodhaven 9-128",
+      "price": 17000,
+      "currency": "USD",
+      "price_basis": "advertised_cash_asking_price",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "last_verified": "2026-11-23T02:36:07+00:00",
+      "checked_at": "2026-11-23T02:36:07+00:00",
+      "first_seen": "2026-11-23T02:36:07+00:00",
+      "state": "IL",
+      "city": "Sublette / Woodhaven",
+      "category": "outdoor_candidate",
+      "summary_ru": "Ровный участок в тупике и существующий сарай 8×8 ft. Продавец обещает убрать свой трейлер перед закрытием сделки; проверять уже освобождённую площадку.",
+      "url": "https://www.coldwellbanker.com/il/sublette/9-128-woodhaven-lakes/lid-P00800000GeZUcgnNblwltsDT4FhqEXUx1P3jWbB",
+      "image_remote_url": "https://images-listings.coldwellbanker.com/MLSNI/12/14/81/07/_P/12148107_P00.jpg",
+      "closing_costs_known": false,
+      "known_fees": null,
+      "rv_inside_fit": "unknown",
+      "rv_outside_fit": "unknown",
+      "rv_outside_storage_permission": "unknown",
+      "personal_repair_permission": "unknown",
+      "occupancy_permission": "unknown",
+      "commercial_repair_permission": "unknown",
+      "verified_full_match": false,
+      "annual_dues_usd": 1710,
+      "annual_tax_usd": null,
+      "garage_dimensions": null,
+      "door_height_m": null,
+      "door_width_m": null,
+      "price_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "price": 17000,
+          "source": "https://www.coldwellbanker.com/il/sublette/9-128-woodhaven-lakes/lid-P00800000GeZUcgnNblwltsDT4FhqEXUx1P3jWbB"
+        }
+      ],
+      "status_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "status": "active",
+          "source": "https://www.coldwellbanker.com/il/sublette/9-128-woodhaven-lakes/lid-P00800000GeZUcgnNblwltsDT4FhqEXUx1P3jWbB"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.coldwellbanker.com/il/sublette/9-128-woodhaven-lakes/lid-P00800000GeZUcgnNblwltsDT4FhqEXUx1P3jWbB"
+        }
+      ],
+      "photo_history": [
+        {
+          "path": "assets/listings/5b14e041e9010619fd30.jpg",
+          "source": "https://www.coldwellbanker.com/il/sublette/9-128-woodhaven-lakes/lid-P00800000GeZUcgnNblwltsDT4FhqEXUx1P3jWbB",
+          "remote_url": "https://images-listings.coldwellbanker.com/MLSNI/12/14/81/07/_P/12148107_P00.jpg",
+          "date": "2026-11-23T02:36:07+00:00",
+          "sha256": "5b14e041e9010619fd30a9a63a981f978471081a8512f3c8d18f820b143e9914",
+          "method": "Public rendered listing image URL; unchanged bytes, image magic verified (MIME can be octet-stream)"
+        }
+      ],
+      "mls": "12148107",
+      "county": "Lee",
+      "kind": "land",
+      "existing_garage": null,
+      "acres": null,
+      "ownership": "fee_simple_lot_claim",
+      "association": "Woodhaven Association",
+      "official_rules_url": "https://sfvklr.infiniteuploads.cloud/2026/05/Rules-Regs-Amended-04282026.pdf",
+      "official_fees_url": "https://woodhavenassociation.com/membership/",
+      "rv_storage": "seller_conditional",
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "seller_no",
+      "road_access": "unknown",
+      "location": {
+        "lat": null,
+        "lon": null,
+        "reference": {
+          "lat": 41.656913,
+          "lon": -89.284351,
+          "kind": "community_approximate",
+          "source": "https://www.coldwellbanker.com/il/sublette/8-36-woodhaven/lid-P00800000GzfZ4XYrGlJd86aFR9mG81SwwegOmes"
+        },
+        "note_ru": "Общий ориентир Woodhaven по карте объявления 8/36; точка этого лота и въезд не подтверждены."
+      },
+      "annual_dues_note_ru": "Действующие взносы 2026–27: $1,580 без канализации / $1,710 с канализацией. Подключение конкретного лота и сумму при сделке сверить; налог и электричество отдельно.",
+      "airport_code": "ORD",
+      "airport_reference": {
+        "lat": 41.9742,
+        "lon": -87.9073
+      },
+      "image_url": "assets/listings/5b14e041e9010619fd30.jpg",
+      "image_source_url": "https://www.coldwellbanker.com/il/sublette/9-128-woodhaven-lakes/lid-P00800000GeZUcgnNblwltsDT4FhqEXUx1P3jWbB",
+      "airport_straight_km": 119.4,
+      "inspection_order": 9
+    },
+    {
+      "id": "il-woodhaven-12633624",
+      "title": "Woodhaven 17-3",
+      "price": 18000,
+      "currency": "USD",
+      "price_basis": "advertised_cash_asking_price",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "last_verified": "2026-11-23T02:36:07+00:00",
+      "checked_at": "2026-11-23T02:36:07+00:00",
+      "first_seen": "2026-11-23T02:36:07+00:00",
+      "state": "IL",
+      "city": "Sublette / Woodhaven",
+      "category": "outdoor_candidate",
+      "summary_ru": "Существующий гравийный подъезд, электричество на участке и подключённая канализация по объявлению. Гараж не заявлен; размеры места для RV не измерены.",
+      "url": "https://www.coldwellbanker.com/il/sublette/173-woodhaven-lk/lid-P00800000HAATKPdEtrVy9gyfn7hfi4ZphwXXyJE",
+      "image_remote_url": "https://cdn02.deltamediagroup.com/listing_photos/active/18633/186324908/1.jpg?hash=fcf1102cce18a4da80eda49c29e103e2",
+      "closing_costs_known": false,
+      "known_fees": null,
+      "rv_inside_fit": "unknown",
+      "rv_outside_fit": "unknown",
+      "rv_outside_storage_permission": "unknown",
+      "personal_repair_permission": "unknown",
+      "occupancy_permission": "unknown",
+      "commercial_repair_permission": "unknown",
+      "verified_full_match": false,
+      "annual_dues_usd": 1710,
+      "annual_tax_usd": null,
+      "garage_dimensions": null,
+      "door_height_m": null,
+      "door_width_m": null,
+      "price_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "price": 18000,
+          "source": "https://www.coldwellbanker.com/il/sublette/173-woodhaven-lk/lid-P00800000HAATKPdEtrVy9gyfn7hfi4ZphwXXyJE"
+        }
+      ],
+      "status_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "status": "active",
+          "source": "https://www.coldwellbanker.com/il/sublette/173-woodhaven-lk/lid-P00800000HAATKPdEtrVy9gyfn7hfi4ZphwXXyJE"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.coldwellbanker.com/il/sublette/173-woodhaven-lk/lid-P00800000HAATKPdEtrVy9gyfn7hfi4ZphwXXyJE"
+        }
+      ],
+      "photo_history": [
+        {
+          "path": "assets/listings/c3d397ad80faeff44f93.jpg",
+          "source": "https://www.ruhlhomes.com/p/17-3-Woodhaven-Lakes-Sublette-IL-61367/dmgid_186324908",
+          "remote_url": "https://cdn02.deltamediagroup.com/listing_photos/active/18633/186324908/1.jpg?hash=fcf1102cce18a4da80eda49c29e103e2",
+          "date": "2026-11-23T02:36:07+00:00",
+          "sha256": "c3d397ad80faeff44f93c5ad74f3588634698e22ab985c57b1654385ff2da407",
+          "method": "Public rendered listing image URL; unchanged bytes, image magic verified (MIME can be octet-stream)"
+        }
+      ],
+      "mls": "12633624",
+      "county": "Lee",
+      "kind": "land",
+      "existing_garage": null,
+      "acres": null,
+      "ownership": "fee_simple_lot_claim",
+      "association": "Woodhaven Association",
+      "official_rules_url": "https://sfvklr.infiniteuploads.cloud/2026/05/Rules-Regs-Amended-04282026.pdf",
+      "official_fees_url": "https://woodhavenassociation.com/membership/",
+      "rv_storage": "seller_conditional",
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "seller_no",
+      "road_access": "unknown",
+      "location": {
+        "lat": null,
+        "lon": null,
+        "reference": {
+          "lat": 41.655919,
+          "lon": -89.296232,
+          "kind": "portal_map_reference_unverified",
+          "source": "https://www.ruhlhomes.com/p/17-3-Woodhaven-Lakes-Sublette-IL-61367/dmgid_186324908"
+        },
+        "note_ru": "Ориентир карты Ruhl; точный участок и въезд не подтверждены."
+      },
+      "image_source_url": "https://www.ruhlhomes.com/p/17-3-Woodhaven-Lakes-Sublette-IL-61367/dmgid_186324908",
+      "annual_dues_note_ru": "Действующие взносы 2026–27: $1,580 без канализации / $1,710 с канализацией. Подключение конкретного лота и сумму при сделке сверить; налог и электричество отдельно.",
+      "airport_code": "ORD",
+      "airport_reference": {
+        "lat": 41.9742,
+        "lon": -87.9073
+      },
+      "image_url": "assets/listings/c3d397ad80faeff44f93.jpg",
+      "airport_straight_km": 120.4,
+      "inspection_order": 4
+    },
+    {
+      "id": "il-woodhaven-12489437",
+      "title": "Woodhaven 8/36",
+      "price": 18500,
+      "currency": "USD",
+      "price_basis": "advertised_cash_asking_price",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "last_verified": "2026-11-23T02:36:07+00:00",
+      "checked_at": "2026-11-23T02:36:07+00:00",
+      "first_seen": "2026-11-23T02:36:07+00:00",
+      "state": "IL",
+      "city": "Sublette / Woodhaven",
+      "category": "outdoor_candidate",
+      "summary_ru": "Глубокий участок с существующими настилом и сараем, канализацией; продавец предлагает привезти свой RV. Напротив Sunset Lake; проезд и длину площадки проверить.",
+      "url": "https://www.coldwellbanker.com/il/sublette/8-36-woodhaven/lid-P00800000GzfZ4XYrGlJd86aFR9mG81SwwegOmes",
+      "image_remote_url": "https://images-listings.coldwellbanker.com/MLSNI/12/48/94/37/_P/12489437_P00.jpg",
+      "closing_costs_known": false,
+      "known_fees": null,
+      "rv_inside_fit": "unknown",
+      "rv_outside_fit": "unknown",
+      "rv_outside_storage_permission": "unknown",
+      "personal_repair_permission": "unknown",
+      "occupancy_permission": "unknown",
+      "commercial_repair_permission": "unknown",
+      "verified_full_match": false,
+      "annual_dues_usd": 1710,
+      "annual_tax_usd": null,
+      "garage_dimensions": null,
+      "door_height_m": null,
+      "door_width_m": null,
+      "price_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "price": 18500,
+          "source": "https://www.coldwellbanker.com/il/sublette/8-36-woodhaven/lid-P00800000GzfZ4XYrGlJd86aFR9mG81SwwegOmes"
+        }
+      ],
+      "status_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "status": "active",
+          "source": "https://www.coldwellbanker.com/il/sublette/8-36-woodhaven/lid-P00800000GzfZ4XYrGlJd86aFR9mG81SwwegOmes"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.coldwellbanker.com/il/sublette/8-36-woodhaven/lid-P00800000GzfZ4XYrGlJd86aFR9mG81SwwegOmes"
+        }
+      ],
+      "photo_history": [
+        {
+          "path": "assets/listings/236b9c728db91e51bf9d.webp",
+          "source": "https://www.coldwellbanker.com/il/sublette/8-36-woodhaven/lid-P00800000GzfZ4XYrGlJd86aFR9mG81SwwegOmes",
+          "remote_url": "https://images-listings.coldwellbanker.com/MLSNI/12/48/94/37/_P/12489437_P00.jpg",
+          "date": "2026-11-23T02:36:07+00:00",
+          "sha256": "236b9c728db91e51bf9dfdd7cb949b1a28e69ccbfc9db7bbaad1252139a06cc9",
+          "method": "Original photograph downloaded from rendered listing in Chrome; bytes unchanged"
+        }
+      ],
+      "mls": "12489437",
+      "county": "Lee",
+      "kind": "land",
+      "existing_garage": null,
+      "acres": null,
+      "ownership": "fee_simple_lot_claim",
+      "association": "Woodhaven Association",
+      "official_rules_url": "https://sfvklr.infiniteuploads.cloud/2026/05/Rules-Regs-Amended-04282026.pdf",
+      "official_fees_url": "https://woodhavenassociation.com/membership/",
+      "rv_storage": "seller_conditional",
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "seller_no",
+      "road_access": "unknown",
+      "location": {
+        "lat": null,
+        "lon": null,
+        "reference": {
+          "lat": 41.656913,
+          "lon": -89.284351,
+          "kind": "portal_map_reference_unverified",
+          "source": "https://www.coldwellbanker.com/il/sublette/8-36-woodhaven/lid-P00800000GzfZ4XYrGlJd86aFR9mG81SwwegOmes"
+        },
+        "note_ru": "Точка карты объявления 8/36; принадлежность точному участку, границы и въезд не проверены."
+      },
+      "annual_dues_note_ru": "Действующие взносы 2026–27: $1,580 без канализации / $1,710 с канализацией. Подключение конкретного лота и сумму при сделке сверить; налог и электричество отдельно.",
+      "airport_code": "ORD",
+      "airport_reference": {
+        "lat": 41.9742,
+        "lon": -87.9073
+      },
+      "image_url": "assets/listings/236b9c728db91e51bf9d.webp",
+      "image_source_url": "https://www.coldwellbanker.com/il/sublette/8-36-woodhaven/lid-P00800000GzfZ4XYrGlJd86aFR9mG81SwwegOmes",
+      "airport_straight_km": 119.4,
+      "inspection_order": 7
+    },
+    {
+      "id": "il-woodhaven-12613833",
+      "title": "Woodhaven 16/46",
+      "price": 18900,
+      "currency": "USD",
+      "price_basis": "advertised_cash_asking_price",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "last_verified": "2026-11-23T02:36:07+00:00",
+      "checked_at": "2026-11-23T02:36:07+00:00",
+      "first_seen": "2026-11-23T02:36:07+00:00",
+      "state": "IL",
+      "city": "Sublette / Woodhaven",
+      "category": "outdoor_candidate",
+      "summary_ru": "Участок 40×100 ft с существующими настилом и сараем. Электричество, общая вода и канализация по объявлению; въезд высокого 7-метрового RV не проверен.",
+      "url": "https://www.coldwellbanker.com/il/sublette/16-46-woodhaven/lid-P00800000H94rJQmlLOUrJrxL0POHzcMpITqCXLq",
+      "image_remote_url": "https://images-listings.coldwellbanker.com/MLSNI/12/61/38/33/_P/12613833_P00.jpg",
+      "closing_costs_known": false,
+      "known_fees": null,
+      "rv_inside_fit": "unknown",
+      "rv_outside_fit": "unknown",
+      "rv_outside_storage_permission": "unknown",
+      "personal_repair_permission": "unknown",
+      "occupancy_permission": "unknown",
+      "commercial_repair_permission": "unknown",
+      "verified_full_match": false,
+      "annual_dues_usd": 1710,
+      "annual_tax_usd": null,
+      "garage_dimensions": null,
+      "door_height_m": null,
+      "door_width_m": null,
+      "price_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "price": 18900,
+          "source": "https://www.coldwellbanker.com/il/sublette/16-46-woodhaven/lid-P00800000H94rJQmlLOUrJrxL0POHzcMpITqCXLq"
+        }
+      ],
+      "status_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "status": "active",
+          "source": "https://www.coldwellbanker.com/il/sublette/16-46-woodhaven/lid-P00800000H94rJQmlLOUrJrxL0POHzcMpITqCXLq"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.coldwellbanker.com/il/sublette/16-46-woodhaven/lid-P00800000H94rJQmlLOUrJrxL0POHzcMpITqCXLq"
+        }
+      ],
+      "photo_history": [
+        {
+          "path": "assets/listings/0cc608b68deb212d6cd2.jpg",
+          "source": "https://www.coldwellbanker.com/il/sublette/16-46-woodhaven/lid-P00800000H94rJQmlLOUrJrxL0POHzcMpITqCXLq",
+          "remote_url": "https://images-listings.coldwellbanker.com/MLSNI/12/61/38/33/_P/12613833_P00.jpg",
+          "date": "2026-11-23T02:36:07+00:00",
+          "sha256": "0cc608b68deb212d6cd267c6f31037857136f0073faabd88def3c9f0e37336da",
+          "method": "Public rendered listing image URL; unchanged bytes, image magic verified (MIME can be octet-stream)"
+        }
+      ],
+      "mls": "12613833",
+      "county": "Lee",
+      "kind": "land",
+      "existing_garage": null,
+      "acres": null,
+      "ownership": "fee_simple_lot_claim",
+      "association": "Woodhaven Association",
+      "official_rules_url": "https://sfvklr.infiniteuploads.cloud/2026/05/Rules-Regs-Amended-04282026.pdf",
+      "official_fees_url": "https://woodhavenassociation.com/membership/",
+      "rv_storage": "seller_conditional",
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "seller_no",
+      "road_access": "unknown",
+      "location": {
+        "lat": null,
+        "lon": null,
+        "reference": {
+          "lat": 41.656913,
+          "lon": -89.284351,
+          "kind": "community_approximate",
+          "source": "https://www.coldwellbanker.com/il/sublette/8-36-woodhaven/lid-P00800000GzfZ4XYrGlJd86aFR9mG81SwwegOmes"
+        },
+        "note_ru": "Общий ориентир Woodhaven по карте объявления 8/36; точка этого лота и въезд не подтверждены."
+      },
+      "annual_dues_note_ru": "Действующие взносы 2026–27: $1,580 без канализации / $1,710 с канализацией. Подключение конкретного лота и сумму при сделке сверить; налог и электричество отдельно.",
+      "airport_code": "ORD",
+      "airport_reference": {
+        "lat": 41.9742,
+        "lon": -87.9073
+      },
+      "image_url": "assets/listings/0cc608b68deb212d6cd2.jpg",
+      "image_source_url": "https://www.coldwellbanker.com/il/sublette/16-46-woodhaven/lid-P00800000H94rJQmlLOUrJrxL0POHzcMpITqCXLq",
+      "airport_straight_km": 119.4,
+      "inspection_order": 5
+    },
+    {
+      "id": "il-woodhaven-12143914",
+      "title": "Woodhaven 28-122",
+      "price": 19000,
+      "currency": "USD",
+      "price_basis": "advertised_cash_asking_price",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "last_verified": "2026-11-23T02:36:07+00:00",
+      "checked_at": "2026-11-23T02:36:07+00:00",
+      "first_seen": "2026-11-23T02:36:07+00:00",
+      "state": "IL",
+      "city": "Sublette / Woodhaven",
+      "category": "outdoor_candidate",
+      "summary_ru": "По объявлению уже есть гравийные подъезд и RV-площадка, сарай и стойка электропитания 30 A. Один из первых кандидатов на проверку места под хранение снаружи.",
+      "url": "https://www.coldwellbanker.com/il/sublette/28-122-woodhaven-lakes/lid-P00800000GeIaNFRPTwDrVwOZo5pzGkt9iriZ0Ya",
+      "image_remote_url": "https://images-listings.coldwellbanker.com/MLSNI/12/14/39/14/_P/12143914_P00.jpg",
+      "closing_costs_known": false,
+      "known_fees": null,
+      "rv_inside_fit": "unknown",
+      "rv_outside_fit": "unknown",
+      "rv_outside_storage_permission": "unknown",
+      "personal_repair_permission": "unknown",
+      "occupancy_permission": "unknown",
+      "commercial_repair_permission": "unknown",
+      "verified_full_match": false,
+      "annual_dues_usd": 1710,
+      "annual_tax_usd": null,
+      "garage_dimensions": null,
+      "door_height_m": null,
+      "door_width_m": null,
+      "price_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "price": 19000,
+          "source": "https://www.coldwellbanker.com/il/sublette/28-122-woodhaven-lakes/lid-P00800000GeIaNFRPTwDrVwOZo5pzGkt9iriZ0Ya"
+        }
+      ],
+      "status_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "status": "active",
+          "source": "https://www.coldwellbanker.com/il/sublette/28-122-woodhaven-lakes/lid-P00800000GeIaNFRPTwDrVwOZo5pzGkt9iriZ0Ya"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.coldwellbanker.com/il/sublette/28-122-woodhaven-lakes/lid-P00800000GeIaNFRPTwDrVwOZo5pzGkt9iriZ0Ya"
+        }
+      ],
+      "photo_history": [
+        {
+          "path": "assets/listings/2e1e28c889028e11af04.jpg",
+          "source": "https://www.coldwellbanker.com/il/sublette/28-122-woodhaven-lakes/lid-P00800000GeIaNFRPTwDrVwOZo5pzGkt9iriZ0Ya",
+          "remote_url": "https://images-listings.coldwellbanker.com/MLSNI/12/14/39/14/_P/12143914_P00.jpg",
+          "date": "2026-11-23T02:36:07+00:00",
+          "sha256": "2e1e28c889028e11af04c2892bb322edf2bae966b4bdf6b7a5333e22e33a53bc",
+          "method": "Public rendered listing image URL; unchanged bytes, image magic verified (MIME can be octet-stream)"
+        }
+      ],
+      "mls": "12143914",
+      "county": "Lee",
+      "kind": "land",
+      "existing_garage": null,
+      "acres": null,
+      "ownership": "fee_simple_lot_claim",
+      "association": "Woodhaven Association",
+      "official_rules_url": "https://sfvklr.infiniteuploads.cloud/2026/05/Rules-Regs-Amended-04282026.pdf",
+      "official_fees_url": "https://woodhavenassociation.com/membership/",
+      "rv_storage": "seller_conditional",
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "seller_no",
+      "road_access": "unknown",
+      "location": {
+        "lat": null,
+        "lon": null,
+        "reference": {
+          "lat": 41.656913,
+          "lon": -89.284351,
+          "kind": "community_approximate",
+          "source": "https://www.coldwellbanker.com/il/sublette/8-36-woodhaven/lid-P00800000GzfZ4XYrGlJd86aFR9mG81SwwegOmes"
+        },
+        "note_ru": "Общий ориентир Woodhaven по карте объявления 8/36; точка этого лота и въезд не подтверждены."
+      },
+      "annual_dues_note_ru": "Действующие взносы 2026–27: $1,580 без канализации / $1,710 с канализацией. Подключение конкретного лота и сумму при сделке сверить; налог и электричество отдельно.",
+      "airport_code": "ORD",
+      "airport_reference": {
+        "lat": 41.9742,
+        "lon": -87.9073
+      },
+      "image_url": "assets/listings/2e1e28c889028e11af04.jpg",
+      "image_source_url": "https://www.coldwellbanker.com/il/sublette/28-122-woodhaven-lakes/lid-P00800000GeIaNFRPTwDrVwOZo5pzGkt9iriZ0Ya",
+      "airport_straight_km": 119.4,
+      "inspection_order": 3
+    },
+    {
+      "id": "il-woodhaven-12410573",
+      "title": "Woodhaven 21-208",
+      "price": 19000,
+      "currency": "USD",
+      "price_basis": "advertised_cash_asking_price",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "last_verified": "2026-11-23T02:36:07+00:00",
+      "checked_at": "2026-11-23T02:36:07+00:00",
+      "first_seen": "2026-11-23T02:36:07+00:00",
+      "state": "IL",
+      "city": "Sublette / Woodhaven",
+      "category": "outdoor_candidate",
+      "summary_ru": "Продавец прямо указывает готовность поставить трейлер; есть сарай и инвентарь. Подключения и фактическую несущую способность площадки подтвердить отдельно.",
+      "url": "https://www.coldwellbanker.com/il/sublette/21-208-woodhaven-lakes/lid-P00800000Guh1AGIfXaj3PjeFTgMgPeu5lFaP7Js",
+      "image_remote_url": "https://images-listings.coldwellbanker.com/MLSNI/12/41/05/73/_P/12410573_P00.jpg",
+      "closing_costs_known": false,
+      "known_fees": null,
+      "rv_inside_fit": "unknown",
+      "rv_outside_fit": "unknown",
+      "rv_outside_storage_permission": "unknown",
+      "personal_repair_permission": "unknown",
+      "occupancy_permission": "unknown",
+      "commercial_repair_permission": "unknown",
+      "verified_full_match": false,
+      "annual_dues_usd": null,
+      "annual_tax_usd": null,
+      "garage_dimensions": null,
+      "door_height_m": null,
+      "door_width_m": null,
+      "price_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "price": 19000,
+          "source": "https://www.coldwellbanker.com/il/sublette/21-208-woodhaven-lakes/lid-P00800000Guh1AGIfXaj3PjeFTgMgPeu5lFaP7Js"
+        }
+      ],
+      "status_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "status": "active",
+          "source": "https://www.coldwellbanker.com/il/sublette/21-208-woodhaven-lakes/lid-P00800000Guh1AGIfXaj3PjeFTgMgPeu5lFaP7Js"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.coldwellbanker.com/il/sublette/21-208-woodhaven-lakes/lid-P00800000Guh1AGIfXaj3PjeFTgMgPeu5lFaP7Js"
+        }
+      ],
+      "photo_history": [
+        {
+          "path": "assets/listings/560ed1bf71beb6c0a6b4.jpg",
+          "source": "https://www.coldwellbanker.com/il/sublette/21-208-woodhaven-lakes/lid-P00800000Guh1AGIfXaj3PjeFTgMgPeu5lFaP7Js",
+          "remote_url": "https://images-listings.coldwellbanker.com/MLSNI/12/41/05/73/_P/12410573_P00.jpg",
+          "date": "2026-11-23T02:36:07+00:00",
+          "sha256": "560ed1bf71beb6c0a6b48e3ef8e02f5355fbb331e9457cc990aa9dd6206aa8f9",
+          "method": "Public rendered listing image URL; unchanged bytes, image magic verified (MIME can be octet-stream)"
+        }
+      ],
+      "mls": "12410573",
+      "county": "Lee",
+      "kind": "land",
+      "existing_garage": null,
+      "acres": null,
+      "ownership": "fee_simple_lot_claim",
+      "association": "Woodhaven Association",
+      "official_rules_url": "https://sfvklr.infiniteuploads.cloud/2026/05/Rules-Regs-Amended-04282026.pdf",
+      "official_fees_url": "https://woodhavenassociation.com/membership/",
+      "rv_storage": "seller_conditional",
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "seller_no",
+      "road_access": "unknown",
+      "location": {
+        "lat": null,
+        "lon": null,
+        "reference": {
+          "lat": 41.656913,
+          "lon": -89.284351,
+          "kind": "community_approximate",
+          "source": "https://www.coldwellbanker.com/il/sublette/8-36-woodhaven/lid-P00800000GzfZ4XYrGlJd86aFR9mG81SwwegOmes"
+        },
+        "note_ru": "Общий ориентир Woodhaven по карте объявления 8/36; точка этого лота и въезд не подтверждены."
+      },
+      "annual_dues_note_ru": "Действующие взносы 2026–27: $1,580 без канализации / $1,710 с канализацией. Подключение конкретного лота и сумму при сделке сверить; налог и электричество отдельно.",
+      "airport_code": "ORD",
+      "airport_reference": {
+        "lat": 41.9742,
+        "lon": -87.9073
+      },
+      "image_url": "assets/listings/560ed1bf71beb6c0a6b4.jpg",
+      "image_source_url": "https://www.coldwellbanker.com/il/sublette/21-208-woodhaven-lakes/lid-P00800000Guh1AGIfXaj3PjeFTgMgPeu5lFaP7Js",
+      "airport_straight_km": 119.4,
+      "inspection_order": 6
+    },
+    {
+      "id": "il-woodhaven-12642653",
+      "title": "Woodhaven 17-51",
+      "price": 19500,
+      "currency": "USD",
+      "price_basis": "advertised_cash_asking_price",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "last_verified": "2026-11-23T02:36:07+00:00",
+      "checked_at": "2026-11-23T02:36:07+00:00",
+      "first_seen": "2026-11-23T02:36:07+00:00",
+      "state": "IL",
+      "city": "Sublette / Woodhaven",
+      "category": "outdoor_candidate",
+      "summary_ru": "Ровный участок с канализацией и двумя существующими сараями. Подъезд для RV и готовое покрытие не измерены; сараи не являются гаражом для кемпервана.",
+      "url": "https://www.coldwellbanker.com/il/sublette/1751-woodhaven-lk/lid-P00800000HAcfIwC6CzO1r3nsozkWm6Y3ejSriVE",
+      "image_remote_url": "https://images-listings.coldwellbanker.com/MLSNI/12/64/26/53/_P/12642653_P00.jpg",
+      "closing_costs_known": false,
+      "known_fees": null,
+      "rv_inside_fit": "unknown",
+      "rv_outside_fit": "unknown",
+      "rv_outside_storage_permission": "unknown",
+      "personal_repair_permission": "unknown",
+      "occupancy_permission": "unknown",
+      "commercial_repair_permission": "unknown",
+      "verified_full_match": false,
+      "annual_dues_usd": 1710,
+      "annual_tax_usd": null,
+      "garage_dimensions": null,
+      "door_height_m": null,
+      "door_width_m": null,
+      "price_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "price": 19500,
+          "source": "https://www.coldwellbanker.com/il/sublette/1751-woodhaven-lk/lid-P00800000HAcfIwC6CzO1r3nsozkWm6Y3ejSriVE"
+        }
+      ],
+      "status_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "status": "active",
+          "source": "https://www.coldwellbanker.com/il/sublette/1751-woodhaven-lk/lid-P00800000HAcfIwC6CzO1r3nsozkWm6Y3ejSriVE"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.coldwellbanker.com/il/sublette/1751-woodhaven-lk/lid-P00800000HAcfIwC6CzO1r3nsozkWm6Y3ejSriVE"
+        }
+      ],
+      "photo_history": [
+        {
+          "path": "assets/listings/b766b322c915491d7a19.jpg",
+          "source": "https://www.coldwellbanker.com/il/sublette/1751-woodhaven-lk/lid-P00800000HAcfIwC6CzO1r3nsozkWm6Y3ejSriVE",
+          "remote_url": "https://images-listings.coldwellbanker.com/MLSNI/12/64/26/53/_P/12642653_P00.jpg",
+          "date": "2026-11-23T02:36:07+00:00",
+          "sha256": "b766b322c915491d7a19c3f042aeda45a5436468839a571da9f963cc486a67aa",
+          "method": "Public rendered listing image URL; unchanged bytes, image magic verified (MIME can be octet-stream)"
+        }
+      ],
+      "mls": "12642653",
+      "county": "Lee",
+      "kind": "land",
+      "existing_garage": null,
+      "acres": null,
+      "ownership": "fee_simple_lot_claim",
+      "association": "Woodhaven Association",
+      "official_rules_url": "https://sfvklr.infiniteuploads.cloud/2026/05/Rules-Regs-Amended-04282026.pdf",
+      "official_fees_url": "https://woodhavenassociation.com/membership/",
+      "rv_storage": "seller_conditional",
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "seller_no",
+      "road_access": "unknown",
+      "location": {
+        "lat": null,
+        "lon": null,
+        "reference": {
+          "lat": 41.656913,
+          "lon": -89.284351,
+          "kind": "community_approximate",
+          "source": "https://www.coldwellbanker.com/il/sublette/8-36-woodhaven/lid-P00800000GzfZ4XYrGlJd86aFR9mG81SwwegOmes"
+        },
+        "note_ru": "Общий ориентир Woodhaven по карте объявления 8/36; точка этого лота и въезд не подтверждены."
+      },
+      "annual_dues_note_ru": "Действующие взносы 2026–27: $1,580 без канализации / $1,710 с канализацией. Подключение конкретного лота и сумму при сделке сверить; налог и электричество отдельно.",
+      "airport_code": "ORD",
+      "airport_reference": {
+        "lat": 41.9742,
+        "lon": -87.9073
+      },
+      "image_url": "assets/listings/b766b322c915491d7a19.jpg",
+      "image_source_url": "https://www.coldwellbanker.com/il/sublette/1751-woodhaven-lk/lid-P00800000HAcfIwC6CzO1r3nsozkWm6Y3ejSriVE",
+      "airport_straight_km": 119.4,
+      "inspection_order": 8
+    },
+    {
+      "id": "il-woodhaven-12642724",
+      "title": "Woodhaven 8-37",
+      "price": 19900,
+      "currency": "USD",
+      "price_basis": "advertised_cash_asking_price",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "last_verified": "2026-11-23T02:36:07+00:00",
+      "checked_at": "2026-11-23T02:36:07+00:00",
+      "first_seen": "2026-11-23T02:36:07+00:00",
+      "state": "IL",
+      "city": "Sublette / Woodhaven",
+      "category": "utilities_only",
+      "summary_ru": "Участок с канализацией возле Sunset Lake. Готовая RV-площадка и сарай в прочитанном описании не заявлены.",
+      "url": "https://www.coldwellbanker.com/il/sublette/837-woodhaven-lk/lid-P00800000HAcfKMesEx9sj4Fcr7Cht0FQ5iRWqci",
+      "image_remote_url": "https://images-listings.coldwellbanker.com/MLSNI/12/64/27/24/_P/12642724_P00.jpg",
+      "closing_costs_known": false,
+      "known_fees": null,
+      "rv_inside_fit": "unknown",
+      "rv_outside_fit": "unknown",
+      "rv_outside_storage_permission": "unknown",
+      "personal_repair_permission": "unknown",
+      "occupancy_permission": "unknown",
+      "commercial_repair_permission": "unknown",
+      "verified_full_match": false,
+      "annual_dues_usd": 1710,
+      "annual_tax_usd": null,
+      "garage_dimensions": null,
+      "door_height_m": null,
+      "door_width_m": null,
+      "price_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "price": 19900,
+          "source": "https://www.coldwellbanker.com/il/sublette/837-woodhaven-lk/lid-P00800000HAcfKMesEx9sj4Fcr7Cht0FQ5iRWqci"
+        }
+      ],
+      "status_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "status": "active",
+          "source": "https://www.coldwellbanker.com/il/sublette/837-woodhaven-lk/lid-P00800000HAcfKMesEx9sj4Fcr7Cht0FQ5iRWqci"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.coldwellbanker.com/il/sublette/837-woodhaven-lk/lid-P00800000HAcfKMesEx9sj4Fcr7Cht0FQ5iRWqci"
+        }
+      ],
+      "photo_history": [
+        {
+          "path": "assets/listings/d9a4bfdf1ff4fb456317.jpg",
+          "source": "https://www.coldwellbanker.com/il/sublette/837-woodhaven-lk/lid-P00800000HAcfKMesEx9sj4Fcr7Cht0FQ5iRWqci",
+          "remote_url": "https://images-listings.coldwellbanker.com/MLSNI/12/64/27/24/_P/12642724_P00.jpg",
+          "date": "2026-11-23T02:36:07+00:00",
+          "sha256": "d9a4bfdf1ff4fb45631758df11e41428b7a530ec2da48b9ffc33c462dc3090f1",
+          "method": "Public rendered listing image URL; unchanged bytes, image magic verified (MIME can be octet-stream)"
+        }
+      ],
+      "mls": "12642724",
+      "county": "Lee",
+      "kind": "land",
+      "existing_garage": null,
+      "acres": null,
+      "ownership": "fee_simple_lot_claim",
+      "association": "Woodhaven Association",
+      "official_rules_url": "https://sfvklr.infiniteuploads.cloud/2026/05/Rules-Regs-Amended-04282026.pdf",
+      "official_fees_url": "https://woodhavenassociation.com/membership/",
+      "rv_storage": "seller_conditional",
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "seller_no",
+      "road_access": "unknown",
+      "location": {
+        "lat": null,
+        "lon": null,
+        "reference": {
+          "lat": 41.656913,
+          "lon": -89.284351,
+          "kind": "community_approximate",
+          "source": "https://www.coldwellbanker.com/il/sublette/8-36-woodhaven/lid-P00800000GzfZ4XYrGlJd86aFR9mG81SwwegOmes"
+        },
+        "note_ru": "Общий ориентир Woodhaven по карте объявления 8/36; точка этого лота и въезд не подтверждены."
+      },
+      "annual_dues_note_ru": "Действующие взносы 2026–27: $1,580 без канализации / $1,710 с канализацией. Подключение конкретного лота и сумму при сделке сверить; налог и электричество отдельно.",
+      "airport_code": "ORD",
+      "airport_reference": {
+        "lat": 41.9742,
+        "lon": -87.9073
+      },
+      "image_url": "assets/listings/d9a4bfdf1ff4fb456317.jpg",
+      "image_source_url": "https://www.coldwellbanker.com/il/sublette/837-woodhaven-lk/lid-P00800000HAcfKMesEx9sj4Fcr7Cht0FQ5iRWqci",
+      "airport_straight_km": 119.4,
+      "inspection_order": 14
+    },
+    {
+      "id": "il-woodhaven-12754116",
+      "title": "Woodhaven 29/313",
+      "price": 19900,
+      "currency": "USD",
+      "price_basis": "advertised_cash_asking_price",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "last_verified": "2026-11-23T02:36:07+00:00",
+      "checked_at": "2026-11-23T02:36:07+00:00",
+      "first_seen": "2026-11-23T02:36:07+00:00",
+      "state": "IL",
+      "city": "Sublette / Woodhaven",
+      "category": "utilities_only",
+      "summary_ru": "Есть электричество на участке, подключённая канализация и доступная вода по источникам. Публичное описание CB отсутствует; готовность поверхности неизвестна.",
+      "url": "https://www.coldwellbanker.com/il/sublette/29-313-woodhaven/lid-P00800000HGzgAH8EwnI48EY3lTRyU01hUhQOFkw",
+      "image_remote_url": "https://images-listings.coldwellbanker.com/MLSNI/12/75/41/16/_P/12754116_P00.jpg",
+      "closing_costs_known": false,
+      "known_fees": null,
+      "rv_inside_fit": "unknown",
+      "rv_outside_fit": "unknown",
+      "rv_outside_storage_permission": "unknown",
+      "personal_repair_permission": "unknown",
+      "occupancy_permission": "unknown",
+      "commercial_repair_permission": "unknown",
+      "verified_full_match": false,
+      "annual_dues_usd": 1710,
+      "annual_tax_usd": null,
+      "garage_dimensions": null,
+      "door_height_m": null,
+      "door_width_m": null,
+      "price_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "price": 19900,
+          "source": "https://www.coldwellbanker.com/il/sublette/29-313-woodhaven/lid-P00800000HGzgAH8EwnI48EY3lTRyU01hUhQOFkw"
+        }
+      ],
+      "status_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "status": "active",
+          "source": "https://www.coldwellbanker.com/il/sublette/29-313-woodhaven/lid-P00800000HGzgAH8EwnI48EY3lTRyU01hUhQOFkw"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.coldwellbanker.com/il/sublette/29-313-woodhaven/lid-P00800000HGzgAH8EwnI48EY3lTRyU01hUhQOFkw"
+        }
+      ],
+      "photo_history": [
+        {
+          "path": "assets/listings/b88c84a80a9abc2010f9.jpg",
+          "source": "https://www.coldwellbanker.com/il/sublette/29-313-woodhaven/lid-P00800000HGzgAH8EwnI48EY3lTRyU01hUhQOFkw",
+          "remote_url": "https://images-listings.coldwellbanker.com/MLSNI/12/75/41/16/_P/12754116_P00.jpg",
+          "date": "2026-11-23T02:36:07+00:00",
+          "sha256": "b88c84a80a9abc2010f93cf51bc76cb45ab9e564182be1cdd555a5bbe0d9f580",
+          "method": "Public rendered listing image URL; unchanged bytes, image magic verified (MIME can be octet-stream)"
+        }
+      ],
+      "mls": "12754116",
+      "county": "Lee",
+      "kind": "land",
+      "existing_garage": null,
+      "acres": null,
+      "ownership": "fee_simple_lot_claim",
+      "association": "Woodhaven Association",
+      "official_rules_url": "https://sfvklr.infiniteuploads.cloud/2026/05/Rules-Regs-Amended-04282026.pdf",
+      "official_fees_url": "https://woodhavenassociation.com/membership/",
+      "rv_storage": "seller_conditional",
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "seller_no",
+      "road_access": "unknown",
+      "location": {
+        "lat": null,
+        "lon": null,
+        "reference": {
+          "lat": 41.656913,
+          "lon": -89.284351,
+          "kind": "community_approximate",
+          "source": "https://www.coldwellbanker.com/il/sublette/8-36-woodhaven/lid-P00800000GzfZ4XYrGlJd86aFR9mG81SwwegOmes"
+        },
+        "note_ru": "Общий ориентир Woodhaven по карте объявления 8/36; точка этого лота и въезд не подтверждены."
+      },
+      "annual_dues_note_ru": "Действующие взносы 2026–27: $1,580 без канализации / $1,710 с канализацией. Подключение конкретного лота и сумму при сделке сверить; налог и электричество отдельно.",
+      "airport_code": "ORD",
+      "airport_reference": {
+        "lat": 41.9742,
+        "lon": -87.9073
+      },
+      "image_url": "assets/listings/b88c84a80a9abc2010f9.jpg",
+      "image_source_url": "https://www.coldwellbanker.com/il/sublette/29-313-woodhaven/lid-P00800000HGzgAH8EwnI48EY3lTRyU01hUhQOFkw",
+      "airport_straight_km": 119.4,
+      "inspection_order": 11
+    },
+    {
+      "id": "il-woodhaven-12776344",
+      "title": "Woodhaven 9/91",
+      "price": 19999,
+      "currency": "USD",
+      "price_basis": "advertised_cash_asking_price",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "last_verified": "2026-11-23T02:36:07+00:00",
+      "checked_at": "2026-11-23T02:36:07+00:00",
+      "first_seen": "2026-11-23T02:36:07+00:00",
+      "state": "IL",
+      "city": "Sublette / Woodhaven",
+      "category": "occupied_rv",
+      "summary_ru": "По поисковому снимку местного брокера трейлер уберут, настил и сарай остаются. Активность и цена подтверждены живой страницей CB; условия освобождения требуют новой проверки.",
+      "url": "https://www.coldwellbanker.com/il/sublette/991-woodhaven-drive-east/lid-P00800000HIHyb6dRPmJsy4uUL0i2XHMGDRdIRqL",
+      "image_remote_url": "https://images-listings.coldwellbanker.com/MLSNI/12/77/63/44/_P/12776344_P00.jpg",
+      "closing_costs_known": false,
+      "known_fees": null,
+      "rv_inside_fit": "unknown",
+      "rv_outside_fit": "unknown",
+      "rv_outside_storage_permission": "unknown",
+      "personal_repair_permission": "unknown",
+      "occupancy_permission": "unknown",
+      "commercial_repair_permission": "unknown",
+      "verified_full_match": false,
+      "annual_dues_usd": 1710,
+      "annual_tax_usd": null,
+      "garage_dimensions": null,
+      "door_height_m": null,
+      "door_width_m": null,
+      "price_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "price": 19999,
+          "source": "https://www.coldwellbanker.com/il/sublette/991-woodhaven-drive-east/lid-P00800000HIHyb6dRPmJsy4uUL0i2XHMGDRdIRqL"
+        }
+      ],
+      "status_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "status": "active",
+          "source": "https://www.coldwellbanker.com/il/sublette/991-woodhaven-drive-east/lid-P00800000HIHyb6dRPmJsy4uUL0i2XHMGDRdIRqL"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.coldwellbanker.com/il/sublette/991-woodhaven-drive-east/lid-P00800000HIHyb6dRPmJsy4uUL0i2XHMGDRdIRqL"
+        }
+      ],
+      "photo_history": [
+        {
+          "path": "assets/listings/abf6db8ba28df405462b.jpg",
+          "source": "https://www.coldwellbanker.com/il/sublette/991-woodhaven-drive-east/lid-P00800000HIHyb6dRPmJsy4uUL0i2XHMGDRdIRqL",
+          "remote_url": "https://images-listings.coldwellbanker.com/MLSNI/12/77/63/44/_P/12776344_P00.jpg",
+          "date": "2026-11-23T02:36:07+00:00",
+          "sha256": "abf6db8ba28df405462b1a25f02fec9d13fd129fc1d9f3c15fcd9dbfcf7e817b",
+          "method": "Public rendered listing image URL; unchanged bytes, image magic verified (MIME can be octet-stream)"
+        }
+      ],
+      "mls": "12776344",
+      "county": "Lee",
+      "kind": "land",
+      "existing_garage": null,
+      "acres": null,
+      "ownership": "fee_simple_lot_claim",
+      "association": "Woodhaven Association",
+      "official_rules_url": "https://sfvklr.infiniteuploads.cloud/2026/05/Rules-Regs-Amended-04282026.pdf",
+      "official_fees_url": "https://woodhavenassociation.com/membership/",
+      "rv_storage": "seller_conditional",
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "seller_no",
+      "road_access": "unknown",
+      "location": {
+        "lat": null,
+        "lon": null,
+        "reference": {
+          "lat": 41.656913,
+          "lon": -89.284351,
+          "kind": "community_approximate",
+          "source": "https://www.coldwellbanker.com/il/sublette/8-36-woodhaven/lid-P00800000GzfZ4XYrGlJd86aFR9mG81SwwegOmes"
+        },
+        "note_ru": "Общий ориентир Woodhaven по карте объявления 8/36; точка этого лота и въезд не подтверждены."
+      },
+      "physical_evidence_basis": "indexed_public_page",
+      "physical_source_url": "https://www.c21universal.com/landlots-for-sale/991-Woodhaven-Sublette-IL-61367-440160223",
+      "annual_dues_note_ru": "Действующие взносы 2026–27: $1,580 без канализации / $1,710 с канализацией. Подключение конкретного лота и сумму при сделке сверить; налог и электричество отдельно.",
+      "airport_code": "ORD",
+      "airport_reference": {
+        "lat": 41.9742,
+        "lon": -87.9073
+      },
+      "image_url": "assets/listings/abf6db8ba28df405462b.jpg",
+      "image_source_url": "https://www.coldwellbanker.com/il/sublette/991-woodhaven-drive-east/lid-P00800000HIHyb6dRPmJsy4uUL0i2XHMGDRdIRqL",
+      "airport_straight_km": 119.4,
+      "inspection_order": 10
+    },
+    {
+      "id": "il-woodhaven-12272330",
+      "title": "Woodhaven 4-152",
+      "price": 20000,
+      "currency": "USD",
+      "price_basis": "advertised_cash_asking_price",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "last_verified": "2026-11-23T02:36:07+00:00",
+      "checked_at": "2026-11-23T02:36:07+00:00",
+      "first_seen": "2026-11-23T02:36:07+00:00",
+      "state": "IL",
+      "city": "Sublette / Woodhaven",
+      "category": "occupied_rv",
+      "summary_ru": "Включены трейлер Forest River 1998 года, пристройка и сарай. Печь и AC не работают, холодильник требует замены. Где поставить свой большой RV, неизвестно.",
+      "url": "https://www.coldwellbanker.com/il/sublette/4-152-woodhaven-lakes/lid-P00800000GlxQqIaR0jx8av3iUW22AQ4M8X8QMsi",
+      "image_remote_url": "https://images-listings.coldwellbanker.com/MLSNI/12/27/23/30/_P/12272330_P00.jpg",
+      "closing_costs_known": false,
+      "known_fees": null,
+      "rv_inside_fit": "unknown",
+      "rv_outside_fit": "unknown",
+      "rv_outside_storage_permission": "unknown",
+      "personal_repair_permission": "unknown",
+      "occupancy_permission": "unknown",
+      "commercial_repair_permission": "unknown",
+      "verified_full_match": false,
+      "annual_dues_usd": 1710,
+      "annual_tax_usd": null,
+      "garage_dimensions": null,
+      "door_height_m": null,
+      "door_width_m": null,
+      "price_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "price": 20000,
+          "source": "https://www.coldwellbanker.com/il/sublette/4-152-woodhaven-lakes/lid-P00800000GlxQqIaR0jx8av3iUW22AQ4M8X8QMsi"
+        }
+      ],
+      "status_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "status": "active",
+          "source": "https://www.coldwellbanker.com/il/sublette/4-152-woodhaven-lakes/lid-P00800000GlxQqIaR0jx8av3iUW22AQ4M8X8QMsi"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.coldwellbanker.com/il/sublette/4-152-woodhaven-lakes/lid-P00800000GlxQqIaR0jx8av3iUW22AQ4M8X8QMsi"
+        }
+      ],
+      "photo_history": [
+        {
+          "path": "assets/listings/4b6c96a60dd8d1d480c1.jpg",
+          "source": "https://www.coldwellbanker.com/il/sublette/4-152-woodhaven-lakes/lid-P00800000GlxQqIaR0jx8av3iUW22AQ4M8X8QMsi",
+          "remote_url": "https://images-listings.coldwellbanker.com/MLSNI/12/27/23/30/_P/12272330_P00.jpg",
+          "date": "2026-11-23T02:36:07+00:00",
+          "sha256": "4b6c96a60dd8d1d480c113d0b868c5300b80b09b55fb531aeb4e3895287989f5",
+          "method": "Public rendered listing image URL; unchanged bytes, image magic verified (MIME can be octet-stream)"
+        }
+      ],
+      "mls": "12272330",
+      "county": "Lee",
+      "kind": "land",
+      "existing_garage": null,
+      "acres": null,
+      "ownership": "fee_simple_lot_claim",
+      "association": "Woodhaven Association",
+      "official_rules_url": "https://sfvklr.infiniteuploads.cloud/2026/05/Rules-Regs-Amended-04282026.pdf",
+      "official_fees_url": "https://woodhavenassociation.com/membership/",
+      "rv_storage": "seller_conditional",
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "seller_no",
+      "road_access": "unknown",
+      "location": {
+        "lat": null,
+        "lon": null,
+        "reference": {
+          "lat": 41.656913,
+          "lon": -89.284351,
+          "kind": "community_approximate",
+          "source": "https://www.coldwellbanker.com/il/sublette/8-36-woodhaven/lid-P00800000GzfZ4XYrGlJd86aFR9mG81SwwegOmes"
+        },
+        "note_ru": "Общий ориентир Woodhaven по карте объявления 8/36; точка этого лота и въезд не подтверждены."
+      },
+      "annual_dues_note_ru": "Действующие взносы 2026–27: $1,580 без канализации / $1,710 с канализацией. Подключение конкретного лота и сумму при сделке сверить; налог и электричество отдельно.",
+      "airport_code": "ORD",
+      "airport_reference": {
+        "lat": 41.9742,
+        "lon": -87.9073
+      },
+      "image_url": "assets/listings/4b6c96a60dd8d1d480c1.jpg",
+      "image_source_url": "https://www.coldwellbanker.com/il/sublette/4-152-woodhaven-lakes/lid-P00800000GlxQqIaR0jx8av3iUW22AQ4M8X8QMsi",
+      "airport_straight_km": 119.4,
+      "inspection_order": 16
+    },
+    {
+      "id": "in-gary-848614",
+      "title": "830 Van Buren St",
+      "price": 16000,
+      "currency": "USD",
+      "price_basis": "advertised_cash_asking_price",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "last_verified": "2026-11-23T02:36:07+00:00",
+      "checked_at": "2026-11-23T02:36:07+00:00",
+      "first_seen": "2026-11-23T02:36:07+00:00",
+      "state": "IN",
+      "city": "Gary",
+      "category": "house_garage",
+      "summary_ru": "Дом 6 спален / 3 санузла, участок около 4,486 sqft. Гараж на 2 машины указан в другом MLS-портале. Продавец прямо предупреждает о капитальном ремонте всего дома; гараж и двор под RV не проверены. На исходном фото заколоченные окна и повреждения здания; готовым помещением он не подтверждён.",
+      "url": "https://www.coldwellbanker.com/in/gary/830-van-buren-st/lid-P00800000HKmnzE6vTmzG1rVlt3OBaFbBRdP0Ps2",
+      "image_remote_url": "https://images-listings.coldwellbanker.com/IN_GNIAR/84/86/14/_P/848614_P00.jpg?width=1024",
+      "closing_costs_known": false,
+      "known_fees": null,
+      "rv_inside_fit": "unknown",
+      "rv_outside_fit": "unknown",
+      "rv_outside_storage_permission": "unknown",
+      "personal_repair_permission": "unknown",
+      "occupancy_permission": "unknown",
+      "commercial_repair_permission": "unknown",
+      "verified_full_match": false,
+      "annual_dues_usd": null,
+      "annual_tax_usd": null,
+      "garage_dimensions": null,
+      "door_height_m": null,
+      "door_width_m": null,
+      "price_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "price": 16000,
+          "source": "https://www.coldwellbanker.com/in/gary/830-van-buren-st/lid-P00800000HKmnzE6vTmzG1rVlt3OBaFbBRdP0Ps2"
+        }
+      ],
+      "status_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "status": "active",
+          "source": "https://www.coldwellbanker.com/in/gary/830-van-buren-st/lid-P00800000HKmnzE6vTmzG1rVlt3OBaFbBRdP0Ps2"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.coldwellbanker.com/in/gary/830-van-buren-st/lid-P00800000HKmnzE6vTmzG1rVlt3OBaFbBRdP0Ps2"
+        }
+      ],
+      "photo_history": [
+        {
+          "path": "assets/listings/a94e1fe27b06c6605e7a.jpg",
+          "source": "https://www.coldwellbanker.com/in/gary/830-van-buren-st/lid-P00800000HKmnzE6vTmzG1rVlt3OBaFbBRdP0Ps2",
+          "remote_url": "https://images-listings.coldwellbanker.com/IN_GNIAR/84/86/14/_P/848614_P00.jpg?width=1024",
+          "date": "2026-11-23T02:36:07+00:00",
+          "sha256": "a94e1fe27b06c6605e7a0a7438807d947b0bb5aa0f510cb839ce5ca92eac8a1b",
+          "method": "Public rendered listing image URL; unchanged bytes, image magic verified (MIME can be octet-stream)"
+        }
+      ],
+      "mls": "848614",
+      "county": "Lake",
+      "kind": "house",
+      "existing_garage": true,
+      "lot_sqft": 4486,
+      "acres": 0.103,
+      "building_condition": "major_repair_or_uninspected",
+      "ownership": "single_family_sale_claim",
+      "rv_storage": "unknown",
+      "location": {
+        "lat": null,
+        "lon": null,
+        "reference": {
+          "lat": 41.586046,
+          "lon": -87.327676,
+          "kind": "city_approximate",
+          "source": "https://www.coldwellbanker.com/city/in/gary"
+        },
+        "note_ru": "Общий ориентир Gary из карты каталога; это не точка дома. Точный адрес указан в карточке, участок и RV-въезд требуют проверки."
+      },
+      "airport_code": "ORD",
+      "airport_reference": {
+        "lat": 41.9742,
+        "lon": -87.9073
+      },
+      "garage_evidence_source": "https://www.coldwellbankerhomes.com/in/gary/",
+      "garage_evidence_basis": "indexed_public_page",
+      "image_url": "assets/listings/a94e1fe27b06c6605e7a.jpg",
+      "image_source_url": "https://www.coldwellbanker.com/in/gary/830-van-buren-st/lid-P00800000HKmnzE6vTmzG1rVlt3OBaFbBRdP0Ps2",
+      "airport_straight_km": 64.6,
+      "garage_spaces_claim": 2,
+      "inspection_order": 18
+    },
+    {
+      "id": "in-gary-848615",
+      "title": "1137 Van Buren St",
+      "price": 10000,
+      "currency": "USD",
+      "price_basis": "advertised_cash_asking_price",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "last_verified": "2026-11-23T02:36:07+00:00",
+      "checked_at": "2026-11-23T02:36:07+00:00",
+      "first_seen": "2026-11-23T02:36:07+00:00",
+      "state": "IN",
+      "city": "Gary",
+      "category": "house_only",
+      "summary_ru": "Дом 3 спальни / 2 санузла. Капитальный ремонт по всему дому, продавец не ремонтирует. Гараж не подтверждён; возможность хранения RV во дворе неизвестна.",
+      "url": "https://www.coldwellbanker.com/in/gary/1137-van-buren-st/lid-P00800000HKmnzE6vTmzG1rVlt3OBaFbJVjtaIHA",
+      "image_remote_url": "https://images-listings.coldwellbanker.com/IN_GNIAR/84/86/15/_P/848615_P00.jpg?width=1024",
+      "closing_costs_known": false,
+      "known_fees": null,
+      "rv_inside_fit": "unknown",
+      "rv_outside_fit": "unknown",
+      "rv_outside_storage_permission": "unknown",
+      "personal_repair_permission": "unknown",
+      "occupancy_permission": "unknown",
+      "commercial_repair_permission": "unknown",
+      "verified_full_match": false,
+      "annual_dues_usd": null,
+      "annual_tax_usd": null,
+      "garage_dimensions": null,
+      "door_height_m": null,
+      "door_width_m": null,
+      "price_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "price": 10000,
+          "source": "https://www.coldwellbanker.com/in/gary/1137-van-buren-st/lid-P00800000HKmnzE6vTmzG1rVlt3OBaFbJVjtaIHA"
+        }
+      ],
+      "status_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "status": "active",
+          "source": "https://www.coldwellbanker.com/in/gary/1137-van-buren-st/lid-P00800000HKmnzE6vTmzG1rVlt3OBaFbJVjtaIHA"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.coldwellbanker.com/in/gary/1137-van-buren-st/lid-P00800000HKmnzE6vTmzG1rVlt3OBaFbJVjtaIHA"
+        }
+      ],
+      "photo_history": [
+        {
+          "path": "assets/listings/afb36b4ac419c9eb24a3.jpg",
+          "source": "https://www.coldwellbanker.com/in/gary/1137-van-buren-st/lid-P00800000HKmnzE6vTmzG1rVlt3OBaFbJVjtaIHA",
+          "remote_url": "https://images-listings.coldwellbanker.com/IN_GNIAR/84/86/15/_P/848615_P00.jpg?width=1024",
+          "date": "2026-11-23T02:36:07+00:00",
+          "sha256": "afb36b4ac419c9eb24a32931dfe08b87614e6ec324756362a68389381f49e204",
+          "method": "Public rendered listing image URL; unchanged bytes, image magic verified (MIME can be octet-stream)"
+        }
+      ],
+      "mls": "848615",
+      "county": "Lake",
+      "kind": "house",
+      "existing_garage": null,
+      "lot_sqft": 3615,
+      "acres": 0.083,
+      "building_condition": "major_repair_or_uninspected",
+      "ownership": "single_family_sale_claim",
+      "rv_storage": "unknown",
+      "location": {
+        "lat": null,
+        "lon": null,
+        "reference": {
+          "lat": 41.586046,
+          "lon": -87.327676,
+          "kind": "city_approximate",
+          "source": "https://www.coldwellbanker.com/city/in/gary"
+        },
+        "note_ru": "Общий ориентир Gary из карты каталога; это не точка дома. Точный адрес указан в карточке, участок и RV-въезд требуют проверки."
+      },
+      "airport_code": "ORD",
+      "airport_reference": {
+        "lat": 41.9742,
+        "lon": -87.9073
+      },
+      "image_url": "assets/listings/afb36b4ac419c9eb24a3.jpg",
+      "image_source_url": "https://www.coldwellbanker.com/in/gary/1137-van-buren-st/lid-P00800000HKmnzE6vTmzG1rVlt3OBaFbJVjtaIHA",
+      "airport_straight_km": 64.6,
+      "inspection_order": 19
+    },
+    {
+      "id": "in-gary-846430",
+      "title": "2694 Polk St",
+      "price": 4000,
+      "currency": "USD",
+      "price_basis": "advertised_cash_asking_price",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "last_verified": "2026-11-23T02:36:07+00:00",
+      "checked_at": "2026-11-23T02:36:07+00:00",
+      "first_seen": "2026-11-23T02:36:07+00:00",
+      "state": "IN",
+      "city": "Gary",
+      "category": "house_only",
+      "summary_ru": "Небольшой существующий дом 704 sqft, 3 спальни / 1 санузел. Объявлен как fixer-upper; подробной оценки состояния нет. Гараж и место для RV неизвестны.",
+      "url": "https://www.coldwellbanker.com/in/gary/2694-polk-st/lid-P00800000HIRI3xQEhb6SxZXfdAUY7AXCL7nLvk5",
+      "image_remote_url": "https://images-listings.coldwellbanker.com/IN_GNIAR/84/64/30/_P/846430_P00.jpg",
+      "closing_costs_known": false,
+      "known_fees": null,
+      "rv_inside_fit": "unknown",
+      "rv_outside_fit": "unknown",
+      "rv_outside_storage_permission": "unknown",
+      "personal_repair_permission": "unknown",
+      "occupancy_permission": "unknown",
+      "commercial_repair_permission": "unknown",
+      "verified_full_match": false,
+      "annual_dues_usd": null,
+      "annual_tax_usd": null,
+      "garage_dimensions": null,
+      "door_height_m": null,
+      "door_width_m": null,
+      "price_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "price": 4000,
+          "source": "https://www.coldwellbanker.com/in/gary/2694-polk-st/lid-P00800000HIRI3xQEhb6SxZXfdAUY7AXCL7nLvk5"
+        }
+      ],
+      "status_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "status": "active",
+          "source": "https://www.coldwellbanker.com/in/gary/2694-polk-st/lid-P00800000HIRI3xQEhb6SxZXfdAUY7AXCL7nLvk5"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.coldwellbanker.com/in/gary/2694-polk-st/lid-P00800000HIRI3xQEhb6SxZXfdAUY7AXCL7nLvk5"
+        }
+      ],
+      "photo_history": [
+        {
+          "path": "assets/listings/2185f1704b6a91f9524c.jpg",
+          "source": "https://www.coldwellbanker.com/in/gary/2694-polk-st/lid-P00800000HIRI3xQEhb6SxZXfdAUY7AXCL7nLvk5",
+          "remote_url": "https://images-listings.coldwellbanker.com/IN_GNIAR/84/64/30/_P/846430_P00.jpg",
+          "date": "2026-11-23T02:36:07+00:00",
+          "sha256": "2185f1704b6a91f9524caaac9881d3da37abd87ca80e39062cced997f6d91e87",
+          "method": "Public rendered listing image URL; unchanged bytes, image magic verified (MIME can be octet-stream)"
+        }
+      ],
+      "mls": "846430",
+      "county": "Lake",
+      "kind": "house",
+      "existing_garage": null,
+      "lot_sqft": null,
+      "acres": null,
+      "building_condition": "major_repair_or_uninspected",
+      "ownership": "single_family_sale_claim",
+      "rv_storage": "unknown",
+      "location": {
+        "lat": null,
+        "lon": null,
+        "reference": {
+          "lat": 41.586046,
+          "lon": -87.327676,
+          "kind": "city_approximate",
+          "source": "https://www.coldwellbanker.com/city/in/gary"
+        },
+        "note_ru": "Общий ориентир Gary из карты каталога; это не точка дома. Точный адрес указан в карточке, участок и RV-въезд требуют проверки."
+      },
+      "airport_code": "ORD",
+      "airport_reference": {
+        "lat": 41.9742,
+        "lon": -87.9073
+      },
+      "image_url": "assets/listings/2185f1704b6a91f9524c.jpg",
+      "image_source_url": "https://www.coldwellbanker.com/in/gary/2694-polk-st/lid-P00800000HIRI3xQEhb6SxZXfdAUY7AXCL7nLvk5",
+      "airport_straight_km": 64.6,
+      "inspection_order": 20
+    },
+    {
+      "id": "in-gary-846722",
+      "title": "2443 Delaware St",
+      "price": 5000,
+      "currency": "USD",
+      "price_basis": "advertised_cash_asking_price",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "last_verified": "2026-11-23T02:36:07+00:00",
+      "checked_at": "2026-11-23T02:36:07+00:00",
+      "first_seen": "2026-11-23T02:36:07+00:00",
+      "state": "IN",
+      "city": "Gary",
+      "category": "house_only",
+      "summary_ru": "Существующий дом 3 спальни / 1 санузел под восстановление, as-is. $5,000 — опубликованная цена объекта; owner financing лишь дополнительная возможность, её условия не проверены. Гараж и свободный двор под RV неизвестны. На исходном фото видны серьёзные повреждения крыши.",
+      "url": "https://www.coldwellbanker.com/in/gary/2443-delaware-st/lid-P00800000HIkGSTTC1W2tbUYFiE4WLsxHBn7QbDh",
+      "image_remote_url": "https://images-listings.coldwellbanker.com/IN_GNIAR/84/67/22/_P/846722_P00.jpg",
+      "closing_costs_known": false,
+      "known_fees": null,
+      "rv_inside_fit": "unknown",
+      "rv_outside_fit": "unknown",
+      "rv_outside_storage_permission": "unknown",
+      "personal_repair_permission": "unknown",
+      "occupancy_permission": "unknown",
+      "commercial_repair_permission": "unknown",
+      "verified_full_match": false,
+      "annual_dues_usd": null,
+      "annual_tax_usd": null,
+      "garage_dimensions": null,
+      "door_height_m": null,
+      "door_width_m": null,
+      "price_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "price": 5000,
+          "source": "https://www.coldwellbanker.com/in/gary/2443-delaware-st/lid-P00800000HIkGSTTC1W2tbUYFiE4WLsxHBn7QbDh"
+        }
+      ],
+      "status_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "status": "active",
+          "source": "https://www.coldwellbanker.com/in/gary/2443-delaware-st/lid-P00800000HIkGSTTC1W2tbUYFiE4WLsxHBn7QbDh"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.coldwellbanker.com/in/gary/2443-delaware-st/lid-P00800000HIkGSTTC1W2tbUYFiE4WLsxHBn7QbDh"
+        }
+      ],
+      "photo_history": [
+        {
+          "path": "assets/listings/1195e6cdf5d642873f34.jpg",
+          "source": "https://www.coldwellbanker.com/in/gary/2443-delaware-st/lid-P00800000HIkGSTTC1W2tbUYFiE4WLsxHBn7QbDh",
+          "remote_url": "https://images-listings.coldwellbanker.com/IN_GNIAR/84/67/22/_P/846722_P00.jpg",
+          "date": "2026-11-23T02:36:07+00:00",
+          "sha256": "1195e6cdf5d642873f344d85ccc4d082d2c790658c31637b44f42f2cea6885af",
+          "method": "Public rendered listing image URL; unchanged bytes, image magic verified (MIME can be octet-stream)"
+        }
+      ],
+      "mls": "846722",
+      "county": "Lake",
+      "kind": "house",
+      "existing_garage": null,
+      "lot_sqft": 3005,
+      "acres": 0.069,
+      "building_condition": "major_repair_or_uninspected",
+      "ownership": "single_family_sale_claim",
+      "rv_storage": "unknown",
+      "location": {
+        "lat": null,
+        "lon": null,
+        "reference": {
+          "lat": 41.586046,
+          "lon": -87.327676,
+          "kind": "city_approximate",
+          "source": "https://www.coldwellbanker.com/city/in/gary"
+        },
+        "note_ru": "Общий ориентир Gary из карты каталога; это не точка дома. Точный адрес указан в карточке, участок и RV-въезд требуют проверки."
+      },
+      "airport_code": "ORD",
+      "airport_reference": {
+        "lat": 41.9742,
+        "lon": -87.9073
+      },
+      "image_url": "assets/listings/1195e6cdf5d642873f34.jpg",
+      "image_source_url": "https://www.coldwellbanker.com/in/gary/2443-delaware-st/lid-P00800000HIkGSTTC1W2tbUYFiE4WLsxHBn7QbDh",
+      "airport_straight_km": 64.6,
+      "inspection_order": 21
+    },
+    {
+      "id": "in-gary-837118",
+      "title": "2461 Delaware St",
+      "price": 5500,
+      "currency": "USD",
+      "price_basis": "advertised_cash_asking_price",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "last_verified": "2026-11-23T02:36:07+00:00",
+      "checked_at": "2026-11-23T02:36:07+00:00",
+      "first_seen": "2026-11-23T02:36:07+00:00",
+      "state": "IN",
+      "city": "Gary",
+      "category": "house_only",
+      "summary_ru": "Существующий дом 600 sqft, 2 спальни / 1 санузел, участок около 3,005 sqft. Подробное состояние, гараж и пригодность двора для RV неизвестны; нужна проверка перед осмотром.",
+      "url": "https://www.coldwellbanker.com/in/gary/2461-delaware-st/lid-P00800000H9QrDhXXB5dmrzcWvJv4vimzc0FLHf8",
+      "image_remote_url": "https://images-listings.coldwellbanker.com/IN_GNIAR/83/71/18/_P/837118_P00.jpg",
+      "closing_costs_known": false,
+      "known_fees": null,
+      "rv_inside_fit": "unknown",
+      "rv_outside_fit": "unknown",
+      "rv_outside_storage_permission": "unknown",
+      "personal_repair_permission": "unknown",
+      "occupancy_permission": "unknown",
+      "commercial_repair_permission": "unknown",
+      "verified_full_match": false,
+      "annual_dues_usd": null,
+      "annual_tax_usd": null,
+      "garage_dimensions": null,
+      "door_height_m": null,
+      "door_width_m": null,
+      "price_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "price": 5500,
+          "source": "https://www.coldwellbanker.com/in/gary/2461-delaware-st/lid-P00800000H9QrDhXXB5dmrzcWvJv4vimzc0FLHf8"
+        }
+      ],
+      "status_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "status": "active",
+          "source": "https://www.coldwellbanker.com/in/gary/2461-delaware-st/lid-P00800000H9QrDhXXB5dmrzcWvJv4vimzc0FLHf8"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.coldwellbanker.com/in/gary/2461-delaware-st/lid-P00800000H9QrDhXXB5dmrzcWvJv4vimzc0FLHf8"
+        }
+      ],
+      "photo_history": [
+        {
+          "path": "assets/listings/236b91440cecbb67bdc4.jpg",
+          "source": "https://www.coldwellbanker.com/in/gary/2461-delaware-st/lid-P00800000H9QrDhXXB5dmrzcWvJv4vimzc0FLHf8",
+          "remote_url": "https://images-listings.coldwellbanker.com/IN_GNIAR/83/71/18/_P/837118_P00.jpg",
+          "date": "2026-11-23T02:36:07+00:00",
+          "sha256": "236b91440cecbb67bdc4ebf2cbacde82d03b5657584184c49455416269e02344",
+          "method": "Public rendered listing image URL; unchanged bytes, image magic verified (MIME can be octet-stream)"
+        }
+      ],
+      "mls": "837118",
+      "county": "Lake",
+      "kind": "house",
+      "existing_garage": null,
+      "lot_sqft": 3005,
+      "acres": 0.069,
+      "building_condition": "major_repair_or_uninspected",
+      "ownership": "single_family_sale_claim",
+      "rv_storage": "unknown",
+      "location": {
+        "lat": null,
+        "lon": null,
+        "reference": {
+          "lat": 41.586046,
+          "lon": -87.327676,
+          "kind": "city_approximate",
+          "source": "https://www.coldwellbanker.com/city/in/gary"
+        },
+        "note_ru": "Общий ориентир Gary из карты каталога; это не точка дома. Точный адрес указан в карточке, участок и RV-въезд требуют проверки."
+      },
+      "airport_code": "ORD",
+      "airport_reference": {
+        "lat": 41.9742,
+        "lon": -87.9073
+      },
+      "image_url": "assets/listings/236b91440cecbb67bdc4.jpg",
+      "image_source_url": "https://www.coldwellbanker.com/in/gary/2461-delaware-st/lid-P00800000H9QrDhXXB5dmrzcWvJv4vimzc0FLHf8",
+      "airport_straight_km": 64.6,
+      "inspection_order": 17
+    },
+    {
+      "id": "in-gary-836105",
+      "title": "3842 Maryland St",
+      "price": 15000,
+      "currency": "USD",
+      "price_basis": "advertised_cash_asking_price",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "last_verified": "2026-11-23T02:36:07+00:00",
+      "checked_at": "2026-11-23T02:36:07+00:00",
+      "first_seen": "2026-11-23T02:36:07+00:00",
+      "state": "IN",
+      "city": "Gary",
+      "category": "house_garage",
+      "summary_ru": "Дом 1,334 sqft, 3 спальни / 2 санузла с отдельным гаражом на одну машину и бетонной парковкой по MLS. Дом под ремонт; высота ворот, длина гаража и место для 7-метрового RV неизвестны.",
+      "url": "https://www.redfin.com/IN/Gary/3842-Maryland-St-46409/home/132820219",
+      "image_remote_url": "https://ssl.cdn-redfin.com/photo/276/bigphoto_hybrid/105/836105_2.webp",
+      "closing_costs_known": false,
+      "known_fees": null,
+      "rv_inside_fit": "unknown",
+      "rv_outside_fit": "unknown",
+      "rv_outside_storage_permission": "unknown",
+      "personal_repair_permission": "unknown",
+      "occupancy_permission": "unknown",
+      "commercial_repair_permission": "unknown",
+      "verified_full_match": false,
+      "annual_dues_usd": null,
+      "annual_tax_usd": null,
+      "garage_dimensions": null,
+      "door_height_m": null,
+      "door_width_m": null,
+      "price_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "price": 15000,
+          "source": "https://www.redfin.com/IN/Gary/3842-Maryland-St-46409/home/132820219"
+        }
+      ],
+      "status_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "status": "active",
+          "source": "https://www.redfin.com/IN/Gary/3842-Maryland-St-46409/home/132820219"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.redfin.com/IN/Gary/3842-Maryland-St-46409/home/132820219"
+        }
+      ],
+      "photo_history": [
+        {
+          "path": "assets/listings/12607e5d496074cddb52.webp",
+          "source": "https://www.redfin.com/IN/Gary/3842-Maryland-St-46409/home/132820219",
+          "remote_url": "https://ssl.cdn-redfin.com/photo/276/bigphoto_hybrid/105/836105_2.webp",
+          "date": "2026-11-23T02:36:07+00:00",
+          "sha256": "12607e5d496074cddb52b007ba5cdbc13113fd8b5d95103826c55ef435eb8a21",
+          "method": "Public rendered listing image URL; unchanged bytes, image magic verified (MIME can be octet-stream)"
+        }
+      ],
+      "mls": "836105",
+      "county": "Lake",
+      "kind": "house",
+      "existing_garage": true,
+      "lot_sqft": 4791,
+      "acres": 0.11,
+      "ownership": "single_family_sale_claim",
+      "building_condition": "renovation_required",
+      "rv_storage": "unknown",
+      "location": {
+        "lat": 41.5486115,
+        "lon": -87.3307323,
+        "reference": null,
+        "coordinate_source": "https://www.google.com/maps/search/?api=1&query=3842+Maryland+St+Gary+IN",
+        "note_ru": "Google Maps разрешил адрес дома. Точка относится к адресу, не к границам участка или въезду в гараж."
+      },
+      "airport_code": "ORD",
+      "airport_reference": {
+        "lat": 41.9742,
+        "lon": -87.9073
+      },
+      "image_url": "assets/listings/12607e5d496074cddb52.webp",
+      "image_source_url": "https://www.redfin.com/IN/Gary/3842-Maryland-St-46409/home/132820219",
+      "airport_straight_km": 67.3,
+      "parcel": "450827132024000004",
+      "garage_spaces_claim": 1,
+      "building_sqft_claim": 1334,
+      "inspection_order": 1
+    },
+    {
+      "id": "in-gary-838047",
+      "title": "4173 Washington St",
+      "price": 15000,
+      "currency": "USD",
+      "price_basis": "advertised_cash_asking_price",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "last_verified": "2026-11-23T02:36:07+00:00",
+      "checked_at": "2026-11-23T02:36:07+00:00",
+      "first_seen": "2026-11-23T02:36:07+00:00",
+      "state": "IN",
+      "city": "Gary",
+      "category": "house_garage",
+      "summary_ru": "Существующий дом с подвалом и пристроенным гаражом на одну машину по объявлению. Продавец предлагает восстановление дома; состояние гаража и свободное место снаружи неизвестны. В заглавном фото видна заросшая площадка, дом и гараж не видны: существенный пробел между описанием и фото.",
+      "url": "https://www.redfin.com/IN/Gary/4173-Washington-St-46408/home/133224710",
+      "image_remote_url": "https://ssl.cdn-redfin.com/photo/276/bigphoto_hybrid/047/838047_1.webp",
+      "closing_costs_known": false,
+      "known_fees": null,
+      "rv_inside_fit": "unknown",
+      "rv_outside_fit": "unknown",
+      "rv_outside_storage_permission": "unknown",
+      "personal_repair_permission": "unknown",
+      "occupancy_permission": "unknown",
+      "commercial_repair_permission": "unknown",
+      "verified_full_match": false,
+      "annual_dues_usd": null,
+      "annual_tax_usd": null,
+      "garage_dimensions": null,
+      "door_height_m": null,
+      "door_width_m": null,
+      "price_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "price": 15000,
+          "source": "https://www.redfin.com/IN/Gary/4173-Washington-St-46408/home/133224710"
+        }
+      ],
+      "status_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "status": "active",
+          "source": "https://www.redfin.com/IN/Gary/4173-Washington-St-46408/home/133224710"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.redfin.com/IN/Gary/4173-Washington-St-46408/home/133224710"
+        }
+      ],
+      "photo_history": [
+        {
+          "path": "assets/listings/5c580ba91aeaf4260722.webp",
+          "source": "https://www.redfin.com/IN/Gary/4173-Washington-St-46408/home/133224710",
+          "remote_url": "https://ssl.cdn-redfin.com/photo/276/bigphoto_hybrid/047/838047_1.webp",
+          "date": "2026-11-23T02:36:07+00:00",
+          "sha256": "5c580ba91aeaf4260722d66580eea108012ba5094ddfe17299ce00067489a901",
+          "method": "Public rendered listing image URL; unchanged bytes, image magic verified (MIME can be octet-stream)"
+        }
+      ],
+      "mls": "838047",
+      "county": "Lake",
+      "kind": "house",
+      "existing_garage": true,
+      "lot_sqft": 3049,
+      "acres": 0.07,
+      "ownership": "single_family_sale_claim",
+      "building_condition": "renovation_required",
+      "rv_storage": "unknown",
+      "location": {
+        "lat": 41.5427435,
+        "lon": -87.3372677,
+        "reference": null,
+        "coordinate_source": "https://www.google.com/maps/search/?api=1&query=4173+Washington+St+Gary+IN",
+        "note_ru": "Google Maps разрешил адрес дома. Точка относится к адресу, не к границам участка или въезду в гараж."
+      },
+      "airport_code": "ORD",
+      "airport_reference": {
+        "lat": 41.9742,
+        "lon": -87.9073
+      },
+      "image_url": "assets/listings/5c580ba91aeaf4260722.webp",
+      "image_source_url": "https://www.redfin.com/IN/Gary/4173-Washington-St-46408/home/133224710",
+      "airport_straight_km": 67.4,
+      "parcel": "450828429008000004",
+      "garage_spaces_claim": 1,
+      "inspection_order": 22
+    },
+    {
+      "id": "il-streator-12806426",
+      "title": "507 Lundy St",
+      "price": 19900,
+      "currency": "USD",
+      "price_basis": "advertised_cash_asking_price",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "last_verified": "2026-11-23T02:36:07+00:00",
+      "checked_at": "2026-11-23T02:36:07+00:00",
+      "first_seen": "2026-11-23T02:36:07+00:00",
+      "state": "IL",
+      "city": "Streator",
+      "category": "house_garage",
+      "summary_ru": "Дом 1,189 sqft, 3 спальни / 2 санузла, участок 48×140 ft; отдельный гараж на 2 машины указан в MLS. REO, as-is. Единственное фото показывает заросший фасад дома; гараж на нём не виден. Состояние и RV-въезд неизвестны.",
+      "url": "https://www.coldwellbankerhomes.com/il/streator/507-lundy-st/pid_74707392/",
+      "image_remote_url": "https://m.cbhomes.com/p/155/12806426/b7E174c9B0da48C/pdl23tp.webp",
+      "closing_costs_known": false,
+      "known_fees": null,
+      "rv_inside_fit": "unknown",
+      "rv_outside_fit": "unknown",
+      "rv_outside_storage_permission": "unknown",
+      "personal_repair_permission": "unknown",
+      "occupancy_permission": "unknown",
+      "commercial_repair_permission": "unknown",
+      "verified_full_match": false,
+      "annual_dues_usd": null,
+      "annual_tax_usd": 1303,
+      "garage_dimensions": null,
+      "door_height_m": null,
+      "door_width_m": null,
+      "price_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "price": 19900,
+          "source": "https://www.coldwellbankerhomes.com/il/streator/507-lundy-st/pid_74707392/"
+        }
+      ],
+      "status_history": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "status": "active",
+          "source": "https://www.coldwellbankerhomes.com/il/streator/507-lundy-st/pid_74707392/"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-23T02:36:07+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.coldwellbankerhomes.com/il/streator/507-lundy-st/pid_74707392/"
+        }
+      ],
+      "photo_history": [
+        {
+          "path": "assets/listings/c1c343729f050e7c56fc.webp",
+          "source": "https://www.coldwellbankerhomes.com/il/streator/507-lundy-st/pid_74707392/",
+          "remote_url": "https://m.cbhomes.com/p/155/12806426/b7E174c9B0da48C/pdl23tp.webp",
+          "date": "2026-11-23T02:36:07+00:00",
+          "sha256": "c1c343729f050e7c56fc12debf5324f799a1c652e3717aea4d40d0b49b31f907",
+          "method": "Original photograph downloaded from rendered listing in Chrome; bytes unchanged"
+        }
+      ],
+      "mls": "12806426",
+      "county": "LaSalle",
+      "kind": "house",
+      "existing_garage": true,
+      "lot_sqft": 6720,
+      "acres": 0.1543,
+      "ownership": "fee_simple_claim",
+      "building_condition": "as_is_uninspected",
+      "annual_tax_year": 2025,
+      "rv_storage": "unknown",
+      "parcel": "3336131007",
+      "location": {
+        "lat": 41.1152236,
+        "lon": -88.8292715,
+        "coordinate_source": "https://www.google.com/maps/place/507+Lundy+Street+Streator+IL+61364",
+        "reference": null,
+        "note_ru": "Google Maps разрешил точный адрес 507 Lundy St. Границы участка и въезд в гараж не проверены."
+      },
+      "airport_code": "ORD",
+      "airport_reference": {
+        "lat": 41.9742,
+        "lon": -87.9073
+      },
+      "image_url": "assets/listings/c1c343729f050e7c56fc.webp",
+      "image_source_url": "https://www.coldwellbankerhomes.com/il/streator/507-lundy-st/pid_74707392/",
+      "airport_straight_km": 122.5,
+      "tax_year": 2025,
+      "garage_spaces_claim": 2,
+      "building_sqft_claim": 1189,
+      "inspection_order": 2
+    }
+  ],
+  "official_sources": [
+    {
+      "url": "https://woodhavenassociation.com/membership/",
+      "checked_at": "2026-11-23T02:36:07+00:00",
+      "note_ru": "Fee-simple участки; доступ круглый год, не основное жильё, максимум 200 ночёвок в год; взносы 2026–27."
+    },
+    {
+      "url": "https://sfvklr.infiniteuploads.cloud/2026/05/Rules-Regs-Amended-04282026.pdf",
+      "checked_at": "2026-11-23T02:36:07+00:00",
+      "note_ru": "Действующая редакция 28 апреля 2026. Article VII §8C предусматривает ремонты RV и разрешения для изменения экстерьера/крыши; это не подтверждение моторного ремонта, сварки или покраски конкретного van."
+    },
+    {
+      "url": "https://www.leecountyil.com/525/Building-Permits",
+      "checked_at": "2026-11-23T02:50:00+00:00",
+      "note_ru": "Официальная страница округа: для проверки нужны parcel и zoning; оценочный тип участка не равен zoning. Разрешение нужного ремонта RV не установлено."
+    },
+    {
+      "url": "https://codelibrary.amlegal.com/codes/leecountyil/latest/leecounty_il/0-0-0-4037",
+      "checked_at": "2026-11-23T02:50:00+00:00",
+      "note_ru": "Lee County Code, Title 10 Chapter 9: principal и accessory uses зависят от зоны; персональное разрешение для этих участков не установлено."
+    }
+  ],
+  "exclusions": [
+    {
+      "title": "27639 Gateway Rd, Garrison MN — MLS7095282",
+      "url": "https://www.realty.com/land-listings/1065262385/27639-Gateway-Road-Garrison-MN-56450",
+      "price": 15999,
+      "status": "closed",
+      "checked_at": "2026-11-23T02:36:07+00:00",
+      "status_basis": "live_public_page",
+      "note_ru": "Живая страница Realty.com показывает Closed; старый поисковый снимок Active устарел. Не добавлен в текущие предложения. Кроме того, около 152 км по прямой от точки Minnetonka."
+    },
+    {
+      "title": "3666 92nd Ave NE, Blaine MN — MLS7170839",
+      "url": "https://www.landandfarm.com/property/residential-blaine-mn-43423206/",
+      "price": 15000,
+      "status": "not_qualified",
+      "note_ru": "Manufactured home с lot rent; земля не включена. 50 acres в агрегаторе не являются купленным участком под этот дом."
+    },
+    {
+      "title": "5/334 Woodhaven",
+      "price": 12000,
+      "status": "pending",
+      "note_ru": "В текущем каталоге pending; не включён."
+    },
+    {
+      "title": "10-23 Woodhaven",
+      "price": 18000,
+      "status": "pending",
+      "note_ru": "В текущем каталоге pending; не включён."
+    },
+    {
+      "title": "116 Mill St, Peterson MN",
+      "price": 90000,
+      "status": "over_budget",
+      "note_ru": "$19,900 было старой ценой 2014 года; готовый гараж не доступен за эту сумму."
+    }
+  ]
+}
