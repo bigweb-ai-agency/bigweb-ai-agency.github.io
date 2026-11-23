@@ -7355,7 +7355,80 @@
         "AK"
       ],
       "preservation": "All IDs, first_seen, photos and prior histories retained. Only three explicit indexed availability corrections; no cash-price replacement by historic sale prices. Conflicting Colchester MLS histories not treated as sale evidence; stale lead hidden pending fresh verification. Gary newer active index not marked sold because older sale history exists."
+    },
+    {
+      "date": "2026-11-23T03:15:37+00:00",
+      "type": "scheduled_public_research",
+      "states": [
+        "DE",
+        "RI",
+        "AK"
+      ],
+      "added_ids": [],
+      "updated_ids": [],
+      "scope": "Rotated low-count states after the same-day22-offer Midwest publication. Retained broad house/garage/workshop/prepared-area research, with physical fit and permissions as separate unknowns. No vehicle-sale research imported from the separate RV-purchase chat.",
+      "workflow_review": {
+        "run_id": 45091323447,
+        "conclusion": "success",
+        "last_run": "2026-11-23T00:53:04+00:00",
+        "collector_status": "partial",
+        "added": 4,
+        "changed": 1,
+        "pages": 62,
+        "errors": 58,
+        "note": "Latest actual discovery run completed successfully; source-level failures are retained in monitor.json. No active discovery run and no new failure since the earlier interactive review."
+      },
+      "findings": [
+        {
+          "url": "https://www.realtor.com/realestateandhomes-search/Delaware/price-na-20000",
+          "basis": "indexed_public_page",
+          "finding": "Cheap-state category contains mobile homes, builder promotions and misleading area figures; not seven qualifying freehold RV-storage properties. Detail pages checked separately."
+        },
+        {
+          "url": "https://www.realtor.com/realestateandhomes-detail/26025-S-Cherry-St_Millsboro_DE_19966_M96283-88714",
+          "basis": "indexed_public_page",
+          "finding": "Detail reports Off Market despite category asking-price result19999. Not imported and not treated as available.187.48ac is not verified owned land for this home."
+        },
+        {
+          "url": "https://www.realtor.com/realestateandhomes-detail/371-Norway-Dr_Dover_DE_19901_M50214-06094",
+          "basis": "indexed_public_page",
+          "finding": "Detail reports sold Nov2,2026 and Land Lease / Non Deeded. Former15000 asking price is neither current availability nor a purchase of the underlying land."
+        },
+        {
+          "url": "https://www.riliving.com/commercial-for-sale/161-Oak-Hill-Road-North-Kingstown-RI-02852-358747559",
+          "basis": "indexed_public_page",
+          "finding": "Large overhead-door industrial building has15000sqft, not a15000USD purchase price. Displayed11 has no verified complete cash-sale basis; excluded from fixed-cash candidates."
+        },
+        {
+          "url": "https://corcoranchr.com/listing/RI/Narragansett/0-Rhode-Island-Avenue-02882/231519435",
+          "basis": "indexed_public_page",
+          "finding": "MLS1419851 sold Nov3,2026; already recorded sold in national database. No redundant status refresh or replacement of asking price by sold price."
+        },
+        {
+          "url": "https://landinalaska.com/wp-content/uploads/P138-Brochure.pdf",
+          "basis": "public_broker_brochure",
+          "finding": "P138 asks10000 cash for4.88ac but explicitly lists no buildings or utilities and only4-wheeler/snowmachine access from the parking area. No road entry for a7m campervan; not promoted as a ready base."
+        }
+      ],
+      "flight_review": {
+        "date": "2026-11-23",
+        "status": "partial_provider_review_no_new_verified_quotes",
+        "sources": [
+          "https://www.lufthansa.com/lhg/lt/en/o-d/cy-cy/vilnius-chicago",
+          "https://www.lufthansa.com/lhg/us/en/o-d/cy-cy/vilnius-minneapolis",
+          "https://www.lufthansa.com/lhg/de/en/o-d/cy-cy/frankfurt-chicago"
+        ],
+        "finding": "Reviewed provider14-day fare calendars; cached monthly/from prices and unselected return dates are insufficient to replace verified dated itineraries. Same-day airports.html retains selected LHR-PIT and LHR-ORD roundtrips and explicitly incomplete FRA-STL. No cached fare relabelled live; VNO/MSP and same-date baggage/positioning comparison remains to verify."
+      },
+      "next_states": [
+        "MN",
+        "WI",
+        "OH"
+      ],
+      "rotation_reason": "Return to current regional priority next, retaining periodic nationwide low-count rotation; manual shortlists are separate from national3-15k collector.",
+      "preservation": "No listing facts, first_seen, IDs, status/price/photo histories, photographs, flights or interfaces changed. Existing22 Midwest and2 PA records retained. A separate local worktree isolates this journal/runbook update from active RV-vehicle work.",
+      "automation_scope": "Updated existing rv-land heartbeat prompt via supported automation tool with owner23Nov criteria; unchanged daily schedule, ACTIVE state and target chat. Explicitly kept vehicle purchases in the separate new chat."
     }
   ],
-  "updated_at": "2026-11-23T01:30:24+00:00"
+  "updated_at": "2026-11-23T03:15:37+00:00"
 }
