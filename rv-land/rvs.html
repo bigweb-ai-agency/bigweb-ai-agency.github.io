@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RV до $30 000 — Chicago и Minneapolis</title>
+<meta name="description" content="Реальные самоходные RV всех размеров: Class A, B, C и переделанные автобусы. Chicago ORD и Minneapolis MSP: карта, фото, цены, пробег и известные дефекты.">
+<meta name="theme-color" content="#173f39">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="airports.css?v=20261123"><link rel="stylesheet" href="rvs.css?v=20261123">
+<script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script defer src="rvs.js?v=20261123"></script></head>
+<body><header><a class="brand" href="./">RV LAND</a><nav aria-label="Разделы"><a href="#vehicles">Автодома</a><a href="#sources">Источники</a><a href="./">Недвижимость ↗</a></nav><span>Проверка · 23.11.2026</span></header>
+<main><section class="intro"><span class="eyebrow">CHICAGO O’HARE · MINNEAPOLIS MSP · ПОКУПКА RV</span>
+<h1>От campervan<br>до большого Class A.</h1><p class="lead">Самоходные автодома до <b>$30 000</b>. Все размеры и классы: A, B, C; переделанные автобусы показаны отдельно. Реальные объявления, фотографии из них и известные проблемы.</p>
+<p id="summary" class="notice" aria-live="polite">Загружаю объявления…</p>
+<p class="muted">Цена — полная опубликованная стоимость автомобиля, без платежей в месяц и аукционных ставок. Налог, title и регистрация могут быть дополнительно. Состояние и clean title — заявления продавцов, документы и техника нами не проверены. Неизвестное отмечено «неизвестно».</p></section>
+<section id="vehicles"><h2>Выбрать автодом</h2>
+<form id="filters" class="rv-filters">
+<label>Город / аэропорт<select name="airport"><option value="">Оба региона</option><option value="ORD">Chicago · ORD</option><option value="MSP">Minneapolis · MSP</option></select></label>
+<label>Класс<select name="class"><option value="">Все классы и размеры</option><option value="A">Class A · большие</option><option value="B">Class B · campervan</option><option value="C">Class C</option><option value="conversion">Автобус / conversion</option><option value="unknown">Класс неизвестен / конфликт</option></select></label>
+<label>Цена от, $<input name="minPrice" type="number" min="0" max="30000" step="100" placeholder="Любая"></label>
+<label>Цена до, $<input name="maxPrice" type="number" min="0" max="30000" step="100" value="30000"></label>
+<label>Год от<input name="minYear" type="number" min="1960" max="2027" placeholder="Любой"></label>
+<label>Год до<input name="maxYear" type="number" min="1960" max="2027" placeholder="Любой"></label>
+<label>Радиус по прямой<select name="distance"><option value="150">До 150 км</option><option value="100">До 100 км</option><option value="50">До 50 км</option><option value="all">Включить дальние</option></select></label>
+<label>Продавец<select name="seller"><option value="">Все</option><option value="private">Частник</option><option value="dealer">Дилер</option></select></label>
+<label>Состояние<select name="condition"><option value="">Любое, включая неизвестное</option><option value="seller_good">Хорошее по продавцу</option><option value="repair_disclosed">Есть заявленные проблемы</option><option value="needs_clarification">Есть расхождения / уточнения</option><option value="unknown">Неизвестно</option></select></label>
+<label>Сортировка<select name="sort"><option value="price">Сначала дешевле</option><option value="distance">Сначала ближе</option><option value="year">Сначала новее</option><option value="mileage">По пробегу · неизвестное в конце</option></select></label>
+<label class="check"><input name="distant" type="checkbox" checked>Отдельно показать дальние варианты</label>
+<button type="reset">Сбросить фильтры</button></form>
+<p id="result-count" role="status"></p><div id="rv-map" aria-label="Карта RV около Chicago и Minneapolis"></div><p class="muted">Колёсико меняет масштаб. Окружности — 150 км от ORD и MSP. Расстояния по прямой, не автомобильный маршрут. Пунктирные маркеры — приблизительная точка продавца или ориентир города; адрес стоянки RV не установлен. Совпадающие точки раскрывают список всех автомобилей. Цвет: A — фиолетовый, B — зелёный, C — оранжевый, conversion / неизвестный — серый.</p>
+<div id="cards" class="cards"></div><p id="empty" class="notice" hidden>По выбранным фильтрам объявлений нет. Уменьши ограничения или сбрось фильтры.</p>
+<div id="far-section" hidden><h2>Дальше 150 км — отдельная поездка</h2><p class="muted">Эти RV не считаются местными. Расстояние до ближайшего выбранного аэропорта указано в каждой карточке.</p><div id="far-cards" class="cards"></div></div></section>
+<section id="sources" class="reading"><span class="eyebrow">ЧТО УДАЛОСЬ ПРОЧИТАТЬ</span><h2>Источники и границы проверки</h2>
+<ul><li><a href="https://www.craigslist.org/search/area/chicago?cat=rva&amp;purveyor=owner&amp;max_price=30000">Craigslist Chicago</a> и <a href="https://www.craigslist.org/search/area/minneapolis?cat=rva&amp;purveyor=owner&amp;max_price=30000">Minneapolis</a>: прочитаны индивидуальные объявления всех классов. Автобусы и спорные классы сохранены с пояснениями. Два объявления Kenosha Skoolie сведены к одному RV; повтор Madison Explorer из разных региональных выдач показан один раз.</li>
+<li><a href="https://www.hilltopcamper.com/product/motor-home/used">Hilltop Camper & RV</a>: три предложения в Fridley. Их собственные карточки и спецификации проверены в Chrome. Цена включает $350 doc fee; налог/title/регистрация отдельно. Общий disclaimer дилера допускает stock photos; сохранены изображения, привязанные к соответствующему stock, без обещания независимой аутентификации фото.</li>
+<li><a href="https://rvs.autotrader.com/rvs/2002/winnebago/sightseer/300691350">RVs on Autotrader / Jim Potts Motor Group</a>: Sightseer 2002, VIN и цена прочитаны. Собственный <a href="https://www.jimpotts.com/">сайт дилера</a> не загрузился; пробег и комиссии остались неизвестными.</li>
+<li><a href="https://www.rvtrader.com/Chicago/rvs-for-sale?city=Chicago&amp;state=Illinois%7CIL&amp;price=*%3A30000">RV Trader</a> показал 403 в Chrome. <a href="https://www.rvusa.com/used-rvs-for-sale-in-illinois?condition=used">RVUSA</a> — security verification; <a href="https://www.rvt.com/Used-RVs-For-Sale-In-Minnesota-MN-On-RVT.com/results?state=MN&amp;price2=30000&amp;condition=used">RVT</a> не удалось прочитать. Обхода ограничений не было, эти страницы не названы проверенными предложениями.</li>
+<li><a href="https://www.facebook.com/marketplace/chicago/rv-campers/">Facebook Marketplace</a> недоступен для активного профиля страницы. Обе проверенные RV-группы — <a href="https://www.facebook.com/groups/rvfactoryconnect6/">Midwest USA</a> и <a href="https://www.facebook.com/groups/MICHIGANRVS/">Michigan / Ohio / Indiana / Illinois</a> — закрытые: публикации видны только участникам. В группы не вступали, профиль не переключали и продавцам не писали.</li></ul>
+<p>Southwind за $11 000 из выдачи Buffalo, MN исключён из местных: текст указывает Arizona. Bigfoot 25B21RB — прицеп, поэтому исключён по выбранному типу. Georgetown 2010 с похожими публикациями в нескольких городах оставлен с отметкой «уточнить место». Неизвестные мотор, высота или состояние сами по себе не исключают реальный RV.</p>
+<p>Публичная страница была доступна 23 ноября 2026; наличие у продавца на момент поездки не подтверждено. Через 14 дней без новой проверки карточка уйдёт из текущей выдачи. Проданные и снятые не отображаются. Ошибка доступа не означает SOLD; исходные записи, фото и история сохраняются.</p>
+<p><a href="data/rvs.json">Полная база и история JSON</a> · <a href="data/rv-sources-2026-11-23.json">Журнал проверки источников</a> · <a href="./">Карта недвижимости</a></p></section></main>
+<dialog id="rv-detail" aria-labelledby="detail-title"><button class="close" aria-label="Закрыть карточку">×</button><div id="detail-body"></div></dialog>
+<footer>RV LAND · Самоходные RV · Chicago / Minneapolis · До $30 000 · Проверка 23.11.2026</footer>
+<noscript>Для карты нужен JavaScript. <a href="data/rvs.json">Объявления и источники JSON</a>.</noscript>
+</body></html>
