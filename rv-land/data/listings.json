@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-23T00:53:04+00:00",
+  "updated_at": "2026-11-23T01:30:24+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -1733,13 +1733,14 @@
       "price_basis": "asking_cash",
       "first_seen": "2026-09-14T00:25:00+03:00",
       "last_seen": "2026-09-13T22:25:02+00:00",
-      "last_verified": "2026-09-14T02:00:00+03:00",
+      "last_verified": "2026-11-23T01:30:24+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
       "notes": [
         "Текущая открытая карточка Realtor: $15,000. Старый индекс за август показывал $25,000.",
-        "Дом продаётся as-is; пригодность гаража для 7-метрового высокого RV требует замера."
+        "Дом продаётся as-is; пригодность гаража для 7-метрового высокого RV требует замера.",
+        "2026-11-23: MLS6340604 indexed as pending since Sep21,2026. Not considered currently available and not called sold without evidence. https://www.trulia.com/home/403-e-adams-st-mount-ayr-ia-50854-87061788"
       ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ia-mount-ayr-adams-6340604",
@@ -1754,7 +1755,7 @@
       "lat": 40.71471,
       "lng": -94.23523,
       "coord_precision": "city",
-      "status": "active",
+      "status": "pending",
       "rv": "Detached garage is useful; verify driveway clearance and local RV/mechanical-work rules",
       "restrictions": "Residential single-family",
       "garage_workshop": "Detached 2-car garage",
@@ -1771,7 +1772,7 @@
       "known_fees": 0,
       "total_known": 15000,
       "legacy": true,
-      "source_crawled": "last week; price updated Aug 28, 2026",
+      "source_crawled": "last month",
       "image_url": "assets/listings/9703b9b99eb31c247070.webp",
       "image_source_url": "https://www.realtor.com/realestateandhomes-detail/403-E-Adams-St_Mount-Ayr_IA_50854_M72700-75430",
       "image_credit": "Original listing / preserved prior research",
@@ -1868,7 +1869,15 @@
           "source": "https://www.trulia.com/home/403-e-adams-st-mount-ayr-ia-50854-87061788"
         }
       ],
-      "status_history": [],
+      "status_history": [
+        {
+          "date": "2026-11-23T01:30:24+00:00",
+          "from": "active",
+          "to": "pending",
+          "source": "https://www.trulia.com/home/403-e-adams-st-mount-ayr-ia-50854-87061788",
+          "observation_note": "Correction of retained availability from dated evidence, not a new sale on observation date."
+        }
+      ],
       "image_remote_url": "https://ap.rdcpix.com/a947429f65208a57425aeb4504d0e4e0l-m986491555rd-w960_h720.webp",
       "photo_preserved_at": "2026-09-13T23:05:59+00:00",
       "photo_history": [
@@ -1878,6 +1887,17 @@
           "remote_url": "https://ap.rdcpix.com/a947429f65208a57425aeb4504d0e4e0l-m986491555rd-w960_h720.webp",
           "date": "2026-09-13T23:05:59+00:00"
         }
+      ],
+      "availability_evidence": {
+        "observed_at": "2026-11-23T01:30:24+00:00",
+        "basis": "indexed_public_page",
+        "source_url": "https://www.trulia.com/home/403-e-adams-st-mount-ayr-ia-50854-87061788",
+        "snapshot_age": "last month",
+        "reported_status_date": "2026-09-21",
+        "note": "MLS6340604 indexed as pending since Sep21,2026. Not considered currently available and not called sold without evidence."
+      },
+      "alternate_urls": [
+        "https://www.trulia.com/home/403-e-adams-st-mount-ayr-ia-50854-87061788"
       ]
     },
     {
@@ -2350,13 +2370,14 @@
       "price_basis": "asking_cash",
       "first_seen": "2026-09-14T00:25:00+03:00",
       "last_seen": "2026-09-13T22:25:02+00:00",
-      "last_verified": "2026-09-14T02:00:00+03:00",
+      "last_verified": "2026-11-23T01:30:24+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
       "notes": [
         "Two-car garage and larger yard are useful; verify village RV parking and mechanical-work rules",
-        "Current asking price $15,000"
+        "Current asking price $15,000",
+        "2026-11-23: Owner listing removed Oct8,2026. Retain old asking price and all photographs; do not substitute historic sale price. https://www.zillow.com/homedetails/303-S-3rd-St-Easton-IL-62633/115700245_zpid/"
       ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "il-easton-3rd-fsbo",
@@ -2371,7 +2392,7 @@
       "lat": 40.23233,
       "lng": -89.84334,
       "coord_precision": "city",
-      "status": "active",
+      "status": "off_market",
       "rv": "Two-car garage and larger yard are useful; verify village RV parking and mechanical-work rules",
       "restrictions": "Residential property; for sale by owner",
       "garage_workshop": "2-car garage",
@@ -2388,7 +2409,7 @@
       "known_fees": 0,
       "total_known": 15000,
       "legacy": true,
-      "source_crawled": "today",
+      "source_crawled": "3 weeks ago",
       "image_url": "assets/listings/46f1d7c2f9558f70a161.jpg",
       "image_source_url": "https://www.zillow.com/homedetails/303-S-3rd-St-Easton-IL-62633/115700245_zpid/",
       "image_credit": "Original listing / preserved prior research",
@@ -2437,7 +2458,7 @@
         "verified": "2026-09-14"
       },
       "region": "Средний Запад",
-      "screening_issue": null,
+      "screening_issue": "availability_not_confirmed_by_source",
       "climate_note": "Полезный рынок небольших зданий, гаражей и городских лотов. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -2480,7 +2501,7 @@
         "Сезон /10": 4,
         "Дорога /10": 7
       },
-      "score": 38,
+      "score": 20,
       "price_history": [
         {
           "date": "2026-09-14T00:25:00+03:00",
@@ -2488,7 +2509,15 @@
           "source": "https://www.zillow.com/homedetails/303-S-3rd-St-Easton-IL-62633/115700245_zpid/"
         }
       ],
-      "status_history": [],
+      "status_history": [
+        {
+          "date": "2026-11-23T01:30:24+00:00",
+          "from": "active",
+          "to": "off_market",
+          "source": "https://www.zillow.com/homedetails/303-S-3rd-St-Easton-IL-62633/115700245_zpid/",
+          "observation_note": "Correction of retained availability from dated evidence, not a new sale on observation date."
+        }
+      ],
       "image_remote_url": "https://photos.zillowstatic.com/fp/c460a8bd09f74383929d519cff548b9e-cc_ft_960.jpg",
       "photo_preserved_at": "2026-09-13T23:05:59+00:00",
       "photo_history": [
@@ -2498,6 +2527,17 @@
           "remote_url": "https://photos.zillowstatic.com/fp/c460a8bd09f74383929d519cff548b9e-cc_ft_960.jpg",
           "date": "2026-09-13T23:05:59+00:00"
         }
+      ],
+      "availability_evidence": {
+        "observed_at": "2026-11-23T01:30:24+00:00",
+        "basis": "indexed_public_page",
+        "source_url": "https://www.zillow.com/homedetails/303-S-3rd-St-Easton-IL-62633/115700245_zpid/",
+        "snapshot_age": "3 weeks ago",
+        "reported_status_date": "2026-10-08",
+        "note": "Owner listing removed Oct8,2026. Retain old asking price and all photographs; do not substitute historic sale price."
+      },
+      "alternate_urls": [
+        "https://www.zillow.com/homedetails/303-S-3rd-St-Easton-IL-62633/115700245_zpid/"
       ]
     },
     {
@@ -2664,13 +2704,14 @@
       "price_basis": "asking_cash",
       "first_seen": "2026-09-14T00:25:00+03:00",
       "last_seen": "2026-09-13T22:25:02+00:00",
-      "last_verified": "2026-09-14",
+      "last_verified": "2026-11-23T01:30:24+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
       "notes": [
         "Detached 1-car garage and public utilities make it a cheap repair/storage lead; verify RV parking and mechanical-work rules",
-        "Current Zillow check shows $10,400; listing updated within the last day"
+        "Current Zillow check shows $10,400; listing updated within the last day",
+        "2026-11-23: Current indexed page reports off market; latest listing removed Sep3,2026. Earlier Aug2025 sale is not treated as a new sale today. https://www.trulia.com/home/2631-brownell-blvd-flint-mi-48504-73942827"
       ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "mi-flint-brownell-20250033421",
@@ -2685,7 +2726,7 @@
       "lat": 43.0125,
       "lng": -83.6875,
       "coord_precision": "city",
-      "status": "active",
+      "status": "off_market",
       "flight_gateway": "Detroit (DTW) / Chicago (ORD)",
       "gateway_note": "DTW is much closer, but current VNO fares to Chicago are usually better; Michigan winter is a climate downside",
       "rv": "Detached 1-car garage and public utilities make it a cheap repair/storage lead; verify RV parking and mechanical-work rules",
@@ -2701,11 +2742,11 @@
       "url": "https://www.zillow.com/homedetails/2631-Brownell-Blvd-Flint-MI-48504/73942827_zpid/",
       "verified": "2026-09-14",
       "source": "Imported research",
-      "status_basis": "legacy_unrechecked",
+      "status_basis": "indexed_public_page",
       "known_fees": 0,
       "total_known": 10400,
       "legacy": true,
-      "source_crawled": "Исходный список ChatGPT; свежесть отдельных сведений проверять",
+      "source_crawled": "yesterday",
       "image_source_url": "https://www.zillow.com/homedetails/2631-Brownell-Blvd-Flint-MI-48504/73942827_zpid/",
       "image_credit": "Original listing / preserved prior research",
       "zoning": "Residential property; no HOA shown",
@@ -2755,7 +2796,7 @@
         "verified": "2026-09-14"
       },
       "region": "Средний Запад",
-      "screening_issue": null,
+      "screening_issue": "availability_not_confirmed_by_source",
       "climate_note": "Flint и небольшие города дают дома/лоты в бюджете. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -2798,7 +2839,7 @@
         "Сезон /10": 3,
         "Дорога /10": 8
       },
-      "score": 46,
+      "score": 20,
       "price_history": [
         {
           "date": "2026-09-14T00:25:00+03:00",
@@ -2806,7 +2847,15 @@
           "source": "https://www.zillow.com/homedetails/2631-Brownell-Blvd-Flint-MI-48504/73942827_zpid/"
         }
       ],
-      "status_history": [],
+      "status_history": [
+        {
+          "date": "2026-11-23T01:30:24+00:00",
+          "from": "active",
+          "to": "off_market",
+          "source": "https://www.zillow.com/homedetails/2631-Brownell-Blvd-Flint-MI-48504/73942827_zpid/",
+          "observation_note": "Correction of retained availability from dated evidence, not a new sale on observation date."
+        }
+      ],
       "image_remote_url": "https://photos.zillowstatic.com/fp/ebb19bf81661771e2f1b7d51cae2cb64-cc_ft_960.jpg",
       "photo_preserved_at": "2026-09-13T23:05:59+00:00",
       "photo_history": [
@@ -2816,6 +2865,17 @@
           "remote_url": "https://photos.zillowstatic.com/fp/ebb19bf81661771e2f1b7d51cae2cb64-cc_ft_960.jpg",
           "date": "2026-09-13T23:05:59+00:00"
         }
+      ],
+      "availability_evidence": {
+        "observed_at": "2026-11-23T01:30:24+00:00",
+        "basis": "indexed_public_page",
+        "source_url": "https://www.trulia.com/home/2631-brownell-blvd-flint-mi-48504-73942827",
+        "snapshot_age": "yesterday",
+        "reported_status_date": "2026-09-03",
+        "note": "Current indexed page reports off market; latest listing removed Sep3,2026. Earlier Aug2025 sale is not treated as a new sale today."
+      },
+      "alternate_urls": [
+        "https://www.zillow.com/homedetails/2631-Brownell-Blvd-Flint-MI-48504/73942827_zpid/"
       ]
     },
     {

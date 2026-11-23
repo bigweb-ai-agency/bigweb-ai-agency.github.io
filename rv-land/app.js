@@ -46,6 +46,7 @@ function labels(x){
  const group=MapGroups.classify(x);
  return tag(MapGroups.groups[group].label,'group-tag group-'+group)+(x.airport_shortlist?tag('Ручная подборка до $20k','warn'):'')+(x.review_hold?tag('Исключён до проверки','warn'):'')+tag(x.existing_garage?'Гараж указан':kindNames[x.kind]||x.kind,x.existing_garage?'good':'')+
  tag(x.personal_repair==='authority_confirmed'?'Ремонт подтверждён':'Ремонт не подтверждён',x.personal_repair==='authority_confirmed'?'good':'warn')+
+ (!Availability.isCurrent(x)?tag('Наличие не подтверждено недавно','warn'):'')+
  (x.status!=='active'?tag(statusNames[x.status]||x.status,'warn'):'');
 }
 function airportLine(x){
@@ -67,7 +68,7 @@ function card(x){
  '<div class="card-labels">'+labels(x)+'</div>'+(x.country==='IT'?'<p class="card-risk">'+esc(x.risk_ru)+'</p><div class="card-source">'+esc(x.seller||'Продавец не указан')+' · '+link(x.url,'Источник ↗')+'</div>':'')+'<div class="card-bottom">'+esc(airportLine(x))+'</div></div></article>';
 }
 function renderCards(){
- $('cards').innerHTML=filtered.length?filtered.slice(0,visibleCount).map(card).join(''):'<p class="empty">По этим условиям объектов нет. Разрешение личного ремонта пока нигде не подтверждено. Измени фильтры или включи архив.</p>';
+ $('cards').innerHTML=filtered.length?filtered.slice(0,visibleCount).map(card).join(''):'<p class="empty">По этим условиям объектов нет. Проданные и снятые исключены постоянно. Измени фильтры; архив содержит только старые и неподтверждённые предложения.</p>';
  $('resultCount').textContent=filtered.length+' объектов';
  $('loadMore').hidden=visibleCount>=filtered.length;
  $('loadMore').textContent='Показать ещё '+Math.min(24,filtered.length-visibleCount);
@@ -76,6 +77,7 @@ function applyFilters(fit=true){
  const sicily=isSicily(),query=$('search').value.toLowerCase().trim(), budget=+$('budget').value||(sicily?10000:20000);
  filtered=listings.filter(x=>{
   if((x.country==='IT')!==sicily)return false;
+  if(!Availability.visible(x,$('archive').checked))return false;
   if(sicily){if(!Sicily.eligible(x,budget,$('archive').checked)||!Sicily.matchesResidential(x,$('residentialType').value,$('garageIncluded').checked))return false;}
   else{
    if((x.price??Infinity)>budget || x.price<3000)return false;
@@ -118,7 +120,8 @@ function configureMarket(reset=true){
  if(reset)$('filters').reset();
  $('budget').value=sicily?10000:20000;$('budget').defaultValue=$('budget').value;$('budget').min=sicily?1000:3000;
  $('budgetLabel').textContent='Цена до, '+(sicily?'EUR':'USD');$('stateLabel').textContent=sicily?'Провинция':'Штат';
- $('state').innerHTML='<option value="">'+(sicily?'Все провинции':'Все штаты')+'</option>'+(sicily?[...new Set(sicilyData.listings.map(x=>x.province))].sort().map(p=>'<option>'+esc(p)+'</option>').join(''):states.slice().sort((a,b)=>a.name.localeCompare(b.name)).map(s=>'<option value="'+s.code+'">'+esc(s.name)+' ('+s.photo_candidates+')</option>').join(''));
+ const current=currentUsCandidates(),count=code=>current.filter(x=>x.state===code).length;
+ $('state').innerHTML='<option value="">'+(sicily?'Все провинции':'Все штаты')+'</option>'+(sicily?[...new Set(sicilyData.listings.map(x=>x.province))].sort().map(p=>'<option>'+esc(p)+'</option>').join(''):states.slice().sort((a,b)=>a.name.localeCompare(b.name)).map(s=>'<option value="'+s.code+'">'+esc(s.name)+' ('+count(s.code)+')</option>').join(''));
  ['region','drive','climate','nohoa'].forEach(id=>{$(id).closest('label').hidden=sicily;});
  $('sicilyFilters').hidden=!sicily;
  $('mapGroupLabel').hidden=sicily;$('mapGroupNote').hidden=sicily;
@@ -128,9 +131,10 @@ function configureMarket(reset=true){
  $('sicilyNote').hidden=!sicily;$('marketEyebrow').textContent=sicily?'€1,000–€10,000 · СИЦИЛИЯ · ПОКУПКА':'$3,000–$20,000 · США · ПОКУПКА';
  $('updated').textContent=sicily?'Сицилия: проверено '+date(sicilyData.latest_observed_on||sicilyData.observed_on):'США: база обновлена '+date(usUpdated);
  if(sicily)$('stats').innerHTML='<div><b>'+sicilyData.listings.filter(x=>x.budget_fit===true).length+'</b><span>цен в бюджете</span></div><div><b>'+sicilyData.listings.filter(x=>x.image_url).length+'</b><span>записей с фото</span></div><div><b>'+sicilyData.listings.filter(x=>x.price_status==='conflict').length+'</b><span>HOLD · конфликт цены</span></div>';
- else {const us=listings.filter(x=>x.country!=='IT'),eligible=us.filter(x=>!x.screening_issue&&x.image_url&&['active','pending'].includes(x.status));$('stats').innerHTML='<div><b>'+eligible.length+'</b><span>фото-кандидатов</span></div><div><b>'+states.filter(s=>s.photo_candidates>=10).length+'</b><span>штатов с 10+ объектами</span></div><div><b>'+us.filter(x=>x.existing_garage).length+'</b><span>гаражей по описанию</span></div>';}
- $('archiveLabel').textContent=sicily?'Включить HOLD / конфликт цены':'Включить архив / спорные / неизвестный статус / без фото';
+ else {$('stats').innerHTML='<div><b>'+current.length+'</b><span>активных с фото</span></div><div><b>'+states.filter(s=>count(s.code)>=10).length+'</b><span>штатов с 10+ активными</span></div><div><b>'+current.filter(x=>x.existing_garage).length+'</b><span>гаражей по описанию</span></div>';}
+ $('archiveLabel').textContent=sicily?'Включить HOLD / конфликт цены':'Показать старые / неподтверждённые / pending (без проданных и снятых)';
 }
+function currentUsCandidates(){return listings.filter(x=>x.country!=='IT'&&Availability.isCurrent(x)&&!x.screening_issue&&!x.price_conflict&&x.image_url&&x.price>=3000&&x.price<=20000);}
 function initMap(){
  if(!window.L){$('map').innerHTML='<p class="empty">Библиотека карты недоступна. Список и ссылки на Google Maps продолжают работать.</p>';return;}
  map=L.map('map',{scrollWheelZoom:true}).setView([38.5,-97],4);
@@ -174,6 +178,10 @@ function showTab(id){
 }
 function showDetail(id){
  const x=byId.get(id);if(!x)return;selected=id;
+ if(Availability.isClosed(x)){
+  $('detailBody').innerHTML='<div class="detail-content"><h2>Объявление исключено из поиска</h2><p>'+esc(x.title)+'</p><p>По последним сохранённым сведениям объект продан, снят или объявление завершено. На карте, в списке и рекомендациях он не показывается.</p><p>История и исходные фотографии сохранены в базе.</p></div>';
+  $('detail').showModal();return;
+ }
  if((x.country==='IT')!==isSicily()){$('market').value=x.country==='IT'?'sicily':'us';configureMarket();applyFilters();}
  if(x.airport_shortlist){
   const r=x.airport_record,locationNote=x.anchor==='dunbar'?'Только ориентир портала возле Juniata. Точный участок и въезд не подтверждены; адрес 417 Main St из инструкции продавца не найден в Google Maps.':'Точка объявления соответствует адресу в Google Maps; границы и въезд в гараж не проверены.';
@@ -211,8 +219,8 @@ function showDetail(id){
  if(markers.has(id)){markers.get(id).openPopup();if(map)map.panTo([x.lat,x.lng]);}renderCards();
 }
 function renderStates(){
- const complete=states.filter(s=>s.photo_candidates>=10).length;
- $('coverageNote').textContent='Поиск выполнен по всем 50 штатам. В '+complete+' штатах есть минимум 10 кандидатов с фото в бюджете; в остальных недобор показан явно. Это полнота подборки, а не число разрешённых мастерских.';
+ const current=currentUsCandidates(),complete=states.filter(s=>current.filter(x=>x.state===s.code).length>=10).length;
+ $('coverageNote').textContent='Поиск охватил все 50 штатов. Сейчас в '+complete+' штатах есть 10+ активных кандидатов с фото, проверенных по странице за последние 14 дней. Числа в карточках ниже описывают накопленную историю; кнопка открывает только текущую выдачу. Проданные и снятые исключены.';
  $('stateGrid').innerHTML=states.slice().sort((a,b)=>a.priority-b.priority||a.name.localeCompare(b.name)).map(s=>'<article class="state-card"><div class="state-top"><span class="state-code">'+s.code+'</span>'+tag('Приоритет '+s.priority,s.priority===1?'good':'')+'</div><h2>'+esc(s.name)+'</h2><p>'+esc(s.analysis)+'</p><div class="state-meta"><span>'+s.photo_candidates+' фото-кандидатов</span><span>Сезон '+s.climate_score+'/10</span></div><p>EU-шлюзы: '+esc(s.gateways.join(' / '))+'</p>'+(s.shortfall?'<div class="shortfall">До цели 10: не хватает '+s.shortfall+'. Поиск продолжается.</div>':'')+'<button data-state="'+s.code+'">Смотреть '+s.total+' записей на карте →</button><p style="margin-top:10px;font-size:10px">'+link(s.sources[0],'Поиск источника')+' · '+link(s.sources[2],'NOAA: климат')+'</p></article>').join('');
 }
 function renderFlights(){
@@ -238,6 +246,8 @@ function showFare(i){
 function cost(){const n=id=>Math.max(0,Number($(id).value)||0);$('costTotal').textContent='≈ €'+(n('costFare')+n('costPosition')+n('costHotel')+n('costBags')+n('costCar')*n('costDays')+n('costFuel')).toLocaleString('ru-RU');}
 function renderGuide(){
  const picks=[
+ ['pa-dunbar-main-1733004','Текущая ручная подборка у PIT: отдельный гараж и существующая площадка. Высокий RV и точный въезд не подтверждены.'],
+ ['pa-newcastle-ray-1783220','Текущая ручная подборка у PIT: дом с заявленным гаражом на три автомобиля. Состояние гаража и въезд RV неизвестны.'],
  ['in-gary-kentucky-837526','Близко к Chicago; в прежнем описании отдельный гараж на две машины. Маленький лот и ворота обязательно измерить.'],
  ['ia-mount-ayr-adams-6340604','Обновлённая цена $15k и отдельный гараж. Дом as-is; длиннее дорога от международного рейса.'],
  ['ia-scranton-state-6335122','Дом с гаражом из прежней подборки. Интересен для помещения, но доступность и состояние повторно не подтверждены.'],
@@ -249,7 +259,8 @@ function renderGuide(){
  ['lc-24853','Georgia, продавец упоминает один RV. Электричество доступно, но нужны well/septic; ремонт и затопление не подтверждены.'],
  ['lc-25942','Mississippi, земля с заявленной доступностью городских коммуникаций. Проверить сухость площадки, реальное подключение и правила хранения/ремонта.']
  ];
- $('shortlist').innerHTML=picks.map(([id,note],i)=>{const x=byId.get(id);return x?'<article class="shortlist-item">'+photo(x,'shortlist-photo')+'<div><span class="eyebrow">'+String(i+1).padStart(2,'0')+' / '+esc(x.state)+' · '+listingPrice(x)+'</span><h3>'+esc(x.title)+'</h3><p>'+esc(note)+'</p><button data-detail="'+esc(id)+'">Проверить карточку →</button></div></article>':'';}).join('');
+ const current=new Set(currentUsCandidates().map(x=>x.id));
+ $('shortlist').innerHTML=picks.filter(([id])=>current.has(id)).map(([id,note],i)=>{const x=byId.get(id);return '<article class="shortlist-item">'+photo(x,'shortlist-photo')+'<div><span class="eyebrow">'+String(i+1).padStart(2,'0')+' / '+esc(x.state)+' · '+listingPrice(x)+'</span><h3>'+esc(x.title)+'</h3><p>'+esc(note)+'</p><button data-detail="'+esc(id)+'">Проверить карточку →</button></div></article>';}).join('')||'<p>Свежих активных предложений в этой подборке пока нет.</p>';
 }
 function exportCSV(){
  const headers=['id','title','city','state_or_province','price','currency','price_basis','price_conflict','price_observations','acres','land_m2','building_m2','kind','residential_type','garage_included_claim','garage_m2','seller','risk_ru','status','personal_repair','coordinate_precision','source_url','image_source','verified'];

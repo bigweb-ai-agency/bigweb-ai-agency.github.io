@@ -7319,7 +7319,43 @@
         "AK"
       ],
       "preservation": "Nationwide1125 listings and all preexisting assets, IDs, first_seen, histories and other regions unchanged. Two original photo assets retained in separate shortlist. No sellers contacted, no bookings or infrastructure changes."
+    },
+    {
+      "date": "2026-11-23T01:30:24+00:00",
+      "type": "availability_cleanup",
+      "states": [
+        "MI",
+        "IL",
+        "IA"
+      ],
+      "added_ids": [],
+      "updated_ids": [
+        "mi-flint-brownell-20250033421",
+        "il-easton-3rd-fsbo",
+        "ia-mount-ayr-adams-6340604"
+      ],
+      "findings": [
+        {
+          "url": "https://www.trulia.com/home/2631-brownell-blvd-flint-mi-48504-73942827",
+          "finding": "Current indexed page reports off market; latest listing removed Sep3,2026. Earlier Aug2025 sale is not treated as a new sale today."
+        },
+        {
+          "url": "https://www.zillow.com/homedetails/303-S-3rd-St-Easton-IL-62633/115700245_zpid/",
+          "finding": "Owner listing removed Oct8,2026. Retain old asking price and all photographs; do not substitute historic sale price."
+        },
+        {
+          "url": "https://www.trulia.com/home/403-e-adams-st-mount-ayr-ia-50854-87061788",
+          "finding": "MLS6340604 indexed as pending since Sep21,2026. Not considered currently available and not called sold without evidence."
+        }
+      ],
+      "scope": "User requested removal of SOLD cards. Closed/sold removed from all UI result modes; unverified/old/pending US records removed from normal results without inventing a sold status.",
+      "next_states": [
+        "DE",
+        "RI",
+        "AK"
+      ],
+      "preservation": "All IDs, first_seen, photos and prior histories retained. Only three explicit indexed availability corrections; no cash-price replacement by historic sale prices. Conflicting Colchester MLS histories not treated as sale evidence; stale lead hidden pending fresh verification. Gary newer active index not marked sold because older sale history exists."
     }
   ],
-  "updated_at": "2026-11-23T00:54:33+00:00"
+  "updated_at": "2026-11-23T01:30:24+00:00"
 }
