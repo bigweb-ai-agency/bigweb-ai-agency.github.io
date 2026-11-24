@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-23T01:30:24+00:00",
+  "updated_at": "2026-11-24T00:47:56+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -1739,8 +1739,7 @@
       "commercial_repair": "unknown",
       "notes": [
         "Текущая открытая карточка Realtor: $15,000. Старый индекс за август показывал $25,000.",
-        "Дом продаётся as-is; пригодность гаража для 7-метрового высокого RV требует замера.",
-        "2026-11-23: MLS6340604 indexed as pending since Sep21,2026. Not considered currently available and not called sold without evidence. https://www.trulia.com/home/403-e-adams-st-mount-ayr-ia-50854-87061788"
+        "Дом продаётся as-is; пригодность гаража для 7-метрового высокого RV требует замера."
       ],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "ia-mount-ayr-adams-6340604",
@@ -17805,8 +17804,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-18T01:16:57Z",
-      "last_verified": "2026-10-18T01:16:57Z",
+      "last_seen": "2026-11-24T00:53:24Z",
+      "last_verified": "2026-11-24T00:53:24Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -17833,7 +17832,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-04-06T22:53:13.000000Z",
+      "source_updated": "2026-11-23T14:09:57.000000Z",
       "source_published": "2026-04-06T04:26:16.000000Z",
       "image_url": "assets/listings/dda1531f8c984f7c30e7.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/illinois/028-acres-for-sale-in-alton-illinois-24395",
@@ -17920,7 +17919,7 @@
       },
       "score": 36,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/11/6aa44e1b48fea-1789152795.jpg",
-      "photo_preserved_at": "2026-10-18T01:12:05+00:00",
+      "photo_preserved_at": "2026-11-24T00:47:56+00:00",
       "photo_history": [
         {
           "path": "assets/listings/dda1531f8c984f7c30e7.jpg",
@@ -90992,8 +90991,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-17T01:10:26+00:00",
-      "last_seen": "2026-09-27T01:23:05Z",
-      "last_verified": "2026-09-27T01:23:05Z",
+      "last_seen": "2026-11-24T00:52:15Z",
+      "last_verified": "2026-11-24T00:52:15Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -91010,9 +91009,9 @@
       "county": "Saginaw",
       "zip": "48601",
       "kind": "land",
-      "price": 7999.0,
+      "price": 6999.0,
       "known_fees": 100.0,
-      "total_known": 8099.0,
+      "total_known": 7099.0,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 0.28,
       "lat": 43.4019,
@@ -91020,9 +91019,9 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-09-17T00:04:59.000000Z",
+      "source_updated": "2026-11-23T22:31:03.000000Z",
       "source_published": "2026-09-16T23:56:42.000000Z",
-      "image_url": "assets/listings/4cf3293f342ddfef0e9d.jpg",
+      "image_url": "assets/listings/2831be550d6ca3652bd8.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/michigan/028-acres-for-sale-in-saginaw-michigan-26270",
       "image_credit": "Seller / LandCentury",
       "parcel": "12 0652 00000",
@@ -91053,17 +91052,29 @@
           "date": "2026-09-17T01:10:26+00:00",
           "price": 7999.0,
           "source": "https://www.landcentury.com/land-for-sale/michigan/028-acres-for-sale-in-saginaw-michigan-26270"
+        },
+        {
+          "date": "2026-11-24T00:47:56+00:00",
+          "price": 6999.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/michigan/028-acres-for-sale-in-saginaw-michigan-26270"
         }
       ],
       "status_history": [],
-      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/17/6aab2dab442c5-1789603243.jpg",
-      "photo_preserved_at": "2026-09-27T01:18:11+00:00",
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/23/6b04bec5ac26c-1795473093.jpg",
+      "photo_preserved_at": "2026-11-24T00:47:56+00:00",
       "photo_history": [
         {
           "path": "assets/listings/4cf3293f342ddfef0e9d.jpg",
           "source": "https://www.landcentury.com/land-for-sale/michigan/028-acres-for-sale-in-saginaw-michigan-26270",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/17/6aab2dab442c5-1789603243.jpg",
           "date": "2026-09-17T01:10:26+00:00"
+        },
+        {
+          "path": "assets/listings/2831be550d6ca3652bd8.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/michigan/028-acres-for-sale-in-saginaw-michigan-26270",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/23/6b04bec5ac26c-1795473093.jpg",
+          "date": "2026-11-24T00:47:56+00:00"
         }
       ],
       "region": "Средний Запад",
@@ -91103,18 +91114,19 @@
       ],
       "msp_straight_km": 758,
       "score_parts": {
-        "Цена /25": 17,
+        "Цена /25": 18,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 2,
         "Сезон /10": 3,
         "Дорога /10": 8
       },
-      "score": 30,
+      "score": 31,
       "legacy": false,
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/michigan/028-acres-for-sale-in-saginaw-michigan-26270"
-      ]
+      ],
+      "previous_price": 7999.0
     },
     {
       "price_currency": "USD",
@@ -109791,8 +109803,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-18T01:12:05+00:00",
-      "last_seen": "2026-10-18T01:14:53Z",
-      "last_verified": "2026-10-18T01:14:53Z",
+      "last_seen": "2026-11-24T00:53:23Z",
+      "last_verified": "2026-11-24T00:53:23Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -109813,13 +109825,13 @@
       "known_fees": 0.0,
       "total_known": 6500.0,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
-      "acres": 1.0,
+      "acres": 1.04,
       "lat": 34.3626111,
       "lng": -109.6002778,
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-17T22:20:08.000000Z",
+      "source_updated": "2026-11-05T03:59:47.000000Z",
       "source_published": "2026-09-29T20:24:57.000000Z",
       "image_url": "assets/listings/e7510d3ea6e790ffe317.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/1-acres-for-sale-in-show-low-arizona-26380",
@@ -109857,7 +109869,7 @@
       ],
       "status_history": [],
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/16/6ad16e05dbc38-1792110085.jpg",
-      "photo_preserved_at": "2026-10-18T01:12:05+00:00",
+      "photo_preserved_at": "2026-11-24T00:47:56+00:00",
       "photo_history": [
         {
           "path": "assets/listings/e7510d3ea6e790ffe317.jpg",
@@ -109910,7 +109922,11 @@
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 31
+      "score": 31,
+      "legacy": false,
+      "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/arizona/1-acres-for-sale-in-show-low-arizona-26380"
+      ]
     },
     {
       "price_currency": "USD",
@@ -148482,6 +148498,258 @@
         "Дорога /10": 1
       },
       "score": 33
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-24T00:47:56+00:00",
+      "last_seen": "2026-11-24T00:50:34Z",
+      "last_verified": "2026-11-24T00:50:34Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27255",
+      "source_id": "27255",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/arizona/1-27-acres-for-sale-in-snowflake-arizona-27255",
+      "title": "5357 Wickberg Road",
+      "address": "5357 Wickberg Road",
+      "city": "Snowflake",
+      "state": "AZ",
+      "county": "Navajo",
+      "zip": "85937",
+      "kind": "land",
+      "price": 10285.0,
+      "known_fees": 249.0,
+      "total_known": 10534.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 1.27,
+      "lat": 34.6272853,
+      "lng": -110.0505207,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-23T18:32:26.000000Z",
+      "source_published": "2026-11-23T18:23:01.000000Z",
+      "image_url": "assets/listings/5861c1d7494e7ba076ea.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/1-27-acres-for-sale-in-snowflake-arizona-27255",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "303-12-024",
+      "zoning": "Rural",
+      "road_note": "Dirt Road",
+      "utility_note": "Electricity available, septic and well required",
+      "taxes_note": "9.42/year",
+      "source_categories": [
+        "residential-buildable-land",
+        "agricultural-and-farm-land",
+        "owner-finance-deals",
+        "mobile-home-and-rv-land",
+        "waterfront-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "seller_claim",
+      "rv_occupancy": "seller_conditional",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "available",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "flags": [],
+      "evidence_quote": "With exceptional flexibility permitting RVs, mobile homes, tiny homes, or traditional construction with just 200 square foot minimum, livestock welcome, level terrain,",
+      "price_history": [
+        {
+          "date": "2026-11-24T00:47:56+00:00",
+          "price": 10285.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-27-acres-for-sale-in-snowflake-arizona-27255"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/23/6b0486030822d-1795458563.jpg",
+      "photo_preserved_at": "2026-11-24T00:47:56+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/5861c1d7494e7ba076ea.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-27-acres-for-sale-in-snowflake-arizona-27255",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/23/6b0486030822d-1795458563.jpg",
+          "date": "2026-11-24T00:47:56+00:00"
+        }
+      ],
+      "region": "Юго-запад",
+      "screening_issue": null,
+      "climate_note": "Много дешёвой земли. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "PHX",
+          "name": "Phoenix Sky Harbor International Airport",
+          "straight_km": 224,
+          "drive_km_estimate": 280,
+          "drive_hours_estimate": 3.7,
+          "flight_min_eur": 753,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 490,
+          "drive_km_estimate": 613,
+          "drive_hours_estimate": 8.2,
+          "flight_min_eur": 753,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "SAN",
+          "name": "San Diego International Airport",
+          "straight_km": 693,
+          "drive_km_estimate": 866,
+          "drive_hours_estimate": 11.6,
+          "flight_min_eur": null,
+          "flight_origin": null,
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1829,
+      "score_parts": {
+        "Цена /25": 12,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 1,
+        "Сезон /10": 6,
+        "Дорога /10": 6
+      },
+      "score": 25
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-24T00:47:56+00:00",
+      "last_seen": "2026-11-24T00:50:36Z",
+      "last_verified": "2026-11-24T00:50:36Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27254",
+      "source_id": "27254",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/arizona/1-07-acres-for-sale-in-concho-arizona-27254",
+      "title": "Buckskin Dr",
+      "address": "Buckskin Dr",
+      "city": "Concho",
+      "state": "AZ",
+      "county": "Apache",
+      "zip": "85924",
+      "kind": "land",
+      "price": 7000.0,
+      "known_fees": 0.0,
+      "total_known": 7000.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 1.07,
+      "lat": 34.422608,
+      "lng": -109.576244,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-23T17:50:32.000000Z",
+      "source_published": "2026-11-23T17:39:16.000000Z",
+      "image_url": "assets/listings/fd9d45e929e4b347759a.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/1-07-acres-for-sale-in-concho-arizona-27254",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "201-40-081B",
+      "zoning": "Agricultural (A-G)",
+      "road_note": "Dirt Road",
+      "utility_note": "No utilities",
+      "taxes_note": "14",
+      "source_categories": [
+        "residential-buildable-land",
+        "agricultural-and-farm-land",
+        "owner-finance-deals"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "none",
+      "water": "none",
+      "sewer": "none",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "flags": [
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
+      "evidence_quote": null,
+      "price_history": [
+        {
+          "date": "2026-11-24T00:47:56+00:00",
+          "price": 7000.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-07-acres-for-sale-in-concho-arizona-27254"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/23/6b047add4795d-1795455709.jpg",
+      "photo_preserved_at": "2026-11-24T00:47:56+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/fd9d45e929e4b347759a.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-07-acres-for-sale-in-concho-arizona-27254",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/23/6b047add4795d-1795455709.jpg",
+          "date": "2026-11-24T00:47:56+00:00"
+        }
+      ],
+      "region": "Юго-запад",
+      "screening_issue": null,
+      "climate_note": "Много дешёвой земли. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "PHX",
+          "name": "Phoenix Sky Harbor International Airport",
+          "straight_km": 250,
+          "drive_km_estimate": 312,
+          "drive_hours_estimate": 4.2,
+          "flight_min_eur": 753,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 539,
+          "drive_km_estimate": 674,
+          "drive_hours_estimate": 9.0,
+          "flight_min_eur": 753,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "SAN",
+          "name": "San Diego International Airport",
+          "straight_km": 730,
+          "drive_km_estimate": 912,
+          "drive_hours_estimate": 12.2,
+          "flight_min_eur": null,
+          "flight_origin": null,
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1814,
+      "score_parts": {
+        "Цена /25": 18,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 6,
+        "Дорога /10": 6
+      },
+      "score": 30
     }
   ]
 }
