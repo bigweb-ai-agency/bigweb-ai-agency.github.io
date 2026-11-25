@@ -102,8 +102,8 @@
           "straight_km": 157,
           "drive_km_estimate": 196,
           "drive_hours_estimate": 2.6,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -254,8 +254,8 @@
           "straight_km": 156,
           "drive_km_estimate": 195,
           "drive_hours_estimate": 2.6,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -408,8 +408,8 @@
           "straight_km": 206,
           "drive_km_estimate": 258,
           "drive_hours_estimate": 3.4,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -882,8 +882,8 @@
           "straight_km": 175,
           "drive_km_estimate": 219,
           "drive_hours_estimate": 2.9,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -1037,8 +1037,8 @@
           "straight_km": 133,
           "drive_km_estimate": 166,
           "drive_hours_estimate": 2.2,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -1191,8 +1191,8 @@
           "straight_km": 154,
           "drive_km_estimate": 193,
           "drive_hours_estimate": 2.6,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -1373,8 +1373,8 @@
           "straight_km": 126,
           "drive_km_estimate": 157,
           "drive_hours_estimate": 2.1,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -1522,8 +1522,8 @@
           "straight_km": 101,
           "drive_km_estimate": 126,
           "drive_hours_estimate": 1.7,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -1674,8 +1674,8 @@
           "straight_km": 335,
           "drive_km_estimate": 419,
           "drive_hours_estimate": 5.6,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -1836,8 +1836,8 @@
           "straight_km": 470,
           "drive_km_estimate": 588,
           "drive_hours_estimate": 7.8,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -1999,8 +1999,8 @@
           "straight_km": 275,
           "drive_km_estimate": 343,
           "drive_hours_estimate": 4.6,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -2154,8 +2154,8 @@
           "straight_km": 338,
           "drive_km_estimate": 422,
           "drive_hours_estimate": 5.6,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -2309,8 +2309,8 @@
           "straight_km": 336,
           "drive_km_estimate": 419,
           "drive_hours_estimate": 5.6,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -2981,8 +2981,8 @@
           "straight_km": 246,
           "drive_km_estimate": 307,
           "drive_hours_estimate": 4.1,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -19369,8 +19369,8 @@
           "straight_km": 435,
           "drive_km_estimate": 543,
           "drive_hours_estimate": 7.2,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -19613,8 +19613,8 @@
           "straight_km": 677,
           "drive_km_estimate": 846,
           "drive_hours_estimate": 11.3,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -20137,8 +20137,8 @@
           "straight_km": 676,
           "drive_km_estimate": 845,
           "drive_hours_estimate": 11.3,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -20264,8 +20264,8 @@
           "straight_km": 646,
           "drive_km_estimate": 808,
           "drive_hours_estimate": 10.8,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -20626,8 +20626,8 @@
           "straight_km": 243,
           "drive_km_estimate": 304,
           "drive_hours_estimate": 4.0,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -20756,8 +20756,8 @@
           "straight_km": 191,
           "drive_km_estimate": 239,
           "drive_hours_estimate": 3.2,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -36830,8 +36830,8 @@
           "straight_km": 214,
           "drive_km_estimate": 267,
           "drive_hours_estimate": 3.6,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -36962,8 +36962,8 @@
           "straight_km": 680,
           "drive_km_estimate": 850,
           "drive_hours_estimate": 11.3,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -37338,8 +37338,8 @@
           "straight_km": 764,
           "drive_km_estimate": 955,
           "drive_hours_estimate": 12.7,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -37460,8 +37460,8 @@
           "straight_km": 764,
           "drive_km_estimate": 956,
           "drive_hours_estimate": 12.7,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -37582,8 +37582,8 @@
           "straight_km": 764,
           "drive_km_estimate": 955,
           "drive_hours_estimate": 12.7,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -37704,8 +37704,8 @@
           "straight_km": 651,
           "drive_km_estimate": 813,
           "drive_hours_estimate": 10.8,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -37826,8 +37826,8 @@
           "straight_km": 1083,
           "drive_km_estimate": 1354,
           "drive_hours_estimate": 18.1,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -39781,8 +39781,8 @@
           "straight_km": 478,
           "drive_km_estimate": 597,
           "drive_hours_estimate": 8.0,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -40401,8 +40401,8 @@
           "straight_km": 277,
           "drive_km_estimate": 346,
           "drive_hours_estimate": 4.6,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -40543,8 +40543,8 @@
           "straight_km": 447,
           "drive_km_estimate": 558,
           "drive_hours_estimate": 7.4,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -40647,8 +40647,8 @@
           "straight_km": 405,
           "drive_km_estimate": 506,
           "drive_hours_estimate": 6.7,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -40779,8 +40779,8 @@
           "straight_km": 448,
           "drive_km_estimate": 559,
           "drive_hours_estimate": 7.5,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -47758,8 +47758,8 @@
           "straight_km": 677,
           "drive_km_estimate": 846,
           "drive_hours_estimate": 11.3,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -47882,8 +47882,8 @@
           "straight_km": 687,
           "drive_km_estimate": 859,
           "drive_hours_estimate": 11.4,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -48004,8 +48004,8 @@
           "straight_km": 762,
           "drive_km_estimate": 953,
           "drive_hours_estimate": 12.7,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -48374,8 +48374,8 @@
           "straight_km": 700,
           "drive_km_estimate": 875,
           "drive_hours_estimate": 11.7,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -48496,8 +48496,8 @@
           "straight_km": 623,
           "drive_km_estimate": 779,
           "drive_hours_estimate": 10.4,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -48618,8 +48618,8 @@
           "straight_km": 633,
           "drive_km_estimate": 791,
           "drive_hours_estimate": 10.6,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -48865,8 +48865,8 @@
           "straight_km": 667,
           "drive_km_estimate": 833,
           "drive_hours_estimate": 11.1,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -48967,8 +48967,8 @@
           "straight_km": 157,
           "drive_km_estimate": 197,
           "drive_hours_estimate": 2.6,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -49091,8 +49091,8 @@
           "straight_km": 156,
           "drive_km_estimate": 196,
           "drive_hours_estimate": 2.6,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -49213,8 +49213,8 @@
           "straight_km": 282,
           "drive_km_estimate": 352,
           "drive_hours_estimate": 4.7,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -49581,8 +49581,8 @@
           "straight_km": 137,
           "drive_km_estimate": 171,
           "drive_hours_estimate": 2.3,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -49706,8 +49706,8 @@
           "straight_km": 334,
           "drive_km_estimate": 417,
           "drive_hours_estimate": 5.6,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -49828,8 +49828,8 @@
           "straight_km": 126,
           "drive_km_estimate": 157,
           "drive_hours_estimate": 2.1,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -49950,8 +49950,8 @@
           "straight_km": 126,
           "drive_km_estimate": 157,
           "drive_hours_estimate": 2.1,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -50072,8 +50072,8 @@
           "straight_km": 192,
           "drive_km_estimate": 240,
           "drive_hours_estimate": 3.2,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -55927,8 +55927,8 @@
           "straight_km": 719,
           "drive_km_estimate": 899,
           "drive_hours_estimate": 12.0,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -56049,8 +56049,8 @@
           "straight_km": 735,
           "drive_km_estimate": 918,
           "drive_hours_estimate": 12.2,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -56171,8 +56171,8 @@
           "straight_km": 551,
           "drive_km_estimate": 688,
           "drive_hours_estimate": 9.2,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -56301,8 +56301,8 @@
           "straight_km": 745,
           "drive_km_estimate": 931,
           "drive_hours_estimate": 12.4,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -58518,8 +58518,8 @@
           "straight_km": 617,
           "drive_km_estimate": 771,
           "drive_hours_estimate": 10.3,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -58633,8 +58633,8 @@
           "straight_km": 326,
           "drive_km_estimate": 407,
           "drive_hours_estimate": 5.4,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -58772,8 +58772,8 @@
           "straight_km": 456,
           "drive_km_estimate": 570,
           "drive_hours_estimate": 7.6,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -58896,8 +58896,8 @@
           "straight_km": 456,
           "drive_km_estimate": 570,
           "drive_hours_estimate": 7.6,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -59020,8 +59020,8 @@
           "straight_km": 456,
           "drive_km_estimate": 570,
           "drive_hours_estimate": 7.6,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -59144,8 +59144,8 @@
           "straight_km": 457,
           "drive_km_estimate": 571,
           "drive_hours_estimate": 7.6,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -59268,8 +59268,8 @@
           "straight_km": 457,
           "drive_km_estimate": 571,
           "drive_hours_estimate": 7.6,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -59390,8 +59390,8 @@
           "straight_km": 457,
           "drive_km_estimate": 571,
           "drive_hours_estimate": 7.6,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -59512,8 +59512,8 @@
           "straight_km": 457,
           "drive_km_estimate": 571,
           "drive_hours_estimate": 7.6,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -64880,8 +64880,8 @@
           "straight_km": 279,
           "drive_km_estimate": 348,
           "drive_hours_estimate": 4.6,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -65004,8 +65004,8 @@
           "straight_km": 281,
           "drive_km_estimate": 351,
           "drive_hours_estimate": 4.7,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -65118,8 +65118,8 @@
           "straight_km": 290,
           "drive_km_estimate": 363,
           "drive_hours_estimate": 4.8,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -65240,8 +65240,8 @@
           "straight_km": 142,
           "drive_km_estimate": 177,
           "drive_hours_estimate": 2.4,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -65362,8 +65362,8 @@
           "straight_km": 143,
           "drive_km_estimate": 179,
           "drive_hours_estimate": 2.4,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -65484,8 +65484,8 @@
           "straight_km": 144,
           "drive_km_estimate": 180,
           "drive_hours_estimate": 2.4,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -65608,8 +65608,8 @@
           "straight_km": 254,
           "drive_km_estimate": 318,
           "drive_hours_estimate": 4.2,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -65732,8 +65732,8 @@
           "straight_km": 141,
           "drive_km_estimate": 176,
           "drive_hours_estimate": 2.4,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -65864,8 +65864,8 @@
           "straight_km": 280,
           "drive_km_estimate": 350,
           "drive_hours_estimate": 4.7,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -65986,8 +65986,8 @@
           "straight_km": 280,
           "drive_km_estimate": 350,
           "drive_hours_estimate": 4.7,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -66223,8 +66223,8 @@
           "straight_km": 245,
           "drive_km_estimate": 307,
           "drive_hours_estimate": 4.1,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -66355,8 +66355,8 @@
           "straight_km": 430,
           "drive_km_estimate": 537,
           "drive_hours_estimate": 7.2,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -66467,8 +66467,8 @@
           "straight_km": 271,
           "drive_km_estimate": 339,
           "drive_hours_estimate": 4.5,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -74160,8 +74160,8 @@
           "straight_km": 938,
           "drive_km_estimate": 1172,
           "drive_hours_estimate": 15.6,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -74366,8 +74366,8 @@
           "straight_km": 491,
           "drive_km_estimate": 614,
           "drive_hours_estimate": 8.2,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -74488,8 +74488,8 @@
           "straight_km": 489,
           "drive_km_estimate": 611,
           "drive_hours_estimate": 8.1,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -74610,8 +74610,8 @@
           "straight_km": 489,
           "drive_km_estimate": 611,
           "drive_hours_estimate": 8.1,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -74732,8 +74732,8 @@
           "straight_km": 489,
           "drive_km_estimate": 611,
           "drive_hours_estimate": 8.1,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -74854,8 +74854,8 @@
           "straight_km": 489,
           "drive_km_estimate": 611,
           "drive_hours_estimate": 8.1,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -74976,8 +74976,8 @@
           "straight_km": 489,
           "drive_km_estimate": 611,
           "drive_hours_estimate": 8.1,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -75098,8 +75098,8 @@
           "straight_km": 489,
           "drive_km_estimate": 611,
           "drive_hours_estimate": 8.1,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -75220,8 +75220,8 @@
           "straight_km": 489,
           "drive_km_estimate": 611,
           "drive_hours_estimate": 8.1,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -75352,8 +75352,8 @@
           "straight_km": 531,
           "drive_km_estimate": 663,
           "drive_hours_estimate": 8.8,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -75474,8 +75474,8 @@
           "straight_km": 607,
           "drive_km_estimate": 759,
           "drive_hours_estimate": 10.1,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -75598,8 +75598,8 @@
           "straight_km": 672,
           "drive_km_estimate": 840,
           "drive_hours_estimate": 11.2,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -81027,8 +81027,8 @@
           "straight_km": 273,
           "drive_km_estimate": 341,
           "drive_hours_estimate": 4.6,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -81149,8 +81149,8 @@
           "straight_km": 273,
           "drive_km_estimate": 341,
           "drive_hours_estimate": 4.5,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -81291,8 +81291,8 @@
           "straight_km": 474,
           "drive_km_estimate": 593,
           "drive_hours_estimate": 7.9,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -81413,8 +81413,8 @@
           "straight_km": 474,
           "drive_km_estimate": 593,
           "drive_hours_estimate": 7.9,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -81535,8 +81535,8 @@
           "straight_km": 474,
           "drive_km_estimate": 593,
           "drive_hours_estimate": 7.9,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -81647,8 +81647,8 @@
           "straight_km": 449,
           "drive_km_estimate": 561,
           "drive_hours_estimate": 7.5,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -81779,8 +81779,8 @@
           "straight_km": 474,
           "drive_km_estimate": 593,
           "drive_hours_estimate": 7.9,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -81901,8 +81901,8 @@
           "straight_km": 474,
           "drive_km_estimate": 593,
           "drive_hours_estimate": 7.9,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -82023,8 +82023,8 @@
           "straight_km": 474,
           "drive_km_estimate": 593,
           "drive_hours_estimate": 7.9,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -82621,8 +82621,8 @@
           "straight_km": 466,
           "drive_km_estimate": 582,
           "drive_hours_estimate": 7.8,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -82743,8 +82743,8 @@
           "straight_km": 466,
           "drive_km_estimate": 582,
           "drive_hours_estimate": 7.8,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -89897,8 +89897,8 @@
           "straight_km": 294,
           "drive_km_estimate": 367,
           "drive_hours_estimate": 4.9,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -92184,8 +92184,8 @@
           "straight_km": 533,
           "drive_km_estimate": 667,
           "drive_hours_estimate": 8.9,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -92853,8 +92853,8 @@
           "straight_km": 745,
           "drive_km_estimate": 932,
           "drive_hours_estimate": 12.4,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -111426,8 +111426,8 @@
           "straight_km": 516,
           "drive_km_estimate": 645,
           "drive_hours_estimate": 8.6,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -111552,8 +111552,8 @@
           "straight_km": 473,
           "drive_km_estimate": 591,
           "drive_hours_estimate": 7.9,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -111679,8 +111679,8 @@
           "straight_km": 794,
           "drive_km_estimate": 993,
           "drive_hours_estimate": 13.2,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -112587,8 +112587,8 @@
           "straight_km": 653,
           "drive_km_estimate": 816,
           "drive_hours_estimate": 10.9,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -114344,8 +114344,8 @@
           "straight_km": 835,
           "drive_km_estimate": 1044,
           "drive_hours_estimate": 13.9,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -136215,8 +136215,8 @@
           "straight_km": 558,
           "drive_km_estimate": 698,
           "drive_hours_estimate": 9.3,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -136651,8 +136651,8 @@
           "straight_km": 515,
           "drive_km_estimate": 644,
           "drive_hours_estimate": 8.6,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {
@@ -139031,8 +139031,8 @@
           "straight_km": 920,
           "drive_km_estimate": 1150,
           "drive_hours_estimate": 15.3,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         }
       ],
@@ -140190,8 +140190,8 @@
           "straight_km": 515,
           "drive_km_estimate": 644,
           "drive_hours_estimate": 8.6,
-          "flight_min_eur": null,
-          "flight_origin": null,
+          "flight_min_eur": 1096,
+          "flight_origin": "VNO",
           "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
         },
         {

@@ -7548,7 +7548,13 @@
       ],
       "rotation_reason": "After the MN/WI/OH priority pass and IL/IN/PA live rechecks, rotate to three states with fewer than ten photo candidates. Continue rotating manual Midwest/PA rechecks separately; no missed listing dates are silently refreshed.",
       "preservation": "Original1138 national records, IDs, all historical photos, first_seen and histories unchanged. Manual22 old IDs preserved, one explicitoffmarket, threeunchanged livechecks, PAoneunchangedcheck, one new originalWebP. RVvehicle and Sicily data/code unchanged. Old875 flight observations/46historicalchecks and5currentchecks preserved;6 new cards appended to control display and4 new structured fare observations; original875 observations unchanged.",
-      "source_access": "No CAPTCHA/403/robots bypass, account switching, seller messages, group joins, purchases, bookings or infrastructure changes."
+      "source_access": "No CAPTCHA/403/robots bypass, account switching, seller messages, group joins, purchases, bookings or infrastructure changes.",
+      "analysis_refresh": {
+        "state_count": 50,
+        "states_with_10_photo_candidates": 39,
+        "derived_gateway_records_updated": 108,
+        "scope": "Only derived gateway airfare fields changed in national listings after adding the fresh MSP fare. All1138 IDs, first_seen, property facts and prior price/status/photo histories unchanged; no RV or Sicily files changed."
+      }
     }
   ],
   "updated_at": "2026-11-23T03:15:37+00:00"
