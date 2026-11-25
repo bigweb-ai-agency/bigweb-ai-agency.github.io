@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T00:47:56+00:00",
+  "updated_at": "2026-11-25T00:51:21+00:00",
   "states": [
     {
       "code": "AL",
@@ -53,8 +53,8 @@
         "PHX"
       ],
       "analysis": "Много дешёвой земли. Пустынная жара, отсутствие воды и электричества; север штата холодный. Ремонт в Mohave требует отдельной проверки правил.",
-      "total": 144,
-      "photo_candidates": 131,
+      "total": 145,
+      "photo_candidates": 132,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -178,8 +178,8 @@
         "MCO"
       ],
       "analysis": "Дешёвый перелёт и мягкая зима. Многие лоты без подъезда/коммуникаций, wetland, HOA или ураганный риск; летняя работа жаркая.",
-      "total": 65,
-      "photo_candidates": 56,
+      "total": 66,
+      "photo_candidates": 57,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -575,8 +575,8 @@
         "SFO"
       ],
       "analysis": "Много удалённых лотов. Север штата холодный, юг жаркий; юридическая дорога и питание часто дороже самого участка.",
-      "total": 55,
-      "photo_candidates": 53,
+      "total": 56,
+      "photo_candidates": 54,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -722,8 +722,8 @@
         "ORD"
       ],
       "analysis": "Искать отдельный гараж или дом с ним. Городские land-bank условия, снос и ремонт дома могут сделать дешёвую покупку дорогой.",
-      "total": 10,
-      "photo_candidates": 10,
+      "total": 11,
+      "photo_candidates": 11,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
@@ -764,8 +764,8 @@
         "SFO"
       ],
       "analysis": "Дешёвая земля часто в Klamath/Lake County, а не в мягком прибрежном климате. Холод, огонь и автономные коммуникации.",
-      "total": 30,
-      "photo_candidates": 29,
+      "total": 33,
+      "photo_candidates": 32,
       "shortfall": 0,
       "coverage": "10+ кандидатов",
       "sources": [
