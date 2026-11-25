@@ -7428,6 +7428,127 @@
       "rotation_reason": "Return to current regional priority next, retaining periodic nationwide low-count rotation; manual shortlists are separate from national3-15k collector.",
       "preservation": "No listing facts, first_seen, IDs, status/price/photo histories, photographs, flights or interfaces changed. Existing22 Midwest and2 PA records retained. A separate local worktree isolates this journal/runbook update from active RV-vehicle work.",
       "automation_scope": "Updated existing rv-land heartbeat prompt via supported automation tool with owner23Nov criteria; unchanged daily schedule, ACTIVE state and target chat. Explicitly kept vehicle purchases in the separate new chat."
+    },
+    {
+      "date": "2026-11-25T03:20:21+00:00",
+      "type": "scheduled_public_research",
+      "states": [
+        "MN",
+        "WI",
+        "OH",
+        "IL",
+        "IN",
+        "PA"
+      ],
+      "added_ids": [
+        "in-gary-848616"
+      ],
+      "updated_ids": [
+        "in-gary-846430",
+        "in-gary-836105",
+        "il-streator-12806426",
+        "il-woodhaven-12143914",
+        "pa-newcastle-ray-1783220"
+      ],
+      "scope": "Property only; manual150km Minnetonka/MSP/ORD and national rotation. New12k house retained broadly despite full-rehab requirement; not promoted as a ready RV base. Separate RV-vehicle section untouched.",
+      "workflow_review": {
+        "run_id": 45521271749,
+        "conclusion": "success",
+        "last_run": "2026-11-25T00:51:21+00:00",
+        "collector_status": "partial",
+        "added": 7,
+        "changed": 0,
+        "pages": 62,
+        "errors": 58,
+        "scanned_pages": 114,
+        "published_head": "7d27cf873d73754a611f2ffaf930dec62b486ff0",
+        "pages_run_id": 45521990536,
+        "note": "Latest actual schedule completed/published successfully;57/58 source errors persisted across recent days, many404s. Access failures preserve prior sale facts. No fallback collection needed while actual collector operates."
+      },
+      "findings": [
+        {
+          "url": "https://www.coldwellbankerhomes.com/in/gary/3949-monroe-st/pid_74857827/",
+          "basis": "live_public_page",
+          "finding": "MLS848616 Active12000 cash asking price;0.072ac; full rehabilitation and no heat, parking None. Original listing WebP retained; photograph shows overgrowth and porch damage. No garage/readyRVpad claimed. Exact parcel coordinates null with explicit Gary city locator. Listing tax389 conflicts with portal2024 tax history3094; current tax/debts unknown."
+        },
+        {
+          "url": "https://www.coldwellbanker.com/in/gary/2694-polk-st/lid-P00800000HIRI3xQEhb6SxZXfdAUY7AXCL7nLvk5",
+          "basis": "live_public_page",
+          "finding": "Broker recent-view listing explicitly Inactive and detail unavailable. Redfin nowOFF MARKET under olderMLS258940. Record846430 hidden as off_market, with all prior facts/history/photo preserved.2010 sale is not called a new2026 sale and asking4000 retained.",
+          "corroborating_url": "https://www.redfin.com/IN/Gary/2694-Polk-St-46407/home/133059858"
+        },
+        {
+          "url": "https://www.redfin.com/IN/Gary/3842-Maryland-St-46409/home/132820219",
+          "basis": "live_public_page",
+          "finding": "Still For sale15000; one-car garage claim, highRVfit and personal-repair permission unchangedunknown."
+        },
+        {
+          "url": "https://www.redfin.com/IL/Streator/507-Lundy-St-61364/home/44614607",
+          "basis": "live_public_page",
+          "finding": "Still For sale19900; two-car garage claimed; phrase soldAs-Is is not closed status."
+        },
+        {
+          "url": "https://www.coldwellbanker.com/il/sublette/28-122-woodhaven-lakes/lid-P00800000GeIaNFRPTwDrVwOZo5pzGkt9iriZ0Ya",
+          "basis": "live_public_page",
+          "finding": "Still Active19000; source updated24Nov; existinggravelpad/drive,shed,30A seller claims retained. Annualdues and repair unknowns preserved."
+        },
+        {
+          "url": "https://www.stessa.com/investment-properties/607-s-ray-st-new-castle-pa-16101/details/2uptdXdTbTyi",
+          "basis": "live_public_page",
+          "finding": "Manual PA row stillActive20000, MLS1783220; detached3-car garage claim. Last source update12Nov separate from25Novlive observation; no dimensions inferred."
+        },
+        {
+          "url": "https://www.oxfordrealtyfm.com/property-search/detail/210/7068349/221-2nd-ave-calumet-mn-55716/?src=2",
+          "basis": "indexed_public_page",
+          "finding": "24x24 garage Calumet sold8Sep2026 for19500; stale Redfin/Compass20k/22k active snapshots do not make it available. Not imported."
+        },
+        {
+          "url": "https://www.homes.com/property/0-e-3rd-st-clintonville-wi/ffwcygmtvyje4/",
+          "basis": "indexed_public_page",
+          "finding": "30x50 shed15000 shownUNDER CONTRACT in older detail; explicitly landlocked/easement required. Not a new available or readyaccessible candidate."
+        },
+        {
+          "url": "https://www.coldwellbanker.com/oh/cleveland/13710-mann-ave/lid-P00800000HGFxhtnC5KyJ78wAGIZKu7ccVYJ32Rk",
+          "basis": "live_public_page",
+          "finding": "MLS5239470 Active14900 cash as-is house; source updated24Nov. No genuine listing image observed on this live page, so not imported without photo; garage/ready surface unknown. Deferred lead, not proof no Ohio supply."
+        },
+        {
+          "url": "https://www.exprealty.com/toledo-oh-real-estate/719-forsythe-st",
+          "basis": "indexed_public_page",
+          "finding": "MLS10015936 advertised15000 full-rehab house, highest cash offer language and no demonstrated garage. Totalacceptedprice/physicalreadyRVarea need clarification; not added as confirmedready base."
+        }
+      ],
+      "flight_review": {
+        "date": "2026-11-25",
+        "status": "updated_six_selected_itinerary_checks",
+        "destinations": [
+          "ORD",
+          "MSP"
+        ],
+        "origins": [
+          "VNO",
+          "LHR",
+          "FRA"
+        ],
+        "party": "1adult economy",
+        "transatlantic_dates": [
+          "2027-03-10",
+          "2027-03-24"
+        ],
+        "positioning_dates": [
+          "2027-03-09",
+          "2027-03-26"
+        ],
+        "finding": "Six new control cards in flights.json; actual LOT640.05return bothStandard includescabin8kg/checked23kg selected at provider. London697,Frankfurt750/Comfort900,VNO-MSP1096/Delta1250 remainGooglequotes with explicit seller/baggage gaps. PositioningGoogle245LHR/204FRA separately plusunknownchecked/hotels/groundtransport.875 prior observations and all previous cards unchanged; table is dated historical minima, not a fully refreshedallgateway matrix. No bookings."
+      },
+      "next_states": [
+        "ID",
+        "MT",
+        "NH"
+      ],
+      "rotation_reason": "Resume low-count states after regional MN/WI/OH and manualIL/IN/PA rechecks; continue rotating manualshortlists independently. National collector scansall50.",
+      "preservation": "Original1138 national records, IDs, all historical photos, first_seen and histories unchanged. Manual22 old IDs preserved, one explicitoffmarket, threeunchanged livechecks, PAoneunchangedcheck, one new originalWebP. RVvehicle and Sicily data/code unchanged. Old875 flight observations/46historicalchecks and5currentchecks preserved;6newcards appended to control display.",
+      "source_access": "No CAPTCHA/403/robots bypass, account switching, seller messages, group joins, purchases, bookings or infrastructure changes."
     }
   ],
   "updated_at": "2026-11-23T03:15:37+00:00"

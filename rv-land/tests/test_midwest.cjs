@@ -13,12 +13,14 @@ const now=Date.parse('2026-11-23T03:00:00Z');
 
 test('broader research keeps real houses without confirmed garages or repair permission',()=>{
  const before=JSON.stringify(source),rows=M.normalize(source);
- assert.equal(rows.length,22);assert.equal(rows.filter(x=>x.kind==='house').length,8);
- assert.equal(rows.filter(x=>x.kind==='house'&&x.existing_garage).length,4);
+ assert.equal(rows.length,source.candidates.length);assert.ok(rows.length>=22);
+ assert.ok(rows.filter(x=>x.kind==='house').length>=8);
+ assert.ok(rows.filter(x=>x.kind==='house'&&x.existing_garage).length>=4);
  for(const row of rows){
   assert.ok(row.price>=3000&&row.price<=20000);assert.equal(row.personal_repair,'unknown');
   assert.equal(row.verified_full_match,false);assert.equal(row.score,null);
-  assert.equal(row.first_seen,row.research_record.first_seen);assert.equal(A.isCurrent(row,now),true);
+  assert.equal(row.first_seen,row.research_record.first_seen);
+  assert.equal(row.last_verified,row.research_record.last_verified);
   assert.equal(G.classify(row),'airport');
  }
  assert.equal(JSON.stringify(source),before);

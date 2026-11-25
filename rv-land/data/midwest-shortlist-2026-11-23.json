@@ -707,8 +707,8 @@
       "price_basis": "advertised_cash_asking_price",
       "status": "active",
       "status_basis": "live_public_page",
-      "last_verified": "2026-11-23T02:36:07+00:00",
-      "checked_at": "2026-11-23T02:36:07+00:00",
+      "last_verified": "2026-11-25T03:17:14+00:00",
+      "checked_at": "2026-11-25T03:17:14+00:00",
       "first_seen": "2026-11-23T02:36:07+00:00",
       "state": "IL",
       "city": "Sublette / Woodhaven",
@@ -749,6 +749,14 @@
           "date": "2026-11-23T02:36:07+00:00",
           "method": "Connected Chrome rendered public listing page",
           "url": "https://www.coldwellbanker.com/il/sublette/28-122-woodhaven-lakes/lid-P00800000GeIaNFRPTwDrVwOZo5pzGkt9iriZ0Ya"
+        },
+        {
+          "date": "2026-11-25T03:17:14+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.coldwellbanker.com/il/sublette/28-122-woodhaven-lakes/lid-P00800000GeIaNFRPTwDrVwOZo5pzGkt9iriZ0Ya",
+          "status": "active",
+          "price": 19000,
+          "note": "Active; MLS12143914; source last updated24Nov2026; gravel drive/pad, shed and30A pedestal remain seller claims."
         }
       ],
       "photo_history": [
@@ -1587,10 +1595,10 @@
       "price": 4000,
       "currency": "USD",
       "price_basis": "advertised_cash_asking_price",
-      "status": "active",
+      "status": "off_market",
       "status_basis": "live_public_page",
-      "last_verified": "2026-11-23T02:36:07+00:00",
-      "checked_at": "2026-11-23T02:36:07+00:00",
+      "last_verified": "2026-11-25T03:17:14+00:00",
+      "checked_at": "2026-11-25T03:17:14+00:00",
       "first_seen": "2026-11-23T02:36:07+00:00",
       "state": "IN",
       "city": "Gary",
@@ -1624,6 +1632,13 @@
           "date": "2026-11-23T02:36:07+00:00",
           "status": "active",
           "source": "https://www.coldwellbanker.com/in/gary/2694-polk-st/lid-P00800000HIRI3xQEhb6SxZXfdAUY7AXCL7nLvk5"
+        },
+        {
+          "date": "2026-11-25T03:17:14+00:00",
+          "status": "off_market",
+          "source": "https://www.coldwellbanker.com/in/gary/2694-polk-st/lid-P00800000HIRI3xQEhb6SxZXfdAUY7AXCL7nLvk5",
+          "source_status": "Inactive",
+          "note": "Broker recent-view card explicitly Inactive; detail no longer available. Redfin detail now OFF MARKET under older MLS258940, not evidence of a new sale in2026. Asking price retained."
         }
       ],
       "observations": [
@@ -1631,6 +1646,18 @@
           "date": "2026-11-23T02:36:07+00:00",
           "method": "Connected Chrome rendered public listing page",
           "url": "https://www.coldwellbanker.com/in/gary/2694-polk-st/lid-P00800000HIRI3xQEhb6SxZXfdAUY7AXCL7nLvk5"
+        },
+        {
+          "date": "2026-11-25T03:17:14+00:00",
+          "method": "Connected Chrome rendered public listing pages",
+          "url": "https://www.coldwellbanker.com/in/gary/2694-polk-st/lid-P00800000HIRI3xQEhb6SxZXfdAUY7AXCL7nLvk5",
+          "related_urls": [
+            "https://www.coldwellbanker.com/il/sublette/28-122-woodhaven-lakes/lid-P00800000GeIaNFRPTwDrVwOZo5pzGkt9iriZ0Ya",
+            "https://www.redfin.com/IN/Gary/2694-Polk-St-46407/home/133059858"
+          ],
+          "status": "off_market",
+          "source_status": "Inactive",
+          "note": "Explicit broker Inactive plus current Redfin OFF MARKET; no new sold date or sold price inferred."
         }
       ],
       "photo_history": [
@@ -1671,7 +1698,8 @@
       "image_url": "assets/listings/2185f1704b6a91f9524c.jpg",
       "image_source_url": "https://www.coldwellbanker.com/in/gary/2694-polk-st/lid-P00800000HIRI3xQEhb6SxZXfdAUY7AXCL7nLvk5",
       "airport_straight_km": 64.6,
-      "inspection_order": 20
+      "inspection_order": 20,
+      "source_status": "Inactive"
     },
     {
       "id": "in-gary-846722",
@@ -1865,8 +1893,8 @@
       "price_basis": "advertised_cash_asking_price",
       "status": "active",
       "status_basis": "live_public_page",
-      "last_verified": "2026-11-23T02:36:07+00:00",
-      "checked_at": "2026-11-23T02:36:07+00:00",
+      "last_verified": "2026-11-25T03:17:14+00:00",
+      "checked_at": "2026-11-25T03:17:14+00:00",
       "first_seen": "2026-11-23T02:36:07+00:00",
       "state": "IN",
       "city": "Gary",
@@ -1907,6 +1935,14 @@
           "date": "2026-11-23T02:36:07+00:00",
           "method": "Connected Chrome rendered public listing page",
           "url": "https://www.redfin.com/IN/Gary/3842-Maryland-St-46409/home/132820219"
+        },
+        {
+          "date": "2026-11-25T03:17:14+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.redfin.com/IN/Gary/3842-Maryland-St-46409/home/132820219",
+          "status": "active",
+          "price": 15000,
+          "note": "For sale; MLS836105; one-car garage claim unchanged."
         }
       ],
       "photo_history": [
@@ -2046,8 +2082,8 @@
       "price_basis": "advertised_cash_asking_price",
       "status": "active",
       "status_basis": "live_public_page",
-      "last_verified": "2026-11-23T02:36:07+00:00",
-      "checked_at": "2026-11-23T02:36:07+00:00",
+      "last_verified": "2026-11-25T03:17:14+00:00",
+      "checked_at": "2026-11-25T03:17:14+00:00",
       "first_seen": "2026-11-23T02:36:07+00:00",
       "state": "IL",
       "city": "Streator",
@@ -2088,6 +2124,14 @@
           "date": "2026-11-23T02:36:07+00:00",
           "method": "Connected Chrome rendered public listing page",
           "url": "https://www.coldwellbankerhomes.com/il/streator/507-lundy-st/pid_74707392/"
+        },
+        {
+          "date": "2026-11-25T03:17:14+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.redfin.com/IL/Streator/507-Lundy-St-61364/home/44614607",
+          "status": "active",
+          "price": 19900,
+          "note": "For sale; MLS12806426; two-car garage claim unchanged."
         }
       ],
       "photo_history": [
@@ -2130,6 +2174,119 @@
       "garage_spaces_claim": 2,
       "building_sqft_claim": 1189,
       "inspection_order": 2
+    },
+    {
+      "id": "in-gary-848616",
+      "title": "3949 Monroe St",
+      "price": 12000,
+      "currency": "USD",
+      "price_basis": "advertised_cash_asking_price",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "last_verified": "2026-11-25T03:17:14+00:00",
+      "checked_at": "2026-11-25T03:17:14+00:00",
+      "first_seen": "2026-11-25T03:17:14+00:00",
+      "state": "IN",
+      "city": "Gary",
+      "category": "house_only",
+      "summary_ru": "Дом на своей заявленной площадке 0.072 акра, полная опубликованная цена $12,000; Cash / Other по MLS. Продавец прямо требует полного восстановления, отопления нет. На фото видны заросли и повреждённое крыльцо; готовая RV-стоянка и гараж не подтверждены. Парковка по MLS — None. Это зацепка под обследование, не готовая база. В блоке объявления налог $389 за 2024, в публичной истории того же портала $3,094: текущая сумма и долги неизвестны.",
+      "url": "https://www.coldwellbankerhomes.com/in/gary/3949-monroe-st/pid_74857827/",
+      "image_remote_url": "https://m1.cbhomes.com/p/255/848616/bA7150F17B054d7/pds23tp.webp",
+      "closing_costs_known": false,
+      "known_fees": null,
+      "rv_inside_fit": "unknown",
+      "rv_outside_fit": "unknown",
+      "rv_outside_storage_permission": "unknown",
+      "personal_repair_permission": "unknown",
+      "occupancy_permission": "unknown",
+      "commercial_repair_permission": "unknown",
+      "verified_full_match": false,
+      "annual_dues_usd": null,
+      "annual_tax_usd": null,
+      "garage_dimensions": null,
+      "door_height_m": null,
+      "door_width_m": null,
+      "mls": "848616",
+      "county": "Lake",
+      "kind": "house",
+      "existing_garage": null,
+      "lot_sqft": 3136,
+      "acres": 0.072,
+      "building_condition": "complete_rehabilitation_required",
+      "ownership": "single_family_sale_claim",
+      "rv_storage": "unknown",
+      "location": {
+        "lat": null,
+        "lon": null,
+        "reference": {
+          "lat": 41.586046,
+          "lon": -87.327676,
+          "kind": "city_approximate",
+          "source": "https://www.coldwellbanker.com/city/in/gary"
+        },
+        "note_ru": "Общий ориентир Gary из ранее проверенной карты каталога; это не точка дома 3949 Monroe. Адрес известен, точные координаты участка, границы и RV-въезд пока не подтверждены."
+      },
+      "airport_code": "ORD",
+      "airport_reference": {
+        "lat": 41.9742,
+        "lon": -87.9073
+      },
+      "image_url": "assets/listings/011f6b559f490eabd4bf.webp",
+      "image_source_url": "https://www.coldwellbankerhomes.com/in/gary/3949-monroe-st/pid_74857827/",
+      "airport_straight_km": 64.6,
+      "inspection_order": 22,
+      "heating": "none_claim",
+      "parcel": "450828254009000004",
+      "tax_observations": [
+        {
+          "date": "2026-11-25T03:17:14+00:00",
+          "source": "https://www.coldwellbankerhomes.com/in/gary/3949-monroe-st/pid_74857827/",
+          "tax_year": 2024,
+          "annual_tax_usd": 389,
+          "basis": "listing_claim"
+        },
+        {
+          "date": "2026-11-25T03:17:14+00:00",
+          "source": "https://www.coldwellbankerhomes.com/in/gary/3949-monroe-st/pid_74857827/",
+          "tax_year": 2024,
+          "annual_tax_usd": 3094,
+          "basis": "portal_public_tax_history_conflicting"
+        }
+      ],
+      "price_history": [
+        {
+          "date": "2026-11-25T03:17:14+00:00",
+          "price": 12000,
+          "source": "https://www.coldwellbankerhomes.com/in/gary/3949-monroe-st/pid_74857827/"
+        }
+      ],
+      "status_history": [
+        {
+          "date": "2026-11-25T03:17:14+00:00",
+          "status": "active",
+          "source": "https://www.coldwellbankerhomes.com/in/gary/3949-monroe-st/pid_74857827/"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-25T03:17:14+00:00",
+          "method": "Connected Chrome rendered public listing page and source photograph",
+          "url": "https://www.coldwellbankerhomes.com/in/gary/3949-monroe-st/pid_74857827/",
+          "price": 12000,
+          "status": "active",
+          "mls": "848616"
+        }
+      ],
+      "photo_history": [
+        {
+          "path": "assets/listings/011f6b559f490eabd4bf.webp",
+          "source": "https://www.coldwellbankerhomes.com/in/gary/3949-monroe-st/pid_74857827/",
+          "remote_url": "https://m1.cbhomes.com/p/255/848616/bA7150F17B054d7/pds23tp.webp",
+          "date": "2026-11-25T03:17:14+00:00",
+          "sha256": "011f6b559f490eabd4bf6057968e06f98e37b938040bd5bf7d01dfef674fdfab",
+          "method": "Original rendered listing photograph; unchanged WebP bytes, image magic verified; CDN robots404."
+        }
+      ]
     }
   ],
   "official_sources": [
@@ -2189,5 +2346,7 @@
       "status": "over_budget",
       "note_ru": "$19,900 было старой ценой 2014 года; готовый гараж не доступен за эту сумму."
     }
-  ]
+  ],
+  "updated_at": "2026-11-25T03:17:14+00:00",
+  "update_note_ru": "25 ноября: добавлен 3949 Monroe под полное восстановление; 2694 Polk скрыт после явного Inactive/OFF MARKET. Maryland, Lundy и Woodhaven28-122 перепроверены живыми страницами. Даты остальных записей не обновлялись."
 }
