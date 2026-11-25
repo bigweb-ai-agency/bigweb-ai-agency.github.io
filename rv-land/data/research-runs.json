@@ -7546,7 +7546,7 @@
         "MT",
         "NH"
       ],
-      "rotation_reason": "Resume low-count states after regional MN/WI/OH and manualIL/IN/PA rechecks; continue rotating manualshortlists independently. National collector scansall50.",
+      "rotation_reason": "After the MN/WI/OH priority pass and IL/IN/PA live rechecks, rotate to three states with fewer than ten photo candidates. Continue rotating manual Midwest/PA rechecks separately; no missed listing dates are silently refreshed.",
       "preservation": "Original1138 national records, IDs, all historical photos, first_seen and histories unchanged. Manual22 old IDs preserved, one explicitoffmarket, threeunchanged livechecks, PAoneunchangedcheck, one new originalWebP. RVvehicle and Sicily data/code unchanged. Old875 flight observations/46historicalchecks and5currentchecks preserved;6newcards appended to control display.",
       "source_access": "No CAPTCHA/403/robots bypass, account switching, seller messages, group joins, purchases, bookings or infrastructure changes."
     }
