@@ -7539,7 +7539,7 @@
           "2027-03-09",
           "2027-03-26"
         ],
-        "finding": "Six new control cards in flights.json; actual LOT640.05return bothStandard includescabin8kg/checked23kg selected at provider. London697,Frankfurt750/Comfort900,VNO-MSP1096/Delta1250 remainGooglequotes with explicit seller/baggage gaps. PositioningGoogle245LHR/204FRA separately plusunknownchecked/hotels/groundtransport.875 prior observations and all previous cards unchanged; table is dated historical minima, not a fully refreshedallgateway matrix. No bookings."
+        "finding": "Six new control cards in flights.json; actual LOT640.05return bothStandard includescabin8kg/checked23kg selected at provider. London697,Frankfurt750/Comfort900,VNO-MSP1096/Delta1250 remainGooglequotes with explicit seller/baggage gaps. PositioningGoogle245LHR/204FRA separately plusunknownchecked/hotels/groundtransport.875 prior observations and all previous cards unchanged; table is dated historical minima, not a fully refreshedallgateway matrix. No bookings. Four fresh structured observations also added to the table; prior875 remain unchanged; FRA origin added. All fares retain observation time and evidence level."
       },
       "next_states": [
         "ID",
@@ -7547,7 +7547,7 @@
         "NH"
       ],
       "rotation_reason": "After the MN/WI/OH priority pass and IL/IN/PA live rechecks, rotate to three states with fewer than ten photo candidates. Continue rotating manual Midwest/PA rechecks separately; no missed listing dates are silently refreshed.",
-      "preservation": "Original1138 national records, IDs, all historical photos, first_seen and histories unchanged. Manual22 old IDs preserved, one explicitoffmarket, threeunchanged livechecks, PAoneunchangedcheck, one new originalWebP. RVvehicle and Sicily data/code unchanged. Old875 flight observations/46historicalchecks and5currentchecks preserved;6newcards appended to control display.",
+      "preservation": "Original1138 national records, IDs, all historical photos, first_seen and histories unchanged. Manual22 old IDs preserved, one explicitoffmarket, threeunchanged livechecks, PAoneunchangedcheck, one new originalWebP. RVvehicle and Sicily data/code unchanged. Old875 flight observations/46historicalchecks and5currentchecks preserved;6 new cards appended to control display and4 new structured fare observations; original875 observations unchanged.",
       "source_access": "No CAPTCHA/403/robots bypass, account switching, seller messages, group joins, purchases, bookings or infrastructure changes."
     }
   ],

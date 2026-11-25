@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-11-25T03:19:21+00:00",
   "trip": "Туда-обратно, 1 взрослый, economy; гибкий поиск около двух недель в ближайшие 6 месяцев.",
-  "caveat": "Частичное обновление25ноября2026: шесть новых контрольных карточек для Chicago/MSP и отдельных подлётов на10–24марта2027;1взрослый,economy. LOT VNO–ORD €640,05 с checked23кг подтверждён после выбора обоих Standard. Остальные новые суммы — выбранные обе стороны Google, не подтверждённый checkout продавца. Полный бюджет через UK/FRA неизвестен: отдельно подлёт9–26марта, его багаж, две ночёвки и транспорт. Общая матрица сохраняет875 прежних датированных наблюдений, в том числе снимок16ноября: её минимумы относятся к разным датам и разному багажу, а не к единой свежей поездке. Все старые цены и карточки сохранены с прежними датами.",
+  "caveat": "Частичное обновление 25 ноября 2026: четыре новых маршрута Chicago/MSP на 10–24 марта 2027 и два отдельных подлёта на 9–26 марта; один взрослый, economy. LOT VNO–ORD €640,05 с чемоданом 23 кг подтверждён после выбора обоих Standard. Остальные новые суммы — обе стороны, выбранные в Google, без подтверждения итога у продавца. Полный бюджет через UK/FRA неизвестен: отдельно подлёт, его багаж, две ночёвки и транспорт. Матрица сохраняет 875 прежних датированных наблюдений и добавляет четыре новых: её минимумы относятся к разным датам и багажу, а не к единой поездке. Все прежние цены и карточки сохранены с исходными датами.",
   "origins": [
     {
       "code": "VNO",
@@ -22,6 +22,11 @@
       "code": "CPH",
       "name": "Копенгаген",
       "url": "https://www.google.com/travel/explore?tfs=CBwQAxoYagcIARIDQ1BIcg0IBBIJL20vMDljN3cwGhhqDQgEEgkvbS8wOWM3dzByBwgBEgNDUEhAAUgBcAKCAQ0I____________ARADmAEBsgEEGAEgAQ&tfu=GgA&hl=en&curr=EUR"
+    },
+    {
+      "code": "FRA",
+      "name": "Frankfurt am Main",
+      "url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20Frankfurt%20to%20Chicago%20on%202027-03-10%20returning%202027-03-24"
     }
   ],
   "observations": [
@@ -16663,63 +16668,135 @@
       "usable": true,
       "gateway_precision": "Поиск по городу; точный аэропорт зависит от выбранного тарифа.",
       "return": "2027-02-01"
+    },
+    {
+      "origin": "VNO",
+      "gateway": "ORD",
+      "eur": 640.05,
+      "departure": "2027-03-10",
+      "return": "2027-03-24",
+      "duration": "13:15",
+      "duration_hours": 13.25,
+      "stops": 1,
+      "airlines": "LOT через Warsaw",
+      "observed_at": "2026-11-25T03:19:21+00:00",
+      "verification": "provider_selected_quote",
+      "source_url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20Vilnius%20to%20Chicago%20on%202027-03-10%20returning%202027-03-24",
+      "baggage": "Economy Standard у LOT: ручная кладь 8 кг и чемодан 23 кг в обе стороны.",
+      "usable": true,
+      "gateway_precision": "ORD / MSP выбраны явно; LON в этой котировке означает Heathrow LHR.",
+      "note": "У LOT выбраны обе стороны до ввода пассажира: €286,01 + €354,04 = €640,05 за одного взрослого. Туда 10 марта VNO 14:40 → ORD 19:55, 13 ч 15 мин, пересадка WAW 1 ч 55 мин, LO772/LO3. Обратно 24 марта ORD 22:50 → VNO 25 марта 18:30, 12 ч 40 мин, WAW 2 ч 30 мин, LO4/LO775. Оба тарифа Standard включают ручную кладь 8 кг и чемодан 23 кг; выбор места и изменения платные, билет невозвратный. Отдельный подлёт не нужен. Показанные ранее Google €551 через Expedia / €570 у LOT относятся к тарифу без подтверждённого чемодана. Календарь LOT показывал исходящую долю от €246,01 на 5–13 марта; эти даты с обратной частью не складывались. Это котировка, не бронь."
+    },
+    {
+      "origin": "LON",
+      "gateway": "ORD",
+      "eur": 697,
+      "departure": "2027-03-10",
+      "return": "2027-03-24",
+      "duration": "8:45",
+      "duration_hours": 8.75,
+      "stops": 0,
+      "airlines": "British Airways, Heathrow",
+      "observed_at": "2026-11-25T03:19:21+00:00",
+      "verification": "Google Flights both flights selected; seller quote unverified",
+      "source_url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20London%20to%20Chicago%20on%202027-03-10%20returning%202027-03-24",
+      "baggage": "Ручная кладь по Google; чемодан туда неизвестен, €78 только за обратный путь. Итог у продавца не подтверждён.",
+      "usable": true,
+      "gateway_precision": "ORD / MSP выбраны явно; LON в этой котировке означает Heathrow LHR.",
+      "note": "В Google выбраны оба прямых рейса: 10 марта LHR 11:00 → ORD 13:45, 8 ч 45 мин; 24 марта ORD 18:10 → LHR 25 марта 06:55, 7 ч 45 мин. Google/Iberia €697 (£583), BA €759 (£635). Ручная кладь включена; доплата за чемодан туда неизвестна, €78 показано только за обратный путь. Цена у перевозчика не подтверждена. Отдельный подлёт VNO–LHR 9–26 марта через WAW: Google €245 / ссылка LOT €268, чемодан за неизвестную доплату. €697 + €245 = €942 — только показанные билеты, без багажа, двух ночёвок в UK и транспорта; полный бюджет и экономия не установлены."
+    },
+    {
+      "origin": "FRA",
+      "gateway": "ORD",
+      "eur": 750,
+      "departure": "2027-03-10",
+      "return": "2027-03-24",
+      "duration": "9:20",
+      "duration_hours": 9.333333333333334,
+      "stops": 0,
+      "airlines": "Lufthansa",
+      "observed_at": "2026-11-25T03:19:21+00:00",
+      "verification": "Google Flights both flights selected; seller quote unverified",
+      "source_url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20Frankfurt%20to%20Chicago%20on%202027-03-10%20returning%202027-03-24",
+      "baggage": "Light без чемодана; Google Comfort €900 с первым чемоданом. Итог и вес багажа у перевозчика не проверены.",
+      "usable": true,
+      "gateway_precision": "ORD / MSP выбраны явно; LON в этой котировке означает Heathrow LHR.",
+      "note": "В Google выбраны оба прямых рейса: 10 марта FRA 10:50 → ORD 13:10, 9 ч 20 мин; 24 марта ORD 17:20 → FRA 25 марта 07:30, 8 ч 10 мин. В блоке Lufthansa Light €750 с ручной кладью, без чемодана, изменений и возврата; Comfort €900 с первым чемоданом, платными изменениями и без возврата. Вес багажа и итог у Lufthansa не подтверждены. Подлёт VNO–FRA 9–26 марта отдельно: Google €204 / ссылка LOT €225, чемодан платный, сумма неизвестна. €750 + €204 = €954 — только показанные билеты. Багаж, две ночёвки во Frankfurt, транспорт и риск раздельных билетов дополнительно."
+    },
+    {
+      "origin": "VNO",
+      "gateway": "MSP",
+      "eur": 1096,
+      "departure": "2027-03-10",
+      "return": "2027-03-24",
+      "duration": "15:10",
+      "duration_hours": 15.166666666666666,
+      "stops": 1,
+      "airlines": "airBaltic/Delta/KLM через Amsterdam",
+      "observed_at": "2026-11-25T03:19:21+00:00",
+      "verification": "Google Flights both flights selected; seller quote unverified",
+      "source_url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20Vilnius%20to%20Minneapolis%20on%202027-03-10%20returning%202027-03-24",
+      "baggage": "Чемодан тарифа KLM €1,096 неизвестен; Google Delta Classic €1,250 с первым чемоданом, вес/итог не подтверждены.",
+      "usable": true,
+      "gateway_precision": "ORD / MSP выбраны явно; LON в этой котировке означает Heathrow LHR.",
+      "note": "В Google выбраны обе стороны: 10 марта VNO 07:45 → MSP 14:55, 15 ч 10 мин, AMS 3 ч 35 мин, airBaltic/Delta; 24 марта MSP 22:20 → VNO 25 марта 19:55, 14 ч 35 мин, AMS 4 ч 30 мин, KLM/airBaltic. Google/KLM €1,096, условия чемодана этого тарифа неизвестны. Блок Delta Classic €1,250 включает ручную кладь и первый чемодан, бесплатный выбор места, платные изменения, без возврата. Вес багажа и итог у продавца не подтверждены. Подлёт не нужен. Более дешёвый вылет €977 имел две пересадки HEL/DFW и 18 ч 35 мин; его возврат не выбирался, поэтому это не полноценная сравнимая котировка."
     }
   ],
   "provider_checks": [
     {
       "route": "Вильнюс → Chicago ORD: LOT через Warsaw, с чемоданом",
-      "price": "€640,05 return у LOT, оба Economy Standard",
+      "price": "€640,05 туда-обратно у LOT, оба Economy Standard",
       "dates": "10–24 марта 2027; Вильнюс 25 марта",
       "url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20Vilnius%20to%20Chicago%20on%202027-03-10%20returning%202027-03-24",
       "provider_url": "https://www.lot.com/lt/en/book/availability/return",
-      "note": "Проверено у LOT после выбора обеих сторон, до пассажирских данных: €286,01 + €354,04 = €640,05 за одного взрослого. Туда VNO14:40 → ORD19:55, 13ч15, WAW1ч55, LO772/LO3. Обратно ORD22:50 → VNO18:30+1, 12ч40, WAW2ч30, LO4/LO775. Обе Standard: cabin8кг и checked23кг; выбор места и изменения платные, non-refundable. Отдельный подлёт не нужен. Google показывал €551 через Expedia / €570 ссылку LOT без checked; это другой тариф и не итог Standard. Дата-график LOT показывал варианты исходящей доли €246,01 на5–13марта, но эти даты с обратной частью не складывались. Не бронь.",
+      "note": "У LOT выбраны обе стороны до ввода пассажира: €286,01 + €354,04 = €640,05 за одного взрослого. Туда 10 марта VNO 14:40 → ORD 19:55, 13 ч 15 мин, пересадка WAW 1 ч 55 мин, LO772/LO3. Обратно 24 марта ORD 22:50 → VNO 25 марта 18:30, 12 ч 40 мин, WAW 2 ч 30 мин, LO4/LO775. Оба тарифа Standard включают ручную кладь 8 кг и чемодан 23 кг; выбор места и изменения платные, билет невозвратный. Отдельный подлёт не нужен. Показанные ранее Google €551 через Expedia / €570 у LOT относятся к тарифу без подтверждённого чемодана. Календарь LOT показывал исходящую долю от €246,01 на 5–13 марта; эти даты с обратной частью не складывались. Это котировка, не бронь.",
       "observed_at": "2026-11-25T03:19:21+00:00",
       "verification": "provider_selected_quote"
     },
     {
       "route": "London Heathrow → Chicago ORD: прямые British Airways",
-      "price": "€697 return в Google/Iberia; checked и итог у продавца не подтверждены",
-      "dates": "10–24 марта 2027; Heathrow25марта",
+      "price": "€697 туда-обратно в Google/Iberia; чемодан и итог у продавца не подтверждены",
+      "dates": "10–24 марта 2027; Heathrow 25 марта",
       "url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20London%20to%20Chicago%20on%202027-03-10%20returning%202027-03-24",
-      "note": "Обе стороны выбраны в Google: LHR11:00 → ORD13:45, 8ч45; ORD18:10 → LHR06:55+1, 7ч45. Google/Iberia €697 (£583), BA €759 (£635). Cabin показан включённым. Для outbound checked fee неизвестен; €78 показано только для return, это не цена полного багажа. У перевозчика checkout не проверялся. Подлёт VNO–LHR9–26марта отдельной карточкой: Google €245 / ссылка LOT €268, checked неизвестен, WAW. €697+€245=€942 — лишь два показанных билета без багажа, двух ночей в UK и транспорта; это не полный бюджет и не доказательство экономии.",
+      "note": "В Google выбраны оба прямых рейса: 10 марта LHR 11:00 → ORD 13:45, 8 ч 45 мин; 24 марта ORD 18:10 → LHR 25 марта 06:55, 7 ч 45 мин. Google/Iberia €697 (£583), BA €759 (£635). Ручная кладь включена; доплата за чемодан туда неизвестна, €78 показано только за обратный путь. Цена у перевозчика не подтверждена. Отдельный подлёт VNO–LHR 9–26 марта через WAW: Google €245 / ссылка LOT €268, чемодан за неизвестную доплату. €697 + €245 = €942 — только показанные билеты, без багажа, двух ночёвок в UK и транспорта; полный бюджет и экономия не установлены.",
       "observed_at": "2026-11-25T03:19:21+00:00",
       "verification": "Google Flights both flights selected; seller quote unverified"
     },
     {
       "route": "Frankfurt FRA → Chicago ORD: прямые Lufthansa",
-      "price": "€750 Light / €900 Comfort return по выбранным тарифам Google",
-      "dates": "10–24 марта 2027; Frankfurt25марта",
+      "price": "€750 Light / €900 Comfort туда-обратно по выбранным тарифам Google",
+      "dates": "10–24 марта 2027; Frankfurt 25 марта",
       "url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20Frankfurt%20to%20Chicago%20on%202027-03-10%20returning%202027-03-24",
-      "note": "Обе стороны выбраны в Google: FRA10:50 → ORD13:10,9ч20; ORD17:20 → FRA07:30+1,8ч10. Google в блоке Lufthansa: Light €750 с cabin, без checked, без изменений/возврата; Comfort €900 с первым checked, изменения платные, без возврата. Вес багажа и фактический checkout Lufthansa не проверены. Позиционирование VNO–FRA9–26марта отдельно: Google €204, LOT €225, checked за неизвестную доплату. €750+€204=€954 только показанные билеты; багаж, две ночи во Frankfurt, транспорт и риск раздельных билетов дополнительно. Не объединять €900 Comfort с неизвестным багажом подлёта как готовый полный бюджет.",
+      "note": "В Google выбраны оба прямых рейса: 10 марта FRA 10:50 → ORD 13:10, 9 ч 20 мин; 24 марта ORD 17:20 → FRA 25 марта 07:30, 8 ч 10 мин. В блоке Lufthansa Light €750 с ручной кладью, без чемодана, изменений и возврата; Comfort €900 с первым чемоданом, платными изменениями и без возврата. Вес багажа и итог у Lufthansa не подтверждены. Подлёт VNO–FRA 9–26 марта отдельно: Google €204 / ссылка LOT €225, чемодан платный, сумма неизвестна. €750 + €204 = €954 — только показанные билеты. Багаж, две ночёвки во Frankfurt, транспорт и риск раздельных билетов дополнительно.",
       "observed_at": "2026-11-25T03:19:21+00:00",
       "verification": "Google Flights both flights selected; seller quote unverified"
     },
     {
       "route": "Вильнюс → Minneapolis MSP: через Amsterdam",
-      "price": "€1,096 Google/KLM; Delta Classic €1,250 с первым checked по Google",
-      "dates": "10–24 марта 2027; Вильнюс25марта",
+      "price": "€1,096 Google/KLM; Delta Classic €1,250 с первым чемодан по Google",
+      "dates": "10–24 марта 2027; Вильнюс 25 марта",
       "url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20Vilnius%20to%20Minneapolis%20on%202027-03-10%20returning%202027-03-24",
-      "note": "Обе стороны выбраны: VNO07:45 → MSP14:55,15ч10, AMS3ч35, airBaltic/Delta; MSP22:20 → VNO19:55+1,14ч35, AMS4ч30,KLM/airBaltic. Google/KLM €1,096, условия checked этого тарифа неизвестны. Блок Delta Classic €1,250: cabin и первый checked включены, выбор места бесплатный, изменения платные, non-refundable; вес/checkout не проверены. Отдельный подлёт не нужен. Вылет дешевле за €977 имел две пересадки HEL/DFW и18ч35; оба обратных сегмента этой альтернативы не выбирались, поэтому это не полноценная сравнимая котировка.",
+      "note": "В Google выбраны обе стороны: 10 марта VNO 07:45 → MSP 14:55, 15 ч 10 мин, AMS 3 ч 35 мин, airBaltic/Delta; 24 марта MSP 22:20 → VNO 25 марта 19:55, 14 ч 35 мин, AMS 4 ч 30 мин, KLM/airBaltic. Google/KLM €1,096, условия чемодана этого тарифа неизвестны. Блок Delta Classic €1,250 включает ручную кладь и первый чемодан, бесплатный выбор места, платные изменения, без возврата. Вес багажа и итог у продавца не подтверждены. Подлёт не нужен. Более дешёвый вылет €977 имел две пересадки HEL/DFW и 18 ч 35 мин; его возврат не выбирался, поэтому это не полноценная сравнимая котировка.",
       "observed_at": "2026-11-25T03:19:21+00:00",
       "verification": "Google Flights both flights selected; seller quote unverified"
     },
     {
       "route": "Подлёт отдельно: Вильнюс ↔ Heathrow через Warsaw",
-      "price": "€245 return Google/tickets; ссылка LOT €268, checked отдельно",
-      "dates": "9–26 марта2027; до/после LHR–ORD10–24марта",
+      "price": "€245 туда-обратно Google/tickets; ссылка LOT €268, чемодан отдельно",
+      "dates": "9–26 марта 2027; до/после LHR–ORD10–24 марта",
       "url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20Vilnius%20to%20London%20on%202027-03-09%20returning%202027-03-26",
       "purpose": "positioning",
-      "note": "Обе стороны выбраны: VNO9марта06:15 → LHR09:35,5ч20,WAW1ч10; LHR26марта10:35 → VNO18:30,5ч55,WAW2ч20. По Google cabin включён, checked за неизвестную доплату. UK↔USA билет отдельный, по ночёвке9/25марта, гостиницы/наземный путь не оценены. Ryanair €159 относился к Stansted без overhead bin и не использован как цена подлёта к Heathrow. Цена у LOT после перехода не проверялась.",
+      "note": "Выбраны обе стороны: 9 марта VNO 06:15 → LHR 09:35, 5 ч 20 мин, WAW 1 ч 10 мин; 26 марта LHR 10:35 → VNO 18:30, 5 ч 55 мин, WAW 2 ч 20 мин. По Google ручная кладь включена, чемодан платный, доплата неизвестна. Билет UK–USA отдельный; нужны ночёвки 9 и 25 марта, гостиницы и транспорт не оценены. Ryanair €159 относился к Stansted без места на багажной полке и не использован как стоимость подлёта к Heathrow. Итог у LOT не подтверждён.",
       "observed_at": "2026-11-25T03:19:21+00:00",
       "verification": "Google Flights both flights selected; seller quote unverified"
     },
     {
       "route": "Подлёт отдельно: Вильнюс ↔ Frankfurt через Warsaw",
-      "price": "€204 return Google/tickets; ссылка LOT €225, checked отдельно",
-      "dates": "9–26 марта2027; до/после FRA–ORD10–24марта",
+      "price": "€204 туда-обратно Google/tickets; ссылка LOT €225, чемодан отдельно",
+      "dates": "9–26 марта 2027; до/после FRA–ORD10–24 марта",
       "url": "https://www.google.com/travel/flights?hl=en&curr=EUR&q=Flights%20from%20Vilnius%20to%20Frankfurt%20on%202027-03-09%20returning%202027-03-26",
       "purpose": "positioning",
-      "note": "Обе стороны выбраны: VNO9марта14:40 → FRA19:00,5ч20,WAW2ч15; FRA26марта10:35 → VNO16:05,4ч30,WAW1ч30. Google cabin включён, checked платный, сумма неизвестна. По ночёвке9/25марта, отель/транспорт не оценены. Прямой VNO–FRA от€305 был только исходящим результатом и не выдаётся за выбранную полную поездку. Ночная WAW-пересадка дешёвого return€200 не использована. Билет до США отдельный.",
+      "note": "Выбраны обе стороны: 9 марта VNO 14:40 → FRA 19:00, 5 ч 20 мин, WAW 2 ч 15 мин; 26 марта FRA 10:35 → VNO 16:05, 4 ч 30 мин, WAW 1 ч 30 мин. По Google ручная кладь включена, чемодан платный, доплата неизвестна. Нужны ночёвки 9 и 25 марта; гостиницы и транспорт не оценены. Прямой VNO–FRA от €305 был лишь результатом вылета, без выбранного возврата. Дешёвый возврат с ночной пересадкой WAW не использован. Билет до США отдельный.",
       "observed_at": "2026-11-25T03:19:21+00:00",
       "verification": "Google Flights both flights selected; seller quote unverified"
     },
