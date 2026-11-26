@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-25T00:51:21+00:00",
+  "updated_at": "2026-11-26T00:50:31+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -18470,8 +18470,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-18T01:17:04Z",
-      "last_verified": "2026-10-18T01:17:04Z",
+      "last_seen": "2026-11-26T00:55:08Z",
+      "last_verified": "2026-11-26T00:55:08Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -18488,9 +18488,9 @@
       "county": "St. Clair",
       "zip": "62203",
       "kind": "land",
-      "price": 7999.0,
+      "price": 5999.0,
       "known_fees": 100.0,
-      "total_known": 8099.0,
+      "total_known": 6099.0,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 0.31,
       "lat": 38.6069,
@@ -18498,7 +18498,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-09-17T19:33:59.000000Z",
+      "source_updated": "2026-11-23T20:27:45.000000Z",
       "source_published": "2026-05-08T05:23:12.000000Z",
       "image_url": "assets/listings/51befca0e60db979b8a6.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/illinois/031-acres-for-sale-in-east-saint-louis-illinois-24732",
@@ -18529,6 +18529,12 @@
         {
           "date": "2026-09-13T22:25:02+00:00",
           "price": 7999.0,
+          "source": "https://www.landcentury.com/land-for-sale/illinois/031-acres-for-sale-in-east-saint-louis-illinois-24732"
+        },
+        {
+          "date": "2026-11-26T00:50:31+00:00",
+          "price": 5999.0,
+          "price_basis": "asking_cash",
           "source": "https://www.landcentury.com/land-for-sale/illinois/031-acres-for-sale-in-east-saint-louis-illinois-24732"
         }
       ],
@@ -18574,16 +18580,16 @@
       ],
       "msp_straight_km": 744,
       "score_parts": {
-        "Цена /25": 17,
+        "Цена /25": 20,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 2,
         "Сезон /10": 4,
         "Дорога /10": 10
       },
-      "score": 33,
+      "score": 36,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/05/08/69fd73c950fd8-1778217929.jpg",
-      "photo_preserved_at": "2026-10-18T01:12:05+00:00",
+      "photo_preserved_at": "2026-11-26T00:50:31+00:00",
       "photo_history": [
         {
           "path": "assets/listings/51befca0e60db979b8a6.jpg",
@@ -18591,14 +18597,15 @@
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/05/08/69fd73c950fd8-1778217929.jpg",
           "date": "2026-09-13T23:05:59+00:00"
         }
-      ]
+      ],
+      "previous_price": 7999.0
     },
     {
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-18T01:17:05Z",
-      "last_verified": "2026-10-18T01:17:05Z",
+      "last_seen": "2026-11-26T00:55:09Z",
+      "last_verified": "2026-11-26T00:55:09Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -18615,9 +18622,9 @@
       "county": "St. Clair",
       "zip": "62203",
       "kind": "land",
-      "price": 6999.0,
+      "price": 4999.0,
       "known_fees": 100.0,
-      "total_known": 7099.0,
+      "total_known": 5099.0,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 0.3,
       "lat": 38.6074,
@@ -18625,7 +18632,7 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-09-17T20:00:55.000000Z",
+      "source_updated": "2026-11-23T20:27:56.000000Z",
       "source_published": "2026-05-07T17:45:15.000000Z",
       "image_url": "assets/listings/a1fc6c34ae89ce334909.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/illinois/030-acres-for-sale-in-east-saint-louis-illinois-24727",
@@ -18657,6 +18664,12 @@
         {
           "date": "2026-09-13T22:25:02+00:00",
           "price": 6999.0,
+          "source": "https://www.landcentury.com/land-for-sale/illinois/030-acres-for-sale-in-east-saint-louis-illinois-24727"
+        },
+        {
+          "date": "2026-11-26T00:50:31+00:00",
+          "price": 4999.0,
+          "price_basis": "asking_cash",
           "source": "https://www.landcentury.com/land-for-sale/illinois/030-acres-for-sale-in-east-saint-louis-illinois-24727"
         }
       ],
@@ -18702,16 +18715,16 @@
       ],
       "msp_straight_km": 744,
       "score_parts": {
-        "Цена /25": 18,
+        "Цена /25": 22,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 2,
         "Сезон /10": 4,
         "Дорога /10": 10
       },
-      "score": 34,
+      "score": 38,
       "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/05/07/69fcd0049208c-1778176004.jpg",
-      "photo_preserved_at": "2026-10-18T01:12:05+00:00",
+      "photo_preserved_at": "2026-11-26T00:50:31+00:00",
       "photo_history": [
         {
           "path": "assets/listings/a1fc6c34ae89ce334909.jpg",
@@ -18719,7 +18732,8 @@
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/05/07/69fcd0049208c-1778176004.jpg",
           "date": "2026-09-13T23:05:59+00:00"
         }
-      ]
+      ],
+      "previous_price": 6999.0
     },
     {
       "price_currency": "USD",
@@ -149636,6 +149650,897 @@
         "Дорога /10": 4
       },
       "score": 14
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-26T00:50:31+00:00",
+      "last_seen": "2026-11-26T00:53:07Z",
+      "last_verified": "2026-11-26T00:53:07Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "restriction_risk",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27297",
+      "source_id": "27297",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/arizona/1-02-acres-for-sale-in-meadview-arizona-27297",
+      "title": "1560 La Jolla Circle",
+      "address": "1560 La Jolla Circle",
+      "city": "Meadview",
+      "state": "AZ",
+      "county": "Mohave",
+      "zip": "86444",
+      "kind": "commercial_lot",
+      "price": 9070.0,
+      "known_fees": 0.0,
+      "total_known": 9070.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 1.02,
+      "lat": 35.994858,
+      "lng": -114.088258,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-25T22:44:33.000000Z",
+      "source_published": "2026-11-25T22:39:07.000000Z",
+      "image_url": "assets/listings/59a0bee1162220ff6763.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/1-02-acres-for-sale-in-meadview-arizona-27297",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "343-04-095",
+      "zoning": "Residential",
+      "road_note": "Paved Road",
+      "utility_note": "Не подтверждены",
+      "taxes_note": "$54.00",
+      "source_categories": [
+        "residential-buildable-land",
+        "owner-finance-deals",
+        "commercial-and-industrial-land",
+        "recreational-and-hunting-land",
+        "mobile-home-and-rv-land",
+        "vacant-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "seller_conditional",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "flags": [
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим.",
+        "Mohave IPMC 302.8 ограничивает неходовые машины и крупную разборку; проверить zoning-исключения и точную юрисдикцию."
+      ],
+      "evidence_quote": ") Short-Term RV Camping: Up to 2 weeks at a time, up to 30 days per year Long-Term RV Camping: Allowed for",
+      "price_history": [
+        {
+          "date": "2026-11-26T00:50:31+00:00",
+          "price": 9070.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-02-acres-for-sale-in-meadview-arizona-27297"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/25/6b07640e5b837-1795646478.jpg",
+      "photo_preserved_at": "2026-11-26T00:50:31+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/59a0bee1162220ff6763.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-02-acres-for-sale-in-meadview-arizona-27297",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/25/6b07640e5b837-1795646478.jpg",
+          "date": "2026-11-26T00:50:31+00:00"
+        }
+      ],
+      "legal_source": "https://www.mohave.gov/departments/development-services/building-division/documents/building-ordinance-2021-03/",
+      "region": "Юго-запад",
+      "screening_issue": null,
+      "climate_note": "Много дешёвой земли. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 96,
+          "drive_km_estimate": 120,
+          "drive_hours_estimate": 1.6,
+          "flight_min_eur": 753,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "PHX",
+          "name": "Phoenix Sky Harbor International Airport",
+          "straight_km": 342,
+          "drive_km_estimate": 428,
+          "drive_hours_estimate": 5.7,
+          "flight_min_eur": 753,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "LAX",
+          "name": "Los Angeles International Airport",
+          "straight_km": 455,
+          "drive_km_estimate": 569,
+          "drive_hours_estimate": 7.6,
+          "flight_min_eur": 550,
+          "flight_origin": "VNO",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 2015,
+      "score_parts": {
+        "Цена /25": 15,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 6,
+        "Дорога /10": 8
+      },
+      "score": 29
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-26T00:50:31+00:00",
+      "last_seen": "2026-11-26T00:53:08Z",
+      "last_verified": "2026-11-26T00:53:08Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27296",
+      "source_id": "27296",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/florida/0-11-acres-for-sale-in-crawfordville-florida-27296",
+      "title": "229 Chicopee Road",
+      "address": "229 Chicopee Road",
+      "city": "Crawfordville",
+      "state": "FL",
+      "county": "Wakulla",
+      "zip": "32327",
+      "kind": "land",
+      "price": 9999.0,
+      "known_fees": 0.0,
+      "total_known": 9999.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 0.11,
+      "lat": 30.18975,
+      "lng": -84.30045,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-25T22:35:23.000000Z",
+      "source_published": "2026-11-25T22:33:44.000000Z",
+      "image_url": "assets/listings/2f8f866e31bfef5e510b.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/florida/0-11-acres-for-sale-in-crawfordville-florida-27296",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "00-00-035-008-08012-000",
+      "zoning": "Residential",
+      "road_note": "Dirt Road",
+      "utility_note": "Electricity available, septic and well required",
+      "taxes_note": "77",
+      "source_categories": [
+        "residential-buildable-land",
+        "owner-finance-deals"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "available",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "flags": [
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
+      "evidence_quote": "The peaceful surroundings make this property particularly appealing to individuals and families who appreciate a slower pace of life while maintaining convenient",
+      "price_history": [
+        {
+          "date": "2026-11-26T00:50:31+00:00",
+          "price": 9999.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/florida/0-11-acres-for-sale-in-crawfordville-florida-27296"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/25/6b076272ca1d3-1795646066.jpg",
+      "photo_preserved_at": "2026-11-26T00:50:31+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/2f8f866e31bfef5e510b.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/florida/0-11-acres-for-sale-in-crawfordville-florida-27296",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/25/6b076272ca1d3-1795646066.jpg",
+          "date": "2026-11-26T00:50:31+00:00"
+        }
+      ],
+      "region": "Юг",
+      "screening_issue": null,
+      "climate_note": "Дешёвый перелёт и мягкая зима. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "MCO",
+          "name": "Orlando International Airport",
+          "straight_km": 350,
+          "drive_km_estimate": 437,
+          "drive_hours_estimate": 5.8,
+          "flight_min_eur": null,
+          "flight_origin": null,
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "ATL",
+          "name": "Hartsfield Jackson Atlanta International Airport",
+          "straight_km": 383,
+          "drive_km_estimate": 479,
+          "drive_hours_estimate": 6.4,
+          "flight_min_eur": null,
+          "flight_origin": null,
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "MIA",
+          "name": "Miami International Airport",
+          "straight_km": 627,
+          "drive_km_estimate": 784,
+          "drive_hours_estimate": 10.5,
+          "flight_min_eur": 494,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1811,
+      "score_parts": {
+        "Цена /25": 13,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 1,
+        "Сезон /10": 7,
+        "Дорога /10": 4
+      },
+      "score": 25
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-26T00:50:31+00:00",
+      "last_seen": "2026-11-26T00:53:11Z",
+      "last_verified": "2026-11-26T00:53:11Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27289",
+      "source_id": "27289",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/arizona/1-1-acres-for-sale-in-concho-arizona-27289",
+      "title": "35 8009",
+      "address": "35 8009",
+      "city": "Concho",
+      "state": "AZ",
+      "county": "Apache",
+      "zip": "85924",
+      "kind": "land",
+      "price": 9995.0,
+      "known_fees": 0.0,
+      "total_known": 9995.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 1.1,
+      "lat": 34.366677,
+      "lng": -109.728992,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-25T18:58:13.000000Z",
+      "source_published": "2026-11-25T18:52:58.000000Z",
+      "image_url": "assets/listings/4efe20cba3639bb9512b.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/1-1-acres-for-sale-in-concho-arizona-27289",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "107-15-222",
+      "zoning": "Residential",
+      "road_note": "Dirt Road",
+      "utility_note": "No utilities",
+      "taxes_note": "36",
+      "source_categories": [
+        "owner-finance-deals",
+        "vacant-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "seller_conditional",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "none",
+      "water": "none",
+      "sewer": "none",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "flags": [
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
+      "evidence_quote": "RVs: You can have an RV but if you live in it longer than 30 days, it needs to be hooked to",
+      "price_history": [
+        {
+          "date": "2026-11-26T00:50:31+00:00",
+          "price": 9995.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-1-acres-for-sale-in-concho-arizona-27289"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/25/6b072f4cea8f8-1795632972.jpg",
+      "photo_preserved_at": "2026-11-26T00:50:31+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/4efe20cba3639bb9512b.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-1-acres-for-sale-in-concho-arizona-27289",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/25/6b072f4cea8f8-1795632972.jpg",
+          "date": "2026-11-26T00:50:31+00:00"
+        }
+      ],
+      "region": "Юго-запад",
+      "screening_issue": null,
+      "climate_note": "Много дешёвой земли. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "PHX",
+          "name": "Phoenix Sky Harbor International Airport",
+          "straight_km": 234,
+          "drive_km_estimate": 293,
+          "drive_hours_estimate": 3.9,
+          "flight_min_eur": 753,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 528,
+          "drive_km_estimate": 660,
+          "drive_hours_estimate": 8.8,
+          "flight_min_eur": 753,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "SAN",
+          "name": "San Diego International Airport",
+          "straight_km": 715,
+          "drive_km_estimate": 893,
+          "drive_hours_estimate": 11.9,
+          "flight_min_eur": null,
+          "flight_origin": null,
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1828,
+      "score_parts": {
+        "Цена /25": 13,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 6,
+        "Дорога /10": 6
+      },
+      "score": 25
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-26T00:50:31+00:00",
+      "last_seen": "2026-11-26T00:53:13Z",
+      "last_verified": "2026-11-26T00:53:13Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27286",
+      "source_id": "27286",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/arizona/1-04-acres-for-sale-in-holbrook-arizona-27286",
+      "title": "64 N7908",
+      "address": "64 N7908",
+      "city": "Holbrook",
+      "state": "AZ",
+      "county": "Apache",
+      "zip": "86025",
+      "kind": "land",
+      "price": 4000.0,
+      "known_fees": 0.0,
+      "total_known": 4000.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 1.04,
+      "lat": 35.0148,
+      "lng": -109.83788,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-25T17:43:18.000000Z",
+      "source_published": "2026-11-25T17:39:22.000000Z",
+      "image_url": "assets/listings/264bfac920f4e39b3556.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/1-04-acres-for-sale-in-holbrook-arizona-27286",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "211-35-304",
+      "zoning": "Agricultural",
+      "road_note": "Verify with County",
+      "utility_note": "No utilities",
+      "taxes_note": "3",
+      "source_categories": [
+        "residential-buildable-land",
+        "agricultural-and-farm-land",
+        "recreational-and-hunting-land",
+        "mobile-home-and-rv-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "seller_claim",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "none",
+      "water": "none",
+      "sewer": "none",
+      "no_hoa": "seller_claim",
+      "road_access": "unknown",
+      "flags": [
+        "Источник упоминает flood zone/flood risk; контекст и фактический риск требуют проверки FEMA и отметки площадки.",
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
+      "evidence_quote": "There is room to build a small home or cabin, park an RV, add a workshop or storage shed, or set up",
+      "price_history": [
+        {
+          "date": "2026-11-26T00:50:31+00:00",
+          "price": 4000.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-04-acres-for-sale-in-holbrook-arizona-27286"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/25/6b071d9f32e07-1795628447.jpg",
+      "photo_preserved_at": "2026-11-26T00:50:31+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/264bfac920f4e39b3556.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-04-acres-for-sale-in-holbrook-arizona-27286",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/25/6b071d9f32e07-1795628447.jpg",
+          "date": "2026-11-26T00:50:31+00:00"
+        }
+      ],
+      "region": "Юго-запад",
+      "screening_issue": null,
+      "climate_note": "Много дешёвой земли. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "PHX",
+          "name": "Phoenix Sky Harbor International Airport",
+          "straight_km": 266,
+          "drive_km_estimate": 332,
+          "drive_hours_estimate": 4.4,
+          "flight_min_eur": 753,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 495,
+          "drive_km_estimate": 619,
+          "drive_hours_estimate": 8.3,
+          "flight_min_eur": 753,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "SLC",
+          "name": "Salt Lake City International Airport",
+          "straight_km": 669,
+          "drive_km_estimate": 836,
+          "drive_hours_estimate": 11.1,
+          "flight_min_eur": 741,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1786,
+      "score_parts": {
+        "Цена /25": 23,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 6,
+        "Дорога /10": 6
+      },
+      "score": 35
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-26T00:50:31+00:00",
+      "last_seen": "2026-11-26T00:53:14Z",
+      "last_verified": "2026-11-26T00:53:14Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27283",
+      "source_id": "27283",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/texas/0-16-acres-for-sale-in-harleton-texas-27283",
+      "title": "Dogwood Drive",
+      "address": "Dogwood Drive",
+      "city": "Harleton",
+      "state": "TX",
+      "county": "Harrison",
+      "zip": "75651",
+      "kind": "land",
+      "price": 7800.0,
+      "known_fees": 249.0,
+      "total_known": 8049.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 0.16,
+      "lat": 32.714959,
+      "lng": -94.558282,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-25T15:58:10.000000Z",
+      "source_published": "2026-11-25T15:47:09.000000Z",
+      "image_url": "assets/listings/234f6e65e742e6fbba5a.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/texas/0-16-acres-for-sale-in-harleton-texas-27283",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "R000004141",
+      "zoning": "Residential",
+      "road_note": "Paved Road",
+      "utility_note": "No utilities",
+      "taxes_note": "30",
+      "source_categories": [
+        "residential-buildable-land",
+        "owner-finance-deals",
+        "recreational-and-hunting-land",
+        "mobile-home-and-rv-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "none",
+      "water": "none",
+      "sewer": "none",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "flags": [
+        "Источник упоминает flood zone/flood risk; контекст и фактический риск требуют проверки FEMA и отметки площадки.",
+        "Упоминаются заболоченные земли; пригодность площадки требует проверки."
+      ],
+      "evidence_quote": "16 acres (about 118–120' x 60') in Lake Deerwood Estates, Unit A • Wooded, rectangular lot on a paved road • Gently",
+      "price_history": [
+        {
+          "date": "2026-11-26T00:50:31+00:00",
+          "price": 7800.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/texas/0-16-acres-for-sale-in-harleton-texas-27283"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/25/6b07037278b84-1795621746.jpg",
+      "photo_preserved_at": "2026-11-26T00:50:31+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/234f6e65e742e6fbba5a.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/texas/0-16-acres-for-sale-in-harleton-texas-27283",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/25/6b07037278b84-1795621746.jpg",
+          "date": "2026-11-26T00:50:31+00:00"
+        }
+      ],
+      "region": "Юг",
+      "screening_issue": null,
+      "climate_note": "Много дешёвой земли на западе, обычно далеко от DFW/IAH. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "DFW",
+          "name": "Dallas Fort Worth International Airport",
+          "straight_km": 233,
+          "drive_km_estimate": 291,
+          "drive_hours_estimate": 3.9,
+          "flight_min_eur": null,
+          "flight_origin": null,
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "IAH",
+          "name": "George Bush Intercontinental Airport",
+          "straight_km": 313,
+          "drive_km_estimate": 391,
+          "drive_hours_estimate": 5.2,
+          "flight_min_eur": null,
+          "flight_origin": null,
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "STL",
+          "name": "St. Louis Lambert International Airport",
+          "straight_km": 770,
+          "drive_km_estimate": 962,
+          "drive_hours_estimate": 12.8,
+          "flight_min_eur": null,
+          "flight_origin": null,
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1358,
+      "score_parts": {
+        "Цена /25": 17,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 7,
+        "Дорога /10": 6
+      },
+      "score": 30
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-26T00:50:31+00:00",
+      "last_seen": "2026-11-26T00:53:15Z",
+      "last_verified": "2026-11-26T00:53:15Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27280",
+      "source_id": "27280",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/arizona/1-15-acres-for-sale-in-holbrook-arizona-27280",
+      "title": "1.15 Acres for Sale in Holbrook, Arizona",
+      "address": "",
+      "city": "Holbrook",
+      "state": "AZ",
+      "county": "Apache",
+      "zip": "86025",
+      "kind": "land",
+      "price": 5499.0,
+      "known_fees": 0.0,
+      "total_known": 5499.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 1.15,
+      "lat": 35.0202734,
+      "lng": -109.8228158,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-25T13:29:43.000000Z",
+      "source_published": "2026-11-25T13:26:39.000000Z",
+      "image_url": "assets/listings/f3515b3b3d40b17ac7ec.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/1-15-acres-for-sale-in-holbrook-arizona-27280",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "211-33-194",
+      "zoning": "Agricultural General",
+      "road_note": "Dirt Road",
+      "utility_note": "No utilities",
+      "taxes_note": "4",
+      "source_categories": [
+        "residential-buildable-land",
+        "agricultural-and-farm-land",
+        "owner-finance-deals"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "none",
+      "water": "none",
+      "sewer": "none",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "flags": [
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
+      "evidence_quote": null,
+      "price_history": [
+        {
+          "date": "2026-11-26T00:50:31+00:00",
+          "price": 5499.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-15-acres-for-sale-in-holbrook-arizona-27280"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/25/6b06e2922ff0b-1795613330.jpg",
+      "photo_preserved_at": "2026-11-26T00:50:31+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/f3515b3b3d40b17ac7ec.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-15-acres-for-sale-in-holbrook-arizona-27280",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/25/6b06e2922ff0b-1795613330.jpg",
+          "date": "2026-11-26T00:50:31+00:00"
+        }
+      ],
+      "region": "Юго-запад",
+      "screening_issue": null,
+      "climate_note": "Много дешёвой земли. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "PHX",
+          "name": "Phoenix Sky Harbor International Airport",
+          "straight_km": 267,
+          "drive_km_estimate": 334,
+          "drive_hours_estimate": 4.5,
+          "flight_min_eur": 753,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 496,
+          "drive_km_estimate": 620,
+          "drive_hours_estimate": 8.3,
+          "flight_min_eur": 753,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "SLC",
+          "name": "Salt Lake City International Airport",
+          "straight_km": 669,
+          "drive_km_estimate": 836,
+          "drive_hours_estimate": 11.1,
+          "flight_min_eur": 741,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1784,
+      "score_parts": {
+        "Цена /25": 21,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 6,
+        "Дорога /10": 6
+      },
+      "score": 33
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-26T00:50:31+00:00",
+      "last_seen": "2026-11-26T00:53:17Z",
+      "last_verified": "2026-11-26T00:53:17Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27278",
+      "source_id": "27278",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/missouri/6-15-acres-for-sale-in-edwards-missouri-27278",
+      "title": "Off Olsen Lane Unit H 2",
+      "address": "Off Olsen Lane Unit H 2",
+      "city": "Edwards",
+      "state": "MO",
+      "county": "Benton",
+      "zip": "65326",
+      "kind": "land",
+      "price": 13497.0,
+      "known_fees": 0.0,
+      "total_known": 13497.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 6.15,
+      "lat": 38.23545,
+      "lng": -93.2017,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-25T00:53:29.000000Z",
+      "source_published": "2026-11-25T00:33:43.000000Z",
+      "image_url": "assets/listings/13cb2db2fe5358ea64bb.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/missouri/6-15-acres-for-sale-in-edwards-missouri-27278",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "15-6.0-13-000-003-024.000",
+      "zoning": "Residential",
+      "road_note": "Dirt Road",
+      "utility_note": "We recommend that you contact Benton County to confirm. A well and septic system would need to be installed.",
+      "taxes_note": "108.51",
+      "source_categories": [
+        "residential-buildable-land",
+        "owner-finance-deals",
+        "waterfront-land",
+        "vacant-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "seller_conditional",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "available",
+      "water": "available",
+      "sewer": "available",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "flags": [
+        "Упоминаются заболоченные земли; пригодность площадки требует проверки.",
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
+      "evidence_quote": "Rural setting with access to local schools and essential services This property may be a fit if: 1.",
+      "price_history": [
+        {
+          "date": "2026-11-26T00:50:31+00:00",
+          "price": 13497.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/missouri/6-15-acres-for-sale-in-edwards-missouri-27278"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/25/6b062fd500f14-1795567573.jpg",
+      "photo_preserved_at": "2026-11-26T00:50:31+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/13cb2db2fe5358ea64bb.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/missouri/6-15-acres-for-sale-in-edwards-missouri-27278",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/25/6b062fd500f14-1795567573.jpg",
+          "date": "2026-11-26T00:50:31+00:00"
+        }
+      ],
+      "region": "Средний Запад",
+      "screening_issue": null,
+      "climate_note": "Перспективный баланс цены и сезона, особенно небольшие города. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "STL",
+          "name": "St. Louis Lambert International Airport",
+          "straight_km": 253,
+          "drive_km_estimate": 316,
+          "drive_hours_estimate": 4.2,
+          "flight_min_eur": null,
+          "flight_origin": null,
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "ORD",
+          "name": "Chicago O'Hare International Airport",
+          "straight_km": 613,
+          "drive_km_estimate": 766,
+          "drive_hours_estimate": 10.2,
+          "flight_min_eur": 384,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "BNA",
+          "name": "Nashville International Airport",
+          "straight_km": 624,
+          "drive_km_estimate": 779,
+          "drive_hours_estimate": 10.4,
+          "flight_min_eur": null,
+          "flight_origin": null,
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 739,
+      "score_parts": {
+        "Цена /25": 8,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 3,
+        "Сезон /10": 6,
+        "Дорога /10": 6
+      },
+      "score": 23
     }
   ]
 }
