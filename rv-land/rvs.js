@@ -7,10 +7,11 @@
   const conditionNames={seller_good:'Хорошее по продавцу',repair_disclosed:'Есть заявленные проблемы',needs_clarification:'Нужны уточнения',unknown:'Состояние неизвестно'};
   const className=c=>({A:'Class A',B:'Class B · по объявлению',C:'Class C',conversion:'Автобус / conversion',unknown:'Класс неизвестен / конфликт'}[c]||UNKNOWN);
   const fuelName=f=>({gas:'бензин',diesel:'дизель'}[f]||f||UNKNOWN);
+  const dateLabel=iso=>new Intl.DateTimeFormat('ru-RU',{timeZone:'Europe/Vilnius'}).format(new Date(iso));
   function distance(r,airport){return airport?r.distances_km[airport]:Math.min(...Object.values(r.distances_km));}
   function current(r,now=Date.now()){
     const age=now-Date.parse(r.last_checked);
-    return r.status==='active'&&r.verification==='live_public_page'&&Number.isFinite(age)&&age>=-86400000&&age<=14*86400000&&r.self_propelled===true&&Number.isFinite(r.price)&&r.price<=30000;
+    return r.status==='active'&&r.map_eligible!==false&&r.photo_review?.kind!=='dealer_advertisement'&&r.photos?.length>0&&r.verification==='live_public_page'&&Number.isFinite(age)&&age>=-86400000&&age<=14*86400000&&r.self_propelled===true&&Number.isFinite(r.price)&&r.price<=30000;
   }
   function matches(r,f={}){
     if(f.class&&r.class!==f.class||f.seller&&r.seller_type!==f.seller||f.condition&&r.condition!==f.condition)return false;
@@ -26,7 +27,7 @@
     eligible.sort((a,b)=>sorter(a,b)||a.id.localeCompare(b.id));
     return {local:eligible.filter(r=>distance(r,f.airport)<=Math.min(max,150)),far:f.distant===false?[]:eligible.filter(r=>distance(r,f.airport)>150&&(f.distance==='all'||f.distant!==false))};
   }
-  const api={current,matches,partition,distance,title};
+  const api={current,matches,partition,distance,title,dateLabel};
   if(typeof module!=='undefined'&&module.exports)module.exports=api;
   if(!root.document)return;
   const $=id=>document.getElementById(id);let data,map,markers;
@@ -38,7 +39,8 @@
   }
   function showDetail(id){
     const r=data.listings.find(x=>x.id===id);if(!r)return;
-    if(!current(r)){ $('detail-body').innerHTML='<h2 id="detail-title">Объявление не в текущей выдаче</h2><p>Статус или срок проверки больше не позволяет показывать RV как актуальное предложение.</p>'; }
+    if((r.status==='active'||r.sale_status==='active')&&r.map_eligible===false){$('detail-body').innerHTML=`<h2 id="detail-title">${escape(title(r))}</h2><p class="price">${money(r.price)}</p><p class="notice">${escape(r.hold_reason_ru)}</p>${facts(r)}<p>VIN: ${escape(r.vin)} · ${escape(r.location.name)} · проверено ${escape(r.last_checked.slice(0,10))}</p><p><a href="${escape(r.url)}" target="_blank" rel="noopener">Открыть исходное объявление ↗</a></p>`;}
+    else if(!current(r)){ $('detail-body').innerHTML='<h2 id="detail-title">Объявление не в текущей выдаче</h2><p>Статус или срок проверки больше не позволяет показывать RV как актуальное предложение.</p>'; }
     else $('detail-body').innerHTML=`<h2 id="detail-title">${escape(title(r))}</h2><p class="price">${money(r.price)}</p><p>${escape(className(r.class))} · ${escape(r.location.name)}</p>${photoHTML(r,r.photos[0],0)}<p class="notice">${escape(r.notes_ru)}</p>${facts(r)}<dl><dt>Продавец</dt><dd>${escape(r.seller_name||'Частник по объявлению')}</dd><dt>VIN</dt><dd>${escape(r.vin)}</dd><dt>Title</dt><dd>${escape(r.title_status)}${r.title_status?' · только заявление продавца, документы не проверены':''}</dd><dt>Место и точность</dt><dd>${escape(r.location.address||r.location.name)}; ${escape(r.location.coordinates.join(', '))}. ${r.location.accuracy==='city_reference'?'Точка города, не координаты дилерской площадки.':'Приблизительная точка из объявления, не проверенный адрес стоянки.'}</dd><dt>Первое наблюдение / проверка</dt><dd>${escape(r.first_seen)} / ${escape(r.last_checked)}</dd><dt>ID / источник</dt><dd class="source-id">${escape(r.id)} · ${escape(r.source_id)}</dd></dl>${r.photos.slice(1).map((p,i)=>photoHTML(r,p,i+1)).join('')}<p><a href="${escape(r.url)}" target="_blank" rel="noopener">Открыть исходное объявление ↗</a></p><p class="muted">Фото принадлежит продавцу/площадке. На дилерском сайте могут использоваться stock photos. Наличие, состояние и документы требуют подтверждения перед поездкой.</p>`;
     if(!$('rv-detail').open)$('rv-detail').showModal();
   }
@@ -61,7 +63,8 @@
     try{
       const res=await fetch('data/rvs.json');if(!res.ok)throw Error('HTTP '+res.status);data=await res.json();
       const active=data.listings.filter(r=>current(r)),local=active.filter(r=>r.local);
-      $('summary').textContent=`${local.length} местных RV до $30 000: Chicago / ORD — ${local.filter(r=>r.nearest_airport==='ORD').length}, Minneapolis / MSP — ${local.filter(r=>r.nearest_airport==='MSP').length}. Ещё ${active.length-local.length} дальше 150 км. Проверка 23.11.2026.`;
+      $('summary').textContent=`${local.length} RV с заявленным местом до 150 км: Chicago / ORD — ${local.filter(r=>r.nearest_airport==='ORD').length}, Minneapolis / MSP — ${local.filter(r=>r.nearest_airport==='MSP').length}. Ещё ${active.length-local.length} дальше 150 км. Обновлено ${dateLabel(data.updated_at)}; дата проверки есть в каждой карточке.`;
+      $('update-label').textContent='Обновлено · '+dateLabel(data.updated_at);
       if(root.L){
         map=L.map('rv-map',{scrollWheelZoom:true}).setView([43.3,-90.5],6);markers=L.layerGroup().addTo(map);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);

@@ -1,0 +1,578 @@
+{
+  "checked_on": "2026-11-26",
+  "checked_at": "2026-11-26T03:33:23+00:00",
+  "scope": "One-time refresh: self-propelled RVs all sizes/classes, price up to USD 30000, approximately 150 km ORD/MSP; further candidates explicitly separate.",
+  "result": {
+    "date": "2026-11-26",
+    "previous_records": 20,
+    "new_vehicles": 4,
+    "reposted_vehicles": 1,
+    "closed_vehicle_ids": [
+      "rv-cl-7988623641",
+      "rv-cl-7994079612",
+      "rv-cl-8003886861",
+      "rv-cl-7988581980"
+    ],
+    "active_count": 18,
+    "active_local_count": 17,
+    "preserved_original_photos": 36,
+    "source_report": "data/rv-sources-2026-11-26.json",
+    "photo_map_count": 18,
+    "photo_map_local_count": 17,
+    "new_mapped_vehicles": 3,
+    "photo_leads": 3,
+    "saved_image_files": 44,
+    "rejected_advertising_images": 2,
+    "active_page_count": 20
+  },
+  "source_attempts": [
+    {
+      "id": "rv-cl-7988623641",
+      "url": "https://www.craigslist.org/view/d/wheaton-1999-dodge-road-trek-190/ifaWE3oyXcciUoCnUU2Ect",
+      "attempted_at": "2026-11-26T03:27:34+00:00",
+      "http_status": 410,
+      "heading": "west chicagoland rvs - by owner - craigslist",
+      "outcome": "removed",
+      "evidence": "This posting has expired"
+    },
+    {
+      "id": "rv-cl-8004142590",
+      "url": "https://www.craigslist.org/view/d/maple-grove-motorhome-2000-four-winds/xaQDUXys16f3ZbmMVELC7m",
+      "attempted_at": "2026-11-26T03:27:34+00:00",
+      "http_status": 200,
+      "heading": "Motorhome 2000 Four Winds Class C Fun Mover-31C Toy Hauler - Ford E-450 V10 - $9,400 (Maple Grove)",
+      "outcome": "active",
+      "price": 9400
+    },
+    {
+      "id": "rv-cl-7994079612",
+      "url": "https://www.craigslist.org/view/d/minneapolis-1997-volkswagen-winnebago/6uaNdpow2ZPUJpawSinZYS",
+      "attempted_at": "2026-11-26T03:27:34+00:00",
+      "http_status": 410,
+      "heading": "hennepin co rvs - by owner - craigslist",
+      "outcome": "removed",
+      "evidence": "This posting has been deleted"
+    },
+    {
+      "id": "rv-cl-7993107705",
+      "url": "https://www.craigslist.org/view/d/nerstrand-2005-minnie-winnie-wf329b/qxWhRYeKHZ7E2Z4VeLNxvw",
+      "attempted_at": "2026-11-26T03:27:35+00:00",
+      "http_status": 200,
+      "heading": "2005 Minnie winnie WF329B Class C - $18,000 (Nerstrand)",
+      "outcome": "active",
+      "price": 18000
+    },
+    {
+      "id": "rv-cl-7990357434",
+      "url": "https://www.craigslist.org/view/d/chanhassen-2015-thor-motor-coach-four/k3Vwswv4H5yy6pVp6FNrjF",
+      "attempted_at": "2026-11-26T03:27:35+00:00",
+      "http_status": 200,
+      "heading": "2015 Thor Motor Coach Four Winds Majestic - $28,500 (Chanhassen)",
+      "outcome": "active",
+      "price": 28500
+    },
+    {
+      "id": "rv-cl-8002328817",
+      "url": "https://www.craigslist.org/view/d/medinah-2002-gulf-stream-conquest-trade/ejs6SsrbzAefrATjkK3hq8",
+      "attempted_at": "2026-11-26T03:27:35+00:00",
+      "http_status": 200,
+      "heading": "2002 gulf stream conquest. Trade considered - $10,000 (Medinah)",
+      "outcome": "active",
+      "price": 10000
+    },
+    {
+      "id": "rv-cl-7992996069",
+      "url": "https://www.craigslist.org/view/d/wilmette-2001-gmc-savana-3500-thomas/b52hfydRsXZFHrukVPKUwm",
+      "attempted_at": "2026-11-26T03:27:36+00:00",
+      "http_status": 200,
+      "heading": "2001 GMC Savana 3500 Thomas Minotour Bus RV Conversion - $10,000 (Wilmette)",
+      "outcome": "active",
+      "price": 10000
+    },
+    {
+      "id": "rv-cl-7991810379",
+      "url": "https://www.craigslist.org/view/d/valparaiso-1993-coachmen-class/o45Tdcavq5WtQG2R1RHqgN",
+      "attempted_at": "2026-11-26T03:27:36+00:00",
+      "http_status": 200,
+      "heading": "1993 COACHMEN CLASS C - $10,400 (Valparaiso)",
+      "outcome": "active",
+      "price": 10400
+    },
+    {
+      "id": "rv-cl-8003886861",
+      "url": "https://www.craigslist.org/view/d/chicago-one-owner-forest-river/ramDYrAvV3V6FKqEur1BAd",
+      "attempted_at": "2026-11-26T03:27:36+00:00",
+      "http_status": 410,
+      "heading": "city of chicago rvs - by owner - craigslist",
+      "outcome": "removed",
+      "evidence": "This posting has been deleted"
+    },
+    {
+      "id": "rv-cl-8003442336",
+      "url": "https://www.craigslist.org/view/d/franklin-2005-georgie-boy-landau/15gzdSg6bKapbiX2P7Kkjo",
+      "attempted_at": "2026-11-26T03:27:37+00:00",
+      "http_status": 410,
+      "heading": "milwaukee rvs - by owner - craigslist",
+      "outcome": "removed",
+      "evidence": "This posting has been deleted"
+    },
+    {
+      "id": "rv-cl-7995302238",
+      "url": "https://www.craigslist.org/view/d/minneapolis-02-minnie-winnie/nFfkTco8wpKvbYyScw4GNa",
+      "attempted_at": "2026-11-26T03:27:38+00:00",
+      "http_status": 200,
+      "heading": "02 Minnie Winnie - $10,000 (New Hope)",
+      "outcome": "active",
+      "price": 10000
+    },
+    {
+      "id": "rv-cl-7990675557",
+      "url": "https://www.craigslist.org/view/d/rogers-2008-forest-river-georgetown/jE6PnrA4m3geuZ2V1ntHeP",
+      "attempted_at": "2026-11-26T03:27:38+00:00",
+      "http_status": 200,
+      "heading": "2008 Forest River Georgetown 315ds - $15,795 (Rogers)",
+      "outcome": "active",
+      "price": 15795
+    },
+    {
+      "id": "rv-cl-7989998031",
+      "url": "https://www.craigslist.org/view/d/pine-city-1991-ford-350-econoline/mrF3eKG8sb3D6knnFuHRpb",
+      "attempted_at": "2026-11-26T03:27:38+00:00",
+      "http_status": 200,
+      "heading": "1991 Ford 350 Econoline - $4,500",
+      "outcome": "active",
+      "price": 4500
+    },
+    {
+      "id": "rv-cl-7999586706",
+      "url": "https://www.craigslist.org/view/d/brookfield-1986-toyota-cormorant-rv/4ociUeqZY4suvhrthHCh1B",
+      "attempted_at": "2026-11-26T03:27:39+00:00",
+      "http_status": 200,
+      "heading": "1986 toyota cormorant rv 18000 miles - $17,500 (Brookfield)",
+      "outcome": "active",
+      "price": 17500
+    },
+    {
+      "id": "rv-cl-8004787788",
+      "url": "https://www.craigslist.org/view/d/kenosha-chevrolet-skoolie-rv/xsJNAimf5r4CF7uRnSeqAf",
+      "attempted_at": "2026-11-26T03:27:39+00:00",
+      "http_status": 200,
+      "heading": "Chevrolet Skoolie RV - $8,000 (Kenosha, Milwaukee)",
+      "outcome": "active",
+      "price": 8000
+    },
+    {
+      "id": "rv-cl-7988581980",
+      "url": "https://www.craigslist.org/view/d/madison-2000-dodge-explorer-3500-runs/7pp5F8R71spyyT6iKdNNuf",
+      "attempted_at": "2026-11-26T03:27:39+00:00",
+      "http_status": 410,
+      "heading": "madison rvs - by owner - craigslist",
+      "outcome": "removed",
+      "evidence": "This posting has expired"
+    },
+    {
+      "id": "rv-hilltop-19792aa",
+      "url": "https://www.hilltopcamper.com/product/used-2011-jayco-greyhawk-31fk-3728708-16",
+      "attempted_at": "2026-11-26T03:27:40+00:00",
+      "outcome": "unverified_access",
+      "reason": "robots unavailable or disallowed"
+    },
+    {
+      "id": "rv-hilltop-20065b",
+      "url": "https://www.hilltopcamper.com/product/used-2003-winnebago-journey-dl-34hd-3792178-10",
+      "attempted_at": "2026-11-26T03:27:40+00:00",
+      "outcome": "unverified_access",
+      "reason": "robots unavailable or disallowed"
+    },
+    {
+      "id": "rv-hilltop-20420aa",
+      "url": "https://www.hilltopcamper.com/product/used-1999-trail-wagons-chinook-concourse-3796483-16",
+      "attempted_at": "2026-11-26T03:27:40+00:00",
+      "outcome": "unverified_access",
+      "reason": "robots unavailable or disallowed"
+    },
+    {
+      "id": "rv-autotrader-300691350",
+      "url": "https://rvs.autotrader.com/rvs/2002/winnebago/sightseer/300691350",
+      "attempted_at": "2026-11-26T03:27:40+00:00",
+      "http_status": 403,
+      "heading": "Access Denied",
+      "outcome": "unverified_access",
+      "reason": "Access Denied"
+    }
+  ],
+  "final_vehicle_checks": [
+    {
+      "id": "rv-cl-7988623641",
+      "url": "https://www.craigslist.org/view/d/wheaton-1999-dodge-road-trek-190/ifaWE3oyXcciUoCnUU2Ect",
+      "source_id": "7988623641",
+      "checked_at": "2026-11-26T03:27:34+00:00",
+      "status": "removed",
+      "asking_price_usd": 15000,
+      "method": null,
+      "map_eligible": true,
+      "photo_count": 2
+    },
+    {
+      "id": "rv-cl-8004142590",
+      "url": "https://www.craigslist.org/view/d/maple-grove-motorhome-2000-four-winds/xaQDUXys16f3ZbmMVELC7m",
+      "source_id": "8004142590",
+      "checked_at": "2026-11-26T03:27:34+00:00",
+      "status": "active",
+      "asking_price_usd": 9400,
+      "method": "public_http_page",
+      "map_eligible": true,
+      "photo_count": 2
+    },
+    {
+      "id": "rv-cl-7994079612",
+      "url": "https://www.craigslist.org/view/d/minneapolis-1997-volkswagen-winnebago/6uaNdpow2ZPUJpawSinZYS",
+      "source_id": "7994079612",
+      "checked_at": "2026-11-26T03:27:34+00:00",
+      "status": "removed",
+      "asking_price_usd": 9900,
+      "method": null,
+      "map_eligible": true,
+      "photo_count": 2
+    },
+    {
+      "id": "rv-cl-7993107705",
+      "url": "https://www.craigslist.org/view/d/nerstrand-2005-minnie-winnie-wf329b/qxWhRYeKHZ7E2Z4VeLNxvw",
+      "source_id": "7993107705",
+      "checked_at": "2026-11-26T03:27:35+00:00",
+      "status": "active",
+      "asking_price_usd": 18000,
+      "method": "public_http_page",
+      "map_eligible": true,
+      "photo_count": 2
+    },
+    {
+      "id": "rv-cl-7990357434",
+      "url": "https://www.craigslist.org/view/d/chanhassen-2015-thor-motor-coach-four/k3Vwswv4H5yy6pVp6FNrjF",
+      "source_id": "7990357434",
+      "checked_at": "2026-11-26T03:27:35+00:00",
+      "status": "active",
+      "asking_price_usd": 28500,
+      "method": "public_http_page",
+      "map_eligible": true,
+      "photo_count": 2
+    },
+    {
+      "id": "rv-cl-8002328817",
+      "url": "https://www.craigslist.org/view/d/medinah-2002-gulf-stream-conquest-trade/ejs6SsrbzAefrATjkK3hq8",
+      "source_id": "8002328817",
+      "checked_at": "2026-11-26T03:27:35+00:00",
+      "status": "active",
+      "asking_price_usd": 10000,
+      "method": "public_http_page",
+      "map_eligible": true,
+      "photo_count": 2
+    },
+    {
+      "id": "rv-cl-7992996069",
+      "url": "https://www.craigslist.org/view/d/wilmette-2001-gmc-savana-3500-thomas/b52hfydRsXZFHrukVPKUwm",
+      "source_id": "7992996069",
+      "checked_at": "2026-11-26T03:27:36+00:00",
+      "status": "active",
+      "asking_price_usd": 10000,
+      "method": "public_http_page",
+      "map_eligible": true,
+      "photo_count": 2
+    },
+    {
+      "id": "rv-cl-7991810379",
+      "url": "https://www.craigslist.org/view/d/valparaiso-1993-coachmen-class/o45Tdcavq5WtQG2R1RHqgN",
+      "source_id": "7991810379",
+      "checked_at": "2026-11-26T03:27:36+00:00",
+      "status": "active",
+      "asking_price_usd": 10400,
+      "method": "public_http_page",
+      "map_eligible": true,
+      "photo_count": 2
+    },
+    {
+      "id": "rv-cl-8003886861",
+      "url": "https://www.craigslist.org/view/d/chicago-one-owner-forest-river/ramDYrAvV3V6FKqEur1BAd",
+      "source_id": "8003886861",
+      "checked_at": "2026-11-26T03:27:36+00:00",
+      "status": "removed",
+      "asking_price_usd": 24500,
+      "method": null,
+      "map_eligible": true,
+      "photo_count": 2
+    },
+    {
+      "id": "rv-cl-8003442336",
+      "url": "https://www.craigslist.org/view/d/franklin-2005-georgie-boy-landau/vvC8eV7ER3WL6ececKECwA",
+      "source_id": "8005259997",
+      "checked_at": "2026-11-26T03:33:23+00:00",
+      "status": "active",
+      "asking_price_usd": 9000,
+      "method": "public_http_page",
+      "map_eligible": true,
+      "photo_count": 2
+    },
+    {
+      "id": "rv-cl-7995302238",
+      "url": "https://www.craigslist.org/view/d/minneapolis-02-minnie-winnie/nFfkTco8wpKvbYyScw4GNa",
+      "source_id": "7995302238",
+      "checked_at": "2026-11-26T03:27:38+00:00",
+      "status": "active",
+      "asking_price_usd": 10000,
+      "method": "public_http_page",
+      "map_eligible": true,
+      "photo_count": 2
+    },
+    {
+      "id": "rv-cl-7990675557",
+      "url": "https://www.craigslist.org/view/d/rogers-2008-forest-river-georgetown/jE6PnrA4m3geuZ2V1ntHeP",
+      "source_id": "7990675557",
+      "checked_at": "2026-11-26T03:27:38+00:00",
+      "status": "active",
+      "asking_price_usd": 15795,
+      "method": "public_http_page",
+      "map_eligible": true,
+      "photo_count": 2
+    },
+    {
+      "id": "rv-cl-7989998031",
+      "url": "https://www.craigslist.org/view/d/pine-city-1991-ford-350-econoline/mrF3eKG8sb3D6knnFuHRpb",
+      "source_id": "7989998031",
+      "checked_at": "2026-11-26T03:27:38+00:00",
+      "status": "active",
+      "asking_price_usd": 4500,
+      "method": "public_http_page",
+      "map_eligible": true,
+      "photo_count": 2
+    },
+    {
+      "id": "rv-cl-7999586706",
+      "url": "https://www.craigslist.org/view/d/brookfield-1986-toyota-cormorant-rv/4ociUeqZY4suvhrthHCh1B",
+      "source_id": "7999586706",
+      "checked_at": "2026-11-26T03:27:39+00:00",
+      "status": "active",
+      "asking_price_usd": 17500,
+      "method": "public_http_page",
+      "map_eligible": true,
+      "photo_count": 2
+    },
+    {
+      "id": "rv-cl-8004787788",
+      "url": "https://www.craigslist.org/view/d/kenosha-chevrolet-skoolie-rv/xsJNAimf5r4CF7uRnSeqAf",
+      "source_id": "8004787788",
+      "checked_at": "2026-11-26T03:27:39+00:00",
+      "status": "active",
+      "asking_price_usd": 8000,
+      "method": "public_http_page",
+      "map_eligible": true,
+      "photo_count": 2
+    },
+    {
+      "id": "rv-cl-7988581980",
+      "url": "https://www.craigslist.org/view/d/madison-2000-dodge-explorer-3500-runs/7pp5F8R71spyyT6iKdNNuf",
+      "source_id": "7988581980",
+      "checked_at": "2026-11-26T03:27:39+00:00",
+      "status": "removed",
+      "asking_price_usd": 26000,
+      "method": null,
+      "map_eligible": true,
+      "photo_count": 2
+    },
+    {
+      "id": "rv-hilltop-19792aa",
+      "url": "https://www.hilltopcamper.com/product/used-2011-jayco-greyhawk-31fk-3728708-16",
+      "source_id": "19792aa",
+      "checked_at": "2026-11-26T03:33:23+00:00",
+      "status": "active",
+      "asking_price_usd": 24995,
+      "method": "chrome_visible_page",
+      "map_eligible": true,
+      "photo_count": 1
+    },
+    {
+      "id": "rv-hilltop-20065b",
+      "url": "https://www.hilltopcamper.com/product/used-2003-winnebago-journey-dl-34hd-3792178-10",
+      "source_id": "20065b",
+      "checked_at": "2026-11-26T03:33:23+00:00",
+      "status": "active",
+      "asking_price_usd": 24995,
+      "method": "chrome_visible_page",
+      "map_eligible": true,
+      "photo_count": 1
+    },
+    {
+      "id": "rv-hilltop-20420aa",
+      "url": "https://www.hilltopcamper.com/product/used-1999-trail-wagons-chinook-concourse-3796483-16",
+      "source_id": "20420aa",
+      "checked_at": "2026-11-26T03:33:23+00:00",
+      "status": "active",
+      "asking_price_usd": 19995,
+      "method": "chrome_visible_page",
+      "map_eligible": true,
+      "photo_count": 1
+    },
+    {
+      "id": "rv-autotrader-300691350",
+      "url": "https://rvs.autotrader.com/rvs/2002/winnebago/sightseer/300691350",
+      "source_id": "300691350",
+      "checked_at": "2026-11-26T03:33:23+00:00",
+      "status": "review_hold",
+      "asking_price_usd": 19995,
+      "method": "chrome_visible_page",
+      "map_eligible": false,
+      "photo_count": 0,
+      "sale_status": "active"
+    },
+    {
+      "id": "rv-cl-8005320378",
+      "url": "https://www.craigslist.org/view/d/orland-park-2003-winnebago-adventurer-33/qb1fdv1P8mwvyUEZTimgmX",
+      "source_id": "8005320378",
+      "checked_at": "2026-11-26T03:33:23+00:00",
+      "status": "active",
+      "asking_price_usd": 21500,
+      "method": "public_http_page_and_chrome",
+      "map_eligible": true,
+      "photo_count": 2
+    },
+    {
+      "id": "rv-cl-8005589337",
+      "url": "https://www.craigslist.org/view/d/farmington-1999-itasca/5xiMtDNYmTZEvwPjrJm8ae",
+      "source_id": "8005589337",
+      "checked_at": "2026-11-26T03:33:23+00:00",
+      "status": "active",
+      "asking_price_usd": 16000,
+      "method": "public_http_page_and_chrome",
+      "map_eligible": true,
+      "photo_count": 2
+    },
+    {
+      "id": "rv-cl-7997166969",
+      "url": "https://www.craigslist.org/view/d/clinton-1993-pacearrow-34-ft-454/2zwEpKhPbupMBKR5ycpEnp",
+      "source_id": "7997166969",
+      "checked_at": "2026-11-26T03:33:23+00:00",
+      "status": "active",
+      "asking_price_usd": 1650,
+      "method": "public_http_page_and_chrome",
+      "map_eligible": true,
+      "photo_count": 2
+    },
+    {
+      "id": "rv-autotrader-300691349",
+      "url": "https://rvs.autotrader.com/rvs/1993/winnebago/vectra/300691349",
+      "source_id": "300691349",
+      "checked_at": "2026-11-26T03:33:23+00:00",
+      "status": "review_hold",
+      "asking_price_usd": 8995,
+      "method": "chrome_visible_page",
+      "map_eligible": false,
+      "photo_count": 0,
+      "sale_status": "active"
+    }
+  ],
+  "browser_checks": [
+    {
+      "source": "Craigslist",
+      "result": "Current Chicago and Minneapolis owner searches read. New Adventurer, Itasca, Landau repost and Pace Arrow detail pages read in Chrome; exact pages also fetched under allowed robots."
+    },
+    {
+      "source": "Hilltop Camper & RV",
+      "result": "HTTP robots returned 403, so no direct listing fetch was attempted. First Chrome detail showed automatic security verification; later exact Journey, Greyhawk and Chinook pages loaded normally without challenge interaction. All three prices, VIN/specs read. Greyhawk photo changed and new bytes were saved."
+    },
+    {
+      "source": "RVs on Autotrader / Jim Potts Motor Group",
+      "result": "HTTP Sightseer returned 403; normal connected Chrome page loaded. Sightseer price/VIN read; Vectra price USD 8995, VIN 4S7UT9J1XPC010837, stock P1541, N/A mileage, repair wording and listing photo read. No forms submitted."
+    },
+    {
+      "source": "Cruise America",
+      "url": "https://www.cruiseamerica.com/buy-used-rvs/rv-sales-inventory-usa?model=&location=475",
+      "result": "Chicago (East Dundee) selected via visible location selector. Specific stock 851820 detail read; price 29995, miles 118537, VIN 1FDWE3FS0KDC26374, sales address 895 Richardson. Gallery explicitly stock illustrations: held outside map as lead, not duplicated from RVUniverse. Unknown doc fees may push total above budget."
+    }
+  ],
+  "historical_sources": "data/rv-sources-2026-11-23.json",
+  "not_rechecked_this_run": [
+    "RV Trader",
+    "RVUSA",
+    "RVT",
+    "Facebook Marketplace and closed regional groups"
+  ],
+  "restrictions": "No contacts, messages, joins, bookings, purchases, account/profile switches, CAPTCHA actions, bypasses or SSH. Access failures are not SOLD.",
+  "deduplication": {
+    "method": "Public VIN when present, Craigslist post ID, make/model/year, photos and text. Repeated Kenosha Skoolie kept once; Madison Explorer shown once as distant.",
+    "unresolved": [],
+    "reposts": [
+      {
+        "vehicle_id": "rv-cl-8003442336",
+        "old_source_id": "8003442336",
+        "new_source_id": "8005259997",
+        "evidence": "Two matching image URLs plus model/year/place/mileage and body. Old vehicle ID and first_seen retained."
+      }
+    ]
+  },
+  "leads": [
+    {
+      "id": "rv-lead-cruise-851820",
+      "url": "https://www.cruiseamerica.com/buy-used-rvs/rv-sales-inventory-usa/thor-majestic-23a?stockNumber=851820",
+      "checked_at": "2026-11-26T03:33:23+00:00",
+      "source": "Cruise America, own inventory",
+      "year": 2020,
+      "model": "Thor Majestic 23A",
+      "price": 29995,
+      "currency": "USD",
+      "mileage": {
+        "value": 118537,
+        "unit": "mi"
+      },
+      "vin": "1FDWE3FS0KDC26374",
+      "location": "Chicago / East Dundee, IL",
+      "address": "895 Richardson, East Dundee, IL 60118",
+      "length": "25 ft (model spec)",
+      "height": "10.7 ft (model spec)",
+      "map_eligible": false,
+      "hold_reason_ru": "Официальный сайт прямо обозначает галерею как stock images модели, не фото этого экземпляра. VIN и цена проверены, но собственное фото RV не получено; отдельная зацепка вне карты. Doc fee и налоги/title/регистрация дополнительно, итог неизвестен.",
+      "secondary_sources": [
+        "https://www.rvuniverse.com/listings/for-sale/cruise-america-dundee-illinois/rvs/?LocationID=350017867636"
+      ]
+    },
+    {
+      "id": "rv-lead-300691350",
+      "vehicle_id": "rv-autotrader-300691350",
+      "url": "https://rvs.autotrader.com/rvs/2002/winnebago/sightseer/300691350",
+      "checked_at": "2026-11-26T03:33:23+00:00",
+      "source": "RVs on Autotrader",
+      "year": 2002,
+      "model": "Winnebago Sightseer",
+      "price": 19995,
+      "currency": "USD",
+      "vin": "5B4LP57G623348174",
+      "mileage": null,
+      "location": "Woodstock, IL",
+      "map_eligible": false,
+      "hold_reason_ru": "Цена и VIN прочитаны в активном объявлении, но его единственное изображение — рекламный баннер дилера, а не фото RV. Предложение сохранено отдельно; на карту с фотографиями не включено."
+    },
+    {
+      "id": "rv-lead-300691349",
+      "vehicle_id": "rv-autotrader-300691349",
+      "url": "https://rvs.autotrader.com/rvs/1993/winnebago/vectra/300691349",
+      "checked_at": "2026-11-26T03:33:23+00:00",
+      "source": "RVs on Autotrader",
+      "year": 1993,
+      "model": "Winnebago Vectra",
+      "price": 8995,
+      "currency": "USD",
+      "vin": "4S7UT9J1XPC010837",
+      "mileage": null,
+      "location": "Woodstock, IL",
+      "map_eligible": false,
+      "hold_reason_ru": "Цена и VIN прочитаны в активном объявлении, но его единственное изображение — рекламный баннер дилера, а не фото RV. Предложение сохранено отдельно; на карту с фотографиями не включено."
+    }
+  ],
+  "photo_correction": {
+    "vehicle_ids": [
+      "rv-autotrader-300691349",
+      "rv-autotrader-300691350"
+    ],
+    "finding": "Individual listing images visually prove to be dealer advertisements, not vehicle photos. Removed from current photo cards/map, retained as active text leads with verified VIN/price. Original files/history preserved.",
+    "discovered_in": "Desktop/mobile rendered QA before publication of the November 26 refresh."
+  },
+  "updated_at": "2026-11-26T03:42:01+00:00"
+}
