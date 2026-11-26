@@ -7677,7 +7677,11 @@
         "NJ"
       ],
       "rotation_reason": "Return to two local priority states and a low-count state afterID/MT/NH rotation; continue manual shortlist rechecks separately. National collector attempts nationwide coverage independently.",
-      "preservation": "All1145 prior national IDs, first_seen, source facts, price/status/photo histories and image files retained. One new original photograph and one new national house; manual prices/statuses unchanged with dated recheck observations. Dunbar neighbour reference does not become parcel coordinates. RV-vehicle, Sicily, flights, workflow and infrastructure unchanged."
+      "preservation": "All1145 prior national IDs, first_seen, source facts, price/status/photo histories and image files retained. One new original photograph and one new national house; manual prices/statuses unchanged with dated recheck observations. Dunbar neighbour reference does not become parcel coordinates. RV-vehicle, Sicily, flights, workflow and infrastructure unchanged.",
+      "ui_correction": {
+        "flow": "Property card with unknown additional fees must retain unknown, not display them as zero.",
+        "change": "app.js now distinguishes null/missing known_fees from numeric0; index cache version20261126-fees. New source status history gains to=active without removing originaldate/status/source."
+      }
     }
   ],
   "updated_at": "2026-11-23T03:15:37+00:00"
