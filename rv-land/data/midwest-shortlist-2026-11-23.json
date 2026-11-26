@@ -410,8 +410,8 @@
       "price_basis": "advertised_cash_asking_price",
       "status": "active",
       "status_basis": "live_public_page",
-      "last_verified": "2026-11-23T02:36:07+00:00",
-      "checked_at": "2026-11-23T02:36:07+00:00",
+      "last_verified": "2026-11-26T03:12:53+00:00",
+      "checked_at": "2026-11-26T03:12:53+00:00",
       "first_seen": "2026-11-23T02:36:07+00:00",
       "state": "IL",
       "city": "Sublette / Woodhaven",
@@ -452,6 +452,14 @@
           "date": "2026-11-23T02:36:07+00:00",
           "method": "Connected Chrome rendered public listing page",
           "url": "https://www.coldwellbanker.com/il/sublette/173-woodhaven-lk/lid-P00800000HAATKPdEtrVy9gyfn7hfi4ZphwXXyJE"
+        },
+        {
+          "date": "2026-11-26T03:12:53+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.coldwellbanker.com/il/sublette/173-woodhaven-lk/lid-P00800000HAATKPdEtrVy9gyfn7hfi4ZphwXXyJE",
+          "price": 18000,
+          "status": "active",
+          "note": "Active; gravel driveway still explicitly claimed. Source updated25Nov2026; older utility statements not reverified."
         }
       ],
       "photo_history": [
@@ -814,8 +822,8 @@
       "price_basis": "advertised_cash_asking_price",
       "status": "active",
       "status_basis": "live_public_page",
-      "last_verified": "2026-11-23T02:36:07+00:00",
-      "checked_at": "2026-11-23T02:36:07+00:00",
+      "last_verified": "2026-11-26T03:12:53+00:00",
+      "checked_at": "2026-11-26T03:12:53+00:00",
       "first_seen": "2026-11-23T02:36:07+00:00",
       "state": "IL",
       "city": "Sublette / Woodhaven",
@@ -856,6 +864,14 @@
           "date": "2026-11-23T02:36:07+00:00",
           "method": "Connected Chrome rendered public listing page",
           "url": "https://www.coldwellbanker.com/il/sublette/21-208-woodhaven-lakes/lid-P00800000Guh1AGIfXaj3PjeFTgMgPeu5lFaP7Js"
+        },
+        {
+          "date": "2026-11-26T03:12:53+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.coldwellbanker.com/il/sublette/21-208-woodhaven-lakes/lid-P00800000Guh1AGIfXaj3PjeFTgMgPeu5lFaP7Js",
+          "price": 19000,
+          "status": "active",
+          "note": "Active; source updated25Nov2026; seller ready-to-park-trailer and shed claims unchanged. RV fit and personal repair remain unknown."
         }
       ],
       "photo_history": [
@@ -1992,8 +2008,8 @@
       "price_basis": "advertised_cash_asking_price",
       "status": "active",
       "status_basis": "live_public_page",
-      "last_verified": "2026-11-23T02:36:07+00:00",
-      "checked_at": "2026-11-23T02:36:07+00:00",
+      "last_verified": "2026-11-26T03:12:53+00:00",
+      "checked_at": "2026-11-26T03:12:53+00:00",
       "first_seen": "2026-11-23T02:36:07+00:00",
       "state": "IN",
       "city": "Gary",
@@ -2034,6 +2050,14 @@
           "date": "2026-11-23T02:36:07+00:00",
           "method": "Connected Chrome rendered public listing page",
           "url": "https://www.redfin.com/IN/Gary/4173-Washington-St-46408/home/133224710"
+        },
+        {
+          "date": "2026-11-26T03:12:53+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.redfin.com/IN/Gary/4173-Washington-St-46408/home/133224710",
+          "price": 15000,
+          "status": "active",
+          "note": "Still For sale; garage claim unchanged; source update/fresh observation separated. Existing photo and condition warning retained."
         }
       ],
       "photo_history": [
@@ -2347,6 +2371,6 @@
       "note_ru": "$19,900 было старой ценой 2014 года; готовый гараж не доступен за эту сумму."
     }
   ],
-  "updated_at": "2026-11-25T03:17:14+00:00",
+  "updated_at": "2026-11-26T03:12:53+00:00",
   "update_note_ru": "25 ноября: добавлен 3949 Monroe под полное восстановление; 2694 Polk скрыт после явного Inactive/OFF MARKET. Maryland, Lundy и Woodhaven28-122 перепроверены живыми страницами. Даты остальных записей не обновлялись."
 }

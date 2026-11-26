@@ -10,7 +10,7 @@
   },
   "candidates": [
     {
-      "checked_at": "2026-11-23T00:54:33+00:00",
+      "checked_at": "2026-11-26T03:12:53+00:00",
       "first_seen": "2026-11-23T00:54:33+00:00",
       "price": 20000,
       "currency": "USD",
@@ -29,7 +29,7 @@
       "title": "Main St, Dunbar / Juniata",
       "county": "Fayette",
       "mls": "1733004",
-      "url": "https://www.trulia.com/home/main-st-dunbar-pa-15431-53274040",
+      "url": "https://www.coldwellbankerhomes.com/pa/dunbar/main-st/pid_68741041/",
       "acres": 0.248,
       "existing_garage": true,
       "existing_pad_photo_observed": true,
@@ -46,7 +46,13 @@
           "source": "https://www.trulia.com/home/main-st-dunbar-pa-15431-53274040",
           "kind": "portal_map_reference_unverified"
         },
-        "note_ru": "Juniata: только ориентир карты объявления. Участок и въезд не подтверждены; GPS-адрес продавца не найден."
+        "note_ru": "Juniata: только непроверенный ориентир карты портала, не точка гаража. Живая страница MLS советует GPS 417 Main Street Dunbar и уточняет, что гараж находится по соседству. Нельзя подменять участок соседа точным адресом гаража; границы и въезд не подтверждены.",
+        "note_history": [
+          {
+            "date": "2026-11-26T03:12:53+00:00",
+            "previous_note_ru": "Juniata: только ориентир карты объявления. Участок и въезд не подтверждены; GPS-адрес продавца не найден."
+          }
+        ]
       },
       "image_url": "assets/listings/4202cedf250c56291586.webp",
       "image_remote_url": "https://www.trulia.com/pictures/thumbs_5/zillowstatic/fp/40ce15f0671b96663eef709441beb1d7-full.jpg",
@@ -81,7 +87,25 @@
         "scope": "Only to the portal map reference, not verified property entrance",
         "source": "https://www.google.com/maps/dir/?api=1&origin=Pittsburgh+International+Airport&destination=39.981358,-79.714867&travelmode=driving",
         "checked_at": "2026-11-23T00:54:33+00:00"
-      }
+      },
+      "alternate_urls": [
+        "https://www.coldwellbankerhomes.com/pa/dunbar/main-st/pid_68741041/",
+        "https://www.trulia.com/home/main-st-dunbar-pa-15431-53274040"
+      ],
+      "last_verified": "2026-11-26T03:12:53+00:00",
+      "status_basis": "live_public_page",
+      "observations": [
+        {
+          "date": "2026-11-26T03:12:53+00:00",
+          "url": "https://www.coldwellbankerhomes.com/pa/dunbar/main-st/pid_68741041/",
+          "method": "Connected Chrome rendered public listing page",
+          "status": "active",
+          "price": 20000,
+          "note": "MLS1733004 Active20000, updated1Oct2026; seller directs GPS to417 MainStreet, garage next door.417 is a neighbour reference, not the parcel address. Dimensions/repair permission unknown."
+        }
+      ],
+      "directions_source_url": "https://www.coldwellbankerhomes.com/pa/dunbar/main-st/pid_68741041/",
+      "image_source_url": "https://www.trulia.com/home/main-st-dunbar-pa-15431-53274040"
     },
     {
       "checked_at": "2026-11-25T03:19:21+00:00",
@@ -272,5 +296,5 @@
     "Independent public Stessa robots/page200 supplied New Castle current price/status/coordinates and genuine photograph.",
     "All1125 national listing records, images and histories preserved; shortlist is separate and does not raise nightly budget."
   ],
-  "updated_at": "2026-11-25T03:19:21+00:00"
+  "updated_at": "2026-11-26T03:12:53+00:00"
 }

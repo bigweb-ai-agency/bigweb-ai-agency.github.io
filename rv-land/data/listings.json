@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-26T00:50:31+00:00",
+  "updated_at": "2026-11-26T03:12:53+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -150541,6 +150541,157 @@
         "Дорога /10": 6
       },
       "score": 23
+    },
+    {
+      "id": "oh-cleveland-mann-5239470",
+      "title": "13710 Mann Ave — дом as-is",
+      "address": "13710 Mann Ave, East Cleveland, OH 44112",
+      "city": "East Cleveland",
+      "state": "OH",
+      "county": "Cuyahoga",
+      "kind": "house",
+      "price": 14900,
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "known_fees": null,
+      "total_known": 14900,
+      "known_subtotal_note": "Advertised purchase price only; fees, title/debts and repairs unknown.",
+      "closing_costs": "Расходы сделки, долги, обследование и восстановление не включены и не оценены.",
+      "acres": 0.09548,
+      "lot_sqft": 4159,
+      "lat": 41.542261,
+      "lng": -81.5873045,
+      "coord_precision": "address_geocoded",
+      "coord_source_url": "https://www.google.com/maps/place/13710+Mann+Ave,+East+Cleveland,+OH+44112,+USA/@41.542261,-81.5873045,1165m/data=!3m2!1e3!4b1!4m6!3m5!1s0x8830fea4ab299953:0xebffdcddf42102f2!8m2!3d41.542261!4d-81.5873045!16s%2Fg%2F11cs9d1rfq",
+      "coordinate_note_ru": "Адрес сопоставлен в Google Maps; это точка адреса, не проверенные границы участка или RV-въезд.",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source": "Coldwell Banker public MLS listing",
+      "source_updated": "2026-11-25",
+      "mls": "5239470",
+      "url": "https://www.coldwellbanker.com/oh/cleveland/13710-mann-ave/lid-P00800000HGFxhtnC5KyJ78wAGIZKu7ccVYJ32Rk",
+      "first_seen": "2026-11-26T03:12:53+00:00",
+      "last_seen": "2026-11-26T03:12:53+00:00",
+      "last_verified": "2026-11-26T03:12:53+00:00",
+      "verified": "2026-11-26T03:12:53+00:00",
+      "legacy": false,
+      "image_url": "assets/listings/493d379ee90f05380471.jpg",
+      "image_remote_url": "https://images-listings.coldwellbanker.com/OH_NORMLS/52/39/47/0/_P/5239470_P00.jpg",
+      "image_source_url": "https://www.coldwellbanker.com/oh/cleveland/13710-mann-ave/lid-P00800000HGFxhtnC5KyJ78wAGIZKu7ccVYJ32Rk",
+      "image_credit": "Original listing photograph, MLS5239470; unchanged bytes",
+      "photo_kind": "Исходная фотография фасада из объявления",
+      "photo_preserved_at": "2026-11-26T03:12:53+00:00",
+      "photo_checked_at": "2026-11-26T03:12:53+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/493d379ee90f05380471.jpg",
+          "source": "https://www.coldwellbanker.com/oh/cleveland/13710-mann-ave/lid-P00800000HGFxhtnC5KyJ78wAGIZKu7ccVYJ32Rk",
+          "remote_url": "https://images-listings.coldwellbanker.com/OH_NORMLS/52/39/47/0/_P/5239470_P00.jpg",
+          "date": "2026-11-26T03:12:53+00:00",
+          "sha256": "493d379ee90f0538047182013521dd8e7280c083c3cff1cd0efe2b6dcfc29da6",
+          "method": "Rendered public listing photograph; original JPEG bytes retained; CDN robots404 and HTTP200, magic verified."
+        }
+      ],
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "rv": "Габариты и право хранения/ремонта высокого RV неизвестны.",
+      "existing_garage": null,
+      "garage_size": null,
+      "garage_note": "Гараж не подтверждён; на единственном фото виден фасад дома. Размеры ворот и помещения неизвестны.",
+      "garage_workshop": "unknown",
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "septic": "unknown",
+      "utility_note": "Наличие и рабочее состояние коммуникаций по живой странице не установлены.",
+      "no_hoa": "unknown",
+      "road_access": "unknown",
+      "road_note": "На фото справа видна полоса покрытия; принадлежность, ширина, разворот и проезд большого RV не подтверждены.",
+      "zoning": "unknown",
+      "terrain": "Городской участок; поверхность и уклон не измерены.",
+      "dimensions": "Участок 4,159 sqft по MLS; длина/ширина неизвестны.",
+      "price_note": "$14,900 — полная asking price дома по живой странице, Cash only; это не взнос, аренда или старт аукциона. Дополнительные расходы неизвестны.",
+      "flags": [
+        "Дом as-is; объём восстановления не установлен. Въезд и возможность хранения высокого 7-метрового RV не подтверждены.",
+        "Вне зоны 150 км от Minnetonka/MSP и Chicago ORD; отдельная национальная зацепка в Ohio.",
+        "Права на землю, title, долги, zoning и разрешения личного ремонта не проверены."
+      ],
+      "notes": [
+        "4 спальни, 2 санузла, год 1920, участок 4,159 sqft — сведения продавца. Дом на своей заявленной площадке, документы не проверены.",
+        "На исходном фото виден фасад и покрытие справа. Нельзя считать это доказательством отдельного гаража, своей парковочной полосы или места под большой RV.",
+        "Подтверждённая цена и неизвестные RV-размеры сохранены отдельно: это исследовательская зацепка, не готовая разрешённая база."
+      ],
+      "evidence_quote": "Investor Special. As-is purchase. Cash only!",
+      "observations": [
+        {
+          "date": "2026-11-26T03:12:53+00:00",
+          "url": "https://www.coldwellbanker.com/oh/cleveland/13710-mann-ave/lid-P00800000HGFxhtnC5KyJ78wAGIZKu7ccVYJ32Rk",
+          "method": "Connected Chrome rendered public listing page; MLS5239470 Active14900; source25Nov2026; Google Maps address match."
+        }
+      ],
+      "status_history": [
+        {
+          "date": "2026-11-26T03:12:53+00:00",
+          "status": "active",
+          "source": "https://www.coldwellbanker.com/oh/cleveland/13710-mann-ave/lid-P00800000HGFxhtnC5KyJ78wAGIZKu7ccVYJ32Rk"
+        }
+      ],
+      "price_history": [
+        {
+          "date": "2026-11-26T03:12:53+00:00",
+          "price": 14900,
+          "price_basis": "asking_cash",
+          "source": "https://www.coldwellbanker.com/oh/cleveland/13710-mann-ave/lid-P00800000HGFxhtnC5KyJ78wAGIZKu7ccVYJ32Rk"
+        }
+      ],
+      "region": "Средний Запад",
+      "screening_issue": null,
+      "climate_note": "Искать отдельный гараж или дом с ним. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "DTW",
+          "name": "Detroit Metropolitan Wayne County Airport",
+          "straight_km": 164,
+          "drive_km_estimate": 205,
+          "drive_hours_estimate": 2.7,
+          "flight_min_eur": null,
+          "flight_origin": null,
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "IAD",
+          "name": "Washington Dulles International Airport",
+          "straight_km": 454,
+          "drive_km_estimate": 568,
+          "drive_hours_estimate": 7.6,
+          "flight_min_eur": 381,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "ORD",
+          "name": "Chicago O'Hare International Airport",
+          "straight_km": 526,
+          "drive_km_estimate": 658,
+          "drive_hours_estimate": 8.8,
+          "flight_min_eur": 384,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1012,
+      "score_parts": {
+        "Цена /25": 5,
+        "Помещение /25": 9,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 4,
+        "Дорога /10": 7
+      },
+      "score": 25,
+      "source_updated_display": "November 25, 2026, 03:43 PM; timezone not specified by rendered page"
     }
   ]
 }

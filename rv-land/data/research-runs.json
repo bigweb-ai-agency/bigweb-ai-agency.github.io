@@ -7555,6 +7555,129 @@
         "derived_gateway_records_updated": 108,
         "scope": "Only derived gateway airfare fields changed in national listings after adding the fresh MSP fare. All1138 IDs, first_seen, property facts and prior price/status/photo histories unchanged; no RV or Sicily files changed."
       }
+    },
+    {
+      "date": "2026-11-26T03:14:12+00:00",
+      "type": "scheduled_public_research",
+      "states": [
+        "ID",
+        "MT",
+        "NH",
+        "OH",
+        "IL",
+        "IN",
+        "PA"
+      ],
+      "added_ids": [
+        "oh-cleveland-mann-5239470"
+      ],
+      "updated_ids": [
+        "il-woodhaven-12633624",
+        "il-woodhaven-12410573",
+        "in-gary-838047",
+        "pa-dunbar-main-1733004"
+      ],
+      "workflow_review": {
+        "run_id": 45731560892,
+        "conclusion": "success",
+        "last_run": "2026-11-26T00:50:31+00:00",
+        "collector_status": "partial",
+        "added": 7,
+        "changed": 2,
+        "read_details": 28,
+        "scanned_pages": 109,
+        "errors": 58,
+        "published_head": "1f5b890",
+        "pages_run_id": 45732156409,
+        "note": "Actual nightly discovery and its Pages publication completed successfully. Source-level errors remain explicit; no failed access changed sale status. No fallback collector necessary."
+      },
+      "scope": "Rotated three states with fewer than ten photo candidates, plus regional manual rechecks and a deferred Ohio house. Kept broad house/garage research without treating unknown RV fit as a reason to discard real property. No RV-vehicle research imported.",
+      "findings": [
+        {
+          "url": "https://www.coldwellbanker.com/oh/cleveland/13710-mann-ave/lid-P00800000HGFxhtnC5KyJ78wAGIZKu7ccVYJ32Rk",
+          "basis": "live_public_page",
+          "finding": "MLS5239470 Active, cash-only asking14900, source updated25Nov. Previously deferred photo now visibly loads and original JPEG preserved withSHA256.4bed/2bath,1920,4159sqft lot. Garage, legal repair, RV access and usable parking remain unknown; visible strip of paving may not belong to subject. Retained as a national research lead outside150km Minnetonka/MSP/ORD, not a ready RV base.",
+          "coordinate_source": "https://www.google.com/maps/search/?api=1&query=13710%20Mann%20Ave%2C%20East%20Cleveland%2C%20OH%2044112",
+          "coordinates": {
+            "lat": 41.542261,
+            "lng": -81.5873045,
+            "precision": "address_geocoded",
+            "note": "Google Maps matched full address; parcel boundaries and vehicle entry unverified."
+          }
+        },
+        {
+          "url": "https://www.coldwellbanker.com/id/nampa/447-1st-st-n/lid-P00800000HI8M7gUjxe0vScg0nXVV38PGdedSsj9",
+          "basis": "live_public_page",
+          "finding": "MLS99002375 Pending;15000 is explicitly an initial online-auction bid, plus5percent buyer premium with possible minimum and seller approval. RV-parking/shed claims do not turn the opening bid into a fixed cash purchase. Not imported."
+        },
+        {
+          "url": "https://www.redfin.com/ID/Orofino/6-Chinook-Ln-83544/home/201546135",
+          "basis": "indexed_public_page",
+          "finding": "Older15000 lead sold1Jul2026 for12000; mobile-home-park setting. Listing removal is also shown in Zillow history. Not reactivated from an older Homes.com snapshot."
+        },
+        {
+          "url": "https://www.villagewellth.com/businesses-for-sale/est-auto-garage-wholesale-retail-multi-fuel-dist-mt-cmwmrgec800hts601xxapjngj",
+          "basis": "live_public_page",
+          "finding": "Active garage/fuel-distribution business asks2.3million, not15000. The15000 field is Other among assets; no complete low-budget freehold garage purchase established."
+        },
+        {
+          "url": "https://www.craigslist.org/search/area/bozeman?cat=sss&query=garage",
+          "basis": "indexed_public_page",
+          "finding": "Cheap garage search returns building kits, covers, garage sales and unrelated goods.22x25x9ft advertised new steel building around10960 is not verified land with an existing garage; user does not plan construction."
+        },
+        {
+          "url": "https://www.coldwellbanker.com/nh/meredith/20-true-rd-unit-37/lid-P00800000GeyNNeMldAmQ55JOkYuOOC2SLMrxZ33",
+          "basis": "live_public_page",
+          "finding": "MLS5012453 Sold10Mar2025,12000 header versus old15000 description. Sale is mobile home only, explicitly must be moved at buyer expense. Underlying land not included; excluded on both availability and property scope."
+        },
+        {
+          "url": "https://www.coldwellbanker.com/il/sublette/173-woodhaven-lk/lid-P00800000HAATKPdEtrVy9gyfn7hfi4ZphwXXyJE",
+          "basis": "live_public_page",
+          "finding": "MLS12633624 stillActive18000; source updated25Nov. Existing gravel driveway remains seller claim. Old utility claims are not newly confirmed."
+        },
+        {
+          "url": "https://www.coldwellbanker.com/il/sublette/21-208-woodhaven-lakes/lid-P00800000Guh1AGIfXaj3PjeFTgMgPeu5lFaP7Js",
+          "basis": "live_public_page",
+          "finding": "MLS12410573 stillActive19000; source updated25Nov. Seller ready-to-park-trailer and shed claims retained, without equating them to highRVfit or personal-repair permission."
+        },
+        {
+          "url": "https://www.redfin.com/IN/Gary/4173-Washington-St-46408/home/133224710",
+          "basis": "live_public_page",
+          "finding": "StillForSale15000. Existing garage claim and previous warning that the original photo does not demonstrate the house/garage retained. No new physical readiness asserted."
+        },
+        {
+          "url": "https://www.coldwellbankerhomes.com/pa/dunbar/main-st/pid_68741041/",
+          "basis": "live_public_page",
+          "finding": "Manual garage MLS1733004 stillActive20000; source updated1Oct2026, not old23000 indexed amount. Source directs GPS to417MainStreetDunbar and says garage next door. Stored as neighbour reference only: exact parcel coordinates remainnull; old portal reference and road-estimate limits retained. New accessible primaryURL added while oldTruliaURL/photos/history preserved."
+        }
+      ],
+      "collector_change_review": {
+        "price_cuts": [
+          {
+            "id": "lc-24732",
+            "from": 7999,
+            "to": 5999
+          },
+          {
+            "id": "lc-24727",
+            "from": 6999,
+            "to": 4999
+          }
+        ],
+        "finding": "Both are EastSaintLouis bare-land offers with no demonstrated existing ready RV area or building; price cuts do not make them materially better ready bases. Seven automated additions are land/commercial-lot candidates without existing-garage claims."
+      },
+      "flight_review": {
+        "status": "not_due",
+        "last_updated": "2026-11-25T03:19:21+00:00",
+        "note": "Yesterday six detailed control cards and four fresh structured quotes were published.879 observations and provider histories unchanged today; no repeated cached fare relabelled fresh."
+      },
+      "next_states": [
+        "MN",
+        "WI",
+        "NJ"
+      ],
+      "rotation_reason": "Return to two local priority states and a low-count state afterID/MT/NH rotation; continue manual shortlist rechecks separately. National collector attempts nationwide coverage independently.",
+      "preservation": "All1145 prior national IDs, first_seen, source facts, price/status/photo histories and image files retained. One new original photograph and one new national house; manual prices/statuses unchanged with dated recheck observations. Dunbar neighbour reference does not become parcel coordinates. RV-vehicle, Sicily, flights, workflow and infrastructure unchanged."
     }
   ],
   "updated_at": "2026-11-23T03:15:37+00:00"
