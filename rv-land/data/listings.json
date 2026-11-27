@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-27T00:50:35+00:00",
+  "updated_at": "2026-11-27T03:19:11+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -783,8 +783,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-14T00:25:00+03:00",
-      "last_seen": "2026-09-13T22:25:02+00:00",
-      "last_verified": "2026-09-14",
+      "last_seen": "2026-11-27T03:19:11+00:00",
+      "last_verified": "2026-11-27T03:19:11+00:00",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -805,7 +805,7 @@
       "lat": 43.66711,
       "lng": -94.61879,
       "coord_precision": "city",
-      "status": "pending",
+      "status": "sold",
       "minneapolis_miles_approx": 160,
       "rv": "Excellent physical setup for a camper base; verify city rules for outdoor RV parking and mechanical work",
       "restrictions": "Residential single-family; HOA $0 shown",
@@ -819,7 +819,7 @@
       "url": "https://www.coldwellbankerhomes.com/mn/welcome/307-hulseman-st/pid_73629480/",
       "verified": "2026-09-14",
       "source": "Imported research",
-      "status_basis": "legacy_unrechecked",
+      "status_basis": "live_public_page",
       "known_fees": 0,
       "total_known": 15000,
       "legacy": true,
@@ -840,9 +840,10 @@
       "road_access": "unknown",
       "flags": [
         "В прежней подборке отмечен pending. Публичная страница сейчас блокирует повторную проверку.",
-        "24×24 ft — примерно 7.3×7.3 м снаружи: запас для 7-метрового RV минимален; длина внутри и высота ворот неизвестны."
+        "24×24 ft — примерно 7.3×7.3 м снаружи: запас для 7-метрового RV минимален; длина внутри и высота ворот неизвестны.",
+        "27.11.2026: прежнее предупреждение о недоступной странице стало историческим; текущая страница явно Sold / Closed. Объект исключён и из архива текущих предложений."
       ],
-      "evidence_quote": "307 Hulseman St — fixer + 24×24 garage Excellent physical setup for a camper base; verify city rules for outdoor RV parking",
+      "evidence_quote": "Status: Closed",
       "legacy_original": {
         "id": "mn-welcome-hulseman-7141779",
         "title": "307 Hulseman St — fixer + 24×24 garage",
@@ -873,7 +874,7 @@
         "verified": "2026-09-14"
       },
       "region": "Средний Запад",
-      "screening_issue": null,
+      "screening_issue": "availability_not_confirmed_by_source",
       "climate_note": "Сохранена прежняя подборка. Климатическая оценка региона, не замер на участке.",
       "gateways": [
         {
@@ -916,7 +917,7 @@
         "Сезон /10": 2,
         "Дорога /10": 7
       },
-      "score": 42,
+      "score": 20,
       "price_history": [
         {
           "date": "2026-09-14T00:25:00+03:00",
@@ -924,7 +925,14 @@
           "source": "https://www.coldwellbankerhomes.com/mn/welcome/307-hulseman-st/pid_73629480/"
         }
       ],
-      "status_history": [],
+      "status_history": [
+        {
+          "date": "2026-11-27T03:19:11+00:00",
+          "from": "pending",
+          "to": "sold",
+          "source": "https://www.coldwellbankerhomes.com/mn/welcome/307-hulseman-st/pid_73629480/"
+        }
+      ],
       "image_remote_url": "embedded prior research photograph",
       "photo_preserved_at": "2026-09-13T23:05:59+00:00",
       "photo_history": [
@@ -934,6 +942,22 @@
           "remote_url": "embedded prior research photograph",
           "date": "2026-09-13T23:05:59+00:00"
         }
+      ],
+      "sold_price": 15000,
+      "sale_status_note": "27 ноября 2026 живая MLS-страница показывает Sold / Closed. $15,000 — показанная сумма завершённой продажи; прежняя asking price и её история сохранены. Дата сделки на прочитанной части страницы не указана.",
+      "observations": [
+        {
+          "date": "2026-11-27T03:19:11+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.coldwellbankerhomes.com/mn/welcome/307-hulseman-st/pid_73629480/",
+          "status": "sold",
+          "displayed_status": "Sold / Closed",
+          "sold_price": 15000,
+          "note": "Explicit current closed header. Asking-price history, original photo and legacy facts retained; this check does not independently reverify garage condition or exact parcel location."
+        }
+      ],
+      "alternate_urls": [
+        "https://www.coldwellbankerhomes.com/mn/welcome/307-hulseman-st/pid_73629480/"
       ]
     },
     {

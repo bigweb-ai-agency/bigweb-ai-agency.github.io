@@ -7682,7 +7682,206 @@
         "flow": "Property card with unknown additional fees must retain unknown, not display them as zero.",
         "change": "app.js now distinguishes null/missing known_fees from numeric0; index cache version20261126-fees. New source status history gains to=active without removing originaldate/status/source."
       }
+    },
+    {
+      "date": "2026-11-27T03:19:11+00:00",
+      "type": "scheduled_public_research",
+      "states": [
+        "MN",
+        "WI",
+        "NJ",
+        "IN",
+        "IL",
+        "PA"
+      ],
+      "added_ids": [],
+      "updated_ids": [
+        "mn-welcome-hulseman-7141779",
+        "il-woodhaven-12809498",
+        "in-gary-848614",
+        "in-gary-848615",
+        "in-gary-837118",
+        "pa-newcastle-ray-1783220"
+      ],
+      "workflow_review": {
+        "run_id": 45919054424,
+        "conclusion": "success",
+        "created_at": "2026-11-27T00:50:11Z",
+        "last_run": "2026-11-27T00:50:35+00:00",
+        "collector_status": "partial",
+        "added": 4,
+        "changed": 3,
+        "read_details": 25,
+        "scanned_pages": 109,
+        "errors": 59,
+        "published_head": "5d93249",
+        "note": "Actual completed/success workflow and freshmain verified. Known individual source404errors remain explicit; collector available, no fallback needed.",
+        "pages_run_id": 45919568221,
+        "pages_conclusion": "success"
+      },
+      "scope": "MN/WI localpriority and low-countNJ rotation, separateIL/IN/PA manualrechecks. Realhouse/garage lead retainedevenwhenfitunknown; noquotafiller. NoRVvehiclesresearch.",
+      "findings": [
+        {
+          "url": "https://www.coldwellbankerhomes.com/mn/welcome/307-hulseman-st/pid_73629480/",
+          "basis": "live_public_page",
+          "finding": "Original Hulseman garage lead now explicitlySold/Closed. Updated existingID throughmerge_records; kept asking15000, originalphotograph and first_seen. Soldamount15000 recorded separately; no unsupported closing date invented."
+        },
+        {
+          "url": "https://affinityrealestate.com/listings/brochure/6697364",
+          "basis": "live_public_pdf",
+          "finding": "MN12132County6/ParkRapids advertises19900, single-stall garage/slab/electricity but explicitClosed. Not imported from a recently crawled obsolete offer."
+        },
+        {
+          "url": "https://www.exprealty.com/circle-pines-mn-real-estate/3666-92nd-ave-ne",
+          "basis": "indexed_public_page",
+          "finding": "MN15000 manufactured home explicitly has lot rent; does not buy underlying land. Not imported."
+        },
+        {
+          "url": "https://rustysupnorthrealty.com/PropertyDetails/NST7104441/8380-main-street-55756/MG_NST",
+          "basis": "indexed_public_page",
+          "finding": "Kerrick15000 commercial building explicitlyPending; cracked centerbeam and uncertain permitted futureuse. Not a new available readybase."
+        },
+        {
+          "url": "https://city.milwaukee.gov/ImageLibrary/Groups/cityDCD/realestate/CommercialBldgsforSale/2665-67S13thSt_ListingSheet.pdf",
+          "basis": "live_public_pdf",
+          "finding": "WI15000 mixed-use building/garage flyer persists, but officialDCDsalesreport below records closed2May2019. Do not label the historical flyer a current2026 offer. Originalflyer required restoration and excluded a parking-lot proposal."
+        },
+        {
+          "url": "https://milwaukee.legistar.com/View.ashx?GUID=034D06F0-B1C8-4245-B30B-FC90BDA3994C&ID=8866605&M=F",
+          "basis": "live_public_pdf",
+          "finding": "OfficialDCDreport2017–Sep2020 lists2665-67S13th, key4961411000, closed2May2019. Historicalsale does not rule out a future relisting, but no currentlisting established."
+        },
+        {
+          "url": "https://www.coldwellbankerhomes.com/nj/camden/80-s-of-spruce-st/pid_73250018/",
+          "basis": "live_public_page",
+          "finding": "NJ9995fee-simple seller parking-lot claim verifiedActive; genuinephoto preserved. Fullpriceisnotmonthly/deposit. Parcelconflict and unconfirmeddepth prevent honestplotting; retained below as dateddeferredlead rather than inventingcoordinates."
+        },
+        {
+          "url": "https://njparcels.com/property/0408/310/16/",
+          "basis": "live_public_page",
+          "finding": "Recordaddress points westside7th,80southofSpruce; adjacent909S7th,634/636Spruce. MLSdrivingdirectionSpruce/S2nd is inconsistent. Noownercontactdetails copied."
+        },
+        {
+          "url": "https://www.coldwellbanker.com/il/sublette/15-101-woodhaven/lid-P00800000HKYPZLluenyjobAmaR02kQbku9DfZ3K",
+          "basis": "live_public_page",
+          "finding": "Active14900. Utility hookups remain seller claims; a pull-through driveway is only proposed, not an existing confirmed ready pad."
+        },
+        {
+          "url": "https://www.coldwellbanker.com/in/gary/830-van-buren-st/lid-P00800000HKmnzE6vTmzG1rVlt3OBaFbBRdP0Ps2",
+          "basis": "live_public_page",
+          "finding": "Active16000. Seller still describes major repairs throughout and as-is sale. Previously indexed two-car garage claim is not newly confirmed by this page."
+        },
+        {
+          "url": "https://www.coldwellbanker.com/in/gary/1137-van-buren-st/lid-P00800000HKmnzE6vTmzG1rVlt3OBaFbJVjtaIHA",
+          "basis": "live_public_page",
+          "finding": "Active10000. Major repairs throughout; seller makes no repairs. No garage or ready RV space confirmed."
+        },
+        {
+          "url": "https://www.coldwellbanker.com/in/gary/2461-delaware-st/lid-P00800000H9QrDhXXB5dmrzcWvJv4vimzc0FLHf8",
+          "basis": "live_public_page",
+          "finding": "Active5500 cash offers only; seller expressly says house needs restoration. Original photo/history retained; garage and RV area unknown."
+        },
+        {
+          "url": "https://www.stessa.com/investment-properties/607-s-ray-st-new-castle-pa-16101/details/2uptdXdTbTyi",
+          "basis": "live_public_page",
+          "finding": "PA607SRaystillActive20000 with oversized3-car detachedgarage claim. MLSsource lastupdated12Nov; actualcheck27Nov. Oldimage/price/statushistory retained."
+        }
+      ],
+      "deferred_candidates": [
+        {
+          "id": "nj-camden-parking-NJCD2125422",
+          "first_seen": "2026-11-27T03:19:11+00:00",
+          "last_verified": "2026-11-27T03:19:11+00:00",
+          "title": "80 S Of Spruce St — fenced parking-lot lead",
+          "state": "NJ",
+          "county": "Camden",
+          "city": "Camden",
+          "mls": "NJCD2125422",
+          "url": "https://www.coldwellbankerhomes.com/nj/camden/80-s-of-spruce-st/pid_73250018/",
+          "status": "active",
+          "status_basis": "live_public_page",
+          "source_updated": "2026-11-02",
+          "price": 9995,
+          "price_basis": "advertised_cash_asking_price",
+          "currency": "USD",
+          "known_fees": null,
+          "closing_costs_known": false,
+          "ownership": "fee_simple_seller_claim",
+          "lot_sqft": 802,
+          "lot_dimensions_claim": "20.00 x 0.00; unusable depth, not a surveyed measurement",
+          "existing_garage": false,
+          "personal_repair": "unknown",
+          "rv_storage": "unknown",
+          "rv_occupancy": "unknown",
+          "commercial_repair": "unknown",
+          "location": {
+            "lat": null,
+            "lon": null,
+            "reference": null,
+            "note_ru": "Точный участок не установлен. MLS противоречит сам себе: Spruce/S2nd против907S7th. Google выдаёт80Spruce и предупреждает,что точка неточная. На карту по этому геокоду не импортирован."
+          },
+          "rejected_map_reference": {
+            "lat": 39.9341957,
+            "lon": -75.1280426,
+            "kind": "rejected_ambiguous_address_geocode_do_not_plot",
+            "source": "https://www.google.com/maps/place/80+S+Of+Spruce+Street+Camden+NJ+08103"
+          },
+          "parcel_claim": {
+            "block": "310",
+            "lot": "16",
+            "municipality": "0408",
+            "source": "https://njparcels.com/property/0408/310/16/",
+            "note": "Public-record aggregator labels WS7TH80SOOFSPRUCE adjacent909S7th/634/636Spruce, supporting the address conflict; county GIS/deed match still needed."
+          },
+          "photo": {
+            "image_url": "assets/listings/9c738434960c0b491080.webp",
+            "image_remote_url": "https://m1.cbhomes.com/p/339/NJCD2125422/A4874196073a463/pds23tp.webp",
+            "sha256": "9c738434960c0b4910802fe2a4a692121ae435288c94819bdd28ecf706f9bc41",
+            "bytes": 24118,
+            "source": "https://www.coldwellbankerhomes.com/nj/camden/80-s-of-spruce-st/pid_73250018/",
+            "date": "2026-11-27T03:19:11+00:00",
+            "method": "Observed rendered listing image; HTTP200 original WebP bytes, robots404; no transformations."
+          },
+          "physical_note_ru": "Исходное фото показывает ограждение, ворота и частично заросшую поверхность. Ширина ворот, фактическая длина/несущая способность и возможность въезда высокого7мRV неизвестны. Вода/канализация только доступны к подключению, не подключены по объявлению.",
+          "legal_note_ru": "R2 — заявление MLS. Действующий кодCamden по официальному кодификатору не удалось повторно открыть(403); разрешение самостоятельного храненияRV и личного ремонта не установлено. Чужие перепечатки и проектные материалы не считаются разрешением.",
+          "deferred_reason": "Resolve parcel/address conflict with county GIS before importing a map point. RV fit and permission remain unknown, not grounds to erase the genuine lead."
+        }
+      ],
+      "source_access": [
+        {
+          "url": "https://www.movetorochester.com/property-search/detail/47/7141779/307-hulseman-street-welcome-mn-56181/",
+          "result": "ChromeAccessdenied1005/ASN; no bypass. IndependentCBsource explicitlyClosed."
+        },
+        {
+          "url": "https://city.milwaukee.gov/CommercialBuildings",
+          "result": "ChromeCloudflareverification; not solved. OfficiallegislativeDCDsalesreport read independently."
+        },
+        {
+          "url": "https://ecode360.com/28223260",
+          "result": "CodeTOC loaded once but follow-up returned403; no bypass and no new legalpermission asserted."
+        }
+      ],
+      "collector_change_review": {
+        "finding": "Two relistedbarelandpricecuts:lc26214Mosca6850to4110 andlc26688Concho10285to8228; thirdchangedrecordlc22777photoupdate. FournewCA/TX/AZlandrecords have no existinggarage claim. Not materially betterreadybases. No automatedfacts/historyrewritten."
+      },
+      "flight_review": {
+        "status": "not_due",
+        "last_updated": "2026-11-25",
+        "note": "Weeklycomparisonrefreshed25Nov; no cachedfare relabelled fresh. Flightsunchanged."
+      },
+      "next_states": [
+        "IL",
+        "OH",
+        "DE"
+      ],
+      "rotation_reason": "AfterMN/WI/NJ, revisitpriorityIL/OH pluszero-countDE; manualshortlistlivechecks rotate independently. Automatedcollectorattemptsall50 nightly.",
+      "preservation": "All1150 nationalIDs/first_seen/price/photohistories retained; only Hulsemannewexplicitclosedobservation andderivedanalysis changed. AllmanualIDs/status/prices/photo histories retained; fivefreshchecks andoneclarifiedrestorationnote. OriginalnewCamdenWebPkeptasdeferredlead withnullcoordinates; nofalsemapmarker. RVvehicles,Sicily,flights,workflow,infrastructureunchanged.",
+      "validation": {
+        "focused_tests": "node --test rv-land/tests/test_midwest.cjs rv-land/tests/test_availability.cjs: 7 passed",
+        "database": "1150 retained records,1149 photos,50 states,all20 originalIDs",
+        "preservation": "All1150 nationalIDs,first_seen,price/photohistories unchanged; all23Midwest/2PA IDs,prices,statuses,photos and oldobservations retained; previousjournal entries unchanged; newdeferredWebP SHA256verified."
+      }
     }
   ],
-  "updated_at": "2026-11-23T03:15:37+00:00"
+  "updated_at": "2026-11-27T03:19:11+00:00"
 }

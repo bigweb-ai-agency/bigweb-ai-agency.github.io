@@ -13,8 +13,8 @@
       "price_basis": "advertised_cash_asking_price",
       "status": "active",
       "status_basis": "live_public_page",
-      "last_verified": "2026-11-23T02:36:07+00:00",
-      "checked_at": "2026-11-23T02:36:07+00:00",
+      "last_verified": "2026-11-27T03:19:11+00:00",
+      "checked_at": "2026-11-27T03:19:11+00:00",
       "first_seen": "2026-11-23T02:36:07+00:00",
       "state": "IL",
       "city": "Sublette / Woodhaven",
@@ -55,6 +55,16 @@
           "date": "2026-11-23T02:36:07+00:00",
           "method": "Connected Chrome rendered public listing page",
           "url": "https://www.coldwellbanker.com/il/sublette/15-101-woodhaven/lid-P00800000HKYPZLluenyjobAmaR02kQbku9DfZ3K"
+        },
+        {
+          "date": "2026-11-27T03:19:11+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.coldwellbanker.com/il/sublette/15-101-woodhaven/lid-P00800000HKYPZLluenyjobAmaR02kQbku9DfZ3K",
+          "status": "active",
+          "price": 14900,
+          "source_updated_display": "November 26, 2026, 01:05 PM",
+          "source_timezone": "not specified",
+          "note": "Active14900. Utility hookups remain seller claims; a pull-through driveway is only proposed, not an existing confirmed ready pad."
         }
       ],
       "photo_history": [
@@ -102,7 +112,8 @@
       "image_url": "assets/listings/2ee7c4f732c309e9ef42.jpg",
       "image_source_url": "https://www.coldwellbanker.com/il/sublette/15-101-woodhaven/lid-P00800000HKYPZLluenyjobAmaR02kQbku9DfZ3K",
       "airport_straight_km": 119.4,
-      "inspection_order": 12
+      "inspection_order": 12,
+      "source_updated": "2026-11-26"
     },
     {
       "id": "il-woodhaven-12702743",
@@ -1426,8 +1437,8 @@
       "price_basis": "advertised_cash_asking_price",
       "status": "active",
       "status_basis": "live_public_page",
-      "last_verified": "2026-11-23T02:36:07+00:00",
-      "checked_at": "2026-11-23T02:36:07+00:00",
+      "last_verified": "2026-11-27T03:19:11+00:00",
+      "checked_at": "2026-11-27T03:19:11+00:00",
       "first_seen": "2026-11-23T02:36:07+00:00",
       "state": "IN",
       "city": "Gary",
@@ -1468,6 +1479,16 @@
           "date": "2026-11-23T02:36:07+00:00",
           "method": "Connected Chrome rendered public listing page",
           "url": "https://www.coldwellbanker.com/in/gary/830-van-buren-st/lid-P00800000HKmnzE6vTmzG1rVlt3OBaFbBRdP0Ps2"
+        },
+        {
+          "date": "2026-11-27T03:19:11+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.coldwellbanker.com/in/gary/830-van-buren-st/lid-P00800000HKmnzE6vTmzG1rVlt3OBaFbBRdP0Ps2",
+          "status": "active",
+          "price": 16000,
+          "source_updated_display": "November 25, 2026, 03:42 PM",
+          "source_timezone": "not specified",
+          "note": "Active16000. Seller still describes major repairs throughout and as-is sale. Previously indexed two-car garage claim is not newly confirmed by this page."
         }
       ],
       "photo_history": [
@@ -1511,7 +1532,8 @@
       "image_source_url": "https://www.coldwellbanker.com/in/gary/830-van-buren-st/lid-P00800000HKmnzE6vTmzG1rVlt3OBaFbBRdP0Ps2",
       "airport_straight_km": 64.6,
       "garage_spaces_claim": 2,
-      "inspection_order": 18
+      "inspection_order": 18,
+      "source_updated": "2026-11-25"
     },
     {
       "id": "in-gary-848615",
@@ -1521,8 +1543,8 @@
       "price_basis": "advertised_cash_asking_price",
       "status": "active",
       "status_basis": "live_public_page",
-      "last_verified": "2026-11-23T02:36:07+00:00",
-      "checked_at": "2026-11-23T02:36:07+00:00",
+      "last_verified": "2026-11-27T03:19:11+00:00",
+      "checked_at": "2026-11-27T03:19:11+00:00",
       "first_seen": "2026-11-23T02:36:07+00:00",
       "state": "IN",
       "city": "Gary",
@@ -1563,6 +1585,16 @@
           "date": "2026-11-23T02:36:07+00:00",
           "method": "Connected Chrome rendered public listing page",
           "url": "https://www.coldwellbanker.com/in/gary/1137-van-buren-st/lid-P00800000HKmnzE6vTmzG1rVlt3OBaFbJVjtaIHA"
+        },
+        {
+          "date": "2026-11-27T03:19:11+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.coldwellbanker.com/in/gary/1137-van-buren-st/lid-P00800000HKmnzE6vTmzG1rVlt3OBaFbJVjtaIHA",
+          "status": "active",
+          "price": 10000,
+          "source_updated_display": "November 25, 2026, 03:50 PM",
+          "source_timezone": "not specified",
+          "note": "Active10000. Major repairs throughout; seller makes no repairs. No garage or ready RV space confirmed."
         }
       ],
       "photo_history": [
@@ -1603,7 +1635,8 @@
       "image_url": "assets/listings/afb36b4ac419c9eb24a3.jpg",
       "image_source_url": "https://www.coldwellbanker.com/in/gary/1137-van-buren-st/lid-P00800000HKmnzE6vTmzG1rVlt3OBaFbJVjtaIHA",
       "airport_straight_km": 64.6,
-      "inspection_order": 19
+      "inspection_order": 19,
+      "source_updated": "2026-11-25"
     },
     {
       "id": "in-gary-846430",
@@ -1817,13 +1850,13 @@
       "price_basis": "advertised_cash_asking_price",
       "status": "active",
       "status_basis": "live_public_page",
-      "last_verified": "2026-11-23T02:36:07+00:00",
-      "checked_at": "2026-11-23T02:36:07+00:00",
+      "last_verified": "2026-11-27T03:19:11+00:00",
+      "checked_at": "2026-11-27T03:19:11+00:00",
       "first_seen": "2026-11-23T02:36:07+00:00",
       "state": "IN",
       "city": "Gary",
       "category": "house_only",
-      "summary_ru": "Существующий дом 600 sqft, 2 спальни / 1 санузел, участок около 3,005 sqft. Подробное состояние, гараж и пригодность двора для RV неизвестны; нужна проверка перед осмотром.",
+      "summary_ru": "Дом 600 sqft, 2 спальни / 1 санузел, участок около 3,005 sqft. Продавец прямо указывает необходимость восстановления и только cash offers. Гараж и пригодность двора для RV неизвестны.",
       "url": "https://www.coldwellbanker.com/in/gary/2461-delaware-st/lid-P00800000H9QrDhXXB5dmrzcWvJv4vimzc0FLHf8",
       "image_remote_url": "https://images-listings.coldwellbanker.com/IN_GNIAR/83/71/18/_P/837118_P00.jpg",
       "closing_costs_known": false,
@@ -1859,6 +1892,16 @@
           "date": "2026-11-23T02:36:07+00:00",
           "method": "Connected Chrome rendered public listing page",
           "url": "https://www.coldwellbanker.com/in/gary/2461-delaware-st/lid-P00800000H9QrDhXXB5dmrzcWvJv4vimzc0FLHf8"
+        },
+        {
+          "date": "2026-11-27T03:19:11+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.coldwellbanker.com/in/gary/2461-delaware-st/lid-P00800000H9QrDhXXB5dmrzcWvJv4vimzc0FLHf8",
+          "status": "active",
+          "price": 5500,
+          "source_updated_display": "November 25, 2026, 03:43 PM",
+          "source_timezone": "not specified",
+          "note": "Active5500 cash offers only; seller expressly says house needs restoration. Original photo/history retained; garage and RV area unknown."
         }
       ],
       "photo_history": [
@@ -1899,7 +1942,15 @@
       "image_url": "assets/listings/236b91440cecbb67bdc4.jpg",
       "image_source_url": "https://www.coldwellbanker.com/in/gary/2461-delaware-st/lid-P00800000H9QrDhXXB5dmrzcWvJv4vimzc0FLHf8",
       "airport_straight_km": 64.6,
-      "inspection_order": 17
+      "inspection_order": 17,
+      "source_updated": "2026-11-25",
+      "summary_history": [
+        {
+          "date": "2026-11-27T03:19:11+00:00",
+          "previous_summary_ru": "Существующий дом 600 sqft, 2 спальни / 1 санузел, участок около 3,005 sqft. Подробное состояние, гараж и пригодность двора для RV неизвестны; нужна проверка перед осмотром.",
+          "reason": "Seller restoration and cash-only wording now read on live page."
+        }
+      ]
     },
     {
       "id": "in-gary-836105",
@@ -2371,6 +2422,6 @@
       "note_ru": "$19,900 было старой ценой 2014 года; готовый гараж не доступен за эту сумму."
     }
   ],
-  "updated_at": "2026-11-26T03:12:53+00:00",
-  "update_note_ru": "25 ноября: добавлен 3949 Monroe под полное восстановление; 2694 Polk скрыт после явного Inactive/OFF MARKET. Maryland, Lundy и Woodhaven28-122 перепроверены живыми страницами. Даты остальных записей не обновлялись."
+  "updated_at": "2026-11-27T03:19:11+00:00",
+  "update_note_ru": "27 ноября: живыми страницами перепроверены Woodhaven15/101,830 и1137 Van Buren,2461 Delaware; цены и статусы прежние. Для Delaware уточнены восстановление и cash-only. Даты остальных объектов сохранены."
 }

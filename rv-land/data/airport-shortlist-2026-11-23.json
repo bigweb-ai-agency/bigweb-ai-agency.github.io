@@ -108,7 +108,7 @@
       "image_source_url": "https://www.trulia.com/home/main-st-dunbar-pa-15431-53274040"
     },
     {
-      "checked_at": "2026-11-25T03:19:21+00:00",
+      "checked_at": "2026-11-27T03:19:11+00:00",
       "first_seen": "2026-11-23T00:54:33+00:00",
       "price": 20000,
       "currency": "USD",
@@ -184,7 +184,7 @@
         "source": "https://www.google.com/maps/dir/?api=1&origin=Pittsburgh+International+Airport&destination=607+S+Ray+St,+New+Castle,+PA&travelmode=driving",
         "checked_at": "2026-11-23T00:54:33+00:00"
       },
-      "last_verified": "2026-11-25T03:19:21+00:00",
+      "last_verified": "2026-11-27T03:19:11+00:00",
       "status_basis": "live_public_page",
       "observations": [
         {
@@ -194,6 +194,15 @@
           "status": "active",
           "price": 20000,
           "note": "Stessa Active, WestPenn1783220; three-car detached garage claim unchanged; source last updated12Nov2026. No door dimensions or repair permission inferred."
+        },
+        {
+          "date": "2026-11-27T03:19:11+00:00",
+          "method": "Connected Chrome rendered public listing page",
+          "url": "https://www.stessa.com/investment-properties/607-s-ray-st-new-castle-pa-16101/details/2uptdXdTbTyi",
+          "status": "active",
+          "price": 20000,
+          "source_updated": "2026-11-12",
+          "note": "Active20000, MLS1783220; three-car detached garage claim unchanged. Source update remains12Nov; door dimensions and repair permission unknown."
         }
       ]
     }
@@ -296,5 +305,5 @@
     "Independent public Stessa robots/page200 supplied New Castle current price/status/coordinates and genuine photograph.",
     "All1125 national listing records, images and histories preserved; shortlist is separate and does not raise nightly budget."
   ],
-  "updated_at": "2026-11-26T03:12:53+00:00"
+  "updated_at": "2026-11-27T03:19:11+00:00"
 }
