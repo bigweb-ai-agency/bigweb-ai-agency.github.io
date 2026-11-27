@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-26T03:12:53+00:00",
+  "updated_at": "2026-11-27T00:50:35+00:00",
   "listings": [
     {
       "price_currency": "USD",
@@ -12274,8 +12274,8 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-10-18T01:17:08Z",
-      "last_verified": "2026-10-18T01:17:08Z",
+      "last_seen": "2026-11-27T00:55:10Z",
+      "last_verified": "2026-11-27T00:55:10Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
@@ -12302,9 +12302,9 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-10-13T00:00:00.000000Z",
+      "source_updated": "2026-11-24T13:07:09.000000Z",
       "source_published": "2025-10-10T12:55:25.000000Z",
-      "image_url": "assets/listings/9c60f52f63939a8eb8b4.jpg",
+      "image_url": "assets/listings/4ac131f84f3cb9c8e683.jpg",
       "image_source_url": "https://www.landcentury.com/land-for-sale/colorado/483-acres-for-sale-in-blanca-colorado-22777",
       "image_credit": "Seller / LandCentury",
       "parcel": "70311300",
@@ -12393,14 +12393,20 @@
         "Дорога /10": 5
       },
       "score": 20,
-      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/27/6a90569946270-1787844249.jpg",
-      "photo_preserved_at": "2026-10-18T01:12:05+00:00",
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/24/6b058bea7c6bf-1795525610.jpg",
+      "photo_preserved_at": "2026-11-27T00:50:35+00:00",
       "photo_history": [
         {
           "path": "assets/listings/9c60f52f63939a8eb8b4.jpg",
           "source": "https://www.landcentury.com/land-for-sale/colorado/483-acres-for-sale-in-blanca-colorado-22777",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/08/27/6a90569946270-1787844249.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        },
+        {
+          "path": "assets/listings/4ac131f84f3cb9c8e683.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/483-acres-for-sale-in-blanca-colorado-22777",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/24/6b058bea7c6bf-1795525610.jpg",
+          "date": "2026-11-27T00:50:35+00:00"
         }
       ],
       "previous_price": 8500.0,
@@ -12825,17 +12831,17 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-09-13T22:25:02+00:00",
-      "last_seen": "2026-11-12T00:54:44Z",
-      "last_verified": "2026-11-12T00:54:44Z",
+      "last_seen": "2026-11-27T00:53:16Z",
+      "last_verified": "2026-11-27T00:53:16Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
       "notes": [],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26214",
-      "source_id": "26214",
+      "source_id": "27300",
       "source": "LandCentury",
-      "url": "https://www.landcentury.com/land-for-sale/colorado/026-acres-for-sale-in-mosca-colorado-26214",
+      "url": "https://www.landcentury.com/land-for-sale/colorado/0-26-acres-for-sale-in-mosca-colorado-27300",
       "title": "16 Sage Place",
       "address": "16 Sage Place",
       "city": "Mosca",
@@ -12843,9 +12849,9 @@
       "county": "Alamosa",
       "zip": "81146",
       "kind": "land",
-      "price": 6850.0,
+      "price": 4110.0,
       "known_fees": 249.0,
-      "total_known": 7099.0,
+      "total_known": 4359.0,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 0.26,
       "lat": 37.64755,
@@ -12853,10 +12859,10 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-11-07T04:47:28.000000Z",
-      "source_published": "2026-09-11T18:44:49.000000Z",
-      "image_url": "assets/listings/22f164b18b53bb444257.jpg",
-      "image_source_url": "https://www.landcentury.com/land-for-sale/colorado/026-acres-for-sale-in-mosca-colorado-26214",
+      "source_updated": "2026-11-26T16:33:43.000000Z",
+      "source_published": "2026-11-26T16:21:20.000000Z",
+      "image_url": "assets/listings/f7b0ad94483754845fea.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/colorado/0-26-acres-for-sale-in-mosca-colorado-27300",
       "image_credit": "Seller / LandCentury",
       "parcel": "514506201008",
       "zoning": "Recreational",
@@ -12865,6 +12871,7 @@
       "taxes_note": "36.98/year",
       "source_categories": [
         "owner-finance-deals",
+        "recreational-and-hunting-land",
         "mobile-home-and-rv-land",
         "vacant-land"
       ],
@@ -12887,11 +12894,18 @@
           "date": "2026-09-13T22:25:02+00:00",
           "price": 6850.0,
           "source": "https://www.landcentury.com/land-for-sale/colorado/026-acres-for-sale-in-mosca-colorado-26214"
+        },
+        {
+          "date": "2026-11-27T00:50:35+00:00",
+          "price": 4110.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/0-26-acres-for-sale-in-mosca-colorado-27300"
         }
       ],
       "status_history": [],
       "legacy": false,
       "alternate_urls": [
+        "https://www.landcentury.com/land-for-sale/colorado/0-26-acres-for-sale-in-mosca-colorado-27300",
         "https://www.landcentury.com/land-for-sale/colorado/026-acres-for-sale-in-mosca-colorado-26214"
       ],
       "region": "Горный",
@@ -12931,24 +12945,31 @@
       ],
       "msp_straight_km": 1307,
       "score_parts": {
-        "Цена /25": 18,
+        "Цена /25": 23,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 2,
         "Сезон /10": 3,
         "Дорога /10": 6
       },
-      "score": 29,
-      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/11/6aa44c5c3d46f-1789152348.jpg",
-      "photo_preserved_at": "2026-11-12T00:49:37+00:00",
+      "score": 34,
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/26/6b085db05f89e-1795710384.jpg",
+      "photo_preserved_at": "2026-11-27T00:50:35+00:00",
       "photo_history": [
         {
           "path": "assets/listings/22f164b18b53bb444257.jpg",
           "source": "https://www.landcentury.com/land-for-sale/colorado/026-acres-for-sale-in-mosca-colorado-26214",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/09/11/6aa44c5c3d46f-1789152348.jpg",
           "date": "2026-09-13T23:05:59+00:00"
+        },
+        {
+          "path": "assets/listings/f7b0ad94483754845fea.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/colorado/0-26-acres-for-sale-in-mosca-colorado-27300",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/26/6b085db05f89e-1795710384.jpg",
+          "date": "2026-11-27T00:50:35+00:00"
         }
-      ]
+      ],
+      "previous_price": 6850.0
     },
     {
       "price_currency": "USD",
@@ -111990,17 +112011,17 @@
       "price_currency": "USD",
       "price_basis": "asking_cash",
       "first_seen": "2026-10-21T01:09:15+00:00",
-      "last_seen": "2026-11-13T00:52:21Z",
-      "last_verified": "2026-11-13T00:52:21Z",
+      "last_seen": "2026-11-27T00:53:17Z",
+      "last_verified": "2026-11-27T00:53:17Z",
       "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
       "personal_repair": "unknown",
       "commercial_repair": "unknown",
       "notes": [],
       "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
       "id": "lc-26688",
-      "source_id": "27081",
+      "source_id": "27299",
       "source": "LandCentury",
-      "url": "https://www.landcentury.com/land-for-sale/arizona/1-03-acres-for-sale-in-concho-arizona-27081",
+      "url": "https://www.landcentury.com/land-for-sale/arizona/1-03-acres-for-sale-in-concho-arizona-27299",
       "title": "Orange Rock Road",
       "address": "Orange Rock Road",
       "city": "Concho",
@@ -112008,9 +112029,9 @@
       "county": "Apache",
       "zip": "85924",
       "kind": "land",
-      "price": 10285.0,
+      "price": 8228.0,
       "known_fees": 249.0,
-      "total_known": 10534.0,
+      "total_known": 8477.0,
       "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
       "acres": 1.03,
       "lat": 34.40315,
@@ -112018,16 +112039,16 @@
       "coord_precision": "listing",
       "status": "active",
       "status_basis": "live_public_page",
-      "source_updated": "2026-11-12T14:28:42.000000Z",
-      "source_published": "2026-11-10T15:00:12.000000Z",
-      "image_url": "assets/listings/682525b455842a54810a.jpg",
-      "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/1-03-acres-for-sale-in-concho-arizona-27081",
+      "source_updated": "2026-11-26T16:12:29.000000Z",
+      "source_published": "2026-11-26T16:04:52.000000Z",
+      "image_url": "assets/listings/cfba872e989babcd1a80.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/1-03-acres-for-sale-in-concho-arizona-27299",
       "image_credit": "Seller / LandCentury",
       "parcel": "201-38-246",
       "zoning": "Agricultural",
       "road_note": "Dirt Road",
       "utility_note": "No utilities",
-      "taxes_note": "$13/year",
+      "taxes_note": "13/year",
       "source_categories": [
         "agricultural-and-farm-land",
         "owner-finance-deals",
@@ -112054,17 +112075,29 @@
           "price": 10285.0,
           "price_basis": "asking_cash",
           "source": "https://www.landcentury.com/land-for-sale/arizona/103-acres-for-sale-in-concho-arizona-26688"
+        },
+        {
+          "date": "2026-11-27T00:50:35+00:00",
+          "price": 8228.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-03-acres-for-sale-in-concho-arizona-27299"
         }
       ],
       "status_history": [],
-      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/12/6af5cbca5d716-1794493386.jpg",
-      "photo_preserved_at": "2026-11-13T00:49:35+00:00",
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/26/6b0859cec2758-1795709390.jpg",
+      "photo_preserved_at": "2026-11-27T00:50:35+00:00",
       "photo_history": [
         {
           "path": "assets/listings/682525b455842a54810a.jpg",
           "source": "https://www.landcentury.com/land-for-sale/arizona/103-acres-for-sale-in-concho-arizona-26688",
           "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/10/20/6ad776251e82a-1792505381.jpg",
           "date": "2026-10-21T01:09:15+00:00"
+        },
+        {
+          "path": "assets/listings/cfba872e989babcd1a80.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-03-acres-for-sale-in-concho-arizona-27299",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/26/6b0859cec2758-1795709390.jpg",
+          "date": "2026-11-27T00:50:35+00:00"
         }
       ],
       "region": "Юго-запад",
@@ -112104,19 +112137,21 @@
       ],
       "msp_straight_km": 1827,
       "score_parts": {
-        "Цена /25": 12,
+        "Цена /25": 16,
         "Помещение /25": 0,
         "Личный ремонт /20": 0,
         "Коммуникации /10": 0,
         "Сезон /10": 6,
         "Дорога /10": 6
       },
-      "score": 24,
+      "score": 28,
       "legacy": false,
       "alternate_urls": [
         "https://www.landcentury.com/land-for-sale/arizona/1-03-acres-for-sale-in-concho-arizona-27081",
+        "https://www.landcentury.com/land-for-sale/arizona/1-03-acres-for-sale-in-concho-arizona-27299",
         "https://www.landcentury.com/land-for-sale/arizona/103-acres-for-sale-in-concho-arizona-26688"
-      ]
+      ],
+      "previous_price": 10285.0
     },
     {
       "price_currency": "USD",
@@ -150693,6 +150728,507 @@
       },
       "score": 25,
       "source_updated_display": "November 25, 2026, 03:43 PM; timezone not specified by rendered page"
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-27T00:50:35+00:00",
+      "last_seen": "2026-11-27T00:53:11Z",
+      "last_verified": "2026-11-27T00:53:11Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27306",
+      "source_id": "27306",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/california/2-06-acres-for-sale-in-helendale-california-27306",
+      "title": "2.06 Acres for Sale in Helendale, California",
+      "address": "",
+      "city": "Helendale",
+      "state": "CA",
+      "county": "San Bernardino",
+      "zip": "92342",
+      "kind": "land",
+      "price": 12900.0,
+      "known_fees": 100.0,
+      "total_known": 13000.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 2.06,
+      "lat": 34.8178,
+      "lng": -117.4291,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-26T23:37:26.000000Z",
+      "source_published": "2026-11-26T23:35:42.000000Z",
+      "image_url": "assets/listings/2ed81bb4b35689f1b919.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/california/2-06-acres-for-sale-in-helendale-california-27306",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "0465-273-01-0000",
+      "zoning": "RC (Resource Conservation)",
+      "road_note": "Не подтверждён",
+      "utility_note": "Не подтверждены",
+      "taxes_note": null,
+      "source_categories": [
+        "owner-finance-deals"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "seller_claim",
+      "road_access": "seller_claim",
+      "flags": [
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
+      "evidence_quote": "06 acres (89,734 sq ft), roughly 300 ft by 300 ft - Corner lot with about 280 feet of frontage along the",
+      "price_history": [
+        {
+          "date": "2026-11-27T00:50:35+00:00",
+          "price": 12900.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/california/2-06-acres-for-sale-in-helendale-california-27306"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/26/6b08c28c67a3d-1795736204.jpg",
+      "photo_preserved_at": "2026-11-27T00:50:35+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/2ed81bb4b35689f1b919.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/california/2-06-acres-for-sale-in-helendale-california-27306",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/26/6b08c28c67a3d-1795736204.jpg",
+          "date": "2026-11-27T00:50:35+00:00"
+        }
+      ],
+      "region": "Тихоокеанский",
+      "screening_issue": null,
+      "climate_note": "Недорогие предложения сосредоточены в пустыне и глубине штата. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "LAX",
+          "name": "Los Angeles International Airport",
+          "straight_km": 132,
+          "drive_km_estimate": 166,
+          "drive_hours_estimate": 2.2,
+          "flight_min_eur": 550,
+          "flight_origin": "VNO",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "SAN",
+          "name": "San Diego International Airport",
+          "straight_km": 233,
+          "drive_km_estimate": 291,
+          "drive_hours_estimate": 3.9,
+          "flight_min_eur": null,
+          "flight_origin": null,
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 250,
+          "drive_km_estimate": 312,
+          "drive_hours_estimate": 4.2,
+          "flight_min_eur": 753,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 2337,
+      "score_parts": {
+        "Цена /25": 8,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 6,
+        "Дорога /10": 8
+      },
+      "score": 22
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-27T00:50:35+00:00",
+      "last_seen": "2026-11-27T00:53:13Z",
+      "last_verified": "2026-11-27T00:53:13Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27302",
+      "source_id": "27302",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/texas/20-01-acres-for-sale-in-sierra-blanca-texas-27302",
+      "title": "20.01 Acres for Sale in Sierra Blanca, Texas",
+      "address": "",
+      "city": "Sierra Blanca",
+      "state": "TX",
+      "county": "Hudspeth",
+      "zip": "79851",
+      "kind": "land",
+      "price": 10900.0,
+      "known_fees": 0.0,
+      "total_known": 10900.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 20.01,
+      "lat": 31.3357,
+      "lng": -105.2505,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-26T19:32:54.000000Z",
+      "source_published": "2026-11-26T19:30:15.000000Z",
+      "image_url": "assets/listings/e2fb3df9ce374271c82f.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/texas/20-01-acres-for-sale-in-sierra-blanca-texas-27302",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "69951",
+      "zoning": "Не указано",
+      "road_note": "Не подтверждён",
+      "utility_note": "Не подтверждены",
+      "taxes_note": null,
+      "source_categories": [
+        "recreational-and-hunting-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "unknown",
+      "water": "unknown",
+      "sewer": "unknown",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "flags": [
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
+      "evidence_quote": "01 surveyed acres (APN 69951) Approximately 645 feet of frontage along the platted Sunset Ranches road easement; access runs in off County",
+      "price_history": [
+        {
+          "date": "2026-11-27T00:50:35+00:00",
+          "price": 10900.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/texas/20-01-acres-for-sale-in-sierra-blanca-texas-27302"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/26/6b088932ac781-1795721522.jpg",
+      "photo_preserved_at": "2026-11-27T00:50:35+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/e2fb3df9ce374271c82f.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/texas/20-01-acres-for-sale-in-sierra-blanca-texas-27302",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/26/6b088932ac781-1795721522.jpg",
+          "date": "2026-11-27T00:50:35+00:00"
+        }
+      ],
+      "region": "Юг",
+      "screening_issue": null,
+      "climate_note": "Много дешёвой земли на западе, обычно далеко от DFW/IAH. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "PHX",
+          "name": "Phoenix Sky Harbor International Airport",
+          "straight_km": 676,
+          "drive_km_estimate": 845,
+          "drive_hours_estimate": 11.3,
+          "flight_min_eur": 753,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "DFW",
+          "name": "Dallas Fort Worth International Airport",
+          "straight_km": 792,
+          "drive_km_estimate": 991,
+          "drive_hours_estimate": 13.2,
+          "flight_min_eur": null,
+          "flight_origin": null,
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "DEN",
+          "name": "Denver International Airport",
+          "straight_km": 949,
+          "drive_km_estimate": 1187,
+          "drive_hours_estimate": 15.8,
+          "flight_min_eur": 681,
+          "flight_origin": "LON",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1833,
+      "score_parts": {
+        "Цена /25": 12,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 7,
+        "Дорога /10": 0
+      },
+      "score": 19
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-27T00:50:35+00:00",
+      "last_seen": "2026-11-27T00:53:14Z",
+      "last_verified": "2026-11-27T00:53:14Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27301",
+      "source_id": "27301",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/arizona/1-04-acres-for-sale-in-concho-arizona-27301",
+      "title": "25 5135",
+      "address": "25 5135",
+      "city": "Concho",
+      "state": "AZ",
+      "county": "Apache",
+      "zip": "85924",
+      "kind": "land",
+      "price": 7000.0,
+      "known_fees": 250.0,
+      "total_known": 7250.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 1.04,
+      "lat": 34.42043,
+      "lng": -109.59323,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-26T17:46:02.000000Z",
+      "source_published": "2026-11-26T17:40:42.000000Z",
+      "image_url": "assets/listings/209eaa9921088ec844dc.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/1-04-acres-for-sale-in-concho-arizona-27301",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "201-37-070A",
+      "zoning": "Agricultural",
+      "road_note": "Dirt Road",
+      "utility_note": "No utilities",
+      "taxes_note": null,
+      "source_categories": [
+        "residential-buildable-land",
+        "agricultural-and-farm-land",
+        "owner-finance-deals",
+        "recreational-and-hunting-land",
+        "mobile-home-and-rv-land",
+        "vacant-land"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "seller_claim",
+      "rv_occupancy": "seller_claim",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "none",
+      "water": "none",
+      "sewer": "none",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "flags": [],
+      "evidence_quote": "It is perfect for camping, off-grid living, parking your RV, or building your dream home.",
+      "price_history": [
+        {
+          "date": "2026-11-27T00:50:35+00:00",
+          "price": 7000.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-04-acres-for-sale-in-concho-arizona-27301"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/26/6b086fbdd82d6-1795715005.jpg",
+      "photo_preserved_at": "2026-11-27T00:50:35+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/209eaa9921088ec844dc.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-04-acres-for-sale-in-concho-arizona-27301",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/26/6b086fbdd82d6-1795715005.jpg",
+          "date": "2026-11-27T00:50:35+00:00"
+        }
+      ],
+      "region": "Юго-запад",
+      "screening_issue": null,
+      "climate_note": "Много дешёвой земли. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "PHX",
+          "name": "Phoenix Sky Harbor International Airport",
+          "straight_km": 248,
+          "drive_km_estimate": 310,
+          "drive_hours_estimate": 4.1,
+          "flight_min_eur": 753,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 537,
+          "drive_km_estimate": 672,
+          "drive_hours_estimate": 9.0,
+          "flight_min_eur": 753,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "SAN",
+          "name": "San Diego International Airport",
+          "straight_km": 728,
+          "drive_km_estimate": 910,
+          "drive_hours_estimate": 12.1,
+          "flight_min_eur": null,
+          "flight_origin": null,
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1815,
+      "score_parts": {
+        "Цена /25": 18,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 6,
+        "Дорога /10": 6
+      },
+      "score": 30
+    },
+    {
+      "price_currency": "USD",
+      "price_basis": "asking_cash",
+      "first_seen": "2026-11-27T00:50:35+00:00",
+      "last_seen": "2026-11-27T00:53:19Z",
+      "last_verified": "2026-11-27T00:53:19Z",
+      "photo_kind": "Изображение из объявления; может включать схему или вид окрестностей.",
+      "personal_repair": "unknown",
+      "commercial_repair": "unknown",
+      "notes": [],
+      "closing_costs": "Не включены: title/escrow/recording, обследования и подготовка площадки.",
+      "id": "lc-27298",
+      "source_id": "27298",
+      "source": "LandCentury",
+      "url": "https://www.landcentury.com/land-for-sale/arizona/1-15-acres-for-sale-in-adamana-arizona-27298",
+      "title": "N7903",
+      "address": "N7903",
+      "city": "Adamana",
+      "state": "AZ",
+      "county": "Apache",
+      "zip": "86025",
+      "kind": "land",
+      "price": 5499.0,
+      "known_fees": 0.0,
+      "total_known": 5499.0,
+      "price_evidence": "cashPrice из публичной страницы; явная cash price в описании имеет приоритет.",
+      "acres": 1.15,
+      "lat": 35.020278,
+      "lng": -109.823361,
+      "coord_precision": "listing",
+      "status": "active",
+      "status_basis": "live_public_page",
+      "source_updated": "2026-11-26T08:53:17.000000Z",
+      "source_published": "2026-11-26T08:50:06.000000Z",
+      "image_url": "assets/listings/ef236a7a95b75fea930e.jpg",
+      "image_source_url": "https://www.landcentury.com/land-for-sale/arizona/1-15-acres-for-sale-in-adamana-arizona-27298",
+      "image_credit": "Seller / LandCentury",
+      "parcel": "211-33-195",
+      "zoning": "Agricultural",
+      "road_note": "Dirt Road",
+      "utility_note": "No utilities",
+      "taxes_note": "4.38",
+      "source_categories": [
+        "residential-buildable-land",
+        "agricultural-and-farm-land",
+        "owner-finance-deals"
+      ],
+      "garage_note": "Размеры и состояние не подтверждены",
+      "rv_storage": "unknown",
+      "rv_occupancy": "unknown",
+      "existing_garage": false,
+      "garage_size": null,
+      "electricity": "none",
+      "water": "none",
+      "sewer": "none",
+      "no_hoa": "unknown",
+      "road_access": "seller_claim",
+      "flags": [
+        "Проверить действующие covenants/HOA, даже если зонирование выглядит подходящим."
+      ],
+      "evidence_quote": null,
+      "price_history": [
+        {
+          "date": "2026-11-27T00:50:35+00:00",
+          "price": 5499.0,
+          "price_basis": "asking_cash",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-15-acres-for-sale-in-adamana-arizona-27298"
+        }
+      ],
+      "status_history": [],
+      "image_remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/26/6b07f33b9d760-1795683131.jpg",
+      "photo_preserved_at": "2026-11-27T00:50:35+00:00",
+      "photo_history": [
+        {
+          "path": "assets/listings/ef236a7a95b75fea930e.jpg",
+          "source": "https://www.landcentury.com/land-for-sale/arizona/1-15-acres-for-sale-in-adamana-arizona-27298",
+          "remote_url": "https://storage.portalstation.com/landcentury/uploads/images/2026/11/26/6b07f33b9d760-1795683131.jpg",
+          "date": "2026-11-27T00:50:35+00:00"
+        }
+      ],
+      "region": "Юго-запад",
+      "screening_issue": null,
+      "climate_note": "Много дешёвой земли. Климатическая оценка региона, не замер на участке.",
+      "gateways": [
+        {
+          "code": "PHX",
+          "name": "Phoenix Sky Harbor International Airport",
+          "straight_km": 267,
+          "drive_km_estimate": 334,
+          "drive_hours_estimate": 4.5,
+          "flight_min_eur": 753,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "LAS",
+          "name": "Harry Reid International Airport",
+          "straight_km": 496,
+          "drive_km_estimate": 620,
+          "drive_hours_estimate": 8.3,
+          "flight_min_eur": 753,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        },
+        {
+          "code": "SLC",
+          "name": "Salt Lake City International Airport",
+          "straight_km": 669,
+          "drive_km_estimate": 836,
+          "drive_hours_estimate": 11.1,
+          "flight_min_eur": 741,
+          "flight_origin": "CPH",
+          "route_basis": "Геометрическая оценка ×1.25, 75 км/ч; не проверенный автомобильный маршрут."
+        }
+      ],
+      "msp_straight_km": 1784,
+      "score_parts": {
+        "Цена /25": 21,
+        "Помещение /25": 0,
+        "Личный ремонт /20": 0,
+        "Коммуникации /10": 0,
+        "Сезон /10": 6,
+        "Дорога /10": 6
+      },
+      "score": 33
     }
   ]
 }
