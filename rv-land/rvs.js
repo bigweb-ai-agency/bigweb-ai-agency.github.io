@@ -61,7 +61,7 @@
   }
   async function init(){
     try{
-      const res=await fetch('data/rvs.json');if(!res.ok)throw Error('HTTP '+res.status);data=await res.json();
+      const res=await fetch('data/rvs.json',{cache:'no-cache'});if(!res.ok)throw Error('HTTP '+res.status);data=await res.json();
       const active=data.listings.filter(r=>current(r)),local=active.filter(r=>r.local);
       $('summary').textContent=`${local.length} RV с заявленным местом до 150 км: Chicago / ORD — ${local.filter(r=>r.nearest_airport==='ORD').length}, Minneapolis / MSP — ${local.filter(r=>r.nearest_airport==='MSP').length}. Ещё ${active.length-local.length} дальше 150 км. Обновлено ${dateLabel(data.updated_at)}; дата проверки есть в каждой карточке.`;
       $('update-label').textContent='Обновлено · '+dateLabel(data.updated_at);
