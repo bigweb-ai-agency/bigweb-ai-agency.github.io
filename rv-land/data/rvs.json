@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-26T03:42:01+00:00",
+  "updated_at": "2026-11-28T03:25:59+00:00",
   "budget_usd": 30000,
   "radius_km": 150,
   "distance_method": "Haversine straight-line distance to ORD/MSP, not driving distance; map points approximate.",
@@ -69,7 +69,7 @@
       "source_data_hash": "7751f270d1e3c6c7569097ce1f34ca0e2ba668583e11d4cd05d50898dd3f7d18",
       "first_seen": "2026-11-23T03:11:49+00:00",
       "last_seen": "2026-11-23T03:11:49+00:00",
-      "last_checked": "2026-11-26T03:27:34+00:00",
+      "last_checked": "2026-11-28T03:20:51+00:00",
       "verification": "live_public_page",
       "status": "removed",
       "currency": "USD",
@@ -161,6 +161,12 @@
           "status": "removed",
           "source_url": "https://www.craigslist.org/view/d/wheaton-1999-dodge-road-trek-190/ifaWE3oyXcciUoCnUU2Ect",
           "evidence": "This posting has expired"
+        },
+        {
+          "at": "2026-11-28T03:20:51+00:00",
+          "status": "removed",
+          "source_url": "https://www.craigslist.org/view/d/wheaton-1999-dodge-road-trek-190/ifaWE3oyXcciUoCnUU2Ect",
+          "evidence": "This posting has expired"
         }
       ],
       "source_history": [
@@ -179,10 +185,17 @@
           "source_data_hash": "7751f270d1e3c6c7569097ce1f34ca0e2ba668583e11d4cd05d50898dd3f7d18"
         }
       ],
-      "last_attempt": "2026-11-26T03:27:34+00:00",
+      "last_attempt": "2026-11-28T03:20:51+00:00",
       "access_history": [
         {
           "attempted_at": "2026-11-26T03:27:34+00:00",
+          "outcome": "removed",
+          "http_status": 410,
+          "evidence": "This posting has expired",
+          "url": "https://www.craigslist.org/view/d/wheaton-1999-dodge-road-trek-190/ifaWE3oyXcciUoCnUU2Ect"
+        },
+        {
+          "attempted_at": "2026-11-28T03:20:51+00:00",
           "outcome": "removed",
           "http_status": 410,
           "evidence": "This posting has expired",
@@ -242,10 +255,10 @@
         "published_metadata": "post id: 8004142590 posted: 2026-11-21 00:49 updated: 2026-11-21 01:03 ♥ best of [ ? ]",
         "observation_method": "public HTTP page, robots allowed"
       },
-      "source_data_hash": "4de40919f19d7cfc607a5242d76ebf608834c6bc0bd809bc64d3929853655daa",
+      "source_data_hash": "2d6b65817edc4618133e7235c01c5eb3bcac04a8ad692a49ab10512b63cc2470",
       "first_seen": "2026-11-23T03:11:49+00:00",
-      "last_seen": "2026-11-26T03:27:34+00:00",
-      "last_checked": "2026-11-26T03:27:34+00:00",
+      "last_seen": "2026-11-28T03:20:51+00:00",
+      "last_checked": "2026-11-28T03:20:51+00:00",
       "verification": "live_public_page",
       "status": "active",
       "currency": "USD",
@@ -333,6 +346,14 @@
           "method": "public_http_page",
           "source_url": "https://www.craigslist.org/view/d/maple-grove-motorhome-2000-four-winds/xaQDUXys16f3ZbmMVELC7m",
           "source_data_hash": "4de40919f19d7cfc607a5242d76ebf608834c6bc0bd809bc64d3929853655daa"
+        },
+        {
+          "at": "2026-11-28T03:20:51+00:00",
+          "price": 9400,
+          "status": "active",
+          "method": "public_http_page",
+          "source_url": "https://www.craigslist.org/view/d/maple-grove-motorhome-2000-four-winds/xaQDUXys16f3ZbmMVELC7m",
+          "source_data_hash": "2d6b65817edc4618133e7235c01c5eb3bcac04a8ad692a49ab10512b63cc2470"
         }
       ],
       "source_history": [
@@ -367,9 +388,27 @@
           },
           "source_data_hash": "4de40919f19d7cfc607a5242d76ebf608834c6bc0bd809bc64d3929853655daa",
           "method": "public_http_page"
+        },
+        {
+          "at": "2026-11-28T03:20:51+00:00",
+          "source_url": "https://www.craigslist.org/view/d/maple-grove-motorhome-2000-four-winds/xaQDUXys16f3ZbmMVELC7m",
+          "source_id": "8004142590",
+          "source_data": {
+            "heading": "Motorhome 2000 Four Winds Class C Fun Mover-31C Toy Hauler - Ford E-450 V10 - $9,400 (Maple Grove)",
+            "attributes": "2000\nFour Winds\nVIN:\n1FDXE45S9YHA92767\ncondition:\ngood\ncylinders:\n10 cylinders\ndrive:\nrwd\nfuel:\ngas\nlength (feet):\n31\nodometer:\n270,000\npaint color:\nwhite\nrv type:\nclass C\ntitle status:\nclean\ntransmission:\nautomatic\ndelivery available",
+            "map_attributes": {
+              "data-latitude": "45.111200",
+              "data-longitude": "-93.499700",
+              "data-accuracy": "99"
+            },
+            "published_metadata": "post id: 8004142590 posted: 2026-11-21 00:49 updated: 2026-11-21 01:03 ♥ best of [ ? ]",
+            "observation_method": "public HTTP page, robots allowed"
+          },
+          "source_data_hash": "2d6b65817edc4618133e7235c01c5eb3bcac04a8ad692a49ab10512b63cc2470",
+          "method": "public_http_page"
         }
       ],
-      "last_attempt": "2026-11-26T03:27:34+00:00",
+      "last_attempt": "2026-11-28T03:20:51+00:00",
       "access_history": [
         {
           "attempted_at": "2026-11-26T03:27:34+00:00",
@@ -382,6 +421,12 @@
           "outcome": "active",
           "method": "public_http_page",
           "source_url": "https://www.craigslist.org/view/d/maple-grove-motorhome-2000-four-winds/xaQDUXys16f3ZbmMVELC7m"
+        },
+        {
+          "attempted_at": "2026-11-28T03:20:51+00:00",
+          "outcome": "active",
+          "http_status": 200,
+          "url": "https://www.craigslist.org/view/d/maple-grove-motorhome-2000-four-winds/xaQDUXys16f3ZbmMVELC7m"
         }
       ],
       "verification_method": "public_http_page"
@@ -440,7 +485,7 @@
       "source_data_hash": "2bb2ed6767064aca9098cc2efb9e7c173ddd9527bc9f84f0c66d02a55b15f717",
       "first_seen": "2026-11-23T03:11:49+00:00",
       "last_seen": "2026-11-23T03:11:49+00:00",
-      "last_checked": "2026-11-26T03:27:34+00:00",
+      "last_checked": "2026-11-28T03:20:51+00:00",
       "verification": "live_public_page",
       "status": "removed",
       "currency": "USD",
@@ -532,6 +577,12 @@
           "status": "removed",
           "source_url": "https://www.craigslist.org/view/d/minneapolis-1997-volkswagen-winnebago/6uaNdpow2ZPUJpawSinZYS",
           "evidence": "This posting has been deleted"
+        },
+        {
+          "at": "2026-11-28T03:20:51+00:00",
+          "status": "removed",
+          "source_url": "https://www.craigslist.org/view/d/minneapolis-1997-volkswagen-winnebago/6uaNdpow2ZPUJpawSinZYS",
+          "evidence": "This posting has been deleted"
         }
       ],
       "source_history": [
@@ -550,10 +601,17 @@
           "source_data_hash": "2bb2ed6767064aca9098cc2efb9e7c173ddd9527bc9f84f0c66d02a55b15f717"
         }
       ],
-      "last_attempt": "2026-11-26T03:27:34+00:00",
+      "last_attempt": "2026-11-28T03:20:51+00:00",
       "access_history": [
         {
           "attempted_at": "2026-11-26T03:27:34+00:00",
+          "outcome": "removed",
+          "http_status": 410,
+          "evidence": "This posting has been deleted",
+          "url": "https://www.craigslist.org/view/d/minneapolis-1997-volkswagen-winnebago/6uaNdpow2ZPUJpawSinZYS"
+        },
+        {
+          "attempted_at": "2026-11-28T03:20:51+00:00",
           "outcome": "removed",
           "http_status": 410,
           "evidence": "This posting has been deleted",
@@ -613,10 +671,10 @@
         "published_metadata": "post id: 7993107705 posted: 2026-10-31 14:27 updated: 2026-11-21 11:26 ♥ best of [ ? ]",
         "observation_method": "public HTTP page, robots allowed"
       },
-      "source_data_hash": "6bf23f686522756ebc69184e35503f1bcc334c2727606ebf7d8029f213590747",
+      "source_data_hash": "75f99e499d7b9fc0cc0a77443fc7e90ac467cf36920aab3b88e5a3a28bd72ae6",
       "first_seen": "2026-11-23T03:11:49+00:00",
-      "last_seen": "2026-11-26T03:27:35+00:00",
-      "last_checked": "2026-11-26T03:27:35+00:00",
+      "last_seen": "2026-11-28T03:20:52+00:00",
+      "last_checked": "2026-11-28T03:20:52+00:00",
       "verification": "live_public_page",
       "status": "active",
       "currency": "USD",
@@ -704,6 +762,14 @@
           "method": "public_http_page",
           "source_url": "https://www.craigslist.org/view/d/nerstrand-2005-minnie-winnie-wf329b/qxWhRYeKHZ7E2Z4VeLNxvw",
           "source_data_hash": "6bf23f686522756ebc69184e35503f1bcc334c2727606ebf7d8029f213590747"
+        },
+        {
+          "at": "2026-11-28T03:20:52+00:00",
+          "price": 18000,
+          "status": "active",
+          "method": "public_http_page",
+          "source_url": "https://www.craigslist.org/view/d/nerstrand-2005-minnie-winnie-wf329b/qxWhRYeKHZ7E2Z4VeLNxvw",
+          "source_data_hash": "75f99e499d7b9fc0cc0a77443fc7e90ac467cf36920aab3b88e5a3a28bd72ae6"
         }
       ],
       "source_history": [
@@ -738,9 +804,27 @@
           },
           "source_data_hash": "6bf23f686522756ebc69184e35503f1bcc334c2727606ebf7d8029f213590747",
           "method": "public_http_page"
+        },
+        {
+          "at": "2026-11-28T03:20:52+00:00",
+          "source_url": "https://www.craigslist.org/view/d/nerstrand-2005-minnie-winnie-wf329b/qxWhRYeKHZ7E2Z4VeLNxvw",
+          "source_id": "7993107705",
+          "source_data": {
+            "heading": "2005 Minnie winnie WF329B Class C - $18,000 (Nerstrand)",
+            "attributes": "2005\nford e-450\ncondition:\nexcellent\ncylinders:\n10 cylinders\nfuel:\ngas\nlength (feet):\n31\nodometer:\n23,500\npaint color:\nwhite\nrv type:\nclass C\ntitle status:\nclean\ntransmission:\nautomatic",
+            "map_attributes": {
+              "data-latitude": "44.353800",
+              "data-longitude": "-93.085500",
+              "data-accuracy": "22"
+            },
+            "published_metadata": "post id: 7993107705 posted: 2026-10-31 14:27 updated: 2026-11-21 11:26 ♥ best of [ ? ]",
+            "observation_method": "public HTTP page, robots allowed"
+          },
+          "source_data_hash": "75f99e499d7b9fc0cc0a77443fc7e90ac467cf36920aab3b88e5a3a28bd72ae6",
+          "method": "public_http_page"
         }
       ],
-      "last_attempt": "2026-11-26T03:27:35+00:00",
+      "last_attempt": "2026-11-28T03:20:52+00:00",
       "access_history": [
         {
           "attempted_at": "2026-11-26T03:27:35+00:00",
@@ -753,6 +837,12 @@
           "outcome": "active",
           "method": "public_http_page",
           "source_url": "https://www.craigslist.org/view/d/nerstrand-2005-minnie-winnie-wf329b/qxWhRYeKHZ7E2Z4VeLNxvw"
+        },
+        {
+          "attempted_at": "2026-11-28T03:20:52+00:00",
+          "outcome": "active",
+          "http_status": 200,
+          "url": "https://www.craigslist.org/view/d/nerstrand-2005-minnie-winnie-wf329b/qxWhRYeKHZ7E2Z4VeLNxvw"
         }
       ],
       "verification_method": "public_http_page"
@@ -812,9 +902,9 @@
       "source_data_hash": "4b4349ec7177f83b1b03030531e5f76618a28a94354057ced8a0815e5d34c1ca",
       "first_seen": "2026-11-23T03:11:49+00:00",
       "last_seen": "2026-11-26T03:27:35+00:00",
-      "last_checked": "2026-11-26T03:27:35+00:00",
+      "last_checked": "2026-11-28T03:20:52+00:00",
       "verification": "live_public_page",
-      "status": "active",
+      "status": "removed",
       "currency": "USD",
       "self_propelled": true,
       "leaks": null,
@@ -884,6 +974,12 @@
           "at": "2026-11-23T03:11:49+00:00",
           "status": "active",
           "evidence": "Live listing page offered for sale; not seller-confirmed availability."
+        },
+        {
+          "at": "2026-11-28T03:20:52+00:00",
+          "status": "removed",
+          "evidence": "This posting has expired",
+          "source_url": "https://www.craigslist.org/view/d/chanhassen-2015-thor-motor-coach-four/k3Vwswv4H5yy6pVp6FNrjF"
         }
       ],
       "observations": [
@@ -900,6 +996,12 @@
           "method": "public_http_page",
           "source_url": "https://www.craigslist.org/view/d/chanhassen-2015-thor-motor-coach-four/k3Vwswv4H5yy6pVp6FNrjF",
           "source_data_hash": "4b4349ec7177f83b1b03030531e5f76618a28a94354057ced8a0815e5d34c1ca"
+        },
+        {
+          "at": "2026-11-28T03:20:52+00:00",
+          "status": "removed",
+          "source_url": "https://www.craigslist.org/view/d/chanhassen-2015-thor-motor-coach-four/k3Vwswv4H5yy6pVp6FNrjF",
+          "evidence": "This posting has expired"
         }
       ],
       "source_history": [
@@ -936,7 +1038,7 @@
           "method": "public_http_page"
         }
       ],
-      "last_attempt": "2026-11-26T03:27:35+00:00",
+      "last_attempt": "2026-11-28T03:20:52+00:00",
       "access_history": [
         {
           "attempted_at": "2026-11-26T03:27:35+00:00",
@@ -949,6 +1051,13 @@
           "outcome": "active",
           "method": "public_http_page",
           "source_url": "https://www.craigslist.org/view/d/chanhassen-2015-thor-motor-coach-four/k3Vwswv4H5yy6pVp6FNrjF"
+        },
+        {
+          "attempted_at": "2026-11-28T03:20:52+00:00",
+          "outcome": "removed",
+          "http_status": 410,
+          "evidence": "This posting has expired",
+          "url": "https://www.craigslist.org/view/d/chanhassen-2015-thor-motor-coach-four/k3Vwswv4H5yy6pVp6FNrjF"
         }
       ],
       "verification_method": "public_http_page"
@@ -1005,10 +1114,10 @@
         "published_metadata": "post id: 8002328817 posted: 2026-11-17 16:13 ♥ best of [ ? ]",
         "observation_method": "public HTTP page, robots allowed"
       },
-      "source_data_hash": "b845eaa343859925df3047f0272dbcc494815b333235a725315a179333385ec2",
+      "source_data_hash": "be6e22d32262bc67615feed8e4861df07690115404e18938d4eed71cfba7ff4a",
       "first_seen": "2026-11-23T03:11:49+00:00",
-      "last_seen": "2026-11-26T03:27:35+00:00",
-      "last_checked": "2026-11-26T03:27:35+00:00",
+      "last_seen": "2026-11-28T03:20:52+00:00",
+      "last_checked": "2026-11-28T03:20:52+00:00",
       "verification": "live_public_page",
       "status": "active",
       "currency": "USD",
@@ -1096,6 +1205,14 @@
           "method": "public_http_page",
           "source_url": "https://www.craigslist.org/view/d/medinah-2002-gulf-stream-conquest-trade/ejs6SsrbzAefrATjkK3hq8",
           "source_data_hash": "b845eaa343859925df3047f0272dbcc494815b333235a725315a179333385ec2"
+        },
+        {
+          "at": "2026-11-28T03:20:52+00:00",
+          "price": 10000,
+          "status": "active",
+          "method": "public_http_page",
+          "source_url": "https://www.craigslist.org/view/d/medinah-2002-gulf-stream-conquest-trade/ejs6SsrbzAefrATjkK3hq8",
+          "source_data_hash": "be6e22d32262bc67615feed8e4861df07690115404e18938d4eed71cfba7ff4a"
         }
       ],
       "source_history": [
@@ -1130,9 +1247,27 @@
           },
           "source_data_hash": "b845eaa343859925df3047f0272dbcc494815b333235a725315a179333385ec2",
           "method": "public_http_page"
+        },
+        {
+          "at": "2026-11-28T03:20:52+00:00",
+          "source_url": "https://www.craigslist.org/view/d/medinah-2002-gulf-stream-conquest-trade/ejs6SsrbzAefrATjkK3hq8",
+          "source_id": "8002328817",
+          "source_data": {
+            "heading": "2002 gulf stream conquest. Trade considered - $10,000 (Medinah)",
+            "attributes": "2002\ngulf stream conquest\ncondition:\nlike new\ncylinders:\n10 cylinders\ndrive:\nrwd\nfuel:\ngas\nlength (feet):\n29\nodometer:\n54,000\npaint color:\nwhite\nrv type:\nclass A\ntitle status:\nclean\ntransmission:\nautomatic",
+            "map_attributes": {
+              "data-latitude": "41.973000",
+              "data-longitude": "-88.056000",
+              "data-accuracy": "99"
+            },
+            "published_metadata": "post id: 8002328817 posted: 2026-11-17 16:13 ♥ best of [ ? ]",
+            "observation_method": "public HTTP page, robots allowed"
+          },
+          "source_data_hash": "be6e22d32262bc67615feed8e4861df07690115404e18938d4eed71cfba7ff4a",
+          "method": "public_http_page"
         }
       ],
-      "last_attempt": "2026-11-26T03:27:35+00:00",
+      "last_attempt": "2026-11-28T03:20:52+00:00",
       "access_history": [
         {
           "attempted_at": "2026-11-26T03:27:35+00:00",
@@ -1145,6 +1280,12 @@
           "outcome": "active",
           "method": "public_http_page",
           "source_url": "https://www.craigslist.org/view/d/medinah-2002-gulf-stream-conquest-trade/ejs6SsrbzAefrATjkK3hq8"
+        },
+        {
+          "attempted_at": "2026-11-28T03:20:52+00:00",
+          "outcome": "active",
+          "http_status": 200,
+          "url": "https://www.craigslist.org/view/d/medinah-2002-gulf-stream-conquest-trade/ejs6SsrbzAefrATjkK3hq8"
         }
       ],
       "verification_method": "public_http_page"
@@ -1201,10 +1342,10 @@
         "published_metadata": "post id: 7992996069 posted: 2026-10-31 11:32 ♥ best of [ ? ]",
         "observation_method": "public HTTP page, robots allowed"
       },
-      "source_data_hash": "fa8d518e9fbe6d109e4b80348e55a101f8b6bb0a4b324cb3b8407245bb64a8cb",
+      "source_data_hash": "37dfa8673595a54bfa3ac558768fd3c1c8bc6618ab7835e9f4d64ded788fb6ef",
       "first_seen": "2026-11-23T03:11:49+00:00",
-      "last_seen": "2026-11-26T03:27:36+00:00",
-      "last_checked": "2026-11-26T03:27:36+00:00",
+      "last_seen": "2026-11-28T03:20:52+00:00",
+      "last_checked": "2026-11-28T03:20:52+00:00",
       "verification": "live_public_page",
       "status": "active",
       "currency": "USD",
@@ -1292,6 +1433,14 @@
           "method": "public_http_page",
           "source_url": "https://www.craigslist.org/view/d/wilmette-2001-gmc-savana-3500-thomas/b52hfydRsXZFHrukVPKUwm",
           "source_data_hash": "fa8d518e9fbe6d109e4b80348e55a101f8b6bb0a4b324cb3b8407245bb64a8cb"
+        },
+        {
+          "at": "2026-11-28T03:20:52+00:00",
+          "price": 10000,
+          "status": "active",
+          "method": "public_http_page",
+          "source_url": "https://www.craigslist.org/view/d/wilmette-2001-gmc-savana-3500-thomas/b52hfydRsXZFHrukVPKUwm",
+          "source_data_hash": "37dfa8673595a54bfa3ac558768fd3c1c8bc6618ab7835e9f4d64ded788fb6ef"
         }
       ],
       "source_history": [
@@ -1326,9 +1475,27 @@
           },
           "source_data_hash": "fa8d518e9fbe6d109e4b80348e55a101f8b6bb0a4b324cb3b8407245bb64a8cb",
           "method": "public_http_page"
+        },
+        {
+          "at": "2026-11-28T03:20:52+00:00",
+          "source_url": "https://www.craigslist.org/view/d/wilmette-2001-gmc-savana-3500-thomas/b52hfydRsXZFHrukVPKUwm",
+          "source_id": "7992996069",
+          "source_data": {
+            "heading": "2001 GMC Savana 3500 Thomas Minotour Bus RV Conversion - $10,000 (Wilmette)",
+            "attributes": "2001\nGMC Savana 3500\ncondition:\nfair\ncylinders:\n8 cylinders\ndrive:\nrwd\nfuel:\ngas\nlength (feet):\n19\nodometer:\n165,500\npaint color:\ncustom\nrv type:\nother\ntitle status:\nclean\ntransmission:\nautomatic",
+            "map_attributes": {
+              "data-latitude": "42.076500",
+              "data-longitude": "-87.724600",
+              "data-accuracy": "22"
+            },
+            "published_metadata": "post id: 7992996069 posted: 2026-10-31 11:32 ♥ best of [ ? ]",
+            "observation_method": "public HTTP page, robots allowed"
+          },
+          "source_data_hash": "37dfa8673595a54bfa3ac558768fd3c1c8bc6618ab7835e9f4d64ded788fb6ef",
+          "method": "public_http_page"
         }
       ],
-      "last_attempt": "2026-11-26T03:27:36+00:00",
+      "last_attempt": "2026-11-28T03:20:52+00:00",
       "access_history": [
         {
           "attempted_at": "2026-11-26T03:27:36+00:00",
@@ -1341,6 +1508,12 @@
           "outcome": "active",
           "method": "public_http_page",
           "source_url": "https://www.craigslist.org/view/d/wilmette-2001-gmc-savana-3500-thomas/b52hfydRsXZFHrukVPKUwm"
+        },
+        {
+          "attempted_at": "2026-11-28T03:20:52+00:00",
+          "outcome": "active",
+          "http_status": 200,
+          "url": "https://www.craigslist.org/view/d/wilmette-2001-gmc-savana-3500-thomas/b52hfydRsXZFHrukVPKUwm"
         }
       ],
       "verification_method": "public_http_page"
@@ -1400,9 +1573,9 @@
       "source_data_hash": "3eec3324f9d26e06eafda581aaf94f1ca270f10d3b6fdc61734a233089db2c06",
       "first_seen": "2026-11-23T03:11:49+00:00",
       "last_seen": "2026-11-26T03:27:36+00:00",
-      "last_checked": "2026-11-26T03:27:36+00:00",
+      "last_checked": "2026-11-28T03:20:52+00:00",
       "verification": "live_public_page",
-      "status": "active",
+      "status": "removed",
       "currency": "USD",
       "self_propelled": true,
       "leaks": null,
@@ -1472,6 +1645,12 @@
           "at": "2026-11-23T03:11:49+00:00",
           "status": "active",
           "evidence": "Live listing page offered for sale; not seller-confirmed availability."
+        },
+        {
+          "at": "2026-11-28T03:20:52+00:00",
+          "status": "removed",
+          "evidence": "This posting has been deleted",
+          "source_url": "https://www.craigslist.org/view/d/valparaiso-1993-coachmen-class/o45Tdcavq5WtQG2R1RHqgN"
         }
       ],
       "observations": [
@@ -1488,6 +1667,12 @@
           "method": "public_http_page",
           "source_url": "https://www.craigslist.org/view/d/valparaiso-1993-coachmen-class/o45Tdcavq5WtQG2R1RHqgN",
           "source_data_hash": "3eec3324f9d26e06eafda581aaf94f1ca270f10d3b6fdc61734a233089db2c06"
+        },
+        {
+          "at": "2026-11-28T03:20:52+00:00",
+          "status": "removed",
+          "source_url": "https://www.craigslist.org/view/d/valparaiso-1993-coachmen-class/o45Tdcavq5WtQG2R1RHqgN",
+          "evidence": "This posting has been deleted"
         }
       ],
       "source_history": [
@@ -1524,7 +1709,7 @@
           "method": "public_http_page"
         }
       ],
-      "last_attempt": "2026-11-26T03:27:36+00:00",
+      "last_attempt": "2026-11-28T03:20:52+00:00",
       "access_history": [
         {
           "attempted_at": "2026-11-26T03:27:36+00:00",
@@ -1537,6 +1722,13 @@
           "outcome": "active",
           "method": "public_http_page",
           "source_url": "https://www.craigslist.org/view/d/valparaiso-1993-coachmen-class/o45Tdcavq5WtQG2R1RHqgN"
+        },
+        {
+          "attempted_at": "2026-11-28T03:20:52+00:00",
+          "outcome": "removed",
+          "http_status": 410,
+          "evidence": "This posting has been deleted",
+          "url": "https://www.craigslist.org/view/d/valparaiso-1993-coachmen-class/o45Tdcavq5WtQG2R1RHqgN"
         }
       ],
       "verification_method": "public_http_page"
@@ -1595,7 +1787,7 @@
       "source_data_hash": "01368489e5722e7b0e0faa3cec973eeb834eab810cd7b2f2bb41b1e19ac5bd29",
       "first_seen": "2026-11-23T03:11:49+00:00",
       "last_seen": "2026-11-23T03:11:49+00:00",
-      "last_checked": "2026-11-26T03:27:36+00:00",
+      "last_checked": "2026-11-28T03:20:53+00:00",
       "verification": "live_public_page",
       "status": "removed",
       "currency": "USD",
@@ -1687,6 +1879,12 @@
           "status": "removed",
           "source_url": "https://www.craigslist.org/view/d/chicago-one-owner-forest-river/ramDYrAvV3V6FKqEur1BAd",
           "evidence": "This posting has been deleted"
+        },
+        {
+          "at": "2026-11-28T03:20:53+00:00",
+          "status": "removed",
+          "source_url": "https://www.craigslist.org/view/d/chicago-one-owner-forest-river/ramDYrAvV3V6FKqEur1BAd",
+          "evidence": "This posting has been deleted"
         }
       ],
       "source_history": [
@@ -1705,10 +1903,17 @@
           "source_data_hash": "01368489e5722e7b0e0faa3cec973eeb834eab810cd7b2f2bb41b1e19ac5bd29"
         }
       ],
-      "last_attempt": "2026-11-26T03:27:36+00:00",
+      "last_attempt": "2026-11-28T03:20:53+00:00",
       "access_history": [
         {
           "attempted_at": "2026-11-26T03:27:36+00:00",
+          "outcome": "removed",
+          "http_status": 410,
+          "evidence": "This posting has been deleted",
+          "url": "https://www.craigslist.org/view/d/chicago-one-owner-forest-river/ramDYrAvV3V6FKqEur1BAd"
+        },
+        {
+          "attempted_at": "2026-11-28T03:20:53+00:00",
           "outcome": "removed",
           "http_status": 410,
           "evidence": "This posting has been deleted",
@@ -1760,17 +1965,18 @@
       "source_data": {
         "heading": "2005 Georgie boy Landau - $9,000 (Greenfield wi)",
         "attributes": "2005\nGeorgie boy Landau\ncondition:\nexcellent\ncylinders:\n8 cylinders\nfuel:\ngas\nlength (feet):\n32\nodometer:\n62,000\npaint color:\nwhite\nrv type:\nclass A\ntitle status:\nclean\ntransmission:\nautomatic",
-        "published_metadata": "post id: 8005259997 posted: 2026-11-23 11:11 ♥ best of [ ? ]",
         "map_attributes": {
           "data-latitude": "42.901700",
           "data-longitude": "-88.008600",
           "data-accuracy": "22"
-        }
+        },
+        "published_metadata": "post id: 8005259997 posted: 2026-11-23 11:11 ♥ best of [ ? ]",
+        "observation_method": "public HTTP page, robots allowed"
       },
-      "source_data_hash": "af5c2657f0116fdb7c7aa58cf15ceb0a99244eaa02724c5702278a13d43e83f0",
+      "source_data_hash": "c3c060adc4b000f162df64ed0bbc5caa42c90530345e431c031ff9f434456e2f",
       "first_seen": "2026-11-23T03:11:49+00:00",
-      "last_seen": "2026-11-26T03:33:23+00:00",
-      "last_checked": "2026-11-26T03:33:23+00:00",
+      "last_seen": "2026-11-28T03:20:53+00:00",
+      "last_checked": "2026-11-28T03:20:53+00:00",
       "verification": "live_public_page",
       "status": "active",
       "currency": "USD",
@@ -1883,6 +2089,14 @@
           "method": "public_http_page",
           "source_url": "https://www.craigslist.org/view/d/franklin-2005-georgie-boy-landau/vvC8eV7ER3WL6ececKECwA",
           "source_data_hash": "b7b33d3ffb3fd357013d6356a81bde603297513ae805e5e00916c84b90de38d3"
+        },
+        {
+          "at": "2026-11-28T03:20:53+00:00",
+          "price": 9000,
+          "status": "active",
+          "method": "public_http_page",
+          "source_url": "https://www.craigslist.org/view/d/franklin-2005-georgie-boy-landau/vvC8eV7ER3WL6ececKECwA",
+          "source_data_hash": "c3c060adc4b000f162df64ed0bbc5caa42c90530345e431c031ff9f434456e2f"
         }
       ],
       "source_history": [
@@ -1916,9 +2130,27 @@
           },
           "source_data_hash": "b7b33d3ffb3fd357013d6356a81bde603297513ae805e5e00916c84b90de38d3",
           "method": "public_http_page"
+        },
+        {
+          "at": "2026-11-28T03:20:53+00:00",
+          "source_url": "https://www.craigslist.org/view/d/franklin-2005-georgie-boy-landau/vvC8eV7ER3WL6ececKECwA",
+          "source_id": "8005259997",
+          "source_data": {
+            "heading": "2005 Georgie boy Landau - $9,000 (Greenfield wi)",
+            "attributes": "2005\nGeorgie boy Landau\ncondition:\nexcellent\ncylinders:\n8 cylinders\nfuel:\ngas\nlength (feet):\n32\nodometer:\n62,000\npaint color:\nwhite\nrv type:\nclass A\ntitle status:\nclean\ntransmission:\nautomatic",
+            "map_attributes": {
+              "data-latitude": "42.901700",
+              "data-longitude": "-88.008600",
+              "data-accuracy": "22"
+            },
+            "published_metadata": "post id: 8005259997 posted: 2026-11-23 11:11 ♥ best of [ ? ]",
+            "observation_method": "public HTTP page, robots allowed"
+          },
+          "source_data_hash": "c3c060adc4b000f162df64ed0bbc5caa42c90530345e431c031ff9f434456e2f",
+          "method": "public_http_page"
         }
       ],
-      "last_attempt": "2026-11-26T03:33:23+00:00",
+      "last_attempt": "2026-11-28T03:20:53+00:00",
       "access_history": [
         {
           "attempted_at": "2026-11-26T03:27:37+00:00",
@@ -1932,6 +2164,12 @@
           "outcome": "active",
           "method": "public_http_page",
           "source_url": "https://www.craigslist.org/view/d/franklin-2005-georgie-boy-landau/vvC8eV7ER3WL6ececKECwA"
+        },
+        {
+          "attempted_at": "2026-11-28T03:20:53+00:00",
+          "outcome": "active",
+          "http_status": 200,
+          "url": "https://www.craigslist.org/view/d/franklin-2005-georgie-boy-landau/vvC8eV7ER3WL6ececKECwA"
         }
       ],
       "listing_history": [
@@ -2006,10 +2244,10 @@
         "published_metadata": "post id: 7995302238 posted: 2026-11-04 14:55 ♥ best of [ ? ]",
         "observation_method": "public HTTP page, robots allowed"
       },
-      "source_data_hash": "acb5fa9b5863f5915c2eb10d18d237f70a6dc179a4da5fcdbf2825effa63de81",
+      "source_data_hash": "4f3c4e2a570ee3ed1afcb4c90dd0f1fcb857d0ad1489069c36d38d0dacd0a166",
       "first_seen": "2026-11-23T03:11:49+00:00",
-      "last_seen": "2026-11-26T03:27:38+00:00",
-      "last_checked": "2026-11-26T03:27:38+00:00",
+      "last_seen": "2026-11-28T03:20:53+00:00",
+      "last_checked": "2026-11-28T03:20:53+00:00",
       "verification": "live_public_page",
       "status": "active",
       "currency": "USD",
@@ -2097,6 +2335,14 @@
           "method": "public_http_page",
           "source_url": "https://www.craigslist.org/view/d/minneapolis-02-minnie-winnie/nFfkTco8wpKvbYyScw4GNa",
           "source_data_hash": "acb5fa9b5863f5915c2eb10d18d237f70a6dc179a4da5fcdbf2825effa63de81"
+        },
+        {
+          "at": "2026-11-28T03:20:53+00:00",
+          "price": 10000,
+          "status": "active",
+          "method": "public_http_page",
+          "source_url": "https://www.craigslist.org/view/d/minneapolis-02-minnie-winnie/nFfkTco8wpKvbYyScw4GNa",
+          "source_data_hash": "4f3c4e2a570ee3ed1afcb4c90dd0f1fcb857d0ad1489069c36d38d0dacd0a166"
         }
       ],
       "source_history": [
@@ -2131,9 +2377,27 @@
           },
           "source_data_hash": "acb5fa9b5863f5915c2eb10d18d237f70a6dc179a4da5fcdbf2825effa63de81",
           "method": "public_http_page"
+        },
+        {
+          "at": "2026-11-28T03:20:53+00:00",
+          "source_url": "https://www.craigslist.org/view/d/minneapolis-02-minnie-winnie/nFfkTco8wpKvbYyScw4GNa",
+          "source_id": "7995302238",
+          "source_data": {
+            "heading": "02 Minnie Winnie - $10,000 (New Hope)",
+            "attributes": "2002\nwinnebago minnie winnie\ncondition:\ngood\ncylinders:\n8 cylinders\nfuel:\ngas\nlength (feet):\n23\nrv type:\nclass C\ntitle status:\nclean\ntransmission:\nautomatic",
+            "map_attributes": {
+              "data-latitude": "45.063200",
+              "data-longitude": "-93.381100",
+              "data-accuracy": "22"
+            },
+            "published_metadata": "post id: 7995302238 posted: 2026-11-04 14:55 ♥ best of [ ? ]",
+            "observation_method": "public HTTP page, robots allowed"
+          },
+          "source_data_hash": "4f3c4e2a570ee3ed1afcb4c90dd0f1fcb857d0ad1489069c36d38d0dacd0a166",
+          "method": "public_http_page"
         }
       ],
-      "last_attempt": "2026-11-26T03:27:38+00:00",
+      "last_attempt": "2026-11-28T03:20:53+00:00",
       "access_history": [
         {
           "attempted_at": "2026-11-26T03:27:38+00:00",
@@ -2146,6 +2410,12 @@
           "outcome": "active",
           "method": "public_http_page",
           "source_url": "https://www.craigslist.org/view/d/minneapolis-02-minnie-winnie/nFfkTco8wpKvbYyScw4GNa"
+        },
+        {
+          "attempted_at": "2026-11-28T03:20:53+00:00",
+          "outcome": "active",
+          "http_status": 200,
+          "url": "https://www.craigslist.org/view/d/minneapolis-02-minnie-winnie/nFfkTco8wpKvbYyScw4GNa"
         }
       ],
       "verification_method": "public_http_page"
@@ -2205,9 +2475,9 @@
       "source_data_hash": "f2ab27b3830ed7012da10e5236d7b933b36dedd21ec503eee407f624ea50f01e",
       "first_seen": "2026-11-23T03:11:49+00:00",
       "last_seen": "2026-11-26T03:27:38+00:00",
-      "last_checked": "2026-11-26T03:27:38+00:00",
+      "last_checked": "2026-11-28T03:20:53+00:00",
       "verification": "live_public_page",
-      "status": "active",
+      "status": "removed",
       "currency": "USD",
       "self_propelled": true,
       "leaks": null,
@@ -2277,6 +2547,12 @@
           "at": "2026-11-23T03:11:49+00:00",
           "status": "active",
           "evidence": "Live listing page offered for sale; not seller-confirmed availability."
+        },
+        {
+          "at": "2026-11-28T03:20:53+00:00",
+          "status": "removed",
+          "evidence": "This posting has expired",
+          "source_url": "https://www.craigslist.org/view/d/rogers-2008-forest-river-georgetown/jE6PnrA4m3geuZ2V1ntHeP"
         }
       ],
       "observations": [
@@ -2293,6 +2569,12 @@
           "method": "public_http_page",
           "source_url": "https://www.craigslist.org/view/d/rogers-2008-forest-river-georgetown/jE6PnrA4m3geuZ2V1ntHeP",
           "source_data_hash": "f2ab27b3830ed7012da10e5236d7b933b36dedd21ec503eee407f624ea50f01e"
+        },
+        {
+          "at": "2026-11-28T03:20:53+00:00",
+          "status": "removed",
+          "source_url": "https://www.craigslist.org/view/d/rogers-2008-forest-river-georgetown/jE6PnrA4m3geuZ2V1ntHeP",
+          "evidence": "This posting has expired"
         }
       ],
       "source_history": [
@@ -2329,7 +2611,7 @@
           "method": "public_http_page"
         }
       ],
-      "last_attempt": "2026-11-26T03:27:38+00:00",
+      "last_attempt": "2026-11-28T03:20:53+00:00",
       "access_history": [
         {
           "attempted_at": "2026-11-26T03:27:38+00:00",
@@ -2342,6 +2624,13 @@
           "outcome": "active",
           "method": "public_http_page",
           "source_url": "https://www.craigslist.org/view/d/rogers-2008-forest-river-georgetown/jE6PnrA4m3geuZ2V1ntHeP"
+        },
+        {
+          "attempted_at": "2026-11-28T03:20:53+00:00",
+          "outcome": "removed",
+          "http_status": 410,
+          "evidence": "This posting has expired",
+          "url": "https://www.craigslist.org/view/d/rogers-2008-forest-river-georgetown/jE6PnrA4m3geuZ2V1ntHeP"
         }
       ],
       "verification_method": "public_http_page"
@@ -2401,9 +2690,9 @@
       "source_data_hash": "71869fc5c0ce3b49059246ebc3d2833075e3d08a415ea1a0d5976d3e9d8f9060",
       "first_seen": "2026-11-23T03:11:49+00:00",
       "last_seen": "2026-11-26T03:27:38+00:00",
-      "last_checked": "2026-11-26T03:27:38+00:00",
+      "last_checked": "2026-11-28T03:20:54+00:00",
       "verification": "live_public_page",
-      "status": "active",
+      "status": "removed",
       "currency": "USD",
       "self_propelled": true,
       "leaks": null,
@@ -2473,6 +2762,12 @@
           "at": "2026-11-23T03:11:49+00:00",
           "status": "active",
           "evidence": "Live listing page offered for sale; not seller-confirmed availability."
+        },
+        {
+          "at": "2026-11-28T03:20:54+00:00",
+          "status": "removed",
+          "evidence": "This posting has expired",
+          "source_url": "https://www.craigslist.org/view/d/pine-city-1991-ford-350-econoline/mrF3eKG8sb3D6knnFuHRpb"
         }
       ],
       "observations": [
@@ -2489,6 +2784,12 @@
           "method": "public_http_page",
           "source_url": "https://www.craigslist.org/view/d/pine-city-1991-ford-350-econoline/mrF3eKG8sb3D6knnFuHRpb",
           "source_data_hash": "71869fc5c0ce3b49059246ebc3d2833075e3d08a415ea1a0d5976d3e9d8f9060"
+        },
+        {
+          "at": "2026-11-28T03:20:54+00:00",
+          "status": "removed",
+          "source_url": "https://www.craigslist.org/view/d/pine-city-1991-ford-350-econoline/mrF3eKG8sb3D6knnFuHRpb",
+          "evidence": "This posting has expired"
         }
       ],
       "source_history": [
@@ -2525,7 +2826,7 @@
           "method": "public_http_page"
         }
       ],
-      "last_attempt": "2026-11-26T03:27:38+00:00",
+      "last_attempt": "2026-11-28T03:20:54+00:00",
       "access_history": [
         {
           "attempted_at": "2026-11-26T03:27:38+00:00",
@@ -2538,6 +2839,13 @@
           "outcome": "active",
           "method": "public_http_page",
           "source_url": "https://www.craigslist.org/view/d/pine-city-1991-ford-350-econoline/mrF3eKG8sb3D6knnFuHRpb"
+        },
+        {
+          "attempted_at": "2026-11-28T03:20:54+00:00",
+          "outcome": "removed",
+          "http_status": 410,
+          "evidence": "This posting has expired",
+          "url": "https://www.craigslist.org/view/d/pine-city-1991-ford-350-econoline/mrF3eKG8sb3D6knnFuHRpb"
         }
       ],
       "verification_method": "public_http_page"
@@ -2594,10 +2902,10 @@
         "published_metadata": "post id: 7999586706 posted: 2026-11-12 13:30 updated: 2026-11-12 13:30 ♥ best of [ ? ]",
         "observation_method": "public HTTP page, robots allowed"
       },
-      "source_data_hash": "04c1b906b156268c85d1098ffd77bc04a2939544ea4fc42ebfdb7bdecffa37d6",
+      "source_data_hash": "480fdb9158b8b19772f0c89703ca7dd3f1827ebb63b80cdcc1f6afa94e64ede4",
       "first_seen": "2026-11-23T03:11:49+00:00",
-      "last_seen": "2026-11-26T03:27:39+00:00",
-      "last_checked": "2026-11-26T03:27:39+00:00",
+      "last_seen": "2026-11-28T03:20:54+00:00",
+      "last_checked": "2026-11-28T03:20:54+00:00",
       "verification": "live_public_page",
       "status": "active",
       "currency": "USD",
@@ -2685,6 +2993,14 @@
           "method": "public_http_page",
           "source_url": "https://www.craigslist.org/view/d/brookfield-1986-toyota-cormorant-rv/4ociUeqZY4suvhrthHCh1B",
           "source_data_hash": "04c1b906b156268c85d1098ffd77bc04a2939544ea4fc42ebfdb7bdecffa37d6"
+        },
+        {
+          "at": "2026-11-28T03:20:54+00:00",
+          "price": 17500,
+          "status": "active",
+          "method": "public_http_page",
+          "source_url": "https://www.craigslist.org/view/d/brookfield-1986-toyota-cormorant-rv/4ociUeqZY4suvhrthHCh1B",
+          "source_data_hash": "480fdb9158b8b19772f0c89703ca7dd3f1827ebb63b80cdcc1f6afa94e64ede4"
         }
       ],
       "source_history": [
@@ -2719,9 +3035,27 @@
           },
           "source_data_hash": "04c1b906b156268c85d1098ffd77bc04a2939544ea4fc42ebfdb7bdecffa37d6",
           "method": "public_http_page"
+        },
+        {
+          "at": "2026-11-28T03:20:54+00:00",
+          "source_url": "https://www.craigslist.org/view/d/brookfield-1986-toyota-cormorant-rv/4ociUeqZY4suvhrthHCh1B",
+          "source_id": "7999586706",
+          "source_data": {
+            "heading": "1986 toyota cormorant rv 18000 miles - $17,500 (Brookfield)",
+            "attributes": "1987\ntoyota\ncondition:\nlike new\ncylinders:\n4 cylinders\ndrive:\nrwd\nlength (feet):\n21\nodometer:\n18,000\nrv type:\nclass B\ntitle status:\nclean\ntransmission:\nautomatic",
+            "map_attributes": {
+              "data-latitude": "43.066800",
+              "data-longitude": "-88.146900",
+              "data-accuracy": "22"
+            },
+            "published_metadata": "post id: 7999586706 posted: 2026-11-12 13:30 updated: 2026-11-12 13:30 ♥ best of [ ? ]",
+            "observation_method": "public HTTP page, robots allowed"
+          },
+          "source_data_hash": "480fdb9158b8b19772f0c89703ca7dd3f1827ebb63b80cdcc1f6afa94e64ede4",
+          "method": "public_http_page"
         }
       ],
-      "last_attempt": "2026-11-26T03:27:39+00:00",
+      "last_attempt": "2026-11-28T03:20:54+00:00",
       "access_history": [
         {
           "attempted_at": "2026-11-26T03:27:39+00:00",
@@ -2734,6 +3068,12 @@
           "outcome": "active",
           "method": "public_http_page",
           "source_url": "https://www.craigslist.org/view/d/brookfield-1986-toyota-cormorant-rv/4ociUeqZY4suvhrthHCh1B"
+        },
+        {
+          "attempted_at": "2026-11-28T03:20:54+00:00",
+          "outcome": "active",
+          "http_status": 200,
+          "url": "https://www.craigslist.org/view/d/brookfield-1986-toyota-cormorant-rv/4ociUeqZY4suvhrthHCh1B"
         }
       ],
       "verification_method": "public_http_page"
@@ -2787,10 +3127,10 @@
         "published_metadata": "post id: 8004787788 posted: 2026-11-22 11:33 updated: 2026-11-22 11:33 ♥ best of [ ? ]",
         "observation_method": "public HTTP page, robots allowed"
       },
-      "source_data_hash": "f8e42b615406cca7fb3efbca5d6c88fc473bcc8e688c36faa4f8936034d5de38",
+      "source_data_hash": "240231b7cfdad74caeeaa6e3bbe58f0e58b4ad9a65fd80c43e272fdf307b8146",
       "first_seen": "2026-11-23T03:11:49+00:00",
-      "last_seen": "2026-11-26T03:27:39+00:00",
-      "last_checked": "2026-11-26T03:27:39+00:00",
+      "last_seen": "2026-11-28T03:20:54+00:00",
+      "last_checked": "2026-11-28T03:20:54+00:00",
       "verification": "live_public_page",
       "status": "active",
       "currency": "USD",
@@ -2878,6 +3218,14 @@
           "method": "public_http_page",
           "source_url": "https://www.craigslist.org/view/d/kenosha-chevrolet-skoolie-rv/xsJNAimf5r4CF7uRnSeqAf",
           "source_data_hash": "f8e42b615406cca7fb3efbca5d6c88fc473bcc8e688c36faa4f8936034d5de38"
+        },
+        {
+          "at": "2026-11-28T03:20:54+00:00",
+          "price": 8000,
+          "status": "active",
+          "method": "public_http_page",
+          "source_url": "https://www.craigslist.org/view/d/kenosha-chevrolet-skoolie-rv/xsJNAimf5r4CF7uRnSeqAf",
+          "source_data_hash": "240231b7cfdad74caeeaa6e3bbe58f0e58b4ad9a65fd80c43e272fdf307b8146"
         }
       ],
       "source_history": [
@@ -2912,9 +3260,27 @@
           },
           "source_data_hash": "f8e42b615406cca7fb3efbca5d6c88fc473bcc8e688c36faa4f8936034d5de38",
           "method": "public_http_page"
+        },
+        {
+          "at": "2026-11-28T03:20:54+00:00",
+          "source_url": "https://www.craigslist.org/view/d/kenosha-chevrolet-skoolie-rv/xsJNAimf5r4CF7uRnSeqAf",
+          "source_id": "8004787788",
+          "source_data": {
+            "heading": "Chevrolet Skoolie RV - $8,000 (Kenosha, Milwaukee)",
+            "attributes": "chevrolet\nrv type:\nclass A",
+            "map_attributes": {
+              "data-latitude": "42.605200",
+              "data-longitude": "-87.829900",
+              "data-accuracy": "22"
+            },
+            "published_metadata": "post id: 8004787788 posted: 2026-11-22 11:33 updated: 2026-11-22 11:33 ♥ best of [ ? ]",
+            "observation_method": "public HTTP page, robots allowed"
+          },
+          "source_data_hash": "240231b7cfdad74caeeaa6e3bbe58f0e58b4ad9a65fd80c43e272fdf307b8146",
+          "method": "public_http_page"
         }
       ],
-      "last_attempt": "2026-11-26T03:27:39+00:00",
+      "last_attempt": "2026-11-28T03:20:54+00:00",
       "access_history": [
         {
           "attempted_at": "2026-11-26T03:27:39+00:00",
@@ -2927,6 +3293,12 @@
           "outcome": "active",
           "method": "public_http_page",
           "source_url": "https://www.craigslist.org/view/d/kenosha-chevrolet-skoolie-rv/xsJNAimf5r4CF7uRnSeqAf"
+        },
+        {
+          "attempted_at": "2026-11-28T03:20:54+00:00",
+          "outcome": "active",
+          "http_status": 200,
+          "url": "https://www.craigslist.org/view/d/kenosha-chevrolet-skoolie-rv/xsJNAimf5r4CF7uRnSeqAf"
         }
       ],
       "verification_method": "public_http_page"
@@ -2985,7 +3357,7 @@
       "source_data_hash": "d884e8e3931f467a92870d6c6b85745715e58b498a64551cb00ef57c5ed41e93",
       "first_seen": "2026-11-23T03:11:49+00:00",
       "last_seen": "2026-11-23T03:11:49+00:00",
-      "last_checked": "2026-11-26T03:27:39+00:00",
+      "last_checked": "2026-11-28T03:20:55+00:00",
       "verification": "live_public_page",
       "status": "removed",
       "currency": "USD",
@@ -3077,6 +3449,12 @@
           "status": "removed",
           "source_url": "https://www.craigslist.org/view/d/madison-2000-dodge-explorer-3500-runs/7pp5F8R71spyyT6iKdNNuf",
           "evidence": "This posting has expired"
+        },
+        {
+          "at": "2026-11-28T03:20:55+00:00",
+          "status": "removed",
+          "source_url": "https://www.craigslist.org/view/d/madison-2000-dodge-explorer-3500-runs/7pp5F8R71spyyT6iKdNNuf",
+          "evidence": "This posting has expired"
         }
       ],
       "source_history": [
@@ -3095,10 +3473,17 @@
           "source_data_hash": "d884e8e3931f467a92870d6c6b85745715e58b498a64551cb00ef57c5ed41e93"
         }
       ],
-      "last_attempt": "2026-11-26T03:27:39+00:00",
+      "last_attempt": "2026-11-28T03:20:55+00:00",
       "access_history": [
         {
           "attempted_at": "2026-11-26T03:27:39+00:00",
+          "outcome": "removed",
+          "http_status": 410,
+          "evidence": "This posting has expired",
+          "url": "https://www.craigslist.org/view/d/madison-2000-dodge-explorer-3500-runs/7pp5F8R71spyyT6iKdNNuf"
+        },
+        {
+          "attempted_at": "2026-11-28T03:20:55+00:00",
           "outcome": "removed",
           "http_status": 410,
           "evidence": "This posting has expired",
@@ -3146,13 +3531,13 @@
         "source_url": "https://en.wikipedia.org/wiki/Fridley,_Minnesota"
       },
       "source_data": {
-        "method": "Visible Chrome listing, current asking price and VIN/specification table checked 2026-11-26",
+        "method": "Exact live detail page, price and VIN read in normal connected Chrome 2026-11-28; no challenge interaction.",
         "stock_id": "19792aa",
         "photo_unit_binding": "19792aa"
       },
       "first_seen": "2026-11-23T03:11:49+00:00",
-      "last_seen": "2026-11-26T03:33:23+00:00",
-      "last_checked": "2026-11-26T03:33:23+00:00",
+      "last_seen": "2026-11-28T03:25:59+00:00",
+      "last_checked": "2026-11-28T03:25:59+00:00",
       "verification": "live_public_page",
       "status": "active",
       "currency": "USD",
@@ -3232,6 +3617,14 @@
           "method": "chrome_visible_page",
           "source_url": "https://www.hilltopcamper.com/product/used-2011-jayco-greyhawk-31fk-3728708-16",
           "source_data_hash": null
+        },
+        {
+          "at": "2026-11-28T03:25:59+00:00",
+          "price": 24995,
+          "status": "active",
+          "method": "chrome_visible_page",
+          "source_url": "https://www.hilltopcamper.com/product/used-2011-jayco-greyhawk-31fk-3728708-16",
+          "source_data_hash": null
         }
       ],
       "source_history": [
@@ -3255,9 +3648,21 @@
           },
           "source_data_hash": null,
           "method": "chrome_visible_page"
+        },
+        {
+          "at": "2026-11-28T03:25:59+00:00",
+          "source_url": "https://www.hilltopcamper.com/product/used-2011-jayco-greyhawk-31fk-3728708-16",
+          "source_id": "19792aa",
+          "source_data": {
+            "method": "Exact live detail page, price and VIN read in normal connected Chrome 2026-11-28; no challenge interaction.",
+            "stock_id": "19792aa",
+            "photo_unit_binding": "19792aa"
+          },
+          "source_data_hash": null,
+          "method": "chrome_visible_page"
         }
       ],
-      "last_attempt": "2026-11-26T03:33:23+00:00",
+      "last_attempt": "2026-11-28T03:20:55+00:00",
       "access_history": [
         {
           "attempted_at": "2026-11-26T03:27:40+00:00",
@@ -3268,6 +3673,18 @@
         {
           "at": "2026-11-26T03:33:23+00:00",
           "outcome": "active",
+          "method": "chrome_visible_page",
+          "source_url": "https://www.hilltopcamper.com/product/used-2011-jayco-greyhawk-31fk-3728708-16"
+        },
+        {
+          "attempted_at": "2026-11-28T03:20:55+00:00",
+          "outcome": "unverified_access",
+          "reason": "robots unavailable or disallowed",
+          "url": "https://www.hilltopcamper.com/product/used-2011-jayco-greyhawk-31fk-3728708-16"
+        },
+        {
+          "at": "2026-11-28T03:25:59+00:00",
+          "outcome": "active_page",
           "method": "chrome_visible_page",
           "source_url": "https://www.hilltopcamper.com/product/used-2011-jayco-greyhawk-31fk-3728708-16"
         }
@@ -3314,13 +3731,13 @@
         "source_url": "https://en.wikipedia.org/wiki/Fridley,_Minnesota"
       },
       "source_data": {
-        "method": "Visible Chrome listing, current asking price and VIN/specification table checked 2026-11-26",
+        "method": "Exact live detail page, price and VIN read in normal connected Chrome 2026-11-28; no challenge interaction.",
         "stock_id": "20065b",
         "photo_unit_binding": "20065b"
       },
       "first_seen": "2026-11-23T03:11:49+00:00",
-      "last_seen": "2026-11-26T03:33:23+00:00",
-      "last_checked": "2026-11-26T03:33:23+00:00",
+      "last_seen": "2026-11-28T03:25:59+00:00",
+      "last_checked": "2026-11-28T03:25:59+00:00",
       "verification": "live_public_page",
       "status": "active",
       "currency": "USD",
@@ -3387,6 +3804,14 @@
           "method": "chrome_visible_page",
           "source_url": "https://www.hilltopcamper.com/product/used-2003-winnebago-journey-dl-34hd-3792178-10",
           "source_data_hash": null
+        },
+        {
+          "at": "2026-11-28T03:25:59+00:00",
+          "price": 24995,
+          "status": "active",
+          "method": "chrome_visible_page",
+          "source_url": "https://www.hilltopcamper.com/product/used-2003-winnebago-journey-dl-34hd-3792178-10",
+          "source_data_hash": null
         }
       ],
       "source_history": [
@@ -3410,9 +3835,21 @@
           },
           "source_data_hash": null,
           "method": "chrome_visible_page"
+        },
+        {
+          "at": "2026-11-28T03:25:59+00:00",
+          "source_url": "https://www.hilltopcamper.com/product/used-2003-winnebago-journey-dl-34hd-3792178-10",
+          "source_id": "20065b",
+          "source_data": {
+            "method": "Exact live detail page, price and VIN read in normal connected Chrome 2026-11-28; no challenge interaction.",
+            "stock_id": "20065b",
+            "photo_unit_binding": "20065b"
+          },
+          "source_data_hash": null,
+          "method": "chrome_visible_page"
         }
       ],
-      "last_attempt": "2026-11-26T03:33:23+00:00",
+      "last_attempt": "2026-11-28T03:20:55+00:00",
       "access_history": [
         {
           "attempted_at": "2026-11-26T03:27:40+00:00",
@@ -3423,6 +3860,18 @@
         {
           "at": "2026-11-26T03:33:23+00:00",
           "outcome": "active",
+          "method": "chrome_visible_page",
+          "source_url": "https://www.hilltopcamper.com/product/used-2003-winnebago-journey-dl-34hd-3792178-10"
+        },
+        {
+          "attempted_at": "2026-11-28T03:20:55+00:00",
+          "outcome": "unverified_access",
+          "reason": "robots unavailable or disallowed",
+          "url": "https://www.hilltopcamper.com/product/used-2003-winnebago-journey-dl-34hd-3792178-10"
+        },
+        {
+          "at": "2026-11-28T03:25:59+00:00",
+          "outcome": "active_page",
           "method": "chrome_visible_page",
           "source_url": "https://www.hilltopcamper.com/product/used-2003-winnebago-journey-dl-34hd-3792178-10"
         }
@@ -3469,13 +3918,13 @@
         "source_url": "https://en.wikipedia.org/wiki/Fridley,_Minnesota"
       },
       "source_data": {
-        "method": "Visible Chrome listing, current asking price and VIN/specification table checked 2026-11-26",
+        "method": "Exact live detail page, price and VIN read in normal connected Chrome 2026-11-28; no challenge interaction.",
         "stock_id": "20420aa",
         "photo_unit_binding": "20420aa"
       },
       "first_seen": "2026-11-23T03:11:49+00:00",
-      "last_seen": "2026-11-26T03:33:23+00:00",
-      "last_checked": "2026-11-26T03:33:23+00:00",
+      "last_seen": "2026-11-28T03:25:59+00:00",
+      "last_checked": "2026-11-28T03:25:59+00:00",
       "verification": "live_public_page",
       "status": "active",
       "currency": "USD",
@@ -3542,6 +3991,14 @@
           "method": "chrome_visible_page",
           "source_url": "https://www.hilltopcamper.com/product/used-1999-trail-wagons-chinook-concourse-3796483-16",
           "source_data_hash": null
+        },
+        {
+          "at": "2026-11-28T03:25:59+00:00",
+          "price": 19995,
+          "status": "active",
+          "method": "chrome_visible_page",
+          "source_url": "https://www.hilltopcamper.com/product/used-1999-trail-wagons-chinook-concourse-3796483-16",
+          "source_data_hash": null
         }
       ],
       "source_history": [
@@ -3565,9 +4022,21 @@
           },
           "source_data_hash": null,
           "method": "chrome_visible_page"
+        },
+        {
+          "at": "2026-11-28T03:25:59+00:00",
+          "source_url": "https://www.hilltopcamper.com/product/used-1999-trail-wagons-chinook-concourse-3796483-16",
+          "source_id": "20420aa",
+          "source_data": {
+            "method": "Exact live detail page, price and VIN read in normal connected Chrome 2026-11-28; no challenge interaction.",
+            "stock_id": "20420aa",
+            "photo_unit_binding": "20420aa"
+          },
+          "source_data_hash": null,
+          "method": "chrome_visible_page"
         }
       ],
-      "last_attempt": "2026-11-26T03:33:23+00:00",
+      "last_attempt": "2026-11-28T03:20:55+00:00",
       "access_history": [
         {
           "attempted_at": "2026-11-26T03:27:40+00:00",
@@ -3578,6 +4047,18 @@
         {
           "at": "2026-11-26T03:33:23+00:00",
           "outcome": "active",
+          "method": "chrome_visible_page",
+          "source_url": "https://www.hilltopcamper.com/product/used-1999-trail-wagons-chinook-concourse-3796483-16"
+        },
+        {
+          "attempted_at": "2026-11-28T03:20:55+00:00",
+          "outcome": "unverified_access",
+          "reason": "robots unavailable or disallowed",
+          "url": "https://www.hilltopcamper.com/product/used-1999-trail-wagons-chinook-concourse-3796483-16"
+        },
+        {
+          "at": "2026-11-28T03:25:59+00:00",
+          "outcome": "active_page",
           "method": "chrome_visible_page",
           "source_url": "https://www.hilltopcamper.com/product/used-1999-trail-wagons-chinook-concourse-3796483-16"
         }
@@ -3622,12 +4103,12 @@
       },
       "source_data": {
         "stock_id": "P1643",
-        "method": "Visible Chrome listing, current asking price and VIN/specification table checked 2026-11-26",
+        "method": "Exact live detail page, price and VIN read in normal connected Chrome 2026-11-28; no challenge interaction.",
         "dealer_website": "https://www.jimpotts.com/"
       },
       "first_seen": "2026-11-23T03:11:49+00:00",
-      "last_seen": "2026-11-26T03:33:23+00:00",
-      "last_checked": "2026-11-26T03:33:23+00:00",
+      "last_seen": "2026-11-28T03:25:59+00:00",
+      "last_checked": "2026-11-28T03:25:59+00:00",
       "verification": "live_public_page",
       "status": "review_hold",
       "currency": "USD",
@@ -3689,6 +4170,14 @@
           "method": "chrome_visible_page",
           "source_url": "https://rvs.autotrader.com/rvs/2002/winnebago/sightseer/300691350",
           "source_data_hash": null
+        },
+        {
+          "at": "2026-11-28T03:25:59+00:00",
+          "price": 19995,
+          "status": "review_hold",
+          "method": "chrome_visible_page",
+          "source_url": "https://rvs.autotrader.com/rvs/2002/winnebago/sightseer/300691350",
+          "source_data_hash": null
         }
       ],
       "source_history": [
@@ -3712,9 +4201,21 @@
           },
           "source_data_hash": null,
           "method": "chrome_visible_page"
+        },
+        {
+          "at": "2026-11-28T03:25:59+00:00",
+          "source_url": "https://rvs.autotrader.com/rvs/2002/winnebago/sightseer/300691350",
+          "source_id": "300691350",
+          "source_data": {
+            "stock_id": "P1643",
+            "method": "Exact live detail page, price and VIN read in normal connected Chrome 2026-11-28; no challenge interaction.",
+            "dealer_website": "https://www.jimpotts.com/"
+          },
+          "source_data_hash": null,
+          "method": "chrome_visible_page"
         }
       ],
-      "last_attempt": "2026-11-26T03:33:23+00:00",
+      "last_attempt": "2026-11-28T03:20:55+00:00",
       "access_history": [
         {
           "attempted_at": "2026-11-26T03:27:40+00:00",
@@ -3726,6 +4227,19 @@
         {
           "at": "2026-11-26T03:33:23+00:00",
           "outcome": "active",
+          "method": "chrome_visible_page",
+          "source_url": "https://rvs.autotrader.com/rvs/2002/winnebago/sightseer/300691350"
+        },
+        {
+          "attempted_at": "2026-11-28T03:20:55+00:00",
+          "outcome": "unverified_access",
+          "http_status": 403,
+          "reason": "Access Denied",
+          "url": "https://rvs.autotrader.com/rvs/2002/winnebago/sightseer/300691350"
+        },
+        {
+          "at": "2026-11-28T03:25:59+00:00",
+          "outcome": "active_page",
           "method": "chrome_visible_page",
           "source_url": "https://rvs.autotrader.com/rvs/2002/winnebago/sightseer/300691350"
         }
@@ -3827,6 +4341,14 @@
           "method": "public_http_page_and_chrome",
           "source_url": "https://www.craigslist.org/view/d/orland-park-2003-winnebago-adventurer-33/qb1fdv1P8mwvyUEZTimgmX",
           "source_data_hash": "916a194162ee495c458acc597df1d25af706dcf5cffb08403b17c2eec10ce2c4"
+        },
+        {
+          "at": "2026-11-28T03:20:55+00:00",
+          "price": 21500,
+          "status": "active",
+          "method": "public_http_page",
+          "source_url": "https://www.craigslist.org/view/d/orland-park-2003-winnebago-adventurer-33/qb1fdv1P8mwvyUEZTimgmX",
+          "source_data_hash": "10750f891c61ccf8530949f401a16de5770a91e63c52135b1349e454be4e9768"
         }
       ],
       "source_history": [
@@ -3846,6 +4368,24 @@
           },
           "source_data_hash": "916a194162ee495c458acc597df1d25af706dcf5cffb08403b17c2eec10ce2c4",
           "method": "public_http_page_and_chrome"
+        },
+        {
+          "at": "2026-11-28T03:20:55+00:00",
+          "source_url": "https://www.craigslist.org/view/d/orland-park-2003-winnebago-adventurer-33/qb1fdv1P8mwvyUEZTimgmX",
+          "source_id": "8005320378",
+          "source_data": {
+            "heading": "2003 Winnebago Adventurer 33’ - $21,500 (Orland Park)",
+            "attributes": "2003\nwinnebago adventurer\ncondition:\ngood\ncylinders:\n8 cylinders\ndrive:\nrwd\nfuel:\ngas\nlength (feet):\n33\nodometer:\n61,500\npaint color:\ncustom\nrv type:\nclass A\ntitle status:\nclean\ntransmission:\nautomatic",
+            "map_attributes": {
+              "data-latitude": "41.637300",
+              "data-longitude": "-87.858400",
+              "data-accuracy": "99"
+            },
+            "published_metadata": "post id: 8005320378 posted: 2026-11-23 12:26 updated: 2026-11-23 12:26 ♥ best of [ ? ]",
+            "observation_method": "public HTTP page, robots allowed"
+          },
+          "source_data_hash": "10750f891c61ccf8530949f401a16de5770a91e63c52135b1349e454be4e9768",
+          "method": "public_http_page"
         }
       ],
       "location": {
@@ -3861,24 +4401,31 @@
       "source_data": {
         "heading": "2003 Winnebago Adventurer 33’ - $21,500 (Orland Park)",
         "attributes": "2003\nwinnebago adventurer\ncondition:\ngood\ncylinders:\n8 cylinders\ndrive:\nrwd\nfuel:\ngas\nlength (feet):\n33\nodometer:\n61,500\npaint color:\ncustom\nrv type:\nclass A\ntitle status:\nclean\ntransmission:\nautomatic",
-        "published_metadata": "post id: 8005320378 posted: 2026-11-23 12:26 updated: 2026-11-23 12:26 ♥ best of [ ? ]",
         "map_attributes": {
           "data-latitude": "41.637300",
           "data-longitude": "-87.858400",
           "data-accuracy": "99"
-        }
+        },
+        "published_metadata": "post id: 8005320378 posted: 2026-11-23 12:26 updated: 2026-11-23 12:26 ♥ best of [ ? ]",
+        "observation_method": "public HTTP page, robots allowed"
       },
-      "last_checked": "2026-11-26T03:33:23+00:00",
-      "last_seen": "2026-11-26T03:33:23+00:00",
-      "last_attempt": "2026-11-26T03:33:23+00:00",
+      "last_checked": "2026-11-28T03:20:55+00:00",
+      "last_seen": "2026-11-28T03:20:55+00:00",
+      "last_attempt": "2026-11-28T03:20:55+00:00",
       "verification": "live_public_page",
-      "verification_method": "public_http_page_and_chrome",
+      "verification_method": "public_http_page",
       "access_history": [
         {
           "at": "2026-11-26T03:33:23+00:00",
           "outcome": "active",
           "method": "public_http_page_and_chrome",
           "source_url": "https://www.craigslist.org/view/d/orland-park-2003-winnebago-adventurer-33/qb1fdv1P8mwvyUEZTimgmX"
+        },
+        {
+          "attempted_at": "2026-11-28T03:20:55+00:00",
+          "outcome": "active",
+          "http_status": 200,
+          "url": "https://www.craigslist.org/view/d/orland-park-2003-winnebago-adventurer-33/qb1fdv1P8mwvyUEZTimgmX"
         }
       ],
       "photos": [
@@ -3912,7 +4459,8 @@
         "MSP": 564.6
       },
       "nearest_airport": "ORD",
-      "local": true
+      "local": true,
+      "source_data_hash": "10750f891c61ccf8530949f401a16de5770a91e63c52135b1349e454be4e9768"
     },
     {
       "id": "rv-cl-8005589337",
@@ -3998,6 +4546,14 @@
           "method": "public_http_page_and_chrome",
           "source_url": "https://www.craigslist.org/view/d/farmington-1999-itasca/5xiMtDNYmTZEvwPjrJm8ae",
           "source_data_hash": "423398c4b50bf1b1a263a0142eaa477926d7105f2bb8ba4f030c6270cc991fc0"
+        },
+        {
+          "at": "2026-11-28T03:20:56+00:00",
+          "price": 16000,
+          "status": "active",
+          "method": "public_http_page",
+          "source_url": "https://www.craigslist.org/view/d/farmington-1999-itasca/5xiMtDNYmTZEvwPjrJm8ae",
+          "source_data_hash": "f5010c2bcfb20b436ac8e19acf2043c74acb6d59d0faa76829cdffcdeab63fa6"
         }
       ],
       "source_history": [
@@ -4017,6 +4573,24 @@
           },
           "source_data_hash": "423398c4b50bf1b1a263a0142eaa477926d7105f2bb8ba4f030c6270cc991fc0",
           "method": "public_http_page_and_chrome"
+        },
+        {
+          "at": "2026-11-28T03:20:56+00:00",
+          "source_url": "https://www.craigslist.org/view/d/farmington-1999-itasca/5xiMtDNYmTZEvwPjrJm8ae",
+          "source_id": "8005589337",
+          "source_data": {
+            "heading": "1999 Itasca - $16,000 (Farmington)",
+            "attributes": "1999\nford e-350\ncondition:\ngood\ncylinders:\n10 cylinders\nlength (feet):\n35\npaint color:\ngreen\nrv type:\nclass A\ntitle status:\nclean\ntransmission:\nautomatic",
+            "map_attributes": {
+              "data-latitude": "44.653200",
+              "data-longitude": "-93.168700",
+              "data-accuracy": "99"
+            },
+            "published_metadata": "post id: 8005589337 posted: 2026-11-23 20:43 ♥ best of [ ? ]",
+            "observation_method": "public HTTP page, robots allowed"
+          },
+          "source_data_hash": "f5010c2bcfb20b436ac8e19acf2043c74acb6d59d0faa76829cdffcdeab63fa6",
+          "method": "public_http_page"
         }
       ],
       "location": {
@@ -4032,24 +4606,31 @@
       "source_data": {
         "heading": "1999 Itasca - $16,000 (Farmington)",
         "attributes": "1999\nford e-350\ncondition:\ngood\ncylinders:\n10 cylinders\nlength (feet):\n35\npaint color:\ngreen\nrv type:\nclass A\ntitle status:\nclean\ntransmission:\nautomatic",
-        "published_metadata": "post id: 8005589337 posted: 2026-11-23 20:43 ♥ best of [ ? ]",
         "map_attributes": {
           "data-latitude": "44.653200",
           "data-longitude": "-93.168700",
           "data-accuracy": "99"
-        }
+        },
+        "published_metadata": "post id: 8005589337 posted: 2026-11-23 20:43 ♥ best of [ ? ]",
+        "observation_method": "public HTTP page, robots allowed"
       },
-      "last_checked": "2026-11-26T03:33:23+00:00",
-      "last_seen": "2026-11-26T03:33:23+00:00",
-      "last_attempt": "2026-11-26T03:33:23+00:00",
+      "last_checked": "2026-11-28T03:20:56+00:00",
+      "last_seen": "2026-11-28T03:20:56+00:00",
+      "last_attempt": "2026-11-28T03:20:56+00:00",
       "verification": "live_public_page",
-      "verification_method": "public_http_page_and_chrome",
+      "verification_method": "public_http_page",
       "access_history": [
         {
           "at": "2026-11-26T03:33:23+00:00",
           "outcome": "active",
           "method": "public_http_page_and_chrome",
           "source_url": "https://www.craigslist.org/view/d/farmington-1999-itasca/5xiMtDNYmTZEvwPjrJm8ae"
+        },
+        {
+          "attempted_at": "2026-11-28T03:20:56+00:00",
+          "outcome": "active",
+          "http_status": 200,
+          "url": "https://www.craigslist.org/view/d/farmington-1999-itasca/5xiMtDNYmTZEvwPjrJm8ae"
         }
       ],
       "photos": [
@@ -4083,7 +4664,8 @@
         "MSP": 26.1
       },
       "nearest_airport": "MSP",
-      "local": true
+      "local": true,
+      "source_data_hash": "f5010c2bcfb20b436ac8e19acf2043c74acb6d59d0faa76829cdffcdeab63fa6"
     },
     {
       "id": "rv-cl-7997166969",
@@ -4169,6 +4751,14 @@
           "method": "public_http_page_and_chrome",
           "source_url": "https://www.craigslist.org/view/d/clinton-1993-pacearrow-34-ft-454/2zwEpKhPbupMBKR5ycpEnp",
           "source_data_hash": "30fba39f07431bdc8c7e5732aac0d0dd88966b5114845ac7255140d7f9e756a1"
+        },
+        {
+          "at": "2026-11-28T03:20:56+00:00",
+          "price": 1650,
+          "status": "active",
+          "method": "public_http_page",
+          "source_url": "https://www.craigslist.org/view/d/clinton-1993-pacearrow-34-ft-454/2zwEpKhPbupMBKR5ycpEnp",
+          "source_data_hash": "70f4de09da86c7e9be27de23a2d3de34d011a560eaffc44b134b285d56f9049b"
         }
       ],
       "source_history": [
@@ -4188,6 +4778,24 @@
           },
           "source_data_hash": "30fba39f07431bdc8c7e5732aac0d0dd88966b5114845ac7255140d7f9e756a1",
           "method": "public_http_page_and_chrome"
+        },
+        {
+          "at": "2026-11-28T03:20:56+00:00",
+          "source_url": "https://www.craigslist.org/view/d/clinton-1993-pacearrow-34-ft-454/2zwEpKhPbupMBKR5ycpEnp",
+          "source_id": "7997166969",
+          "source_data": {
+            "heading": "1993 PaceArrow 34 ft 454 - $1,650 (Clinton)",
+            "attributes": "fleetwood pace arrow\nodometer:\n70,000\nrv type:\nclass A\ntitle status:\nclean\ntransmission:\nautomatic",
+            "map_attributes": {
+              "data-latitude": "41.827912",
+              "data-longitude": "-90.202340",
+              "data-accuracy": "5"
+            },
+            "published_metadata": "post id: 7997166969 posted: 2026-11-08 00:35 updated: 2026-11-08 00:35 ♥ best of [ ? ]",
+            "observation_method": "public HTTP page, robots allowed"
+          },
+          "source_data_hash": "70f4de09da86c7e9be27de23a2d3de34d011a560eaffc44b134b285d56f9049b",
+          "method": "public_http_page"
         }
       ],
       "location": {
@@ -4203,24 +4811,31 @@
       "source_data": {
         "heading": "1993 PaceArrow 34 ft 454 - $1,650 (Clinton)",
         "attributes": "fleetwood pace arrow\nodometer:\n70,000\nrv type:\nclass A\ntitle status:\nclean\ntransmission:\nautomatic",
-        "published_metadata": "post id: 7997166969 posted: 2026-11-08 00:35 updated: 2026-11-08 00:35 ♥ best of [ ? ]",
         "map_attributes": {
           "data-latitude": "41.827912",
           "data-longitude": "-90.202340",
           "data-accuracy": "5"
-        }
+        },
+        "published_metadata": "post id: 7997166969 posted: 2026-11-08 00:35 updated: 2026-11-08 00:35 ♥ best of [ ? ]",
+        "observation_method": "public HTTP page, robots allowed"
       },
-      "last_checked": "2026-11-26T03:33:23+00:00",
-      "last_seen": "2026-11-26T03:33:23+00:00",
-      "last_attempt": "2026-11-26T03:33:23+00:00",
+      "last_checked": "2026-11-28T03:20:56+00:00",
+      "last_seen": "2026-11-28T03:20:56+00:00",
+      "last_attempt": "2026-11-28T03:20:56+00:00",
       "verification": "live_public_page",
-      "verification_method": "public_http_page_and_chrome",
+      "verification_method": "public_http_page",
       "access_history": [
         {
           "at": "2026-11-26T03:33:23+00:00",
           "outcome": "active",
           "method": "public_http_page_and_chrome",
           "source_url": "https://www.craigslist.org/view/d/clinton-1993-pacearrow-34-ft-454/2zwEpKhPbupMBKR5ycpEnp"
+        },
+        {
+          "attempted_at": "2026-11-28T03:20:56+00:00",
+          "outcome": "active",
+          "http_status": 200,
+          "url": "https://www.craigslist.org/view/d/clinton-1993-pacearrow-34-ft-454/2zwEpKhPbupMBKR5ycpEnp"
         }
       ],
       "photos": [
@@ -4254,7 +4869,8 @@
         "MSP": 418.4
       },
       "nearest_airport": "ORD",
-      "local": false
+      "local": false,
+      "source_data_hash": "70f4de09da86c7e9be27de23a2d3de34d011a560eaffc44b134b285d56f9049b"
     },
     {
       "id": "rv-autotrader-300691349",
@@ -4317,6 +4933,14 @@
           "method": "chrome_visible_page",
           "source_url": "https://rvs.autotrader.com/rvs/1993/winnebago/vectra/300691349",
           "source_data_hash": null
+        },
+        {
+          "at": "2026-11-28T03:25:59+00:00",
+          "price": 8995,
+          "status": "review_hold",
+          "method": "chrome_visible_page",
+          "source_url": "https://rvs.autotrader.com/rvs/1993/winnebago/vectra/300691349",
+          "source_data_hash": null
         }
       ],
       "photo_history": [
@@ -4347,6 +4971,20 @@
           },
           "source_data_hash": null,
           "method": "chrome_visible_page"
+        },
+        {
+          "at": "2026-11-28T03:25:59+00:00",
+          "source_url": "https://rvs.autotrader.com/rvs/1993/winnebago/vectra/300691349",
+          "source_id": "300691349",
+          "source_data": {
+            "method": "Exact live detail page, price and VIN read in normal connected Chrome 2026-11-28; no challenge interaction.",
+            "stock_id": "P1541",
+            "vin": "4S7UT9J1XPC010837",
+            "mileage": "N/A",
+            "asking_price_usd": 8995
+          },
+          "source_data_hash": null,
+          "method": "chrome_visible_page"
         }
       ],
       "location": {
@@ -4360,7 +4998,7 @@
         "source_url": "https://en.wikipedia.org/wiki/Woodstock,_Illinois"
       },
       "source_data": {
-        "method": "Chrome visible page",
+        "method": "Exact live detail page, price and VIN read in normal connected Chrome 2026-11-28; no challenge interaction.",
         "stock_id": "P1541",
         "vin": "4S7UT9J1XPC010837",
         "mileage": "N/A",
@@ -4372,15 +5010,28 @@
       },
       "nearest_airport": "ORD",
       "local": true,
-      "last_checked": "2026-11-26T03:33:23+00:00",
-      "last_seen": "2026-11-26T03:33:23+00:00",
-      "last_attempt": "2026-11-26T03:33:23+00:00",
+      "last_checked": "2026-11-28T03:25:59+00:00",
+      "last_seen": "2026-11-28T03:25:59+00:00",
+      "last_attempt": "2026-11-28T03:20:56+00:00",
       "verification": "live_public_page",
       "verification_method": "chrome_visible_page",
       "access_history": [
         {
           "at": "2026-11-26T03:33:23+00:00",
           "outcome": "active",
+          "method": "chrome_visible_page",
+          "source_url": "https://rvs.autotrader.com/rvs/1993/winnebago/vectra/300691349"
+        },
+        {
+          "attempted_at": "2026-11-28T03:20:56+00:00",
+          "outcome": "unverified_access",
+          "http_status": 403,
+          "reason": "Access Denied",
+          "url": "https://rvs.autotrader.com/rvs/1993/winnebago/vectra/300691349"
+        },
+        {
+          "at": "2026-11-28T03:25:59+00:00",
+          "outcome": "active_page",
           "method": "chrome_visible_page",
           "source_url": "https://rvs.autotrader.com/rvs/1993/winnebago/vectra/300691349"
         }
@@ -4397,6 +5048,489 @@
         "method": "Visual review of rendered listing images during desktop/mobile QA."
       },
       "sale_status": "active"
+    },
+    {
+      "id": "rv-cl-8007173316",
+      "source": "Craigslist",
+      "source_id": "8007173316",
+      "url": "https://www.craigslist.org/view/d/long-lake-95-road-trek/tKYswdrWFM5duWUijiYt3Z",
+      "seller_type": "private",
+      "seller_name": null,
+      "year": 1995,
+      "make": "Roadtrek",
+      "model": "190 Popular",
+      "class": "B",
+      "price": 9800,
+      "price_type": "asking_cash_price",
+      "mandatory_dealer_fee": null,
+      "fee_included": null,
+      "tax_title_registration": null,
+      "currency": "USD",
+      "self_propelled": true,
+      "mileage": {
+        "value": 207000,
+        "unit": "mi"
+      },
+      "length": null,
+      "height": null,
+      "engine": "V8; точная модель неизвестна",
+      "fuel": "gas",
+      "slides": null,
+      "vin": null,
+      "title_status": "clean",
+      "title_evidence": "Seller listing field only; documents not inspected.",
+      "leaks": null,
+      "condition": "seller_good",
+      "condition_claim": "excellent",
+      "notes_ru": "Заявлены хранение в помещении в Arizona и отсутствие ржавчины; текущее место — приблизительная точка Long Lake. 207 000 миль, история протечек и независимая проверка состояния неизвестны.",
+      "first_seen": "2026-11-28T03:22:19+00:00",
+      "price_history": [
+        {
+          "at": "2026-11-28T03:22:19+00:00",
+          "price": 9800,
+          "source_url": "https://www.craigslist.org/view/d/long-lake-95-road-trek/tKYswdrWFM5duWUijiYt3Z"
+        }
+      ],
+      "status": "active",
+      "status_history": [
+        {
+          "at": "2026-11-28T03:22:19+00:00",
+          "status": "active",
+          "evidence": "Live exact sale page with asking price, seller fields and vehicle photos."
+        }
+      ],
+      "photos": [
+        {
+          "path": "assets/rvs/cc3dce99e70dc63e2c0bdfea21a4e96d75d3b56d5cc05c629e1693718a4b44aa.jpg",
+          "source_url": "https://images.craigslist.org/00Q0Q_kUJ9TR6gfnW_0CI0t2_600x450.jpg",
+          "listing_url": "https://www.craigslist.org/view/d/long-lake-95-road-trek/tKYswdrWFM5duWUijiYt3Z",
+          "sha256": "cc3dce99e70dc63e2c0bdfea21a4e96d75d3b56d5cc05c629e1693718a4b44aa",
+          "bytes": 54008,
+          "mime": "image/jpeg",
+          "first_seen": "2026-11-28T03:22:19+00:00",
+          "retrieved_at": "2026-11-28T03:25:59+00:00",
+          "unaltered": true
+        },
+        {
+          "path": "assets/rvs/36d1a12e0f9ef28fb7294b027df0c1239373bbd4fd0287928ae7f0f791824dd6.jpg",
+          "source_url": "https://images.craigslist.org/00I0I_fPxqG3nFTzP_0CI0t2_600x450.jpg",
+          "listing_url": "https://www.craigslist.org/view/d/long-lake-95-road-trek/tKYswdrWFM5duWUijiYt3Z",
+          "sha256": "36d1a12e0f9ef28fb7294b027df0c1239373bbd4fd0287928ae7f0f791824dd6",
+          "bytes": 31867,
+          "mime": "image/jpeg",
+          "first_seen": "2026-11-28T03:22:19+00:00",
+          "retrieved_at": "2026-11-28T03:25:59+00:00",
+          "unaltered": true
+        }
+      ],
+      "photo_history": [
+        {
+          "path": "assets/rvs/cc3dce99e70dc63e2c0bdfea21a4e96d75d3b56d5cc05c629e1693718a4b44aa.jpg",
+          "source_url": "https://images.craigslist.org/00Q0Q_kUJ9TR6gfnW_0CI0t2_600x450.jpg",
+          "listing_url": "https://www.craigslist.org/view/d/long-lake-95-road-trek/tKYswdrWFM5duWUijiYt3Z",
+          "sha256": "cc3dce99e70dc63e2c0bdfea21a4e96d75d3b56d5cc05c629e1693718a4b44aa",
+          "bytes": 54008,
+          "mime": "image/jpeg",
+          "first_seen": "2026-11-28T03:22:19+00:00",
+          "retrieved_at": "2026-11-28T03:25:59+00:00",
+          "unaltered": true
+        },
+        {
+          "path": "assets/rvs/36d1a12e0f9ef28fb7294b027df0c1239373bbd4fd0287928ae7f0f791824dd6.jpg",
+          "source_url": "https://images.craigslist.org/00I0I_fPxqG3nFTzP_0CI0t2_600x450.jpg",
+          "listing_url": "https://www.craigslist.org/view/d/long-lake-95-road-trek/tKYswdrWFM5duWUijiYt3Z",
+          "sha256": "36d1a12e0f9ef28fb7294b027df0c1239373bbd4fd0287928ae7f0f791824dd6",
+          "bytes": 31867,
+          "mime": "image/jpeg",
+          "first_seen": "2026-11-28T03:22:19+00:00",
+          "retrieved_at": "2026-11-28T03:25:59+00:00",
+          "unaltered": true
+        }
+      ],
+      "observations": [
+        {
+          "at": "2026-11-28T03:22:19+00:00",
+          "price": 9800,
+          "status": "active",
+          "method": "public_http_page",
+          "source_url": "https://www.craigslist.org/view/d/long-lake-95-road-trek/tKYswdrWFM5duWUijiYt3Z",
+          "source_data_hash": "7b9bc8cd7d31a0a58c0b1f3392cd238247e525fa4f3c9425607927ecdda2e4c6"
+        }
+      ],
+      "source_history": [
+        {
+          "at": "2026-11-28T03:22:19+00:00",
+          "source_url": "https://www.craigslist.org/view/d/long-lake-95-road-trek/tKYswdrWFM5duWUijiYt3Z",
+          "source_id": "8007173316",
+          "source_data": {
+            "heading": "95 Road Trek - $9,800",
+            "attributes": "1995\nroadtrek 190 popular\ncondition:\nexcellent\ncylinders:\n8 cylinders\ndrive:\nrwd\nfuel:\ngas\nodometer:\n207,000\npaint color:\nwhite\nrv type:\nclass B\ntitle status:\nclean\ntransmission:\nautomatic\ndelivery available",
+            "published_metadata": "post id: 8007173316 posted: 2026-11-27 11:58 updated: 2026-11-27 11:58 ♥ best of [ ? ]",
+            "map_attributes": {
+              "data-latitude": "44.991200",
+              "data-longitude": "-93.581800",
+              "data-accuracy": "22"
+            },
+            "observation_method": "public HTTP page, robots allowed"
+          },
+          "source_data_hash": "7b9bc8cd7d31a0a58c0b1f3392cd238247e525fa4f3c9425607927ecdda2e4c6",
+          "method": "public_http_page"
+        }
+      ],
+      "location": {
+        "name": "Long Lake / Hennepin County, MN",
+        "coordinates": [
+          44.9912,
+          -93.5818
+        ],
+        "address": null,
+        "accuracy": "seller_map_approximate",
+        "source_url": "https://www.craigslist.org/view/d/long-lake-95-road-trek/tKYswdrWFM5duWUijiYt3Z"
+      },
+      "source_data": {
+        "heading": "95 Road Trek - $9,800",
+        "attributes": "1995\nroadtrek 190 popular\ncondition:\nexcellent\ncylinders:\n8 cylinders\ndrive:\nrwd\nfuel:\ngas\nodometer:\n207,000\npaint color:\nwhite\nrv type:\nclass B\ntitle status:\nclean\ntransmission:\nautomatic\ndelivery available",
+        "published_metadata": "post id: 8007173316 posted: 2026-11-27 11:58 updated: 2026-11-27 11:58 ♥ best of [ ? ]",
+        "map_attributes": {
+          "data-latitude": "44.991200",
+          "data-longitude": "-93.581800",
+          "data-accuracy": "22"
+        },
+        "observation_method": "public HTTP page, robots allowed"
+      },
+      "source_data_hash": "7b9bc8cd7d31a0a58c0b1f3392cd238247e525fa4f3c9425607927ecdda2e4c6",
+      "distances_km": {
+        "ORD": 567.2,
+        "MSP": 30.7
+      },
+      "nearest_airport": "MSP",
+      "local": true,
+      "last_checked": "2026-11-28T03:22:19+00:00",
+      "last_seen": "2026-11-28T03:22:19+00:00",
+      "verification": "live_public_page",
+      "verification_method": "public_http_page"
+    },
+    {
+      "id": "rv-cl-8003405556",
+      "source": "Craigslist",
+      "source_id": "8003405556",
+      "url": "https://www.craigslist.org/view/d/west-chicago-2016-ford-e450-van-bus/1hnEYgcQCyvVmLFZFd5u69",
+      "seller_type": "private",
+      "seller_name": null,
+      "year": 2016,
+      "make": "Ford",
+      "model": "E450 van/bus — основа под conversion",
+      "class": "conversion",
+      "price": 22500,
+      "price_type": "asking_cash_price",
+      "mandatory_dealer_fee": null,
+      "fee_included": null,
+      "tax_title_registration": null,
+      "currency": "USD",
+      "self_propelled": true,
+      "mileage": {
+        "value": 96200,
+        "unit": "mi"
+      },
+      "length": null,
+      "height": null,
+      "engine": "Ford V10",
+      "fuel": "gas",
+      "slides": null,
+      "vin": null,
+      "title_status": "clean",
+      "title_evidence": "Seller listing field only; documents not inspected.",
+      "leaks": null,
+      "condition": "needs_clarification",
+      "condition_claim": "excellent",
+      "notes_ru": "Это van/bus с тремя скамейками и задней зоной хранения/сна; законченная жилая комплектация не подтверждена. В полях 96 200 миль, в тексте 92 600. Продавец указывает Class C, но описывает основу для campervan; показан как conversion. Заявлен недавний ремонт тормозов; длина, высота и протечки неизвестны.",
+      "first_seen": "2026-11-28T03:22:21+00:00",
+      "price_history": [
+        {
+          "at": "2026-11-28T03:22:21+00:00",
+          "price": 22500,
+          "source_url": "https://www.craigslist.org/view/d/west-chicago-2016-ford-e450-van-bus/1hnEYgcQCyvVmLFZFd5u69"
+        }
+      ],
+      "status": "active",
+      "status_history": [
+        {
+          "at": "2026-11-28T03:22:21+00:00",
+          "status": "active",
+          "evidence": "Live exact sale page with asking price, seller fields and vehicle photos."
+        }
+      ],
+      "photos": [
+        {
+          "path": "assets/rvs/b6ce722f462c2033397c496681af477dffccaa61852fbf8ab47077dd503d0e30.jpg",
+          "source_url": "https://images.craigslist.org/00R0R_6XkboVb1ZRx_0Cz0t2_600x450.jpg",
+          "listing_url": "https://www.craigslist.org/view/d/west-chicago-2016-ford-e450-van-bus/1hnEYgcQCyvVmLFZFd5u69",
+          "sha256": "b6ce722f462c2033397c496681af477dffccaa61852fbf8ab47077dd503d0e30",
+          "bytes": 56384,
+          "mime": "image/jpeg",
+          "first_seen": "2026-11-28T03:22:21+00:00",
+          "retrieved_at": "2026-11-28T03:25:59+00:00",
+          "unaltered": true
+        },
+        {
+          "path": "assets/rvs/bb8cee2323bb096b99101f60c86450a33f6f2abb226c3c8de3f5f36797a81eb2.jpg",
+          "source_url": "https://images.craigslist.org/00T0T_1eEzJ1MY6ZH_0Cz0t2_600x450.jpg",
+          "listing_url": "https://www.craigslist.org/view/d/west-chicago-2016-ford-e450-van-bus/1hnEYgcQCyvVmLFZFd5u69",
+          "sha256": "bb8cee2323bb096b99101f60c86450a33f6f2abb226c3c8de3f5f36797a81eb2",
+          "bytes": 42388,
+          "mime": "image/jpeg",
+          "first_seen": "2026-11-28T03:22:21+00:00",
+          "retrieved_at": "2026-11-28T03:25:59+00:00",
+          "unaltered": true
+        }
+      ],
+      "photo_history": [
+        {
+          "path": "assets/rvs/b6ce722f462c2033397c496681af477dffccaa61852fbf8ab47077dd503d0e30.jpg",
+          "source_url": "https://images.craigslist.org/00R0R_6XkboVb1ZRx_0Cz0t2_600x450.jpg",
+          "listing_url": "https://www.craigslist.org/view/d/west-chicago-2016-ford-e450-van-bus/1hnEYgcQCyvVmLFZFd5u69",
+          "sha256": "b6ce722f462c2033397c496681af477dffccaa61852fbf8ab47077dd503d0e30",
+          "bytes": 56384,
+          "mime": "image/jpeg",
+          "first_seen": "2026-11-28T03:22:21+00:00",
+          "retrieved_at": "2026-11-28T03:25:59+00:00",
+          "unaltered": true
+        },
+        {
+          "path": "assets/rvs/bb8cee2323bb096b99101f60c86450a33f6f2abb226c3c8de3f5f36797a81eb2.jpg",
+          "source_url": "https://images.craigslist.org/00T0T_1eEzJ1MY6ZH_0Cz0t2_600x450.jpg",
+          "listing_url": "https://www.craigslist.org/view/d/west-chicago-2016-ford-e450-van-bus/1hnEYgcQCyvVmLFZFd5u69",
+          "sha256": "bb8cee2323bb096b99101f60c86450a33f6f2abb226c3c8de3f5f36797a81eb2",
+          "bytes": 42388,
+          "mime": "image/jpeg",
+          "first_seen": "2026-11-28T03:22:21+00:00",
+          "retrieved_at": "2026-11-28T03:25:59+00:00",
+          "unaltered": true
+        }
+      ],
+      "observations": [
+        {
+          "at": "2026-11-28T03:22:21+00:00",
+          "price": 22500,
+          "status": "active",
+          "method": "public_http_page",
+          "source_url": "https://www.craigslist.org/view/d/west-chicago-2016-ford-e450-van-bus/1hnEYgcQCyvVmLFZFd5u69",
+          "source_data_hash": "b539dbf24e108eefa7207525133291cb3f5b8e67a772c36d87a913d92555116c"
+        }
+      ],
+      "source_history": [
+        {
+          "at": "2026-11-28T03:22:21+00:00",
+          "source_url": "https://www.craigslist.org/view/d/west-chicago-2016-ford-e450-van-bus/1hnEYgcQCyvVmLFZFd5u69",
+          "source_id": "8003405556",
+          "source_data": {
+            "heading": "2016 Ford E450 VAN/ BUS - $22,500 (WEST CHICAGO, IL)",
+            "attributes": "2016\nFORD E450\ncondition:\nexcellent\ncylinders:\n10 cylinders\ndrive:\nrwd\nfuel:\ngas\nodometer:\n96,200\npaint color:\nwhite\nrv type:\nclass C\ntitle status:\nclean\ntransmission:\nautomatic",
+            "published_metadata": "post id: 8003405556 posted: 2026-11-19 15:19 updated: 2026-11-19 15:19 ♥ best of [ ? ]",
+            "map_attributes": {
+              "data-latitude": "41.888600",
+              "data-longitude": "-88.202200",
+              "data-accuracy": "22"
+            },
+            "observation_method": "public HTTP page, robots allowed"
+          },
+          "source_data_hash": "b539dbf24e108eefa7207525133291cb3f5b8e67a772c36d87a913d92555116c",
+          "method": "public_http_page"
+        }
+      ],
+      "location": {
+        "name": "West Chicago, IL",
+        "coordinates": [
+          41.8886,
+          -88.2022
+        ],
+        "address": null,
+        "accuracy": "seller_map_approximate",
+        "source_url": "https://www.craigslist.org/view/d/west-chicago-2016-ford-e450-van-bus/1hnEYgcQCyvVmLFZFd5u69"
+      },
+      "source_data": {
+        "heading": "2016 Ford E450 VAN/ BUS - $22,500 (WEST CHICAGO, IL)",
+        "attributes": "2016\nFORD E450\ncondition:\nexcellent\ncylinders:\n10 cylinders\ndrive:\nrwd\nfuel:\ngas\nodometer:\n96,200\npaint color:\nwhite\nrv type:\nclass C\ntitle status:\nclean\ntransmission:\nautomatic",
+        "published_metadata": "post id: 8003405556 posted: 2026-11-19 15:19 updated: 2026-11-19 15:19 ♥ best of [ ? ]",
+        "map_attributes": {
+          "data-latitude": "41.888600",
+          "data-longitude": "-88.202200",
+          "data-accuracy": "22"
+        },
+        "observation_method": "public HTTP page, robots allowed"
+      },
+      "source_data_hash": "b539dbf24e108eefa7207525133291cb3f5b8e67a772c36d87a913d92555116c",
+      "distances_km": {
+        "ORD": 26.6,
+        "MSP": 524.8
+      },
+      "nearest_airport": "ORD",
+      "local": true,
+      "last_checked": "2026-11-28T03:22:21+00:00",
+      "last_seen": "2026-11-28T03:22:21+00:00",
+      "verification": "live_public_page",
+      "verification_method": "public_http_page"
+    },
+    {
+      "id": "rv-cl-7997998257",
+      "source": "Craigslist",
+      "source_id": "7997998257",
+      "url": "https://www.craigslist.org/view/d/bagley-1975-barth-rv/wdHR16838dnevLK83jvA2s",
+      "seller_type": "private",
+      "seller_name": null,
+      "year": 1975,
+      "make": "Barth",
+      "model": "29-foot motorcoach",
+      "class": "A",
+      "price": 10000,
+      "price_type": "asking_cash_price",
+      "mandatory_dealer_fee": null,
+      "fee_included": null,
+      "tax_title_registration": null,
+      "currency": "USD",
+      "self_propelled": true,
+      "mileage": {
+        "value": 70000,
+        "unit": "mi"
+      },
+      "length": "29 ft",
+      "height": null,
+      "engine": "454 V8 (по полям)",
+      "fuel": "gas",
+      "slides": null,
+      "vin": null,
+      "title_status": "clean",
+      "title_evidence": "Seller listing field only; documents not inspected.",
+      "leaks": null,
+      "condition": "seller_good",
+      "condition_claim": "good",
+      "notes_ru": "Опубликовано в разделе Minneapolis, но точка продавца около Bagley — далеко за радиусом 150 км. Место стоянки не подтверждено. Алюминиевый кузов, 70 000 миль по объявлению. Протечки, объём необходимого ремонта и исправность систем неизвестны.",
+      "first_seen": "2026-11-28T03:22:20+00:00",
+      "price_history": [
+        {
+          "at": "2026-11-28T03:22:20+00:00",
+          "price": 10000,
+          "source_url": "https://www.craigslist.org/view/d/bagley-1975-barth-rv/wdHR16838dnevLK83jvA2s"
+        }
+      ],
+      "status": "active",
+      "status_history": [
+        {
+          "at": "2026-11-28T03:22:20+00:00",
+          "status": "active",
+          "evidence": "Live exact sale page with asking price, seller fields and vehicle photos."
+        }
+      ],
+      "photos": [
+        {
+          "path": "assets/rvs/18bc23959b429c3a8e0fb5ea582439b369ae2e94b75d5145c56a089832b4bcee.jpg",
+          "source_url": "https://images.craigslist.org/00505_1MhOTonCF9n_0CI0t2_600x450.jpg",
+          "listing_url": "https://www.craigslist.org/view/d/bagley-1975-barth-rv/wdHR16838dnevLK83jvA2s",
+          "sha256": "18bc23959b429c3a8e0fb5ea582439b369ae2e94b75d5145c56a089832b4bcee",
+          "bytes": 64179,
+          "mime": "image/jpeg",
+          "first_seen": "2026-11-28T03:22:20+00:00",
+          "retrieved_at": "2026-11-28T03:25:59+00:00",
+          "unaltered": true
+        },
+        {
+          "path": "assets/rvs/ab60278757e13f6409c52686c8399d99372fb531a97c0135d3e6625c3b3268a8.jpg",
+          "source_url": "https://images.craigslist.org/00H0H_1WjLirPXOcJ_0CI0t2_600x450.jpg",
+          "listing_url": "https://www.craigslist.org/view/d/bagley-1975-barth-rv/wdHR16838dnevLK83jvA2s",
+          "sha256": "ab60278757e13f6409c52686c8399d99372fb531a97c0135d3e6625c3b3268a8",
+          "bytes": 50966,
+          "mime": "image/jpeg",
+          "first_seen": "2026-11-28T03:22:20+00:00",
+          "retrieved_at": "2026-11-28T03:25:59+00:00",
+          "unaltered": true
+        }
+      ],
+      "photo_history": [
+        {
+          "path": "assets/rvs/18bc23959b429c3a8e0fb5ea582439b369ae2e94b75d5145c56a089832b4bcee.jpg",
+          "source_url": "https://images.craigslist.org/00505_1MhOTonCF9n_0CI0t2_600x450.jpg",
+          "listing_url": "https://www.craigslist.org/view/d/bagley-1975-barth-rv/wdHR16838dnevLK83jvA2s",
+          "sha256": "18bc23959b429c3a8e0fb5ea582439b369ae2e94b75d5145c56a089832b4bcee",
+          "bytes": 64179,
+          "mime": "image/jpeg",
+          "first_seen": "2026-11-28T03:22:20+00:00",
+          "retrieved_at": "2026-11-28T03:25:59+00:00",
+          "unaltered": true
+        },
+        {
+          "path": "assets/rvs/ab60278757e13f6409c52686c8399d99372fb531a97c0135d3e6625c3b3268a8.jpg",
+          "source_url": "https://images.craigslist.org/00H0H_1WjLirPXOcJ_0CI0t2_600x450.jpg",
+          "listing_url": "https://www.craigslist.org/view/d/bagley-1975-barth-rv/wdHR16838dnevLK83jvA2s",
+          "sha256": "ab60278757e13f6409c52686c8399d99372fb531a97c0135d3e6625c3b3268a8",
+          "bytes": 50966,
+          "mime": "image/jpeg",
+          "first_seen": "2026-11-28T03:22:20+00:00",
+          "retrieved_at": "2026-11-28T03:25:59+00:00",
+          "unaltered": true
+        }
+      ],
+      "observations": [
+        {
+          "at": "2026-11-28T03:22:20+00:00",
+          "price": 10000,
+          "status": "active",
+          "method": "public_http_page",
+          "source_url": "https://www.craigslist.org/view/d/bagley-1975-barth-rv/wdHR16838dnevLK83jvA2s",
+          "source_data_hash": "a5a700883b846b320c2a0da8d288bf7901793ef71ae65fa4ead2f753bea8285a"
+        }
+      ],
+      "source_history": [
+        {
+          "at": "2026-11-28T03:22:20+00:00",
+          "source_url": "https://www.craigslist.org/view/d/bagley-1975-barth-rv/wdHR16838dnevLK83jvA2s",
+          "source_id": "7997998257",
+          "source_data": {
+            "heading": "1975 Barth RV - $10,000",
+            "attributes": "1975\nBarth 454 gas\ncondition:\ngood\ncylinders:\n8 cylinders\nlength (feet):\n29\nodometer:\n70,000\npaint color:\nyellow\nrv type:\nclass A\ntitle status:\nclean\ntransmission:\nautomatic",
+            "published_metadata": "post id: 7997998257 posted: 2026-11-09 15:29 ♥ best of [ ? ]",
+            "map_attributes": {
+              "data-latitude": "47.460871",
+              "data-longitude": "-95.370083",
+              "data-accuracy": "5"
+            },
+            "observation_method": "public HTTP page, robots allowed"
+          },
+          "source_data_hash": "a5a700883b846b320c2a0da8d288bf7901793ef71ae65fa4ead2f753bea8285a",
+          "method": "public_http_page"
+        }
+      ],
+      "location": {
+        "name": "Bagley, MN — точка продавца",
+        "coordinates": [
+          47.460871,
+          -95.370083
+        ],
+        "address": null,
+        "accuracy": "seller_map_approximate",
+        "source_url": "https://www.craigslist.org/view/d/bagley-1975-barth-rv/wdHR16838dnevLK83jvA2s"
+      },
+      "source_data": {
+        "heading": "1975 Barth RV - $10,000",
+        "attributes": "1975\nBarth 454 gas\ncondition:\ngood\ncylinders:\n8 cylinders\nlength (feet):\n29\nodometer:\n70,000\npaint color:\nyellow\nrv type:\nclass A\ntitle status:\nclean\ntransmission:\nautomatic",
+        "published_metadata": "post id: 7997998257 posted: 2026-11-09 15:29 ♥ best of [ ? ]",
+        "map_attributes": {
+          "data-latitude": "47.460871",
+          "data-longitude": "-95.370083",
+          "data-accuracy": "5"
+        },
+        "observation_method": "public HTTP page, robots allowed"
+      },
+      "source_data_hash": "a5a700883b846b320c2a0da8d288bf7901793ef71ae65fa4ead2f753bea8285a",
+      "distances_km": {
+        "ORD": 847.5,
+        "MSP": 330.7
+      },
+      "nearest_airport": "MSP",
+      "local": false,
+      "last_checked": "2026-11-28T03:22:20+00:00",
+      "last_seen": "2026-11-28T03:22:20+00:00",
+      "verification": "live_public_page",
+      "verification_method": "public_http_page"
     }
   ],
   "excluded": [
@@ -4409,11 +5543,27 @@
       "source_url": "https://www.craigslist.org/view/d/circle-pines-bigfoot-rv/2U7oEuMmDwMr1LzXTt95Uh",
       "reason_ru": "Bigfoot 25B21RB — прицеп; пользователь выбрал только самоходные RV.",
       "checked_at": "2026-11-23T03:11:49+00:00"
+    },
+    {
+      "source_url": "https://www.craigslist.org/view/d/chicago-class-motorhome-super-saver/4DVnJMKA69P7tkCK4HrmTa",
+      "source_id": "8005284324",
+      "checked_at": "2026-11-28T03:22:20+00:00",
+      "reason_ru": "Текст указывает Kissimmee, Florida, несмотря на категорию Chicago; сам продавец не гарантирует, что фото показывают данный экземпляр. Не местный кандидат.",
+      "source_data_hash": "494310fa5523c8b457af5ace198467156d6a12c5aac7f25f4d83bd6248257e92"
+    },
+    {
+      "source_url": "https://www.craigslist.org/view/d/chicago-class-motorhome-super-saver/6W1CSp22H1GEZzYzEcjRsW",
+      "source_id": "7999622976",
+      "checked_at": "2026-11-28T03:22:20+00:00",
+      "reason_ru": "Текст указывает Kissimmee, Florida, несмотря на категорию Chicago; сам продавец не гарантирует, что фото показывают данный экземпляр. Не местный кандидат.",
+      "source_data_hash": "a60e743bc61b5ffe48403482a08e8e9ec8944e61dd39b91b3385b1d8bcda75ef"
     }
   ],
   "deduplication": {
     "method": "Public VIN when present, Craigslist post ID, make/model/year, photos and text. Repeated Kenosha Skoolie kept once; Madison Explorer shown once as distant.",
-    "unresolved": [],
+    "unresolved": [
+      "rv-lead-cl-8001246231: multi-city Monaco; same model/mileage/price and dealer contact, physical location unconfirmed; one lead, no Chicago pin."
+    ],
     "reposts": [
       {
         "vehicle_id": "rv-cl-8003442336",
@@ -4452,7 +5602,7 @@
       "id": "rv-lead-300691350",
       "vehicle_id": "rv-autotrader-300691350",
       "url": "https://rvs.autotrader.com/rvs/2002/winnebago/sightseer/300691350",
-      "checked_at": "2026-11-26T03:33:23+00:00",
+      "checked_at": "2026-11-28T03:25:59+00:00",
       "source": "RVs on Autotrader",
       "year": 2002,
       "model": "Winnebago Sightseer",
@@ -4468,7 +5618,7 @@
       "id": "rv-lead-300691349",
       "vehicle_id": "rv-autotrader-300691349",
       "url": "https://rvs.autotrader.com/rvs/1993/winnebago/vectra/300691349",
-      "checked_at": "2026-11-26T03:33:23+00:00",
+      "checked_at": "2026-11-28T03:25:59+00:00",
       "source": "RVs on Autotrader",
       "year": 1993,
       "model": "Winnebago Vectra",
@@ -4479,29 +5629,197 @@
       "location": "Woodstock, IL",
       "map_eligible": false,
       "hold_reason_ru": "Цена и VIN прочитаны в активном объявлении, но его единственное изображение — рекламный баннер дилера, а не фото RV. Предложение сохранено отдельно; на карту с фотографиями не включено."
+    },
+    {
+      "id": "rv-lead-cl-8005818609",
+      "source": "Craigslist",
+      "source_id": "8005818609",
+      "url": "https://www.craigslist.org/view/d/saint-paul-2016-shuttle-bus-conversion/oNAUEycgS1M84M4vEK6FmR",
+      "first_seen": "2026-11-28T03:22:19+00:00",
+      "checked_at": "2026-11-28T03:22:19+00:00",
+      "map_eligible": false,
+      "status": "review_hold",
+      "sale_status": "active",
+      "currency": "USD",
+      "price": null,
+      "price_type": "conflicting_listing_prices",
+      "year": 2016,
+      "model": "Ford E350 shuttle bus conversion",
+      "mileage": {
+        "value": 378000,
+        "unit": "mi"
+      },
+      "location": "Saint Paul, MN",
+      "hold_reason_ru": "В заголовке $4 500, в тексте $45 000. Полная цена не установлена, попадание в бюджет неизвестно. Незавершённая переделка: нет накопительных баков, водонагреватель и часть санузла не установлены. В полях hybrid, в тексте Flex fuel — топливо требует уточнения.",
+      "source_data": {
+        "heading": "2016 Shuttle bus conversion - $4,500",
+        "attributes": "2016\nFord E-350 Econoline\nVIN:\n1FDWE3FL7GDC08700\ncondition:\ngood\ncylinders:\n8 cylinders\ndrive:\nrwd\nfuel:\nhybrid\nodometer:\n378,000\npaint color:\nwhite\nrv type:\nother\ntitle status:\nclean\ntransmission:\nautomatic",
+        "published_metadata": "post id: 8005818609 posted: 2026-11-24 11:27 updated: 2026-11-27 06:56 ♥ best of [ ? ]",
+        "map_attributes": {
+          "data-latitude": "44.973000",
+          "data-longitude": "-93.082700",
+          "data-accuracy": "22"
+        },
+        "observation_method": "public HTTP page, robots allowed"
+      },
+      "source_data_hash": "a47a0fe61ec42560eefb1b5d2168e0c4711b114ee684ea4142e75817fdf19819",
+      "photo_history": [
+        {
+          "path": "assets/rvs/7ee0dd302723cdc7574523d4f418108aa2770e5216c393fd47e22878530c6b58.jpg",
+          "source_url": "https://images.craigslist.org/00z0z_kgquRbH6HT4_0t20CI_600x450.jpg",
+          "listing_url": "https://www.craigslist.org/view/d/saint-paul-2016-shuttle-bus-conversion/oNAUEycgS1M84M4vEK6FmR",
+          "sha256": "7ee0dd302723cdc7574523d4f418108aa2770e5216c393fd47e22878530c6b58",
+          "bytes": 35021,
+          "mime": "image/jpeg",
+          "first_seen": "2026-11-28T03:22:19+00:00",
+          "retrieved_at": "2026-11-28T03:25:59+00:00",
+          "unaltered": true
+        },
+        {
+          "path": "assets/rvs/35b0842079b4c4f13d10d3313a1ea1c4965f125fc51c932825be6bff6edf5579.jpg",
+          "source_url": "https://images.craigslist.org/00j0j_h1ofdsIKTV5_0t20CI_600x450.jpg",
+          "listing_url": "https://www.craigslist.org/view/d/saint-paul-2016-shuttle-bus-conversion/oNAUEycgS1M84M4vEK6FmR",
+          "sha256": "35b0842079b4c4f13d10d3313a1ea1c4965f125fc51c932825be6bff6edf5579",
+          "bytes": 34464,
+          "mime": "image/jpeg",
+          "first_seen": "2026-11-28T03:22:19+00:00",
+          "retrieved_at": "2026-11-28T03:25:59+00:00",
+          "unaltered": true
+        }
+      ],
+      "observations": [
+        {
+          "at": "2026-11-28T03:22:19+00:00",
+          "status": "review_hold",
+          "reason": "В заголовке $4 500, в тексте $45 000. Полная цена не установлена, попадание в бюджет неизвестно. Незавершённая переделка: нет накопительных баков, водонагреватель и часть санузла не установлены. В полях hybrid, в тексте Flex fuel — топливо требует уточнения."
+        }
+      ],
+      "advertised_prices_usd": [
+        4500,
+        45000
+      ],
+      "vin": "1FDWE3FL7GDC08700",
+      "seller_type": "private"
+    },
+    {
+      "id": "rv-lead-cl-8001246231",
+      "source": "Craigslist",
+      "source_id": "8001246231",
+      "url": "https://www.craigslist.org/view/d/chicago-2005-monaco-diplomat-40dst/vUbp6iTQaKzHkJM7QmmRiB",
+      "first_seen": "2026-11-28T03:22:20+00:00",
+      "checked_at": "2026-11-28T03:22:20+00:00",
+      "map_eligible": false,
+      "status": "review_hold",
+      "sale_status": "active",
+      "currency": "USD",
+      "price": 12300,
+      "price_type": "asking_cash_price",
+      "year": 2005,
+      "model": "Monaco Diplomat 40DST",
+      "mileage": {
+        "value": 57800,
+        "unit": "mi"
+      },
+      "location": "Не подтверждено; связанный дилер Nelsonville, OH",
+      "hold_reason_ru": "Местонахождение не подтверждено: одинаковые объявления в Chicago, Newark, California и других городах; та же модель, пробег, цена и контакт на сайте дилера из Nelsonville, Ohio. Не выдан за местный Chicago RV; VIN и фактическое место неизвестны.",
+      "source_data": {
+        "heading": "2005 Monaco Diplomat 40DST – Luxury Diesel Pusher! - $12,300",
+        "attributes": "2005\nMonaco Diplomat 40DST\nfuel:\ndiesel\nodometer:\n57,800\ntransmission:\nautomatic",
+        "published_metadata": "post id: 8001246231 posted: 2026-11-15 17:52 updated: 2026-11-26 18:41 ♥ best of [ ? ]",
+        "map_attributes": {
+          "data-latitude": "41.871300",
+          "data-longitude": "-87.627700",
+          "data-accuracy": "22"
+        },
+        "observation_method": "public HTTP page, robots allowed"
+      },
+      "source_data_hash": "cb1ca5c74bcc6314c82a071eaf9485cabf245246beb23031717621afaeab5cdd",
+      "photo_history": [
+        {
+          "path": "assets/rvs/53e073360983628540d2892f5c24eb9218b48528d738c544b622ae1b7af636b2.jpg",
+          "source_url": "https://images.craigslist.org/01616_jlz4EiP3hVT_0gw08v_600x450.jpg",
+          "listing_url": "https://www.craigslist.org/view/d/chicago-2005-monaco-diplomat-40dst/vUbp6iTQaKzHkJM7QmmRiB",
+          "sha256": "53e073360983628540d2892f5c24eb9218b48528d738c544b622ae1b7af636b2",
+          "bytes": 19453,
+          "mime": "image/jpeg",
+          "first_seen": "2026-11-28T03:22:20+00:00",
+          "retrieved_at": "2026-11-28T03:25:59+00:00",
+          "unaltered": true
+        },
+        {
+          "path": "assets/rvs/63ea38e6247220c399bcf4e4d2c4d287dc62fc9986ca5bbf998632fb13b50119.jpg",
+          "source_url": "https://images.craigslist.org/00S0S_4OHu1llpK1g_09G04Z_600x450.jpg",
+          "listing_url": "https://www.craigslist.org/view/d/chicago-2005-monaco-diplomat-40dst/vUbp6iTQaKzHkJM7QmmRiB",
+          "sha256": "63ea38e6247220c399bcf4e4d2c4d287dc62fc9986ca5bbf998632fb13b50119",
+          "bytes": 19468,
+          "mime": "image/jpeg",
+          "first_seen": "2026-11-28T03:22:20+00:00",
+          "retrieved_at": "2026-11-28T03:25:59+00:00",
+          "unaltered": true
+        }
+      ],
+      "observations": [
+        {
+          "at": "2026-11-28T03:22:20+00:00",
+          "status": "review_hold",
+          "reason": "Местонахождение не подтверждено: одинаковые объявления в Chicago, Newark, California и других городах; та же модель, пробег, цена и контакт на сайте дилера из Nelsonville, Ohio. Не выдан за местный Chicago RV; VIN и фактическое место неизвестны."
+        }
+      ],
+      "secondary_sources": [
+        "https://691autosales.com/inventory/2005-monaco-diplomat/",
+        "https://www.craigslist.org/view/d/newark-2005-monaco-diplomat-40dst/7brZaEoHAFvTUDJYQRY3WK"
+      ],
+      "secondary_source_limit": "Matching model/price/mileage and contact on dealer page; web cache freshness uncertain, no physical-location proof."
     }
   ],
   "last_run": {
-    "date": "2026-11-26",
-    "previous_records": 20,
-    "new_vehicles": 4,
-    "reposted_vehicles": 1,
-    "closed_vehicle_ids": [
-      "rv-cl-7988623641",
-      "rv-cl-7994079612",
-      "rv-cl-8003886861",
-      "rv-cl-7988581980"
+    "date": "2026-11-28",
+    "previous_records": 24,
+    "new_vehicles": 3,
+    "new_vehicle_ids": [
+      "rv-cl-8007173316",
+      "rv-cl-8003405556",
+      "rv-cl-7997998257"
     ],
-    "active_count": 18,
-    "active_local_count": 17,
-    "preserved_original_photos": 36,
-    "source_report": "data/rv-sources-2026-11-26.json",
-    "photo_map_count": 18,
-    "photo_map_local_count": 17,
+    "new_leads": 2,
+    "closed_vehicle_ids": [
+      "rv-cl-7990357434",
+      "rv-cl-7991810379",
+      "rv-cl-7990675557",
+      "rv-cl-7989998031"
+    ],
+    "photo_map_count": 17,
+    "photo_map_local_count": 15,
     "new_mapped_vehicles": 3,
-    "photo_leads": 3,
-    "saved_image_files": 44,
-    "rejected_advertising_images": 2,
-    "active_page_count": 20
-  }
+    "separate_leads": 5,
+    "source_report": "data/rv-sources-2026-11-28.json",
+    "preserved_original_photos": 44,
+    "saved_image_files": 54,
+    "rejected_advertising_images": 2
+  },
+  "run_history": [
+    {
+      "date": "2026-11-26",
+      "previous_records": 20,
+      "new_vehicles": 4,
+      "reposted_vehicles": 1,
+      "closed_vehicle_ids": [
+        "rv-cl-7988623641",
+        "rv-cl-7994079612",
+        "rv-cl-8003886861",
+        "rv-cl-7988581980"
+      ],
+      "active_count": 18,
+      "active_local_count": 17,
+      "preserved_original_photos": 36,
+      "source_report": "data/rv-sources-2026-11-26.json",
+      "photo_map_count": 18,
+      "photo_map_local_count": 17,
+      "new_mapped_vehicles": 3,
+      "photo_leads": 3,
+      "saved_image_files": 44,
+      "rejected_advertising_images": 2,
+      "active_page_count": 20
+    }
+  ]
 }

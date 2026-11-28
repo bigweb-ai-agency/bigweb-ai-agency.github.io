@@ -49,7 +49,7 @@ test('November recheck preserves closed listings and merges the Landau repost wi
  assert.ok(landau.listing_history.some(x=>x.source_id==='8003442336'&&x.status==='removed'));
  const stockLead=data.leads.find(x=>x.id==='rv-lead-cruise-851820');
  assert.equal(stockLead.map_eligible,false);assert.equal(data.listings.some(r=>r.vin===stockLead.vin),false);
- assert.equal(rv.dateLabel(data.updated_at),'26.11.2026');
+ assert.equal(rv.dateLabel('2026-11-26T03:42:01+00:00'),'26.11.2026');
 });
 test('Stable identities, public VIN deduplication and photo provenance/bytes are valid',()=>{
  const ids=new Set(),vins=new Set();
@@ -74,4 +74,15 @@ test('Dealer advertising images cannot masquerade as RV photographs on the map',
   assert.equal(row.photos.length,0);assert.ok(row.photo_history.length);
   assert.ok(data.leads.some(x=>x.vehicle_id===id));
  }
+});
+test('November28 keeps price/location conflicts out and does not turn conversion bases or Bagley into ready local RVs',()=>{
+ const shuttle=data.leads.find(x=>x.id==='rv-lead-cl-8005818609');
+ assert.equal(shuttle.price,null);assert.deepEqual(shuttle.advertised_prices_usd,[4500,45000]);assert.equal(shuttle.map_eligible,false);
+ const monaco=data.leads.find(x=>x.id==='rv-lead-cl-8001246231');
+ assert.equal(monaco.map_eligible,false);assert.ok(monaco.secondary_sources.length);
+ assert.ok(!data.listings.some(r=>r.source_id==='8001246231'));
+ const ford=data.listings.find(r=>r.source_id==='8003405556');assert.equal(ford.class,'conversion');assert.equal(ford.condition,'needs_clarification');
+ const barth=data.listings.find(r=>r.source_id==='7997998257');assert.equal(barth.local,false);assert.ok(barth.distances_km.MSP>300);
+ const roadtrek=data.listings.find(r=>r.source_id==='8007173316');assert.equal(roadtrek.class,'B');assert.equal(roadtrek.price,9800);
+ for(const id of ['rv-cl-7990357434','rv-cl-7991810379','rv-cl-7990675557','rv-cl-7989998031'])assert.equal(rv.current(data.listings.find(r=>r.id===id),now),false);
 });
